@@ -60,7 +60,7 @@ else
            regis.Image.Url = Url.Content("~/Images/Register.png");
            regis.Image.Width = Unit.Pixel(15);
            regis.Image.Height = Unit.Pixel(15);
-           settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+           //settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
            var p_help = settings.Items.Add("Bantuan");
            // p_help.Items.Add("Reset Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "ResetPassword" });
            p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
@@ -248,7 +248,7 @@ else
                    item.Items.Add("Mutasi Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "MutasiStaff" });
                    item.Items.Add("Mutasi Atasan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "MutasiManajer" });
                }); */
-               p_admin.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               // p_admin.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
                p_admin.Items.Add(item =>
                {
                    item.Text = "Resign";
@@ -338,7 +338,7 @@ else
                var p_user = settings.Items.Add("Manajemen User");
                p_user.Items.Add("Profil Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Profil" });
                p_user.Items.Add("Ubah Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "UbahPassword" });
-               p_user.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               // p_user.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
                p_user.Items.Add(item =>
                {
                    item.Text = "Resign";
@@ -412,7 +412,7 @@ else
                p_master.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "SisaTahunan" });
                p_master.Items.Add("Daftar Cuti Massal").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "CutiMassal" });
                p_master.Items.Add("Data Riwayat Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "RiwayatUser" });
-               settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               //settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
                var p_help = settings.Items.Add("Bantuan");
                p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
                p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
