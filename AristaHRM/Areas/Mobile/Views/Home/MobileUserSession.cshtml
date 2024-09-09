@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Pemberitahuan";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "Dashboard", "Home", new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">Pemberitahuan</li>
+
+        <li data-role="fieldcontain">
+            <h2>Anda mencoba masuk ke halaman dengan akses user terdaftar atau sesi anda sudah berakhir.</h2>
+            <h2>Tap tombol "Login" untuk login, atau "Register" untuk registrasi karyawan baru.</h2>
+        </li>
+
+        <li>@Html.ActionLink("Login", "Login", "Home", mobilearea)</li>
+        <li>@Html.ActionLink("Register", "Register", "Home", mobilearea)</li>
+    </ul>
+}
+
+

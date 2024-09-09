@@ -1,0 +1,437 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_MetropolisBlue
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_MetropolisBlue
+{
+	border: 1px solid #C3C3C3;
+	background-color: white;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #333333;
+}
+.dxheLoadingPanel_MetropolisBlue td.dx
+{
+	font-size: 1.17em;
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxheLoadingPanel_MetropolisBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+
+.dxheControl_MetropolisBlue
+{
+    font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheErrorFrame_MetropolisBlue
+{
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #D00707;
+	background-color: #FBC7C7;
+	margin-bottom: 6px;
+}
+.dxheControl_MetropolisBlue .dxeMemo_MetropolisBlue .dxheErrorFrame_MetropolisBlue .dxhe,
+.dxheControl_MetropolisBlue.dxhe-rtl .dxeMemo_MetropolisBlue .dxheErrorFrame_MetropolisBlue .dxhe,
+.dxheErrorFrame_MetropolisBlue .dxhe 
+{
+    padding: 5px;
+}
+.dxheControl_MetropolisBlue .dxeMemo_MetropolisBlue .dxheErrorFrame_MetropolisBlue .dxhe td,
+.dxheControl_MetropolisBlue.dxhe-rtl .dxeMemo_MetropolisBlue .dxheErrorFrame_MetropolisBlue .dxhe td,
+.dxheErrorFrame_MetropolisBlue .dxhe td 
+{
+    padding: 0;
+}
+.dxheErrorFrame_MetropolisBlue .dxheErrorFrameCloseButton_MetropolisBlue 
+{
+    cursor: pointer;
+}
+.dxheContentArea_MetropolisBlue td.dxheViewArea_MetropolisBlue /*B209529*/
+{
+    line-height: 0;
+}
+.dxheContentArea_MetropolisBlue td.dxheViewArea_MetropolisBlue.dxheHtmlViewArea_MetropolisBlue
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_MetropolisBlue,
+.dxhePreviewArea_MetropolisBlue
+{
+    background: none #FFFFFF;
+}
+.dxheControl_MetropolisBlue .dxheHtmlViewArea_MetropolisBlue,
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror,
+body.dxheDesignViewArea_MetropolisBlue,
+body.dxhePreviewArea_MetropolisBlue 
+{
+    margin: 0px;
+    background: none #FFFFFF;
+    border: 0;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.dxheControl_MetropolisBlue .dxeMemo_MetropolisBlue.dxheHtmlViewArea_MetropolisBlue .dxeMemoEditArea_MetropolisBlue,
+body.dxheDesignViewArea_MetropolisBlue,
+body.dxhePreviewArea_MetropolisBlue
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_MetropolisBlue .dxeMemo_MetropolisBlue.dxheHtmlViewArea_MetropolisBlue td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_MetropolisBlue.dxhe-rtl .dxheContentArea_MetropolisBlue .dxeMemo_MetropolisBlue.dxheHtmlViewArea_MetropolisBlue td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_MetropolisBlue .dxeMemo_MetropolisBlue textarea 
+{
+	resize: none;
+}
+.dxheControl_MetropolisBlue td.dxheDesignViewArea_MetropolisBlue .dxm-main.dxmtb 
+{
+	border: 1px solid #C3C3C3;
+	background-color: white;
+}
+.dxheControl_MetropolisBlue td.dxheDesignViewArea_MetropolisBlue
+{
+    position: relative;
+}
+td.dxheDesignViewArea_MetropolisBlue .dxmLite_MetropolisBlue {
+    position: absolute;
+    right: 0;
+    padding-right: 24px;
+}
+td.dxheDesignViewArea_MetropolisBlue .dxmLite_MetropolisBlue.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_MetropolisBlue .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_MetropolisBlue .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_MetropolisBlue .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_MetropolisBlue .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_MetropolisBlue img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_MetropolisBlue img.dxheAudio,
+.dxheViewArea_MetropolisBlue img.dxheFlash,
+.dxheViewArea_MetropolisBlue img.dxheVideo,
+.dxheViewArea_MetropolisBlue img.dxheYoutube,
+.dxheViewArea_MetropolisBlue img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_MetropolisBlue .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_MetropolisBlue.dxheDesignViewArea_MetropolisBlue .dxheSelected
+{
+    background-color: #E0E0E0;
+}
+.dxhe-insertPlaceholder .dxeListBox_MetropolisBlue.dxeFocused_MetropolisBlue
+{
+    border: 1px solid #C0C0C0;
+}
+.dxpc-contentWrapper .dxflFormLayout_MetropolisBlue.dxhe-insertPlaceholder .dxflGroup_MetropolisBlue .dxflGroupBox_MetropolisBlue
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_MetropolisBlue,
+.dxpc-contentWrapper .dxflFormLayout_MetropolisBlue.dxhe-insertPlaceholder .dxflGroup_MetropolisBlue .dxflGroupBox_MetropolisBlue .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_MetropolisBlue .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxflGroup_MetropolisBlue .dxflGroupBox_MetropolisBlue .dxflGroup_MetropolisBlue
+{
+    padding-top: 4px;
+}
+.dxhe-insertPlaceholder .dxeListBox_MetropolisBlue,
+.dxhe-insertPlaceholder .dxeListBox_MetropolisBlue .dxlbd
+{
+    width: 220px;
+    height: 215px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror-activeline-background 
+{
+    background: #e0e0e0;
+    opacity: 0.7;
+}
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+.dxheSourceEditorSys.dxheHtmlViewArea_MetropolisBlue .CodeMirror-gutter.CodeMirror-linenumbers,
+.dxheHtmlViewArea_MetropolisBlue .CodeMirror-gutter.CodeMirror-linenumbers 
+{
+    border-left: 0;
+    border-right: 0;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_MetropolisBlue table.dxEmptyBorderTable,
+body.dxheDesignViewArea_MetropolisBlue table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_MetropolisBlue table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_MetropolisBlue table.dxEmptyBorderTable td  
+	{
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_MetropolisBlue
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_MetropolisBlue pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_MetropolisBlue 
+{
+}
+.dxheControl_MetropolisBlue .dxheStatusBar_MetropolisBlue .dxheStatusBarTab_MetropolisBlue .dxtc-link 
+{
+    padding: 4px 12px 5px 11px;
+}
+.dxheStatusBarActiveTab_MetropolisBlue 
+{
+}
+.dxHtmlEditor_heSizeGrip_MetropolisBlue
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_MetropolisBlue
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_MetropolisBlue
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -16px;
+}
+.dxheControl_MetropolisBlue.dxhe-rtl .dxheSizeGripContainer_MetropolisBlue 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_MetropolisBlue .dxheDlgFooter,
+.dxpcLite_MetropolisBlue .dxheCustomDialog_MetropolisBlue .dxhecd-Buttons
+{
+    background-color: white;
+    border-top: Solid 1px #E0E0E0;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_MetropolisBlue.dxRtl .dxheDlgFooter,
+.dxpcLite_MetropolisBlue.dxRtl .dxheCustomDialog_MetropolisBlue .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_MetropolisBlue .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_MetropolisBlue.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+/* Insert Image Form */
+.dxpcLite_MetropolisBlue .dxheDlgInsertImageForm .dxheDlgImagePreviewCell,
+.dxpcLite_MetropolisBlue .dxheDlgSelectImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_MetropolisBlue .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #9F9F9F;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_MetropolisBlue
+{
+	height: 1px;
+}
+.dxtbControl_MetropolisBlue 
+{
+    color: #333333;
+    width: 100%;
+    border-bottom: Solid 1px #c0c0c0;
+}
+.dxtbControl_MetropolisBlue td.dxmMenu_MetropolisBlue
+{
+	border-width: 0px;
+}
+.dxtbControl_MetropolisBlue .dxmLite_MetropolisBlue .dxm-main 
+{
+	background-color: #FFFFFF;
+}
+.dxtbControl_MetropolisBlue .dxmLite_MetropolisBlue .dxmtb.dxm-horizontal .dxm-separator b
+{
+	background-color: #c0c0c0;
+}
+.dxtbComboBoxMenuItem_MetropolisBlue
+{
+    padding-top: 2px;
+}
+.dxheControl_MetropolisBlue .dxrControl_MetropolisBlue .dxr-minBtn
+{
+    padding-right: 8px;
+}
+.dxheControl_MetropolisBlue .dxtbControl_MetropolisBlue.dxtbr_MetropolisBlue,
+.dxheControl_MetropolisBlue .dxrControl_MetropolisBlue .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_MetropolisBlue .dxmLite_MetropolisBlue .dxm-main 
+{
+    border-width: 0px;
+}
+.dxmLite_MetropolisBlue .dxhetipControl_MetropolisBlue img
+{
+	vertical-align: top;
+}
+.dxtbControl_MetropolisBlue .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_MetropolisBlue
+{
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_MetropolisBlue { }
+.dxtcbColorDiv_MetropolisBlue
+{
+	width: 16px;
+	height: 3px;
+	font-size: 0;
+	background-color: Transparent;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_MetropolisBlue .dxrpcontent_MetropolisBlue
+{
+    padding: 9px 10px 10px 10px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_MetropolisBlue .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_MetropolisBlue.dxhe-mediaDialog 
+{
+    width: 700px;
+}
+.dxflFormLayout_MetropolisBlue.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_MetropolisBlue.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_MetropolisBlue.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_MetropolisBlue.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_MetropolisBlue.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+.dxflFormLayout_MetropolisBlue.dxhe-dialog a.dxtc-link 
+{
+    padding: 4px 10px;
+}
+div.dxflFormLayout_MetropolisBlue.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_MetropolisBlue.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_MetropolisBlue .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+.dxheDesignViewArea_MetropolisBlue .dxhe-tiWrapper
+{
+    border-bottom: 1px solid #c0c0c0;
+}
+.dxheDesignViewArea_MetropolisBlue .dxhe-tiSeparator,
+.dxheDesignViewArea_MetropolisBlue .dxhe-tiTagName 
+{
+    color: #333333;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_MetropolisBlue.dxeFocused_MetropolisBlue
+{
+    border-color: #c0c0c0;
+}
+
+div.dxhe-searchQuick div.dxbButton_MetropolisBlue,
+div.dxhe-searchQuick div.dxbButton_MetropolisBlue .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_MetropolisBlue.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}

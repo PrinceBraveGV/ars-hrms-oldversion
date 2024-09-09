@@ -1,0 +1,5057 @@
+/* -- CheckBox -- */
+.dxICBFocused_MarineBlue
+{
+    outline: 1px dotted #f5b666;
+}
+.dxICheckBox_MarineBlue 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: #3F7ABE;
+	background-color: #FFFFFF;
+}
+.dxccControl_MarineBlue a
+{
+	text-decoration: none;
+	color: #3F7ABE;
+}
+.dxccControl_MarineBlue a:hover
+{
+	color: #2C4D79!important;
+	background-color: #FFFFFF;
+}
+.dxccControl_MarineBlue .dxccValue
+{
+    color: #BEDAFF;
+}
+.dxccControl_MarineBlue .dxccBEText
+{
+    color: #3F7ABE;
+}
+/* Disabled */
+.dxccDisabled_MarineBlue,
+.dxccDisabled_MarineBlue span.dxccValue,
+.dxccDisabled_MarineBlue span.dxccBEText
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+	border: 1px Solid #AECAF0;
+}
+.dxdvControl_MarineBlue td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_MarineBlue
+{
+	padding: 20px;
+	border-bottom: 1px Solid #A3C0E8;
+	border-top: 1px Solid #A3C0E8;
+}
+.dxdvItem_MarineBlue,
+.dxdvFlowItem_MarineBlue
+{
+	background-color: #FFFFFF;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_MarineBlue
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_MarineBlue
+{
+}
+.dxdvEmptyItem_MarineBlue
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_MarineBlue
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #C7DFFF;
+}
+.dxdvEmptyData_MarineBlue
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_MarineBlue
+{
+    height: 58px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_MarineBlue a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3F66A0;
+}
+.dxdvPagerShowMoreItemsContainer_MarineBlue a:hover
+{
+	color: #F39128;
+}
+/* Disabled */
+.dxdvDisabled_MarineBlue
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+}
+.dxhlControl_MarineBlue a
+{
+	color: #3F7ABE;
+}
+.dxhlControl_MarineBlue a:hover
+{
+	color: #2C4D79;
+}
+.dxhlContent_MarineBlue
+{
+	line-height: 120%!important;
+} 
+.dxhlDate_MarineBlue
+{
+	color: #AECAF0;
+	white-space: nowrap;
+	font-size: 0.75em;
+}
+.dxhlHeader_MarineBlue
+{
+	color: #5689C5;
+	font-weight: normal;
+	line-height: 121%;
+	font-size: 1.33em;
+}
+.dxhlDateHeader_MarineBlue
+{
+	font-size: 0.69em;
+	line-height: 121%!important;
+	color: #283B56;
+	white-space: nowrap;
+	background-color: #AECAF0;
+	font-weight: normal;
+	padding: 3px 5px;
+
+    margin: 2px 5px 2px 0;
+    float: left;
+}
+.dxhlControl_MarineBlue[dir='rtl'] .dxhlDateHeader_MarineBlue
+{
+    margin: 2px 0 2px 5px;
+    float: right;
+}
+.dxhlLeftPanel_MarineBlue
+{
+	line-height: 121%;
+	text-align: right;
+}
+.dxhlRightPanel_MarineBlue
+{
+	line-height: 121%;
+}
+.dxhlLeftPanel_MarineBlue img,
+.dxhlRightPanel_MarineBlue img 
+{
+	margin-top: 5px;
+	border: 1px Solid #AECAF0!important;
+}
+
+.dxhlDateLeftPanel_MarineBlue,
+.dxhlDateRightPanel_MarineBlue
+{
+	color: #AECAF0;
+    padding: 4px 0 0;
+	white-space: nowrap;
+}
+.dxhlTailDiv_MarineBlue
+{
+	color: #AECAF0;
+}
+/* Disabled */
+.dxhlDisabled_MarineBlue
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_MarineBlue,
+.dxlpLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxlpLoadingPanel_MarineBlue  td.dx,
+.dxlpLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxlpControl_MarineBlue.dxlpLoadingDiv_MarineBlue
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxlpLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('Loading.gif');
+	height:18px;
+	width:18px;
+}
+/* -- ASPxMenu Lite -- */
+.dxmLite_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #283B56;
+}
+.dxmLite_MarineBlue .dxm-main
+{
+	border: 1px solid #AECAF0;
+	background-color: #E2F0FF;
+	color: #283B56;
+}
+
+.dxmLite_MarineBlue .dxm-horizontal
+{
+	background: #E2F0FF url('mItemBack.gif') repeat-x top;
+	padding: 0px;
+}
+.dxmLite_MarineBlue .dxm-vertical
+{
+	width: 150px;
+	padding: 1px;
+}
+
+.dxmLite_MarineBlue .dxm-popup
+{
+	border: 1px solid #A3C0E8;
+	background-color: #F9F9F9;
+	padding: 2px;
+}
+
+.dxmBrdCor_MarineBlue
+{
+	background-color: #F9F9F9;
+}
+
+.dxmLite_MarineBlue .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_MarineBlue .dxm-image-t .dxm-item,
+.dxmLite_MarineBlue .dxm-image-b .dxm-item
+{
+	text-align: center;
+	white-space: nowrap;
+}
+
+.dxmLite_MarineBlue .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_MarineBlue,
+.dxmLite_MarineBlue .dxm-item a.dx
+{
+	color: #283B56;
+}
+.dxmLite_MarineBlue .dxm-selected,
+.dxmLite_MarineBlue .dxm-checked,
+.dxmLite_MarineBlue .dxm-hovered,
+.dxmLite_MarineBlue .dxm-selected a.dx,
+.dxmLite_MarineBlue .dxm-checked a.dx,
+.dxmLite_MarineBlue .dxm-hovered a.dx,
+.dxmLite_MarineBlue .dxm-popup,
+.dxmLite_MarineBlue .dxm-popup .dxm-item a.dx
+{
+	color: #283B56;
+}
+.dxmLite_MarineBlue .dxm-disabled,
+.dxmLite_MarineBlue .dxm-disabled a.dx,
+.dxmLite_MarineBlue .dxm-popup .dxm-disabled a.dx
+{
+	color: #A6A6A6;
+}
+.dxmLite_MarineBlue .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_MarineBlue .dxm-vertical .dxm-item
+{
+	background: url('mVertBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue.dxm-rtl .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue.dxm-ltr .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-item,
+.dxmLite_MarineBlue .dxm-dropDownMode .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_MarineBlue .dxm-dropDownMode.dxm-hovered .dxm-popOut
+
+{
+	border-color: #E5B77A;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-checked,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-selected
+{
+	background: #FEE385 url('mItemSBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-hovered
+{
+	background: #FEE899 url('mItemHBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-checked,
+.dxmLite_MarineBlue .dxm-vertical .dxm-selected
+{
+	background: #FEE17B url('mVertSBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-hovered
+{
+	background: #FEE899 url('mItemHBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-selected
+{
+	background-color: #FFBD69;
+	border-color: #FFAB3F;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-hovered
+{
+	background-color: #FFE7A2;
+	border-color: #FFBD69;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #ffc675;
+    outline: 1px solid #ffbd69;
+    background-color: #ffc675;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_MarineBlue
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 13px 5px 9px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 9px 5px 13px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 5px 12px 4px 11px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 5px 11px 4px 12px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 6px 12px 5px 11px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 6px 11px 5px 12px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 18px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 18px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 12px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 12px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 18px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-right: 18px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 12px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 12px;
+}
+
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 19px 6px 8px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 8px 6px 19px;
+}
+
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 18px;
+	padding-right: 5px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 18px;
+	padding-left: 5px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 12px 6px 11px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 11px 6px 12px;
+}
+
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 9px 3px 5px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 5px 3px 9px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 17px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 17px;
+}
+
+/* Image */
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 5px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 5px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 5px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 5px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 12px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 12px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 16px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 16px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 15px -1px -1px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+	margin: -1px -1px -1px 15px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_MarineBlue
+{
+    margin: 0px 17px 0px 1px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_MarineBlue
+{
+	margin: 0px 1px 0px 17px;
+}
+
+/* Image replacement */
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-noImage,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage
+{
+	padding-left: 4px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-noImage,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-noImage
+{
+	padding-right: 4px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage.dxm-dropDownMode
+{
+	padding-left: 0;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-noImage.dxm-dropDownMode
+{
+	padding-right: 0;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 28px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 28px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 32px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 32px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-noImages .dxm-item
+{
+	padding-left: 6px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-noImages .dxm-item
+{
+	padding-right: 6px;
+}
+
+/* PopOut */
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 26px;
+	padding-bottom: 27px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 13px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 13px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 6px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MarineBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 6px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 12px;
+	padding-right: 13px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 13px;
+	padding-right: 12px;
+}
+
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_MarineBlue .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-popOut
+{
+	padding-right: 6px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-popOut
+{
+	padding-left: 6px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 8px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 8px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-left: 8px;
+	padding-right: 4px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-popOut
+{
+	padding-right: 8px;
+	padding-left: 4px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 1px;
+	padding-right: 10px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 10px;
+	padding-right: 1px;
+}
+
+.dxmLite_MarineBlue .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 1px;
+	padding-right: 7px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 1px;
+}
+
+/* PopOut replacement */
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+
+/* Spacings, Separator */
+.dxmLite_MarineBlue .dxm-horizontal .dxm-spacing
+{
+	width: 0px;
+	height: 1px;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-spacing,
+.dxmLite_MarineBlue .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_MarineBlue .dxm-horizontal .dxm-separator b
+{
+	width: 1px;
+    height: 100%;
+}
+.dxmLite_MarineBlue .dxm-vertical .dxm-separator b,
+.dxmLite_MarineBlue .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_MarineBlue .dxm-main .dxm-separator b
+{
+	background-color: #AECAF0;
+}
+.dxmLite_MarineBlue .dxm-popup .dxm-separator b
+{
+	background-color: #A3C0E8;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-separator,
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-separator
+{
+	padding-left: 36px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-right: 36px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-left: 0;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-right: 0;
+}
+/* Scroll elements */
+.dxmLite_MarineBlue .dxm-scrollUpBtn, 
+.dxmLite_MarineBlue .dxm-scrollDownBtn
+{
+	border: 1px Solid #AECAF0;
+	background: #C2DCFB url('mScrollBack.gif') repeat-x top;
+	padding: 1px;
+	text-align: center;
+}
+.dxmLite_MarineBlue .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+	padding-bottom: 2px;
+}
+.dxmLite_MarineBlue .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+	padding-top: 2px;
+}
+.dxmLite_MarineBlue .dxm-scrollBtnHovered
+{
+	background: #FFE7A2 none;
+	border: 1px solid #FFBD69;
+}
+.dxmLite_MarineBlue .dxm-scrollBtnPressed
+{
+	border: 1px solid #CB9280;
+	background: #FFAE61 url('mScrollSBack.gif') repeat-x top;
+}
+.dxmLite_MarineBlue .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_MarineBlue .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_MarineBlue .dxm-main.dxmtb
+{
+	padding: 0;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-noImage, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage,
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item, 
+.dxmLite_MarineBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage
+{
+	padding-left: 0px;
+}
+/* has image */
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 6px 7px;
+}
+/* no image */
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 6px 7px;
+}
+/* dd has image */
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding: 6px 7px;
+}
+/* dd no image */
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content
+{
+	padding: 6px 7px;
+}
+
+.dxmLite_MarineBlue.dxm-ltr .dxmtb.dxm-popup .dxm-image
+{
+	margin-right: 10px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxmtb.dxm-popup .dxm-image
+{
+	margin-left: 10px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 26px;
+}
+.dxmLite_MarineBlue.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 26px;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage,
+.dxmLite_MarineBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage
+{
+	padding-left: 0;
+}
+.dxmLite_MarineBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage
+.dxmLite_MarineBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage
+{
+	padding-right: 0;
+}
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding: 9px 4px 11px;
+}
+
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-spacing
+{
+	width: 0px;
+}
+.dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-separator
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dxmLite_MarineBlue .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+    padding: 3px 2px;
+}
+.dxmLite_MarineBlue .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 8px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_MarineBlue,
+.menuLinks_MarineBlue .dxm-item,
+.menuLinks_MarineBlue .dxm-hovered,
+.menuLinks_MarineBlue .dxm-disabled
+{
+	background: none!important;
+    border-style: none !important;
+}
+.menuLinks_MarineBlue .dxm-popOut
+{
+	border-style: none!important;
+}
+
+.menuLinks_MarineBlue .dxm-item a.dx > span
+{
+    color: #283B56;
+    text-decoration: underline;
+}
+
+.menuLinks_MarineBlue .dxm-hovered a.dx > span
+{
+    color: #2C4D79 !important;
+	text-decoration: underline!important;
+}
+
+.menuButtons_MarineBlue,
+.menuButtons_MarineBlue .dxm-tmpl
+{
+	color: #2C4D79;
+	background: none!important;
+}
+
+.menuButtons_MarineBlue .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+.menuButtons_MarineBlue .dxm-content
+{
+    padding: 2px 4px 1px !important;
+}
+
+.menuButtons_MarineBlue .dxm-item
+{
+	background: #E2F0FF url('edtButtonBack.gif') repeat-x top;
+    border: solid 1px #A3C0E8;
+}
+
+.menuButtons_MarineBlue .dxm-item.dxm-hovered
+{
+    background: #FEDC75 url('edtButtonHoverBack.gif') repeat-x top;
+}
+
+.menuButtons_MarineBlue .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_MarineBlue .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_MarineBlue 
+{
+	color: #283B56;
+	background-color: #F2F8FF;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_MarineBlue a
+{
+	color: #283B56;
+	text-decoration: none!important;
+}
+.dxnbLite_MarineBlue .dxnb-gr 
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_MarineBlue .dxnb-header,
+.dxnbLite_MarineBlue .dxnb-headerCollapsed 
+{
+	border: 1px solid #AECAF0;
+	padding: 4px 4px 4px 8px;
+	background: #e2f0ff url('nbGroupHeaderBack.gif') repeat-x top;
+    white-space: nowrap;
+}
+.dxnbLite_MarineBlue .dxnb-header a,
+.dxnbLite_MarineBlue .dxnb-headerCollapsed a 
+{
+	text-decoration: underline!important;
+}
+.dxnbLite_MarineBlue .dxnb-header a:hover,
+.dxnbLite_MarineBlue .dxnb-headerCollapsed a:hover 
+{
+	color: #2C4D79;
+}
+.dxnbLite_MarineBlue .dxnb-content 
+{
+	list-style: none none outside;
+	margin: 0;
+	padding: 1px;
+	overflow: hidden;
+	border-top: 0 solid #AECAF0;
+	border-right: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-left: 1px solid #AECAF0;
+}
+.dxnbLite_MarineBlue.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_MarineBlue .dxnb-item,
+.dxnbLite_MarineBlue .dxnb-large,
+.dxnbLite_MarineBlue .dxnb-bullet 
+{
+	border: 1px Solid #F2F8FF;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_MarineBlue .dxnb-item,
+.dxnbLite_MarineBlue .dxnb-large,
+.dxnbLite_MarineBlue .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_MarineBlue .dxnb-item.dxnb-link,
+.dxnbLite_MarineBlue .dxnb-item .dxnb-link,
+.dxnbLite_MarineBlue .dxnb-large.dxnb-link,
+.dxnbLite_MarineBlue .dxnb-large .dxnb-link
+{
+	padding: 5px 14px 6px;
+    white-space: nowrap;
+}
+.dxnbLite_MarineBlue .dxnb-bullet,
+.dxnbLite_MarineBlue .dxnb-bulletHover,
+.dxnbLite_MarineBlue .dxnb-bulletSelected 
+{
+	padding: 2px 5px;
+	overflow: visible;
+	margin-bottom: 2px;
+}
+.dxnbLite_MarineBlue .dxnb-itemSelected,
+.dxnbLite_MarineBlue .dxnb-largeSelected
+{
+	background-color: #FFBD69;
+	border: 1px Solid #FFAB3F;
+}
+.dxnbLite_MarineBlue .dxnb-itemHover,
+.dxnbLite_MarineBlue .dxnb-largeHover
+{
+	background-color: #FFE7A2;
+	border: 1px Solid #FFBD69;
+}
+.dxnbLite_MarineBlue .dxnb-header,
+.dxnbLite_MarineBlue .dxnb-headerCollapsed, 
+.dxnbLite_MarineBlue .dxnb-item,
+.dxnbLite_MarineBlue .dxnb-itemHover,
+.dxnbLite_MarineBlue .dxnb-itemSelected,
+.dxnbLite_MarineBlue .dxnb-bullet,
+.dxnbLite_MarineBlue .dxnb-bulletHover,
+.dxnbLite_MarineBlue .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_MarineBlue .dxnb-large,
+.dxnbLite_MarineBlue .dxnb-largeHover,
+.dxnbLite_MarineBlue .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_MarineBlue .dxnb-headerHover
+{
+}
+.dxnbLite_MarineBlue .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_MarineBlue .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_MarineBlue .dxnb-btn,
+.dxnbLite_MarineBlue .dxnb-btnLeft,
+.dxnbLite_MarineBlue .dxnb-img
+{
+	border-width: 0;
+}
+.dxnbLite_MarineBlue .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 10px;
+}
+.dxnbLite_MarineBlue .dxnb-btnLeft,
+.dxnbLite_MarineBlue .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 10px 0 0;
+}
+.dxnbLite_MarineBlue .dxnb-img
+{
+	margin: 0 10px 0 0;
+}
+.dxnbLite_MarineBlue .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_MarineBlue .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 10px;
+}
+.dxnbLite_MarineBlue .dxnb-header.dxnb-header-left,
+.dxnbLite_MarineBlue .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_MarineBlue .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_MarineBlue .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 10px;
+}
+.dxnbLite_MarineBlue .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 10px;
+}
+.dxnbLite_MarineBlue .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_MarineBlue,
+.dxnbLite_MarineBlue .dxnbLiteDisabled_MarineBlue,
+.dxnbLiteDisabled_MarineBlue a,
+.dxnbLiteDisabled_MarineBlue .dxnb-item,
+.dxnbLiteDisabled_MarineBlue .dxnb-large,
+.dxnbLiteDisabled_MarineBlue .dxnb-bullet,
+.dxnbLiteDisabled_MarineBlue .dxnb-header,
+.dxnbLiteDisabled_MarineBlue .dxnb-headerCollapsed 
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	background-color: White;
+}
+.dxncControl_MarineBlue td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncControl_MarineBlue a
+{
+	color: #3F7ABE;
+}
+.dxncControl_MarineBlue a:hover
+{
+	color: #2C4D79;
+}
+.dxncContent_MarineBlue
+{
+	padding: 20px;
+}
+.dxncPagerPanel_MarineBlue
+{
+	padding: 9px 10px 7px;
+}
+.dxncItem_MarineBlue
+{
+	padding: 12px 8px;
+}
+.dxncEmptyItem_MarineBlue
+{
+	padding: 12px 12px 12px 14px;
+}
+.dxncPagerShowMoreItemsContainer_MarineBlue
+{
+    height: 58px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_MarineBlue a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3F66A0;
+}
+.dxncPagerShowMoreItemsContainer_MarineBlue  a:hover
+{
+	color: #F39128;
+}
+.dxncEmptyData_MarineBlue
+{
+	color: #4F4F4F;
+}
+/* Disabled */
+.dxncDisabled_MarineBlue,
+.dxncDisabled_MarineBlue span.dxhl,
+.dxncDisabled_MarineBlue a,
+.dxncDisabled_MarineBlue a:hover
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #C7DFFF;
+	padding: 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_MarineBlue .dxp-summary,
+.dxpLite_MarineBlue .dxp-sep,
+.dxpLite_MarineBlue .dxp-button,
+.dxpLite_MarineBlue .dxp-pageSizeItem,
+.dxpLite_MarineBlue .dxp-num,
+.dxpLite_MarineBlue .dxp-current,
+.dxpLite_MarineBlue .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_MarineBlue .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_MarineBlue a
+{
+	color: #3F66A0;
+}
+.dxpLite_MarineBlue a:hover
+{
+	color: #2C4D79;
+}
+
+.dxpLite_MarineBlue .dxp-button
+{
+	color: #3F66A0;
+	white-space: nowrap;
+	text-align: center;
+    padding: 3px 5px 2px;
+	text-decoration: underline;
+}
+.dxpLite_MarineBlue .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_MarineBlue .dxp-button span
+{
+	text-decoration: underline;
+    margin-top: -1px;
+}
+.dxpLite_MarineBlue .dxp-button.dxp-bi 
+{
+    padding: 0;
+}
+.dxpLite_MarineBlue .dxp-button.dxp-bti 
+{
+    padding: 0 5px;
+}
+.dxpLite_MarineBlue .dxp-disabledButton,
+.dxpLite_MarineBlue .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #acacac;
+}
+
+.dxpLite_MarineBlue .dxp-pageSizeItem
+{
+    padding: 0px 4px;
+    white-space: nowrap;
+    color: #749bca;
+}
+.dxpLite_MarineBlue .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_MarineBlue .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_MarineBlue .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #AECAF0;
+    margin: -1px 0px -2px;
+    padding: 1px;
+}
+.dxpLite_MarineBlue .dxp-comboBox input
+{
+    margin: 1px 2px 0px;
+}
+*[dir="rtl"].dxpLite_MarineBlue .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_MarineBlue .dxp-hoverComboBox
+{
+}
+.dxpLite_MarineBlue .dxp-pressedComboBox
+{
+}
+.dxpLite_MarineBlue .dxp-dropDownButton
+{
+    padding: 4px 3px;
+    border: 1px solid #A3C0E8;
+    background: #DBEBFF url('pDropDownButtonBack.gif') repeat-x top;
+}
+.dxpLite_MarineBlue .dxp-hoverDropDownButton
+{
+    border: 1px solid #D6A886;
+    background: #FEDC75 url('pDropDownButtonHoverBack.gif') repeat-x top;
+}
+.dxpLite_MarineBlue .dxp-pressedDropDownButton
+{
+    border: 1px solid #CB9280;
+    background: #FFB46D url('pDropDownButtonPressedBack.gif') repeat-x top;
+}
+
+.dxpLite_MarineBlue .dxp-num
+{
+	color: #3F66A0;
+	text-decoration: underline;
+	padding: 3px 5px 2px;
+}
+
+.dxpLite_MarineBlue .dxp-current
+{
+	color: Black;
+	background-color: #FFE7A2;
+	border: 1px solid #FFBD69;
+	text-decoration: none;
+	padding: 2px 3px 3px;
+}
+
+.dxpLite_MarineBlue .dxp-summary,
+.dxpLite_MarineBlue .dxp-ellip
+{
+	color: #749BCA;
+	white-space: nowrap;
+	padding: 3px 4px 2px;
+}
+
+.dxpLite_MarineBlue .dxp-sep
+{
+	background-color: #A3C0E8;
+	width: 1px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.dxpLiteDisabled_MarineBlue,
+.dxpLiteDisabled_MarineBlue a,
+.dxpLiteDisabled_MarineBlue .dxp-summary,
+.dxpLiteDisabled_MarineBlue .dxp-sep,
+.dxpLiteDisabled_MarineBlue .dxp-button,
+.dxpLiteDisabled_MarineBlue .dxp-num,
+.dxpLiteDisabled_MarineBlue .dxp-current,
+.dxpLiteDisabled_MarineBlue .dxp-ellip
+{
+	color: #A6A6A6;
+	border-color: #A6A6A6;
+	cursor: default;
+}
+.dxpLite_MarineBlue .dxp-disabledComboBox
+{
+    border: 1px solid #A3C0E8;
+}
+.dxpLite_MarineBlue .dxp-disabledComboBox input
+{
+    color: #acacac;
+}
+.dxpLite_MarineBlue .dxp-disabledDropDownButton
+{
+    cursor: default;
+    border: 1px solid #CFCFCF;
+    background: #F5F5F5 url('pDropDownButtonDisabledBack.gif') repeat-x top;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_MarineBlue,
+.dxdpLite_MarineBlue 
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxdpLite_MarineBlue {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_MarineBlue .dxpc-mainDiv,
+.dxpcLite_MarineBlue.dxpc-mainDiv,
+.dxdpLite_MarineBlue .dxpc-mainDiv,
+.dxdpLite_MarineBlue.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	border: 1px solid #8BB6EF;
+}
+
+.dxpcLite_MarineBlue a.dxpc-link,
+.dxdpLite_MarineBlue a.dxpc-link 
+{
+	color: #3F7ABE;
+}
+.dxpcLite_MarineBlue a.dxpc-link:hover,
+.dxdpLite_MarineBlue a.dxpc-link:hover 
+{
+	color: #2C4D79;
+}
+.dxpcLite_MarineBlue a.dxpc-link *,
+.dxdpLite_MarineBlue a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_MarineBlue .dxpc-closeBtn,
+.dxdpLite_MarineBlue .dxpc-closeBtn,
+.dxpcLite_MarineBlue .dxpc-pinBtn,
+.dxdpLite_MarineBlue .dxpc-pinBtn,
+.dxpcLite_MarineBlue .dxpc-refreshBtn,
+.dxdpLite_MarineBlue .dxpc-refreshBtn,
+.dxpcLite_MarineBlue .dxpc-collapseBtn,
+.dxdpLite_MarineBlue .dxpc-collapseBtn,
+.dxpcLite_MarineBlue .dxpc-maximizeBtn,
+.dxdpLite_MarineBlue .dxpc-maximizeBtn
+{
+	padding: 1px;
+	float: right;
+}
+
+.dxpcLite_MarineBlue.dxRtl  .dxpc-closeBtn,
+.dxdpLite_MarineBlue.dxRtl  .dxpc-closeBtn,
+.dxpcLite_MarineBlue.dxRtl  .dxpc-pinBtn,
+.dxdpLite_MarineBlue.dxRtl  .dxpc-pinBtn,
+.dxpcLite_MarineBlue.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_MarineBlue.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_MarineBlue.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_MarineBlue.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_MarineBlue.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_MarineBlue.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_MarineBlue .dxpc-closeBtnHover,
+.dxdpLite_MarineBlue .dxpc-closeBtnHover,
+.dxpcLite_MarineBlue .dxpc-pinBtnHover,
+.dxdpLite_MarineBlue .dxpc-pinBtnHover,
+.dxpcLite_MarineBlue .dxpc-refreshBtnHover,
+.dxdpLite_MarineBlue .dxpc-refreshBtnHover,
+.dxpcLite_MarineBlue .dxpc-collapseBtnHover,
+.dxdpLite_MarineBlue .dxpc-collapseBtnHover,
+.dxpcLite_MarineBlue .dxpc-maximizeBtnHover,
+.dxdpLite_MarineBlue .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_MarineBlue .dxpc-header,
+.dxdpLite_MarineBlue .dxpc-header 
+{
+	color: #283B56;
+	background: #E2F0FF url('pcHeaderBack.gif') repeat-x;
+	border-bottom: 1px solid #A3C0E8;
+	padding: 5px 2px 7px 12px;
+}
+
+.dxpcLite_MarineBlue .dxpc-header.dxpc-withBtn,
+.dxdpLite_MarineBlue .dxpc-header.dxpc-withBtn 
+{
+	padding-bottom: 4px;
+}
+
+.dxpcLite_MarineBlue.dxRtl .dxpc-header,
+.dxdpLite_MarineBlue.dxRtl .dxpc-header 
+{
+	padding-right: 12px;
+	padding-left: 2px;
+}
+
+.dxpcLite_MarineBlue .dxpc-headerText,
+.dxdpLite_MarineBlue .dxpc-headerText
+{
+	white-space: nowrap;
+	margin-top: -1px;
+}
+
+.dxpcLite_MarineBlue .dxpc-headerImg,
+.dxdpLite_MarineBlue .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_MarineBlue.dxRtl .dxpc-headerImg,
+.dxdpLite_MarineBlue.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_MarineBlue .dxpc-content,
+.dxdpLite_MarineBlue .dxpc-content
+{
+	white-space: normal;
+	line-height: 128%;
+	padding: 14px 20px 15px;
+}
+
+.dxpcLite_MarineBlue .dxpc-footer,
+.dxdpLite_MarineBlue .dxpc-footer
+{
+	color: #283B56;
+	background: #CAE1FF url('dxpcFooterBack.gif') repeat-x bottom;
+	border-top: 1px solid #A3C0E8;
+}
+
+.dxpcLite_MarineBlue .dxpc-footerContent,
+.dxdpLite_MarineBlue .dxpc-footerContent
+{
+	padding: 12px 29px 14px 20px;
+}
+
+.dxpcLite_MarineBlue.dxRtl .dxpc-footerContent,
+.dxdpLite_MarineBlue.dxRtl .dxpc-footerContent
+{
+	padding: 12px 20px 14px 29px;
+}
+
+.dxpcLite_MarineBlue .dxpc-footerText,
+.dxdpLite_MarineBlue .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_MarineBlue .dxpc-footerImg,
+.dxdpLite_MarineBlue .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_MarineBlue.dxRtl .dxpc-footerImg,
+.dxdpLite_MarineBlue.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_MarineBlue .dxpc-sizeGrip,
+.dxdpLite_MarineBlue .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_MarineBlue.dxRtl .dxpc-sizeGrip,
+.dxdpLite_MarineBlue.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_MarineBlue,
+.dxdpModalBackLite_MarineBlue
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_MarineBlue,
+.dxdpLiteDisabled_MarineBlue
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #A3C0E8;
+}
+.dxpnlControl_MarineBlue.dxpnl-edge,
+.dxpnlControl_MarineBlue.dxpnl-edge.dxpnl-bar
+{
+    background-color: white;
+}
+.dxpnlControl_MarineBlue.dxpnl-edge,
+.dxpnlControl_MarineBlue.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_MarineBlue.dxpnl-bar
+{
+    padding: 8px;
+}
+.dxpnlControl_MarineBlue .dxpnl-btn
+{
+}
+.dxpnlControl_MarineBlue .dxpnl-btnHover
+{
+	background-color: #FFE7A2;
+}
+.dxpnlControl_MarineBlue .dxpnl-btnPressed
+{
+	background: #FFBD69;
+}
+.dxpnlControl_MarineBlue .dxpnl-btnSelected
+{
+
+}
+.dxpnlDisabled_MarineBlue
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_MarineBlue,
+.dxrpControlGB_MarineBlue
+{
+	color: #010101;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrpControl_MarineBlue .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_MarineBlue:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_MarineBlue:not(.dxrp-hasDefaultImages) .dxrpcontent,
+.dxrpControl_MarineBlue:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 8px;
+}
+.dxrpControl_MarineBlue:not(.dxrp-hasDefaultImages) .dxrpHeader_MarineBlue
+{
+	border-radius:8px 8px 0px 0px;
+}
+.dxrpControl_MarineBlue:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 8px 8px;
+}
+.dxrpWithoutHeader_MarineBlue:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:8px;
+}
+/* Header */
+.dxrpControlGB_MarineBlue span.dxrpHeader_MarineBlue
+{
+	color: #283B56;
+}
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue > a,
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue > a > span.dxrpHT,
+.dxrpControlGB_MarineBlue span.dxrpHeader_MarineBlue a
+{
+    color: #283B56;
+}
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+/* Header image */
+.dxrpControl_MarineBlue .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_MarineBlue .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+.dxrpControl_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_MarineBlue span.dxrpHeader_MarineBlue
+{
+    background-image: none;
+	background-color: White;
+}
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue
+{
+	background: #E0EDFF url('rpHeaderBackground.gif') repeat-x left top;
+	background-position:0px 6px;
+}
+/*Borders*/
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue {
+	border-top: 1px solid #AECAF0;
+}
+.dxrpControl_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue {
+	border-left: 1px solid #AECAF0;
+	border-right: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+}
+.dxrpControl_MarineBlue > tbody > tr:first-child > .dxrpcontent {
+	border-top: 1px solid #AECAF0;
+}
+.dxrpControlGB_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent{
+	border: 1px solid #AECAF0;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_MarineBlue {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_MarineBlue.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_MarineBlue.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_MarineBlue td.dxrpHeader_MarineBlue 
+{
+	padding: 5px 6px 5px 12px;
+}
+.dxrpControlGB_MarineBlue span.dxrpHeader_MarineBlue 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_MarineBlue.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW,
+.dxrpControlGB_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 14px 21px 21px 21px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_MarineBlue > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -22px;
+	left: -11px;
+	margin-bottom: -8px;
+}
+.dxrpControlGB_MarineBlue {
+	margin-top: 7px;
+}
+/* Disabled */
+.dxrpDisabled_MarineBlue,
+.dxrpDisabled_MarineBlue td.dxrp
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+.dxrpDisabled_MarineBlue.dxrpCollapsed > tbody > tr > td.dxrpHeader_MarineBlue
+{
+    border-radius: 8px;
+    border: 1px solid #aecaf0;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_MarineBlue 
+{
+	color: #5689C5;
+	background-color: #FFFFFF;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border-width: 0px;
+}
+.dxsmControl_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: none;
+}
+.dxsmControl_MarineBlue a:hover
+{
+	color: #5689C5;
+	background-color: #FFE7A2;
+	text-decoration: underline;
+}
+.dxsmControl_MarineBlue a:visited
+{
+	color: #5689C5;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_MarineBlue,
+.dxsmCategoryLevel_MarineBlue a
+{
+	color: #5689C5;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmCategoryLevel_MarineBlue
+{
+    font-size: 1.5em;
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+	border-bottom: 1px Solid #D2E5FF;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_MarineBlue,
+.dxsmLevelCategoryFlow_MarineBlue a
+{
+	color: #5689C5;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevelCategoryFlow_MarineBlue
+{
+	font-size: 1.5em;
+}
+/* - Level 0 - */
+.dxsmLevel0_MarineBlue,
+.dxsmLevel0_MarineBlue a,
+.dxsmLevel0Categorized_MarineBlue a,
+.dxsmLevel0Categorized_MarineBlue
+{
+	color: #283B56!important;
+	font-weight: normal;
+	text-decoration: none!important;
+}
+.dxsmLevel0_MarineBlue,
+.dxsmLevel0Categorized_MarineBlue
+{
+    font-size: 1.33em;
+	white-space: nowrap;
+	padding: 0px 0px 1px;
+}
+.dxsmLevel0_MarineBlue
+{
+	border-bottom: 3px Solid #D2E5FF;
+	padding: 0px 0px 1px;
+}
+
+ /*flow layout*/
+.dxsmLevel0Flow_MarineBlue,
+.dxsmLevel0Flow_MarineBlue a,
+.dxsmLevel0CategorizedFlow_MarineBlue a,
+.dxsmLevel0CategorizedFlow_MarineBlue
+{
+	color: #283B56;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_MarineBlue
+{
+    font-size: 1.33em;
+	padding: 0px;
+}
+.dxsmLevel0Flow_MarineBlue
+{
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_MarineBlue,
+.dxsmLevel1_MarineBlue a,
+.dxsmLevel1Categorized_MarineBlue a,
+.dxsmLevel1Categorized_MarineBlue
+{
+	color: #5689C5;
+}
+.dxsmLevel1_MarineBlue a,
+.dxsmLevel1Categorized_MarineBlue a 
+{
+	text-decoration: underline;
+}
+.dxsmLevel1_MarineBlue,
+.dxsmLevel1Categorized_MarineBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_MarineBlue,
+.dxsmLevel1Flow_MarineBlue a,
+.dxsmLevel1CategorizedFlow_MarineBlue,
+.dxsmLevel1CategorizedFlow_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_MarineBlue
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_MarineBlue,
+.dxsmLevel2_MarineBlue a,
+.dxsmLevel2Categorized_MarineBlue a,
+.dxsmLevel2Categorized_MarineBlue
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel2_MarineBlue,
+.dxsmLevel2Categorized_MarineBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel2Flow_MarineBlue,
+.dxsmLevel2Flow_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_MarineBlue
+{
+	padding: 0px;
+	text-decoration: none;
+}
+/* - Level 3 - */
+.dxsmLevel3_MarineBlue,
+.dxsmLevel3_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel3_MarineBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel3Flow_MarineBlue,
+.dxsmLevel3Flow_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_MarineBlue,
+.dxsmLevel4_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel4_MarineBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel4Flow_MarineBlue,
+.dxsmLevel4Flow_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_MarineBlue
+{
+	padding: 0px;
+	text-decoration: none;
+}
+/* - Other Levels - */
+.dxsmLevelOther_MarineBlue
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevelOther_MarineBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_MarineBlue,
+.dxsmLevelOtherFlow_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_MarineBlue
+{
+	color: #808080;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_MarineBlue
+{
+	overflow: hidden;
+	color: black;
+	float: left;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 2px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	border: 1px solid #AECAF0;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-left: 1px solid #AECAF0;
+	border-top: 3px solid #FFBD69;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead.dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead.dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n.dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n.dxtc-activeTab
+{
+	border-left-style: solid;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #E0EDFF url('tcTabTopBack.gif') repeat-x top;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #FFFFFF;
+}
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom-width: 0;
+	padding-bottom: 1px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #FFD7A8 url('tcTabTopHottrackedBack.gif') repeat-x top;
+	border: 1px Solid #DAB364;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #AECAF0;
+	overflow: hidden;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-link
+{
+	padding: 1px 9px 6px 10px;
+	display: block;
+	height: 100%;
+    color: black;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+	color: #3F66A0;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+}
+.dxtcLite_MarineBlue > .dxtc-content 
+{
+	background-color: #FFFFFF;
+	float: left;
+	clear: left;
+	border: 1px solid #AECAF0;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	padding-top: 2px;
+}
+/* Rtl */
+.dxtcLite_MarineBlue.dxtc-rtl,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-content,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_MarineBlue.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_MarineBlue.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_MarineBlue.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_MarineBlue.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_MarineBlue.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid #AECAF0;
+	border-right: 1px none #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-lead.dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-lead.dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-n.dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-n.dxtc-activeTab
+{
+	border-right: 1px solid #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid #AECAF0;
+	border-right: 1px none #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-noSpacing.dxtc-rtl.dxtc-right > .dxtc-stripContainer .dxtc-tab
+{
+	border-right: 1px solid #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 3px solid #FFBD69;
+}
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right: 3px solid #FFBD69;
+}
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right-width: 0;
+    padding-right: 1px;
+}
+/* Scrolling */
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbWrapper
+{
+	padding-top: 1px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-sbDisabled img
+{
+	cursor: default;
+}
+/* Multi-row */
+.dxtcLiteDisabled_MarineBlue,
+.dxtcLiteDisabled_MarineBlue > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_MarineBlue > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_MarineBlue > .dxtc-content,
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtcLiteDisabled_MarineBlue .dxtc-link
+{
+	color: #acacac;
+	cursor: default;
+}
+.dxtcLite_MarineBlue.dxtc-multiRow.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-bottom-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-bottom-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLite_MarineBlue.dxtc-multiRow.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-top-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-multiRow.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-top-width: 1px!important;
+	padding-bottom: 0px;
+}
+/* bottom  */
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 2px;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 1px solid #AECAF0;
+	border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	background-color: white;
+	border-right: 1px solid #AECAF0;
+	border-left: 1px solid #AECAF0;
+	border-bottom: 3px solid #FFBD69;
+	border-top-width: 0;
+    padding-top: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+    padding-bottom: 2px;
+}
+.dxtcLite_MarineBlue > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #FFD7A8 url('tcTabBottomHottrackedBack.gif') repeat-x top;
+	border: 1px Solid #DAB364;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-link
+{
+    padding: 3px 9px 4px 10px;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-content
+{
+	border-top: 1px solid #AECAF0;
+	border-right: 1px solid #AECAF0;
+	border-bottom-color: #AECAF0;
+	border-left: 1px solid #AECAF0;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_MarineBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sb
+{
+	margin-top: 3px;
+}
+/* left */
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 2px;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	background-image: url('tcTabLeftBack.gif');
+	border: 1px solid #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-top: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-left: 3px solid #FFBD69;
+	border-right-width: 0;
+    padding-right: 1px;
+	background-color: white;
+}
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-tabHover,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-lead.dxtc-tabHover
+{
+	background-image: url('tcTabLeftHottrackedBack.gif');
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab .dxtc-link 
+{
+	padding: 4px 10px 6px 9px;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #AECAF0;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-content
+{
+	border-top: 1px solid #AECAF0;
+	border-right: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-left-color: #AECAF0;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	padding-left: 2px;
+}
+/* right */
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 2px;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	background-image: url('tcTabRightBack.gif');
+	border: 1px solid #AECAF0;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-tabHover,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-lead.dxtc-tabHover
+{
+	background-image: url('tcTabRightHottrackedBack.gif');
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-top: 1px solid #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-right: 3px Solid #FFBD69;
+	border-left-width: 0;
+    padding-left: 1px;
+	background-color: white;
+}
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab .dxtc-link 
+{
+	padding: 4px 10px 6px 9px;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #AECAF0;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-content
+{
+	border-top: 1px solid #AECAF0;
+	border-right-color: #AECAF0;
+	border-bottom: 1px solid #AECAF0;
+	border-left: 1px solid #AECAF0;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MarineBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	padding-right: 2px;
+}
+/* Services rules */
+.dxtcLite_MarineBlue.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #AECAF0!important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #5689C5;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border-width: 0px;
+}
+.dxtiControl_MarineBlue a
+{
+	color: #3F7ABE;
+}
+.dxtiControl_MarineBlue a:hover
+{
+	color: #2C4D79;
+}
+.dxtiItem_MarineBlue
+{
+	font-weight: normal;
+	color: #3F7ABE;
+    padding: 0 0 7px;
+	white-space: nowrap;
+}
+.dxtiIndexPanelItem_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: none;
+	padding: 0px 2px;
+}
+.dxtiIndexPanelItem_MarineBlue a:hover
+{
+	border: 1px Solid #ADB4BC;
+	padding: 0px 1px;
+}
+
+.dxtiGroupHeader_MarineBlue,
+.dxtiGroupHeaderCategorized_MarineBlue
+{
+    font-size: 1.25em;
+	color: #FFFFFF; 
+}
+.dxtiGroupHeaderCategorized_MarineBlue
+{
+	padding: 3px 16px 4px 7px;
+}
+.dxtiGroupHeader_MarineBlue table 
+{
+	width: 100%;
+	text-align: center;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_MarineBlue
+{
+    white-space: nowrap;
+	color: #3F66A0; 
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 0px;
+	height: 1%; 
+	background-color: #E1EEFF;
+    padding: 4px 8px;
+    border: Solid 1px #C8DCF7;
+}
+.dxtiGroupHeaderTextCategorized_MarineBlue
+{
+	text-decoration: none;
+	font-weight: normal;
+	color: #3F66A0;
+}
+.dxtiGroupHeaderTextCategorized_MarineBlue
+{
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_MarineBlue
+{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 0.91em;
+	color: #7D7D7D;
+}
+.dxtiFilterBoxEdit_MarineBlue
+{
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 193px;
+	border: 1px Solid #AECAF0;
+	padding: 3px 5px;
+}
+.dxtiFilterBox_MarineBlue,
+.dxtiFilterBox_MarineBlue table
+{
+	color: #232323;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxtiFilterBox_MarineBlue
+{
+	background-color: #F0F6FF;
+	padding: 12px 13px;
+	border: 1px Solid #AECAF0;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_MarineBlue
+{
+    font-size: 1.17em;
+	padding: 0 60px 8px 60px;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_MarineBlue,
+.dxtiCurrentIndexPanelItem_MarineBlue
+{
+	padding: 2px 3px;
+}
+.dxtiCurrentIndexPanelItem_MarineBlue
+{
+	padding: 1px 2px;
+	background-color: #FFDB9D;
+	border: 1px Solid #ADB4BC;
+	color: #000000;
+}
+/* - BackToTop - */
+.dxtiBackToTop_MarineBlue
+{
+	font-size: 0.75em;
+	text-decoration: none;
+	padding: 0px 0px 12px 98px;
+}
+.dxtiBackToTopRtl_MarineBlue
+{
+	padding: 0 98px 12px 0;
+}
+/* Disabled */
+.dxtiDisabled_MarineBlue,
+.dxtiDisabled_MarineBlue a
+{
+	color: #A9B0BA;
+	cursor: default!important;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_MarineBlue,
+.dxucEditArea_MarineBlue,
+input[type="text"].dxucEditArea_MarineBlue /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_MarineBlue,
+input[type="text"].dxucEditArea_MarineBlue /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_MarineBlue /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_MarineBlue .dxucInputs_MarineBlue
+{
+}
+.dxucTextBox_MarineBlue
+{
+	background-color: white;
+	border: 1px solid #AECAF0;
+	padding: 1px 2px;
+}
+.dxucTextBox_MarineBlue .dxucEditArea_MarineBlue
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_MarineBlue .dxucEditArea_MarineBlue
+{
+    color: #a6a6a6;
+}
+.dxucErrorCell_MarineBlue
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_MarineBlue,
+.dxucButton_MarineBlue a
+{
+	color: #5689C5;
+	white-space: nowrap;
+}
+.dxucButton_MarineBlue a:hover
+{
+	color: #F39128;
+}
+.dxucBrowseButton_MarineBlue,
+.dxucBrowseButton_MarineBlue a
+{
+	color: #2C4D79;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_MarineBlue .dxucBrowseButton_MarineBlue a
+{
+	color: #2C4D79;
+}
+.dxucControl_MarineBlue a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_MarineBlue
+{
+	padding: 4px 11px 3px;
+	border: 1px solid #A3C0E8;
+	background: #DAEAFF url('ucButtonBack.gif') repeat-x;
+}
+.dxWebKitFamily .dxucBrowseButton_MarineBlue
+{
+	padding: 3px 11px 4px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_MarineBlue
+{
+    padding: 3px 11px 4px;
+}
+.dxucBrowseButton_MarineBlue.dxbf
+{
+    padding: 3px 10px 4px;
+}
+.dxucBrowseButton_MarineBlue.dxbf a
+{
+    border: 1px dotted #2C4D79;
+}
+.dxucBrowseButtonHover_MarineBlue
+{
+	color: #7E3C31;
+	border: 1px solid #D6A886;
+	background: #FEDC75 url('ucButtonHoverBack.gif') repeat-x;
+}
+.dxucControl_MarineBlue .dxucBrowseButtonHover_MarineBlue
+{
+    color: #7E3C31;
+}
+.dxucBrowseButtonPressed_MarineBlue
+{
+	color: #7E3C31;
+	border: 1px solid #CB9280;
+	background: #FFB46D url('ucButtonPressedBack.gif') repeat-x;
+}
+.dxucControl_MarineBlue .dxucBrowseButtonPressed_MarineBlue
+{
+    color: #7E3C31;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_MarineBlue,
+.dxucProgressBar_MarineBlue td
+{
+	color: Black;
+}
+.dxucProgressBar_MarineBlue .dxPBMainCell,
+.dxucProgressBar_MarineBlue td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_MarineBlue
+{
+	border: 1px Solid #A3C0E8;
+	background: #efefef url('ucProgressBack.gif') repeat-x;
+
+    height: 25px;
+}
+.dxucProgressBarIndicator_MarineBlue
+{
+	background: #deedff url('ucProgressIndicatorBack.gif') repeat-x;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_MarineBlue {
+	font-size: 0.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_MarineBlue td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_MarineBlue a {
+	color: #5689C5;
+}
+/* Disabled */
+.dxucDisabled_MarineBlue,
+.dxucDisabled_MarineBlue a
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+.dxucTextBoxDisabled_MarineBlue
+{
+	border-color: #D2D2D2;
+}
+.dxucButtonDisabled_MarineBlue a,
+.dxucButtonDisabled_MarineBlue a:hover
+{
+	color: #A6A6A6;
+}
+.dxucControl_MarineBlue .dxucBrowseButtonDisabled_MarineBlue a
+{
+	color: #C3C3C3;
+}
+.dxucBrowseButtonDisabled_MarineBlue
+{
+	border-color: #D2D2D2;
+	background: #F3F3F3 url('ucButtonDisabledBack.gif') repeat-x;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_MarineBlue
+{
+	background-color: White;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_MarineBlue,
+.dxsplVSeparator_MarineBlue,
+.dxsplHSeparator_MarineBlue,
+.dxsplPane_MarineBlue,
+.dxsplPaneCollapsed_MarineBlue,
+.dxsplVSeparator_MarineBlue,
+.dxsplHSeparator_MarineBlue,
+.dxsplVSeparatorCollapsed_MarineBlue,
+.dxsplHSeparatorCollapsed_MarineBlue
+{
+	border: 0px solid #A3C0E8;
+}
+.dxsplPane_MarineBlue,
+.dxsplPaneCollapsed_MarineBlue
+{
+	border-width: 1px;
+}
+.dxsplPaneCollapsed_MarineBlue
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparator_MarineBlue
+{
+	background-image: url('splVSeparatorBackground.png');
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparator_MarineBlue
+{
+	background-image: url('splHSeparatorBackground.png');
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorHover_MarineBlue
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_MarineBlue
+{
+	cursor: n-resize;
+}
+.dxsplVSeparator_MarineBlue,
+.dxsplHSeparator_MarineBlue
+{
+	background-color: #D4E6FE;
+	font-size: 0;
+}
+.dxsplVSeparatorHover_MarineBlue,
+.dxsplVSeparatorButtonHover_MarineBlue
+{
+	background-image: url('splVSeparatorBackgroundHover.png');
+}
+.dxsplHSeparatorHover_MarineBlue,
+.dxsplHSeparatorButtonHover_MarineBlue
+{
+	background-image: url('splHSeparatorBackgroundHover.png');
+}
+.dxsplVSeparatorCollapsed_MarineBlue,
+.dxsplHSeparatorCollapsed_MarineBlue
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_MarineBlue
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_MarineBlue
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_MarineBlue .dxsplVSeparatorButton_MarineBlue,
+.dxsplDisabled_MarineBlue .dxsplHSeparatorButton_MarineBlue
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_MarineBlue,
+.dxsplHSeparatorHover_MarineBlue,
+.dxsplVSeparatorButtonHover_MarineBlue,
+.dxsplHSeparatorButtonHover_MarineBlue
+{
+	background-color: #FFD286;
+}
+.dxsplVSeparator_MarineBlue,
+.dxsplVSeparatorButtonHover_MarineBlue
+{
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+.dxsplHSeparator_MarineBlue,
+.dxsplHSeparatorButtonHover_MarineBlue
+{
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+.dxsplResizingPointer_MarineBlue
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0;
+}
+.dxsplControl_MarineBlue .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_MarineBlue
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_MarineBlue li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_MarineBlue ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_MarineBlue a {
+	color: Black;
+	text-decoration: none;
+}
+
+.dxtvControl_MarineBlue .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_MarineBlue .dxtv-nd
+{
+	float: left;
+	margin-top: 1px;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_MarineBlue .dxtv-elbNoLn,
+.dxtvControl_MarineBlue .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_MarineBlue .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_MarineBlue .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_MarineBlue .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_MarineBlue .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndChk
+{
+    margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_MarineBlue .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndSel,
+.dxtvControl_MarineBlue .dxtv-ndHov 
+{
+	border: 1px solid #FFAB3F;
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndSel
+{
+	background-color: #FFBD69;
+}
+
+.dxtvControl_MarineBlue .dxtv-ndHov 
+{
+	background-color: #FFE7A2;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl,
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-nd, 
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-elb,
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-elb,
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-ndImg 
+{
+	margin: 0 2px 0 4px;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 0 2px 0 6px;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvControl_MarineBlue.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvDisabled_MarineBlue,
+.dxtvControl_MarineBlue .dxtvDisabled_MarineBlue,
+.dxtvDisabled_MarineBlue a,
+.dxtvDisabled_MarineBlue .dxtv-btn,
+.dxtvDisabled_MarineBlue .dxtv-nd
+{
+	color: #A6A6A6;
+	cursor: default;
+} 
+
+/* ASPxFileManager */
+.dxfmControl_MarineBlue,
+.dxfmControl_MarineBlue .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_MarineBlue
+{
+	color: #ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_MarineBlue .dxsplControl_MarineBlue
+{
+	border-width: 1px;
+	border-color: #8BB6EF;
+}
+.dxfmControl_MarineBlue .dxsplPane_MarineBlue
+{
+	border-width: 0px;
+}
+.dxfmControl_MarineBlue .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_MarineBlue.dxfm-dst .dxsplVSeparator_MarineBlue
+{
+	width: 3px;
+	background: url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_MarineBlue.dxfm-dst.dxfm-rtl .dxsplVSeparator_MarineBlue
+{
+	background-position-x: left;
+}
+.dxfmControl_MarineBlue.dxfm-tch .dxsplVSeparator_MarineBlue
+{
+	border-width: 0 1px;
+	border-color: #C1DBFA;
+}
+.dxfmControl_MarineBlue .dxsplHSeparator_MarineBlue
+{
+	border-width: 0px;
+	background: #C1DBFA none;
+}
+.dxfmControl_MarineBlue .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+} 
+
+/* FileManager - TreeView */
+.dxfmControl_MarineBlue .dxtvControl_MarineBlue 
+{
+	margin-left: -5px;
+}
+.dxfmControl_MarineBlue .dxtvControl_MarineBlue .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+    padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_MarineBlue div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_MarineBlue.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_MarineBlue .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_MarineBlue .dxfm-fileSI,
+.dxfmControl_MarineBlue .dxfm-fileSA
+{
+	border: 1px solid #888888;
+}
+.dxfmControl_MarineBlue div.dxfm-fileH,
+.dxfmControl_MarineBlue div.dxfm-fileF
+{
+	border: 1px solid #FFAB3F;
+}
+.dxfmControl_MarineBlue .dxfm-fileSA
+{
+	background-color: #FFBD69;
+}
+.dxfmControl_MarineBlue div.dxfm-fileH,
+.dxfmControl_MarineBlue div.dxfm-fileF
+{
+	background-color: #FFE7A2;
+}
+
+.dxfmControl_MarineBlue td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+
+.dxfmControl_MarineBlue .dxfm-file .dxfm-highlight
+{
+	background-color: #FFE7A2;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_MarineBlue .fileContainer
+{
+    margin: 4px;
+}
+ 
+/* FileManager - GridView */
+.dxfmControl_MarineBlue .dxgvTable_MarineBlue td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_MarineBlue .dxgvControl_MarineBlue
+{
+    background-color: White;
+    outline: none;
+}
+.dxfmControl_MarineBlue .dxgvTable_MarineBlue tr.dxfm-fileSA
+{
+    background-color: #FFBD69;
+}     
+.dxfmControl_MarineBlue .dxgvTable_MarineBlue tr.dxfm-fileSI
+{
+    background-color: #E9E9E9;
+}
+.dxfmControl_MarineBlue .dxfm-fileF.dxgvFocusedRow_MarineBlue
+{
+    background-color: #FFA44A;
+}
+.dxfmControl_MarineBlue .dxgvTable_MarineBlue tr.dxfm-fileH
+{
+    background-color: #FFE7A2;
+}
+.dxfmControl_MarineBlue tr.dxgvFocusedRow_MarineBlue
+{
+    background-color: White;
+}
+.dxgvHeader_MarineBlue.dxfmGridHeader
+{
+    background: White;
+    border-color: #BED6F6;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_MarineBlue
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_MarineBlue .dxfm-toolbar
+{
+	background: #E2F0FF url('mItemBack.gif') repeat-x top left;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_MarineBlue.dxfm-rtl .dxfm-toolbar .dxfm-filter
+{
+	text-align: left;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxfm-filter input,
+.dxfmControl_MarineBlue .dxfm-toolbar .dxfm-path input
+{
+    border: 1px solid #AECAF0;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_MarineBlue .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxmLite_MarineBlue .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxmLite_MarineBlue .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxmLite_MarineBlue .dxfm-path 
+{
+	padding-left: 2px;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxmLite_MarineBlue .dxfm-path input
+{
+	margin: 4px 8px 0px 4px;
+}
+.dxfmControl_MarineBlue.dxfm-rtl .dxfm-toolbar .dxmLite_MarineBlue .dxfm-path input
+{
+	margin: 4px 4px 0px 8px;
+}
+.dxfmControl_MarineBlue .dxfm-toolbar .dxmLite_MarineBlue .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_MarineBlue .dxfm-breadCrumbs
+{
+	background-color: #F1F8FF;
+}
+.dxfmControl_MarineBlue .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_MarineBlue .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+    border-color: #FFAB3F;
+    background-color: #FFE7A2;
+}
+.dxfmControl_MarineBlue .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #AECAF0;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_MarineBlue .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_MarineBlue
+{
+    background: #A9E0FF;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_MarineBlue .dxfm-uploadPanel 
+{
+	background-color: #DBEBFF;
+	text-align: right;
+}
+.dxfmControl_MarineBlue.dxfm-rtl .dxfm-uploadPanel 
+{
+	text-align: left;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_MarineBlue 
+{
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.dxfmControl_MarineBlue.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_MarineBlue 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 6px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #5689C5;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover
+{
+	color: #F39128;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+
+.dxfmControl_MarineBlue .dxfm-uploadPanel.dxsplPane_MarineBlue .dxucTextBox_MarineBlue {
+	padding: 0px 2px;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel.dxsplPane_MarineBlue .dxucBrowseButton_MarineBlue {
+	padding: 2px 8px 3px;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel.dxsplPane_MarineBlue .dxucBrowseButton_MarineBlue.dxbf {
+    padding: 2px 7px 3px;
+}
+.dxfmControl_MarineBlue .dxfm-uploadPanel.dxsplPane_MarineBlue .dxucSilverlightPluginLinkPanel_MarineBlue {
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_MarineBlue .dxfm-cInput,
+.dxfmControl_MarineBlue .dxfm-rInput
+{
+	border: 1px solid #AECAF0;
+}
+
+/* FileManager - item mask */
+.dxfmControl_MarineBlue .dxfm-itemMask
+{
+	background-color: #FFBD69;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_MarineBlue .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_MarineBlue .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_MarineBlue .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #C1DBFA;
+	text-align: right;
+	background-color: #DBEBFF;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_MarineBlue .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_MarineBlue
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_MarineBlue .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_MarineBlue .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_MarineBlue > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_MarineBlue .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_MarineBlue .dxis-slidePanel,
+.dxisControl_MarineBlue .dxis-nbSlidePanel,
+.dxisControl_MarineBlue .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_MarineBlue .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_MarineBlue .dxis-nbTop,
+.dxisControl_MarineBlue .dxis-nbBottom,
+.dxisControl_MarineBlue .dxis-nbLeft,
+.dxisControl_MarineBlue .dxis-nbRight,
+.dxisControl_MarineBlue .dxis-nbDotsBottom,
+.dxisControl_MarineBlue .dxis-nbDotsTop,
+.dxisControl_MarineBlue .dxis-nbDotsLeft,
+.dxisControl_MarineBlue .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_MarineBlue .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_MarineBlue .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_MarineBlue .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_MarineBlue .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_MarineBlue .dxis-nbDotsBottom,
+.dxisControl_MarineBlue .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_MarineBlue .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_MarineBlue .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_MarineBlue .dxis-nbLeft,
+.dxisControl_MarineBlue .dxis-nbRight,
+.dxisControl_MarineBlue .dxis-nbDotsLeft,
+.dxisControl_MarineBlue .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_MarineBlue .dxis-item,
+.dxisControl_MarineBlue .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_MarineBlue .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_MarineBlue .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_MarineBlue .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_MarineBlue .dxis-item,
+.dxisControl_MarineBlue .dxis-nbItem,
+.dxisControl_MarineBlue .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_MarineBlue .dxis-nbItem,
+.dxisControl_MarineBlue .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_MarineBlue .dxis-nbDotItemSelected,
+.dxisControl_MarineBlue .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_MarineBlue .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_MarineBlue .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_MarineBlue .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_MarineBlue .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_MarineBlue .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_MarineBlue .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_MarineBlue .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_MarineBlue .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_MarineBlue > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_MarineBlue > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_MarineBlue > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_MarineBlue > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_MarineBlue > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_MarineBlue .dxis-prevPageBtnHor,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-nextPageBtnHor,
+.dxisControl_MarineBlue .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_MarineBlue .dxis-prevPageBtnVert,
+.dxisControl_MarineBlue .dxis-prevPageBtnVertOutside,
+.dxisControl_MarineBlue .dxis-nextPageBtnVert,
+.dxisControl_MarineBlue .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_MarineBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_MarineBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_MarineBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_MarineBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_MarineBlue .dxis-prevBtnVertPressed,
+.dxisControl_MarineBlue .dxis-nextBtnVertPressed,
+.dxisControl_MarineBlue .dxis-nextBtnHorPressed,
+.dxisControl_MarineBlue .dxis-prevBtnHorPressed,
+.dxisControl_MarineBlue .dxis-prevPageBtnVertPressed,
+.dxisControl_MarineBlue .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_MarineBlue .dxis-nextPageBtnVertPressed,
+.dxisControl_MarineBlue .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorPressed,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_MarineBlue .dxis-nextPageBtnHorPressed,
+.dxisControl_MarineBlue .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_MarineBlue .dxis-prevBtnVertDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnVertDisabled,
+.dxisControl_MarineBlue .dxis-nextBtnHorDisabled,
+.dxisControl_MarineBlue .dxis-prevBtnHorDisabled,
+.dxisControl_MarineBlue .dxis-prevPageBtnVertDisabled,
+.dxisControl_MarineBlue .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_MarineBlue .dxis-nextPageBtnVertDisabled,
+.dxisControl_MarineBlue .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorDisabled,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_MarineBlue .dxis-nextPageBtnHorDisabled,
+.dxisControl_MarineBlue .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_MarineBlue .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_MarineBlue .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_MarineBlue .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_MarineBlue .dxis-nextPageBtnHorOutside,
+.dxisControl_MarineBlue .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #000000;
+    border: 1px Solid #AECAF0;
+}
+.dxigControl_MarineBlue td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_MarineBlue
+{
+	padding: 6px;
+	border-bottom: 1px Solid #A3C0E8;
+	border-top: 1px Solid #A3C0E8;
+}
+.dxigEmptyData_MarineBlue
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_MarineBlue
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_MarineBlue
+{
+    float: left;
+}
+.dxigItem_MarineBlue
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_MarineBlue a
+{
+    outline: 0;
+}
+.dxigItem_MarineBlue a > img
+{
+    display: block;
+}
+.dxigPagerPanel_MarineBlue
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #C7DFFF;
+}
+.dxigItem_MarineBlue .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_MarineBlue .dxig-thumbnailWrapper,
+.dxigFlowItem_MarineBlue
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.dxigControl_MarineBlue .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_MarineBlue .dxpcLite_MarineBlue .dxpc-mainDiv,
+.dxigControl_MarineBlue .dxpcLite_MarineBlue .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_MarineBlue .dxpcLite_MarineBlue .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_MarineBlue .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_MarineBlue.dxTouchUI  .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_MarineBlue.dxTouchUI .dxig-imageSliderWrapper
+{
+	padding: 0;
+}
+.dxigControl_MarineBlue .dxig-imageSliderWrapper .dxisControl_MarineBlue  .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_MarineBlue .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxisControl_MarineBlue
+{
+    position: relative;
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbSelectedItem > div,
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_MarineBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_MarineBlue .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_MarineBlue .dxig-prevButtonArea,
+.dxigControl_MarineBlue .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_MarineBlue .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_MarineBlue .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_MarineBlue .dxig-prevButton,
+.dxigControl_MarineBlue .dxig-nextButton
+{
+    top: 50%;
+    width: 45px;
+    height: 65px;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_MarineBlue .dxig-prevButtonDisabled,
+.dxigControl_MarineBlue .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_MarineBlue .dxig-closeButtonWrapper,
+.dxigControl_MarineBlue .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_MarineBlue .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_MarineBlue .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_MarineBlue .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_MarineBlue .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_MarineBlue .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_MarineBlue .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_MarineBlue .dxisControl_MarineBlue .dxis-nbBottom,
+.dxigControl_MarineBlue .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigPagerShowMoreItemsContainer_MarineBlue
+{
+    height: 58px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_MarineBlue a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3F66A0;
+}
+.dxigPagerShowMoreItemsContainer_MarineBlue  a:hover
+{
+	color: #F39128;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_MarineBlue,
+.dxnbGroupHeader_MarineBlue,
+.dxnbGroupHeaderCollapsed_MarineBlue,
+.dxnbGroupContent_MarineBlue > TABLE > TBODY > TR,
+.dxtcTab_MarineBlue,
+.dxtcActiveTab_MarineBlue,
+.dxtv-nd_MarineBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_MarineBlue {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 3px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_MarineBlue { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_MarineBlue,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_MarineBlue,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_MarineBlue {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflItemSys.dxflEditFormItemSys .dxflNestedControlCell_MarineBlue {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 2px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 10px;  }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 11px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 5px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 6px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 4px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_MarineBlue { padding-top: 3px; }
+
+.dxflCLTSys .dxflCaptionCell_MarineBlue,
+.dxflCLBSys .dxflCaptionCell_MarineBlue {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_MarineBlue,
+*[dir="rtl"].dxflFormLayout_MarineBlue .dxflCLRSys .dxflCaptionCell_MarineBlue {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_MarineBlue,
+*[dir="rtl"].dxflFormLayout_MarineBlue .dxflCLLSys .dxflCaptionCell_MarineBlue {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_MarineBlue {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_MarineBlue {
+    line-height: 16px;
+}
+.dxflCaptionCell_MarineBlue {
+    width: 1%;
+}
+td.dxflNestedControlCell_MarineBlue {
+    height: 0;
+}
+
+.dxflEmptyItem_MarineBlue {
+    height: 21px;
+}
+
+.dxflItem_MarineBlue { width: 100%; }
+.dxflItem_MarineBlue,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_MarineBlue {
+     padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_MarineBlue {
+     padding-bottom: 4px;
+}
+.dxflItem_MarineBlue > table.dxflItemTable_MarineBlue { width: 100%; }
+.dxflGroup_MarineBlue { padding: 6px 5px; width: 100%;}
+.dxflGroup_MarineBlue > table.dxflGroupTable_MarineBlue { width: 100%; }
+.dxflGroupCell_MarineBlue { padding: 0 8px; }
+
+.dxflGroupBox_MarineBlue {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #AECAF0;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_MarineBlue.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_MarineBlue.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_MarineBlue {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_MarineBlue > .dxtcControl_MarineBlue { margin: 0px; }
+
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue tr:first-child > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue,
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue > .dxflChildInFirstRowSys > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue tr:first-child > .dxflGroupCell_MarineBlue > .dxtcControl_MarineBlue,
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue > .dxflChildInFirstRowSys > .dxflGroupCell_MarineBlue > .dxtcControl_MarineBlue {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue tr:last-child > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue,
+.dxflGroupBox_MarineBlue > .dxflGroup_MarineBlue > .dxflChildInLastRowSys > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_MarineBlue tr:first-child > .dxflGroupCell_MarineBlue > .dxflGroupBox_MarineBlue,
+.dxflGroup_MarineBlue > .dxflChildInFirstRowSys > .dxflGroupCell_MarineBlue > .dxflGroupBox_MarineBlue {
+    margin-top: 13px;
+}
+
+.dxflGroup_MarineBlue tr:last-child > .dxflGroupCell_MarineBlue > .dxflGroupBox_MarineBlue,
+.dxflGroup_MarineBlue > .dxflChildInLastRowSys > .dxflGroupCell_MarineBlue > .dxflGroupBox_MarineBlue {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_MarineBlue > div > .dxflGroup_MarineBlue { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_MarineBlue > div > .dxflGroup_MarineBlue tr:first-child > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue,
+.dxtcPageContent_MarineBlue > div > .dxflGroup_MarineBlue > .dxflChildInFirstRowSys > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_MarineBlue > div > .dxflGroup_MarineBlue tr:last-child > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue,
+.dxtcPageContent_MarineBlue > div > .dxflGroup_MarineBlue > .dxflChildInLastRowSys > .dxflGroupCell_MarineBlue > .dxflItem_MarineBlue {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_MarineBlue {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_MarineBlue .dxflGroupBoxCaption_MarineBlue {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_MarineBlue > div.dxflGroup_MarineBlue:first-child,
+.dxflGroupBox_MarineBlue > table.dxflGroup_MarineBlue:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_MarineBlue {
+    top: -19px;
+}
+
+.dxflOptional_MarineBlue {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_MarineBlue {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_MarineBlue {
+    width: 100%;
+}
+.dxflHelpText_MarineBlue {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_MarineBlue.dxflLHelpTextSys,
+.dxflHelpText_MarineBlue.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_MarineBlue.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_MarineBlue.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_MarineBlue {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_MarineBlue .dxr-tabContent {
+    border: 1px solid #aecaf0;
+    border-top-width: 0px;
+    height: 95px;
+    background: #ffffff;
+}
+.dxrControl_MarineBlue.dxr-oneLineMode .dxr-tabContent {
+    height: 30px;
+}
+.dxrControl_MarineBlue.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_MarineBlue.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_MarineBlue, 
+.dxrControl_MarineBlue a {
+    color: #000000;
+}
+
+.dxrControl_MarineBlue .dxr-itemDisabled.dxr-item,
+.dxrControl_MarineBlue .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_MarineBlue .dxr-grExpBtn.dxr-grExpBtnDisabled,
+.dxrControl_MarineBlue .dxr-grExpBtn.dxr-grExpBtnDisabled .dxr-img32,
+.dxrControl_MarineBlue .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_MarineBlue .dxr-itemDisabled a,
+.dxrControl_MarineBlue .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #A6A6A6;
+}
+
+/* Ribbon Popup */
+.dxrControl_MarineBlue .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_MarineBlue .dxr-minPopup.dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_MarineBlue .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #AECAF0;
+}
+
+/* Ribbon Group List */
+.dxrControl_MarineBlue .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_MarineBlue .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_MarineBlue .dxr-groupList .dxr-groupSep b {
+    display: block;
+    margin: 4px 0;
+    width: 1px;
+    height: 87px;
+    background: #aecaf0;
+}
+
+.dxrControl_MarineBlue.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 22px;
+}
+
+.dxrControl_MarineBlue.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 73px;
+}
+
+/* Ribbon Groups */
+.dxrControl_MarineBlue .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_MarineBlue .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_MarineBlue.dxr-oneLineMode .dxr-groupContent {
+    height: 30px;
+}
+.dxrControl_MarineBlue .dxr-groupLabel {
+    text-align: center;
+    color: #749bca;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_MarineBlue .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 2px -3px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_MarineBlue .dxr-grExpBtn,
+.dxrControl_MarineBlue .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_MarineBlue .dxr-grExpBtn {
+    height: 87px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.dxrControl_MarineBlue .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_MarineBlue .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_MarineBlue .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_MarineBlue .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-itemSep b {
+    height: 19px;
+    margin: 3px auto;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-itemSep b {
+    height: 67px;
+    margin: 4px auto;
+}
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #aecaf0;
+    width: 1px;
+}
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-itemSep,
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+
+/* Ribbon Item */
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item {
+    height: 23px;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item,
+.dxrControl_MarineBlue .dxr-blSepItems .dxr-item,
+.dxrControl_MarineBlue.dxr-grLabelsHidden .dxr-grExpBtn {
+    height: 73px;
+    text-align: center;
+    overflow: hidden;
+}
+.dxrControl_MarineBlue .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item {
+    white-space: nowrap;
+    margin: 0 3px 0 3px;
+}
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_MarineBlue .dxr-grExpBtn .dxr-lblContent  {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label {
+    border-top: 1px solid #FFBD69;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #FFAB3F;
+}
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_MarineBlue .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 8px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+
+.dxSafari .dxrControl_MarineBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-popOut
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_MarineBlue .dxr-grExpBtn .dxr-popOut {
+    margin: -2px 3px 2px;
+}
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #FFBD69;
+}
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #FFAB3F;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_MarineBlue .dxr-item.dxr-edtItem {
+    height: 23px;
+    border: 0;
+    padding: 1px 0;
+}
+.dxrControl_MarineBlue .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_MarineBlue .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_MarineBlue .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_MarineBlue .dxr-buttonItem.dxr-itemChecked {
+    background: #FFBD69;
+    border-color: #FFAB3F;
+}
+.dxrControl_MarineBlue .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_MarineBlue .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #FFBD69;
+    border-color: #FFAB3F;
+}
+.dxrControl_MarineBlue .dxr-buttonItem.dxr-itemHover,
+.dxrControl_MarineBlue .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_MarineBlue .dxr-olmGrExpBtn.dxr-itemHover {
+    border-color: #ffbd69;
+    background: #ffe7a2;
+}
+.dxrControl_MarineBlue .dxr-img32,
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_MarineBlue .dxr-img16,
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_MarineBlue .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_MarineBlue .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_MarineBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_MarineBlue .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_MarineBlue .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_MarineBlue .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_MarineBlue .dxeColorTable_MarineBlue {
+    border: none;
+}
+
+.dxrControl_MarineBlue .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_MarineBlue .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-leftIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-spacer, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-rightIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-sbIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-sbSpacer
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #aecaf0;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-leftIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-spacer, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-rightIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-sbIndent, 
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-sbSpacer {
+    padding-top: 0px;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #f3f7fd;
+    border-color: #aecaf0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-activeTab {
+    border-color: #aecaf0;
+    border-top-width: 1px;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxr-fileTab {
+    background: #d7e8ff url('rFileTabBack.png') repeat-x;
+    border-color: #aecaf0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #fecc66 url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #ffb067 url('rFileTabPressedBack.png') repeat-x;
+}
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtcLiteDisabled_MarineBlue .dxtc-link {
+    color: #acacac;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_MarineBlue .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #AECAF0;
+    background-color: white;
+}
+
+.dxrControl_MarineBlue .dxr-glrBarContainer
+{
+    margin-right: 16px;
+    height: 71px;
+}
+
+.dxrControl_MarineBlue .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_MarineBlue .dxr-glrItem.dxr-itemHover,
+.dxrControl_MarineBlue .dxr-glrBtnHover
+{
+    background-color: #FFE7A2;
+    border-color: #FFBD69;
+}
+
+.dxrControl_MarineBlue .dxr-glrItem.dxr-itemChecked
+{
+    background-color: #FFBD69;
+    border-color: #FFAB3F;
+}
+
+.dxrControl_MarineBlue .dxr-glrItem.dxr-itemPressed,
+.dxrControl_MarineBlue .dxr-glrBtnPressed
+{
+    background: #FFBD69;
+    border-color: #FFAB3F;
+}
+
+.dxrControl_MarineBlue .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_MarineBlue .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_MarineBlue .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_MarineBlue .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_MarineBlue .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_MarineBlue .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_MarineBlue .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_MarineBlue .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_MarineBlue .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_MarineBlue .dxr-glrGroup
+{
+    color: #283B56;
+    background: #CAE1FF url('dxpcFooterBack.gif') repeat-x bottom;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.dxrControl_MarineBlue .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_MarineBlue .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_MarineBlue .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_MarineBlue .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 24px;
+    border-left: 1px solid #AECAF0;
+    border-bottom: 1px solid #AECAF0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0px;
+}
+
+.dxrControl_MarineBlue .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_MarineBlue .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_MarineBlue .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 2px 0;
+    display: block;
+}
+.dxrControl_MarineBlue .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_MarineBlue .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_MarineBlue {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_MarineBlue .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_MarineBlue .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-expandW .dxpc-content {
+    height: inherit;
+}
+.dxizControl_MarineBlue .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_MarineBlue .dxiz-wrapper > img,
+.dxizControl_MarineBlue .dxiz-clipPanel > img,
+.dxizControl_MarineBlue .dxiz-expandW .dxpc-content > img {
+    display: block;
+}
+.dxizControl_MarineBlue .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_MarineBlue .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_MarineBlue .dxpcLite .dxpc-content {
+    padding: 0;
+}
+.dxizControl_MarineBlue .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index:1;
+    position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-lens .dxiz-llp,
+.dxizControl_MarineBlue .dxiz-lens .dxiz-lrp,
+.dxizControl_MarineBlue .dxiz-lens .dxiz-ltp,
+.dxizControl_MarineBlue .dxiz-lens .dxiz-lbp,
+.dxizControl_MarineBlue .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_MarineBlue .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_MarineBlue .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_MarineBlue .dxiz-lens.outside .dxiz-llp,
+.dxizControl_MarineBlue .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_MarineBlue .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_MarineBlue .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_MarineBlue .dxizLoadingPanel_MarineBlue {
+    position: absolute;
+}
+
+.dxisControl_MarineBlue.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_MarineBlue
+{
+    background-color: #F9F9F9;
+    padding-bottom: 2px;
+    border: 1px solid #A3C0E8;
+}
+.dxitcControl_MarineBlue > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_MarineBlue .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #A3C0E8;
+    background-color: white;
+}
+.dxitcControl_MarineBlue .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #ffbd69;
+}
+.dxitcCaption_MarineBlue
+{
+    background-color: #F9F9F9;
+    padding: 2px;
+    border: 1px solid #A3C0E8;
+    margin: 2px 2px 0px 2px;
+}

@@ -1,0 +1,71 @@
+.dxwscCheckedTextContainer_BlackGlass
+{
+	background-color: white;
+	border: solid 1px #a0a0a0;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;
+	height: 110px;
+	padding: 5px;
+}
+.dxwscErrorWord_BlackGlass
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9F9F9F;
+	background-color: White;
+}
+.dxwscLoadingPanel_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxwscLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_BlackGlass .dxwscDlgFooter
+{
+	background-color: #C9D6DE;
+	border-top-style: none;
+	
+	background-image: url('dfFooterBack.gif');
+    background-repeat:repeat-x;
+    background-position:top;
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_BlackGlass .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_BlackGlass .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_BlackGlass .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_BlackGlass .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+
+

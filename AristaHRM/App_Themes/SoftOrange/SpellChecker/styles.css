@@ -1,0 +1,64 @@
+.dxwscCheckedTextContainer_SoftOrange
+{
+	background-color: white;
+	border: solid 1px #a0a0a0;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;
+
+}
+.dxwscErrorWord_SoftOrange
+{
+	color: #ce0808;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #f88538;
+	background-color: White;
+	border: 1px solid #F88538;
+}
+.dxwscLoadingPanel_SoftOrange td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxwscLoadingPanel_SoftOrange .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_SoftOrange .dxwscDlgFooter
+{
+	background-color: #DCDCDC;
+	border-top: solid 1px #E0E0E0;	
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_SoftOrange .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_SoftOrange .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_SoftOrange .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_SoftOrange .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+

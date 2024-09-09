@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_Metropolis,
+.dxTreeList_CollapsedButtonRtl_Metropolis,
+.dxTreeList_DragAndDropArrowDown_Metropolis,
+.dxTreeList_DragAndDropArrowUp_Metropolis,
+.dxTreeList_DragAndDropHide_Metropolis,
+.dxTreeList_DragAndDropNode_Metropolis,
+.dxTreeList_ExpandedButton_Metropolis,
+.dxTreeList_ExpandedButtonRtl_Metropolis,
+.dxTreeList_SortAsc_Metropolis,
+.dxTreeList_SortDesc_Metropolis
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_Metropolis
+{
+    background-position: -23px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_CollapsedButtonRtl_Metropolis
+{
+    background-position: -28px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_DragAndDropArrowDown_Metropolis
+{
+    background-position: -51px -13px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Metropolis
+{
+    background-position: -51px 0px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Metropolis
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_Metropolis
+{
+    background-position: -14px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_Metropolis
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButtonRtl_Metropolis
+{
+    background-position: -37px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_SortAsc_Metropolis
+{
+    background-position: -35px -17px;
+    width: 7px;
+    height: 5px;
+}
+.dxTreeList_SortDesc_Metropolis
+{
+    background-position: -43px -17px;
+    width: 7px;
+    height: 5px;
+}
+

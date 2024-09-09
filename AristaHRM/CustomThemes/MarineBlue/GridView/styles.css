@@ -1,0 +1,763 @@
+.dxgvControl_MarineBlue,
+.dxgvDisabled_MarineBlue
+{
+	border: 1px Solid #A3C0E8;
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: #FFFFFF;
+	color: #4F4F4F;
+	cursor: default;
+}
+.dxgvDisabled_MarineBlue
+{
+	color: Gray;
+}
+.dxgvControl_MarineBlue a
+{
+	color: #3F66A0;
+}
+.dxgvControl_MarineBlue a:hover
+{
+	color: #F39128;
+}
+.dxgvDisabled_MarineBlue a
+{
+	color: Gray;
+}
+
+.dxgvEmptyDataRow_MarineBlue.dxgvBELVR > td.dxgv,
+.dxgvDataRow_MarineBlue.dxgvBELVR > td.dxgv,
+.dxgvGroupRow_MarineBlue.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+
+.dxgvRBB .dxgvEmptyDataRow_MarineBlue.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_MarineBlue.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_MarineBlue.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanel_MarineBlue,
+.dxgvLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxgvLoadingPanel_MarineBlue  td.dx,
+.dxgvLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxgvLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxgvLoadingPanelWithContent_MarineBlue .dxlp-loadingImage,
+.dxgvLoadingPanelStatusBar_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+.dxgvLoadingPanelStatusBar_MarineBlue
+{
+	background-color: transparent;
+}
+.dxgvLoadingPanelStatusBar_MarineBlue td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_MarineBlue
+{
+	color: Black;
+	border: 1px solid #A3C0E8;
+}
+.dxgvFilterPopupItemsArea_MarineBlue
+{
+	color: Black;
+	background-color: #FFFFFF;
+}
+.dxgvFilterPopupButtonPanel_MarineBlue
+{
+	background-color: #ECF4FE;
+	border: 1px solid #AECAF0;
+	color: #2C4D79;
+}
+
+.dxgvFilterPopupItem_MarineBlue td.dxgv,
+.dxgvFilterPopupActiveItem_MarineBlue td.dxgv,
+.dxgvFilterPopupSelectedItem_MarineBlue td.dxgv
+{
+	padding: 3px 2px 4px 4px;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_MarineBlue
+{
+	background-color: #FFE7A2;
+	color: Black;
+}
+.dxgvFilterPopupSelectedItem_MarineBlue
+{
+	color: Black;
+	background-color: #FFBD69;
+}
+
+.dxgvTable_MarineBlue
+{
+	background-color: #FFFFFF;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+}
+.dxgvTable_MarineBlue .dxgvHEC
+{
+	background-color: #FFFFFF;
+	border-width: 0;
+	overflow: hidden;
+}
+.dxgvControl_MarineBlue .dxgvFSDC .dxgvFooter_MarineBlue td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_MarineBlue .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_MarineBlue .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_MarineBlue .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_MarineBlue,
+.dxgvDataRow_MarineBlue
+{
+}
+.dxgvInlineEditRow_MarineBlue td.dxgv
+{
+	border-bottom: 1px Solid #A3C0E8;
+	border-right: 1px Solid #A3C0E8;
+}
+.dxgvInlineEditRow_MarineBlue td.dxgvIndentCell
+{
+	background-color: #DBEBFF;
+}
+.dxgvDataRowAlt_MarineBlue
+{
+	background-color: #F7FAFF;
+}
+.dxgvFilterRow_MarineBlue
+{
+	background-color: #DBEBFF;
+}
+.dxgvEditForm_MarineBlue
+{
+	background-color: #F7FAFF;
+}
+.dxgvEditForm_MarineBlue td.dxgv
+{
+	border-bottom: 1px Solid #A3C0E8;
+	padding: 15px;
+}
+.dxgvEditForm_MarineBlue td.dxgvIndentCell
+{
+	background: #dbebff none;
+	border-right: 1px Solid #aecaf0;
+	border-left: 1px Solid #aecaf0;
+	border-top-width: 0px;
+}
+.dxgvSelectedRow_MarineBlue
+{
+	background-color: #FFBD69;
+	color: #000000;
+}
+.dxgvFocusedRow_MarineBlue
+{
+	background-color: #FF9C3C;
+	color: #000000;
+}
+.dxgvSelectedRow_MarineBlue td.dxgvCommandColumn_MarineBlue a, 
+.dxgvSelectedRow_MarineBlue td.dxgvAIC a, 
+.dxgvFocusedRow_MarineBlue td.dxgvCommandColumn_MarineBlue a,
+.dxgvFocusedRow_MarineBlue td.dxgvAIC a
+{
+	color: #000000;
+}
+.dxgvPreviewRow_MarineBlue
+{
+	background-color: #F7FAFF;
+	color: #000000;
+}
+.dxgvDetailRow_MarineBlue td.dxgv,
+.dxgvPreviewRow_MarineBlue td.dxgv,
+.dxgvEmptyDataRow_MarineBlue td.dxgv
+{
+	padding: 30px 2px 30px 4px;
+	border-bottom: 1px Solid #BED6F6;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvPreviewRow_MarineBlue td.dxgv
+{
+	padding: 15px 15px 15px 20px;
+}
+.dxgvDetailRow_MarineBlue td.dxgvDetailCell_MarineBlue
+{
+	padding: 19px;
+}
+.dxgvDetailRow_MarineBlue td.dxgvIndentCell
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 1px Solid #BED6F6;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 5px 0;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_MarineBlue.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -4px 0 -3px 0;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR.dxgvFocusedRow_MarineBlue .dxgvADCC,
+.dxgvDetailRow_MarineBlue.dxgvADR.dxgvSelectedRow_MarineBlue .dxgvADCC
+{
+    color: inherit;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR.dxgvFocusedRow_MarineBlue .dxgvADCMDC a,
+.dxgvDetailRow_MarineBlue.dxgvADR.dxgvSelectedRow_MarineBlue .dxgvADCMDC a
+{
+    color: black;
+}
+
+.dxgvEmptyDataRow_MarineBlue
+{
+	background-color: #EEF3FF;
+	color: #4F4F4F;
+}
+.dxgvEmptyDataRow_MarineBlue td.dxgv
+{
+	text-align: center;
+}
+
+.dxgvEditFormDisplayRow_MarineBlue td.dxgv,
+.dxgvDetailCell_MarineBlue td.dxgv,
+.dxgvDataRow_MarineBlue td.dxgv,
+.dxgvDetailRow_MarineBlue.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-bottom: 1px Solid #BED6F6;
+	border-right: 1px Solid #BED6F6;
+	padding: 4px 5px 5px;
+}
+.dxgvDataRow_MarineBlue td.dxgvAIC,
+.dxgvInlineEditRow_MarineBlue td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvDetailRow_MarineBlue.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_MarineBlue td.dxgvCommandColumn_MarineBlue,
+.dxgvDataRow_MarineBlue td.dxgvCommandColumn_MarineBlue
+{
+	padding: 4px 5px 5px;
+}
+.dxgvEditFormDisplayRow_MarineBlue
+{
+	background-color: #FFFFFF;
+}
+.dxgvEditFormDisplayRow_MarineBlue td.dxgv
+{
+}
+.dxgvEditFormDisplayRow_MarineBlue td.dxgvIndentCell
+{
+	background: #dbebff none;
+	border-right: 1px Solid #aecaf0;
+	border-left: 1px Solid #aecaf0;
+	border-top-width: 0px;
+}
+.dxgvEditingErrorRow_MarineBlue
+{
+	background-color: #F3D6D6;
+	color: #BA1717;
+}
+.dxgvEditingErrorRow_MarineBlue td.dxgv
+{
+	white-space: pre-wrap;
+	border-bottom: 1px Solid #A3C0E8;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 12px;
+}
+
+.dxgvFilterRow_MarineBlue td.dxgv
+{
+	border-bottom: 1px Solid #AECAF0;
+	border-right-width: 0px;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 2px 1px;
+	overflow: hidden;
+}
+.dxgvGroupRow_MarineBlue
+{
+	background-color: #DBEBFF;
+	color: #4D8AB5;
+}
+.dxgvFocusedGroupRow_MarineBlue
+{
+	background-color: #FFBD69;
+	color: #010100!important;
+}
+.dxgvGroupRow_MarineBlue td.dxgv,
+.dxgvFocusedGroupRow_MarineBlue td.dxgv
+{
+	border: 0px none;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom: 1px Solid #AECAF0;
+	padding: 4px 5px 5px;
+    background-color: inherit;
+}
+.dxgvFocusedGroupRow_MarineBlue td.dxgvIndentCell,
+.dxgvFocusedRow_MarineBlue td.dxgvIndentCell,
+.dxgvSelectedRow_MarineBlue td.dxgvIndentCell
+{
+	background-color: #DBEBFF;
+	border-right: 1px solid #A3C0E8;
+	border-left: 1px solid #A3C0E8;
+	border-top-width: 0px;
+}
+
+.dxgvFocusedGroupRow_MarineBlue td.dxgv
+{
+	border-bottom: 1px Solid #AECAF0;
+}
+
+.dxgvHeaderPanel_MarineBlue
+{
+	background-color: #E2F0FF;
+	color: #283B56;
+	padding: 8px 4px 8px 3px;
+	border-bottom: 1px Solid #A3C0E8;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_MarineBlue,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_MarineBlue
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_MarineBlue,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_MarineBlue
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_MarineBlue
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 5px;
+	border: 1px Solid #A3C0E8;
+	background: #E2F0FF url('gvHeaderBackground.gif') repeat-x top;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+
+.dxgvHeader_MarineBlue a,
+.dxgvHeader_MarineBlue a:hover
+{
+	color: #3F66A0;
+}
+
+.dxgvHeader_MarineBlue,
+.dxgvHeader_MarineBlue table
+{
+	color: #283B56;
+}
+.dxgvHeader_MarineBlue td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_MarineBlue a.dxgvCommandColumnItem_MarineBlue
+{
+	margin: 0px 3px 0px 0px;
+}
+.dxgvHeader_MarineBlue a.dxgvCommandColumnItem_MarineBlue:hover
+{
+	color: #F39128;
+}
+.dxgvCustomization_MarineBlue, 
+.dxgvPopupEditForm_MarineBlue
+{
+	padding: 0;
+	margin: 0;
+}
+.dxgvGroupPanel_MarineBlue
+{
+	white-space: nowrap;
+	color: #94a6be;
+	border-bottom: 1px Solid #A3C0E8;
+	background: #ECF4FE url('gvGroupPanelBackground.gif') repeat-x bottom;
+	padding: 10px 4px 10px 6px;
+}
+.dxgvAdaptiveHeaderPanel_MarineBlue
+{
+    background: #ECF4FE url('gvGroupPanelBackground.gif') repeat-x bottom;
+    border-bottom: 1px solid #bed6f6;
+    color: #94a6be;
+    padding-top: 10px;
+}
+.dxgvAdaptiveFooterPanel_MarineBlue
+{
+    background-color: #EEF3FF;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_MarineBlue,
+.dxgvAdaptiveFooterPanel_MarineBlue
+{
+    padding-left: 24px;
+}
+.dxgvFooter_MarineBlue
+{
+	background-color: #EEF3FF;
+	white-space: nowrap;
+}
+.dxgvFooter_MarineBlue td.dxgv
+{
+	padding: 6px 5px 7px;
+	border-bottom: 1px Solid #A3C0E8;
+	border-right-width: 0px;
+}
+.dxgvGroupFooter_MarineBlue
+{
+	background-color: #EEF3FF;
+	white-space: nowrap;
+}
+.dxgvGroupFooter_MarineBlue td.dxgv
+{
+	padding: 6px 5px 7px;
+	border-bottom: 1px Solid #A3C0E8;
+	border-right-width: 0px;
+}
+
+.dxgvDataRow_MarineBlue td.dxgvIndentCell,
+.dxgvDetailRow_MarineBlue td.dxgvIndentCell,
+.dxgvPreviewRow_MarineBlue td.dxgvIndentCell,
+.dxgvGroupRow_MarineBlue td.dxgvIndentCell,
+.dxgvGroupFooter_MarineBlue td.dxgvIndentCell
+{
+	background-color: #DBEBFF;
+	border-right: 1px solid #A3C0E8;
+	border-left: 1px solid #A3C0E8;
+	border-top-width: 0px;
+}
+
+.dxgvTitlePanel_MarineBlue,
+.dxgvTable_MarineBlue caption
+{
+	font-weight: normal;
+	padding: 5px 5px 6px;
+	text-align: center;
+	border-bottom: 1px Solid #A3C0E8;
+	color: #283B56;
+	background-color: #F7FAFF;
+}
+.dxgvStatusBar_MarineBlue
+{
+	border-top: 1px Solid #A3C0E8;
+	background-color: #EEF3FF;
+}
+.dxgvStatusBar_MarineBlue tr.dxgv
+{
+	height: 20px;
+}
+.dxgvStatusBar_MarineBlue tr.dxgv > td
+{
+	padding: 4px;
+}
+.dxgvCommandColumn_MarineBlue
+{
+	padding: 2px 0px 2px 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_MarineBlue a
+{
+	margin: 0px 3px 0px 0px;
+}
+.dxgvCommandColumnItem_MarineBlue
+{
+}
+.dxbButton_MarineBlue[class~="dxgvCommandColumnItem_MarineBlue"],
+.dxgvEditFormTable_MarineBlue div.dxbButton_MarineBlue
+{
+	margin: 0px 2px -1px;
+}
+.dxbButton_MarineBlue[class~="dxgvCommandColumnItem_MarineBlue"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_MarineBlue a.dxgvCommandColumnItem_MarineBlue
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.dxgvEditFormTable_MarineBlue
+{
+	margin: 10px 0px;
+	padding: 0px;
+	color: #000000;
+}
+.dxgvEditFormCaption_MarineBlue
+{
+	padding: 5px 4px 4px 8px;
+	white-space: nowrap;
+}
+
+.dxgvInlineEditCell_MarineBlue
+{
+	padding: 1px;
+}
+.dxgvInlineEditCell_MarineBlue .dxeButtonEdit_MarineBlue td.dxgv,
+.dxgvInlineEditCell_MarineBlue .dxeTextBox_MarineBlue td.dxgv
+{
+	padding-left: 1px;
+}
+.dxgvEditFormCell_MarineBlue
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvFilterBar_MarineBlue
+{
+	border-top: 1px solid #A3C0E8;
+	background: #B7D7FF none;
+}
+.dxgvFilterBar_MarineBlue a
+{
+	color: #283B56;
+	text-decoration: underline;
+}
+.dxgvFilterBar_MarineBlue a:hover
+{
+	color: #F39128;
+}
+.dxgvFilterBarCheckBoxCell_MarineBlue
+{
+	padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_MarineBlue
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_MarineBlue
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_MarineBlue
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_MarineBlue
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_MarineBlue
+{
+	background-color: #EEF3FF;
+	border-top: 1px solid #A3C0E8;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxgvPagerBottomPanel_MarineBlue, 
+.dxgvPagerTopPanel_MarineBlue
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: #C6DEFF url('gvPagerBottomPanelBackground.gif') repeat-x;
+}
+
+.dxgvDataRowHover_MarineBlue
+{
+	background: #FFE7A2 none;
+	color: #4F4F4F;
+}
+
+.dxgvControl_MarineBlue .dxpLite_MarineBlue,
+.dxgvDisabled_MarineBlue .dxpLite_MarineBlue
+{
+	padding: 6px 0;
+}
+
+.dxgvControl_MarineBlue .dxpSummary_MarineBlue,
+.dxgvControl_MarineBlue .dxpPageSizeItem_MarineBlue
+{
+	color: #283B56;
+}
+
+.dxgvControl_MarineBlue .dxpLite_MarineBlue .dx-summary,
+.dxgvControl_MarineBlue .dxpLite_MarineBlue .dxp-pageSizeItem
+{
+	color: #283B56;
+}
+
+.dxgvControl_MarineBlue .dxgvHFSAC
+{
+    padding: 10px 0 0 5px;
+}
+.dxgvControl_MarineBlue .dxgvHFC
+{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.dxgvControl_MarineBlue .dxgvHFC .dxeCalendar_MarineBlue
+{
+    margin-left: 23px;
+}
+.dxgvControl_MarineBlue .dxgvHFSC
+{
+    padding: 10px 0 6px;
+}
+.dxgvControl_MarineBlue .dxgvHFSC div
+{
+    height: 1px;
+    background: #8BB6EF;
+}
+.dxgvControl_MarineBlue div[id$='DXEPLPC']
+{
+    height: 60px;
+}
+
+.dxgvControl_MarineBlue .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_MarineBlue .dxgvHFDRC
+{
+    margin: 15px;
+}
+.dxgvControl_MarineBlue .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_MarineBlue .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_MarineBlue .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_MarineBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_MarineBlue td.dxgvBatchEditCell_MarineBlue
+{
+    padding: 0;
+}
+.dxgvControl_MarineBlue td.dxgvBatchEditModifiedCell_MarineBlue
+{
+    background: #d7f9c7;
+}
+.dxgvControl_MarineBlue .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_MarineBlue .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_MarineBlue .dxgvCommandColumn_MarineBlue a
+{
+    margin-right: 10px;
+}
+.dxgvControl_MarineBlue td.dxgvBatchEditCell_MarineBlue .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvSearchPanel_MarineBlue
+{
+    border-bottom: 1px solid #A3C0E8;
+	background: #ECF4FE;
+	padding: 10px 4px 10px 6px;
+}
+.dxgvSearchPanel_MarineBlue > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_MarineBlue .dxgvSearchPanel_MarineBlue .dxbButton_MarineBlue
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_MarineBlue .dxgvSearchPanel_MarineBlue .dxbButton_MarineBlue {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_MarineBlue .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_MarineBlue .dxgvSearchPanel_MarineBlue .dxbButton_MarineBlue
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_MarineBlue .dxgvSearchPanel_MarineBlue .dxbButton_MarineBlue .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvEditForm_MarineBlue .dxflGroupBoxCaption_MarineBlue {
+    background-color: #F7FAFF;
+}

@@ -1,0 +1,65 @@
+.dxwscCheckedTextContainer_RedWine
+{
+	background-color: white;
+	border: solid 1px #8a0a37;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;	
+}
+.dxwscErrorWord_RedWine
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxwscLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxwscLoadingPanel_RedWine .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_RedWine .dxwscDlgFooter
+{
+	background-color: #EED8E3;
+	border-top: 1px #CB9FB4 solid;
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_RedWine .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_RedWine .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_RedWine .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_RedWine .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+

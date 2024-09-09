@@ -1,0 +1,17 @@
+﻿@using AristaHRM.Models
+
+@model KaryawanModel
+
+@Html.DevExpress().GridLookup(settings =>
+{
+    settings.Name = "Karyawan" + ViewData["NIK"];
+    settings.Properties.TextFormatString = "{0}:{1}";
+    settings.Width = Unit.Pixel(400);
+    settings.GridViewProperties.CallbackRouteValues = new { Controller = "Settings", Action = "GridLookupPartial", CurrentID = Model.NIK };
+    settings.ShowModelErrors = true;
+    settings.KeyFieldName = "NIK";
+    settings.Properties.SelectionMode = GridLookupSelectionMode.Multiple;
+    settings.CommandColumn.Visible = true;
+    settings.Columns.Add("NIK");
+    settings.Columns.Add("Nama_Karyawan");
+}).BindList(Model.ListKaryawan).Bind(Model.KaryawanModels).GetHtml();

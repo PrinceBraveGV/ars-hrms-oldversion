@@ -1,0 +1,543 @@
+.dxpgControl_Office2010Black, .dxpgCustForm_Office2010Black
+{
+	color: Black;
+	font: 11px Verdana, Geneva, sans-serif;
+	border: 1px solid #484848;
+	background-color: white;
+}
+.dxpgContainerCell_Office2010Black
+{
+	vertical-align: top;
+}
+.dxpgMainTable_Office2010Black
+{
+	border-width: 0;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_Office2010Black
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_Office2010Black caption
+{
+	font-weight: normal;
+	padding: 3px 3px 5px;
+	text-align: center;
+	background: #757676 url('TitleBack.png') repeat-x left top;
+	color: White;
+	border-bottom: 1px solid #484848;
+}
+.dxpgHeader_Office2010Black
+{
+	border-width: 0;
+	color: White;
+	background: #6c6c6c url('HeaderBack.png') repeat-x left top;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxpgHeaderTable_Office2010Black
+{
+	border: 1px solid #484848;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_Office2010Black,
+.dxpgCustFieldsDiv_Office2010Black .dxpgHeaderTable_Office2010Black
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_Office2010Black
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_Office2010Black
+{
+	padding: 3px 6px;
+}
+.dxpgHeaderSort_Office2010Black
+{
+	padding: 0 4px 0 0;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_Office2010Black
+{
+	padding: 2px 2px 2px 0;
+	vertical-align: middle;
+}
+.dxpgHeaderHover_Office2010Black
+{
+	background: #848484 url('HeaderHoverBack.png') repeat-x left top;
+}
+.dxpgArea_Office2010Black, .dxpgArea_Office2010Black table
+{
+	color: Black;
+}
+.dxpgArea_Office2010Black
+{
+	border-width: 1px;
+	border-color: #484848;
+	border-style: none;
+	background-color: White;
+}
+.dxpgColumnArea_Office2010Black
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_Office2010Black
+{
+}
+.dxpgDataArea_Office2010Black
+{
+}
+.dxpgFilterArea_Office2010Black
+{
+	background-color: #d7d8d8;
+	color: Black;
+	border-bottom-style: solid;
+}
+.dxpgEmptyArea_Office2010Black
+{
+	cursor: default;
+	padding: 6px;
+}
+.dxpgColumnFieldValue_Office2010Black
+{
+    color: White;
+	background: #6c6c6c url('HeaderBack.png') repeat-x left top;
+	border: 1px solid #484848;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+	font-weight: normal;
+	text-align: left;
+}
+.dxpgColumnTotalFieldValue_Office2010Black
+{
+	background: #575757 url('TotalBack.png') repeat-x left top;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_Office2010Black
+{
+	background: #545454 url('GrandTotalBack.png') repeat-x left top;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_Office2010Black
+{
+    color: White;
+	background: #6c6c6c url('HeaderBack.png') repeat-x left top;
+	border: 1px solid #484848;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 3px 6px;
+	font-weight: normal;
+	text-align: left;
+}
+.dxpgRowTotalFieldValue_Office2010Black
+{
+	background: #575757 url('TotalBack.png') repeat-x left top;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_Office2010Black
+{	
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_Office2010Black
+{
+	background: #545454 url('GrandTotalBack.png') repeat-x left top;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxpgCollapsedButton_Office2010Black
+{
+	vertical-align: -2px;
+	border: 0;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_Office2010Black
+{
+	vertical-align: -1px;
+	border: 0;
+	margin-left: 5px;
+}
+.dxpgCell_Office2010Black
+{
+	text-align: right;
+	background-color: White;
+	border-color: #d2d2d2;
+	border-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 3px 4px;
+	white-space: nowrap;
+}
+.dxpgKPICell_Office2010Black
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_Office2010Black
+{
+	background-color: #f7f7f7;
+}
+.dxpgGrandTotalCell_Office2010Black
+{
+	background-color: #ebebeb;
+}
+.dxpgFilterItem_Office2010Black
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_Office2010Black
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_Office2010Black,
+.dxpgBottomPager_Office2010Black
+{
+    background: #7c7b7c url('PagerBack.png') repeat-x left top;
+    border-color: #484848;
+    border-style: solid;
+}
+.dxpgTopPager_Office2010Black
+{
+    border-width: 0 0 1px 0;
+}
+.dxpgBottomPager_Office2010Black
+{
+	border-width: 1px 0 0 0;
+}
+.dxpgTopPager_Office2010Black,
+.dxpgBottomPager_Office2010Black
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_Office2010Black
+{
+	color: White;
+}
+.dxpgCustomizationFieldsContent_Office2010Black
+{
+	padding: 0px !important;
+}
+.dxpgMenuItem_Office2010Black 
+{
+}
+.dxpgDataHeadersImage_Office2010Black
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_Office2010Black
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanel_Office2010Black
+{
+	border: none;
+	background: #d7d8d8;
+}
+.dxpgPrefilterPanelLink_Office2010Black
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanelCheckBoxCell_Office2010Black
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_Office2010Black
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_Office2010Black
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_Office2010Black
+{
+	padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_Office2010Black
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_Office2010Black
+{
+	background: #d7d8d8;
+	border-top: 1px solid #adadad;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_Office2010Black
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_Office2010Black,
+.dxpgCustFieldsRowAreaHeaders_Office2010Black,
+.dxpgCustFieldsColumnAreaHeaders_Office2010Black,
+.dxpgCustFieldsDataAreaHeaders_Office2010Black,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_Office2010Black,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_Office2010Black
+{
+    width: 100%;
+    height: 50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_Office2010Black
+{
+    height: 33%;
+}
+.StackedDefault .dxpgFLFRDiv_Office2010Black
+{
+    width: 50%;
+    height: 66%;
+    float: left;
+}
+.StackedDefault .dxpgFLCDDiv_Office2010Black
+{
+    width: 50%;
+    height: 66%;
+    float: right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_Office2010Black .dxpgFLTextDiv_Office2010Black,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_Office2010Black .dxpgFLTextDiv_Office2010Black
+{
+    height: 47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_Office2010Black
+{
+    width: 100%;
+    height: 100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_Office2010Black .dxeBase_Office2010Black,
+.TopPanelOnly .dxpgFLDefereDiv_Office2010Black .dxpgFLDefereDB_Office2010Black,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_Office2010Black,
+.TopPanelOnly .dxpgFLFRDiv_Office2010Black,
+.TopPanelOnly .dxpgFLCDDiv_Office2010Black,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_Office2010Black,
+.TopPanelOnly .dxpgFLTextDiv_Office2010Black div
+{
+    display: none;
+}
+.TopPanelOnly .dxpgFLTextDiv_Office2010Black
+{
+    height: 10px;
+}
+.TopPanelOnly .dxpgFLDefereDiv_Office2010Black
+{
+    height: 16px;
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_Office2010Black,
+.StackedSideBySide .dxpgCustFieldsFieldList_Office2010Black
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_Office2010Black
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.StackedSideBySide .dxpgFLFRDiv_Office2010Black,
+.StackedSideBySide .dxpgFLCDDiv_Office2010Black
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.dxpgCustFields_Office2010Black
+{
+    display: block;
+    position: relative;
+}
+.dxpgFLListDiv_Office2010Black > div
+{
+    border: 1px solid #484848;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 1px;
+    background: White;
+    overflow: hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_Office2010Black > div > div
+{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0px;
+    background: White;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.DragOver .dxpgFLListDiv_Office2010Black > div
+{
+    background: #ffd324;
+}
+.dxpgFLListDiv_Office2010Black
+{
+    padding: 0px 3px;
+}
+.dxpgFLButtonDiv_Office2010Black .dxbButton_Office2010Black div.dxb
+{
+	border: 1px dotted transparent;
+	padding: 1px 7px 0px;
+}
+.dxpgFLButtonDiv_Office2010Black .dxbButton_Office2010Black div.dxbf
+{
+	border: 1px dotted Black;
+}
+.dxpgFLTextDiv_Office2010Black
+{
+    height: 28px;
+}
+.dxpgFLTextDiv_Office2010Black div
+{
+   display: block;
+   float: left;
+   margin: -17px 0px 3px;
+   left: 6px;
+   top: 100%;
+   position: relative;
+}
+.dxpgFLButtonDiv_Office2010Black
+{
+    float: right;
+    height: 28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_Office2010Black
+{
+    height: 46px;
+}
+.dxpgCustFieldsDiv_Office2010Black
+{
+     clear: both;
+     padding: 0px 9px;
+}
+.dxpgFLButton_Office2010Black
+{
+     margin: 7px 12px 0px 0px;
+     width: 40px;
+     height: 23px;
+}
+.dxpgFLDefereDiv_Office2010Black .dxeBase_Office2010Black
+{
+     float: left;
+     display: block;
+     border-collapse: separate;
+     padding: 13px 0px 0px 0px;
+     margin-left: 8px;
+}
+.dxpgFLDefereDB_Office2010Black
+{
+    float: right;
+    display: block;
+    margin: 12px 12px 0 0;
+}
+.dxpgFLDefereDiv_Office2010Black .dxbButton_Office2010Black div.dxb
+{
+    padding: 1px 13px;
+    border: 1px dotted transparent;
+}
+.dxpgFLDefereDiv_Office2010Black .dxbButton_Office2010Black div.dxbf
+{
+    border: 1px dotted Black;
+}
+.dxpgFLListDiv_Office2010Black table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_Office2010Black table table td
+{
+     overflow:hidden; 
+}
+div.dxpgFLTextImgDiv_Office2010Black
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_Office2010Black
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxpgLoadingPanel_Office2010Black td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxpgLoadingPanel_Office2010Black .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+
+.dxpgVScrollBarAreaCell_Office2010Black {
+     background: #6c6c6c url('HeaderBack.png') repeat-x left top;
+     border-left: 1px solid #484848;
+     border-bottom: 1px solid #484848;
+ }
+.dxpgHScrollBarAreaCell_Office2010Black {
+    background: #6c6c6c url('HeaderBack.png') repeat-x left top;
+    border-top: 1px solid #484848;
+    border-right: 1px solid #484848;
+}
+.dxpgScrollBarEdgeCell_Office2010Black {
+    background-color: White;
+    border-left: 1px solid #484848;
+    border-top: 1px solid #484848;
+}

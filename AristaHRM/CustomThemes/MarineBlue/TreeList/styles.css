@@ -1,0 +1,295 @@
+.dxtlControl_MarineBlue
+{
+	cursor: default;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	border: 1px none #A3C0E8;
+}
+.dxtlControl_MarineBlue caption
+{
+	background: #F7FAFF none;
+	color: #000000;
+	border-bottom: 0 solid #A3C0E8;
+	border: 1px solid #A3C0E8;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 5px 6px;
+}
+
+/* Indent cells */
+.dxtlIndent_MarineBlue,
+.dxtlIndentWithButton_MarineBlue
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_MarineBlue
+{
+	padding: 0 11px;
+}
+.dxtlICheckBox_MarineBlue
+{
+	margin: auto;
+}
+.dxtlIndentWithButton_MarineBlue
+{
+	padding: 4px;
+}
+.dxtlSelectionCell_MarineBlue
+{
+	border: 1px solid #C9D6E9;
+}
+
+/* Tree-lines cells */
+.dxtlLineRoot_MarineBlue
+{
+	background: White url('CssImages/TreeLineRoot.gif') repeat-y top center;
+}
+.dxtlLineFirst_MarineBlue
+{
+	background-image: url('CssImages/TreeLineFirst.gif');
+}
+.dxtlLineMiddle_MarineBlue
+{
+	background-image: url('CssImages/TreeLineMiddle.gif');
+}
+.dxtlLineLast_MarineBlue
+{
+	background-image: url('CssImages/TreeLineLast.gif');
+}
+
+.dxtlLineFirstRtl_MarineBlue
+{
+	background-image: url('CssImages/TreeLineFirstRtl.gif');
+}
+.dxtlLineMiddleRtl_MarineBlue
+{
+	background-image: url('CssImages/TreeLineMiddleRtl.gif');
+}
+.dxtlLineLastRtl_MarineBlue
+{
+	background-image: url('CssImages/TreeLineLastRtl.gif');
+}
+
+
+/* Headers */
+.dxtlControl_MarineBlue .dxtlHSDC 
+{
+    background: #C7DFFF;
+}
+.dxtlHeader_MarineBlue
+{
+    background: #E2F0FF url('CssImages/HeaderBack.gif') repeat-x;
+	border: 1px solid #A3C0E8;
+	padding: 5px;
+	font-weight: normal;
+}
+.dxtlHeader_MarineBlue table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_MarineBlue td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_MarineBlue,
+.dxtlHeader_MarineBlue td.dxtl
+{
+	color: #283B56;
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_MarineBlue
+{
+	background: white none;
+}
+.dxtlAltNode_MarineBlue
+{
+	background: #F7FAFF none;
+}
+.dxtlSelectedNode_MarineBlue
+{
+	background: #FFBD69 none;
+}
+.dxtlFocusedNode_MarineBlue
+{
+	background: #FF9C3C none;
+}
+.dxtlInlineEditNode_MarineBlue
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_MarineBlue
+{
+	background: #ECF4FE none;
+}
+.dxtlNode_MarineBlue td.dxtl, 
+.dxtlAltNode_MarineBlue  td.dxtl, 
+.dxtlSelectedNode_MarineBlue td.dxtl, 
+.dxtlFocusedNode_MarineBlue td.dxtl,
+.dxtlEditFormDisplayNode_MarineBlue td.dxtl,
+.dxtlCommandCell_MarineBlue
+{
+	padding: 4px 5px 5px;
+	border: 1px solid #C9D6E9;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlHeader_MarineBlue .dxbButton_MarineBlue,
+.dxtlCommandCell_MarineBlue .dxbButton_MarineBlue
+{
+    margin: 0 2px -1px 2px;
+}
+.dxtlHeader_MarineBlue .dxbButton_MarineBlue .dxb,
+.dxtlCommandCel_MarineBlue .dxbButton_MarineBlue .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxtlInlineEditNode_MarineBlue td.dxtl
+{
+	border: 1px solid #C9D6E9;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_MarineBlue
+{
+	background-color: #F7FAFF;
+	color: #000000;
+	padding: 15px 15px 20px;
+	border: 1px solid #C9D6E9;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_MarineBlue
+{
+	background-color: #EEF3FF;
+}
+.dxtlFooter_MarineBlue,
+.dxtlControl_MarineBlue .dxtlFSDC
+{
+	background-color: #EEF3FF;
+}
+.dxtlGroupFooter_MarineBlue td.dxtl,
+.dxtlFooter_MarineBlue td.dxtl
+{
+	padding: 5px 6px 7px;
+	white-space: nowrap;
+	border: 1px solid #C9D6E9;
+	overflow: hidden;
+}
+.dxtlGroupFooter_MarineBlue .dx-ar > br,
+.dxtlFooter_MarineBlue .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_MarineBlue
+{
+	border-bottom: 1px none #A3C0E8;
+	background-color: #C7DFFF;
+}
+.dxtlPagerBottomPanel_MarineBlue
+{
+	border-top: 1px none #A3C0E8;
+	background-color: #C7DFFF;
+}
+.dxtlPagerTopPanel_MarineBlue,
+.dxtlPagerBottomPanel_MarineBlue
+{
+	padding: 2px 0;
+}
+
+/* Editing */
+.dxtlEditForm_MarineBlue
+{
+	background: #F7FAFF none;
+	border: 1px solid #C9D6E9;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_MarineBlue,
+.dxtlEditFormEditCell_MarineBlue
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_MarineBlue
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_MarineBlue
+{
+	background: #DBEBFF none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #C9D6E9;
+}
+.dxtlPopupEditForm_MarineBlue
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_MarineBlue a,
+.dxtlCommandCell_MarineBlue a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxtlControl_MarineBlue a:hover
+{
+	color: #F39128;
+	text-decoration: underline;
+}
+.dxtlHeader_MarineBlue a,
+.dxtlFocusedNode_MarineBlue a,
+.dxtlSelectedNode_MarineBlue a
+{
+	color: #5689C5;
+}
+.dxtlHeader_MarineBlue a:hover,
+.dxtlFocusedNode_MarineBlue a:hover,
+.dxtlSelectedNode_MarineBlue a:hover
+{
+	color: #F39128;
+}
+.dxtlCommandCell_MarineBlue a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxtlLoadingPanel_MarineBlue  td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxtlLoadingPanel_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+/* Disabled */
+.dxtlDisabled_MarineBlue,
+.dxtlDisabled_MarineBlue .dxtl_MarineBlue
+{
+	color: #A1A1A1;
+	cursor: default;
+}
+

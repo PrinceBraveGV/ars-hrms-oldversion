@@ -1,0 +1,470 @@
+.dxscControl_Office2003Blue
+{    
+    background: #4F93E3;
+    border: solid 1px #4F93E3;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxscLoadingPanel_Office2003Blue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #4B77B8;
+	border: 1px solid #4F93E3;
+	background-color: White;
+}
+.dxscLoadingPanel_Office2003Blue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxscLoadingPanel_Office2003Blue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+/* Headers */
+.dxscDateHeader_Office2003Blue, 
+.dxscAlternateDateHeader_Office2003Blue,
+.dxscDayHeader_Office2003Blue,
+.dxscDateCellHeader_Office2003Blue,
+.dxscTodayCellHeader_Office2003Blue,
+.dxscTimelineDateHeader_Office2003Blue,
+.dxscHorizontalResourceHeader_Office2003Blue,
+.dxscVerticalResourceHeader_Office2003Blue
+{    
+    color: black;
+    background: url('CssImages/DateHeaderBack.gif') repeat-x left top #BDD4F2;
+    border: solid 1px #4F93E3;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;	
+}
+
+.dxscAlternateTimelineDateHeader_Office2003Blue,
+.dxscAlternateDateHeader_Office2003Blue
+{    
+    background: url('CssImages/DateHeaderAltBack.gif') repeat-x left top #FFD294;
+    color: black;
+}
+.dxscDayHeader_Office2003Blue
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_Office2003Blue
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_Office2003Blue
+{    
+    border-top-width: 1px;
+    background: #7CABC4;
+    color: #FFFFFF;
+}
+.dxscTimelineDateHeader_Office2003Blue
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_Office2003Blue
+{
+    border-color: #4F93E3;
+    border-width: 1px 1px 1px 0;
+    background: url('CssImages/ResourceHeaderBack.gif') repeat-x left top #99BDF0;    
+}
+.dxscVerticalResourceHeader_Office2003Blue
+{
+    border-width: 1px 1px 0 0;
+    border-top-color: #4F93E3;
+    background: #BCD4F3;    
+    white-space: normal;
+}
+.dxscSelectionBar_Office2003Blue 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_Office2003Blue, 
+.dxscRightTopCorner_Office2003Blue
+{
+    background-color: #E3EDFE;
+    width: 1px;
+    border-style: solid;
+    border-color: #4F93E3;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_Office2003Blue
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.91em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_Office2003Blue ,
+.dxscGroupSeparatorHorizontal_Office2003Blue
+{
+    background: #EAF3FE;
+    border: solid 1px #4F93E3;
+}
+.dxscGroupSeparatorVertical_Office2003Blue
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_Office2003Blue
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_Office2003Blue
+{
+    background-color: #E3EDFE;
+    border: solid 1px #BFD3EE ;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_Office2003Blue 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_Office2003Blue
+{
+    border: solid 1px;
+}
+.dxscTimelineCellBody_Office2003Blue
+{
+    height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_Office2003Blue
+{
+    color: black;
+    font-size: 0.91em;
+    border: solid 1px #7f9db9;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+
+.dxscAppointmentInnerBorders_Office2003Blue
+{	
+    border: solid 1px #7f9db9;
+    padding: 0px;
+}
+.dxscMoreButton_Office2003Blue
+{
+    font-size: 0.91em;
+    color: black;
+    text-decoration: underline;	
+    padding: 0;	
+}
+.dxscAppointmentHorizontalSeparator_Office2003Blue
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+/* Rulers */
+.dxscTimeRulerHoursItem_Office2003Blue, .dxscTimeRulerMinuteItem_Office2003Blue
+{
+    color:black;
+    background: #EFF5FE;
+    border: solid 1px #BFD3EE ;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_Office2003Blue
+{
+    border-right-width: 0;
+    border-left-color: black;
+    font-size: 1.42em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_Office2003Blue
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.91em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_Office2003Blue
+{
+    width: 55px;
+}
+.dxscTimeRulerHeaderMinuteItem_Office2003Blue
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_Office2003Blue 
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_Office2003Blue 
+{
+    background-color: #A4C6F8;
+}
+.dxscToolbar_Office2003Blue 
+{
+    padding: 9px 0px 9px 12px;
+}
+.dxscViewSelector_Office2003Blue 
+{    
+    background-color: #A4C6F8;
+    padding: 0px 0px;   
+}
+.dxscResourceNavigator_Office2003Blue 
+{    
+    background: #BCD5F5;
+    padding: 7px;
+    border: solid 1px #4F93E3;
+}
+.dxscViewVisibleInterval_Office2003Blue
+{
+    color: black;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_Office2003Blue
+{
+    background: #A4C6F8;
+    border: solid 3px black;
+    padding: 0;
+    font-size: 0.91em;
+    color: Black;
+}
+.dxscErrorInfo_Office2003Blue
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px Black;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewNavigatorButton_Office2003Blue,
+.dxscViewNavigatorGotoDateButton_Office2003Blue
+{    
+    background: url('CssImages/ButtonBack.gif') repeat-x #99BDF0;
+    border: solid 1px #4F93E3;
+    color: black;
+    line-height: 100%;
+    padding: 4px 7px;
+
+    min-height: 1em;
+    display: block!important;
+}
+.dxscViewNavigatorGotoDateButton_Office2003Blue 
+{
+    padding: 4px 6px;
+}
+.dxscViewNavigatorButton_Office2003Blue.dxscViewNavigatorGotoTodayButton
+{    
+    padding: 2px 7px;
+}
+.dxscViewNavigatorButtonHover_Office2003Blue,
+.dxscViewNavigatorGotoDateButtonHover_Office2003Blue 
+{
+    background: url('CssImages/ButtonHoverBack.gif') repeat-x #FFD396;
+}
+.dxscViewNavigatorButtonPressedHover_Office2003Blue,
+.dxscViewNavigatorGotoDateButtonPressedHover_Office2003Blue
+{
+    background: url('CssImages/ButtonPressedBack.gif') repeat-x #FFCB87;
+}
+
+.dxscViewSelectorButton_Office2003Blue 
+{
+    background: url('CssImages/ViewSelectorButtonBack.gif') repeat-x left top #99BDF0;
+    border: solid 1px #4F93E3;
+    border-width: 0 0 0 1px;
+    padding: 13px 18px;
+    color: Black;
+}
+.dxscViewSelectorButtonHover_Office2003Blue 
+{
+    background: url('CssImages/ViewSelectorButtonBackHover.gif') repeat-x #FFD294;
+    border-color: #4F93E3;
+}
+.dxscViewSelectorButtonChecked_Office2003Blue 
+{
+    background: url('CssImages/ViewSelectorButtonBackPressed.gif') repeat-x #FFCF8B;
+    border-color: #4F93E3;
+}
+.dxscViewSelectorButtonPressed_Office2003Blue
+{
+    background: url('CssImages/ViewSelectorButtonBackPressed.gif') repeat-x #FFCF8B;
+    border-color: #4F93E3;
+}
+
+.dxscResourceNavigatorButton_Office2003Blue
+{    
+    background: #99BDF0;
+    cursor: pointer;
+}
+.dxscResourceNavigatorButtonHover_Office2003Blue
+{
+    background: #FFD294;
+}
+.dxscResourceNavigatorButtonPressed_Office2003Blue
+{
+    background: #FFD294;
+}
+
+.dxscNavigationButton_Office2003Blue
+{
+    background: #99BDF0;
+    cursor: pointer;
+}
+.dxscNavigationButtonHover_Office2003Blue
+{
+    background: #FFD294;    
+}
+.dxscNavigationButtonPressed_Office2003Blue
+{
+    background: #FFD294;    
+}
+
+.dxscSmartTagButton_Office2003Blue 
+{
+    background: url('CssImages/ButtonBack.gif') repeat-x #99BDF0;
+    border: solid 1px #4F93E3;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+.dxscDVBottomMoreButton_Office2003Blue,
+.dxscDVTopMoreButton_Office2003Blue
+{
+    cursor: pointer;
+}
+
+.dxscNoBorderButton_Office2003Blue
+{
+    cursor: pointer;
+    border: solid 1px #A4C6F8;
+}
+.dxscNoBorderButtonHover_Office2003Blue
+{
+    background: #C4DFEE;
+    border-color: #A4BED1;
+}
+.dxscNoBorderButtonPressed_Office2003Blue
+{
+    background: #B6D5E3;
+    border-color: #A4BED1;
+}
+.dxscControlAreaForm_Office2003Blue
+{
+    font-size: 1.33em;
+    color: black;
+    white-space: normal;
+    padding: 9px 12px 13px 12px;
+    background-color: white;	
+}
+.dxscToolTipRoundedCornersTopBottomRow_Office2003Blue
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_Office2003Blue
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_Office2003Blue
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_Office2003Blue
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_Office2003Blue
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_Office2003Blue
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_Office2003Blue
+{
+    background: #f9f9cd;
+    padding: 0;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_Office2003Blue 
+{
+    top:-8px;
+}
+.dxscTimeMarkerLine_Office2003Blue 
+{
+    top:-2px;
+    height:3px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_Office2003Blue 
+{
+    position:absolute;
+    background-color:#4F93E3;
+    width:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-top-width:0;
+    border-bottom-width:0;
+}
+.dxscTimeMarkerLineH_Office2003Blue
+{
+    position:absolute;
+    top:-2px;
+    background-color:#4F93E3;
+    height:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-left-width:0;
+    border-right-width:0;
+}

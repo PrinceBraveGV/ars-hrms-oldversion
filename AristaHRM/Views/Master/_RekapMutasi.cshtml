@@ -1,0 +1,11 @@
+﻿@* Bagian rekap mutasi/PMK *@
+@using AristaHRM.Models
+
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+
+    });
+}
+
+@grid.Bind(Model).GetHtml()

@@ -1,0 +1,22 @@
+﻿@using AristaHRM.Models
+
+@model KaryawanModel
+
+@Html.DevExpress().ComboBoxFor(m => m.Cabang, combosettings =>
+{
+    combosettings.Name = "Cabang";
+    combosettings.CallbackRouteValues = new { Controller = "Home", Action = "CabangPartial" };
+    combosettings.Properties.NullText = "-- Pilih Cabang --";
+    combosettings.Properties.HelpText = "(*) Pilih cabang atau lokasi kerja ybs saat ini.";
+    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combosettings.Properties.TextField = "Nama_Cabang";
+    combosettings.Properties.ValueField = "Nama_Cabang";
+    combosettings.Properties.EnableClientSideAPI = true;
+    combosettings.Style.Add("vertical-align", "top");
+    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    combosettings.Properties.ValidationSettings.Display = Display.None;
+    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+    combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Perusahaan'] = Perusahaan.GetValue(); }";
+    combosettings.Width = Unit.Pixel(300);
+    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+}).BindList(Providers.GetCabangByPerusahaan(Model.Perusahaan)).Bind(Model.Cabang).GetHtml()

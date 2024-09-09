@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "HRIS - Manajemen Berkas";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#ListViewMode").change(function () {
+            $("form").submit();
+        });
+    });
+
+    function onSelectionChanged(s, e) {
+        selectedFilesList.ClearItems();
+        var selectedFiles = s.GetSelectedItems();
+        for (var i = 0; i < selectedFiles.length; i++) {
+            selectedFilesList.AddItem(selectedFiles[i].name);
+        }
+        $("#count").html(selectedFiles.length);
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Manajemen Berkas/File</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial">Anda dapat melakukan pengaturan berkas berupa pengunggahan, unduhan dan lainnya melalui sistem manajemen berkas di bawah ini.</label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            <div style="font: 12px Arial; text-align:center">
+                            <label>Tampilan:</label>
+                            @Html.DropDownList("ListViewMode", FileManagerHelper.GetListViewMode(), new { style = "width:150px; font: 12px Arial" })
+                            </div>
+                            <br />
+                            @Html.Partial("_FileManager");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

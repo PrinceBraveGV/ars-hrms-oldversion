@@ -1,0 +1,756 @@
+.dxgvControl_SoftOrange,
+.dxgvDisabled_SoftOrange
+{
+	border: 4px Solid #d3d3d3;
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: #F9F9F9;
+	color: Black;
+	cursor: default;
+}
+.dxgvDisabled_SoftOrange
+{
+	color: Gray;
+}
+.dxgvControl_SoftOrange a
+{
+	color: #5555FF;
+}
+.dxgvDisabled_SoftOrange a
+{
+	color: Gray;
+}
+
+.dxgvEmptyDataRow_SoftOrange.dxgvBELVR > td.dxgv,
+.dxgvDataRow_SoftOrange.dxgvBELVR > td.dxgv,
+.dxgvGroupRow_SoftOrange.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+
+.dxgvRBB .dxgvEmptyDataRow_SoftOrange.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_SoftOrange.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_SoftOrange.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanelStatusBar_SoftOrange .dxlp-loadingImage 
+{
+	background-image: url('gvLoadingOnStatusBar.gif');
+	height: 16px;
+	width: 16px;
+}
+
+.dxgvLoadingPanel_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #f88538;
+	background-color: White;
+	border: 1px solid #F88538;
+}
+.dxgvLoadingPanel_SoftOrange td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxgvLoadingPanel_SoftOrange .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxgvLoadingPanelStatusBar_SoftOrange
+{
+	background-color: transparent;
+}
+.dxgvLoadingPanelStatusBar_SoftOrange td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_SoftOrange
+{
+	color: Black;
+	border: 4px solid #969696;
+}
+.dxgvFilterPopupItemsArea_SoftOrange
+{
+	color: Black;
+	background-color: White;
+}
+.dxgvFilterPopupButtonPanel_SoftOrange
+{
+	background-color: #f9f9f9;
+	border: 1px solid #dcdcdc;
+	border-left: 0px solid #dcdcdc;
+	color: Black;
+}
+
+.dxgvFilterPopupItem_SoftOrange td.dxgv,
+.dxgvFilterPopupActiveItem_SoftOrange td.dxgv,
+.dxgvFilterPopupSelectedItem_SoftOrange td.dxgv
+{
+	padding: 2px 2px 2px 3px;
+	border-left: 1px solid White;
+	border-top: 1px solid White;
+	border-right: 1px solid White;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_SoftOrange
+{
+	background-color: #d7d7d7;
+	color: black;
+}
+.dxgvFilterPopupSelectedItem_SoftOrange
+{
+	background: #f26f39 none;
+	color: white;
+}
+
+.dxgvTable_SoftOrange
+{
+	background-color: White;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+    font-size: 1.08em;
+}
+.dxgvTable_SoftOrange .dxgvHEC
+{
+	background-color: White;
+	border-width: 0;
+	overflow: hidden;
+}
+.dxgvControl_SoftOrange .dxgvFSDC .dxgvFooter_SoftOrange td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_SoftOrange .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_SoftOrange .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_SoftOrange .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_SoftOrange,
+.dxgvDataRow_SoftOrange
+{
+	background-color: #f8f8f8;
+}
+.dxgvInlineEditRow_SoftOrange td.dxgv
+{
+	border-bottom: 1px Solid #D3D3D3;
+	border-right: 1px Solid #D3D3D3;
+}
+.dxgvInlineEditRow_SoftOrange td.dxgvIndentCell
+{
+	background-color: #D3D3D3;
+}
+.dxgvDataRowAlt_SoftOrange
+{
+	background-color: #ffffff;
+}
+.dxgvFilterRow_SoftOrange
+{
+	background-color: #f2f2f2;
+}
+.dxgvEditForm_SoftOrange
+{
+	background-color: #FCFCFC;
+}
+.dxgvEditForm_SoftOrange td.dxgv
+{
+	border-bottom: 1px Solid #D3D3D3;
+	padding: 8px 10px 10px;
+}
+.dxgvEditForm_SoftOrange td.dxgvIndentCell
+{
+	background: #d3d3d3 none;
+	border-right: 1px Solid #c5c5c5;
+	border-left: 1px Solid #c5c5c5;
+	border-top-width: 0px;
+}
+.dxgvEditForm_SoftOrange a
+{
+	color: #bc3f26;
+}
+.dxgvEditForm_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+
+.dxgvSelectedRow_SoftOrange
+{
+	background-color: #d3d3d3;
+	color: Black;
+}
+.dxgvFocusedRow_SoftOrange
+{
+	background-color: #f16a39;
+	color: White;
+}
+.dxgvFocusedRow_SoftOrange .dxgvCommandColumn_SoftOrange a,
+.dxgvFocusedRow_SoftOrange .dxgvAIC a,
+.dxgvFocusedRow_SoftOrange a.dxeHyperlink
+{
+	color: #ffffff;
+}
+.dxgvSelectedRow_SoftOrange .dxgvCommandColumn_SoftOrange a:hover, 
+.dxgvSelectedRow_SoftOrange .dxgvAIC a:hover, 
+.dxgvFocusedRow_SoftOrange .dxgvCommandColumn_SoftOrange a:hover,
+.dxgvFocusedRow_SoftOrange .dxgvAIC a:hover
+{
+	color: #ffffff;
+}
+.dxgvPreviewRow_SoftOrange
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+.dxgvDetailRow_SoftOrange td.dxgv,
+.dxgvPreviewRow_SoftOrange td.dxgv,
+.dxgvEmptyDataRow_SoftOrange td.dxgv
+{
+	padding: 20px 2px 20px 4px;
+	border-bottom: 1px Solid #D3D3D3;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvPreviewRow_SoftOrange td.dxgv
+{
+	padding: 10px 10px 10px 15px;
+}
+.dxgvDetailRow_SoftOrange td.dxgvDetailCell_SoftOrange
+{
+	padding: 16px 18px;
+}
+.dxgvDetailRow_SoftOrange td.dxgvIndentCell
+{
+	padding-right: 0px;
+	border-bottom: 1px Solid #D3D3D3;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 5px 0;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_SoftOrange.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -4px 0 -3px 0;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR.dxgvFocusedRow_SoftOrange .dxgvADCC,
+.dxgvDetailRow_SoftOrange.dxgvADR.dxgvFocusedRow_SoftOrange .dxgvADDC,
+.dxgvDetailRow_SoftOrange.dxgvADR.dxgvFocusedRow_SoftOrange .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR.dxgvSelectedRow_SoftOrange .dxgvADCC
+{
+    color: inherit;
+}
+.dxgvEmptyDataRow_SoftOrange
+{
+	color: Gray;
+}
+.dxgvEmptyDataRow_SoftOrange td.dxgv
+{
+	border-bottom: 1px Solid #c5c5c5;
+	text-align: center;
+}
+
+.dxgvEditFormDisplayRow_SoftOrange td.dxgv,
+.dxgvDetailCell_SoftOrange td.dxgv,
+.dxgvDataRow_SoftOrange td.dxgv,
+.dxgvDetailRow_SoftOrange.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-bottom: 1px Solid #c5c5c5;
+	border-right: 1px Solid #c5c5c5;
+	border-top-width: 0;
+	padding: 2px 8px 3px;
+}
+.dxgvDataRow_SoftOrange td.dxgvAIC,
+.dxgvInlineEditRow_SoftOrange td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvDetailRow_SoftOrange.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_SoftOrange
+{
+}
+.dxgvEditFormDisplayRow_SoftOrange td.dxgv
+{
+}
+.dxgvEditFormDisplayRow_SoftOrange td.dxgvIndentCell
+{
+	background: #d3d3d3 none;
+	border-right: 1px Solid #c5c5c5;
+	border-left: 1px Solid #c5c5c5;
+	border-top-width: 0px;
+}
+
+.dxgvEditingErrorRow_SoftOrange
+{
+	background-color: #FFC8C8;
+	color: #FF0000;
+}
+.dxgvEditingErrorRow_SoftOrange td.dxgv
+{
+	white-space: pre-wrap;
+	border-bottom: 1px Solid #D3D3D3;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 10px;
+}
+
+.dxgvFilterRow_SoftOrange td.dxgv
+{
+	border-bottom: 1px Solid #C1C1C1;
+	border-right: 1px Solid #C1C1C1;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 4px;
+	overflow: hidden;
+}
+.dxgvGroupRow_SoftOrange
+{
+	background: #D3D3D3 url('gvGroupRowBack.gif') repeat-x left top;
+}
+.dxgvFocusedGroupRow_SoftOrange
+{
+	background-color: #f16a39;
+	color: White;
+}
+.dxgvGroupRow_SoftOrange td.dxgv,
+.dxgvFocusedGroupRow_SoftOrange td.dxgv
+{
+	border: 0 none;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom: 1px Solid #c5c5c5;
+	padding: 2px 4px 3px 8px;
+    background-color: inherit;
+}
+.dxgvHeaderPanel_SoftOrange
+{
+	background-color: #F9F9F9;
+	color: Black;
+	padding: 8px 4px;
+	border-bottom: 1px Solid #9F9F9F;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_SoftOrange,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_SoftOrange
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_SoftOrange,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_SoftOrange
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_SoftOrange
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 5px 8px 6px;
+	border: 1px dotted #5c5c5c;
+	background-color: #969696;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+
+.dxgvHeader_SoftOrange a,
+.dxgvHeader_SoftOrange a:hover
+{
+	color: White;
+}
+
+.dxgvHeader_SoftOrange,
+.dxgvHeader_SoftOrange table
+{
+	color: #FFFFFF;
+}
+.dxgvHeader_SoftOrange td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_SoftOrange a.dxgvCommandColumnItem_SoftOrange
+{
+	margin: 0px 3px 0px 0px;
+	color: White;
+}
+.dxgvHeader_SoftOrange a.dxgvCommandColumnItem_SoftOrange:hover
+{
+	color: White;
+}
+.dxgvCustomization_SoftOrange, 
+.dxgvPopupEditForm_SoftOrange
+{
+	padding: 0;
+	margin: 0;
+}
+.dxgvPopupEditForm_SoftOrange a
+{
+	color: #bc3f26;
+}
+.dxgvPopupEditForm_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+
+.dxgvGroupPanel_SoftOrange
+{
+	white-space: nowrap;
+	background: #fcfcfc url('gvGroupPanelBackground.gif') repeat-x bottom;
+	border-bottom: 1px dotted #5c5c5c;
+	padding: 8px 4px 8px 10px;
+}
+.dxgvAdaptiveHeaderPanel_SoftOrange
+{
+	background: #fcfcfc url('gvGroupPanelBackground.gif') repeat-x bottom;
+	border-bottom: 1px dotted #5c5c5c;
+    padding-top: 10px;
+}
+.dxgvAdaptiveFooterPanel_SoftOrange
+{
+    background-color: #dddddd;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_SoftOrange,
+.dxgvAdaptiveFooterPanel_SoftOrange
+{
+    padding-left: 26px;
+}
+.dxgvFooter_SoftOrange
+{
+	background-color: #dddddd;
+	white-space: nowrap;
+}
+.dxgvFooter_SoftOrange td.dxgv
+{
+	padding: 4px 8px 5px;
+	border-bottom: 1px Solid #BCBCBC;
+	border-right-width: 1px;
+}
+.dxgvGroupFooter_SoftOrange
+{
+	background-color: #E0E0E0;
+}
+.dxgvGroupFooter_SoftOrange td.dxgv
+{
+	padding: 4px 8px 5px;
+	border-bottom: 1px Solid #c5c5c5;
+	white-space: nowrap;
+}
+.dxgvDataRow_SoftOrange td.dxgvIndentCell,
+.dxgvDetailRow_SoftOrange td.dxgvIndentCell,
+.dxgvPreviewRow_SoftOrange td.dxgvIndentCell,
+.dxgvGroupRow_SoftOrange td.dxgvIndentCell,
+.dxgvGroupFooter_SoftOrange td.dxgvIndentCell
+{
+	background: #D3D3D3 none;
+	border-right: 1px Solid #c5c5c5;
+	border-left: 1px Solid #c5c5c5;
+	border-top-width: 0px;
+}
+.dxgvFocusedRow_SoftOrange td.dxgvIndentCell,
+.dxgvFocusedGroupRow_SoftOrange td.dxgvIndentCell,
+.dxgvSelectedRow_SoftOrange td.dxgvIndentCell
+{
+	background-color: #D3D3D3!important;
+	border-right: 1px solid #C5C5C5;
+	border-left: 1px solid #C5C5C5;
+	border-top-width: 0px;
+}
+.dxgvTitlePanel_SoftOrange,
+.dxgvTable_SoftOrange caption
+{
+	font-size: 1.25em;
+	font-weight: normal;
+	padding: 4px 3px;
+	text-align: center;
+	background-color: #ACACAC;
+	color: White;
+	border-bottom: 1px Solid #9F9F9F;
+}
+.dxgvTable_SoftOrange caption
+{
+	border-bottom: 1px dotted #5c5c5c;
+}
+.dxgvStatusBar_SoftOrange
+{
+	border-top: 1px Solid #9F9F9F;
+}
+.dxgvStatusBar_SoftOrange tr.dxgv
+{
+	height: 20px;
+}
+.dxgvStatusBar_SoftOrange tr.dxgv > td
+{
+	padding: 4px;
+}
+.dxgvCommandColumn_SoftOrange
+{
+	padding: 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_SoftOrange a
+{
+	color: #bc3f26;
+	margin: 0px 3px 0px 0px;
+}
+.dxgvCommandColumn_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+
+.dxgvCommandColumnItem_SoftOrange
+{
+}
+.dxbButton_SoftOrange[class~="dxgvCommandColumnItem_SoftOrange"],
+.dxgvEditFormTable_SoftOrange div.dxbButton_SoftOrange
+{
+	margin: 0px 2px 0px 2px;
+}
+.dxbButton_SoftOrange[class~="dxgvCommandColumnItem_SoftOrange"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_SoftOrange a.dxgvCommandColumnItem_SoftOrange
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+.dxgvEditFormTable_SoftOrange
+{
+	padding: 2px 6px 6px 4px;
+	font-size: 0.91em;
+	color: Black;
+}
+.dxgvEditFormCaption_SoftOrange
+{
+	padding: 5px 4px 4px 10px;
+	white-space: nowrap;
+}
+
+.dxgvInlineEditCell_SoftOrange
+{
+	padding: 1px;
+}
+
+.dxgvEditFormCell_SoftOrange
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvPagerTopPanel_SoftOrange,
+.dxgvPagerBottomPanel_SoftOrange
+{
+	padding-top: 2px;
+}
+
+.dxgvFilterBar_SoftOrange
+{
+	border-top: 1px solid #dfdfdf;
+	background: #f2f2f2 none;
+}
+.dxgvFilterBar_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxgvFilterBar_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+.dxgvFilterBarCheckBoxCell_SoftOrange
+{
+	padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_SoftOrange
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_SoftOrange
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_SoftOrange
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_SoftOrange
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_SoftOrange
+{
+	background-color: #e9e9e9;
+	border-top: 1px solid #E0E0E0;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxgvDataRowHover_SoftOrange
+{
+	background: #ff9460 none;
+	color: White;
+}
+.dxgvControl_SoftOrange .dxgvHFSAC
+{
+    padding: 6px 0 0 4px;
+}
+.dxgvControl_SoftOrange .dxgvHFC
+{
+    padding-left: 4px;
+    padding-bottom: 3px;
+}
+.dxgvControl_SoftOrange .dxgvHFC .dxeCalendar_SoftOrange
+{
+    margin-top: 3px;
+    margin-left: 22px;
+}
+.dxgvControl_SoftOrange .dxgvHFSC
+{
+    padding: 7px 0 5px;
+}
+.dxgvControl_SoftOrange .dxgvHFSC div
+{
+    height: 1px;
+    background: #D3D3D3;
+}
+.dxgvControl_SoftOrange div[id$='DXEPLPC']
+{
+    height: 59px;
+}
+
+.dxgvControl_SoftOrange .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_SoftOrange .dxgvHFDRC
+{
+    margin: 15px;
+}
+.dxgvControl_SoftOrange .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_SoftOrange .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_SoftOrange .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_SoftOrange
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_SoftOrange td.dxgvBatchEditCell_SoftOrange
+{
+    padding: 0;
+}
+.dxgvControl_SoftOrange td.dxgvBatchEditModifiedCell_SoftOrange
+{
+    background: #d7f9c7;
+}
+.dxgvControl_SoftOrange .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_SoftOrange .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_SoftOrange .dxgvCommandColumn_SoftOrange a
+{
+    margin-right: 10px;
+}
+.dxgvControl_SoftOrange td.dxgvBatchEditCell_SoftOrange .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvSearchPanel_SoftOrange
+{
+    padding: 8px 4px 8px 10px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.dxgvSearchPanel_SoftOrange > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_SoftOrange .dxgvSearchPanel_SoftOrange .dxbButton_SoftOrange
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_SoftOrange .dxgvSearchPanel_SoftOrange .dxbButton_SoftOrange {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_SoftOrange .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_SoftOrange .dxgvSearchPanel_SoftOrange .dxbButton_SoftOrange
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_SoftOrange .dxgvSearchPanel_SoftOrange .dxbButton_SoftOrange .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvEditForm_SoftOrange .dxflGroupBoxCaption_SoftOrange {
+    background-color: #FCFCFC;
+}

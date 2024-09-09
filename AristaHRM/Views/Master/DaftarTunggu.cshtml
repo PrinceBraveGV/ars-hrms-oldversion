@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "HRIS - Daftar Tunggu Persetujuan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function onInit(s, e) {
+        adjustSize();
+    }
+
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "DaftarTunggu" })";
+        var exportToPDF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporTungguPDF" })";
+        var exportToXLS = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporTungguXLS" })";
+        var exportToXLSX = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporTungguXLSX" })";
+        var exportToRTF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporTungguRTF" })";
+        var exportToCSV = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporTungguCSV" })";
+        var riwayat = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Riwayat" })";
+
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "ExPDF") {
+            window.location.href = exportToPDF;
+        }
+        else if (button == "ExXLS") {
+            window.location.href = exportToXLS;
+        }
+        else if (button == "ExXLSX") {
+            window.location.href = exportToXLSX;
+        }
+        else if (button == "ExRTF") {
+            window.location.href = exportToRTF;
+        }
+        else if (button == "ExCSV") {
+            window.location.href = exportToCSV;
+        }
+        else if (button == "Riwayat") {
+            window.location.href = riwayat;
+        }
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        DaftarTungguGrid.SetHeight(height);
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Daftar Tunggu Persetujuan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">
+                            Anda dapat melihat daftar pengajuan cuti yang menunggu persetujuan pada tabel berikut ini.
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonRiwayat";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Daftar Tunggu");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = "Pengaturan";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Riwayat", "Riwayat Cuti", RibbonItemSize.Large, "~/Images/Riwayat.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Export";
+                                    group.Text = "Ekspor Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExPDF", "Ekspor PDF", RibbonItemSize.Large, "~/Images/ExportPDF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLS", "Ekspor XLS", RibbonItemSize.Large, "~/Images/ExportXLS.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLSX", "Ekspor XLSX", RibbonItemSize.Large, "~/Images/ExportXLSX.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExRTF", "Ekspor RTF", RibbonItemSize.Large, "~/Images/ExportRTF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExCSV", "Ekspor CSV", RibbonItemSize.Large, "~/Images/ExportCSV.png"));
+                                });
+                            }).GetHtml();
+
+                            Html.RenderAction("DaftarTungguPartial", "Master");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+

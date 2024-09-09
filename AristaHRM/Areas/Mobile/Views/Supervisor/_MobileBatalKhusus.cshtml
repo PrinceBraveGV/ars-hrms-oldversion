@@ -1,0 +1,16 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "BatalKhususGrid";
+        settings.CallbackRouteValues = new { Area = "Mobile", Controller = "Supervisor", Action = "BatalKhususPartial" };
+        settings.Height = Unit.Percentage(100);
+        settings.Width = Unit.Percentage(50);
+        
+        
+        
+    });
+}
+
+@grid.Bind(Model).GetHtml()

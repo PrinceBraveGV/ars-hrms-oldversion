@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "HRIS - Permintaan Identitas Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent"></p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc"></label>
+                        @using (Html.BeginForm("Profil", "Home", FormMethod.Post))
+                        {
+                            
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

@@ -1,0 +1,103 @@
+﻿@using AristaHRM.Models
+
+@model MutasiModel
+
+@{ 
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "BawahanGrid";
+        settings.CallbackRouteValues = new { Controller = "Admin", Action = "GetListBawahan" };
+        settings.Width = Unit.Percentage(80);
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Auto;
+        settings.SettingsText.EmptyDataRow = "Tidak ada data yang ditampilkan.";
+
+        settings.SettingsPager.PageSize = 10;
+        settings.CommandColumn.Visible = true;
+        settings.CommandColumn.Width = Unit.Pixel(60);
+        settings.CommandColumn.ShowSelectCheckbox = true;
+        settings.CommandColumn.SelectAllCheckboxMode = GridViewSelectAllCheckBoxMode.AllPages;
+
+        settings.BeforeGetCallbackResult = (s, e) =>
+        {
+            MVCxGridView dx = s as MVCxGridView;
+
+            bool disableGrid = Model.Konfirmasi;
+
+            if (disableGrid)
+            {
+                dx.SettingsBehavior.AllowSelectByRowClick = !disableGrid;
+            }
+        };
+
+        settings.CommandButtonInitialize = (s, e) =>
+        {
+            if (e.ButtonType == ColumnCommandButtonType.SelectCheckbox)
+            {
+                bool disableSelect = Model.Konfirmasi;
+
+                if (disableSelect)
+                {
+                    e.Enabled = false;
+                }
+            }
+        };
+
+        settings.ClientSideEvents.BeginCallback = "getAtasan";
+
+        settings.KeyFieldName = "NIK";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "NIK";
+            column.Caption = "NIK";
+            column.Width = Unit.Pixel(80);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Karyawan";
+            column.Caption = "Nama Karyawan";
+            column.Width = Unit.Pixel(200);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Perusahaan";
+            column.Caption = "Perusahaan";
+            column.Width = Unit.Pixel(170);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Cabang";
+            column.Caption = "Cabang";
+            column.Width = Unit.Pixel(150);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Departemen";
+            column.Caption = "Departemen";
+            column.Width = Unit.Pixel(180);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Jabatan";
+            column.Caption = "Jabatan";
+            column.Width = Unit.Pixel(180);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+        });
+    });
+}
+
+@grid.Bind(Model.ListBawahan).GetHtml()
+

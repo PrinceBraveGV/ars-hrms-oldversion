@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxDataView runat="server" ItemSpacing="23px" PagerPanelSpacing="0px" LoadingPanelImagePosition="Top" LoadingPanelText="Memuat&amp;hellip;" SpriteCssFilePath="{0}/sprite.css" CssPostfix="MarineBlue" CssFilePath="{0}/styles.css">
+<PagerSettings ShowNumericButtons="False" CurrentPageNumberFormat="{0}"></PagerSettings>
+
+<SettingsLoadingPanel Text="Memuat&amp;hellip;" ImagePosition="Top"></SettingsLoadingPanel>
+</dxmvc:MVCxDataView>

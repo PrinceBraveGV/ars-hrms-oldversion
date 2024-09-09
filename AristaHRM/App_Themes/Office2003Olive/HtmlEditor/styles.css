@@ -1,0 +1,431 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Office2003Olive
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_Office2003Olive
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #758D5E;
+	border: 1px solid #A4B26D;
+	background-color: White;
+}
+.dxheLoadingPanel_Office2003Olive td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxheLoadingPanel_Office2003Olive .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxheControl_Office2003Olive
+{
+    border: Solid 1px #758D5E;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_Office2003Olive
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #E2E8C9;
+}
+.dxheErrorFrame_Office2003Olive
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_Office2003Olive .dxeMemo_Office2003Olive .dxheErrorFrame_Office2003Olive .dxhe,
+.dxheControl_Office2003Olive.dxhe-rtl .dxeMemo_Office2003Olive .dxheErrorFrame_Office2003Olive .dxhe,
+.dxheErrorFrame_Office2003Olive .dxhe {
+    padding: 5px;
+}
+.dxheControl_Office2003Olive .dxeMemo_Office2003Olive .dxheErrorFrame_Office2003Olive .dxhe td,
+.dxheControl_Office2003Olive.dxhe-rtl .dxeMemo_Office2003Olive .dxheErrorFrame_Office2003Olive .dxhe td,
+.dxheErrorFrame_Office2003Olive .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Office2003Olive .dxheErrorFrameCloseButton_Office2003Olive {
+    cursor: pointer;
+}
+.dxheViewArea_Office2003Olive
+{
+    border: Solid 1px #758D5E;    
+}
+.dxheContentArea_Office2003Olive td.dxheViewArea_Office2003Olive {
+    line-height: 0;
+}
+.dxheContentArea_Office2003Olive td.dxheViewArea_Office2003Olive.dxheHtmlViewArea_Office2003Olive
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_Office2003Olive,
+.dxhePreviewArea_Office2003Olive
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_Office2003Olive .dxheHtmlViewArea_Office2003Olive,
+.dxheHtmlViewArea_Office2003Olive .CodeMirror,
+body.dxheDesignViewArea_Office2003Olive,
+body.dxhePreviewArea_Office2003Olive 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_Office2003Olive .dxeMemo_Office2003Olive.dxheHtmlViewArea_Office2003Olive .dxeMemoEditArea_Office2003Olive,
+body.dxheDesignViewArea_Office2003Olive,
+body.dxhePreviewArea_Office2003Olive
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_Office2003Olive .dxeMemo_Office2003Olive.dxheHtmlViewArea_Office2003Olive td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_Office2003Olive.dxhe-rtl .dxheContentArea_Office2003Olive .dxeMemo_Office2003Olive.dxheHtmlViewArea_Office2003Olive td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_Office2003Olive .dxeMemo_Office2003Olive textarea 
+{
+	resize:none;
+}
+.dxheControl_Office2003Olive td.dxheDesignViewArea_Office2003Olive .dxm-main.dxmtb 
+{
+    border: 1px solid #758D5E;
+    padding: 1px;
+}
+.dxheControl_Office2003Olive td.dxheDesignViewArea_Office2003Olive
+{
+    position: relative;
+}
+td.dxheDesignViewArea_Office2003Olive .dxmLite_Office2003Olive {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_Office2003Olive .dxmLite_Office2003Olive.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_Office2003Olive .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_Office2003Olive .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_Office2003Olive .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_Office2003Olive .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_Office2003Olive img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_Office2003Olive img.dxheAudio,
+.dxheViewArea_Office2003Olive img.dxheFlash,
+.dxheViewArea_Office2003Olive img.dxheVideo,
+.dxheViewArea_Office2003Olive img.dxheYoutube,
+.dxheViewArea_Office2003Olive img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_Office2003Olive .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_Office2003Olive.dxheDesignViewArea_Office2003Olive .dxheSelected
+{
+    background-color: #E3F0BB;
+}
+.dxhe-insertPlaceholder .dxeListBox_Office2003Olive.dxeFocused_Office2003Olive
+{
+    border: 1px solid #758D5E;
+}
+.dxpc-contentWrapper .dxflFormLayout_Office2003Olive.dxhe-insertPlaceholder .dxflGroup_Office2003Olive .dxflGroupBox_Office2003Olive
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_Office2003Olive.dxhe-insertPlaceholder .dxflGroup_Office2003Olive .dxflGroupBox_Office2003Olive .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_Office2003Olive .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_Office2003Olive,
+.dxhe-insertPlaceholder .dxeListBox_Office2003Olive .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_Office2003Olive .CodeMirror-activeline-background 
+{
+    background: #ffc076 none;
+    opacity: 0.3;
+}
+.dxheHtmlViewArea_Office2003Olive .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_Office2003Olive .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_Office2003Olive .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Office2003Olive table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Office2003Olive table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Office2003Olive table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Office2003Olive table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_Office2003Olive
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_Office2003Olive pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_Office2003Olive 
+{
+}
+.dxheStatusBarTab_Office2003Olive 
+{    
+}
+.dxheControl_Office2003Olive .dxheStatusBar_Office2003Olive .dxheStatusBarTab_Office2003Olive .dxtc-link
+{
+    padding: 4px 12px 5px 11px;
+}
+.dxheStatusBar_Office2003Olive .dxheStatusBarActiveTab_Office2003Olive 
+{
+    background-color: White !important;
+}
+.dxHtmlEditor_heSizeGrip_Office2003Olive 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Office2003Olive 
+{
+	cursor: ne-resize;
+}
+.dxheSizeGripContainer_Office2003Olive 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top:-16px;
+}
+.dxheControl_Office2003Olive.dxhe-rtl .dxheSizeGripContainer_Office2003Olive 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_Office2003Olive .dxheDlgFooter,
+.dxpcLite_Office2003Olive .dxheCustomDialog_Office2003Olive .dxhecd-Buttons
+{
+	background-color: #E2E8C9;
+	border-top: 1px #C3CF9D solid;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_Office2003Olive.dxRtl .dxheDlgFooter,
+.dxpcLite_Office2003Olive.dxRtl .dxheCustomDialog_Office2003Olive .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_Office2003Olive .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_Office2003Olive.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_Office2003Olive .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_Office2003Olive .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #608058;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Office2003Olive
+{
+	height: 1px;
+}
+.dxtbControl_Office2003Olive 
+{
+	color: black;
+	background-color: #B5C48F;
+    border-bottom: Solid 1px #758D5E;
+}
+.dxtbControl_Office2003Olive td.dxmtb.dxmMenu_Office2003Olive
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_Office2003Olive
+{
+    padding-top: 1px;
+    padding-right: 2px;
+}
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive
+{
+    background-color: #E2E8C9;
+}
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive .dxtcLite_Office2003Olive .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive .dxtcLite_Office2003Olive.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive .dxr-minBtn
+{
+    padding-right: 7px;
+}
+.dxheControl_Office2003Olive .dxtbControl_Office2003Olive.dxtbr_Office2003Olive,
+.dxheControl_Office2003Olive .dxrControl_Office2003Olive .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Office2003Olive .dxmLite_Office2003Olive .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_Office2003Olive .dxhetipControl_Office2003Olive img
+{
+	vertical-align: top;
+}
+.dxtbControl_Office2003Olive .dxmLite_Office2003Olive .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_Office2003Olive .dxmLite_Office2003Olive .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Office2003Olive { }
+.dxtcbColorDiv_Office2003Olive
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Office2003Olive .dxrpcontent
+{
+    padding: 16px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_Office2003Olive .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_Office2003Olive.dxhe-mediaDialog 
+{
+    width: 710px;
+}
+.dxflFormLayout_Office2003Olive.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_Office2003Olive.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 410px;
+}
+div.dxflFormLayout_Office2003Olive.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_Office2003Olive.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Office2003Olive.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_Office2003Olive.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Office2003Olive.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_Office2003Olive .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_Office2003Olive,
+.dxhe-intelliSenseSysWin .dxeListBox_Office2003Olive.dxeFocused_Office2003Olive
+{
+    border-color: #758D5E;
+}
+
+div.dxhe-searchQuick div.dxbButton_Office2003Olive,
+div.dxhe-searchQuick div.dxbButton_Office2003Olive .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_Office2003Olive.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+

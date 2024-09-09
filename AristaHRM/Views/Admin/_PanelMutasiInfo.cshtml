@@ -1,0 +1,17 @@
+﻿@using AristaHRM.Models
+
+@model MutasiModel
+
+@{
+    Html.DevExpress().CallbackPanel(panel =>
+    {
+        panel.Name = "UserPanel";
+        panel.CallbackRouteValues = new { Controller = "Admin", Action = "GetMutasi" };
+        panel.ClientSideEvents.BeginCallback = "getKaryawan";
+        panel.EnableClientSideAPI = true;
+        panel.SetContent(() =>
+        {
+            Html.RenderPartial("_MutasiInfo", Model);
+        });
+    }).GetHtml();
+}

@@ -1,0 +1,226 @@
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heEnumIcon_Mulberry,
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heEventIcon_Mulberry,
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heFieldIcon_Mulberry,
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heXmlItemIcon_Mulberry,
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heEnumIcon_Mulberry,
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heEventIcon_Mulberry,
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heFieldIcon_Mulberry,
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heXmlItemIcon_Mulberry,
+.dxHtmlEditor_heConstrainProportionsBottom_Mulberry,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Mulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Mulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Mulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Mulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Mulberry,
+.dxHtmlEditor_heConstrainProportionsTop_Mulberry,
+.dxHtmlEditor_heConstrainProportionsTopRtl_Mulberry,
+.dxHtmlEditor_heEnumIcon_Mulberry,
+.dxHtmlEditor_heErrorFrameCloseButton_Mulberry,
+.dxHtmlEditor_heEventIcon_Mulberry,
+.dxHtmlEditor_heFieldIcon_Mulberry,
+.dxHtmlEditor_heReset_Mulberry,
+.dxHtmlEditor_heSizeGrip_Mulberry,
+.dxHtmlEditor_heSizeGripRtl_Mulberry,
+.dxHtmlEditor_heTagInspectorChangeButton_Mulberry,
+.dxHtmlEditor_heTagInspectorRemoveButton_Mulberry,
+.dxHtmlEditor_heTagInspectorSeparator_Mulberry,
+.dxHtmlEditor_heToolbarPopOut_Mulberry,
+.dxHtmlEditor_heToolbarPopOutDisabled_Mulberry,
+.dxHtmlEditor_heXmlItemIcon_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heEnumIcon_Mulberry
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heEventIcon_Mulberry
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heFieldIcon_Mulberry
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_Mulberry img.dxHtmlEditor_heXmlItemIcon_Mulberry
+{
+    background-position: -51px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heEnumIcon_Mulberry
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heEventIcon_Mulberry
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heFieldIcon_Mulberry
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_Mulberry .dxHtmlEditor_heXmlItemIcon_Mulberry
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_Mulberry
+{
+    background-position: -69px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Mulberry
+{
+    background-position: -68px -40px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Mulberry
+{
+    background-position: -43px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Mulberry
+{
+    background-position: -19px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Mulberry
+{
+    background-position: -31px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Mulberry
+{
+    background-position: -55px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_Mulberry
+{
+    background-position: -68px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_Mulberry
+{
+    background-position: -69px -68px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_Mulberry
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_Mulberry
+{
+    background-position: -67px -21px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_Mulberry
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_Mulberry
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_Mulberry
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_Mulberry
+{
+    background-position: 0px -21px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heSizeGripRtl_Mulberry
+{
+    background-position: -61px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_Mulberry
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_Mulberry
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_Mulberry
+{
+    background-position: -76px -32px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_Mulberry
+{
+    background-position: -67px -35px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heToolbarPopOutDisabled_Mulberry
+{
+    background-position: -68px -63px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heXmlItemIcon_Mulberry
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Mulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Mulberry,
+.dxHtmlEditor_heConstrainProportionsBottom_Mulberry,
+.dxHtmlEditor_heConstrainProportionsTop_Mulberry,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_Mulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_Mulberry
+{
+	display:block;
+}
+

@@ -1,0 +1,46 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxGridView runat="server" CssFilePath="{0}/styles.css" CssPostfix="MarineBlue">
+<SettingsPager Mode="EndlessPaging" PageSize="50" CurrentPageNumberFormat="{0}">
+<NextPageButton Text="Berikutnya"></NextPageButton>
+
+<PrevPageButton Text="Sebelumnya"></PrevPageButton>
+
+<PageSizeItemSettings Items="10, 20, 50, 100, 200, 500" Caption="Data per halaman"></PageSizeItemSettings>
+</SettingsPager>
+
+<SettingsEditing Mode="PopupEditForm"></SettingsEditing>
+
+<Settings ShowFilterRowMenu="True"></Settings>
+
+<SettingsBehavior ColumnResizeMode="Control" ConfirmDelete="True"></SettingsBehavior>
+
+<SettingsCommandButton>
+<ClearFilterButton ButtonType="Button" Text="Reset Kriteria"></ClearFilterButton>
+
+<NewButton ButtonType="Button" Text="Tambah"></NewButton>
+
+<UpdateButton ButtonType="Button" Text="Simpan"></UpdateButton>
+
+<CancelButton ButtonType="Button" Text="Batal"></CancelButton>
+
+<EditButton ButtonType="Button" Text="Ubah"></EditButton>
+
+<DeleteButton ButtonType="Button" Text="Hapus"></DeleteButton>
+</SettingsCommandButton>
+
+<SettingsLoadingPanel ImagePosition="Top"></SettingsLoadingPanel>
+
+<SettingsText ConfirmDelete="Yakin akan menghapus data yang dipilih?" EmptyDataRow="Tidak ada data yang ditampilkan." CommandEdit="Ubah" CommandNew="Tambah" CommandDelete="Hapus" CommandSelect="Pilih" CommandCancel="Batal" CommandUpdate="Simpan" CommandClearFilter="Reset Kriteria" CommandBatchEditUpdate="Simpan" CommandBatchEditCancel="Batal" ConfirmOnLosingBatchChanges="Yakin akan keluar dari mode edit?" SearchPanelEditorNullText="Cari Data..." ContextMenuSortAscending="Urutan Naik" ContextMenuSortDescending="Urutan Turun" ContextMenuClearFilter="Reset Kriteria" ContextMenuNewRow="Tambah" ContextMenuEditRow="Ubah" ContextMenuDeleteRow="Hapus" CommandSelectAllOnPage="Pilih Semua" CommandSelectAllOnAllPages="Pilih Semua Halaman"></SettingsText>
+
+<EditFormLayoutProperties>
+<SettingsItemCaptions HorizontalAlign="Right"></SettingsItemCaptions>
+
+<SettingsItems HorizontalAlign="Center"></SettingsItems>
+</EditFormLayoutProperties>
+
+<Styles AdaptiveDetailButtonWidth="22" CssPostfix="MarineBlue" CssFilePath="{0}/styles.css"></Styles>
+
+<Images SpriteCssFilePath="{0}/sprite.css"></Images>
+</dx:ASPxGridView>

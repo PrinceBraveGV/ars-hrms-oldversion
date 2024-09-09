@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = " - Admin Cuti -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminMenu", "Admin", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">
+            <a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > Admin Cuti
+        </li>
+        <li data-role="list-divider">Administrasi Cuti</li>
+        <li>@Html.ActionLink("Pengajuan Cuti", "Pengajuan", "Admin", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Persetujuan Cuti Tahunan", "ApprovalTahunan", "Admin", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Persetujuan Cuti Khusus", "ApprovalKhusus", "Admin", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Pembatalan Cuti Tahunan", "BatalTahunan", "Admin", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Pembatalan Cuti Khusus", "BatalKhusus", "Admin", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Bantuan", "MobileGuide", "Help", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+}
+

@@ -1,0 +1,537 @@
+.dxpgControl_SpecialTheme, .dxpgCustForm_SpecialTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxpgContainerCell_SpecialTheme
+{
+	vertical-align: top;
+}
+.dxpgMainTable_SpecialTheme
+{
+	width: 100%;
+	text-align: left;
+}
+.dxpgMainTable_SpecialTheme
+{
+    border: 0;
+}
+div.dxpgMainTable_SpecialTheme
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_SpecialTheme caption
+{
+    background: #F7FAFF;
+    color: #343434;
+    border-bottom: Solid 1px #cbcbcb;
+    padding: 5px 5px 6px;
+	font-weight: normal;		
+	text-align: center;	
+}    
+table.dxpgHeader_SpecialTheme
+{
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxpgHeaderTable_SpecialTheme
+{
+	border: 1px Solid #cbcbcb;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_SpecialTheme,
+.dxpgCustFieldsDiv_SpecialTheme .dxpgHeaderTable_SpecialTheme
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_SpecialTheme
+{
+	padding: 0 4px 0 8px;
+}
+.dxpgHeaderText_SpecialTheme
+{
+	color: #7e7e7e;
+	padding: 5px 10px;
+}
+.dxpgHeaderSort_SpecialTheme
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_SpecialTheme
+{
+	padding: 0 8px 0 4px;
+}
+.dxpgHeaderHover_SpecialTheme
+{
+}
+.dxpgArea_SpecialTheme, 
+.dxpgArea_SpecialTheme table
+{
+	color: #979797;
+}
+.dxpgArea_SpecialTheme
+{
+	border: 1px none #cbcbcb;
+}
+.dxpgColumnArea_SpecialTheme
+{
+    border-top: 1px solid #cbcbcb;
+    padding: 0;
+}
+.dxpgRowArea_SpecialTheme + td:last-child 
+{
+    border: 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+.dxpgDataArea_SpecialTheme
+{
+    border-top: 1px solid #cbcbcb;
+}
+.dxpgFilterArea_SpecialTheme
+{
+    border-top: 1px solid #cbcbcb;
+    padding: 2px 0;
+}
+.dxpgEmptyArea_SpecialTheme 
+{
+	cursor: default;
+	padding: 16px 6px;
+}
+.dxpgColumnFieldValue_SpecialTheme
+{
+	background-color: #fafafa;
+	border: Solid 1px #cbcbcb;
+	padding: 4px 6px 5px;
+    font-weight: normal;
+    text-align: left;
+    border-right-style: none;
+	border-bottom-style: none;
+}
+.dxpgColumnTotalFieldValue_SpecialTheme
+{
+	background-color: #f0f0f0;
+	background-image: none;
+}
+.dxpgColumnGrandTotalFieldValue_SpecialTheme
+{
+	background-color: #f0f0f0;
+}
+.dxpgRowFieldValue_SpecialTheme
+{
+	color: #4F4F4F;
+	background-color: #fafafa;
+	border: Solid 1px #cbcbcb;
+	padding: 2px 6px 3px 6px;
+	font-weight: normal;
+	text-align: left;
+    border-right-style: none;
+	border-bottom-style: none;
+}
+.dxpgRowTotalFieldValue_SpecialTheme
+{
+	background-color: #f0f0f0;
+}
+.dxpgRowTreeFieldValue_SpecialTheme
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_SpecialTheme
+{
+	background-color: #f0f0f0;
+	padding: 8px 10px;
+}
+.dxpgCollapsedButton_SpecialTheme
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_SpecialTheme
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_SpecialTheme
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border: 1px solid #cbcbcb;
+	padding: 5px 10px;
+	white-space: nowrap;
+    border-top-style: solid !important;
+	border-left-style: solid !important;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+div.dxpgMainTable_SpecialTheme .dxpgCell_SpecialTheme
+{
+	border-bottom-style: none;
+}
+.dxpgKPICell_SpecialTheme
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_SpecialTheme
+{
+	background-color: #fcfcfc;
+}
+.dxpgGrandTotalCell_SpecialTheme
+{
+	background-color: #fafafa;
+}
+.dxpgFilterItem_SpecialTheme
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_SpecialTheme
+{
+}
+
+.dxpgTopPager_SpecialTheme,
+.dxpgBottomPager_SpecialTheme
+{
+	padding: 2px 0px;
+}
+.dxpgControl_SpecialTheme .dxpLite_SpecialTheme
+{
+	padding: 6px 0 6px 6px;
+}
+
+.dxpgTopPager_SpecialTheme,
+.dxpgBottomPager_SpecialTheme
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_SpecialTheme
+{
+	color: #343434;
+	background-image: none!important;
+	padding: 7px 6px 7px 12px!important;
+}
+.dxpgCustomizationFieldsContent_SpecialTheme
+{
+	padding: 0px!important;
+}
+.dxpgMenuItem_SpecialTheme 
+{
+}
+.dxpgDataHeadersImage_SpecialTheme
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_SpecialTheme
+{
+	border: 1px solid white;
+}
+.dxpgPrefilterPanelLink_SpecialTheme
+{
+	text-decoration: underline;	
+}
+.dxpgPrefilterPanel_SpecialTheme
+{
+	border-top: 1px solid #cbcbcb;
+}
+.dxpgPrefilterPanel_SpecialTheme a
+{
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanel_SpecialTheme a:hover
+{
+	color: #343434;
+}
+.dxpgPrefilterPanelCheckBoxCell_SpecialTheme
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_SpecialTheme
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_SpecialTheme
+{
+	padding: 7px 6px 8px;
+}
+.dxpgPrefilterPanelExpressionCell_SpecialTheme
+{
+	padding: 7px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_SpecialTheme
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_SpecialTheme
+{
+	background-color: #fafafa;
+	border-top: solid 1px #cbcbcb;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_SpecialTheme
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_SpecialTheme,
+.dxpgCustFieldsRowAreaHeaders_SpecialTheme,
+.dxpgCustFieldsColumnAreaHeaders_SpecialTheme,
+.dxpgCustFieldsDataAreaHeaders_SpecialTheme,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_SpecialTheme,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_SpecialTheme
+{
+    width:100%;
+    height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_SpecialTheme
+{
+    height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_SpecialTheme
+{
+    width:50%;
+    height:66%;
+    float:left;
+}
+.StackedDefault .dxpgFLCDDiv_SpecialTheme
+{
+    width:50%;
+    height:66%;
+    float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_SpecialTheme .dxpgFLTextDiv_SpecialTheme,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_SpecialTheme .dxpgFLTextDiv_SpecialTheme
+{
+    height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_SpecialTheme
+{
+    width:100%;
+    height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_SpecialTheme .dxeBase_SpecialTheme,
+.TopPanelOnly .dxpgFLDefereDiv_SpecialTheme .dxpgFLDefereDB_SpecialTheme,
+.TopPanelOnly .dxpgFLFRDiv_SpecialTheme,
+.TopPanelOnly .dxpgFLCDDiv_SpecialTheme,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_SpecialTheme,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_SpecialTheme,
+.TopPanelOnly .dxpgFLTextDiv_SpecialTheme div
+{
+    display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_SpecialTheme
+{
+    height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_SpecialTheme
+{
+    height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_SpecialTheme,
+.StackedSideBySide .dxpgCustFieldsFieldList_SpecialTheme
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_SpecialTheme
+{
+    width:50%;
+    height:100%;
+    float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_SpecialTheme,
+.StackedSideBySide .dxpgFLCDDiv_SpecialTheme
+{
+    width:50%;
+    height:50%;
+    float:right;
+}
+.dxpgCustFields_SpecialTheme
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_SpecialTheme > div
+{
+    border:1px solid #cbcbcb;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_SpecialTheme > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_SpecialTheme > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_SpecialTheme
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_SpecialTheme .dxbButton_SpecialTheme div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_SpecialTheme .dxbButton_SpecialTheme div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_SpecialTheme
+{
+    height:40px;
+}
+.dxpgFLTextDiv_SpecialTheme div
+{
+   display:block;
+   float:left;
+   margin:-22px 0px 8px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_SpecialTheme
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-21px 0px 8px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_SpecialTheme
+{
+    float:right;
+    height:40px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_SpecialTheme
+{
+    height:64px;
+}
+.dxpgCustFieldsDiv_SpecialTheme
+{
+    clear:both;   
+    padding:0px 9px;
+}
+.dxpgFLButton_SpecialTheme
+{
+     margin:12px 12px 0px 0px;
+     width:40px;
+     height:23px;
+}
+.dxpgFLDefereDiv_SpecialTheme .dxeBase_SpecialTheme
+{
+     float:left;
+     display:block;
+     border-collapse:separate;
+     padding:18px 0px 0px 0px; 
+     margin-left:8px;  
+}
+.dxpgCustForm_SpecialTheme .dxpgFLDefereDiv_SpecialTheme .dxeBase_SpecialTheme
+{
+     padding:18px 0px 0px;
+}
+.dxpgFLDefereDB_SpecialTheme
+{
+    float:right;
+    display:block;
+    margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_SpecialTheme .dxbButton_SpecialTheme div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_SpecialTheme .dxbButton_SpecialTheme div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_SpecialTheme table 
+{
+     width:100%;
+     table-layout:fixed;  
+     overflow:visible;
+}
+.dxpgFLListDiv_SpecialTheme table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_SpecialTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxpgLoadingPanel_SpecialTheme td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxpgLoadingPanel_SpecialTheme .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+.dxpgPTContainerDiv_SpecialTheme td.lastVertCell {
+    border-bottom: 1px solid #d1d1d1 !important;
+}
+.dxpgPTContainerDiv_SpecialTheme td.lastHorzCell {
+    border-right: 1px solid #d1d1d1 !important;
+}
+
+.dxpgVScrollBarAreaCell_SpecialTheme {
+    background-color: #fafafa;
+    border-right: Solid 1px #d1d1d1;
+    border-top: Solid 1px #d1d1d1;
+}
+.dxpgHScrollBarAreaCell_SpecialTheme {
+    background-color: #fafafa;
+    border-left: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+.dxpgScrollBarEdgeCell_SpecialTheme {
+    border-right: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+

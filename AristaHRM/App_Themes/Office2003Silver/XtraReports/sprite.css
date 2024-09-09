@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_Office2003Silver,
+.dxXtraReports_BtnFirstPageDisabled_Office2003Silver,
+.dxXtraReports_BtnLastPage_Office2003Silver,
+.dxXtraReports_BtnLastPageDisabled_Office2003Silver,
+.dxXtraReports_BtnNextPage_Office2003Silver,
+.dxXtraReports_BtnNextPageDisabled_Office2003Silver,
+.dxXtraReports_BtnPrevPage_Office2003Silver,
+.dxXtraReports_BtnPrevPageDisabled_Office2003Silver,
+.dxXtraReports_BtnPrint_Office2003Silver,
+.dxXtraReports_BtnPrintDisabled_Office2003Silver,
+.dxXtraReports_BtnPrintPage_Office2003Silver,
+.dxXtraReports_BtnPrintPageDisabled_Office2003Silver,
+.dxXtraReports_BtnSave_Office2003Silver,
+.dxXtraReports_BtnSaveDisabled_Office2003Silver,
+.dxXtraReports_BtnSaveWindow_Office2003Silver,
+.dxXtraReports_BtnSaveWindowDisabled_Office2003Silver,
+.dxXtraReports_BtnSearch_Office2003Silver,
+.dxXtraReports_BtnSearchDisabled_Office2003Silver,
+.dxXtraReports_PageBorder_blc_Office2003Silver,
+.dxXtraReports_PageBorder_brc_Office2003Silver,
+.dxXtraReports_PageBorder_tlc_Office2003Silver,
+.dxXtraReports_PageBorder_trc_Office2003Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_Office2003Silver
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_Office2003Silver
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_Office2003Silver
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_Office2003Silver
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_Office2003Silver
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_Office2003Silver
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_Office2003Silver
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_Office2003Silver
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_Office2003Silver
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_Office2003Silver
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_Office2003Silver
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_Office2003Silver
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_Office2003Silver
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_Office2003Silver
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_Office2003Silver
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_Office2003Silver
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_Office2003Silver
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_Office2003Silver
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_Office2003Silver
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_Office2003Silver
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_Office2003Silver
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_Office2003Silver
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_Office2003Silver,
+.dxXtraReports_PageBorder_l_Office2003Silver,
+.dxXtraReports_PageBorder_r_Office2003Silver,
+.dxXtraReports_PageBorder_b_Office2003Silver {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_Office2003Silver {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_Office2003Silver {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_Office2003Silver {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_Office2003Silver {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

@@ -1,0 +1,252 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 12px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+	background-color:#BFDBFF;
+}
+a {
+    color: #5689C5; 
+    text-decoration: underline;   
+}
+a:hover {
+	color: #F39128;
+	text-decoration: underline;
+}
+a:visited {
+    color: #A1A1A1;
+    text-decoration: underline;   
+}
+div.PageContent 
+{
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+    border-collapse: separate;
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-right: 20px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	color: #788CA5;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Links on dark background */
+.Footer .menuLinks_Moderno a,
+.Footer .menuLinks_Moderno a.dx,
+.Security .menuLinks_Moderno a,
+.Security .menuLinks_Moderno a.dx,
+.TabsContainer .menuLinks_Moderno a,
+.TabsContainer .menuLinks_Moderno a.dx,
+.Footer .menuLinks_Moderno a:visited,
+.Footer .menuLinks_Moderno a.dx:visited,
+.Security .menuLinks_Moderno a:visited,
+.Security .menuLinks_Moderno a.dx:visited,
+.TabsContainer .menuLinks_Moderno a:visited,
+.TabsContainer .menuLinks_Moderno a.dx:visited
+{
+}
+/* Controls customization */
+.dxgvControl_Moderno {
+	width: 100%;
+}
+.dxtcControl_Moderno,
+.dxtcLite_Moderno {
+    width: 100% !important;
+}
+.dxtcPageContent_Moderno 
+{
+	color: black !important;
+}
+.NavigationTabsActionContainer .dxtcControl_Moderno,
+.NavigationTabsActionContainer .dxtcLite_Moderno {
+background-repeat: repeat-x;
+}
+.NavigationTabsActionContainer .dxtcPageContent_Moderno,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-content {
+	padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_Moderno div,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-leftIndent {
+	width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-activeTab
+{
+    margin-top: 3px !important;
+}
+.NavigationTabsActionContainer .dxtc-content .dxmLite_Moderno .menuLinks_Moderno
+{
+    padding-left: 14px !important;
+}
+.NavigationTabsActionContainer .dxtc-rightIndent .dxmLite_Moderno
+{
+    margin-top: 1px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-leftIndent,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-spacer,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-rightIndent,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-sbWrapper,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-sbIndent,
+.NavigationTabsActionContainer .dxtcLite_Moderno .dxtc-sbSpacer
+{
+	height: 26px;
+}
+.ACV .dxmVerticalMenuItemWithImage_Moderno
+{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.ACV .dxmLite_Moderno .dxm-main .TemplatedItem
+{
+    padding-left: 37px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #F39128;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #5689C5;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_Moderno,
+.Security .dxmLite_Moderno .dxm-separator {
+	padding: 0px 4px 0px 11px;
+}
+.TabsContainer .dxmMenuSeparator_Moderno,
+.TabsContainer .dxmLite_Moderno .dxm-separator {
+	padding: 0px 10px 0px 16px;
+}
+.TabsContainer .dxmLite_Moderno .dxm-separator 
+{
+	padding-top: 4px;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Moderno,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Moderno .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Moderno,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Moderno .dxm-main {
+	border-left: 0px;
+	border-right: 0px;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header {
+    background-position: left top; 
+	background-repeat: no-repeat;
+	background-color: #BFDBFF;
+}
+.RecordsNavigationContainer .menuLinks_Moderno {
+	padding-left: 8px;
+}
+.RecordsNavigationContainer .menuLinks_Moderno .dxmMenuItemWithImage_Moderno {
+	padding-left: 3px;
+}
+.RecordsNavigationContainer .dxmLite_Moderno .dxm-content,
+.RecordsNavigationContainer .dxmLite_Moderno .dxm-disabled.dxm-content
+{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+.EditModeActions .dxmLite_Moderno .menuLinks_Moderno,
+.Content .EditModeActions .dxmLite_Moderno .menuLinks_Moderno
+{
+	padding-left: 1px !important;
+}
+.RecordsNavigationContainer .dxmLite_Moderno
+{
+    margin-right: 4px !important;
+}
+.XafTemplate .NavigationContainer .dxtvControl_Moderno li 
+{
+    padding-top: 10px;
+}
+.XafTemplate .NavigationContainer .dxtvControl_Moderno li.dxtv-subnd
+{
+	padding-left: 28px;
+    padding-top: 0px;
+	margin-left: 0px !important;
+}
+.XafTemplate .NavigationContainer .dxtvControl_Moderno .dxtv-nd {
+	font-weight: bold;
+}
+.XafTemplate .NavigationContainer .dxtvControl_Moderno li.dxtv-subnd .dxtv-nd {
+	font-weight: normal;
+}
+.XafTemplate .NavigationContainer .dxtvControl_Moderno 
+{
+    width: 100% !important;
+}
+.XafTemplate .ViewContainer .ViewContent .dxgvControl_Moderno .dxgvTable_Moderno,
+.XafTemplate .ViewContainer .ViewContent .dxgvGroupPanel_Moderno
+{
+    border-top: 0px none !important;
+    border-left: 0px none !important;
+}
+.XafTemplate .ViewContainer .ViewContent .dxgvControl_Moderno .dxgvTable_Moderno:first-child .dxgvHeader_Moderno
+{
+    border-top: 0px none !important;
+}
+.NestedFrame .NestedFrameContent .NestedFrameViewSite .Item .dxgvControl_Moderno .dxgvTable_Moderno,
+.NestedFrame .NestedFrameContent .NestedFrameViewSite .Item .dxgvGroupPanel_Moderno
+{
+    border-top: 0px none !important;
+    border-left: 0px none !important;
+}
+.NestedFrame .NestedFrameContent .NestedFrameViewSite .Item .dxgvControl_Moderno .dxgvTable_Moderno:first-child .dxgvHeader_Moderno
+    
+{
+    border-top: 0px none !important;
+}
+

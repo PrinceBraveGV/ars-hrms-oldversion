@@ -1,0 +1,115 @@
+﻿@{
+    ViewBag.Title = "HRIS - Daftar Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // <![CDATA[
+
+    function onInit(s, e)
+    {
+        adjustSize();
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        DataKaryawanGrid.SetHeight(height);
+    }
+
+    // fungsi ribbon control
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Karyawan" })";
+        var exportToPDF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanPDF" })";
+        var exportToXLS = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanXLS" })";
+        var exportToXLSX = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanXLSX" })";
+        var exportToRTF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanRTF" })";
+        var exportToCSV = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanCSV" })";
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "ExPDF") {
+            window.location.href = exportToPDF;
+        }
+        else if (button == "ExXLS") {
+            window.location.href = exportToXLS;
+        }
+        else if (button == "ExXLSX") {
+            window.location.href = exportToXLSX;
+        }
+        else if (button == "ExRTF") {
+            window.location.href = exportToRTF;
+        }
+        else if (button == "ExCSV") {
+            window.location.href = exportToCSV;
+        }
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Data Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:left">
+                            Berikut ini adalah daftar karyawan bawahan anda yang sudah terdaftar. <br />
+                            Jika menemukan kekeliruan/membutuhkan perubahan pada data di bawah ini harap menghubungi admin.
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm("Karyawan", "Supervisor", FormMethod.Post))
+                        {
+                            Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonKaryawan";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Karyawan");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = string.Empty;
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Export";
+                                    group.Text = "Ekspor Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExPDF", "Ekspor PDF", RibbonItemSize.Large, "~/Images/ExportPDF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLS", "Ekspor XLS", RibbonItemSize.Large, "~/Images/ExportXLS.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLSX", "Ekspor XLSX", RibbonItemSize.Large, "~/Images/ExportXLSX.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExRTF", "Ekspor RTF", RibbonItemSize.Large, "~/Images/ExportRTF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExCSV", "Ekspor CSV", RibbonItemSize.Large, "~/Images/ExportCSV.png"));
+                                });
+                            }).GetHtml();
+                            Html.RenderAction("KaryawanPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

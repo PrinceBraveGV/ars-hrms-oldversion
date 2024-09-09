@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_SoftOrange,
+.dxTreeList_CollapsedButtonRtl_SoftOrange,
+.dxTreeList_DragAndDropArrowDown_SoftOrange,
+.dxTreeList_DragAndDropArrowUp_SoftOrange,
+.dxTreeList_DragAndDropHide_SoftOrange,
+.dxTreeList_DragAndDropNode_SoftOrange,
+.dxTreeList_ExpandedButton_SoftOrange,
+.dxTreeList_ExpandedButtonRtl_SoftOrange,
+.dxTreeList_SortAsc_SoftOrange,
+.dxTreeList_SortDesc_SoftOrange
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_SoftOrange
+{
+    background-position: 0px -37px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_CollapsedButtonRtl_SoftOrange
+{
+    background-position: -23px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_DragAndDropArrowDown_SoftOrange
+{
+    background-position: -14px -37px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_SoftOrange
+{
+    background-position: -26px -37px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_SoftOrange
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_SoftOrange
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_SoftOrange
+{
+    background-position: -14px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButtonRtl_SoftOrange
+{
+    background-position: -28px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_SortAsc_SoftOrange
+{
+    background-position: -37px 0px;
+    width: 6px;
+    height: 3px;
+}
+.dxTreeList_SortDesc_SoftOrange
+{
+    background-position: -37px -19px;
+    width: 6px;
+    height: 3px;
+}
+

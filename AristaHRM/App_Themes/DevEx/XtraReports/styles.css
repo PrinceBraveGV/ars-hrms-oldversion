@@ -1,0 +1,5 @@
+.dxsplControl_DevEx .dxmLiteReportToolbarPane {
+    border: 1px solid #9da0aa;
+    background: #f1f2f6 url('../Web/mItemBack.png') repeat-x left top;
+    padding: 0;
+}

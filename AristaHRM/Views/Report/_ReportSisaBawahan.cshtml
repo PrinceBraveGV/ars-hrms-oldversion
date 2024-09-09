@@ -1,0 +1,13 @@
+﻿@using AristaHRM.Reports
+
+@Html.DevExpress().DocumentViewer(settings =>
+{
+       settings.Name = "ReportSisaCTBViewer";
+       settings.Report = (ReportSisaCTB)ViewData["ReportSisaCTB"];
+       settings.ToolbarMode = DocumentViewerToolbarMode.ExternalRibbon;
+       settings.AssociatedRibbonName = "Ribbon";
+       settings.StylesSplitter.SidePaneWidth = 290;
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.CallbackRouteValues = new { Controller = "Report", Action = "ReportSisaBawahanPartial" };
+       settings.ExportRouteValues = new { Controller = "Report", Action = "EksporSisaCTB" };
+}).GetHtml()

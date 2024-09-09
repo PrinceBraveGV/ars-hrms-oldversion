@@ -1,0 +1,262 @@
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_iOS,
+.dxPivotGrid_FLBottomPanelOnly2by2_iOS,
+.dxPivotGrid_FLButton_iOS,
+.dxPivotGrid_FLColumnAreaHeaders_iOS,
+.dxPivotGrid_FLDataAreaHeaders_iOS,
+.dxPivotGrid_FLFieldList_iOS,
+.dxPivotGrid_FLFilterAreaHeaders_iOS,
+.dxPivotGrid_FLRowAreaHeaders_iOS,
+.dxPivotGrid_FLStackedDefault_iOS,
+.dxPivotGrid_FLStackedSideBySide_iOS,
+.dxPivotGrid_FLTopPanelOnly_iOS,
+.dxPivotGrid_pgCollapsedButton_iOS,
+.dxPivotGrid_pgCustomizationFormCloseButton_iOS,
+.dxPivotGrid_pgDataHeaders_iOS,
+.dxPivotGrid_pgDragArrowDown_iOS,
+.dxPivotGrid_pgDragArrowLeft_iOS,
+.dxPivotGrid_pgDragArrowRight_iOS,
+.dxPivotGrid_pgDragArrowUp_iOS,
+.dxPivotGrid_pgDragHideField_iOS,
+.dxPivotGrid_pgExpandedButton_iOS,
+.dxPivotGrid_pgFilterButton_iOS,
+.dxPivotGrid_pgFilterButtonActive_iOS,
+.dxPivotGrid_pgFilterResizer_iOS,
+.dxPivotGrid_pgGroupSeparator_iOS,
+.dxPivotGrid_pgPrefilterButton_iOS,
+.dxPivotGrid_pgSortByColumn_iOS,
+.dxPivotGrid_pgSortDownButton_iOS,
+.dxPivotGrid_pgSortUpButton_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -170px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -51px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -204px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -17px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -119px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -34px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -68px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -238px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_iOS
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_iOS
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_iOS
+{
+    background-position: 0px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_iOS
+{
+    background-position: -136px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_iOS
+{
+    background-position: -85px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_iOS
+{
+    background-position: -102px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_iOS
+{
+    background-position: -187px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_iOS
+{
+    background-position: -153px -58px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_iOS
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_iOS
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_iOS
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_iOS
+{
+    background-position: -171px -33px;
+    width: 23px;
+    height: 23px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_iOS
+{
+    background-position: -202px 0px;
+    width: 35px;
+    height: 29px;
+}
+.dxPivotGrid_pgDataHeaders_iOS
+{
+    background-position: -165px 0px;
+    width: 36px;
+    height: 30px;
+}
+.dxPivotGrid_pgDragArrowDown_iOS
+{
+    background-position: -245px -48px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_iOS
+{
+    background-position: -243px -33px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_iOS
+{
+    background-position: -247px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_iOS
+{
+    background-position: -221px -58px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_iOS
+{
+    background-position: -219px -33px;
+    width: 23px;
+    height: 20px;
+}
+.dxPivotGrid_pgExpandedButton_iOS
+{
+    background-position: -123px -33px;
+    width: 23px;
+    height: 23px;
+}
+.dxPivotGrid_pgFilterButton_iOS
+{
+    background-position: -50px -33px;
+    width: 24px;
+    height: 24px;
+}
+.dxPivotGrid_pgFilterButtonActive_iOS
+{
+    background-position: -25px -33px;
+    width: 24px;
+    height: 24px;
+}
+.dxPivotGrid_pgFilterResizer_iOS
+{
+    background-position: -99px -33px;
+    width: 23px;
+    height: 23px;
+}
+.dxPivotGrid_pgGroupSeparator_iOS
+{
+    background-position: -234px -31px;
+    width: 12px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_iOS
+{
+    background-position: 0px -33px;
+    width: 24px;
+    height: 24px;
+}
+.dxPivotGrid_pgSortByColumn_iOS
+{
+    background-position: -195px -33px;
+    width: 23px;
+    height: 22px;
+}
+.dxPivotGrid_pgSortDownButton_iOS
+{
+    background-position: -75px -33px;
+    width: 23px;
+    height: 23px;
+}
+.dxPivotGrid_pgSortUpButton_iOS
+{
+    background-position: -147px -33px;
+    width: 23px;
+    height: 23px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_iOS,
+.dxPivotGrid_FLButton_iOS
+{
+    display:block;
+}

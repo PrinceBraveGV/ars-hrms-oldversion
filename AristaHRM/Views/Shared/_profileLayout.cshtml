@@ -1,0 +1,55 @@
+﻿@{ Layout = "~/Views/Shared/_rootLayout.cshtml"; }
+
+<div id="clock" class="systemclock" style="text-align:center">-- -- --
+<br /><hr />
+</div>
+
+<script type="text/javascript">
+    function CutiGauge() {
+        // update 160120: menghindari error null (mengingat penunjuk sisa cuti hanya ada di halaman profil saja)
+        var sct = document.getElementById("SisaCuti");
+        var tct = document.getElementById("TotalCuti");
+
+        if (sct !== null && tct !== null) {
+            var SisaCuti = document.getElementById("SisaCuti").value;
+            var TotalCuti = document.getElementById("TotalCuti").value;
+            if (SisaCuti <= 0 && TotalCuti <= 0) {
+                document.getElementById("TC").innerHTML = TotalCuti;
+                document.getElementById("gaugebar").style.width = "0%";
+                document.getElementById("emptybar").style.width = "100%";
+                document.getElementById("emptybar").style.backgroundColor = "#000000";
+            }
+            else if (SisaCuti <= 0 && TotalCuti > 0) {
+                document.getElementById("TC").innerHTML = TotalCuti;
+                document.getElementById("gaugebar").style.width = "0%";
+                document.getElementById("emptybar").style.width = "100%";
+                document.getElementById("emptybar").style.backgroundColor = "#000000";
+            }
+            else {
+                var Persen = (SisaCuti / TotalCuti) * 100;
+                document.getElementById("gaugebar").style.width = Persen + "%";
+                document.getElementById("emptybar").style.width = 100 - Persen + "%";
+                document.getElementById("emptybar").style.backgroundColor = "#000000";
+
+                if (Persen > 0 && Persen <= 25) {
+                    document.getElementById("gaugebar").style.backgroundColor = "#FF0000";
+                }
+                else if (Persen > 25 && Persen <= 50) {
+                    document.getElementById("gaugebar").style.backgroundColor = "#FF6A00";
+                }
+                else if (Persen > 50 && Persen <= 75) {
+                    document.getElementById("gaugebar").style.backgroundColor = "#00FF00";
+                }
+                else if (Persen > 75 && Persen <= 100) {
+                    document.getElementById("gaugebar").style.backgroundColor = "#009003";
+                }
+                else {
+                    document.getElementById("gaugebar").style.backgroundColor = "#009003";
+                }
+            }
+        }
+    }
+</script>
+<div class="contentPane">
+    @RenderBody()
+</div>

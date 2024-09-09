@@ -1,0 +1,434 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_PlasticBlue
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxheLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxheLoadingPanel_PlasticBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+
+
+.dxheControl_PlasticBlue
+{
+    border: Solid 1px #2C4182;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_PlasticBlue
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #E5E7F0;
+}
+.dxheErrorFrame_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_PlasticBlue .dxeMemo_PlasticBlue .dxheErrorFrame_PlasticBlue .dxhe,
+.dxheControl_PlasticBlue.dxhe-rtl .dxeMemo_PlasticBlue .dxheErrorFrame_PlasticBlue .dxhe,
+.dxheErrorFrame_PlasticBlue .dxhe {
+    padding: 5px;
+}
+.dxheControl_PlasticBlue .dxeMemo_PlasticBlue .dxheErrorFrame_PlasticBlue .dxhe td,
+.dxheControl_PlasticBlue.dxhe-rtl .dxeMemo_PlasticBlue .dxheErrorFrame_PlasticBlue .dxhe td,
+.dxheErrorFrame_PlasticBlue .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_PlasticBlue .dxheErrorFrameCloseButton_PlasticBlue {
+    cursor: pointer;
+}
+.dxheViewArea_PlasticBlue
+{
+    border: Solid 1px #CCCCCC;    
+}
+.dxheContentArea_PlasticBlue td.dxheViewArea_PlasticBlue {
+    line-height: 0;
+}
+.dxheContentArea_PlasticBlue td.dxheViewArea_PlasticBlue.dxheHtmlViewArea_PlasticBlue
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_PlasticBlue,
+.dxhePreviewArea_PlasticBlue
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_PlasticBlue .dxheHtmlViewArea_PlasticBlue,
+.dxheHtmlViewArea_PlasticBlue .CodeMirror,
+body.dxheDesignViewArea_PlasticBlue,
+body.dxhePreviewArea_PlasticBlue 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.dxheControl_PlasticBlue .dxeMemo_PlasticBlue.dxheHtmlViewArea_PlasticBlue .dxeMemoEditArea_PlasticBlue,
+body.dxheDesignViewArea_PlasticBlue,
+body.dxhePreviewArea_PlasticBlue
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_PlasticBlue .dxeMemo_PlasticBlue.dxheHtmlViewArea_PlasticBlue td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_PlasticBlue.dxhe-rtl .dxheContentArea_PlasticBlue .dxeMemo_PlasticBlue.dxheHtmlViewArea_PlasticBlue td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_PlasticBlue .dxeMemo_PlasticBlue textarea 
+{
+	resize:none;
+}
+.dxheControl_PlasticBlue td.dxheDesignViewArea_PlasticBlue
+{
+    position: relative;
+}
+td.dxheDesignViewArea_PlasticBlue .dxmLite_PlasticBlue {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_PlasticBlue .dxmLite_PlasticBlue.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_PlasticBlue .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_PlasticBlue .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_PlasticBlue .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_PlasticBlue .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_PlasticBlue img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_PlasticBlue img.dxheAudio,
+.dxheViewArea_PlasticBlue img.dxheFlash,
+.dxheViewArea_PlasticBlue img.dxheVideo,
+.dxheViewArea_PlasticBlue img.dxheYoutube,
+.dxheViewArea_PlasticBlue img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_PlasticBlue .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_PlasticBlue.dxheDesignViewArea_PlasticBlue .dxheSelected
+{
+    background-color: #E5E7F0;
+}
+.dxhe-insertPlaceholder .dxeListBox_PlasticBlue.dxeFocused_PlasticBlue
+{
+    border: 1px solid #B8B8B8;
+}
+.dxpc-contentWrapper .dxflFormLayout_PlasticBlue.dxhe-insertPlaceholder .dxflGroup_PlasticBlue .dxflGroupBox_PlasticBlue
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_PlasticBlue.dxhe-insertPlaceholder .dxflGroup_PlasticBlue .dxflGroupBox_PlasticBlue .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_PlasticBlue .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_PlasticBlue,
+.dxhe-insertPlaceholder .dxeListBox_PlasticBlue .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_PlasticBlue .CodeMirror-activeline-background 
+{
+    background-color: #6d82c5;
+    opacity: 0.2;
+}
+.dxheHtmlViewArea_PlasticBlue .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_PlasticBlue .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_PlasticBlue .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_PlasticBlue table.dxEmptyBorderTable,
+body.dxheDesignViewArea_PlasticBlue table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_PlasticBlue table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_PlasticBlue table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_PlasticBlue
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_PlasticBlue pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_PlasticBlue 
+{
+}
+.dxheStatusBarTab_PlasticBlue 
+{    
+    border-top: 1px solid #CCCCCC !important;
+}
+.dxheStatusBarActiveTab_PlasticBlue 
+{
+    border: 1px solid #2C4182 !important;
+}
+.dxHtmlEditor_heSizeGrip_PlasticBlue 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_PlasticBlue 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_PlasticBlue 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top:-16px;
+}
+.dxheControl_PlasticBlue.dxhe-rtl .dxheSizeGripContainer_PlasticBlue 
+{
+	text-align: left;
+}
+
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_PlasticBlue .dxheDlgFooter,
+.dxpcLite_PlasticBlue .dxheCustomDialog_PlasticBlue .dxhecd-Buttons
+{
+	color: #909090;
+	background-color: #E9E9E9;
+	border-style: none;
+	border-top: solid 1px #E0E0E0;	
+	
+	background-image: url('dfFooterBack.gif');
+    background-repeat:no-repeat;
+
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_PlasticBlue.dxRtl .dxheDlgFooter,
+.dxpcLite_PlasticBlue.dxRtl .dxheCustomDialog_PlasticBlue .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_PlasticBlue .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_PlasticBlue.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_PlasticBlue .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_PlasticBlue .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #B8B8B8;
+}
+.dxhe-dialog .dxflGroupBoxCaption_PlasticBlue
+{
+	background-color: #EDF3F4;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_PlasticBlue
+{
+	height: 1px;
+}
+.dxtbControl_PlasticBlue 
+{
+	color: black;
+	background-color: #2C4182;
+    border-bottom: Solid 1px #2C4182;
+}
+
+.dxtbControl_PlasticBlue td.dxtb.dxmMenu_PlasticBlue
+{
+	border-style: none;
+}
+.dxtbComboBoxMenuItem_PlasticBlue
+{
+    padding: 3px 4px 2px 4px;
+}
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue
+{
+    background-color: #E5E7F0;
+}
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue .dxr-minBtn
+{
+    padding-right: 6px;
+}
+.dxheControl_PlasticBlue .dxtbControl_PlasticBlue.dxtbr_PlasticBlue,
+.dxheControl_PlasticBlue .dxrControl_PlasticBlue .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_PlasticBlue .dxmLite_PlasticBlue .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_PlasticBlue .dxhetipControl_PlasticBlue img
+{
+	vertical-align: top;
+}
+.dxtbControl_PlasticBlue .dxmLite_PlasticBlue .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_PlasticBlue .dxmLite_PlasticBlue .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_PlasticBlue { }
+.dxtcbColorDiv_PlasticBlue
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_PlasticBlue .dxrpcontent
+{
+    padding: 10px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_PlasticBlue .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_PlasticBlue.dxhe-mediaDialog 
+{
+    width: 720px;
+}
+.dxflFormLayout_PlasticBlue.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_PlasticBlue.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_PlasticBlue.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_PlasticBlue.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_PlasticBlue.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+.dxflFormLayout_PlasticBlue .dxic-control div.dxtc-content 
+{
+    padding-top: 4px;
+}
+div.dxflFormLayout_PlasticBlue.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_PlasticBlue.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_PlasticBlue .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_PlasticBlue.dxeFocused_PlasticBlue
+{
+    border-color: #B8B8B8;
+}
+
+
+div.dxhe-searchQuick div.dxbButton_PlasticBlue,
+div.dxhe-searchQuick div.dxbButton_PlasticBlue .dxb
+{
+    background: none !important;
+    border: none !important;
+}

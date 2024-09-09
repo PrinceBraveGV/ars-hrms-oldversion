@@ -1,0 +1,226 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 12px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+    background-color: #3C4F8F;
+}
+a {
+    color: #5A83D0;
+    text-decoration: underline;   
+}
+a:hover {
+    color: #2443AA;    
+}
+a:visited {
+    color: #996085;
+    text-decoration: underline;   
+}
+div.PageContent {
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background: url('opacity50.png') repeat;
+    border-collapse: separate;
+	padding: 2px 20px 1px 5px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	color: #9EABD7;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+.PopupWindow .dxpc-footer {
+    background: #F5F5F5;
+    border-top: none;
+}
+.PopupWindow .dxpc-contentWrapper {
+    border-bottom: none;
+}
+.PopupWindow .dxpc-content {
+    border-bottom: none!important;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Links on dark background */
+.Footer .menuLinks_PlasticBlue .dxm-item a,
+.Footer .menuLinks_PlasticBlue .dxm-item a.dx > span,
+.Footer.menuLinks_PlasticBlue .dxm-hovered a.dx > span,
+.Security .menuLinks_PlasticBlue .dxm-item a,
+.Security .menuLinks_PlasticBlue .dxm-item a.dx > span,
+.Security .menuLinks_PlasticBlue .dxm-hovered a.dx > span,
+.TabsContainer .menuLinks_PlasticBlue .dxm-item a,
+.TabsContainer .menuLinks_PlasticBlue .dxm-item a.dx > span,
+.TabsContainer .menuLinks_PlasticBlue .dxm-hovered a.dx > span,
+.Footer .menuLinks_PlasticBlue .dxm-item a:visited,
+.Footer .menuLinks_PlasticBlue .dxm-item a.dx > span:visited,
+.Footer .menuLinks_PlasticBlue .dxm-hovered a.dx > span,
+.Security .menuLinks_PlasticBlue .dxm-item a:visited,
+.Security .menuLinks_PlasticBlue .dxm-item a.dx > span:visited,
+.Security .menuLinks_PlasticBlue .dxm-hovered a.dx > span,
+.TabsContainer .menuLinks_PlasticBlue .dxm-item a:visited,
+.TabsContainer .menuLinks_PlasticBlue .dxm-item a.dx > span:visited,
+.TabsContainer .menuLinks_PlasticBlue .dxm-hovered a.dx > span
+{
+	color: White !important;
+}
+/* Controls customization */
+.dxgvControl_PlasticBlue {
+	width: 100%;
+}
+.dxtcControl_PlasticBlue,
+.dxtcLite_PlasticBlue {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_PlasticBlue,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue {
+background-image: url('opacity50.png'); 
+background-repeat: repeat-x;
+}
+.NavigationTabsActionContainer .dxtcPageContent_PlasticBlue,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-content {
+    padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_PlasticBlue div,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-leftIndent
+{
+    width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-spacer,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-leftIndent
+{
+    padding-bottom: 3px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-strip .dxtc-activeTab,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-strip .dxtc-tab
+{
+    margin-top: 4px !important;    
+}
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-rightIndent
+{
+    padding-top: 0px !important;
+    padding-bottom: 2px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-activeTab,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-sbWrapper,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-sbIndent,
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-sbSpacer
+{
+	height: 22px;
+}
+.NavigationTabsActionContainer .dxtc-content .dxmLite_PlasticBlue .menuLinks_PlasticBlue
+{
+    padding-left: 11px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_PlasticBlue .dxtc-strip
+{
+    padding-top: 2px !important;
+}
+.ACV .dxmVerticalMenuItemWithImage_PlasticBlue
+{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #2443AA;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #5A83D0;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_PlasticBlue,
+.Security .dxmLite_PlasticBlue .dxm-separator {
+	padding: 0px 11px 0px 11px;
+} 
+.TabsContainer .dxmMenuSeparator_PlasticBlue,
+.TabsContainer .dxmLite_PlasticBlue .dxm-separator {
+	padding: 0px 10px 0px 16px;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_PlasticBlue,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_PlasticBlue .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_PlasticBlue,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_PlasticBlue .dxm-main
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header {
+    background-image: url('background.jpg'); 
+    background-position: left top; 
+    background-repeat: no-repeat;
+	background-color: #3C4F8F;
+}
+.EditModeActions .dxmLite_PlasticBlue,
+.RecordsNavigationContainer .dxmLite_PlasticBlue{
+	margin-right: 2px !important;
+}
+.Content .EditModeActions .dxmLite_PlasticBlue
+{
+    margin-right: 1px !important;
+}
+.RecordsNavigationContainer .dxmLite_PlasticBlue .menuLinks_PlasticBlue
+{
+    padding-top: 0px !important;
+    padding-bottom: 6px !important;
+}
+.RecordsNavigationContainer .dxmLite_PlasticBlue .dxm-content,
+.RecordsNavigationContainer .dxmLite_PlasticBlue .dxm-content.dxm-disabled
+{
+    padding-left: 2px !important;
+    padding-right: 3px !important;
+}
+.RecordsNavigationContainer .menuLinks_PlasticBlue .dxmMenuItemWithImage_PlasticBlue {
+	padding-left: 3px;
+}

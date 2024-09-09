@@ -1,0 +1,48 @@
+.dxCardView_gvCellError_MarineBlue,
+.dxCardView_gvFilterRowButton_MarineBlue,
+.dxCardView_gvHeaderFilter_MarineBlue,
+.dxCardView_gvHeaderFilterActive_MarineBlue,
+.dxCardView_gvHeaderSortDown_MarineBlue,
+.dxCardView_gvHeaderSortUp_MarineBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_MarineBlue
+{
+    background-position: -20px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_MarineBlue
+{
+    background-position: -20px -20px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_MarineBlue
+{
+    background-position: 0px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxCardView_gvHeaderFilterActive_MarineBlue
+{
+    background-position: 0px -20px;
+    width: 19px;
+    height: 19px;
+}
+.dxCardView_gvHeaderSortDown_MarineBlue
+{
+    background-position: -28px -34px;
+    width: 7px;
+    height: 5px;
+}
+.dxCardView_gvHeaderSortUp_MarineBlue
+{
+    background-position: -20px -34px;
+    width: 7px;
+    height: 5px;
+}
+

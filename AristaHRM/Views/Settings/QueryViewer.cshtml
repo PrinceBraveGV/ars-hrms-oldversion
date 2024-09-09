@@ -1,0 +1,134 @@
+﻿@{
+    ViewBag.Title = "HRIS - Penampil Query";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@using AristaHRM.Lib
+
+@model QueryModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function onInit(s, e) {
+        adjustSize();
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        QueryGrid.SetHeight(height);
+    }
+
+    function onClick(s, e) {
+        QueryGrid.PerformCallback();
+    }
+
+    function onSubmit(s, e) {
+        e.customArgs["Alamat_Server"] = Alamat_Server.GetValue();
+        e.customArgs["Nama_DB"] = Nama_DB.GetValue();
+        e.customArgs["Query_String"] = Query_String.GetValue();
+    }
+
+    function onEndCallback(s, e) {
+        if (s.cpMessage) {
+            alert(s.cpMessage);
+            delete s.cpMessage;
+        }
+    }
+
+    
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Penampil Query</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">Anda dapat memasukkan rumus query pada isian yang disediakan dan menampilkan hasilnya pada tabel di bawah ini.</label>
+                        <br /><br />
+                        @using (Html.BeginForm("QueryViewer", "Settings", FormMethod.Post)) 
+                        {
+                            @Html.DevExpress().FormLayout(settings => 
+                            {
+                                settings.Name = "QueryLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(item => 
+                                {
+                                    item.Caption = "Server ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.Alamat_Server, combo =>
+                                        {
+                                            combo.Name = "Alamat_Server";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combo.Properties.Items.Add("Absensi", "172.16.110.73");
+                                            combo.Properties.Items.Add("HRM", "172.16.110.116");
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Nama Database ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().TextBoxFor(m => m.Nama_DB, text =>
+                                        {
+                                            text.Name = "Nama_DB";
+                                            text.Width = Unit.Pixel(200);
+                                            text.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Query String ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().MemoFor(m => m.Query_String, text =>
+                                        {
+                                            text.Name = "Query_String";
+                                            text.Properties.Rows = 5;
+                                            text.Properties.Columns = 100;
+                                            text.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "Proses";
+                                button.Text = "Proses";
+                                button.UseSubmitBehavior = false;
+                                button.ClientSideEvents.Click = "onClick";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            </div>
+                            <br /><br />
+                            Html.RenderAction("QueryViewerPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<input class="btn primary" type="submit" value="Submit"
+       onclick="submitForm('@Url.RouteUrl("createAccount/"+ Model.Nama_DB)')">

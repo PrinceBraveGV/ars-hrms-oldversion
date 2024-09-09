@@ -1,0 +1,21 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "DaftarTdkHadirGrid";
+        settings.CallbackRouteValues = new { Controller = "", Action = "" };
+
+        settings.KeyFieldName = "";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "";
+            column.Caption = "";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+    });
+}
+
+@grid.Bind(Model).GetHtml()

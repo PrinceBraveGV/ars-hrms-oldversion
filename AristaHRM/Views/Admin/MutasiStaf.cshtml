@@ -1,0 +1,353 @@
+﻿@{
+    ViewBag.Title = "HRIS - Mutasi Karyawan (Level Staf)";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model MutasiModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function onInit(s, e) {
+        GantiPerusahaan.SetValue(true);
+        GantiCabang.SetValue(true);
+        GantiJabatan.SetValue(true);
+        GantiDept.SetValue(true);
+        GantiAtasan.SetValue(true);
+    }
+
+    function selectKaryawan(s, e) {
+        UserPanel.PerformCallback();
+    }
+
+    function getKaryawan(s, e) {
+        e.customArgs["NIK"] = NIK.GetValue();
+    }
+
+    function gantiPerusahaan(s, e) {
+        var checkp = GantiPerusahaan.GetValue();
+        if (!checkp) {
+            Perusahaan_Baru.SetEnabled(false);
+        }
+        else {
+            Perusahaan_Baru.SetEnabled(true);
+        }
+    }
+
+    function gantiCabang(s, e) {
+        var checkc = GantiCabang.GetValue();
+        if (!checkc) {
+            Cabang_Baru.SetEnabled(false);
+        }
+        else {
+            Cabang_Baru.SetEnabled(true);
+        }
+    }
+
+    function gantiJabatan(s, e) {
+        var checkj = GantiJabatan.GetValue();
+        if (!checkj) {
+            Jabatan_Baru.SetEnabled(false);
+        }
+        else {
+            Jabatan_Baru.SetEnabled(true);
+        }
+    }
+
+    function gantiDept(s, e) {
+        var checkd = GantiDept.GetValue();
+        if (!checkd) {
+            Departemen_Baru.SetEnabled(false);
+        }
+        else {
+            Departemen_Baru.SetEnabled(true);
+        }
+    }
+
+    function gantiAtasan(s, e) {
+        var checka = GantiAtasan.GetValue();
+        if (!checka) {
+            Atasan_Baru.SetEnabled(false);
+        }
+        else {
+            Atasan_Baru.SetEnabled(true);
+        }
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Mutasi Karyawan (Level Staf)</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">Anda dapat melakukan mutasi karyawan staf melalui isian berikut ini.</label>
+                        @using (Html.BeginForm("MutasiStaf", "Admin", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "KaryawanLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Width = Unit.Pixel(600);
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = String.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Karyawan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "======== NIK ";
+                                    // layoutitem.HorizontalAlign = FormLayoutHorizontalAlign.Center;
+                                    // layoutitem.NestedExtensionSettings.Width = Unit.Pixel(200);
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                        {
+                                            combobox.Name = "NIK";
+                                            combobox.Properties.NullText = "-- Pilih NIK --";
+                                            combobox.Properties.HelpText = "(*) Pilih NIK karyawan dari daftar.";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "NIK";
+                                            combobox.Properties.ValueField = "NIK";
+                                            combobox.Properties.ValueType = typeof(String);
+                                            combobox.Properties.TextFormatString = "{0} - {1}";
+                                            combobox.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(70));
+                                            combobox.Properties.Columns.Add("Nama_Karyawan", "Nama Karyawan", Unit.Pixel(300));
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ValidationSettings.Display = Display.None;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                            combobox.Properties.EnableClientSideAPI = true;
+                                            combobox.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                                            combobox.Properties.ClientSideEvents.ValueChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.SelectedIndexChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                        }).BindList(Providers.GetStaff()).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            Html.RenderPartial("_PanelMutasiInfo", Model);
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "IdentityLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.Width = Unit.Pixel(600);
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = String.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Informasi Mutasi</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Jenis Mutasi ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().CheckBoxFor(m => m.GantiPerusahaan, check =>
+                                        {
+                                            check.Name = "GantiPerusahaan";
+                                            check.Text = "Perusahaan";
+                                            check.Style.Add("float", "left");
+                                            check.Properties.ValueType = typeof(bool);
+                                            check.Properties.ClientSideEvents.CheckedChanged = "gantiPerusahaan";
+                                            check.Properties.ClientSideEvents.ValueChanged = "gantiPerusahaan";
+                                            check.Properties.ClientSideEvents.Init = "onInit";
+                                            check.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        Html.DevExpress().ComboBoxFor(m => m.Perusahaan_Baru, combo =>
+                                        {
+                                            combo.Name = "Perusahaan_Baru";
+                                            combo.Style.Add("float", "right");
+                                            combo.Style.Add("margin-right", "100px");
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Nama_Perusahaan";
+                                            combo.Properties.ValueField = "Nama_Perusahaan";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetPerusahaan()).GetHtml();
+                                        ViewContext.Writer.Write("<br /><br />");
+                                        Html.DevExpress().CheckBoxFor(m => m.GantiCabang, check =>
+                                        {
+                                            check.Name = "GantiCabang";
+                                            check.Text = "Cabang";
+                                            check.Style.Add("float", "left");
+                                            check.Properties.ValueType = typeof(bool);
+                                            check.Properties.ClientSideEvents.CheckedChanged = "gantiCabang";
+                                            check.Properties.ClientSideEvents.ValueChanged = "gantiCabang";
+                                            check.Properties.ClientSideEvents.Init = "onInit";
+                                            check.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        Html.DevExpress().ComboBoxFor(m => m.Cabang_Baru, combo =>
+                                        {
+                                            combo.Name = "Cabang_Baru";
+                                            combo.Style.Add("float", "right");
+                                            combo.Style.Add("margin-right", "100px");
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Nama_Cabang";
+                                            combo.Properties.ValueField = "Nama_Cabang";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetCabang()).GetHtml();
+                                        ViewContext.Writer.Write("<br /><br />");
+                                        Html.DevExpress().CheckBoxFor(m => m.GantiJabatan, check =>
+                                        {
+                                            check.Name = "GantiJabatan";
+                                            check.Text = "Jabatan";
+                                            check.Style.Add("float", "left");
+                                            check.Properties.ValueType = typeof(bool);
+                                            check.Properties.ClientSideEvents.CheckedChanged = "gantiJabatan";
+                                            check.Properties.ClientSideEvents.ValueChanged = "gantiJabatan";
+                                            check.Properties.ClientSideEvents.Init = "onInit";
+                                            check.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        Html.DevExpress().ComboBoxFor(m => m.Jabatan_Baru, combo =>
+                                        {
+                                            combo.Name = "Jabatan_Baru";
+                                            combo.Style.Add("float", "right");
+                                            combo.Style.Add("margin-right", "100px");
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Jenis_Isi";
+                                            combo.Properties.ValueField = "Jenis_Isi";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetJabatan()).GetHtml();
+                                        ViewContext.Writer.Write("<br /><br />");
+                                        Html.DevExpress().CheckBoxFor(m => m.GantiDept, check =>
+                                        {
+                                            check.Name = "GantiDept";
+                                            check.Text = "Departemen";
+                                            check.Style.Add("float", "left");
+                                            check.Properties.ValueType = typeof(bool);
+                                            check.Properties.ClientSideEvents.CheckedChanged = "gantiDept";
+                                            check.Properties.ClientSideEvents.ValueChanged = "gantiDept";
+                                            check.Properties.ClientSideEvents.Init = "onInit";
+                                            check.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        Html.DevExpress().ComboBoxFor(m => m.Departemen_Baru, combo =>
+                                        {
+                                            combo.Name = "Departemen_Baru";
+                                            combo.Style.Add("float", "right");
+                                            combo.Style.Add("margin-right", "100px");
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Jenis_Isi";
+                                            combo.Properties.ValueField = "Jenis_Isi";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetDepartemen()).GetHtml();
+                                        ViewContext.Writer.Write("<br /><br />");
+                                        Html.DevExpress().CheckBoxFor(m => m.GantiAtasan, check =>
+                                        {
+                                            check.Name = "GantiAtasan";
+                                            check.Text = "Atasan";
+                                            check.Style.Add("float", "left");
+                                            check.Properties.ValueType = typeof(bool);
+                                            check.Properties.ClientSideEvents.CheckedChanged = "gantiAtasan";
+                                            check.Properties.ClientSideEvents.ValueChanged = "gantiAtasan";
+                                            check.Properties.ClientSideEvents.Init = "onInit";
+                                            check.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        Html.DevExpress().ComboBoxFor(m => m.Atasan_Baru, combo =>
+                                        {
+                                            combo.Name = "Atasan_Baru";
+                                            combo.Style.Add("float", "right");
+                                            combo.Style.Add("margin-right", "100px");
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Nama_Karyawan";
+                                            combo.Properties.ValueField = "Nama_Karyawan";
+                                            combo.Width = Unit.Pixel(200);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetAtasan()).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tgl. Mutasi ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Mutasi, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(200);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal mutasi karyawan ybs.";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Keterangan ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().MemoFor(m => m.Keterangan, memo =>
+                                        {
+                                            memo.Name = "Keterangan";
+                                            memo.Properties.Rows = 5;
+                                            memo.Properties.Columns = 71;
+                                            memo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            ViewContext.Writer.Write(@"<p class=""formbutton"">");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Proses Mutasi";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            ViewContext.Writer.Write("&nbsp;");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            ViewContext.Writer.Write(@"</p>");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

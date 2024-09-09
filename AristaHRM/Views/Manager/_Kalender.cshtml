@@ -1,0 +1,121 @@
+﻿@using AristaHRM.Models
+
+@{
+   SchedulerExtension sch = Html.DevExpress().Scheduler(settings =>
+   {
+       settings.Name = "schedule";
+       settings.CallbackRouteValues = new { Controller = "DataList", Action = "KalenderPartial" };
+       settings.Width = Unit.Percentage(100);
+       settings.ActiveViewType = SchedulerViewType.Month;
+       settings.Start = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+
+       settings.Views.DayView.Enabled = true;
+       settings.Views.DayView.ResourcesPerPage = 10;
+       settings.Views.DayView.Styles.ScrollAreaHeight = Unit.Pixel(400);
+       settings.Views.DayView.AppointmentDisplayOptions.StartTimeVisibility = AppointmentTimeVisibility.Never;
+       settings.Views.DayView.AppointmentDisplayOptions.EndTimeVisibility = AppointmentTimeVisibility.Never;
+       // settings.Views.DayView.ShowWorkTimeOnly = true;
+       settings.Views.DayView.WorkTime = new TimeOfDayInterval { Start = TimeSpan.FromHours(8), End = TimeSpan.FromHours(17) };
+       settings.Views.DayView.ShowDayHeaders = false;
+       settings.Views.FullWeekView.Enabled = true;
+       settings.Views.FullWeekView.ResourcesPerPage = 7;
+       settings.Views.FullWeekView.AppointmentDisplayOptions.StartTimeVisibility = AppointmentTimeVisibility.Never;
+       settings.Views.FullWeekView.AppointmentDisplayOptions.EndTimeVisibility = AppointmentTimeVisibility.Never;
+       // settings.Views.WorkWeekView.ShowWorkTimeOnly = true;
+       settings.Views.FullWeekView.WorkTime = new TimeOfDayInterval { Start = TimeSpan.FromHours(8), End = TimeSpan.FromHours(17) };
+       settings.Views.WeekView.Enabled = false;
+       settings.Views.WorkWeekView.Enabled = false;
+       settings.Views.MonthView.ResourcesPerPage = 7;
+       settings.Views.MonthView.ShowWeekend = true;
+       settings.Views.MonthView.Styles.DateCellBody.Height = Unit.Pixel(200);
+       settings.Views.MonthView.AppointmentDisplayOptions.StartTimeVisibility = AppointmentTimeVisibility.Never;
+       settings.Views.MonthView.AppointmentDisplayOptions.EndTimeVisibility = AppointmentTimeVisibility.Never;
+       settings.Views.TimelineView.ResourcesPerPage = 7;
+       settings.Views.TimelineView.Styles.TimelineCellBody.Height = Unit.Pixel(400);
+       settings.Views.TimelineView.AppointmentDisplayOptions.StartTimeVisibility = AppointmentTimeVisibility.Never;
+       settings.Views.TimelineView.AppointmentDisplayOptions.EndTimeVisibility = AppointmentTimeVisibility.Never;
+
+       settings.HtmlTimeCellPrepared = (s, e) =>
+       {
+           MVCxScheduler schedule = (MVCxScheduler)s;
+           var interval = e.Interval;
+           if (e.View.Type == SchedulerViewType.Timeline || e.View.Type == SchedulerViewType.FullWeek || e.View.Type == SchedulerViewType.Month)
+           {
+               HRISContext DB = new HRISContext();
+
+               // muat data dalam database hari libur
+               var listlibur = (from ListLibur in DB.TM_List_Liburs
+                                select ListLibur).ToArray();
+
+               DayOfWeek d1 = interval.Start.DayOfWeek;
+               if (d1 == DayOfWeek.Sunday)
+               {
+                   e.Cell.BackColor = System.Drawing.Color.Red;
+               }
+               else if (d1 == DayOfWeek.Saturday)
+               {
+                   e.Cell.BackColor = System.Drawing.Color.Green;
+               }
+
+               // untuk hari libur nasional yang tanggalnya selalu tetap setiap tahunnya
+               DateTime dt = interval.Start.Date;
+               if (dt.Month == 1 && dt.Day == 1)
+               {
+                   e.Cell.BackColor = System.Drawing.Color.Red;
+               }
+
+               if (dt.Month == 12 && dt.Day == 25)
+               {
+                   e.Cell.BackColor = System.Drawing.Color.Red;
+               }
+
+               if (dt.Month == 8 && dt.Day == 17)
+               {
+                   e.Cell.BackColor = System.Drawing.Color.Red;
+               }
+
+               // untuk hari libur nasional yang disesuaikan dengan database sistem
+               foreach (TM_List_Libur tl in listlibur)
+               {
+                   DateTime Tgl_Libur = (DateTime)tl.Tgl_Libur;
+                   String Keterangan = tl.Keterangan;
+                   schedule.WorkDays.AddHoliday(Tgl_Libur, Keterangan);
+
+                   if (dt.Date == Tgl_Libur.Date)
+                   {
+                       e.Cell.BackColor = System.Drawing.Color.Red;
+                   }
+               }
+           }
+       };
+
+       settings.AppointmentViewInfoCustomizing = (s, e) =>
+       {
+           if (e.ViewInfo.Appointment.Description.Contains("Nasional") || e.ViewInfo.Appointment.Subject.Contains("Nasional"))
+           {
+               e.ViewInfo.AppointmentStyle.BackColor = System.Drawing.Color.Red;
+               e.ViewInfo.AppointmentStyle.ForeColor = System.Drawing.Color.White;
+           }
+           else if (e.ViewInfo.Appointment.Description.Contains("Massal") || e.ViewInfo.Appointment.Subject.Contains("Massal"))
+           {
+               e.ViewInfo.AppointmentStyle.BackColor = System.Drawing.Color.LightGreen;
+           }
+           else if (!e.ViewInfo.Appointment.Description.Contains("Tahunan") && !e.ViewInfo.Appointment.Subject.Contains("Tahunan"))
+           {
+               e.ViewInfo.AppointmentStyle.BackColor = System.Drawing.Color.Orange;
+           }
+       };
+
+       // deklarasi storage
+       settings.Storage.Appointments.Assign(ScheduleHelper.DefaultStorage);
+
+       settings.Storage.EnableReminders = false;
+       settings.OptionsCustomization.AllowAppointmentCreate = UsedAppointmentType.None;
+       settings.OptionsCustomization.AllowAppointmentEdit = UsedAppointmentType.None;
+       settings.OptionsCustomization.AllowAppointmentDelete = UsedAppointmentType.None;
+
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+   });
+}
+
+@sch.Bind(Model).GetHtml()

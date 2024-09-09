@@ -1,0 +1,55 @@
+.dxRichEdit_CenterTabDragHandle_RedWine,
+.dxRichEdit_DecimalTabDragHandle_RedWine,
+.dxRichEdit_FirstLineIdentDragHandle_RedWine,
+.dxRichEdit_LeftIdentDragHandle_RedWine,
+.dxRichEdit_LeftTabDragHandle_RedWine,
+.dxRichEdit_RightIdentDragHandle_RedWine,
+.dxRichEdit_RightTabDragHandle_RedWine
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_RedWine
+{
+    background-position: 0px -34px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_DecimalTabDragHandle_RedWine
+{
+    background-position: 0px -27px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_RedWine
+{
+    background-position: 0px -9px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_RedWine
+{
+    background-position: 0px -18px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_RedWine
+{
+    background-position: 0px -48px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_RightIdentDragHandle_RedWine
+{
+    background-position: 0px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_RedWine
+{
+    background-position: 0px -41px;
+    width: 6px;
+    height: 6px;
+}
+

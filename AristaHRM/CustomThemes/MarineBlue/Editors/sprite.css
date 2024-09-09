@@ -1,0 +1,953 @@
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtClear_MarineBlue,
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtDropDown_MarineBlue,
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtEllipsis_MarineBlue,
+.dxeButtonEditButtonPressed_MarineBlue .dxEditors_edtDropDown_MarineBlue,
+.dxeButtonEditButtonPressed_MarineBlue .dxEditors_edtEllipsis_MarineBlue,
+.dxEditors_caRefresh_MarineBlue,
+.dxEditors_edtBinaryImageDelete_MarineBlue,
+.dxEditors_edtBinaryImageOpenDialog_MarineBlue,
+.dxEditors_edtCalendarFNNextYear_MarineBlue,
+.dxEditors_edtCalendarFNPrevYear_MarineBlue,
+.dxEditors_edtCalendarNextMonth_MarineBlue,
+.dxEditors_edtCalendarNextMonthDisabled_MarineBlue,
+.dxEditors_edtCalendarNextYear_MarineBlue,
+.dxEditors_edtCalendarNextYearDisabled_MarineBlue,
+.dxEditors_edtCalendarPrevMonth_MarineBlue,
+.dxEditors_edtCalendarPrevMonthDisabled_MarineBlue,
+.dxEditors_edtCalendarPrevYear_MarineBlue,
+.dxEditors_edtCalendarPrevYearDisabled_MarineBlue,
+.dxEditors_edtClear_MarineBlue,
+.dxEditors_edtDETSClockFace_MarineBlue,
+.dxEditors_edtDETSHourHand_MarineBlue,
+.dxEditors_edtDETSMinuteHand_MarineBlue,
+.dxEditors_edtDETSSecondHand_MarineBlue,
+.dxEditors_edtDropDown_MarineBlue,
+.dxEditors_edtDropDownDisabled_MarineBlue,
+.dxEditors_edtEllipsis_MarineBlue,
+.dxEditors_edtEllipsisDisabled_MarineBlue,
+.dxEditors_edtError_MarineBlue,
+.dxEditors_edtRadioButtonChecked_MarineBlue,
+.dxEditors_edtRadioButtonCheckedDisabled_MarineBlue,
+.dxEditors_edtRadioButtonUnchecked_MarineBlue,
+.dxEditors_edtRadioButtonUncheckedDisabled_MarineBlue,
+.dxEditors_edtSpinEditDecrementImage_MarineBlue,
+.dxEditors_edtSpinEditDecrementImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditIncrementImage_MarineBlue,
+.dxEditors_edtSpinEditIncrementImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditLargeDecImage_MarineBlue,
+.dxEditors_edtSpinEditLargeDecImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditLargeIncImage_MarineBlue,
+.dxEditors_edtSpinEditLargeIncImageDisabled_MarineBlue,
+.dxEditors_edtTBDecBtn_MarineBlue,
+.dxEditors_edtTBDecBtnDisabled_MarineBlue,
+.dxEditors_edtTBDecBtnHover_MarineBlue,
+.dxEditors_edtTBDecBtnPressed_MarineBlue,
+.dxEditors_edtTBIncBtn_MarineBlue,
+.dxEditors_edtTBIncBtnDisabled_MarineBlue,
+.dxEditors_edtTBIncBtnHover_MarineBlue,
+.dxEditors_edtTBIncBtnPressed_MarineBlue,
+.dxEditors_edtTokenBoxTokenRemoveButton_MarineBlue,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_MarineBlue,
+.dxEditors_fcadd_MarineBlue,
+.dxEditors_fcaddhot_MarineBlue,
+.dxEditors_fcgroupaddcondition_MarineBlue,
+.dxEditors_fcgroupaddgroup_MarineBlue,
+.dxEditors_fcgroupand_MarineBlue,
+.dxEditors_fcgroupnotand_MarineBlue,
+.dxEditors_fcgroupnotor_MarineBlue,
+.dxEditors_fcgroupor_MarineBlue,
+.dxEditors_fcgroupremove_MarineBlue,
+.dxEditors_fcopany_MarineBlue,
+.dxEditors_fcopavg_MarineBlue,
+.dxEditors_fcopbegin_MarineBlue,
+.dxEditors_fcopbetween_MarineBlue,
+.dxEditors_fcopblank_MarineBlue,
+.dxEditors_fcopcontain_MarineBlue,
+.dxEditors_fcopcount_MarineBlue,
+.dxEditors_fcopend_MarineBlue,
+.dxEditors_fcopequal_MarineBlue,
+.dxEditors_fcopexists_MarineBlue,
+.dxEditors_fcopgreater_MarineBlue,
+.dxEditors_fcopgreaterorequal_MarineBlue,
+.dxEditors_fcopless_MarineBlue,
+.dxEditors_fcoplessorequal_MarineBlue,
+.dxEditors_fcoplike_MarineBlue,
+.dxEditors_fcopmax_MarineBlue,
+.dxEditors_fcopmin_MarineBlue,
+.dxEditors_fcopnotany_MarineBlue,
+.dxEditors_fcopnotbetween_MarineBlue,
+.dxEditors_fcopnotblank_MarineBlue,
+.dxEditors_fcopnotcontain_MarineBlue,
+.dxEditors_fcopnotequal_MarineBlue,
+.dxEditors_fcopnotlike_MarineBlue,
+.dxEditors_fcopsingle_MarineBlue,
+.dxEditors_fcopsum_MarineBlue,
+.dxEditors_fcoptypefield_MarineBlue,
+.dxEditors_fcoptypefieldhot_MarineBlue,
+.dxEditors_fcoptypevalue_MarineBlue,
+.dxEditors_fcoptypevaluehot_MarineBlue,
+.dxEditors_fcremove_MarineBlue,
+.dxEditors_fcremovehot_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue,
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue,
+.dxeSpinDecButtonHover_MarineBlue .dxEditors_edtSpinEditDecrementImage_MarineBlue,
+.dxeSpinDecButtonPressed_MarineBlue .dxEditors_edtSpinEditDecrementImage_MarineBlue,
+.dxeSpinIncButtonHover_MarineBlue .dxEditors_edtSpinEditIncrementImage_MarineBlue,
+.dxeSpinIncButtonPressed_MarineBlue .dxEditors_edtSpinEditIncrementImage_MarineBlue,
+.dxeSpinLargeDecButtonHover_MarineBlue .dxEditors_edtSpinEditLargeDecImage_MarineBlue,
+.dxeSpinLargeDecButtonPressed_MarineBlue .dxEditors_edtSpinEditLargeDecImage_MarineBlue,
+.dxeSpinLargeIncButtonHover_MarineBlue .dxEditors_edtSpinEditLargeIncImage_MarineBlue,
+.dxeSpinLargeIncButtonPressed_MarineBlue .dxEditors_edtSpinEditLargeIncImage_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBMainDH_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBMainDH_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtClear_MarineBlue
+{
+    background-position: -176px -151px;
+    width: 13px;
+    height: 13px;
+}
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtDropDown_MarineBlue
+{
+    background-position: -148px -59px;
+    width: 11px;
+    height: 7px;
+}
+.dxeButtonEditButtonHover_MarineBlue .dxEditors_edtEllipsis_MarineBlue
+{
+    background-position: -151px -188px;
+    width: 12px;
+    height: 3px;
+}
+.dxeButtonEditButtonPressed_MarineBlue .dxEditors_edtDropDown_MarineBlue
+{
+    background-position: -126px -267px;
+    width: 11px;
+    height: 7px;
+}
+.dxeButtonEditButtonPressed_MarineBlue .dxEditors_edtEllipsis_MarineBlue
+{
+    background-position: -177px -188px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_caRefresh_MarineBlue
+{
+    background-position: -136px -67px;
+    width: 21px;
+    height: 23px;
+}
+.dxEditors_edtBinaryImageDelete_MarineBlue
+{
+    background-position: -157px -91px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_MarineBlue
+{
+    background-position: -124px -91px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_MarineBlue
+{
+    background-position: -96px -151px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarFNPrevYear_MarineBlue
+{
+    background-position: -105px -171px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonth_MarineBlue
+{
+    background-position: -116px -151px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_MarineBlue
+{
+    background-position: -136px -151px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYear_MarineBlue
+{
+    background-position: -24px -151px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYearDisabled_MarineBlue
+{
+    background-position: -48px -151px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonth_MarineBlue
+{
+    background-position: -125px -171px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_MarineBlue
+{
+    background-position: -156px -151px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYear_MarineBlue
+{
+    background-position: -72px -151px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_MarineBlue
+{
+    background-position: 0px -151px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtClear_MarineBlue
+{
+    background-position: -84px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtDETSClockFace_MarineBlue
+{
+    background-position: 0px 0px;
+    width: 123px;
+    height: 123px;
+}
+.dxEditors_edtDETSHourHand_MarineBlue
+{
+    background-position: -144px 0px;
+    width: 7px;
+    height: 57px;
+}
+.dxEditors_edtDETSHourHand_MarineBlue
+{
+    background-position: -152px 0px \9;
+    width: 7px \9;
+    height: 57px \9;
+}
+.dxEditors_edtDETSMinuteHand_MarineBlue
+{
+    background-position: -136px 0px;
+    width: 7px;
+    height: 57px;
+}
+.dxEditors_edtDETSMinuteHand_MarineBlue
+{
+    background-position: -160px 0px \9;
+    width: 7px \9;
+    height: 57px \9;
+}
+.dxEditors_edtDETSSecondHand_MarineBlue
+{
+    background-position: -130px 0px;
+    width: 5px;
+    height: 77px;
+}
+.dxEditors_edtDETSSecondHand_MarineBlue
+{
+    background-position: -124px 0px \9;
+    width: 5px \9;
+    height: 77px \9;
+}
+.dxEditors_edtDropDown_MarineBlue
+{
+    background-position: -124px -83px;
+    width: 11px;
+    height: 7px;
+}
+.dxEditors_edtDropDownDisabled_MarineBlue
+{
+    background-position: -136px -59px;
+    width: 11px;
+    height: 7px;
+}
+.dxEditors_edtEllipsis_MarineBlue
+{
+    background-position: -164px -188px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtEllipsisDisabled_MarineBlue
+{
+    background-position: -177px -167px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtError_MarineBlue
+{
+    background-position: -16px -223px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_MarineBlue
+{
+    background-position: -134px -206px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_MarineBlue
+{
+    background-position: -118px -206px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_MarineBlue
+{
+    background-position: 0px -223px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_MarineBlue
+{
+    background-position: -102px -206px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_MarineBlue
+{
+    background-position: -182px -10px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_MarineBlue
+{
+    background-position: -160px -59px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImage_MarineBlue
+{
+    background-position: -182px -253px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_MarineBlue
+{
+    background-position: -162px -267px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeDecImage_MarineBlue
+{
+    background-position: -158px -81px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_MarineBlue
+{
+    background-position: -182px -124px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImage_MarineBlue
+{
+    background-position: -180px -223px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_MarineBlue
+{
+    background-position: -158px -68px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtTBDecBtn_MarineBlue
+{
+    background-position: -168px -70px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnDisabled_MarineBlue
+{
+    background-position: -42px -171px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnHover_MarineBlue
+{
+    background-position: -84px -171px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBDecBtnPressed_MarineBlue
+{
+    background-position: -168px -28px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtn_MarineBlue
+{
+    background-position: -63px -171px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnDisabled_MarineBlue
+{
+    background-position: -21px -171px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnHover_MarineBlue
+{
+    background-position: 0px -171px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTBIncBtnPressed_MarineBlue
+{
+    background-position: -168px -49px;
+    width: 20px;
+    height: 20px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_MarineBlue
+{
+    background-position: -150px -206px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_MarineBlue
+{
+    background-position: -166px -206px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_MarineBlue
+{
+    background-position: -154px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_MarineBlue
+{
+    background-position: -112px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_MarineBlue
+{
+    background-position: -27px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_MarineBlue
+{
+    background-position: -28px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_MarineBlue
+{
+    background-position: -14px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_MarineBlue
+{
+    background-position: -84px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_MarineBlue
+{
+    background-position: 0px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_MarineBlue
+{
+    background-position: -70px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_MarineBlue
+{
+    background-position: -153px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_MarineBlue
+{
+    background-position: -167px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_MarineBlue
+{
+    background-position: -85px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_MarineBlue
+{
+    background-position: -83px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_MarineBlue
+{
+    background-position: -98px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_MarineBlue
+{
+    background-position: -97px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_MarineBlue
+{
+    background-position: 0px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_MarineBlue
+{
+    background-position: 0px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_MarineBlue
+{
+    background-position: -125px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_MarineBlue
+{
+    background-position: -42px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_MarineBlue
+{
+    background-position: -17px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_MarineBlue
+{
+    background-position: -98px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_MarineBlue
+{
+    background-position: -139px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_MarineBlue
+{
+    background-position: -42px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_MarineBlue
+{
+    background-position: -70px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_MarineBlue
+{
+    background-position: -166px -223px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_MarineBlue
+{
+    background-position: -172px -171px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_MarineBlue
+{
+    background-position: -68px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_MarineBlue
+{
+    background-position: -140px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_MarineBlue
+{
+    background-position: -14px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_MarineBlue
+{
+    background-position: -126px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_MarineBlue
+{
+    background-position: -28px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_MarineBlue
+{
+    background-position: -41px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_MarineBlue
+{
+    background-position: -168px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_MarineBlue
+{
+    background-position: -34px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_MarineBlue
+{
+    background-position: -51px -206px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_MarineBlue
+{
+    background-position: -111px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_MarineBlue
+{
+    background-position: -56px -267px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_MarineBlue
+{
+    background-position: -55px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_MarineBlue
+{
+    background-position: -69px -239px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_MarineBlue
+{
+    background-position: -112px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_MarineBlue
+{
+    background-position: -56px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MarineBlue
+{
+    background-position: -154px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MarineBlue
+{
+    background-position: -168px 0px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MarineBlue
+{
+    background-position: -28px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MarineBlue
+{
+    background-position: -14px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue
+{
+    background-position: -168px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+    background-position: -56px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MarineBlue
+{
+    background-position: -112px -223px;
+    width: 26px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MarineBlue
+{
+    background-position: -31px -223px;
+    width: 26px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MarineBlue
+{
+    background-position: -139px -223px;
+    width: 26px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MarineBlue
+{
+    background-position: 0px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue
+{
+    background-position: 0px -239px;
+    width: 26px;
+    height: 13px;
+}
+.dxeFocused_MarineBlue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+    background-position: -54px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeSpinDecButtonHover_MarineBlue .dxEditors_edtSpinEditDecrementImage_MarineBlue
+{
+    background-position: -138px -267px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinDecButtonPressed_MarineBlue .dxEditors_edtSpinEditDecrementImage_MarineBlue
+{
+    background-position: -154px -267px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinIncButtonHover_MarineBlue .dxEditors_edtSpinEditIncrementImage_MarineBlue
+{
+    background-position: -181px -239px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinIncButtonPressed_MarineBlue .dxEditors_edtSpinEditIncrementImage_MarineBlue
+{
+    background-position: -146px -267px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinLargeDecButtonHover_MarineBlue .dxEditors_edtSpinEditLargeDecImage_MarineBlue
+{
+    background-position: -182px 0px;
+    width: 7px;
+    height: 9px;
+}
+.dxeSpinLargeDecButtonPressed_MarineBlue .dxEditors_edtSpinEditLargeDecImage_MarineBlue
+{
+    background-position: -182px -18px;
+    width: 7px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonHover_MarineBlue .dxEditors_edtSpinEditLargeIncImage_MarineBlue
+{
+    background-position: -182px -206px;
+    width: 7px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonPressed_MarineBlue .dxEditors_edtSpinEditLargeIncImage_MarineBlue
+{
+    background-position: -182px -141px;
+    width: 7px;
+    height: 9px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_MarineBlue
+{
+    background-position: -70px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_MarineBlue
+{
+    background-position: -84px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_MarineBlue
+{
+    background-position: -126px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MarineBlue
+{
+    background-position: -112px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_MarineBlue
+{
+    background-position: 0px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_MarineBlue
+{
+    background-position: -42px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_MarineBlue
+{
+    background-position: -98px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+    background-position: -140px -124px;
+    width: 13px;
+    height: 26px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_MarineBlue
+{
+    background-position: -145px -171px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_MarineBlue
+{
+    background-position: -81px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_MarineBlue
+{
+    background-position: -162px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MarineBlue
+{
+    background-position: -135px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_MarineBlue
+{
+    background-position: -27px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_MarineBlue
+{
+    background-position: -108px -192px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_MarineBlue
+{
+    background-position: -58px -223px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+    background-position: -85px -223px;
+    width: 26px;
+    height: 13px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MarineBlue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MarineBlue
+{
+	z-index: 7;
+}
+.dxEditors_edtError_MarineBlue,
+.dxEditors_edtCalendarPrevYear_MarineBlue,
+.dxEditors_edtCalendarPrevYearDisabled_MarineBlue,
+.dxEditors_edtCalendarPrevMonth_MarineBlue,
+.dxEditors_edtCalendarPrevMonthDisabled_MarineBlue,
+.dxEditors_edtCalendarNextMonth_MarineBlue,
+.dxEditors_edtCalendarNextMonthDisabled_MarineBlue,
+.dxEditors_edtCalendarNextYear_MarineBlue,
+.dxEditors_edtCalendarNextYearDisabled_MarineBlue,
+.dxEditors_edtCalendarFNPrevYear_MarineBlue,
+.dxEditors_edtCalendarFNNextYear_MarineBlue,
+.dxEditors_edtEllipsis_MarineBlue,
+.dxEditors_edtEllipsisDisabled_MarineBlue,
+.dxEditors_edtEllipsisHover_MarineBlue,
+.dxEditors_edtEllipsisPressed_MarineBlue,
+.dxEditors_edtDropDown_MarineBlue,
+.dxEditors_edtDropDownDisabled_MarineBlue,
+.dxEditors_edtSpinEditIncrementImage_MarineBlue,
+.dxEditors_edtSpinEditIncrementImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditDecrementImage_MarineBlue,
+.dxEditors_edtSpinEditDecrementImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditLargeIncImage_MarineBlue,
+.dxEditors_edtSpinEditLargeIncImageDisabled_MarineBlue,
+.dxEditors_edtSpinEditLargeDecImage_MarineBlue,
+.dxEditors_edtSpinEditLargeDecImageDisabled_MarineBlue
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_MarineBlue
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_MarineBlue
+{
+    margin-left: 8px;
+}
+

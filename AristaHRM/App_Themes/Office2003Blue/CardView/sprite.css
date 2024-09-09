@@ -1,0 +1,48 @@
+.dxCardView_gvCellError_Office2003Blue,
+.dxCardView_gvFilterRowButton_Office2003Blue,
+.dxCardView_gvHeaderFilter_Office2003Blue,
+.dxCardView_gvHeaderFilterActive_Office2003Blue,
+.dxCardView_gvHeaderSortDown_Office2003Blue,
+.dxCardView_gvHeaderSortUp_Office2003Blue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_Office2003Blue
+{
+    background-position: 0px -34px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_Office2003Blue
+{
+    background-position: 0px -49px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_Office2003Blue
+{
+    background-position: 0px 0px;
+    width: 15px;
+    height: 16px;
+}
+.dxCardView_gvHeaderFilterActive_Office2003Blue
+{
+    background-position: 0px -17px;
+    width: 15px;
+    height: 16px;
+}
+.dxCardView_gvHeaderSortDown_Office2003Blue
+{
+    background-position: -8px -63px;
+    width: 7px;
+    height: 4px;
+}
+.dxCardView_gvHeaderSortUp_Office2003Blue
+{
+    background-position: 0px -63px;
+    width: 7px;
+    height: 4px;
+}
+

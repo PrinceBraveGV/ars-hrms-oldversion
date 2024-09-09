@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = " - Sisa Cuti Tahunan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model FindModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "MasterData", "Master", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<p>
+    Sisa Cuti Tahunan Anda
+</p>
+
+@using (Html.BeginForm("SisaTahunan", "Master", mobilearea, FormMethod.Post, null))
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > <a href="@Url.Action("MasterData", "Master", mobilearea)">Master Data</a> > Sisa Cuti Tahunan</li>
+        <li data-role="list-divider">Sisa Cuti Tahunan</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.NIK)
+            @Html.DropDownListFor(m => m.NIK, Providers.GetListKaryawan("Mobile"), new { id = "NIK" })
+        </li>
+    </ul>
+    
+    Html.RenderAction("SisaTahunanPartial", "Master", mobilearea);
+}
+
+<br />
+<label>@ViewData["Catatan"]</label>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#NIK").change(function () {
+                document.forms[0].submit();
+            });
+        });
+    </script>
+}

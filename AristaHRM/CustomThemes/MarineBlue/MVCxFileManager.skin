@@ -1,0 +1,14 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxFileManager runat="server">
+    <Styles CssFilePath="{0}/styles.css" CssPostfix="MarineBlue"></Styles>
+    <Images SpriteCssFilePath="{0}/sprite.css" 
+            FolderContainerNodeLoadingPanel-Url="Web/tvNodeLoading.gif"></Images>    
+    <ImagesDetailsView>
+        <HeaderActiveFilter SpriteProperties-CssClass="dxWeb_fmGvHeaderFilterActive_MarineBlue"></HeaderActiveFilter>
+        <HeaderFilter SpriteProperties-CssClass="dxWeb_fmGvHeaderFilter_MarineBlue"></HeaderFilter>
+    </ImagesDetailsView>
+    <SettingsLoadingPanel ImagePosition="Top" />
+</dxmvc:MVCxFileManager>

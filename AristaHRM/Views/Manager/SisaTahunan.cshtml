@@ -1,0 +1,217 @@
+﻿@{
+    ViewBag.Title = "HRIS - Data Sisa Cuti Tahunan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model FindModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#ShowWindow").click(function () {
+            FieldListWindow();
+        });
+    });
+    function grid_CustomizationWindowCloseUp(s, e) {
+        UpdateCaption();
+    }
+    function FieldListWindow() {
+        if (DataSisaCutiGrid.IsCustomizationWindowVisible())
+            DataSisaCutiGrid.HideCustomizationWindow();
+        else
+            DataSisaCutiGrid.ShowCustomizationWindow();
+        UpdateCaption();
+    }
+
+    function UpdateCaption() {
+        var text = DataSisaCutiGrid.IsCustomizationWindowVisible() ? "Sembunyikan" : "Tampilkan";
+        text += " Field Chooser";
+        $("#ShowWindow").val(text);
+    }
+
+    /*
+    function OnInit(s, e)
+    {
+
+        var NamaBulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+        var Base1 = Date.parse(Tgl_Awal.GetValue.toDateString());
+        var Base2 = Date.parse(Tgl_Akhir.GetValue.toDateString());
+        var Seed1 = new Date(Base1);
+        var Seed2 = new Date(Base2);
+
+        // tanggal awal
+        var tgl = Seed1.getDate();
+        var bln = NamaBulan[Seed1.getMonth()];
+        var thn = Seed1.getFullYear();
+
+        var Tanggal_Awal = tgl + " " + bln + " " + thn;
+
+        // tanggal akhir
+        tgl = Seed2.getDate();
+        bln = NamaBulan[Seed2.getMonth()];
+        thn = Seed2.getFullYear();
+
+        var Tanggal_Akhir = tgl + " " + bln + " " + thn;
+        var Expression = "[NIK] = '" + NIK.GetValue().toString() + "' Or ([Periode_Awal] >= '" + Tanggal_Awal + "' And [Periode_Akhir] <= '" + Tanggal_Akhir + "')"
+        DataSisaCutiGrid.ApplyFilter(Expression);
+    }
+    */
+
+    function onInit(s, e) {
+        // adjustSize();
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        DataSisaCutiGrid.SetHeight(height);
+    }
+
+    // fungsi ribbon control
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "SisaTahunan" })"
+        var exportToPDF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporSisaPDF" })";
+        var exportToXLS = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporSisaXLS" })";
+        var exportToXLSX = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporSisaXLSX" })";
+        var exportToRTF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporSisaRTF" })";
+        var exportToCSV = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporSisaCSV" })";
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "ExPDF") {
+            window.location.href = exportToPDF;
+        }
+        else if (button == "ExXLS") {
+            window.location.href = exportToXLS;
+        }
+        else if (button == "ExXLSX") {
+            window.location.href = exportToXLSX;
+        }
+        else if (button == "ExRTF") {
+            window.location.href = exportToRTF;
+        }
+        else if (button == "ExCSV") {
+            window.location.href = exportToCSV;
+        }
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Data Sisa Cuti Tahunan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial">
+                            Berikut ini adalah daftar sisa cuti karyawan untuk bawahan anda yang dapat diekspor ke format lain atau dicetak.<br />
+                            Klik tombol "Refresh Data" untuk me-refresh data pada daftar dengan NIK anda sebagai user aktif.<br /><br />
+                            Atau, tentukan kriteria pencarian data sesuai dengan isian yang tersedia kemudian tekan Enter/Return pada keyboard.
+                        </label>
+                        @using (Html.BeginForm("SisaTahunan", "Manager", FormMethod.Post))
+                        {
+                            Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "SisaCutiForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Kriteria Pencarian</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Nama Karyawan";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                        {
+                                            combobox.Name = "NIK";
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                            combobox.Properties.NullText = "-- Pilih --";
+                                            combobox.Properties.ClientInstanceName = "NIK";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                            combobox.Properties.TextField = "Nama_Karyawan";
+                                            combobox.Properties.ValueField = "NIK";
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+                                            combobox.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { document.forms[0].submit(); }";
+                                        }).BindList(Providers.GetKaryawanByAtasan(User.Identity.Name)).GetHtml();
+                                        ViewContext.Writer.Write("<div style=\"padding-top:3px\">");
+                                        Html.DevExpress().Button(button =>
+                                        {
+                                            button.Name = "btnReset";
+                                            button.Text = "Reset";
+                                            button.UseSubmitBehavior = false;
+                                            button.Attributes.Add("type", "reset");
+                                            button.Style.Add("display", "inline-table");
+                                            button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                            button.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        ViewContext.Writer.Write("</div>");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                });
+                            }).GetHtml();
+                            Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonSisa";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Sisa Cuti");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = string.Empty;
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Export";
+                                    group.Text = "Ekspor Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExPDF", "Ekspor PDF", RibbonItemSize.Large, "~/Images/ExportPDF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLS", "Ekspor XLS", RibbonItemSize.Large, "~/Images/ExportXLS.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLSX", "Ekspor XLSX", RibbonItemSize.Large, "~/Images/ExportXLSX.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExRTF", "Ekspor RTF", RibbonItemSize.Large, "~/Images/ExportRTF.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExCSV", "Ekspor CSV", RibbonItemSize.Large, "~/Images/ExportCSV.png"));
+                                });
+                            }).GetHtml();
+                            Html.RenderAction("SisaTahunanPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

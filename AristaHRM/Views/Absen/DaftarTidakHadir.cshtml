@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "HRIS - Daftar Ketidakhadiran Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+    });
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Daftar Ketidakhadiran Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">
+                            Anda dapat melihat daftar karyawan yang tidak hadir melalui tabel berikut ini.
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            Html.RenderAction("DaftarTHadirPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

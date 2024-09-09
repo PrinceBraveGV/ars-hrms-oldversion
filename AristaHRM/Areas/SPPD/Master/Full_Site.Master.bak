@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Full_Site.Master.cs" Inherits="SPD.Master.Full_Site" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 18px;
+        }
+
+
+    </style>
+</head>
+<body runat="server">
+    <form id="form1" runat="server">
+
+        <%-- 
+        <!-- perintah untuk back browser mati-->
+        <script type="text/javascript">
+            window.history.forward(-1);
+        </script>
+        --%>
+
+        <dx:ASPxSplitter ID="ASPxSplitter1" runat="server" AllowResize="False" Orientation="Vertical"
+            FullscreenMode="True" SeparatorVisible="False" Height="100%" Width="100%">
+
+            <Styles>
+                <Pane>
+                    <Paddings Padding="0px" />
+                    <Border BorderWidth="0px" />
+                </Pane>
+            </Styles>
+
+            <Panes>
+                <dx:SplitterPane Size="77px" MinSize="77px">
+                    <PaneStyle>
+                        <BorderBottom BorderWidth="0px" />
+                    </PaneStyle>
+
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl1" runat="server">
+
+                            <div >
+                                <header style="width: 100%; background-color: #00A1F1; padding:2px;">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <dx:ASPxImage ID="img" runat="server" ShowLoadingImage="true" ImageUrl="~/Image/logo.png" Width="150px" Height="60px"></dx:ASPxImage>
+                                            </td>
+                                            <td style="padding-left:65px;">
+                                                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Welcome To  " Font-Size="15px" Font-Bold="True" ForeColor="White"></dx:ASPxLabel>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxImage ID="ASPxImage1" runat="server" ShowLoadingImage="true" ImageUrl="~/Image/titles.jpg" Width="180px" Height="40px"></dx:ASPxImage>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text=" " Font-Bold="True" ForeColor="White" Font-Size="15px"></dx:ASPxLabel>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text=" - " Font-Size="15px" Font-Bold="True" ForeColor="White"></dx:ASPxLabel>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxLabel ID="lblID" runat="server" Text=" " ForeColor="White" Font-Bold="True" Font-Size="15px"></dx:ASPxLabel>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxLabel ID="ASPxLabel4" runat="server" Text=" " Font-Bold="True" ForeColor="White" Font-Size="15px" Visible="false"></dx:ASPxLabel>
+                                            </td>
+                                            <td>
+                                                <dx:ASPxLabel ID="ASPxLabel5" runat="server" Text=" " Font-Bold="True" ForeColor="White" Font-Size="15px" Visible="false"></dx:ASPxLabel>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </header>
+                            </div>
+
+
+
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+
+                </dx:SplitterPane>
+                <dx:SplitterPane MinSize="570px">
+                    <PaneStyle>
+                        <BorderBottom BorderWidth="0px"></BorderBottom>
+                    </PaneStyle>
+
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl3" runat="server">
+                            <asp:ContentPlaceHolder ID="Content" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+
+                    <PaneStyle BackColor="white">
+                        <BorderBottom BorderWidth="1px" />
+                    </PaneStyle>
+                </dx:SplitterPane>
+
+                <dx:SplitterPane Size="50px" MinSize="50">
+                    <PaneStyle></PaneStyle>
+                    <ContentCollection>
+                        <dx:SplitterContentControl ID="SplitterContentControl4" runat="server">
+                            <div>
+                                <footer style="width: 100%; height: 40%; color:white; font-size:small; font-weight:bold; text-align:center; background-color: #00A1F1; text-align:center;"  >
+
+                                    <div>
+                                        <br />
+                                                   &copy; <%: DateTime.Now.Year %> - Arista Group . All Right Reserved
+                                        <br />
+                                        <br />
+                                              
+                                    </div>
+
+                                </footer>
+                            </div>
+                        </dx:SplitterContentControl>
+                    </ContentCollection>
+                </dx:SplitterPane>
+
+            </Panes>
+        </dx:ASPxSplitter>
+
+    </form>
+</body>
+</html>

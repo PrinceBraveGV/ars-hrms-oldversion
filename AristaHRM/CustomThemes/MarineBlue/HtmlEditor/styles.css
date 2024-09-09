@@ -1,0 +1,416 @@
+/* ----------------- Main ----------------- */
+/*Loading Panel*/
+.dxheLoadingDiv_MarineBlue
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_MarineBlue,
+.dxheLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxheLoadingPanel_MarineBlue  td.dx,
+.dxheLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxheLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxheLoadingPanelWithContent_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+
+.dxheControl_MarineBlue
+{
+    border: Solid 1px #A3C0E8;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_MarineBlue
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #BEDAFF;
+}
+.dxheErrorFrame_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_MarineBlue .dxeMemo_MarineBlue .dxheErrorFrame_MarineBlue .dxhe,
+.dxheControl_MarineBlue.dxhe-rtl .dxeMemo_MarineBlue .dxheErrorFrame_MarineBlue .dxhe,
+.dxheErrorFrame_MarineBlue .dxhe {
+    padding: 5px;
+}
+.dxheControl_MarineBlue .dxeMemo_MarineBlue .dxheErrorFrame_MarineBlue .dxhe td,
+.dxheControl_MarineBlue.dxhe-rtl .dxeMemo_MarineBlue .dxheErrorFrame_MarineBlue .dxhe td,
+.dxheErrorFrame_MarineBlue .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_MarineBlue .dxheErrorFrameCloseButton_MarineBlue {
+    cursor: pointer;
+}
+.dxheViewArea_MarineBlue
+{
+    border: Solid 1px #A3C0E8;    
+}
+.dxheContentArea_MarineBlue td.dxheViewArea_MarineBlue {
+    line-height: 0;
+}
+.dxheContentArea_MarineBlue td.dxheViewArea_MarineBlue.dxheHtmlViewArea_MarineBlue
+{
+    line-height: inherit;
+}
+
+.dxheDesignViewArea_MarineBlue,
+.dxhePreviewArea_MarineBlue 
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_MarineBlue .dxheHtmlViewArea_MarineBlue,
+.dxheHtmlViewArea_MarineBlue .CodeMirror,
+body.dxheDesignViewArea_MarineBlue,
+body.dxhePreviewArea_MarineBlue 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_MarineBlue .dxeMemo_MarineBlue.dxheHtmlViewArea_MarineBlue .dxeMemoEditArea_MarineBlue,
+body.dxheDesignViewArea_MarineBlue,
+body.dxhePreviewArea_MarineBlue
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_MarineBlue .dxeMemo_MarineBlue.dxheHtmlViewArea_MarineBlue td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_MarineBlue.dxhe-rtl .dxheContentArea_MarineBlue .dxeMemo_MarineBlue.dxheHtmlViewArea_MarineBlue td
+{
+    padding: 0 0 0 40px;
+}
+.dxheControl_MarineBlue .dxeMemo_MarineBlue textarea 
+{
+	resize:none;
+}
+.dxheControl_MarineBlue td.dxheDesignViewArea_MarineBlue .dxm-main.dxmtb 
+{
+    border: 1px solid #A3C0E8;
+}
+.dxheControl_MarineBlue td.dxheDesignViewArea_MarineBlue
+{
+    position: relative;
+}
+td.dxheDesignViewArea_MarineBlue .dxmLite_MarineBlue {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_MarineBlue .dxmLite_MarineBlue.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_MarineBlue img.dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_MarineBlue img.dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_MarineBlue img.dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_MarineBlue img.dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_MarineBlue img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_MarineBlue img.dxheAudio,
+.dxheViewArea_MarineBlue img.dxheFlash,
+.dxheViewArea_MarineBlue img.dxheVideo,
+.dxheViewArea_MarineBlue img.dxheYoutube,
+.dxheViewArea_MarineBlue img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_MarineBlue .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_MarineBlue.dxheDesignViewArea_MarineBlue .dxheSelected
+{
+    background-color: #D6E7FE;
+}
+.dxhe-insertPlaceholder .dxeListBox_MarineBlue.dxeFocused_MarineBlue
+{
+    border: 1px solid #8BB6EF;
+}
+.dxpc-contentWrapper .dxflFormLayout_MarineBlue.dxhe-insertPlaceholder .dxflGroup_MarineBlue .dxflGroupBox_MarineBlue
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_MarineBlue.dxhe-insertPlaceholder .dxflGroup_MarineBlue .dxflGroupBox_MarineBlue .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_MarineBlue .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_MarineBlue,
+.dxhe-insertPlaceholder .dxeListBox_MarineBlue .dxlbd
+{
+    width: 220px;
+    height: 223px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_MarineBlue .CodeMirror-activeline-background 
+{
+    background: #FFBD69;
+    opacity: 0.3;
+}
+.dxheHtmlViewArea_MarineBlue .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_MarineBlue .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_MarineBlue .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_MarineBlue table.dxEmptyBorderTable,
+body.dxheDesignViewArea_MarineBlue table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_MarineBlue table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_MarineBlue table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_MarineBlue
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_MarineBlue pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_MarineBlue 
+{
+}
+.dxheStatusBarTab_MarineBlue 
+{    
+}
+.dxHtmlEditor_heSizeGrip_MarineBlue
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_MarineBlue
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_MarineBlue 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -12px;
+}
+.dxheControl_MarineBlue.dxhe-rtl .dxheSizeGripContainer_MarineBlue
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_MarineBlue .dxheDlgFooter,
+.dxpcLite_MarineBlue .dxheCustomDialog_MarineBlue .dxhecd-Buttons
+{
+	background-color: #DBEBFF;
+	border-top: 1px #C1DBFA solid;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_MarineBlue.dxRtl .dxheDlgFooter,
+.dxpcLite_MarineBlue.dxRtl .dxheCustomDialog_MarineBlue .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_MarineBlue .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_MarineBlue.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_MarineBlue .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #AECAF0;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_MarineBlue
+{
+	height: 1px;
+}
+.dxtbControl_MarineBlue 
+{
+	color: black;
+	background-color: #AECAF0;
+    border-bottom: Solid 1px #A3C0E8;
+}
+.dxtbControl_MarineBlue td.dxmMenu_MarineBlue
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_MarineBlue
+{
+    padding: 3px 2px;
+}
+.dxheControl_MarineBlue .dxrControl_MarineBlue
+{
+    background-color: #BEDAFF;
+}
+.dxheControl_MarineBlue .dxrControl_MarineBlue .dxtcLite_MarineBlue .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_MarineBlue .dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_MarineBlue .dxrControl_MarineBlue .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_MarineBlue .dxrControl_MarineBlue .dxr-minBtn
+{
+    padding-right: 8px;
+}
+.dxheControl_MarineBlue .dxtbControl_MarineBlue.dxtbr_MarineBlue,
+.dxheControl_MarineBlue .dxrControl_MarineBlue .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_MarineBlue .dxmLite_MarineBlue .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_MarineBlue .dxhetipControl_MarineBlue img
+{
+	vertical-align: top;
+}
+.dxtbControl_MarineBlue .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_MarineBlue
+{
+    margin-bottom: -1px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_MarineBlue { }
+.dxtcbColorDiv_MarineBlue
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_MarineBlue .dxrpcontent
+{
+    padding: 11px !important;
+}
+
+
+/* InsertMediaDialogs */
+.dxflFormLayout_MarineBlue .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_MarineBlue.dxhe-mediaDialog 
+{
+    width: 700px;
+}
+.dxflFormLayout_MarineBlue.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_MarineBlue.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_MarineBlue.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_MarineBlue.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_MarineBlue.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_MarineBlue.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_MarineBlue.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_MarineBlue .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_MarineBlue.dxeFocused_MarineBlue
+{
+    border-color: #AECAF0;
+}
+
+div.dxhe-searchQuick div.dxbButton_MarineBlue,
+div.dxhe-searchQuick div.dxbButton_MarineBlue .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_MarineBlue.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}

@@ -1,0 +1,325 @@
+.dxtlControl_iOS
+{
+	cursor: default;
+	background-color: white;
+    border-collapse:separate!Important;
+	border: 1px solid #B3B5B9;
+	border-radius: 5px 5px 0 0;
+	font: bold 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: #385487;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.dxtlControl_iOS caption
+{
+	background: #F7FAFF none;
+	color: #000000;
+	border-bottom: 0 solid #A3C0E8;
+	border: 1px solid #A3C0E8;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 5px 6px;
+}
+
+/* Indent cells */
+.dxtlIndent_iOS,
+.dxtlIndentWithButton_iOS
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_iOS
+{
+	padding: 0 11px;
+}
+.dxtlICheckBox_iOS
+{
+	margin: auto;
+}
+.dxtlIndentWithButton_iOS
+{
+}
+.dxtlSelectionCell_iOS
+{
+	border: 1px solid #E0E0E0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dxtlAltNode_iOS > .dxtl,
+.dxtlFocusedNode_iOS > .dxtl,
+.dxtlNode_iOS > .dxtl,
+.dxtlSelectedNode_iOS > .dxtl
+{
+    height: 39px;
+}
+
+/* Tree-lines cells */
+
+
+/* Headers */
+.dxtlHeader_iOS 
+{
+    height: 28px;
+	padding: 0 10px;
+	color: #7C7C7C;
+	border: 1px solid #B3B5B9;
+    background-image: url('tlHeaderBack.png');
+	background-color: #F0F2F4;
+	border-radius: 5px;
+	white-space: nowrap;
+}
+
+.dxtlControl_iOS .dxtlHeader_iOS 
+{
+    border-width:0 1px;
+	height: 39px;
+	border-radius: 0px;
+}
+.dxtlControl_iOS .dxtlHeader_iOS:first-child
+{
+	border-left-width:0;
+	border-radius:5px 0 0 0;
+}
+.dxtlControl_iOS .dxtlHeader_iOS:last-child
+{
+	border-right:none;
+	border-radius:0 5px 0 0 ;
+}
+	
+.dxtlHeader_iOS table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_iOS td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_iOS,
+.dxtlHeader_iOS td.dxtl
+{
+	white-space: nowrap;
+	text-align: left;
+    white-space: nowrap;
+	font-weight: bold;
+	font-size:18px;
+	text-shadow: 0 1px 0 #E7E7E7, 0 0 1px #908581;
+}
+
+/* Nodes */
+.dxtlNode_iOS
+{
+	background: white none;
+}
+.dxtlAltNode_iOS
+{
+	background: white none;
+}
+
+.dxtlSelectedNode_iOS,
+.dxtlFocusedNode_iOS
+{
+	background-color: #1879F2;
+    color: #FFFFFF;
+}
+
+.dxtlInlineEditNode_iOS
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_iOS
+{
+}
+.dxtlNode_iOS td.dxtl, 
+.dxtlAltNode_iOS  td.dxtl, 
+.dxtlSelectedNode_iOS td.dxtl, 
+.dxtlFocusedNode_iOS td.dxtl,
+.dxtlEditFormDisplayNode_iOS td.dxtl,
+.dxtlCommandCell_iOS
+{
+	border: 1px solid #E0E0E0;
+	padding: 0px 5px 0px 11px;
+	white-space: nowrap;
+}
+.dxtlHeader_iOS .dxbButton_iOS,
+.dxtlCommandCell_iOS .dxbButton_iOS
+{
+    margin: 0 2px;
+}
+.dxtlInlineEditNode_iOS td.dxtl
+{
+	border: 1px solid #E0E0E0;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_iOS
+{
+	background-color: White;
+	padding: 15px 15px 20px;
+	border: 1px solid #E0E0E0;	
+	color: #7C7C7C;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Footers */
+.dxtlGroupFooter_iOS,
+.dxtlFooter_iOS
+{
+	background-color: #F0F2F4;
+}
+
+.dxtlGroupFooter_iOS td.dxtl,
+.dxtlFooter_iOS td.dxtl
+{
+	padding: 5px 6px 7px;
+	white-space: nowrap;
+	border: 1px solid #E0E0E0;
+	color: Black;	
+}
+.dxtlGroupFooter_iOS .dx-ar > br,
+.dxtlFooter_iOS .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_iOS
+{
+	border-bottom: 1px none #B3B5B9;
+	background-color: #F0F2F4;
+}
+.dxtlPagerBottomPanel_iOS
+{
+	border-top: 1px none #B3B5B9;
+	background-color: #F0F2F4;
+}
+.dxtlPagerTopPanel_iOS,
+.dxtlPagerBottomPanel_iOS
+{
+	padding: 2px 0;
+}
+
+/* Editing */
+.dxtlEditForm_iOS
+{
+	border: 1px solid #C9D6E9;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_iOS,
+.dxtlEditFormEditCell_iOS
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_iOS
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_iOS
+{
+	background-color: Red;
+	color: White;
+	padding: 6px 10px;
+	border: 1px solid #C9D6E9;
+}
+.dxtlPopupEditForm_iOS
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_iOS a,
+.dxtlCommandCell_iOS a
+{
+	text-decoration: none;
+    border-bottom: 1px dashed #006EE9;
+    color: #006EE9;
+}
+
+.dxtlHeader_iOS a,
+.dxtlFocusedNode_iOS a,
+.dxtlSelectedNode_iOS a
+{
+	color: #006EE9;
+}
+.dxtlCommandCell_iOS a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_iOS
+{
+	font: bold 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: Black;
+	text-shadow: 0 -1px rgba(255, 255, 255, 0.5);
+	border: 1px solid #A6A6A6;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxtlLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxtlLoadingPanel_iOS td.dx:first-child,
+.dxtlLoadingPanel_iOS[dir="rtl"] td.dx:last-child,
+*[dir="rtl"] .dxtlLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxtlLoadingPanel_iOS td.dx:last-child,
+.dxtlLoadingPanel_iOS[dir="rtl"] td.dx:first-child,
+*[dir="rtl"] .dxtlLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxtlLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxtlLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxtlLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxtlLoadingPanel_iOS .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 24px;
+	width: 24px;
+}
+
+/* Disabled */
+.dxtlDisabled_iOS,
+.dxtlDisabled_iOS .dxtl_iOS
+{
+	color: #A1A1A1;
+	cursor: default;
+}
+

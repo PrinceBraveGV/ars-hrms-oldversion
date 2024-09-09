@@ -1,0 +1,527 @@
+.dxGridView_gvCellError_Mulberry,
+.dxGridView_gvCMClearFilter_Mulberry,
+.dxGridView_gvCMClearFilterDisabled_Mulberry,
+.dxGridView_gvCMClearGrouping_Mulberry,
+.dxGridView_gvCMClearGroupingDisabled_Mulberry,
+.dxGridView_gvCMCollapseDetailRow_Mulberry,
+.dxGridView_gvCMCollapseDetailRowDisabled_Mulberry,
+.dxGridView_gvCMCollapseRow_Mulberry,
+.dxGridView_gvCMCollapseRowDisabled_Mulberry,
+.dxGridView_gvCMDeleteRow_Mulberry,
+.dxGridView_gvCMDeleteRowDisabled_Mulberry,
+.dxGridView_gvCMEditRow_Mulberry,
+.dxGridView_gvCMEditRowDisabled_Mulberry,
+.dxGridView_gvCMExpandDetailRow_Mulberry,
+.dxGridView_gvCMExpandDetailRowDisabled_Mulberry,
+.dxGridView_gvCMExpandRow_Mulberry,
+.dxGridView_gvCMExpandRowDisabled_Mulberry,
+.dxGridView_gvCMFullCollapse_Mulberry,
+.dxGridView_gvCMFullCollapseDisabled_Mulberry,
+.dxGridView_gvCMFullExpand_Mulberry,
+.dxGridView_gvCMFullExpandDisabled_Mulberry,
+.dxGridView_gvCMGroupByColumn_Mulberry,
+.dxGridView_gvCMGroupByColumnDisabled_Mulberry,
+.dxGridView_gvCMNewRow_Mulberry,
+.dxGridView_gvCMNewRowDisabled_Mulberry,
+.dxGridView_gvCMRefresh_Mulberry,
+.dxGridView_gvCMRefreshDisabled_Mulberry,
+.dxGridView_gvCMSearchPanel_Mulberry,
+.dxGridView_gvCMSearchPanelDisabled_Mulberry,
+.dxGridView_gvCMShowCustomizationWindow_Mulberry,
+.dxGridView_gvCMShowCustomizationWindowDisabled_Mulberry,
+.dxGridView_gvCMShowFilterEditor_Mulberry,
+.dxGridView_gvCMShowFilterEditorDisabled_Mulberry,
+.dxGridView_gvCMShowGroupPanel_Mulberry,
+.dxGridView_gvCMShowGroupPanelDisabled_Mulberry,
+.dxGridView_gvCMShowSearchPanel_Mulberry,
+.dxGridView_gvCMShowSearchPanelDisabled_Mulberry,
+.dxGridView_gvCMSortAscending_Mulberry,
+.dxGridView_gvCMSortAscendingDisabled_Mulberry,
+.dxGridView_gvCMSortDescending_Mulberry,
+.dxGridView_gvCMSortDescendingDisabled_Mulberry,
+.dxGridView_gvCMSummaryAverage_Mulberry,
+.dxGridView_gvCMSummaryAverageDisabled_Mulberry,
+.dxGridView_gvCMSummaryCount_Mulberry,
+.dxGridView_gvCMSummaryCountDisabled_Mulberry,
+.dxGridView_gvCMSummaryMax_Mulberry,
+.dxGridView_gvCMSummaryMaxDisabled_Mulberry,
+.dxGridView_gvCMSummaryMin_Mulberry,
+.dxGridView_gvCMSummaryMinDisabled_Mulberry,
+.dxGridView_gvCMSummarySum_Mulberry,
+.dxGridView_gvCMSummarySumDisabled_Mulberry,
+.dxGridView_gvCMUngroupColumn_Mulberry,
+.dxGridView_gvCollapsedButton_Mulberry,
+.dxGridView_gvCollapsedButtonRtl_Mulberry,
+.dxGridView_gvDetailCollapsedButton_Mulberry,
+.dxGridView_gvDetailCollapsedButtonRtl_Mulberry,
+.dxGridView_gvDetailExpandedButton_Mulberry,
+.dxGridView_gvDetailExpandedButtonRtl_Mulberry,
+.dxGridView_gvDragAndDropArrowDown_Mulberry,
+.dxGridView_gvDragAndDropArrowUp_Mulberry,
+.dxGridView_gvDragAndDropHideColumn_Mulberry,
+.dxGridView_gvExpandedButton_Mulberry,
+.dxGridView_gvExpandedButtonRtl_Mulberry,
+.dxGridView_gvFilterRowButton_Mulberry,
+.dxGridView_gvFixedGroupRow_Mulberry,
+.dxGridView_gvHeaderFilter_Mulberry,
+.dxGridView_gvHeaderFilterActive_Mulberry,
+.dxGridView_gvHeaderSortDown_Mulberry,
+.dxGridView_gvHeaderSortUp_Mulberry,
+.dxGridView_gvHideAdaptiveDetailButton_Mulberry,
+.dxGridView_gvParentGroupRows_Mulberry,
+.dxGridView_gvShowAdaptiveDetailButton_Mulberry,
+.dxGridView_WindowResizer_Mulberry,
+.dxGridView_WindowResizerRtl_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxGridView_gvCellError_Mulberry
+{
+    background-position: -70px -25px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMClearFilter_Mulberry
+{
+    background-position: -17px -197px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearFilterDisabled_Mulberry
+{
+    background-position: -34px -78px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGrouping_Mulberry
+{
+    background-position: -68px -180px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGroupingDisabled_Mulberry
+{
+    background-position: 0px -197px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRow_Mulberry
+{
+    background-position: -68px -78px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRowDisabled_Mulberry
+{
+    background-position: -34px -163px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRow_Mulberry
+{
+    background-position: -17px -112px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRowDisabled_Mulberry
+{
+    background-position: -51px -112px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRow_Mulberry
+{
+    background-position: 0px -129px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRowDisabled_Mulberry
+{
+    background-position: -68px -95px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRow_Mulberry
+{
+    background-position: -51px -44px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRowDisabled_Mulberry
+{
+    background-position: -68px -163px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRow_Mulberry
+{
+    background-position: -17px -78px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRowDisabled_Mulberry
+{
+    background-position: -17px -95px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRow_Mulberry
+{
+    background-position: -34px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRowDisabled_Mulberry
+{
+    background-position: -51px -180px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapse_Mulberry
+{
+    background-position: -17px -180px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapseDisabled_Mulberry
+{
+    background-position: -34px -95px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpand_Mulberry
+{
+    background-position: -17px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpandDisabled_Mulberry
+{
+    background-position: 0px -112px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumn_Mulberry
+{
+    background-position: -68px -44px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumnDisabled_Mulberry
+{
+    background-position: -34px -129px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRow_Mulberry
+{
+    background-position: -17px -146px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRowDisabled_Mulberry
+{
+    background-position: -51px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefresh_Mulberry
+{
+    background-position: -68px -112px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefreshDisabled_Mulberry
+{
+    background-position: -51px -146px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanel_Mulberry
+{
+    background-position: -51px -129px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanelDisabled_Mulberry
+{
+    background-position: 0px -163px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindow_Mulberry
+{
+    background-position: 0px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindowDisabled_Mulberry
+{
+    background-position: 0px -180px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditor_Mulberry
+{
+    background-position: -51px -163px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditorDisabled_Mulberry
+{
+    background-position: 0px -44px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanel_Mulberry
+{
+    background-position: -68px -146px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanelDisabled_Mulberry
+{
+    background-position: -34px -146px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanel_Mulberry
+{
+    background-position: -19px -25px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanelDisabled_Mulberry
+{
+    background-position: -51px -95px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscending_Mulberry
+{
+    background-position: -68px -129px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscendingDisabled_Mulberry
+{
+    background-position: -36px -25px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescending_Mulberry
+{
+    background-position: 0px -146px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescendingDisabled_Mulberry
+{
+    background-position: -67px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverage_Mulberry
+{
+    background-position: 0px -95px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverageDisabled_Mulberry
+{
+    background-position: -51px -78px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCount_Mulberry
+{
+    background-position: -68px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCountDisabled_Mulberry
+{
+    background-position: -34px -44px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMax_Mulberry
+{
+    background-position: -17px -129px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMaxDisabled_Mulberry
+{
+    background-position: -17px -44px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMin_Mulberry
+{
+    background-position: -53px -25px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMinDisabled_Mulberry
+{
+    background-position: -17px -163px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySum_Mulberry
+{
+    background-position: -34px -112px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySumDisabled_Mulberry
+{
+    background-position: 0px -78px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMUngroupColumn_Mulberry
+{
+    background-position: -34px -180px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCollapsedButton_Mulberry
+{
+    background-position: -50px -197px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvCollapsedButtonRtl_Mulberry
+{
+    background-position: -66px -197px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDetailCollapsedButton_Mulberry
+{
+    background-position: -32px -214px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDetailCollapsedButtonRtl_Mulberry
+{
+    background-position: -16px -214px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDetailExpandedButton_Mulberry
+{
+    background-position: -34px -197px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDetailExpandedButtonRtl_Mulberry
+{
+    background-position: -48px -214px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDragAndDropArrowDown_Mulberry
+{
+    background-position: -50px -244px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropArrowUp_Mulberry
+{
+    background-position: -38px -244px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropHideColumn_Mulberry
+{
+    background-position: -25px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvExpandedButton_Mulberry
+{
+    background-position: -64px -214px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvExpandedButtonRtl_Mulberry
+{
+    background-position: 0px -214px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvFilterRowButton_Mulberry
+{
+    background-position: -57px -230px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvFixedGroupRow_Mulberry
+{
+    background-position: 0px 0px;
+    width: 24px;
+    height: 24px;
+}
+.dxGridView_gvHeaderFilter_Mulberry
+{
+    background-position: -38px -230px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvHeaderFilterActive_Mulberry
+{
+    background-position: 0px -230px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvHeaderSortDown_Mulberry
+{
+    background-position: 0px -244px;
+    width: 9px;
+    height: 13px;
+}
+.dxGridView_gvHeaderSortUp_Mulberry
+{
+    background-position: -71px -230px;
+    width: 9px;
+    height: 13px;
+}
+.dxGridView_gvHideAdaptiveDetailButton_Mulberry
+{
+    background-position: -24px -244px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_gvParentGroupRows_Mulberry
+{
+    background-position: -19px -230px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvShowAdaptiveDetailButton_Mulberry
+{
+    background-position: -10px -244px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_WindowResizer_Mulberry
+{
+    background-position: -48px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_WindowResizerRtl_Mulberry
+{
+    background-position: 0px -25px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_gvHeaderFilterActive_Mulberry
+{
+	background-color: #BF4E6A;
+}

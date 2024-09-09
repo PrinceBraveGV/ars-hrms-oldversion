@@ -1,0 +1,188 @@
+.dxssControl_Office2003Blue 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #002D96;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_Office2003Blue .dxrControl_Office2003Blue .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_Office2003Blue .dxss-gl .dxss-v,
+.dxssControl_Office2003Blue .dxss-gl .dxss-h 
+{
+	border-color: #bfd3ee;
+}
+.dxssControl_Office2003Blue .dxss-rowHeader 
+{	
+	border-right: 1px solid #bfd3ee;
+	border-top: 1px solid #bfd3ee;
+}
+.dxssControl_Office2003Blue .dxss-colHeader 
+{
+	border-bottom: 1px solid #bfd3ee;
+	border-left: 1px solid #bfd3ee;
+}
+ .dxssControl_Office2003Blue .dxss-crse 
+ {
+	background-color: #fe9552; 
+}
+ .dxssControl_Office2003Blue .dxss-trbe 
+ {
+	border-top-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxss-rrbe 
+{
+	border-right-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxss-brbe 
+{
+	border-bottom-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxss-lrbe 
+{
+	border-left-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxss-smbe
+{
+    border-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxrControl_Office2003Blue .dxtcLite_Office2003Blue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_Office2003Blue .dxtcLite_Office2003Blue.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_Office2003Blue .dxtcLite_Office2003Blue
+{
+	padding-bottom: 6px;
+}
+.dxssControl_Office2003Blue .dxrControl_Office2003Blue .dxtcLite_Office2003Blue
+{
+	padding-bottom: 0px;
+}
+.dxssControl_Office2003Blue .dxtcLite_Office2003Blue,
+.dxssControl_Office2003Blue .dxrControl_Office2003Blue .dxtcLite_Office2003Blue
+{
+	background-color: #DDECFE;
+}
+.dxssControl_Office2003Blue .dxss-hrg,
+.dxssControl_Office2003Blue .dxss-vrg 
+{
+	background-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxtcLite_Office2003Blue.dxtc-bottom .dxtc-strip .dxtc-activeTab 
+{
+	background-color: White;
+}
+.dxssControl_Office2003Blue .dxrControl_Office2003Blue .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_Office2003Blue .dxss-tse
+{
+	border-color: #fe9552;
+}
+.dxssControl_Office2003Blue .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_Office2003Blue .dxss-ddp,
+.dxssControl_Office2003Blue .dxss-ddb
+{
+    border: 1px solid #6a8ccb;
+}
+.dxssControl_Office2003Blue .dxss-ddp tr:hover
+{
+    background-color: #cce2fc;
+}
+/* Loading panel */
+.dxssLoadingDiv_Office2003Blue
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_Office2003Blue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #4B77B8;
+	border: 1px solid #4F93E3;
+	background-color: White;
+}
+.dxssLoadingPanel_Office2003Blue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxssLoadingPanel_Office2003Blue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_Office2003Blue .dxssDlgFooter
+{
+	background-color: #CFE1F9;
+	border-top: 1px #7BA4E0 solid;
+}
+
+.dxpcLite_Office2003Blue .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_Office2003Blue .dxrpControl_Office2003Blue .dxrpcontent
+{
+	padding: 16px !important;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonHover_Office2003Blue
+{
+	color: #000000;
+	background: #fff2c8 url('../Editors/edtButtonBackHover.gif') repeat-x center bottom;
+	border: 1px solid #000080;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_Office2003Blue
+{
+	color: #000000;
+	background: #ffcf8b url('../Editors/edtButtonBackPressed.gif') repeat-x center top;
+	border: 1px solid #000080;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_Office2003Blue
+{
+	color: #000000;
+	background: #ffcf8b url('../Editors/edtButtonBackPressed.gif') repeat-x center top;
+	border: 1px solid #000080;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_Office2003Blue .dxss-ctve {
+	border: 2px solid #fe9552; /*the same -dxss-cfe */
+}
+.dxssControl_Office2003Blue .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #002d96;
+}
+.dxssControl_Office2003Blue .dxmLite_Office2003Blue .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_Office2003Blue .dxss-fbMenu .dxm-content {
+    padding-top: 1px!important;
+}
+.dxssControl_Office2003Blue .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border: 1px solid #6A8CCB;
+    background-color: #E6F0FD;
+}
+.dxssControl_Office2003Blue .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

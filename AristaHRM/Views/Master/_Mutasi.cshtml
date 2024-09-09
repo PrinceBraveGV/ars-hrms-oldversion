@@ -1,0 +1,133 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "DataMutasiGrid";
+        settings.CallbackRouteValues = new { Controller = "Master", Action = "MutasiPartial" };
+        settings.Width = Unit.Percentage(100);
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollableHeight = 300;
+        settings.Settings.ShowFilterBar = GridViewStatusBarMode.Visible;
+        settings.Settings.ShowFilterRow = true;
+        settings.Settings.ShowFilterRowMenu = true;
+        settings.Settings.ShowFilterRowMenuLikeItem = true;
+        settings.Settings.ShowGroupPanel = true;
+
+        settings.SettingsPager.Visible = true;
+        settings.SettingsPager.Position = PagerPosition.Bottom;
+        settings.SettingsPager.PrevPageButton.Text = "Sebelumnya";
+        settings.SettingsPager.NextPageButton.Text = "Berikutnya";
+        settings.SettingsPager.PageSizeItemSettings.Visible = true;
+        settings.SettingsPager.PageSizeItemSettings.Items = new string[] { "10", "20", "50", "100", "200", "500", "1000" };
+        settings.SettingsPager.PageSizeItemSettings.Caption = "Jumlah data per halaman :";
+        settings.SettingsPager.FirstPageButton.Visible = true;
+        settings.SettingsPager.LastPageButton.Visible = true;
+        settings.SettingsPager.AllButton.Visible = true;
+        settings.SettingsPager.AllButton.ShowDefaultText = false;
+        settings.SettingsPager.PageSize = 50;
+
+        settings.CommandColumn.Visible = false;
+
+        settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.SettingsBehavior.EnableCustomizationWindow = true;
+        
+        settings.SettingsText.EmptyDataRow = "Tidak ada data yang ditampilkan.";
+        settings.SettingsText.GroupPanel = "Letakkan judul kolom di sini untuk melakukan sortir data berdasarkan kolom yang ditentukan.";
+
+        settings.KeyFieldName = "ID_Mutasi";
+        
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "ID_Mutasi";
+            column.Caption = "ID Mutasi";
+            column.Visible = false;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "NIK";
+            column.Caption = "NIK";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(70);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Karyawan";
+            column.Caption = "Nama Karyawan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(250);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Tgl_Mutasi";
+            column.Caption = "Tgl. Mutasi";
+            column.Width = Unit.Pixel(150);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.ColumnType = MVCxGridViewColumnType.DateEdit;
+            column.PropertiesEdit.DisplayFormatString = "dd-MM-yyyy";
+            column.Settings.AutoFilterCondition = AutoFilterCondition.LessOrEqual;
+            var dateProperties = column.PropertiesEdit as DateEditProperties;
+            dateProperties.EditFormat = EditFormat.Date;
+            dateProperties.EditFormatString = "dd-MM-yyyy";
+            dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Perusahaan_Baru";
+            column.Caption = "Perusahaan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Cabang_Baru";
+            column.Caption = "Cabang";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Jabatan_Baru";
+            column.Caption = "Jabatan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Departemen_Baru";
+            column.Caption = "Departemen";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Keterangan";
+            column.Caption = "Keterangan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+    });
+}
+
+@grid.Bind(Model).GetHtml()

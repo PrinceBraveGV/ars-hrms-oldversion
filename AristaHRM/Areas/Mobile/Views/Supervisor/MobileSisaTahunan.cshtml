@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = " - Sisa Cuti Tahunan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model FindModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("SuperMenu", "Supervisor", mobilearea)">Supervisor Home</a> > <a href="@Url.Action("SuperCuti", "Supervisor", mobilearea)">Supervisi Cuti</a> > Sisa Cuti Tahunan</li>
+        <li data-role="list-divider">Sisa Cuti Tahunan</li>
+    </ul>
+    
+    Html.RenderAction("SisaTahunanPartial", "Supervisor", mobilearea);
+}
+
+<br />
+<label>@ViewData["Catatan"]</label>
+
+

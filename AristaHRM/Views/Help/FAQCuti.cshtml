@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pusat Bantuan HRD";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pusat Bantuan Cuti Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <br /><a id="#top" name="top"></a>
+                        <label style="font: 12px Arial; text-align:left">Berikut ini adalah daftar pertanyaan yang sering diajukan kepada HRD mengenai sistem cuti karyawan.</label> <br />
+                        <p style="font-family:Arial; font-weight:bold; text-align:left">Tentang Pengajuan Cuti</p>
+                        <ol type="1" style="font: 12px Arial; text-align:left">
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya karyawan percobaan atau karyawan baru, dapatkah saya langsung mengajukan cuti melalui sistem ini?</label></li>
+                            <br />
+                            <label>Belum. Jika anda melakukan posting permohonan anda melalui formulir pengajuan cuti pada situs ini, anda akan mendapatkan pesan berikut: "Saat ini anda belum berhak untuk mengajukan cuti". Untuk dapat melakukan posting permohonan cuti, minimal anda butuh 1 tahun masa kerja sebelum melakukan submit melalui formulir pengajuan yang disediakan.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Berapa banyak jumlah cuti yang saya dapatkan setiap tahun kerja?</label></li>
+                            <br />
+                            <label>
+                                Seluruh karyawan mendapatkan tambahan jatah cuti tahunan sebanyak 12 (dua belas) hari, yang berlaku efektif setelah melewati satu tahun pertama. Periode cuti berjalan setiap tahunnya dihitung mulai dari tanggal masuk anda dan berakhir satu hari sebelum periode berikutnya dimulai.
+                            </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apakah saya harus menentukan masa cuti setiap kali ingin mengajukan cuti khusus maupun cuti tahunan?</label></li>
+                            <br />
+                            <label>
+                                Tidak perlu. Sistem secara otomatis akan menghitung masa cuti anda berdasarkan rentang tanggal yang anda pilih, dikurangi dengan libur akhir pekan, hari libur nasional dan cuti massal (bila ada). Perlu diperhatikan bahwa cabang dapat memiliki kebijakan hari libur yang berbeda dengan kebijakan kantor pusat/HO.<br />
+                                Khusus untuk cuti naik haji dan umroh, mengingat tidak ada batasan hari untuk itu sistem secara langsung akan mengatur masa cuti bergantung pada tanggal mulai dan berakhirnya cuti anda.
+                            </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apakah saya dapat mengajukan cuti khusus haji dan umroh dalam jumlah tertentu selama masa kerja?</label></li>
+                            <br />
+                            <label>
+                                Cuti khusus haji dan umroh tersedia bagi seluruh karyawan beragama Islam sejak pertama kali bekerja, akan tetapi selama masa kerja anda hanya dapat mengambil kedua jenis cuti tersebut <b>satu kali saja</b>. Apabila anda ingin melakukan cuti haji/umroh berikutnya setelah haji/umroh pertama, cuti tersebut tidak lagi diperhitungkan sebagai cuti khusus, melainkan sebagai cuti tahunan dengan pengurangan jatah cuti anda.
+                            </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya mengajukan cuti khusus selama rentang waktu tertentu pada formulir pengajuan cuti, akan tetapi mengapa pada daftar riwayat ternyata tanggal selesainya cuti berbeda?</label></li>
+                            <br />
+                            <label>Ini berkaitan erat dengan pertanyaan sebelumnya, di mana untuk cuti khusus tertentu memiliki batasan masa cuti yang tetap sehingga sistem akan mengatur ulang tanggal selesainya cuti untuk menyesuaikan dengan masa cuti sesuai jenis cuti khusus yang dipilih. Apabila anda ingin mengajukan jumlah hari lebih dari masa cuti khusus yang ditentukan, kelebihan hari tersebut harus diajukan sebagai cuti tahunan.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Berapa batasan jumlah hari untuk cuti khusus yang dapat diajukan?</label></li>
+                            <br />
+                            <label>Setiap cuti khusus memiliki batas masa cuti yang berbeda-beda. Ketentuan masa cuti khusus yang berlaku saat ini adalah:</label>
+                            <br />
+                            <ul>
+                                <li>Melahirkan: 90 hari (hanya untuk karyawati yang sudah menikah, termasuk libur nasional & akhir pekan)</li>
+                                <li>Pernikahan karyawan bersangkutan: 3 hari (tidak termasuk hari libur nasional & akhir pekan)</li>
+                                <li>Pernikahan anak kandung dari karyawan bersangkutan: 2 hari (tidak termasuk hari libur nasional & akhir pekan)</li>
+                                <li>Istri melahirkan: 2 hari (hanya untuk karyawan pria yang sudah menikah, tidak termasuk hari libur nasional & akhir pekan)</li>
+                                <li>Khitanan / baptisan: 2 hari</li>
+                                <li>Keguguran: 2 hari (hanya untuk karyawati yang sudah menikah)</li>
+                                <li>Anggota keluarga meninggal dunia: 2 hari (untuk orang tua, suami/istri, anak kandung, mertua & menantu, kecuali untuk saudara kandung: 1 hari. Untuk kakek/nenek, paman/bibi, sepupu dan anggota keluarga besar lainnya selain keluarga sendiri & orang tua/mertua diajukan sebagai cuti tahunan)</li>
+                                <li>Wisuda kelulusan: 1 hari</li>
+                                <li>Haji & umroh: Disesuaikan dengan keadaan (khusus untuk karyawan beragama Islam yang menunaikannya dan hanya dapat diajukan sekali selama masa kerja untuk kedua jenis cuti tersebut)</li>
+                            </ul>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Mengapa setelah melewati satu tahun pertama dan baru memperoleh jatah cuti, sisa cuti saya tidak sama dengan jatah cuti yang tersedia?</label></li>
+                            <br />
+                            <label>Hal ini disebabkan karena adanya pemotongan sisa cuti dengan cuti massal pada tahun sebelum anda mencapai tahun pertama bekerja. Cuti massal dalam hal ini dianggap sebagai bagian dari perhitungan cuti tahunan anda.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Pilihan cuti yang saya inginkan tidak tersedia pada daftar jenis cuti yang dapat dipilih. Mengapa?</label></li>
+                            <br />
+                            <label>Jenis cuti secara otomatis ditentukan oleh sistem berdasarkan jenis kelamin, agama yang dianut dan beberapa faktor lainnya. Sebagai contoh, jenis cuti "Melahirkan" dan "Keguguran" hanya tersedia bagi karyawati yang sudah menikah. Tanyakan kepada HRD tentang faktor-faktor yang mempengaruhi pilihan jenis cuti anda.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya sudah mengisi dan submit formulir permohonan cuti, tetapi mengapa selalu muncul pesan "Anda sudah mengajukan cuti pada rentang tanggal yang ditentukan?"</label></li>
+                            <br />
+                            <label>Pesan tersebut muncul apabila anda memiliki satu pengajuan cuti yang telah disetujui atasan pada rentang tanggal yang diberikan. Cara untuk dapat mengajukan cuti pada tanggal yang diinginkan tersebut adalah membatalkan cuti yang telah ada pada rentang yang dimaksud (sekaligus juga membuat permohonan batal cuti kepada atasan bila jabatan anda sebagai karyawan staf) dan melakukan prosedur pengajuan baru. </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Bagaimanakah saya sebagai staf ingin membatalkan cuti tahunan saya yang tidak jadi diambil pada rentang yang sudah ditentukan?</label></li>
+                            <br />
+                            <label>Silakan hubungi admin/atasan anda, beritahukan bahwa anda ingin membatalkan masa cuti anda. Proses pembatalan akan mengembalikan sisa cuti tahunan anda yang tidak jadi diambil untuk diakumulasikan pada tahun berikutnya.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apabila sisa cuti tahunan saya untuk tahun berjalan sudah habis, apakah saya masih dapat mengajukan cuti tahunan kembali?</label></li>
+                            <br />
+                            <label>Bisa. Akan tetapi, masa cuti yang berlebih pada tahun ini akan diperhitungkan dari jatah cuti di tahun berikutnya sebanyak jumlah hari yang ditentukan.</label>
+                            <br />
+                            <br />
+                        </ol>
+                        <br />
+                        <br />
+                        <p style="text-align:right">
+                            @Html.DevExpress().Button(settings =>
+                            {
+                                settings.Name = "btnPrev";
+                                settings.Text = "Sebelumnya";
+                                settings.UseSubmitBehavior = false;
+                                settings.RouteValues = new { Controller = "Help", Action = "FAQGuide" };
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

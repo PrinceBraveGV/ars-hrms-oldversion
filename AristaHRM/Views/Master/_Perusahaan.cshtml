@@ -1,0 +1,117 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+   {
+       settings.Name = "DataPerusahaanGrid";
+       settings.CallbackRouteValues = new { Controller = "Master", Action = "PerusahaanPartial" };
+       settings.Width = Unit.Percentage(100);
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+       settings.Settings.VerticalScrollableHeight = 300;
+
+       settings.SettingsPager.Visible = true;
+       settings.SettingsPager.Position = PagerPosition.Bottom;
+       settings.SettingsPager.PrevPageButton.Text = "Sebelumnya";
+       settings.SettingsPager.NextPageButton.Text = "Berikutnya";
+       settings.SettingsPager.PageSize = 20;
+       settings.SettingsPager.PageSizeItemSettings.Visible = true;
+       settings.SettingsPager.PageSizeItemSettings.Items = new string[] { "10", "20", "50", "100", "200", "500", "1000" };
+       settings.SettingsPager.PageSizeItemSettings.Caption = "Jumlah data per halaman :";
+
+       settings.CommandColumn.Visible = true;
+       settings.CommandColumn.Caption = "Pilihan";
+       settings.CommandColumn.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+       settings.CommandColumn.Width = Unit.Pixel(180);
+       settings.CommandColumn.ShowNewButton = false;
+       settings.CommandColumn.ShowEditButton = true;
+       settings.CommandColumn.ShowDeleteButton = true;
+       settings.CommandColumn.ShowUpdateButton = true;
+       settings.CommandColumn.ShowCancelButton = true;
+       settings.CommandColumn.ButtonType = GridCommandButtonRenderMode.Button;
+
+       settings.Settings.ShowFilterRow = true;
+       settings.Settings.ShowFilterRowMenu = true;
+       settings.Settings.ShowFilterRowMenuLikeItem = true;
+       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+       settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+       settings.Settings.ShowGroupPanel = true;
+
+       settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+       settings.SettingsBehavior.AllowSelectByRowClick = true;
+       settings.SettingsBehavior.ConfirmDelete = true;
+       settings.SettingsBehavior.EnableCustomizationWindow = true;
+
+       settings.SettingsCommandButton.EditButton.Text = "Ubah";
+       settings.SettingsCommandButton.EditButton.Image.Url = "~/Images/Edit.png";
+       settings.SettingsCommandButton.EditButton.Image.Width = Unit.Pixel(10);
+       settings.SettingsCommandButton.EditButton.Image.Height = Unit.Pixel(10);
+       settings.SettingsCommandButton.DeleteButton.Text = "Hapus";
+       settings.SettingsCommandButton.DeleteButton.Image.Url = "~/Images/Delete.png";
+       settings.SettingsCommandButton.DeleteButton.Image.Width = Unit.Pixel(10);
+       settings.SettingsCommandButton.DeleteButton.Image.Height = Unit.Pixel(10);
+       settings.SettingsCommandButton.UpdateButton.Text = "Update";
+       settings.SettingsCommandButton.CancelButton.Text = "Batal";
+
+       settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+       settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Master", Action = "UpdatePerusahaan" };
+       settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Master", Action = "HapusPerusahaan" };
+
+       settings.SettingsPopup.EditForm.Width = 800;
+       settings.SettingsPopup.EditForm.HorizontalAlign = PopupHorizontalAlign.WindowCenter;
+       settings.SettingsPopup.EditForm.VerticalAlign = PopupVerticalAlign.WindowCenter;
+       settings.SettingsPager.FirstPageButton.Visible = true;
+       settings.SettingsPager.LastPageButton.Visible = true;
+
+       settings.SettingsText.ConfirmDelete = "Yakin akan menghapus data yang dipilih?";
+       settings.SettingsText.GroupPanel = "Letakkan judul kolom di sini untuk melakukan sortir data berdasarkan kolom yang ditentukan.";
+       settings.SettingsText.PopupEditFormCaption = "Edit Data Perusahaan";
+       settings.ClientSideEvents.FocusedRowChanged = "DataPerusahaanGrid_FocusedRowChanged";
+       settings.ClientSideEvents.Init = "onInit";
+       settings.ClientSideEvents.EndCallback = "onEndCallback";
+       settings.ClientSideEvents.RowDblClick = "DataPerusahaanGrid_RowDblClick";
+       settings.ClientSideEvents.CustomizationWindowCloseUp = "grid_CustomizationWindowCloseUp";
+       settings.SettingsText.EmptyDataRow = "Tidak ada data yang ditampilkan.";
+
+       settings.CustomJSProperties = (s, e) =>
+       {
+           if (ViewData["EditSuccess"] != null)
+           {
+               e.Properties["cpMessage"] = ViewData["EditSuccess"].ToString().Trim();
+           }
+       };
+
+       settings.KeyFieldName = "Kode_Perusahaan";
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Kode_Perusahaan";
+           column.Caption = "Kode Perusahaan";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(120);
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Nama_Perusahaan";
+           column.Caption = "Nama Perusahaan";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(300);
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Kode_Singkat";
+           column.Caption = "Kode Singkatan";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(100);
+       });
+   });
+
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+
+@grid.Bind(Model).GetHtml()

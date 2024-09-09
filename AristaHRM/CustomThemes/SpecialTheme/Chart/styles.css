@@ -1,0 +1,167 @@
+/* -- WebChartControl -- */
+.dxchartsuiLoadingDiv_SpecialTheme
+{
+	background-color:Gray;	
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxchartsuiLoadingPanel_SpecialTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxchartsuiLoadingPanel_SpecialTheme td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+
+/* -- Crosshair -- */
+.dxchartsuiCrosshairHLine_SpecialTheme,
+.dxchartsuiCrosshairVLine_SpecialTheme
+{
+    background-color: transparent;
+    border-color: #de39cd;
+}
+
+.dxchartsuiCrosshairLabel_SpecialTheme,
+.dxchartsuiCrosshairHLine_SpecialTheme,
+.dxchartsuiCrosshairVLine_SpecialTheme
+{
+    position: absolute;
+    z-index: 41998;
+}
+
+.dxchartsuiCrosshairLabel_SpecialTheme
+{
+    background-color: #de39cd;
+    color: White;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	padding: 1px 4px 1px 4px;
+    white-space: nowrap;    
+}
+
+.dxchartsuiCrosshairHLine_SpecialTheme
+{
+    height: 0px;
+}
+
+.dxchartsuiCrosshairVLine_SpecialTheme
+{
+    width: 0px;
+}
+
+/* -- Tooltip -- */
+.dxchartsuiTooltip_SpecialTheme,
+.dxchartsuiTooltip_TopLeft_SpecialTheme,
+.dxchartsuiTooltip_TopRight_SpecialTheme,
+.dxchartsuiTooltip_BottomLeft_SpecialTheme,
+.dxchartsuiTooltip_BottomRight_SpecialTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #201f35;
+	color: #000000\9;
+	
+    background-color: #ECF4FE;
+	border: 1px Solid rgb(139, 182, 239);
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	padding: 6px 10px 6px 10px;
+    position: absolute;
+    cursor: default;
+    white-space: nowrap;
+    -moz-box-shadow:    0px 2px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 2px 10px rgba(0, 0, 0, 0.35);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: 41999;
+}
+.dxchartsuiTooltip_TopLeft_SpecialTheme:before,
+.dxchartsuiTooltip_TopRight_SpecialTheme:before,
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:before,
+.dxchartsuiTooltip_BottomRight_SpecialTheme:before,
+.dxchartsuiTooltip_TopLeft_SpecialTheme:after,
+.dxchartsuiTooltip_TopRight_SpecialTheme:after,
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:after,
+.dxchartsuiTooltip_BottomRight_SpecialTheme:after
+{
+    border-style: solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+}
+.dxchartsuiTooltip_TopLeft_SpecialTheme:before,
+.dxchartsuiTooltip_TopRight_SpecialTheme:before,
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:before,
+.dxchartsuiTooltip_BottomRight_SpecialTheme:before
+{
+    border-width: 10px 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dxchartsuiTooltip_TopLeft_SpecialTheme:after,
+.dxchartsuiTooltip_TopRight_SpecialTheme:after,
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:after,
+.dxchartsuiTooltip_BottomRight_SpecialTheme:after
+{
+    border-width: 8px 4px;
+}
+.dxchartsuiTooltip_TopLeft_SpecialTheme:before
+{
+    border-color: transparent transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35);
+    top: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_TopLeft_SpecialTheme:after
+{
+    border-color: transparent transparent White White;
+    top: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopRight_SpecialTheme:before
+{
+    border-color: transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent;
+    top: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_TopRight_SpecialTheme:after
+{
+    border-color: transparent White White transparent;
+    top: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomRight_SpecialTheme:before
+{
+    border-color: rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent transparent;
+    bottom: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomRight_SpecialTheme:after
+{
+    border-color: White White transparent transparent;
+    bottom: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:before
+{
+    border-color: rgba(139, 139, 139, 0.35) transparent transparent rgba(139, 139, 139, 0.35);
+    bottom: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_BottomLeft_SpecialTheme:after
+{
+    border-color: White transparent transparent White;
+    bottom: -16px;
+    left: 11px;
+}
+
+

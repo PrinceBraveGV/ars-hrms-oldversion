@@ -1,0 +1,232 @@
+.dxHtmlEditor_heConstrainProportionsBottom_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsTop_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsTopRtl_PlasticBlue,
+.dxHtmlEditor_heEnumIcon_PlasticBlue,
+.dxHtmlEditor_heErrorFrameCloseButton_PlasticBlue,
+.dxHtmlEditor_heEventIcon_PlasticBlue,
+.dxHtmlEditor_heFieldIcon_PlasticBlue,
+.dxHtmlEditor_heReset_PlasticBlue,
+.dxHtmlEditor_heSizeGrip_PlasticBlue,
+.dxHtmlEditor_heSizeGripRtl_PlasticBlue,
+.dxHtmlEditor_heTagInspectorChangeButton_PlasticBlue,
+.dxHtmlEditor_heTagInspectorRemoveButton_PlasticBlue,
+.dxHtmlEditor_heTagInspectorSeparator_PlasticBlue,
+.dxHtmlEditor_heToolbarPopOut_PlasticBlue,
+.dxHtmlEditor_heXmlItemIcon_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_PlasticBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_PlasticBlue
+{
+    background-position: -54px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_PlasticBlue
+{
+    background-position: -34px -57px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_PlasticBlue
+{
+    background-position: -36px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_PlasticBlue
+{
+    background-position: -24px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_PlasticBlue
+{
+    background-position: -12px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_PlasticBlue
+{
+    background-position: 0px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_PlasticBlue
+{
+    background-position: -54px -68px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_PlasticBlue
+{
+    background-position: -46px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_PlasticBlue
+{
+    background-position: -48px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_PlasticBlue
+{
+    background-position: -51px -40px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_PlasticBlue
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_PlasticBlue
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_PlasticBlue
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_PlasticBlue
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heSizeGripRtl_PlasticBlue
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_PlasticBlue
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_PlasticBlue
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_PlasticBlue
+{
+    background-position: -61px 0px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_PlasticBlue
+{
+    background-position: -58px -57px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heXmlItemIcon_PlasticBlue
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_PlasticBlue
+{
+    background-position: -39px -69px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_PlasticBlue
+{
+    background-position: -34px -64px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_PlasticBlue
+{
+    background-position: -44px -69px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_PlasticBlue
+{
+    background-position: -61px -16px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_PlasticBlue
+{
+    background-position: -51px -63px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_PlasticBlue
+{
+    background-position: -39px -64px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_PlasticBlue
+{
+    background-position: -49px -69px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_PlasticBlue
+{
+    background-position: -46px -63px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_PlasticBlue
+{
+    background-position: -34px -69px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_PlasticBlue
+{
+    background-position: -61px -11px;
+    width: 4px;
+    height: 4px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsBottom_PlasticBlue,
+.dxHtmlEditor_heConstrainProportionsTop_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_PlasticBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_PlasticBlue
+{
+	display:block;
+}

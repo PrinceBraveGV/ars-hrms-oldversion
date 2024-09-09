@@ -1,0 +1,83 @@
+.dxwscCheckedTextContainer_DevEx
+{
+	background-color: white;
+	border: 1px solid #9da0aa;
+	vertical-align: top;
+	overflow: auto;
+	height: 110px;
+	width: 340px;
+	padding: 5px;
+}
+.dxwscErrorWord_DevEx 
+{
+	background: url('scErrorUnderline.gif') repeat-x left bottom;
+	padding-bottom: 3px;
+	color: #201f35;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_DevEx
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxwscLoadingPanel_DevEx td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxwscLoadingPanel_DevEx .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgFooter
+{
+    border-top: 1px solid #abacb9;
+    background-color: #ebecef;
+
+	padding: 12px 12px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_DevEx .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_DevEx .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgContentSCFormContainer
+{
+	padding: 9px 62px 0px;
+}
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgMainSpellCheckOptionsFormTable .dxwscDlgContentSCOptionsFormContainer
+{
+	padding: 12px 12px 0px;
+}
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgSpellCheckForm .dxwscDlgListBoxContainer
+{
+	padding-top: 5px;
+	padding-bottom: 12px;
+}
+.dxwsc-main .dxpcLite_DevEx .dxwscDlgOptionsForm .dxwscDlgLanguagePanel
+{
+	padding-top: 10px;
+	padding-bottom: 12px;
+}

@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_PlasticBlue,
+.dxTreeList_CollapsedButtonRtl_PlasticBlue,
+.dxTreeList_DragAndDropArrowDown_PlasticBlue,
+.dxTreeList_DragAndDropArrowUp_PlasticBlue,
+.dxTreeList_DragAndDropHide_PlasticBlue,
+.dxTreeList_DragAndDropNode_PlasticBlue,
+.dxTreeList_ExpandedButton_PlasticBlue,
+.dxTreeList_ExpandedButtonRtl_PlasticBlue,
+.dxTreeList_SortAsc_PlasticBlue,
+.dxTreeList_SortDesc_PlasticBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_PlasticBlue
+{
+    background-position: -12px -61px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_CollapsedButtonRtl_PlasticBlue
+{
+    background-position: -12px -49px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowDown_PlasticBlue
+{
+    background-position: 0px -61px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_PlasticBlue
+{
+    background-position: 0px -71px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_PlasticBlue
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_PlasticBlue
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_PlasticBlue
+{
+    background-position: -12px -37px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_ExpandedButtonRtl_PlasticBlue
+{
+    background-position: -12px -71px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_SortAsc_PlasticBlue
+{
+    background-position: 0px -49px;
+    width: 11px;
+    height: 11px;
+}
+.dxTreeList_SortDesc_PlasticBlue
+{
+    background-position: 0px -37px;
+    width: 11px;
+    height: 11px;
+}
+

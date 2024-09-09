@@ -1,0 +1,143 @@
+﻿@{
+    ViewBag.Title = "HRIS - Impor Data";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model UploadModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Impor Data Sumber Eksternal</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <div style="padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; border: 10px 10px 10px 10px solid blue">
+                            <p style="font: 12px Arial; text-align:left">
+                                Anda dapat mengimpor berkas/file Excel atau Access ke dalam sistem untuk disesuaikan dengan tabel master pada database tujuan.
+                                <br />
+                                <br />Silakan pilih file yang diinginkan kemudian klik tombol "Upload" untuk melanjutkan proses impor file.
+                                <br />
+                                <br /><span style="color:blue; text-decoration:underline">Perhatian: </span>
+                                <br /><span style="color:blue">1. Untuk menghindari error saat proses impor data (akibat adanya dua proses yang berjalan pada tabel master yang sama), anda hanya dapat melakukan impor satu jenis berkas dalam satu waktu.</span><br />
+                                <br /><span style="color:blue">2. Struktur kolom tabel pada berkas yang diunggah diharapkan sama dengan struktur kolom tabel master pada database sistem (struktur kolom dapat dilihat pada list yang muncul setelah tabel tujuan dipilih).</span>
+                            </p>
+                            <hr />
+                            <p style="font: 14px Arial; color:blue; text-align:center;">Impor Berkas/File Eksternal</p>
+                            @using (Html.BeginForm("ImporData", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formupload" }))
+                            {
+                                @Html.DevExpress().FormLayout(settings =>
+                                {
+                                    settings.Name = "UploadLayout";
+                                    settings.AlignItemCaptionsInAllGroups = true;
+                                    settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Tabel Tujuan ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().ComboBoxFor(m => m.Nama_Tabel, combobox =>
+                                            {
+                                                combobox.Properties.NullText = "-- Pilih --";
+                                                combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                combobox.Properties.TextField = "Alias";
+                                                combobox.Properties.ValueField = "NamaTabel";
+                                                combobox.Properties.EnableClientSideAPI = true;
+                                                combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                combobox.Width = Unit.Pixel(300);
+                                                combobox.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { document.forms[0].submit(); }";
+                                            }).BindList(Providers.GetListTabel()).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Tabel/Sheet Sumber ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Nama_Sumber, textbox =>
+                                            {
+                                                textbox.Width = Unit.Pixel(300);
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Password Berkas/File Sumber ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Pass_File, textbox =>
+                                            {
+                                                textbox.Properties.Password = true;
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Properties.HelpText = "Isi dengan password file sumber bila ada (khusus untuk MS Access MDB/E dan ACCDB/E).";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Parameter Impor ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Parameter_File, textbox =>
+                                            {
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Properties.HelpText = "Isi dengan parameter khusus untuk berkas yang akan diunggah.";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Berkas ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            ViewContext.Writer.Write(@"<input type=""file"" id=""UploadCtrl"" name=""UploadCtrl"" />");
+                                            ViewContext.Writer.Write("<div><p>");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnUpload";
+                                                button.Text = "Upload";
+                                                button.UseSubmitBehavior = true;
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("</p></div>");
+                                        });
+                                    });
+                                }).GetHtml();
+                                ViewContext.Writer.Write(@"<p style=""font: 14px Arial; text-align:left; margin-left:10px"">Struktur Tabel" + ViewData["Nama_Tabel_Tujuan"] + @"</p>");
+                                @Html.DevExpress().ListBox(settings =>
+                                {
+                                    settings.Name = "ListStruktur";
+                                    settings.Width = Unit.Pixel(300);
+                                    settings.ReadOnly = true;
+                                    settings.Style.Add("text-align", "center");
+                                    settings.Style.Add("margin-left", "10px");
+                                }).BindList(Providers.GetKolom(Model.Nama_Tabel)).GetHtml();
+                                <br /><br />
+                            }
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

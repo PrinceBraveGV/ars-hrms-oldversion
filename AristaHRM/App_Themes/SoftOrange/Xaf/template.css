@@ -1,0 +1,194 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 12px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+    background-color: #E9E9E9;
+}
+a {
+    color: #bc3f26;
+    text-decoration: underline;   
+}
+a:hover {
+    color: #f15e34;
+}
+a:visited {
+    color: #A1A1A1;
+    text-decoration: underline;   
+}
+div.PageContent {
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background-color: white;
+    border-collapse: separate;
+	border-top: solid 1px #D3D3D3;
+	padding: 1px 20px 1px 5px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	color: #969696;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+.PopupWindow .dxpc-footer {
+    background: white;
+    border-top: none;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Controls customization */
+.dxgvControl_SoftOrange {
+	width: 100%;
+}
+.dxtcControl_SoftOrange,
+.dxtcLite_SoftOrange {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_SoftOrange,
+.NavigationTabsActionContainer .dxtcLite_SoftOrange {
+	background-color: white; 
+	border-top: solid 1px #D3D3D3;
+}
+.NavigationTabsActionContainer .dxtcPageContent_SoftOrange {
+    padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-content
+{
+    padding-left: 29px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_SoftOrange div,
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-leftIndent {
+	width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-leftIndent,
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-spacer
+{
+	padding-bottom: 2px;
+}
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-rightIndent
+{
+	padding-top: 0px;
+	padding-bottom: 4px!important;
+}
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_SoftOrange .dxtc-activeTab
+{
+	margin-top: 2px;
+}
+.ACV .dxmLite_SoftOrange .dxm-main .TemplatedItem
+{
+    padding-left: 34px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #f15e34;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #bc3f26;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_SoftOrange,
+.Security .dxmLite_SoftOrange .dxm-separator {
+	padding: 0px 11px 0px 11px!important;
+}
+.TabsContainer .dxmMenuSeparator_SoftOrange,
+.TabsContainer .dxmLite_SoftOrange .dxm-separator {
+	padding: 0px 10px 0px 16px!important;
+}
+.TabsContainer .menuLinks_SoftOrange .TemplatedItem
+{
+    padding-top: 1px;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_SoftOrange,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_SoftOrange .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_SoftOrange,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_SoftOrange .dxm-main
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header {
+	background-color: #E9E9E9;
+}
+.RecordsNavigationContainer .menuLinks_SoftOrange {
+	padding-left: 8px;
+}
+.RecordsNavigationContainer .dxmLite_SoftOrange
+{
+	padding-right: 5px;
+}
+.RecordsNavigationContainer .dxmLite_SoftOrange .dxm-spacing
+{
+	width: 6px !important;
+}
+.RecordsNavigationContainer .menuLinks_SoftOrange .dxmMenuItemWithImage_SoftOrange {
+	padding-left: 3px;
+}
+.RecordsNavigationContainer .dxmLite_SoftOrange .dxm-content,
+.RecordsNavigationContainer .dxmLite_SoftOrange .dxm-disabled.dxm-content
+{
+    padding-left: 0px !important;
+    padding-right: 1px !important;
+}
+.EditModeActions .dxmLite_SoftOrange,
+.Content .EditModeActions .dxmLite_SoftOrange {
+	padding-right: 1px;
+}
+.ACH.MainToolbar .dxmLite_SoftOrange .dxm-main
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+

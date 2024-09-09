@@ -1,0 +1,439 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_SoftOrange
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #f88538;
+	background-color: White;
+	border: 1px solid #F88538;
+}
+.dxheLoadingPanel_SoftOrange td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxheLoadingPanel_SoftOrange .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxheControl_SoftOrange
+{
+    border: Solid 3px #D3D3D3;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_SoftOrange
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #E5E5E5;
+}
+.dxheErrorFrame_SoftOrange
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_SoftOrange .dxeMemo_SoftOrange .dxheErrorFrame_SoftOrange .dxhe,
+.dxheControl_SoftOrange.dxhe-rtl .dxeMemo_SoftOrange .dxheErrorFrame_SoftOrange .dxhe,
+.dxheErrorFrame_SoftOrange .dxhe {
+    padding: 5px;
+}
+.dxheControl_SoftOrange .dxeMemo_SoftOrange .dxheErrorFrame_SoftOrange .dxhe td,
+.dxheControl_SoftOrange.dxhe-rtl .dxeMemo_SoftOrange .dxheErrorFrame_SoftOrange .dxhe td,
+.dxheErrorFrame_SoftOrange .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_SoftOrange .dxheErrorFrameCloseButton_SoftOrange {
+    cursor: pointer;
+}
+.dxheViewArea_SoftOrange
+{
+    border: Solid 3px #D3D3D3;    
+}
+.dxheContentArea_SoftOrange td.dxheViewArea_SoftOrange {
+    line-height: 0;
+}
+.dxheContentArea_SoftOrange td.dxheViewArea_SoftOrange.dxheHtmlViewArea_SoftOrange
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_SoftOrange,
+.dxhePreviewArea_SoftOrange
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_SoftOrange .dxheHtmlViewArea_SoftOrange,
+.dxheHtmlViewArea_SoftOrange .CodeMirror,
+body.dxheDesignViewArea_SoftOrange,
+body.dxhePreviewArea_SoftOrange 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_SoftOrange .dxeMemo_SoftOrange.dxheHtmlViewArea_SoftOrange .dxeMemoEditArea_SoftOrange,
+body.dxheDesignViewArea_SoftOrange,
+body.dxhePreviewArea_SoftOrange
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_SoftOrange .dxeMemo_SoftOrange.dxheHtmlViewArea_SoftOrange td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_SoftOrange.dxhe-rtl .dxheContentArea_SoftOrange .dxeMemo_SoftOrange.dxheHtmlViewArea_SoftOrange td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_SoftOrange .dxeMemo_SoftOrange textarea 
+{
+	resize:none;
+}
+.dxheControl_SoftOrange td.dxheDesignViewArea_SoftOrange .dxm-main.dxmtb 
+{
+    border: 1px solid #F88538;
+    padding: 2px;
+}
+.dxheControl_SoftOrange td.dxheDesignViewArea_SoftOrange
+{
+    position: relative;
+}
+td.dxheDesignViewArea_SoftOrange .dxmLite_SoftOrange {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_SoftOrange .dxmLite_SoftOrange.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_SoftOrange .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_SoftOrange .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_SoftOrange .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_SoftOrange .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_SoftOrange img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_SoftOrange img.dxheAudio,
+.dxheViewArea_SoftOrange img.dxheFlash,
+.dxheViewArea_SoftOrange img.dxheVideo,
+.dxheViewArea_SoftOrange img.dxheYoutube,
+.dxheViewArea_SoftOrange img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_SoftOrange .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_SoftOrange.dxheDesignViewArea_SoftOrange .dxheSelected
+{
+    background-color: #F5754C;
+    color: white;
+}
+.dxhe-insertPlaceholder .dxeListBox_SoftOrange.dxeFocused_SoftOrange
+{
+    border: 1px solid #A0A0A0;
+}
+.dxpc-contentWrapper .dxflFormLayout_SoftOrange.dxhe-insertPlaceholder .dxflGroup_SoftOrange .dxflGroupBox_SoftOrange
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_SoftOrange.dxhe-insertPlaceholder .dxflGroup_SoftOrange .dxflGroupBox_SoftOrange .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_SoftOrange .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_SoftOrange,
+.dxhe-insertPlaceholder .dxeListBox_SoftOrange .dxlbd
+{
+    width: 220px;
+    height: 195px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_SoftOrange .CodeMirror-activeline-background 
+{
+    background-color: #d3d3d3;
+    opacity: 0.5;
+}
+.dxheHtmlViewArea_SoftOrange .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_SoftOrange .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_SoftOrange .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+.dxpcLite_SoftOrange .dxpc-mainDiv.dxpc-shadow
+{
+    padding: 0;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_SoftOrange table.dxEmptyBorderTable,
+body.dxheDesignViewArea_SoftOrange table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_SoftOrange table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_SoftOrange table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_SoftOrange
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_SoftOrange pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_SoftOrange 
+{
+}
+.dxheStatusBarTab_SoftOrange 
+{    
+}
+.dxheStatusBarActiveTab_SoftOrange 
+{
+}
+.dxHtmlEditor_heSizeGrip_SoftOrange 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_SoftOrange 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_SoftOrange 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top:-12px;
+}
+.dxheControl_SoftOrange.dxhe-rtl .dxheSizeGripContainer_SoftOrange 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_SoftOrange .dxheDlgFooter,
+.dxpcLite_SoftOrange .dxheCustomDialog_SoftOrange .dxhecd-Buttons
+{
+	background-color: #F9F9F9;
+	border-top: solid 1px #E0E0E0;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_SoftOrange.dxRtl .dxheDlgFooter,
+.dxpcLite_SoftOrange.dxRtl .dxheCustomDialog_SoftOrange .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_SoftOrange .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_SoftOrange.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_SoftOrange .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_SoftOrange .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #A0A0A0;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_SoftOrange
+{
+	height: 3px;
+}
+.dxtbControl_SoftOrange 
+{
+	color: black;
+	background-color: #D3D3D3;
+    border-bottom: Solid 3px #D3D3D3;
+}
+
+.dxtbControl_SoftOrange td.dxmtb.dxmMenu_SoftOrange
+{
+	border:0px;
+}
+.dxtbComboBoxMenuItem_SoftOrange
+{
+    padding-top: 1px;
+}
+.dxheControl_SoftOrange .dxrControl_SoftOrange 
+{
+    background-color: #E5E5E5;
+}
+.dxheControl_SoftOrange .dxrControl_SoftOrange .dxtcLite_SoftOrange .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_SoftOrange .dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_SoftOrange .dxrControl_SoftOrange .dxr-tabContent
+{
+    border-width: 0 0 3px 0;
+}
+.dxheControl_SoftOrange .dxrControl_SoftOrange .dxr-minBtn
+{
+    padding-right: 7px;
+}
+.dxheControl_SoftOrange .dxtbControl_SoftOrange.dxtbr_SoftOrange,
+.dxheControl_SoftOrange .dxrControl_SoftOrange .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_SoftOrange .dxmLite_SoftOrange .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_SoftOrange .dxhetipControl_SoftOrange img
+{
+	vertical-align: top;
+}
+.dxtbControl_SoftOrange .dxmLite_SoftOrange .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_SoftOrange .dxmLite_SoftOrange .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_SoftOrange { }
+.dxtcbColorDiv_SoftOrange
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_SoftOrange td.dxrp,
+.dxheRP.dxrpControlGB_SoftOrange td.dxrp
+{
+	color: #000000;	
+}
+.dxheRP.dxrpControl_SoftOrange .dxrpcontent
+{
+    padding: 15px !important;
+}
+
+/* Header */
+.dxheRP.dxrpControl_SoftOrange .dxrpHeader_SoftOrange td.dxrp,
+.dxheRP.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange
+{
+	font-size: 1.08em;
+    font-weight: bold;
+	color: #313131;
+	text-align: left;	
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_SoftOrange .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_SoftOrange.dxhe-mediaDialog 
+{
+    width: 720px;
+}
+.dxflFormLayout_SoftOrange.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_SoftOrange.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_SoftOrange.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_SoftOrange.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_SoftOrange.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_SoftOrange.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_SoftOrange.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_SoftOrange .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_SoftOrange.dxeFocused_SoftOrange
+{
+    border-color: #A0A0A0;
+}
+
+div.dxhe-searchQuick div.dxbButton_SoftOrange,
+div.dxhe-searchQuick div.dxbButton_SoftOrange .dxb
+{
+    background: none !important;
+    border: none !important;
+}

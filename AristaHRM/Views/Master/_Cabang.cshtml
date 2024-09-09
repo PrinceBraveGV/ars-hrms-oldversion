@@ -1,0 +1,18 @@
+﻿@using AristaHRM.Models
+
+@Html.DevExpress().ComboBox(combosettings =>
+{
+    combosettings.Name = "Cabang";
+    combosettings.CallbackRouteValues = new { Controller = "Home", Action = "CabangPartial" };
+    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combosettings.Properties.TextField = "Nama_Cabang";
+    combosettings.Properties.ValueField = "Nama_Cabang";
+    combosettings.Properties.EnableClientSideAPI = true;
+    combosettings.Style.Add("vertical-align", "top");
+    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    combosettings.Properties.ValidationSettings.Display = Display.None;
+    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+    combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Perusahaan'] = DataKaryawanGrid.GetEditor('Perusahaan').GetValue(); }";
+    combosettings.Width = Unit.Pixel(571);
+    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+}).BindList(Model).Bind(ViewData["Cabang"]).GetHtml()

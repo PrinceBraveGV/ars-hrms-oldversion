@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "- Penanganan Kesalahan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@model HandleErrorInfo
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Perhatian</li>
+
+    <li data-role="fieldcontain" style="text-align:center">
+        <p>Sistem menemukan masalah yang timbul selama pengoperasian. Silakan hubungi administrator dengan pesan sebagai berikut:</p>
+        <br />
+        <p>
+            Sumber: @Model.Exception.Message <br />
+            Pengendali: @Model.ControllerName <br />
+            Penugasan: @Model.ActionName <br />
+            Analisa masalah: <pre>@Model.Exception.Message <br /> @Model.Exception.InnerException <br /> @Model.Exception.StackTrace</pre>
+        </p>
+    </li>
+</ul>
+
+<div data-role="footer" style="text-align:center">@Html.ActionLink("Kembali", "Index", "Home", new { area = "Mobile" }, new { id = "backbutton" })</div>
+
+
+
+

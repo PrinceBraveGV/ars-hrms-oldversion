@@ -1,0 +1,47 @@
+﻿@using System.Drawing
+
+@using AristaHRM.Models
+
+@{
+    ChartControlExtension graph = Html.DevExpress().Chart(settings =>
+    {
+        settings.Name = "chart";
+        settings.EnableClientSideAPI = true;
+        settings.BorderOptions.Visibility = DefaultBoolean.False;
+        settings.Height = 400;
+        settings.Width = 800;
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+        settings.CrosshairEnabled = DefaultBoolean.True;
+        settings.Titles.Add(new ChartTitle()
+        {
+            Font = new Font("Arial", 18),
+            Text = "Riwayat Pengajuan Cuti Per Tahun " + Session["Tahun"].ToString()
+        });
+        settings.Titles.Add(new ChartTitle()
+        {
+            Font = new Font("Tahoma", 12),
+            Text = "Bulan",
+            Dock = ChartTitleDockStyle.Bottom,
+            Alignment = StringAlignment.Center
+        });
+        settings.SeriesTemplate.ChangeView(DevExpress.XtraCharts.ViewType.Line);
+        settings.SeriesDataMember = "Jenis_Cuti";
+        settings.SeriesTemplate.ArgumentDataMember = "Bulan";
+        settings.SeriesTemplate.ValueDataMembers[0] = "Jumlah_Cuti";
+        settings.SeriesTemplate.LabelsVisibility = DefaultBoolean.True;
+        settings.SeriesTemplate.Label.ResolveOverlappingMode = ResolveOverlappingMode.Default;
+        settings.BinaryStorageMode = BinaryStorageMode.Cache;
+
+        XYDiagram diagram = (XYDiagram)settings.Diagram;
+        diagram.AxisX.GridLines.Visible = true;
+        diagram.AxisX.Interlaced = true;
+        diagram.AxisX.Title.Text = "Bulan";
+        diagram.AxisY.WholeRange.AlwaysShowZeroLevel = false;
+        diagram.AxisY.Title.Text = "Jumlah Cuti";
+        diagram.AxisY.Title.Visibility = DefaultBoolean.True;
+        MarkerKind marker = (MarkerKind)Enum.Parse(typeof(MarkerKind), "Circle");
+        ((PointSeriesView)settings.SeriesTemplate.View).PointMarkerOptions.Kind = marker;
+        ((PointSeriesView)settings.SeriesTemplate.View).PointMarkerOptions.Size = 8;
+    });
+    graph.Bind(Providers.GetRiwayatPengajuan()).GetHtml();
+}

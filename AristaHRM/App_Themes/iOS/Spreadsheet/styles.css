@@ -1,0 +1,227 @@
+.dxssControl_iOS 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999fa5;
+	font: 13px 'Helvetica Neue', Helvetica, Verdana, sans-serif
+}
+.dxssControl_iOS .dxrControl_iOS .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_iOS .dxss-gl .dxss-v,
+.dxssControl_iOS .dxss-gl .dxss-h 
+{
+	border-color: #E0E0E0;
+}
+.dxssControl_iOS .dxss-rowHeader 
+{	
+	border-right: 1px solid #E0E0E0;
+	border-top: 1px solid #E0E0E0;
+}
+.dxssControl_iOS .dxss-colHeader 
+{
+	border-bottom: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+}
+.dxssControl_iOS .dxpcLite_iOS .dxeBase_iOS
+{
+	text-align: left;
+}
+.dxssControl_iOS .dxss-crse 
+{
+	background-color: #bcbec1;
+}
+.dxssControl_iOS .dxss-trbe 
+{
+	border-top-color: #999fa5;
+}
+.dxssControl_iOS .dxss-rrbe 
+{
+	border-right-color: #999fa5;
+}
+.dxssControl_iOS .dxss-brbe 
+{
+	border-bottom-color: #999fa5;
+}
+.dxssControl_iOS .dxss-lrbe 
+{
+	border-left-color: #999fa5;
+}
+.dxssControl_iOS .dxss-smbe
+{
+    border-color: #999fa5;
+}
+.dxssControl_iOS .dxss-hrg,
+.dxssControl_iOS .dxss-vrg
+{
+	background-color: #999fa5;
+}
+.dxssControl_iOS .dxrControl_iOS .dxtcLite_iOS
+{
+	background-color: #F0F2F4;
+}
+.dxssControl_iOS .dxrControl_iOS .dxr-minBtn 
+{
+	padding-right: 3px;
+}
+.dxssControl_iOS .dxss-tse 
+{
+	border-color: #999fa5;
+}
+.dxssControl_iOS .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_iOS .dxss-ddp,
+.dxssControl_iOS .dxss-ddb
+{
+    border: 1px solid #AFB1B6;
+}
+.dxssControl_iOS .dxss-ddp tr:hover
+{
+    background-color: #e0e0e0;
+}
+/* Loading panel */
+.dxssLoadingPanel_iOS
+{
+	font: bold 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxssLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxssLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxssLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxssLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxssLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxssLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxssLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxssLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxssLoadingPanelStatusBar_iOS
+{
+	background-color: Transparent;
+}
+.dxssLoadingPanelStatusBar_iOS td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+ .dxssLoadingPanel_iOS .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 24px;
+	width: 24px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_iOS .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_iOS .dxpcLite_iOS .dxrpControl_iOS
+{
+	width: 100% !important;
+}
+.dxssControl_iOS .dxpcLite_iOS .dxrpControl_iOS .dxucControl_iOS,
+.dxssControl_iOS .dxpcLite_iOS .dxrpControl_iOS .dxeButtonEdit_iOS
+{
+	width: 290px !important;
+}
+.dxssControl_iOS .dxpcLite_iOS .dxrpControl_iOS .dxssDlgSaveToLocal .dxeButtonEdit_iOS
+{
+	width: 395px !important;
+}
+.dxssControl_iOS .dxpcLite_iOS .dxbButton_iOS 
+{
+	width: 100px !important;
+}
+.dxssControl_iOS .dxrpControl_iOS .dxrpcontent
+{
+	padding: 13px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_iOS {
+	background-color: #d3d3d3;
+	border-color: #0C4876;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_iOS, 
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_iOS
+{
+    border-color: #0C4876;
+    color: White;
+	background: #015EE5 url('../Editors/edtButtonPressedBack.png') repeat-x top;
+	text-shadow: none;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_iOS .dxss-ctve {
+	border: 2px solid #999fa5; /*the same -dxss-cfe */
+}
+.dxssControl_iOS .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #999fa5;
+}
+.dxssControl_iOS .dxmLite_iOS .dxss-fbMenu {
+    height: 39px;
+}
+.dxssControl_iOS .dxss-Hint {
+    border: 1px solid #A8A8A8;
+    background-color: #FFFFFF;
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EEF0F1');
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEF0F1));
+	background: -moz-linear-gradient(top,  #FFFFFF,  #EEF0F1);
+}
+.dxssControl_iOS .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

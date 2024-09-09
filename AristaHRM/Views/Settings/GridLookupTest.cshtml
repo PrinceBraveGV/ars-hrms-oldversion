@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "GridLookupTest";
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model KaryawanModel
+
+<h2>GridLookupTest</h2>
+
+@using (Html.BeginForm("GridLookupTest", "Settings", FormMethod.Post))
+{
+    @Html.Partial("_GridLookup", Model)
+}

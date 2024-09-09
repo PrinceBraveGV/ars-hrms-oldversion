@@ -1,0 +1,13 @@
+﻿@using AristaHRM.Reports
+
+@Html.DevExpress().DocumentViewer(settings =>
+{
+       settings.Name = "ReportKaryawanViewer";
+       settings.Report = (ReportKaryawan)ViewData["ReportKaryawan"];
+       settings.ToolbarMode = DocumentViewerToolbarMode.ExternalRibbon;
+       settings.AssociatedRibbonName = "Ribbon";
+       settings.StylesSplitter.SidePaneWidth = 290;
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.CallbackRouteValues = new { Controller = "Report", Action = "ReportKaryawanPartial" };
+       settings.ExportRouteValues = new { Controller = "Report", Action = "EksporKaryawan" };
+}).GetHtml()

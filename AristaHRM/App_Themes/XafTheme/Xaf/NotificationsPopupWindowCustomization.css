@@ -1,0 +1,22 @@
+.NotificationsPopupWindowCustomization .dialogContent .dialog .ACH {
+    padding-right: 30px;
+}
+.NotificationsPopupWindowCustomization .CardGroupContent > .Item:first-child {
+    display:none;
+}
+.NotificationsPopupWindowCustomization .CardGroupContent > .Item:nth-last-child(2) {
+    min-height: 20px !important;
+    max-height: 20px !important;
+}
+.NotificationsPopupWindowCustomization .dxeTAR.Caption {
+    padding-top: 0px;
+}
+.NotificationsPopupWindowCustomization .CardGroupContent .ACH {
+    padding-left: 0px;
+}
+.NotificationsPopupWindowCustomization .GroupContent .FixedEditorContainer {
+    vertical-align: none;
+}
+.NotificationsPopupWindowCustomization .CardGroupContent .dxmLite_XafTheme .dxmtb.dxm-main {
+    padding: 12px 0px 0px 0px;
+}

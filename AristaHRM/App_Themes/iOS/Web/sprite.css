@@ -1,0 +1,1542 @@
+.dxdvControl_iOS .dxpRTL .dxWeb_pNext_iOS,
+.dxdvControl_iOS .dxpRTL .dxWeb_pNextDisabled_iOS,
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrev_iOS,
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrevDisabled_iOS,
+.dxdvControl_iOS .dxWeb_pNext_iOS,
+.dxdvControl_iOS .dxWeb_pNextDisabled_iOS,
+.dxdvControl_iOS .dxWeb_pPrev_iOS,
+.dxdvControl_iOS .dxWeb_pPrevDisabled_iOS,
+.dxigControl_iOS .dxpRTL .dxWeb_pNext_iOS,
+.dxigControl_iOS .dxpRTL .dxWeb_pNextDisabled_iOS,
+.dxigControl_iOS .dxpRTL .dxWeb_pPrev_iOS,
+.dxigControl_iOS .dxpRTL .dxWeb_pPrevDisabled_iOS,
+.dxigControl_iOS .dxWeb_pNext_iOS,
+.dxigControl_iOS .dxWeb_pNextDisabled_iOS,
+.dxigControl_iOS .dxWeb_pPrev_iOS,
+.dxigControl_iOS .dxWeb_pPrevDisabled_iOS,
+.dxigControl_iOS.dxTouchUI .dxWeb_igCloseButton_iOS,
+.dxigControl_iOS.dxTouchUI .dxWeb_igPauseButton_iOS,
+.dxigControl_iOS.dxTouchUI .dxWeb_igPlayButton_iOS,
+.dxm-checked .dxWeb_mVerticalPopOut_iOS,
+.dxm-checked .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmDDIPIC .dxWeb_mVerticalPopOut_iOS,
+.dxmDDIPIC .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-dropDownMode .dxWeb_mHorizontalPopOut_iOS,
+.dxm-dropDownMode .dxWeb_mVerticalPopOut_iOS,
+.dxm-dropDownMode .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-hovered .dxWeb_mVerticalPopOut_iOS,
+.dxm-hovered .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-selected .dxWeb_mVerticalPopOut_iOS,
+.dxm-selected .dxWeb_mVerticalPopOutRtl_iOS,
+.dxpcAlert .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_iOS,
+.dxpcAlert .dxpcCollapseButtonChecked_iOS .dxWeb_pcCollapseButton_iOS,
+.dxpcAlert .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_iOS,
+.dxpcAlert .dxpcMaximizeButtonChecked_iOS .dxWeb_pcMaximizeButton_iOS,
+.dxpcAlert .dxpc-pinBtnChecked .dxWeb_pcPinButton_iOS,
+.dxpcAlert .dxpcPinButtonChecked_iOS .dxWeb_pcPinButton_iOS,
+.dxpcAlert .dxWeb_pcCloseButton_iOS,
+.dxpcAlert .dxWeb_pcCollapseButton_iOS,
+.dxpcAlert .dxWeb_pcMaximizeButton_iOS,
+.dxpcAlert .dxWeb_pcPinButton_iOS,
+.dxpcAlert .dxWeb_pcRefreshButton_iOS,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_iOS,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_iOS,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_iOS,
+.dxpnl-btnHover .dxWeb_pnlExpand_iOS,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_iOS,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_iOS,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_iOS,
+.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_iOS,
+.dxpnl-btnPressed .dxWeb_pnlExpand_iOS,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_iOS,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_iOS,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_iOS,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_iOS,
+.dxpnl-btnSelected .dxWeb_pnlExpand_iOS,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_iOS,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_iOS,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_iOS,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_iOS,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_iOS,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_iOS,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_iOS,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_iOS,
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_iOS,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_iOS,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_iOS,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_iOS,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_iOS,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_iOS,
+.dxp-pressedDropDownButton .dxWeb_pPopOut_iOS,
+.dxpRTL .dxWeb_pNext_iOS,
+.dxpRTL .dxWeb_pNextDisabled_iOS,
+.dxpRTL .dxWeb_pPrev_iOS,
+.dxpRTL .dxWeb_pPrevDisabled_iOS,
+.dxrpCollapsed .dxWeb_rpCollapseButton_iOS,
+.dxsmLevel0_iOS .dxWeb_smBullet_iOS,
+.dxsmLevel0Categorized_iOS .dxWeb_smBullet_iOS,
+.dxWeb_edtCheckBoxChecked_iOS,
+.dxWeb_edtCheckBoxCheckedDisabled_iOS,
+.dxWeb_edtCheckBoxGrayed_iOS,
+.dxWeb_edtCheckBoxGrayedDisabled_iOS,
+.dxWeb_edtCheckBoxUnchecked_iOS,
+.dxWeb_edtCheckBoxUncheckedDisabled_iOS,
+.dxWeb_fmBreadCrumbsSeparatorArrow_iOS,
+.dxWeb_fmBreadCrumbsUpButton_iOS,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_iOS,
+.dxWeb_fmCopyButton_iOS,
+.dxWeb_fmCopyButtonDisabled_iOS,
+.dxWeb_fmCreateButton_iOS,
+.dxWeb_fmCreateButtonDisabled_iOS,
+.dxWeb_fmDeleteButton_iOS,
+.dxWeb_fmDeleteButtonDisabled_iOS,
+.dxWeb_fmDwnlButton_iOS,
+.dxWeb_fmDwnlButtonDisabled_iOS,
+.dxWeb_fmFolder_iOS,
+.dxWeb_fmFolderLocked_iOS,
+.dxWeb_fmMoveButton_iOS,
+.dxWeb_fmMoveButtonDisabled_iOS,
+.dxWeb_fmRefreshButton_iOS,
+.dxWeb_fmRefreshButtonDisabled_iOS,
+.dxWeb_fmRenameButton_iOS,
+.dxWeb_fmRenameButtonDisabled_iOS,
+.dxWeb_fmThumbnailCheck_iOS,
+.dxWeb_fmUplButton_iOS,
+.dxWeb_fmUplButtonDisabled_iOS,
+.dxWeb_igCloseButton_iOS,
+.dxWeb_igNavigationBarMarker_iOS,
+.dxWeb_igNextButton_iOS,
+.dxWeb_igNextButtonDisabled_iOS,
+.dxWeb_igNextButtonHover_iOS,
+.dxWeb_igNextButtonPressed_iOS,
+.dxWeb_igPauseButton_iOS,
+.dxWeb_igPlayButton_iOS,
+.dxWeb_igPrevButton_iOS,
+.dxWeb_igPrevButtonDisabled_iOS,
+.dxWeb_igPrevButtonHover_iOS,
+.dxWeb_igPrevButtonPressed_iOS,
+.dxWeb_isDot_iOS,
+.dxWeb_isDotDisabled_iOS,
+.dxWeb_isDotSelected_iOS,
+.dxWeb_isNextBtnHor_iOS,
+.dxWeb_isNextBtnHorDisabled_iOS,
+.dxWeb_isNextBtnVert_iOS,
+.dxWeb_isNextBtnVertDisabled_iOS,
+.dxWeb_isNextPageBtnHor_iOS,
+.dxWeb_isNextPageBtnHorDisabled_iOS,
+.dxWeb_isNextPageBtnHorOutside_iOS,
+.dxWeb_isNextPageBtnHorOutsideDisabled_iOS,
+.dxWeb_isNextPageBtnVert_iOS,
+.dxWeb_isNextPageBtnVertDisabled_iOS,
+.dxWeb_isNextPageBtnVertOutside_iOS,
+.dxWeb_isNextPageBtnVertOutsideDisabled_iOS,
+.dxWeb_isPauseBtn_iOS,
+.dxWeb_isPlayBtn_iOS,
+.dxWeb_isPrevBtnHor_iOS,
+.dxWeb_isPrevBtnHorDisabled_iOS,
+.dxWeb_isPrevBtnVert_iOS,
+.dxWeb_isPrevBtnVertDisabled_iOS,
+.dxWeb_isPrevPageBtnHor_iOS,
+.dxWeb_isPrevPageBtnHorDisabled_iOS,
+.dxWeb_isPrevPageBtnHorOutside_iOS,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_iOS,
+.dxWeb_isPrevPageBtnVert_iOS,
+.dxWeb_isPrevPageBtnVertDisabled_iOS,
+.dxWeb_isPrevPageBtnVertOutside_iOS,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_iOS,
+.dxWeb_izEWCloseButton_iOS,
+.dxWeb_izHint_iOS,
+.dxWeb_mAdaptiveMenu_iOS,
+.dxWeb_mHorizontalPopOut_iOS,
+.dxWeb_mSubMenuItem_iOS,
+.dxWeb_mSubMenuItemChecked_iOS,
+.dxWeb_mVerticalPopOut_iOS,
+.dxWeb_mVerticalPopOutRtl_iOS,
+.dxWeb_nbCollapse_iOS,
+.dxWeb_nbExpand_iOS,
+.dxWeb_pcCloseButton_iOS,
+.dxWeb_pcCollapseButton_iOS,
+.dxWeb_pcMaximizeButton_iOS,
+.dxWeb_pcPinButton_iOS,
+.dxWeb_pcRefreshButton_iOS,
+.dxWeb_pcSizeGrip_iOS,
+.dxWeb_pcSizeGripRtl_iOS,
+.dxWeb_pNext_iOS,
+.dxWeb_pNextDisabled_iOS,
+.dxWeb_pnlExpand_iOS,
+.dxWeb_pnlExpandArrowBottom_iOS,
+.dxWeb_pnlExpandArrowLeft_iOS,
+.dxWeb_pnlExpandArrowRight_iOS,
+.dxWeb_pnlExpandArrowTop_iOS,
+.dxWeb_pPopOut_iOS,
+.dxWeb_pPopOutDisabled_iOS,
+.dxWeb_pPrev_iOS,
+.dxWeb_pPrevDisabled_iOS,
+.dxWeb_rDialogBoxLauncher_iOS,
+.dxWeb_rDialogBoxLauncherDisabled_iOS,
+.dxWeb_rDialogBoxLauncherHover_iOS,
+.dxWeb_rDialogBoxLauncherPressed_iOS,
+.dxWeb_rGlrDown_iOS,
+.dxWeb_rGlrDownDisabled_iOS,
+.dxWeb_rGlrPopOut_iOS,
+.dxWeb_rGlrPopOutDisabled_iOS,
+.dxWeb_rGlrUp_iOS,
+.dxWeb_rGlrUpDisabled_iOS,
+.dxWeb_rMinBtn_iOS,
+.dxWeb_rMinBtn_iOS.dxWeb_rMinBtnHover_iOS,
+.dxWeb_rMinBtn_iOS.dxWeb_rMinBtnPressed_iOS,
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtn_iOS,
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnDisabled_iOS,
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnHover_iOS,
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnPressed_iOS,
+.dxWeb_rMinBtnDisabled_iOS,
+.dxWeb_rpCollapseButton_iOS,
+.dxWeb_rPopOut_iOS,
+.dxWeb_splHCollapseBackwardButton_iOS,
+.dxWeb_splHCollapseForwardButton_iOS,
+.dxWeb_splHSeparator_iOS,
+.dxWeb_splVCollapseBackwardButton_iOS,
+.dxWeb_splVCollapseForwardButton_iOS,
+.dxWeb_splVSeparator_iOS,
+.dxWeb_tcScrollLeft_iOS,
+.dxWeb_tcScrollRight_iOS,
+.dxWeb_tvColBtn_iOS,
+.dxWeb_tvColBtnRtl_iOS,
+.dxWeb_tvExpBtn_iOS,
+.dxWeb_tvExpBtnRtl_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pNext_iOS
+{
+    background-position: -159px -798px;
+    width: 52px;
+    height: 23px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pNextDisabled_iOS
+{
+    background-position: 0px -822px;
+    width: 52px;
+    height: 23px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrev_iOS
+{
+    background-position: -159px -822px;
+    width: 52px;
+    height: 23px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrevDisabled_iOS
+{
+    background-position: -106px -774px;
+    width: 52px;
+    height: 23px;
+}
+.dxdvControl_iOS .dxWeb_pNext_iOS
+{
+    background-position: 0px -749px;
+    width: 52px;
+    height: 24px;
+}
+.dxdvControl_iOS .dxWeb_pNextDisabled_iOS
+{
+    background-position: -212px -720px;
+    width: 52px;
+    height: 24px;
+}
+.dxdvControl_iOS .dxWeb_pPrev_iOS
+{
+    background-position: -212px -749px;
+    width: 52px;
+    height: 24px;
+}
+.dxdvControl_iOS .dxWeb_pPrevDisabled_iOS
+{
+    background-position: -159px -720px;
+    width: 52px;
+    height: 24px;
+}
+.dxigControl_iOS .dxpRTL .dxWeb_pNext_iOS
+{
+    background-position: 0px -846px;
+    width: 52px;
+    height: 23px;
+}
+.dxigControl_iOS .dxpRTL .dxWeb_pNextDisabled_iOS
+{
+    background-position: 0px -774px;
+    width: 52px;
+    height: 23px;
+}
+.dxigControl_iOS .dxpRTL .dxWeb_pPrev_iOS
+{
+    background-position: -53px -798px;
+    width: 52px;
+    height: 23px;
+}
+.dxigControl_iOS .dxpRTL .dxWeb_pPrevDisabled_iOS
+{
+    background-position: 0px -798px;
+    width: 52px;
+    height: 23px;
+}
+.dxigControl_iOS .dxWeb_pNext_iOS
+{
+    background-position: -106px -749px;
+    width: 52px;
+    height: 24px;
+}
+.dxigControl_iOS .dxWeb_pNextDisabled_iOS
+{
+    background-position: -159px -749px;
+    width: 52px;
+    height: 24px;
+}
+.dxigControl_iOS .dxWeb_pPrev_iOS
+{
+    background-position: -53px -749px;
+    width: 52px;
+    height: 24px;
+}
+.dxigControl_iOS .dxWeb_pPrevDisabled_iOS
+{
+    background-position: -106px -720px;
+    width: 52px;
+    height: 24px;
+}
+.dxigControl_iOS.dxTouchUI .dxWeb_igCloseButton_iOS
+{
+    background-position: -101px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_iOS.dxTouchUI .dxWeb_igPauseButton_iOS
+{
+    background-position: -84px -720px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_iOS.dxTouchUI .dxWeb_igPlayButton_iOS
+{
+    background-position: -252px -660px;
+    width: 21px;
+    height: 25px;
+}
+.dxm-checked .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: 0px -498px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-checked .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -126px -465px;
+    width: 62px;
+    height: 32px;
+}
+.dxmDDIPIC .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -189px -465px;
+    width: 62px;
+    height: 32px;
+}
+.dxmDDIPIC .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -63px -531px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-dropDownMode .dxWeb_mHorizontalPopOut_iOS
+{
+    background-position: -66px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxm-dropDownMode .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -63px -498px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-dropDownMode .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -63px -465px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-hovered .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -126px -498px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-hovered .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: 0px -531px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-selected .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: 0px -465px;
+    width: 62px;
+    height: 32px;
+}
+.dxm-selected .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -161px -377px;
+    width: 62px;
+    height: 32px;
+}
+.dxpcAlert .dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_iOS
+{
+    background-position: -108px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxpcCollapseButtonChecked_iOS .dxWeb_pcCollapseButton_iOS
+{
+    background-position: 0px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_iOS
+{
+    background-position: 0px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxpcMaximizeButtonChecked_iOS .dxWeb_pcMaximizeButton_iOS
+{
+    background-position: -72px -690px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxpc-pinBtnChecked .dxWeb_pcPinButton_iOS
+{
+    background-position: 0px -690px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxpcPinButtonChecked_iOS .dxWeb_pcPinButton_iOS
+{
+    background-position: -72px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxWeb_pcCloseButton_iOS
+{
+    background-position: -144px -690px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxWeb_pcCollapseButton_iOS
+{
+    background-position: -216px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxWeb_pcMaximizeButton_iOS
+{
+    background-position: -180px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxWeb_pcPinButton_iOS
+{
+    background-position: -36px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpcAlert .dxWeb_pcRefreshButton_iOS
+{
+    background-position: -72px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_iOS
+{
+    background-position: -36px -690px;
+    width: 35px;
+    height: 29px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_iOS
+{
+    background-position: -216px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_iOS
+{
+    background-position: -108px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpand_iOS
+{
+    background-position: -92px -66px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: -98px -328px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: -49px -279px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: -147px -230px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: 0px -279px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpand_iOS
+{
+    background-position: -49px -377px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: -196px -230px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: -147px -181px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: -190px -66px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: -49px -328px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_iOS
+{
+    background-position: -49px -181px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: -147px -132px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: -196px -328px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: -98px -279px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: 0px -377px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpand_iOS
+{
+    background-position: -98px -132px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: 0px -132px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: -147px -279px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: -147px -328px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnHover .dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: -98px -230px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_iOS
+{
+    background-position: -196px -279px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: -141px -66px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: 0px -181px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: -49px -132px;
+    width: 48px;
+    height: 48px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: -196px -132px;
+    width: 48px;
+    height: 48px;
+}
+.dxp-pressedDropDownButton .dxWeb_pPopOut_iOS
+{
+    background-position: -149px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxpRTL .dxWeb_pNext_iOS
+{
+    background-position: -106px -822px;
+    width: 52px;
+    height: 23px;
+}
+.dxpRTL .dxWeb_pNextDisabled_iOS
+{
+    background-position: -212px -798px;
+    width: 52px;
+    height: 23px;
+}
+.dxpRTL .dxWeb_pPrev_iOS
+{
+    background-position: -53px -822px;
+    width: 52px;
+    height: 23px;
+}
+.dxpRTL .dxWeb_pPrevDisabled_iOS
+{
+    background-position: -159px -774px;
+    width: 52px;
+    height: 23px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_iOS
+{
+    background-position: -228px -870px;
+    width: 15px;
+    height: 12px;
+}
+.dxsmLevel0_iOS .dxWeb_smBullet_iOS
+{
+    background-position: -267px -441px;
+    width: 10px;
+    height: 11px;
+}
+.dxsmLevel0Categorized_iOS .dxWeb_smBullet_iOS
+{
+    background-position: -268px -453px;
+    width: 10px;
+    height: 11px;
+}
+.dxWeb_edtCheckBoxChecked_iOS
+{
+    background-position: -28px -720px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_iOS
+{
+    background-position: -208px -690px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_edtCheckBoxGrayed_iOS
+{
+    background-position: 0px -720px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_iOS
+{
+    background-position: -56px -720px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_edtCheckBoxUnchecked_iOS
+{
+    background-position: -180px -690px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_iOS
+{
+    background-position: -236px -690px;
+    width: 27px;
+    height: 28px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_iOS
+{
+    background-position: -245px -316px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_fmBreadCrumbsUpButton_iOS
+{
+    background-position: -150px -115px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_iOS
+{
+    background-position: -133px -115px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_iOS
+{
+    background-position: -159px -531px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmCopyButtonDisabled_iOS
+{
+    background-position: -245px -181px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmCreateButton_iOS
+{
+    background-position: -126px -531px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmCreateButtonDisabled_iOS
+{
+    background-position: -99px -597px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDeleteButton_iOS
+{
+    background-position: -231px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDeleteButtonDisabled_iOS
+{
+    background-position: -192px -531px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDwnlButton_iOS
+{
+    background-position: -99px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDwnlButtonDisabled_iOS
+{
+    background-position: 0px -597px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmFolder_iOS
+{
+    background-position: -33px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmFolderLocked_iOS
+{
+    background-position: -245px -132px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmMoveButton_iOS
+{
+    background-position: -66px -597px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmMoveButtonDisabled_iOS
+{
+    background-position: -245px -328px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmRefreshButton_iOS
+{
+    background-position: -245px -279px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmRefreshButtonDisabled_iOS
+{
+    background-position: -33px -597px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmRenameButton_iOS
+{
+    background-position: -245px -230px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmRenameButtonDisabled_iOS
+{
+    background-position: -234px -426px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmThumbnailCheck_iOS
+{
+    background-position: -215px -870px;
+    width: 12px;
+    height: 13px;
+}
+.dxWeb_fmUplButton_iOS
+{
+    background-position: 0px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmUplButtonDisabled_iOS
+{
+    background-position: -132px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_igCloseButton_iOS
+{
+    background-position: -265px -822px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_iOS
+{
+    background-position: -221px -115px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_iOS
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_iOS
+{
+    background-position: -184px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_iOS
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_iOS
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_iOS
+{
+    background-position: -265px -749px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_iOS
+{
+    background-position: -265px -774px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_iOS
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_iOS
+{
+    background-position: -138px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_iOS
+{
+    background-position: -230px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_iOS
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_iOS
+{
+    background-position: -263px -846px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_iOS
+{
+    background-position: -201px -870px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_iOS
+{
+    background-position: -265px -798px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_iOS
+{
+    background-position: -258px -531px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_iOS
+{
+    background-position: -252px -498px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_iOS
+{
+    background-position: -123px -870px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_iOS
+{
+    background-position: -153px -870px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_iOS
+{
+    background-position: -197px -846px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_iOS
+{
+    background-position: -264px -690px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_iOS
+{
+    background-position: -264px -564px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_iOS
+{
+    background-position: -252px -630px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_iOS
+{
+    background-position: -257px -166px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_iOS
+{
+    background-position: -257px -215px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_iOS
+{
+    background-position: -156px -413px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_iOS
+{
+    background-position: -98px -413px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_iOS
+{
+    background-position: -265px -720px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_iOS
+{
+    background-position: -266px -408px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_iOS
+{
+    background-position: -165px -597px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_iOS
+{
+    background-position: -252px -465px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_iOS
+{
+    background-position: -93px -870px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_iOS
+{
+    background-position: -63px -870px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_iOS
+{
+    background-position: -227px -846px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_iOS
+{
+    background-position: -212px -846px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_iOS
+{
+    background-position: -265px -630px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_iOS
+{
+    background-position: -263px -377px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_iOS
+{
+    background-position: -257px -264px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_iOS
+{
+    background-position: -257px -313px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_iOS
+{
+    background-position: -185px -413px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_iOS
+{
+    background-position: -127px -413px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_iOS
+{
+    background-position: -253px -106px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_iOS
+{
+    background-position: -183px -870px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_iOS
+{
+    background-position: -247px -363px;
+    width: 31px;
+    height: 13px;
+}
+.dxWeb_mHorizontalPopOut_iOS
+{
+    background-position: -165px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_mSubMenuItem_iOS
+{
+    background-position: -225px -531px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_mSubMenuItemChecked_iOS
+{
+    background-position: -198px -564px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -98px -377px;
+    width: 62px;
+    height: 32px;
+}
+.dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -189px -498px;
+    width: 62px;
+    height: 32px;
+}
+.dxWeb_nbCollapse_iOS
+{
+    background-position: -167px -115px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_nbExpand_iOS
+{
+    background-position: -184px -115px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_pcCloseButton_iOS
+{
+    background-position: -144px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxWeb_pcCollapseButton_iOS
+{
+    background-position: -108px -690px;
+    width: 35px;
+    height: 29px;
+}
+.dxWeb_pcMaximizeButton_iOS
+{
+    background-position: -144px -630px;
+    width: 35px;
+    height: 29px;
+}
+.dxWeb_pcPinButton_iOS
+{
+    background-position: -180px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxWeb_pcRefreshButton_iOS
+{
+    background-position: -36px -660px;
+    width: 35px;
+    height: 29px;
+}
+.dxWeb_pcSizeGrip_iOS
+{
+    background-position: -125px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pcSizeGripRtl_iOS
+{
+    background-position: -77px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pNext_iOS
+{
+    background-position: -106px -798px;
+    width: 52px;
+    height: 23px;
+}
+.dxWeb_pNextDisabled_iOS
+{
+    background-position: -53px -774px;
+    width: 52px;
+    height: 23px;
+}
+.dxWeb_pnlExpand_iOS
+{
+    background-position: -49px -230px;
+    width: 48px;
+    height: 48px;
+}
+.dxWeb_pnlExpandArrowBottom_iOS
+{
+    background-position: -196px -181px;
+    width: 48px;
+    height: 48px;
+}
+.dxWeb_pnlExpandArrowLeft_iOS
+{
+    background-position: -98px -181px;
+    width: 48px;
+    height: 48px;
+}
+.dxWeb_pnlExpandArrowRight_iOS
+{
+    background-position: 0px -328px;
+    width: 48px;
+    height: 48px;
+}
+.dxWeb_pnlExpandArrowTop_iOS
+{
+    background-position: 0px -230px;
+    width: 48px;
+    height: 48px;
+}
+.dxWeb_pPopOut_iOS
+{
+    background-position: -173px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pPopOutDisabled_iOS
+{
+    background-position: -53px -846px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pPrev_iOS
+{
+    background-position: -212px -774px;
+    width: 52px;
+    height: 23px;
+}
+.dxWeb_pPrevDisabled_iOS
+{
+    background-position: -212px -822px;
+    width: 52px;
+    height: 23px;
+}
+.dxWeb_rDialogBoxLauncher_iOS
+{
+    background-position: 0px -870px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_iOS
+{
+    background-position: -42px -870px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherHover_iOS
+{
+    background-position: -242px -846px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherPressed_iOS
+{
+    background-position: -21px -870px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rGlrDown_iOS
+{
+    background-position: -236px -420px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrDownDisabled_iOS
+{
+    background-position: -216px -420px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOut_iOS
+{
+    background-position: -246px -418px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_rGlrPopOutDisabled_iOS
+{
+    background-position: -256px -418px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_rGlrUp_iOS
+{
+    background-position: -239px -105px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrUpDisabled_iOS
+{
+    background-position: -226px -420px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rMinBtn_iOS
+{
+    background-position: -78px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtn_iOS.dxWeb_rMinBtnHover_iOS
+{
+    background-position: -156px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtn_iOS.dxWeb_rMinBtnPressed_iOS
+{
+    background-position: -39px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtn_iOS
+{
+    background-position: -224px -377px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnDisabled_iOS
+{
+    background-position: -195px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnHover_iOS
+{
+    background-position: 0px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtnChecked_iOS.dxWeb_rMinBtnPressed_iOS
+{
+    background-position: -239px -66px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rMinBtnDisabled_iOS
+{
+    background-position: -117px -426px;
+    width: 38px;
+    height: 38px;
+}
+.dxWeb_rpCollapseButton_iOS
+{
+    background-position: -260px -870px;
+    width: 15px;
+    height: 12px;
+}
+.dxWeb_rPopOut_iOS
+{
+    background-position: -132px -597px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_splHCollapseBackwardButton_iOS
+{
+    background-position: -244px -870px;
+    width: 15px;
+    height: 12px;
+}
+.dxWeb_splHCollapseForwardButton_iOS
+{
+    background-position: -117px -115px;
+    width: 15px;
+    height: 16px;
+}
+.dxWeb_splHSeparator_iOS
+{
+    background-position: -201px -115px;
+    width: 19px;
+    height: 16px;
+}
+.dxWeb_splVCollapseBackwardButton_iOS
+{
+    background-position: -97px -115px;
+    width: 8px;
+    height: 16px;
+}
+.dxWeb_splVCollapseForwardButton_iOS
+{
+    background-position: -106px -115px;
+    width: 10px;
+    height: 16px;
+}
+.dxWeb_splVSeparator_iOS
+{
+    background-position: -242px -111px;
+    width: 10px;
+    height: 20px;
+}
+.dxWeb_tcScrollLeft_iOS
+{
+    background-position: -184px -597px;
+    width: 45px;
+    height: 29px;
+}
+.dxWeb_tcScrollRight_iOS
+{
+    background-position: -230px -597px;
+    width: 44px;
+    height: 29px;
+}
+.dxWeb_tvColBtn_iOS
+{
+    background-position: -245px -169px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_tvColBtnRtl_iOS
+{
+    background-position: -245px -267px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_tvExpBtn_iOS
+{
+    background-position: -245px -218px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_tvExpBtnRtl_iOS
+{
+    background-position: -267px -426px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_pPopOut_iOS,
+.dxWeb_pPopOutDisabled_iOS,
+.dxWeb_pPopOutPressed_iOS,
+.dxWeb_pPrev_iOS,
+.dxWeb_pPrevDisabled_iOS,
+.dxWeb_pNext_iOS,
+.dxWeb_pNextDisabled_iOS,
+.dxWeb_tcScrollLeft_iOS,
+.dxWeb_tcScrollRight_iOS,
+.dxWeb_pcCloseButton_iOS,
+.dxWeb_pcPinButton_iOS,
+.dxWeb_pcRefreshButton_iOS,
+.dxWeb_pcCollapseButton_iOS,
+.dxWeb_pcMaximizeButton_iOS,
+.dxWeb_pcSizeGrip_iOS,
+.dxWeb_pcSizeGripRtl_iOS,
+.dxWeb_nbExpand_iOS,
+.dxWeb_nbCollapse_iOS,
+.dxWeb_tvColBtn_iOS,
+.dxWeb_tvColBtnRtl_iOS,
+.dxWeb_tvExpBtn_iOS,
+.dxWeb_tvExpBtnRtl_iOS,
+.dxWeb_mHorizontalPopOut_iOS,
+.dxWeb_mVerticalPopOut_iOS,
+.dxWeb_mVerticalPopOutRtl_iOS,
+.dxWeb_mSubMenuItem_iOS,
+.dxWeb_mSubMenuItemChecked_iOS,
+.dxsmLevel0_iOS .dxWeb_smBullet_iOS,
+.dxsmLevel0Categorized_iOS .dxWeb_smBullet_iOS,
+.dxWeb_splVSeparator_iOS,
+.dxWeb_splHSeparator_iOS,
+.dxWeb_splVCollapseBackwardButton_iOS,
+.dxWeb_splHCollapseBackwardButton_iOS,
+.dxWeb_splVCollapseForwardButton_iOS,
+.dxWeb_splHCollapseForwardButton_iOS,
+.dxWeb_fmFolder_iOS,
+.dxWeb_fmFolderLocked_iOS,
+.dxWeb_fmCreateButton_iOS,
+.dxWeb_fmMoveButton_iOS,
+.dxWeb_fmRenameButton_iOS,
+.dxWeb_fmDeleteButton_iOS,
+.dxWeb_fmRefreshButton_iOS,
+.dxWeb_fmDwnlButton_iOS,
+.dxWeb_fmCreateButtonDisabled_iOS,
+.dxWeb_fmMoveButtonDisabled_iOS,
+.dxWeb_fmRenameButtonDisabled_iOS,
+.dxWeb_fmDeleteButtonDisabled_iOS,
+.dxWeb_fmRefreshButtonDisabled_iOS,
+.dxWeb_fmDwnlButtonDisabled_iOS,
+.dxWeb_fmThumbnailCheck_iOS,
+.dxfmControl_iOS .dxsplVSeparator_iOS .dxsplS,
+.dxWeb_isPrevBtnHor_iOS,
+.dxWeb_isNextBtnHor_iOS,
+.dxWeb_isPrevBtnVert_iOS,
+.dxWeb_isNextBtnVert_iOS,
+.dxWeb_isPrevPageBtnHor_iOS,
+.dxWeb_isPrevPageBtnHorOutside_iOS,
+.dxWeb_isNextPageBtnHor_iOS,
+.dxWeb_isNextPageBtnHorOutside_iOS,
+.dxWeb_isPrevPageBtnVert_iOS,
+.dxWeb_isPrevPageBtnVertOutside_iOS,
+.dxWeb_isNextPageBtnVert_iOS,
+.dxWeb_isNextPageBtnVertOutside_iOS,
+.dxWeb_isPrevBtnHorDisabled_iOS,
+.dxWeb_isNextBtnHorDisabled_iOS,
+.dxWeb_isPrevBtnVertDisabled_iOS,
+.dxWeb_isNextBtnVertDisabled_iOS,
+.dxWeb_isPrevPageBtnHorDisabled_iOS,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_iOS,
+.dxWeb_isNextPageBtnHorDisabled_iOS,
+.dxWeb_isNextPageBtnHorOutsideDisabled_iOS,
+.dxWeb_isPrevPageBtnVertDisabled_iOS,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_iOS,
+.dxWeb_isNextPageBtnVertDisabled_iOS,
+.dxWeb_isNextPageBtnVertOutsideDisabled_iOS,
+.dxWeb_isDot_iOS,
+.dxWeb_isDotDisabled_iOS,
+.dxWeb_isDotSelected_iOS,
+.dxWeb_isPlayBtn_iOS,
+.dxWeb_isPauseBtn_iOS,
+.dxWeb_igCloseButton_iOS,
+.dxWeb_igNextButton_iOS,
+.dxWeb_igPrevButton_iOS,
+.dxWeb_igPlayButton_iOS,
+.dxWeb_igPauseButton_iOS,
+.dxWeb_igNavigationBarMarker_iOS
+{
+    display: block;
+}
+.dxWeb_pcSizeGrip_iOS,
+.dxWeb_pcSizeGripRtl_iOS 
+{
+   margin: 1px;
+}
+

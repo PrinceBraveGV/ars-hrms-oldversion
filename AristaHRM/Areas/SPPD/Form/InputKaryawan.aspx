@@ -1,0 +1,224 @@
+﻿<%@ Page Title="Entry Data" Language="C#" MasterPageFile="~/Areas/SPPD/Master/Left_Site.Master" AutoEventWireup="true" CodeBehind="InputKaryawan.aspx.cs" Inherits="SPD.Form.InputKaryawan" %>
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxRoundPanel" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dx" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <dx:ASPxRoundPanel ID="ClientSideGroupBox" runat="server" Width="100%" HeaderText="Tambah Data Login" HorizontalAlign="Left" Theme="SoftOrange" ShowCollapseButton="True" Font-Bold="True" View="GroupBox">
+        <PanelCollection>
+            <dx:PanelContent>
+                 
+                <div>
+                   
+                    <table>
+
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="NIK" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtnik" runat="server" Width="170px" Visible="true"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Nama Karyawan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel4" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtnama" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel5" runat="server" Text="Divisi"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel6" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtdivisi" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel7" runat="server" Text="Jabatan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel8" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtjabatan" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel13" runat="server" Text="PT"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel16" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtPT" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel9" runat="server" Text="Cabang"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel10" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtcabang" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel11" runat="server" Text="Alamat"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel12" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtalamat" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                                <tr>
+
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel23" runat="server" ForeColor="Black" Text="Agama"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel24" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <asp:DropDownList ID="txtagama" runat="server">
+                                    <asp:ListItem Value="Islam"> Islam </asp:ListItem>
+                                    <asp:ListItem Value="Kristen"> Kristen </asp:ListItem>
+                                    <asp:ListItem Value="Hindu"> Hindu </asp:ListItem>
+                                    <asp:ListItem Value="Budha"> Budha </asp:ListItem>
+                                    <asp:ListItem Value="Katolik"> Katolik </asp:ListItem>
+                                </asp:DropDownList>
+                                
+                            </td>
+                        </tr>
+                         <tr>
+
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel14" runat="server" ForeColor="Black" Text="Jenis Kelamin"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel15" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <asp:DropDownList ID="txtjk" runat="server">
+                                    <asp:ListItem Value="Pria"> Pria </asp:ListItem>
+                                    <asp:ListItem Value="Wanita"> Wanita </asp:ListItem>
+                                </asp:DropDownList>
+                                
+                            </td>
+                        </tr>
+                       <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel17" runat="server" ForeColor="Black" Text="Status"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel18" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <asp:DropDownList ID="txtstatus" runat="server">
+                                    <asp:ListItem Value="Menikah"> Menikah </asp:ListItem>
+                                    <asp:ListItem Value="Belum Menikah"> Belum Menikah </asp:ListItem>
+                                </asp:DropDownList>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel19" runat="server" Text="Tgl Lahir" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel20" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtgllahir" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel21" runat="server" Text="Tgl Masuk" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel22" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtglmasuk" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel25" runat="server" Text="Atasan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel26" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtatasan" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxButton ID="btnsimpan" runat="server" Text="Simpan" Theme="Office2010Silver" AutoPostBack="false" CausesValidation="true" Font-Size="X-Small" OnClick="btnsimpan_Click" Style="height: 20px"></dx:ASPxButton>
+                                &nbsp;
+                                <a href="MasterKaryawan.aspx" onclick=="window.history.go(-2); return false;"> CANCEL</a>
+                             
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="lblMode" runat="server" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxLabel ID="lblError" runat="server" ForeColor="Red" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                        </table>
+                    </div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxRoundPanel>
+    </asp:Content>
+

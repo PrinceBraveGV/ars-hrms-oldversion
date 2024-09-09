@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = " - Input Data -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminMenu", "Admin", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > Input Data</li>
+        <li data-role="list-divider">Menu Input</li>
+        <li>@Html.ActionLink("Input Karyawan", "InputKaryawan", "Input", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Input Perusahaan", "InputPerusahaan", "Input", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Input Cabang", "InputCabang", "Input", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Bantuan", "MobileGuide", "Help", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+}
+
+

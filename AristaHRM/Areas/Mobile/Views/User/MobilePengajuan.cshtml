@@ -1,0 +1,189 @@
+﻿@{
+    ViewBag.Title = " - Pengajuan Cuti -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model CutiModel
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "UserHome", "User", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#NIK").change(function () {
+            document.forms[0].submit();
+        });
+    });
+</script>
+
+<p>
+    Anda dapat memilih NIK dan memasukkan rincian pengajuan cuti pada isian yang tersedia.
+</p>
+
+@using (Html.BeginForm("Pengajuan", "User", mobilearea, FormMethod.Post, null))
+{
+    @Html.AntiForgeryToken()
+    <p style="color:red">
+        @Html.ValidationSummary()<br /><br />
+        @ViewBag.ErrorMsg
+    </p>
+
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">
+            <a href="@Url.Action("UserMenu", "User", mobilearea)">User Home</a> > Pengajuan Cuti
+        </li>
+        <li data-role="list-divider">Identitas Karyawan</li>
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.NIK)
+            @Html.TextBoxFor(m => m.Nama_Karyawan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Karyawan)
+            @Html.TextBoxFor(m => m.Nama_Karyawan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jenis_Kelamin)
+            @Html.TextBoxFor(m => m.Jenis_Kelamin, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Agama)
+            @Html.TextBoxFor(m => m.Agama, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Status_Nikah)
+            @Html.TextBoxFor(m => m.Status_Nikah, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="list-divider">Identitas Perusahaan</li>
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Perusahaan)
+            @Html.TextBoxFor(m => m.Perusahaan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Cabang)
+            @Html.TextBoxFor(m => m.Cabang, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jabatan)
+            @Html.TextBoxFor(m => m.Jabatan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Departemen)
+            @Html.TextBoxFor(m => m.Departemen, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Atasan)
+            @Html.TextBoxFor(m => m.Nama_Atasan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Supervisor)
+            @Html.TextBoxFor(m => m.Nama_Supervisor, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Masuk)
+            @Html.TextBoxFor(m => m.Tgl_Masuk, "{0:dd MMMM yyyy}", new { @readonly = "readonly", type = "date" })
+        </li>
+
+        <li data-role="list-divider">Identitas Cuti</li>
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jenis_Cuti)
+            @Html.DropDownListFor(m => m.Jenis_Cuti, Providers.GetJenisCuti(Model.NIK))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Keperluan)
+            @Html.TextBoxFor(m => m.Keperluan)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Pengajuan)
+            @Html.TextBoxFor(m => m.Tgl_Pengajuan, "{0:dd MMMM yyyy}", new { @readonly = "readonly", type = "date" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Mulai)
+            @Html.TextBoxFor(m => m.Tgl_Mulai, "{0:dd MMMM yyyy}", new { @class = "datefield" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Selesai)
+            @Html.TextBoxFor(m => m.Tgl_Selesai, "{0:dd MMMM yyyy}", new { @class = "datefield" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Pemberi)
+            @Html.TextBoxFor(m => m.Pemberi, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Keterangan)
+            @Html.TextAreaFor(m => m.Keterangan)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Lokasi)
+            @Html.TextBoxFor(m => m.Lokasi)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nomor_Kontak)
+            @Html.TextBoxFor(m => m.Nomor_Kontak)
+        </li>
+
+        <li data-role="fieldcontain">
+            <input id="proses" name="proses" type="submit" value="Proses Pengajuan Cuti" />
+            <input id="reset" name="reset" type="reset" value="Reset Formulir" onclick="window.location.reload(true);" />
+        </li>
+    </ul>
+}
+
+@section Scripts {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.12.1.js")"></script>
+    @Scripts.Render("~/scripts/jquery.ui.datepicker-id.js")
+    <script type="text/javascript">
+        var date = new Date();
+
+        var tgl = date.getDate();
+        var bln = date.getMonth() + 1;
+        var thn = date.getFullYear();
+        console.log(tgl + "/" + bln + "/" + thn);
+
+        // <![CDATA[
+        $(document).ready(function () {
+            if (typeof $.datepicker !== 'undefined') {
+                $(".datefield").datepicker({
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: true,
+                    showOtherMonths: true,
+                    selectOtherMonths: true,
+                    showAnim: "slide",
+                    minDate: new Date(thn, bln, tgl),
+                });
+                $(".datefield").datepicker("option", $.datepicker.regional["id"]);
+            }
+        })
+        // ]]>
+    </script>
+}

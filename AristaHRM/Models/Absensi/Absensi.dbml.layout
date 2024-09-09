@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17, 104.375" name="Absensi">
+  <DataContextMoniker Name="/AbsensiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4f020fd0-9497-4c33-a418-08f1c3967440" absoluteBounds="9, 63.25, 2, 12.347475585937502">
+      <DataClassMoniker Name="/AbsensiDataContext/ABSENSI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d201674b-148a-4abf-8d12-f460113b7c4f" absoluteBounds="9.015, 63.71, 1.9700000000000002, 11.7874755859375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="047c68f5-120f-4548-b40e-4dcf68ba80ec" absoluteBounds="3.75, 4.75, 2, 8.3091455078125023">
+      <DataClassMoniker Name="/AbsensiDataContext/VALIDASI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cce0d7b2-b279-477f-98fe-99a67e020a20" absoluteBounds="3.765, 5.21, 1.9700000000000002, 7.7491455078125009" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8b6793c-b12b-41c8-abe4-a88459f972f2" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AbsensiDataContext/Alasan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f1058db-0ca3-406d-88b4-57e89743c570" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="24a018fd-75ca-46f1-be99-304b7831860f" absoluteBounds="9, 30.875, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/AbsensiDataContext/AUTOLEMBUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b305034b-6c9b-4743-8d07-d302fe6a2ee3" absoluteBounds="9.015, 31.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b6e08d0d-04f2-4c52-8712-2d91bf323d8b" absoluteBounds="0.75, 51.875, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/AbsensiDataContext/CABANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20919ec2-9d22-457b-81ea-8044b4a0cf6d" absoluteBounds="0.765, 52.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9b9bdad-663f-4cae-a4d1-90b2cc0e3544" absoluteBounds="9.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/AbsensiDataContext/Company" />
+      <nestedChildShapes>
+        <elementListCompartment Id="01c6c2e3-ab0e-4818-92b7-32e390e70f3b" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="41f92399-6f9e-4b73-b311-7627d3b2ac3c" absoluteBounds="6.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/AbsensiDataContext/CUTI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb8f0af8-0885-4615-ac8b-0589daa935f6" absoluteBounds="6.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c4ba6be-8157-43bc-9f0a-608963f7a070" absoluteBounds="9, 89.5, 2, 14.655092773437502">
+      <DataClassMoniker Name="/AbsensiDataContext/DAFTARHADIR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="915a6740-4753-4c2b-bb90-5c526a47120b" absoluteBounds="9.015, 89.96, 1.9700000000000002, 14.0950927734375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56432d0f-c72e-4fac-b830-e8669dd0c1a3" absoluteBounds="0.75, 54.875, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/AbsensiDataContext/DEPARTEMEN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cba45062-c1ba-45c1-b0c2-567d474f9ce1" absoluteBounds="0.765, 55.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f96f32fb-3ba9-4ae0-9c16-c777a6bfa771" absoluteBounds="12, 54.375, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/AbsensiDataContext/DETAILJOB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48e89c11-a2ee-43eb-a23b-8838a5e356e2" absoluteBounds="12.015, 54.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="396412ac-f218-4679-8299-a0ff40e18cc7" absoluteBounds="9, 9.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AbsensiDataContext/ENROLLMENT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e047e712-d824-49ab-a638-358d9f35040f" absoluteBounds="9.015, 10.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f5470ff-4bea-497d-9403-395e5eae1341" absoluteBounds="9, 28, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/AbsensiDataContext/FTDATA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="142af416-a7f9-4240-859f-371f1148c15e" absoluteBounds="9.015, 28.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61cc8b3a-fb8d-479f-97bf-6156aa862d77" absoluteBounds="3.5, 57, 2, 4.6554182942708309">
+      <DataClassMoniker Name="/AbsensiDataContext/GRUPSHIFT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62c69610-14b0-4468-8e35-bff24dc003e3" absoluteBounds="3.515, 57.46, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fcc7c0e3-8efe-4703-bcf0-b6d2d140c494" absoluteBounds="9, 76.375, 2, 12.347475585937502">
+      <DataClassMoniker Name="/AbsensiDataContext/HABSENSI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f4c1128-c161-4296-9248-0c2d5412b4d0" absoluteBounds="9.015, 76.835, 1.9700000000000002, 11.7874755859375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a527648d-bf05-4e20-8f99-fcad823693e1" absoluteBounds="9, 14.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/AbsensiDataContext/HAlokasi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a0437f0a-f50d-4f49-b8bd-fe7e06c875ef" absoluteBounds="9.015, 14.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5db8bb77-390c-4713-ac5d-3668b00c5d15" absoluteBounds="11.75, 3.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/AbsensiDataContext/Hardware" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff17ea79-847e-45c0-a877-13905e81e1b1" absoluteBounds="11.765, 4.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73dcb3e1-aaeb-44b9-9801-90acb9a4268c" absoluteBounds="3.5, 2.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/AbsensiDataContext/HARILIBUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cd374d64-e4df-41d2-a996-1a21bad4906a" absoluteBounds="3.515, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6adbfaa-abb3-4ac9-a342-9a8c38303084" absoluteBounds="9, 17, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/AbsensiDataContext/Hlogdata" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec9229c5-21f1-4645-84a1-af1d1f689fe2" absoluteBounds="9.015, 17.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13a6d696-380f-4d50-b805-8aefd8251ee4" absoluteBounds="9, 54.625, 2, 7.9245426432291595">
+      <DataClassMoniker Name="/AbsensiDataContext/HRINGKA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="abad6312-faac-4e9c-89b1-ca8b95a94d30" absoluteBounds="9.015, 55.085, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e4974eff-4f5f-4b89-986b-a8ca73b5f664" absoluteBounds="11.75, 7.75, 2, 3.5016097005208318">
+      <DataClassMoniker Name="/AbsensiDataContext/Interface" />
+      <nestedChildShapes>
+        <elementListCompartment Id="550ee233-6fd8-47ee-b207-7a2f0b40511c" absoluteBounds="11.765, 8.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae4c69aa-a7de-4204-9ed2-c2513bb8abe0" absoluteBounds="3.5, 49.25, 2, 1.0016910807291595">
+      <DataClassMoniker Name="/AbsensiDataContext/JABATAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70c1305f-bc1b-4a5d-8111-35b1d036ba2a" absoluteBounds="3.515, 49.71, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" absoluteBounds="6.25, 52, 2, 6.9630354817708309">
+      <DataClassMoniker Name="/AbsensiDataContext/KARYAWAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfbcdf0e-9fd2-4b2e-acea-68a60f6bc9a0" absoluteBounds="6.265, 52.46, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f86b761-f3bc-4a6e-b0fd-7a9fbe2ad44e" absoluteBounds="12.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AbsensiDataContext/LEMBUR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3a4dca8-eda0-414c-8232-3c581a42e12b" absoluteBounds="12.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aec35cfc-a26a-4dda-a6ac-48d76afe6087" absoluteBounds="9, 19.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/AbsensiDataContext/logdata" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee301477-c1c1-4517-b370-4805cf56af2a" absoluteBounds="9.015, 20.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7055a0d-1f62-43dd-94f7-c3b621fd0ab9" absoluteBounds="9, 12.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AbsensiDataContext/LOGTRANSAKSI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4691c7f8-a4a7-47fe-a798-d92fab76d825" absoluteBounds="9.015, 12.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e393cbfb-0f06-48ed-8d3a-537b398fa29d" absoluteBounds="9.25, 6.375, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/AbsensiDataContext/MASTERJOB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47dba4bf-45fc-4e84-825b-aa708afb3a3f" absoluteBounds="9.265, 6.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6216663-b702-4391-93a8-bbb98001ed53" absoluteBounds="11.75, 12.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/AbsensiDataContext/Monitor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="651b3f54-1216-4d35-81a0-e8de0e632bbc" absoluteBounds="11.765, 13.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5bef7ebf-e363-47f2-89b5-6bf86fe32984" absoluteBounds="0.75, 1, 2, 4.2708154296875">
+      <DataClassMoniker Name="/AbsensiDataContext/MULTIPLIKASI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66434f05-c981-4d61-b3df-be6d7b5fdf28" absoluteBounds="0.765, 1.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9d5834f-9ba7-4df7-99f8-c6161e0f6bf4" absoluteBounds="9, 34, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/AbsensiDataContext/PAYSLIP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d84ab7c2-1e71-4ddd-b2b0-beb88735338b" absoluteBounds="9.015, 34.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77f843de-5bdf-43c8-b0eb-9d50bcf61826" absoluteBounds="9, 22.375, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/AbsensiDataContext/REQCUTI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="210e6617-0a44-485e-9a5d-81afce1e1a19" absoluteBounds="9.015, 22.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05f5d6fe-65ef-4366-bf1c-1b2dca552ad2" absoluteBounds="9, 46.125, 2, 7.7322412109375023">
+      <DataClassMoniker Name="/AbsensiDataContext/RINGKA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2b7a4e7-5c4e-4a19-a678-7d0ac50fd964" absoluteBounds="9.015, 46.585, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e7acb6d-4ddb-4d04-8954-5253bb9d9d3c" absoluteBounds="9, 38.25, 2, 7.1553369140625023">
+      <DataClassMoniker Name="/AbsensiDataContext/RPT_TIDAKHADIR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9c3ae40-4814-460c-9337-44aa013ce8de" absoluteBounds="9.015, 38.71, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3932c4fb-64d8-42fc-be3a-01bcb68b0b80" absoluteBounds="3.5, 62.625, 2, 3.501609700520838">
+      <DataClassMoniker Name="/AbsensiDataContext/SHIFT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cda8399c-f8be-48b8-bfad-868c2747e9b7" absoluteBounds="3.515, 63.085, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff2cd81e-eba8-4844-bc32-2a5f2b39c33c" absoluteBounds="0.75, 14.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AbsensiDataContext/ShiftKhusus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8222de78-9bbf-4893-887b-d53be4b0decc" absoluteBounds="0.765, 15.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26fc4ab1-4d1d-41ae-8ed8-9d39d5b3434f" absoluteBounds="6.25, 60.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/AbsensiDataContext/SHIFTTDKTETAP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e7f1dad-6586-4e29-a4bf-ec24f63ee7de" absoluteBounds="6.265, 61.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6db176d-5938-49fa-9435-950505e76553" absoluteBounds="6.25, 63.25, 2, 2.347801106770838">
+      <DataClassMoniker Name="/AbsensiDataContext/SHIFTTETAP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6cb6d8a-4658-4d89-b795-096b3ed1b805" absoluteBounds="6.265, 63.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d00d561-1852-44c6-a0fd-1805bda5340e" absoluteBounds="3.5, 54.875, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/AbsensiDataContext/SUB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd16c494-ba9d-4e3e-b4e8-294db175a3a5" absoluteBounds="3.515, 55.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8914afb7-3861-4a53-a29e-3f2b26995159" absoluteBounds="14.75, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/AbsensiDataContext/sysproduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c102605-c53d-4df3-ab84-cd194c3d0b90" absoluteBounds="14.765, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eea3728e-25e7-4bd7-a312-43484bf4a0b1" absoluteBounds="3.75, 14.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/AbsensiDataContext/TBLJADWAL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8092be86-b0c6-4e10-b836-06f099620638" absoluteBounds="3.765, 15.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="df525c22-f04f-4596-b27c-1ff224f541f2" absoluteBounds="3.5, 51.375, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/AbsensiDataContext/userlogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d73b2256-a5a9-4d0c-a3f6-c803cd1e5725" absoluteBounds="3.515, 51.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f37c095-5580-4fa0-b2ca-6503de8f52f8" absoluteBounds="14.75, 6.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/AbsensiDataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="73e36e17-0e13-4182-a932-22813d156d85" absoluteBounds="14.765, 7.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 58.9122652510016); (8.875 : 59.5372652510016); (8.875 : 69.4237377929688); (9 : 69.4237377929688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_ABSENSI" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="4f020fd0-9497-4c33-a418-08f1c3967440" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 52); (7.25 : 32.0489005533854); (7.43229291666667 : 32.0489005533854 : JumpStart); (7.59895958333333 : 32.0489005533854 : JumpEnd); (7.69791916666667 : 32.0489005533854 : JumpStart); (7.86458583333333 : 32.0489005533854 : JumpEnd); (9 : 32.0489005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_AUTOLEMBUR" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="24a018fd-75ca-46f1-be99-304b7831860f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.20076923076923 : 58.9630354817708); (8.625 : 59.3872662510016); (8.625 : 96.8275463867188); (9 : 96.8275463867188)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_DAFTARHADIR" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="2c4ba6be-8157-43bc-9f0a-608963f7a070" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 54.46875); (12 : 54.46875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_DETAILJOB" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="f96f32fb-3ba9-4ae0-9c16-c777a6bfa771" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.7812525 : 52); (7.7812525 : 10.5392976888021); (9 : 10.5392976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_ENROLLMENT" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="396412ac-f218-4679-8299-a0ff40e18cc7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.7187475 : 52); (6.7187475 : 29.0777498372396); (7.43229291666667 : 29.0777498372396 : JumpStart); (7.59895958333333 : 29.0777498372396 : JumpEnd); (7.69791916666667 : 29.0777498372396 : JumpStart); (7.86458583333333 : 29.0777498372396 : JumpEnd); (9 : 29.0777498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_FTDATA" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="7f5470ff-4bea-497d-9403-395e5eae1341" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 58.9307267894631); (8.78125 : 59.4619767894631); (8.78125 : 82.5487377929688); (9 : 82.5487377929688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_HABSENSI" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="fcc7c0e3-8efe-4703-bcf0-b6d2d140c494" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.04687875 : 52); (8.04687875 : 15.2604484049479); (9 : 15.2604484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_HAlokasi" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="a527648d-bf05-4e20-8f99-fcad823693e1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.51562625 : 52); (7.51562625 : 17.9815991210938); (9 : 17.9815991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_Hlogdata" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="e6adbfaa-abb3-4ac9-a342-9a8c38303084" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 56.7373801255008); (9 : 56.7373801255008)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_HRINGKA" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="13a6d696-380f-4d50-b805-8aefd8251ee4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 52.4719962565104); (3.25 : 52.4719962565104); (3.25 : 51.125); (6.36978791666667 : 51.125 : JumpStart); (6.53645458333333 : 51.125 : JumpEnd); (6.63541416666667 : 51.125 : JumpStart); (6.80208083333333 : 51.125 : JumpEnd); (6.98437375 : 51.125); (6.98437375 : 52)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/CABANG/CABANG_KARYAWAN" />
+      <nodes>
+        <classShapeMoniker Id="b6e08d0d-04f2-4c52-8712-2d91bf323d8b" />
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 56.0689925130208); (1.75 : 56.5032467565104); (6.25 : 56.5032467565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/DEPARTEMEN/DEPARTEMEN_KARYAWAN" />
+      <nodes>
+        <classShapeMoniker Id="56432d0f-c72e-4fac-b830-e8669dd0c1a3" />
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 57.9815177408854); (6.25 : 57.9815177408854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/GRUPSHIFT/GRUPSHIFT_KARYAWAN" />
+      <nodes>
+        <classShapeMoniker Id="61cc8b3a-fb8d-479f-97bf-6156aa862d77" />
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 49.7508455403646); (6.45312125 : 49.7508455403646); (6.45312125 : 52)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/JABATAN/JABATAN_KARYAWAN" />
+      <nodes>
+        <classShapeMoniker Id="ae4c69aa-a7de-4204-9ed2-c2513bb8abe0" />
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.179691875 : 52); (8.179691875 : 20.6065991210938); (9 : 20.6065991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_logdata" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="aec35cfc-a26a-4dda-a6ac-48d76afe6087" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.914065625 : 52); (7.914065625 : 12.9142976888021); (9 : 12.9142976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_LOGTRANSAKSI" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="f7055a0d-1f62-43dd-94f7-c3b621fd0ab9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.15625 : 8.72280110677083); (11.15625 : 54.4374975); (12 : 54.4374975)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/MASTERJOB/MASTERJOB_DETAILJOB" />
+      <nodes>
+        <classShapeMoniker Id="e393cbfb-0f06-48ed-8d3a-537b398fa29d" />
+        <classShapeMoniker Id="f96f32fb-3ba9-4ae0-9c16-c777a6bfa771" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.19314697265625); (3.5 : 3.19314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/MULTIPLIKASI/MULTIPLIKASI_HARILIBUR" />
+      <nodes>
+        <classShapeMoniker Id="5bef7ebf-e363-47f2-89b5-6bf86fe32984" />
+        <classShapeMoniker Id="73dcb3e1-aaeb-44b9-9801-90acb9a4268c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.648439375 : 52); (7.648439375 : 35.7508048502604); (7.69791916666667 : 35.7508048502604 : JumpStart); (7.86458583333333 : 35.7508048502604 : JumpEnd); (9 : 35.7508048502604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_PAYSLIP" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="c9d5834f-9ba7-4df7-99f8-c6161e0f6bf4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.382813125 : 52); (7.382813125 : 23.3565991210938); (7.43229291666667 : 23.3565991210938 : JumpStart); (7.59895958333333 : 23.3565991210938 : JumpEnd); (7.69791916666667 : 23.3565991210938 : JumpStart); (7.86458583333333 : 23.3565991210938 : JumpEnd); (9 : 23.3565991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_REQCUTI" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="77f843de-5bdf-43c8-b0eb-9d50bcf61826" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 52.9286206054688); (9 : 52.9286206054688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_RINGKA" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="05f5d6fe-65ef-4366-bf1c-1b2dca552ad2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.117186875 : 52); (7.117186875 : 41.8276684570313); (9 : 41.8276684570313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/KARYAWAN/KARYAWAN_RPT_TIDAKHADIR" />
+      <nodes>
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+        <classShapeMoniker Id="7e7acb6d-4ddb-4d04-8954-5253bb9d9d3c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 61.2027091471354); (6.25 : 61.2027091471354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/GRUPSHIFT/GRUPSHIFT_SHIFTTDKTETAP" />
+      <nodes>
+        <classShapeMoniker Id="61cc8b3a-fb8d-479f-97bf-6156aa862d77" />
+        <classShapeMoniker Id="26fc4ab1-4d1d-41ae-8ed8-9d39d5b3434f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 62.625); (5.875 : 62.25); (5.875 : 62.5112939453125); (6.25 : 62.1362939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/SHIFT/SHIFT_SHIFTTDKTETAP" />
+      <nodes>
+        <classShapeMoniker Id="3932c4fb-64d8-42fc-be3a-01bcb68b0b80" />
+        <classShapeMoniker Id="26fc4ab1-4d1d-41ae-8ed8-9d39d5b3434f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 61.5923403711939); (6.0625 : 62.1548403711939); (6.0625 : 64.4239005533854); (6.25 : 64.4239005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/GRUPSHIFT/GRUPSHIFT_SHIFTTETAP" />
+      <nodes>
+        <classShapeMoniker Id="61cc8b3a-fb8d-479f-97bf-6156aa862d77" />
+        <classShapeMoniker Id="f6db176d-5938-49fa-9435-950505e76553" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 63.7744502766927); (5.97916666666667 : 63.7744502766927 : JumpStart); (6.14583333333333 : 63.7744502766927 : JumpEnd); (6.25 : 63.7744502766927)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/SHIFT/SHIFT_SHIFTTETAP" />
+      <nodes>
+        <classShapeMoniker Id="3932c4fb-64d8-42fc-be3a-01bcb68b0b80" />
+        <classShapeMoniker Id="f6db176d-5938-49fa-9435-950505e76553" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 55.4719962565104); (6.25 : 55.4719962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/SUB/SUB_KARYAWAN" />
+      <nodes>
+        <classShapeMoniker Id="4d00d561-1852-44c6-a0fd-1805bda5340e" />
+        <classShapeMoniker Id="0b2b9e23-d7cb-4b87-bd9a-a982d613ca32" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.4719962565104); (3.5 : 55.4719962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/DEPARTEMEN/DEPARTEMEN_SUB" />
+      <nodes>
+        <classShapeMoniker Id="56432d0f-c72e-4fac-b830-e8669dd0c1a3" />
+        <classShapeMoniker Id="4d00d561-1852-44c6-a0fd-1805bda5340e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 52.1109981282552); (3.5 : 52.1109981282552)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/CABANG/CABANG_userlogin" />
+      <nodes>
+        <classShapeMoniker Id="b6e08d0d-04f2-4c52-8712-2d91bf323d8b" />
+        <classShapeMoniker Id="df525c22-f04f-4596-b27c-1ff224f541f2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.875); (3.125 : 54.5); (3.125 : 53.0973981816406); (3.5 : 53.0973981816406)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AbsensiDataContext/DEPARTEMEN/DEPARTEMEN_userlogin" />
+      <nodes>
+        <classShapeMoniker Id="56432d0f-c72e-4fac-b830-e8669dd0c1a3" />
+        <classShapeMoniker Id="df525c22-f04f-4596-b27c-1ff224f541f2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

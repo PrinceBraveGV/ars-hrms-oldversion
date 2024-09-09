@@ -1,0 +1,187 @@
+.dxssControl_PlasticBlue 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #002D96;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_PlasticBlue .dxrControl_PlasticBlue .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_PlasticBlue .dxss-gl .dxss-v,
+.dxssControl_PlasticBlue .dxss-gl .dxss-h 
+{
+	border-color: #d9d9d9;
+}
+.dxssControl_PlasticBlue .dxss-rowHeader 
+{	
+	border-right: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+}
+.dxssControl_PlasticBlue .dxss-colHeader 
+{
+	border-bottom: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+}
+.dxssControl_PlasticBlue .dxss-crse 
+{
+	background-color: #8F9CC4; 
+}
+ .dxssControl_PlasticBlue .dxss-trbe 
+ {
+	border-top-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxss-rrbe 
+{
+	border-right-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxss-brbe 
+{
+	border-bottom-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxss-lrbe 
+{
+	border-left-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxss-smbe
+{
+    border-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-bottom
+{
+	padding-bottom: 6px;
+}
+.dxssControl_PlasticBlue .dxtcLite_PlasticBlue,
+.dxssControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue
+{
+	background-color: #E5E7F0;
+}
+.dxssControl_PlasticBlue .dxss-hrg,
+.dxssControl_PlasticBlue .dxss-vrg 
+{
+	background-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-bottom .dxtc-strip .dxtc-tab
+{
+	border-top: 1px solid #CCCCCC
+}
+.dxssControl_PlasticBlue .dxrControl_PlasticBlue .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_PlasticBlue .dxss-tse
+{
+	border-color: #6d82c5;
+}
+.dxssControl_PlasticBlue .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_PlasticBlue .dxss-ddp,
+.dxssControl_PlasticBlue .dxss-ddb
+{
+    border: 1px solid #B8B8B8;
+}
+.dxssControl_PlasticBlue .dxss-ddp tr:hover
+{
+    background-color: #dedede;
+}
+/* Loading panel */
+.dxssLoadingDiv_PlasticBlue
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxssLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxssLoadingPanel_PlasticBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+/* --------------Dialogs----------------- */
+
+.dxpcLite_PlasticBlue .dxssDlgFooter
+{
+	background-color: #E9E9E9;
+
+	background-image: url('DlgFooterBack.gif');
+    background-repeat:no-repeat;
+
+	border-top: 1px #E0E0E0 solid;
+}
+.dxpcLite_PlasticBlue .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_PlasticBlue .dxrpControl_PlasticBlue .dxrpcontent
+{
+	padding: 10px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_PlasticBlue
+{
+	color: #000000;
+	background: #F2F2F2 url('../Editors/edtButtonBackHover.gif') left top;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_PlasticBlue
+{
+	color: #000000;
+	background: #DEDEDE none;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_PlasticBlue
+{
+	color: #000000;
+	background: #cbcbcb none;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_PlasticBlue .dxss-ctve {
+	border: 2px solid #6d82c5; /*the same -dxss-cfe */
+}
+.dxssControl_PlasticBlue .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.dxssControl_PlasticBlue .dxmLite_PlasticBlue .dxss-fbMenu {
+    height: 23px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_PlasticBlue .dxss-fbMenu .dxm-content {
+    padding-top: 2px!important;
+}
+.dxssControl_PlasticBlue .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border: 1px Solid #2C4182;
+    color: White;
+    background-color: #495D9F;
+}
+.dxssControl_PlasticBlue .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,75 @@
+@if(!Request.IsAuthenticated) {
+    @Html.DevExpress().Button(settings =>
+    {
+        settings.Name = "Register";
+        settings.Text = "Register";
+        settings.Images.Image.Url = "~/Images/Register.png";
+        settings.ToolTip = "Registrasi";
+        settings.RouteValues = new { Controller = "Home", Action = "Register" };
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+    }).GetHtml()
+    @: | 
+    @Html.DevExpress().Button(settings =>
+    {
+        settings.Name = "Login";
+        settings.Text = "Login";
+        settings.Images.Image.Url = "~/Images/Login.png";
+        settings.UseSubmitBehavior = false;
+        settings.ToolTip = "Login Sistem";
+        settings.ClientSideEvents.Click = "function (s, e) { PopupLoginForm.Show(); }";
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+    }).GetHtml()
+}
+else {
+    @: Selamat Datang, 
+     if (ViewBag.Privilege == "Admin")
+     {
+        <b><a href="@Url.Action("Profil", "Admin")" style="color:black; text-decoration:underline solid">@User.Identity.Name</a></b>
+     }
+     else if (ViewBag.Privilege == "Manager")
+     {
+        <b><a href="@Url.Action("Profil", "Manager")" style="color:black; text-decoration:underline solid">@User.Identity.Name</a></b>
+     }
+     else if (ViewBag.Privilege == "Supervisor")
+     {
+        <b>
+    <a href="@Url.Action("Profil", "Supervisor")" style="color:black; text-decoration:underline solid">@User.Identity.Name</a></b>
+    }
+    else
+    {
+        <b><a href="@Url.Action("Profil", "User")" style="color:black; text-decoration:underline solid">@User.Identity.Name</a></b>
+    }
+    @: |
+    @Html.DevExpress().Button(settings =>
+     {
+         settings.Name = "Logout";
+         settings.Text = "Keluar";
+         settings.Images.Image.Url = "~/Images/UserLogout.png";
+         settings.Images.Image.Width = Unit.Pixel(15);
+         settings.Images.Image.Height = Unit.Pixel(15);
+         settings.ImagePosition = ImagePosition.Left;
+         settings.ToolTip = "Keluar Sistem";
+         settings.RouteValues = new { Controller = "Home", Action = "Logout" };
+         settings.Theme = AristaHRM.Theme.SelectTheme;
+     }).GetHtml()
+    }
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupLoginForm";
+    settings.CloseAction = CloseAction.OuterMouseClick;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.ScrollBars = ScrollBars.Vertical;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(420);
+    settings.Width = Unit.Pixel(660);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.HeaderText = "Login";
+    settings.ShowHeader = false;
+    settings.Style.Add("text-align", "center");
+    settings.ContentUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Login" });
+}).GetHtml()

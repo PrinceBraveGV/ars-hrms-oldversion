@@ -1,0 +1,22 @@
+﻿@using AristaHRM.Models
+
+@model MutasiModel
+
+@{ 
+    Html.DevExpress().ComboBoxFor(m => m.Atasan_Baru, combo =>
+    {
+        combo.Name = "Atasan_Baru";
+        combo.CallbackRouteValues = new { Controller = "Admin", Action = "GetAtasanBaru" };
+        combo.Properties.NullText = "-- Pilih --";
+        combo.Properties.TextField = "Nama_Karyawan";
+        combo.Properties.ValueField = "NIK";
+        combo.Properties.TextFormatString = "{0} - {1}";
+        combo.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(70));
+        combo.Properties.Columns.Add("Nama_Karyawan", "Nama Karyawan", Unit.Pixel(300));
+        combo.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+        combo.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+        combo.Width = Unit.Pixel(300);
+        combo.Theme = AristaHRM.Theme.SelectTheme;
+        combo.Properties.ClientSideEvents.BeginCallback = "getAtasanPengganti";
+    }).BindList(Providers.GetAtasan(Model.NIK, true)).GetHtml();
+}

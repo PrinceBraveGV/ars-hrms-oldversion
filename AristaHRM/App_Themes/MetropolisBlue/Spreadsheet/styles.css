@@ -1,0 +1,172 @@
+.dxssControl_MetropolisBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_MetropolisBlue .dxss-gl .dxss-v,
+.dxssControl_MetropolisBlue .dxss-gl .dxss-h 
+{
+	border-color: #c0c0c0;
+}
+.dxssControl_MetropolisBlue .dxss-rowHeader 
+{	
+	border-right: 1px solid #c0c0c0;
+	border-top: 1px solid #c0c0c0;
+}
+.dxssControl_MetropolisBlue .dxss-colHeader 
+{
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+}
+.dxssControl_MetropolisBlue .dxss-trbe 
+{
+	border-top-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-rrbe 
+{
+	border-right-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-brbe 
+{
+	border-bottom-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-lrbe 
+{
+	border-left-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-smbe
+{
+    border-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxrControl_MetropolisBlue .dxtcLite_MetropolisBlue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_MetropolisBlue .dxtcLite_MetropolisBlue.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_MetropolisBlue .dxrControl_MetropolisBlue .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_MetropolisBlue .dxss-hrg,
+.dxssControl_MetropolisBlue .dxss-vrg
+{
+	background-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-md 
+{
+	border-left: 1px solid #c0c0c0 !important;
+	border-right: 1px solid #c0c0c0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dxssControl_MetropolisBlue .dxss-tse 
+{
+	border-color: #0072C6;
+}
+.dxssControl_MetropolisBlue .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_MetropolisBlue .dxss-ddp,
+.dxssControl_MetropolisBlue .dxss-ddb
+{
+    border: 1px solid #c0c0c0;
+}
+.dxssControl_MetropolisBlue .dxss-ddp tr:hover
+{
+    background-color: #e0e0e0;
+}
+/* Loading panel */
+.dxssLoadingDiv_MetropolisBlue
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_MetropolisBlue
+{
+	border: 1px solid #c0c0c0;
+	background-color: white;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #333333;
+}
+.dxssLoadingPanel_MetropolisBlue td.dx
+{
+    font-size: 1.17em;
+    white-space: nowrap;
+    text-align: center;
+	padding: 10px 14px;
+}
+.dxssLoadingPanel_MetropolisBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_MetropolisBlue .dxssDlgFooter
+{
+	border-top: 1px #c0c0c0 solid;
+}
+.dxpcLite_MetropolisBlue .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonHover_MetropolisBlue
+{
+	color: white;
+	background-color: #0072C6;
+	border: 1px solid #0072C6;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_MetropolisBlue
+{
+	color: #333333;
+	background-color: #C0C0C0;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_MetropolisBlue
+{
+	color: white;
+	background-color: #C0C0C0;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_MetropolisBlue .dxss-ctve {
+	border: 2px solid #0072C6; /*the same -dxss-cfe */
+}
+.dxssControl_MetropolisBlue .dxss-fb {
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-top-width: 0;
+}
+.dxssControl_MetropolisBlue .dxmLite_MetropolisBlue .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_MetropolisBlue .dxss-fbMenu .dxm-content {
+    padding-top: 3px!important;
+}
+.dxssControl_MetropolisBlue .dxss-Hint {
+    border: 1px solid #c0c0c0;
+    background-color: #FFFFFF;
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.dxssControl_MetropolisBlue .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dxssDlgPageSetupForm .dxtcLite_MetropolisBlue > .dxtc-stripContainer .dxtc-link {
+    padding: 4px 25px;
+}

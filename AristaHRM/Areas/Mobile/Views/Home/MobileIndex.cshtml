@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = " - Dashboard -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using System.Web.Optimization
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Login", "Login", "Home", mobilearea, new { data_icon = "gear" })
+    @Html.ActionLink("Register", "Register", "Home", mobilearea, new { data_icon = "plus" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<h2>@ViewBag.ErrorMsg</h2>
+<p>
+    Mobile HRIS ARISTA Group
+</p>
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">Menu Utama</li>
+        <li>@Html.ActionLink("Login Sistem", "Login", "Home", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Registrasi", "Register", "Home", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Reset Password", "ResetPassword", "Home", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Bantuan", "MobileGuide", "Help", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+}
+
+
+
+

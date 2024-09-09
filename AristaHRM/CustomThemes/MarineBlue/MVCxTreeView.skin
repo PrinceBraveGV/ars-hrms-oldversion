@@ -1,0 +1,14 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxTreeView runat="server">
+    <Styles CssPostfix="MarineBlue" CssFilePath="{0}/styles.css" >
+    </Styles>
+    <SettingsLoadingPanel ImagePosition="Top" />
+    <Images SpriteCssFilePath="{0}/sprite.css">
+        <NodeLoadingPanel Url="Web/tvNodeLoading.gif">
+        </NodeLoadingPanel>
+    </Images>
+</dxmvc:MVCxTreeView>
+

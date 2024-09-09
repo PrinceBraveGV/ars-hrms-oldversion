@@ -1,0 +1,261 @@
+﻿@{
+    ViewBag.Title = "HRIS - Daftar Karyawan Trainee/Percobaan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<style type="text/css">
+    .prevButton {
+        left: -3px;
+    }
+
+    .nextButton {
+        right: -3px;
+    }
+
+    .navButtons {
+        position: absolute;
+        top: 50%;
+    }
+
+        .navButtons .dxb {
+            width: 10px;
+            height: 30px;
+            padding-left: 3px !important;
+            padding-right: 3px !important;
+        }
+</style>
+
+<script type="text/javascript">
+    // <![CDATA[
+    $(document).ready(function () {
+        $("#ShowWindow").click(
+            function () {
+                FieldListWindow();
+            }
+        );
+    });
+    function grid_CustomizationWindowCloseUp(s, e) {
+        UpdateCaption();
+    }
+    function FieldListWindow() {
+        if (DataKaryawanGrid.IsCustomizationWindowVisible())
+            DataKaryawanGrid.HideCustomizationWindow();
+        else
+            DataKaryawanGrid.ShowCustomizationWindow();
+        UpdateCaption();
+    }
+
+    function UpdateCaption() {
+        var text = DataKaryawanGrid.IsCustomizationWindowVisible() ? "Sembunyikan" : "Tampilkan";
+        text += " Field Chooser";
+        $("#ShowWindow").val(text);
+    }
+    function DataKaryawanGrid_FocusedRowChanged(s, e) {
+        if (s.cpIsEditing) {
+            s.UpdateEdit();
+        }
+    }
+
+    function DataKaryawanGrid_RowDblClick(s, e) {
+        s.StartEditRow(e.visibleIndex);
+    }
+
+    function editor_KeyDown(s, e) {
+        switch (e.htmlEvent.keyCode) {
+            case 13:
+                DataKaryawanGrid.UpdateEdit();
+                break;
+            case 27:
+                DataKaryawanGrid.CancelEdit();
+                break;
+        }
+    }
+
+    function onInit(s, e) {
+        adjustSize();
+    }
+    function onEndCallback(s, e) {
+        if (s.cpMessage) {
+            alert(s.cpMessage);
+            delete s.cpMessage;
+        }
+
+        var edit = s.GetEditor(1);
+        if (edit) {
+            edit.SelectAll();
+            edit.SetFocus();
+        }
+        adjustSize();
+    }
+    function onControlsInitialized(s, e) {
+        ASPxClientUtils.AttachEventToElement(window, "resize", function (evt) {
+            adjustSize();
+        });
+    }
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        DataKaryawanGrid.SetHeight(height);
+    }
+
+    // fungsi ribbon control
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Karyawan" })"
+        var exportToPDF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanPDF" })";
+        var exportToXLS = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanXLS" })";
+        var exportToXLSX = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanXLSX" })";
+        var exportToRTF = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanRTF" })";
+        var exportToCSV = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporKaryawanCSV" })";
+        var inKar = "@DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputKaryawanTrainee" })";
+        var inComp = "@DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputPerusahaan" })";
+        var inBran = "@DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputCabang" })";
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "ExPDF") {
+            window.location.href = exportToPDF;
+        }
+        else if (button == "ExXLS") {
+            window.location.href = exportToXLS;
+        }
+        else if (button == "ExXLSX") {
+            window.location.href = exportToXLSX;
+        }
+        else if (button == "ExRTF") {
+            window.location.href = exportToRTF;
+        }
+        else if (button == "ExCSV") {
+            window.location.href = exportToCSV;
+        }
+        else if (button == "InKar") {
+            window.location.href = inKar;
+        }
+        else if (button == "InComp") {
+            window.location.href = inComp;
+        }
+        else if (button == "InBran") {
+            window.location.href = inBran;
+        }
+    }
+
+    // Menu khusus mutasi karyawan trainee ke KKWT
+    function contextMenu(s, e) {
+        switch (e.item.name) {
+            case "Mutasi":
+                var url = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "MutasiTrainee" })";
+                var key = s.GetRowKey(s.GetFocusedRowIndex());
+                var dest = url + "/" + key;
+                var marker = "T";
+
+                if (key.indexOf(marker) === -1) {
+                    alert("NIK yang akan dimutasi bukan NIK trainee/percobaan.");
+                }
+                else {
+                    var ans = confirm("Yakin akan melakukan mutasi status karyawan yang dipilih?");
+                    if (ans == true) {
+                        setTimeout(window.location.href = dest, 5000);
+                    }
+                }
+                break;
+        }
+    }
+
+    // Tombol khusus mutasi status karyawan trainee ke KKWT
+    function customButtonClick(s, e, url) {
+        var key = s.GetRowKey(e.visibleIndex);
+        if (e.buttonID == "Mutasi") {
+            var dest = url + "/" + key;
+            var marker = "T";
+
+            if (key.indexOf(marker) === -1) {
+                alert("NIK yang akan dimutasi bukan NIK trainee/percobaan.");
+            }
+            else {
+                var ans = confirm("Yakin akan melakukan mutasi status karyawan yang dipilih?");
+                if (ans == true) {
+                    setTimeout(window.location.href = dest, 5000);
+                }
+            }
+        }
+    }
+
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Data Karyawan Trainee</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:left">
+                            Berikut ini adalah daftar karyawan trainee/percobaan yang sudah terdaftar pada sistem. <br />Anda dapat mengubah atau menghapus karyawan pada daftar.<br />
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm("KaryawanTrainee", "Master", FormMethod.Post))
+                        {
+                            Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonKaryawan";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Karyawan");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = string.Empty;
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Export";
+                                    group.Text = "Ekspor Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExPDF", "Ekspor PDF", RibbonItemSize.Large, "~/Images/ExportPDF.png"));
+                                    //group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLS", "Ekspor XLS", RibbonItemSize.Large, "~/Images/ExportXLS.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLSX", "Ekspor XLSX", RibbonItemSize.Large, "~/Images/ExportXLSX.png"));
+                                    //group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExRTF", "Ekspor RTF", RibbonItemSize.Large, "~/Images/ExportRTF.png"));
+                                    //group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExCSV", "Ekspor CSV", RibbonItemSize.Large, "~/Images/ExportCSV.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Inputs";
+                                    group.Text = "Input Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("InKar", "Tambah Baru", RibbonItemSize.Large, "~/Images/Employee.png"));
+                                    //group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("InComp", "Data Perusahaan", RibbonItemSize.Large, "~/Images/Company.png"));
+                                    //group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("InBran", "Data Cabang", RibbonItemSize.Large, "~/Images/Branch.png"));
+                                });
+                            }).GetHtml();
+
+                            Html.RenderAction("KaryawanTraineePartial");
+                            <br />
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+

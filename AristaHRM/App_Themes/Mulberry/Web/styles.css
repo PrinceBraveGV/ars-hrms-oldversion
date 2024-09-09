@@ -1,0 +1,5218 @@
+/* -- CheckBox -- */
+.dxICBFocused_Mulberry 
+{
+	outline: 1px dotted #cbcbcb;
+}
+.dxICheckBox_Mulberry 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+.dxccControl_Mulberry a
+{
+	text-decoration: none;
+	color: #5e6d9d;
+}
+.dxccControl_Mulberry a:hover
+{
+    text-decoration: underline;
+}
+.dxccControl_Mulberry .dxccValue,
+.dxccControl_Mulberry .dxccBEText
+{
+	color: white;
+}
+.dxccControl_Mulberry .dxccRank1,
+.dxccControl_Mulberry .dxccRank2,
+.dxccControl_Mulberry .dxccRank3,
+.dxccControl_Mulberry .dxccRank4,
+.dxccControl_Mulberry .dxccRank5,
+.dxccControl_Mulberry .dxccRank6,
+.dxccControl_Mulberry .dxccRank7
+{
+    display: inline-block;
+    padding: 8px 7px;
+    margin: 1px -1px 1px 0;
+    border-radius: 3px;
+}
+.dxccControl_Mulberry .dxccRank1,
+.dxccControl_Mulberry .dxccRank1 *,
+.dxccControl_Mulberry .dxccRank2,
+.dxccControl_Mulberry .dxccRank2 *,
+.dxccControl_Mulberry .dxccRank3,
+.dxccControl_Mulberry .dxccRank3 *,
+.dxccControl_Mulberry .dxccRank4,
+.dxccControl_Mulberry .dxccRank4 *,
+.dxccControl_Mulberry .dxccRank5,
+.dxccControl_Mulberry .dxccRank5 *,
+.dxccControl_Mulberry .dxccRank6,
+.dxccControl_Mulberry .dxccRank6 *,
+.dxccControl_Mulberry .dxccRank7,
+.dxccControl_Mulberry .dxccRank7 *
+{
+    font-size: 14px!important;
+    line-height: 14px!important;
+    color: white!important;
+}
+.dxccControl_Mulberry .dxccRank7
+{
+    background-color: #5d7d9d;
+}
+.dxccControl_Mulberry .dxccRank6
+{
+    background-color: #6c89a6;
+}
+.dxccControl_Mulberry .dxccRank5
+{
+    background-color: #7c96b0;
+}
+.dxccControl_Mulberry .dxccRank4
+{
+    background-color: #8ca2b9;
+}
+.dxccControl_Mulberry .dxccRank3
+{
+    background-color: #9cafc2;
+}
+.dxccControl_Mulberry .dxccRank2
+{
+    background-color: #a4b5c7;
+}
+.dxccControl_Mulberry .dxccRank1
+{
+    background-color: #abbbcb;
+}
+/* Disabled */
+.dxccDisabled_Mulberry,
+.dxccDisabled_Mulberry span.dxccValue,
+.dxccDisabled_Mulberry span.dxccBEText
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+    background-color: #FFFFFF;
+}
+.dxdvControl_Mulberry td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_Mulberry
+{
+	padding: 20px;
+}
+.dxdvItem_Mulberry,
+.dxdvFlowItem_Mulberry
+{
+	padding: 10px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_Mulberry
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_Mulberry
+{
+}
+.dxdvEmptyItem_Mulberry
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_Mulberry
+{
+	padding: 8px 12px;
+}
+.dxdvEmptyData_Mulberry
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_Mulberry
+{
+    height: 58px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_Mulberry a
+{
+	display: block;
+	padding-top: 20px;
+	color: #5e6d9d;
+}
+.dxdvPagerShowMoreItemsContainer_Mulberry  a:hover
+{
+	color: #343434;
+}
+/* Disabled */
+.dxdvDisabled_Mulberry
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_Mulberry 
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxhlControl_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxhlControl_Mulberry a:hover
+{
+	color: #343434;
+}
+.dxhlContent_Mulberry
+{
+	line-height: 130%!important;
+	padding: 2px 0;
+} 
+.dxhlDate_Mulberry
+{
+	color: #8a8a8a;
+	white-space: nowrap;
+}
+.dxhlHeader_Mulberry
+{
+	color: #BF4E6A;
+	font-weight: normal;
+	line-height: 141%;
+	font-size: 1.71em;
+}
+.dxhlDateHeader_Mulberry
+{
+	color: #8a8a8a;
+	white-space: nowrap;
+	font-weight: normal;
+}
+.dxhlLeftPanel_Mulberry
+{
+	line-height: 121%;
+	text-align: right;
+}
+.dxhlRightPanel_Mulberry
+{
+	line-height: 121%;
+}
+.dxhlLeftPanel_Mulberry img,
+.dxhlRightPanel_Mulberry img 
+{
+	margin-top: 5px;
+}
+.dxhlDateLeftPanel_Mulberry,
+.dxhlDateRightPanel_Mulberry
+{
+	color: #808080;
+	white-space: nowrap;
+	padding: 10px 0 0;
+	font-size: 0.86em;
+}
+.dxhlTailDiv_Mulberry
+{
+	color: #BF4E6A;
+}
+/* Disabled */
+.dxhlDisabled_Mulberry
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_Mulberry,
+.dxlpLoadingPanelWithContent_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxlpLoadingPanel_Mulberry td.dx,
+.dxlpLoadingPanelWithContent_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxlpLoadingPanel_Mulberry .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_Mulberry .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+.dxlpControl_Mulberry.dxlpLoadingDiv_Mulberry 
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxmLite_Mulberry .dxm-main
+{
+	background-color: #E7E9ED;
+}
+
+.dxmLite_Mulberry .dxm-horizontal
+{
+	padding: 2px;
+}
+.dxmLite_Mulberry .dxm-vertical
+{
+	min-width: 100px;
+	padding: 0;
+}
+
+.dxmLite_Mulberry .dxm-popup
+{
+	border: 1px solid #cbcbcb;
+	background-color: white;
+	padding: 0;
+
+	-webkit-box-shadow:  0px 2px 4px 2px rgba(0, 0, 0, 0.15)!important;
+    box-shadow:  0px 1px 6px 0px rgba(0, 0, 0, 0.15)!important;
+}
+
+.dxmBrdCor_Mulberry
+{
+	background-color: #F9F9F9;
+}
+
+.dxmLite_Mulberry .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_Mulberry .dxm-image-t .dxm-item,
+.dxmLite_Mulberry .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_Mulberry .dxm-content
+{
+	display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_Mulberry .dxm-item,
+.dxmLite_Mulberry .dxm-item a.dx
+{
+	color: #343434;
+}
+.dxmLite_Mulberry .dxm-disabled,
+.dxmLite_Mulberry .dxm-disabled a.dx
+{
+	color: #dddddd;
+}
+.dxmLite_Mulberry .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_Mulberry.dxm-ltr .dxm-dropDownMode .dxm-popOut
+{
+	border: Solid 1px transparent;
+}
+.dxmLite_Mulberry .dxm-dropDownMode.dxm-hovered .dxm-popOut,
+.dxmLite_Mulberry .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-left-color: #E7E9ED;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-image-r .dxm-dropDownMode.dxm-hovered .dxm-popOut,
+.dxmLite_Mulberry.dxm-ltr .dxm-image-r .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry.dxm-ltr .dxm-image-r .dxm-dropDownMode.dxm-checked .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxm-dropDownMode.dxm-hovered .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-right-color: #E7E9ED;
+}
+.dxmLite_Mulberry .dxm-main .dxm-checked,
+.dxmLite_Mulberry .dxm-selected
+{
+	background: #D5D8E0;
+}
+.dxmLite_Mulberry .dxm-main .dxm-hovered
+{
+	background: #F1F2F5;
+}
+.dxmLite_Mulberry .dxm-popup .dxm-hovered
+{
+	background: #F0F0F0;
+}
+.dxmLite_Mulberry .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #d6d6d6;
+    outline: 1px solid #cbcbcb;
+    background-color: #d6d6d6;
+}
+.dxmLite_Mulberry .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_Mulberry
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+/* Content */
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 8px 3px 7px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 7px 3px 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 8px 4px 7px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 7px 4px 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 8px 4px 7px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 7px 4px 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-right: 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 6px;
+}
+
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 6px 9px 6px 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 6px 8px 6px 9px;
+}
+
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 18px;
+	padding-right: 5px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 18px;
+	padding-left: 5px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 5px 12px 5px 11px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 5px 11px 5px 12px;
+}
+
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 6px 18px 6px 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 6px 6px 6px 18px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 18px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 18px;
+}
+
+/* Image */
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+    margin: 1px 5px 1px 0;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+    margin: 1px 0 1px 5px;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 5px;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 5px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 8px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 8px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-checked .dxm-image,
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItem_Mulberry
+{
+    margin: -1px 7px -1px -1px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-checked .dxm-image,
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItem_Mulberry
+{
+	margin: -1px -1px -1px 7px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Mulberry
+{
+	margin-right: 10px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Mulberry
+{
+	margin-left: 10px;
+}
+.dxmLite_Mulberry .dxm-popup .dxm-image
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Image replacement */
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-noImage,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage
+{
+	padding-left: 4px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-noImage,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-noImage
+{
+	padding-right: 4px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage.dxm-dropDownMode
+{
+	padding-left: 0;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-noImage.dxm-dropDownMode
+{
+	padding-right: 0;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 24px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 24px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 24px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 24px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-noImages .dxm-item
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-noImages .dxm-item
+{
+	padding-right: 6px;
+}
+
+/* PopOut */
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 12px;
+	padding-bottom: 13px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 8px;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.dxmLite_Mulberry .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_Mulberry .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 12px;
+	padding-bottom: 13px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-popOut
+{
+	padding-right: 8px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-popOut
+{
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-popOut
+{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 10px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 10px;
+	padding-right: 6px;
+}
+
+.dxmLite_Mulberry .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-popOut
+{
+	padding-right: 7px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-popOut
+{
+	padding-left: 7px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 7px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 6px;
+}
+
+/* PopOut replacement */
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+
+/* Spacings, Separator */
+.dxmLite_Mulberry .dxm-horizontal .dxm-spacing
+{
+	width: 2px;
+	height: 1px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-spacing,
+.dxmLite_Mulberry .dxm-popup .dxm-spacing
+{
+	height: 0;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-separator b
+{
+    height: 100%;
+	width: 1px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-separator b,
+.dxmLite_Mulberry .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_Mulberry .dxm-main .dxm-separator b
+{
+	background-color: #c5c6ca;
+}
+.dxmLite_Mulberry .dxm-popup .dxm-separator b
+{
+	background-color: #c5c6ca;
+}
+.dxmLite_Mulberry .dxm-horizontal .dxm-separator
+{
+	padding: 0 2px;
+}
+.dxmLite_Mulberry .dxm-vertical .dxm-separator
+{
+	padding: 0;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-separator,
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-separator
+{
+	padding-left: 30px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-right: 36px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-left: 0;
+}
+.dxmLite_Mulberry.dxm-rtl .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-right: 0;
+}
+/* Scroll elements */
+.dxmLite_Mulberry .dxm-scrollUpBtn, 
+.dxmLite_Mulberry .dxm-scrollDownBtn
+{
+	padding: 1px;
+	text-align: center;
+}
+.dxmLite_Mulberry .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+	padding: 3px 0 4px;
+}
+.dxmLite_Mulberry .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+	padding: 4px 0 3px;
+}
+.dxmLite_Mulberry .dxm-scrollBtnHovered
+{
+	background: #f0f0f0;
+}
+.dxmLite_Mulberry .dxm-scrollBtnPressed
+{
+	background: #D5D8E0;
+}
+.dxmLite_Mulberry .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_Mulberry .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_Mulberry .dxm-main.dxmtb
+{
+	padding: 2px 2px;
+    background-color: transparent;
+}
+.dxmLite_Mulberry .dxm-main.dxmtb .dxm-item
+{
+    margin: 1px 0;
+}
+.dxmLite_Mulberry .dxm-main.dxmtb .dxm-item,
+.dxmLite_Mulberry .dxm-main.dxmtb .dxm-item a.dx
+{
+    font-size: 0.8em;
+}
+.dxmLite_Mulberry .dxm-main.dxmtb .dxm-item.dxm-tmpl
+{
+    font-size: 1em;
+}
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-noImage, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage,
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item, 
+.dxmLite_Mulberry.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage
+{
+	padding-left: 0px;
+}
+/* has image */
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 6px;
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content.dxm-hasText,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content.dxm-hasText
+{
+	padding: 5px 6px;
+}
+/* no image */
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 6px;
+}
+/* dd has image */
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding: 6px;
+}
+/* dd no image */
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content
+{
+	padding: 6px;
+}
+
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-popup .dxm-image
+{
+	margin-right: 10px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-popup .dxm-image
+{
+	margin-left: 10px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 26px;
+}
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 26px;
+}
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage,
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage
+{
+	padding-left: 0;
+}
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage
+{
+	padding-right: 0;
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding: 9px 4px;
+}
+.dxmLite_Mulberry .dxmtb.dxm-main
+{
+    border: 0;
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-item
+{
+    border: 1px solid #CBCBCB;
+	background: #eaeaea;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-hovered
+{
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-checked,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-selected
+{
+    color: #343434;
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-left-color: #CBCBCB;
+}
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut,
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-right-color: #CBCBCB;
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-left-color: #CBCBCB;
+}
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-checked .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Mulberry.dxm-rtl .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-right-color: #CBCBCB;
+}
+.dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-separator
+{
+	padding: 6px;
+}
+.dxmLite_Mulberry .dxmtb.dxm-main .dxm-separator b
+{
+    background-color: transparent;
+}
+.dxmLite_Mulberry .dxmtb.dxm-main .dxm-spacing
+{
+    width: 4px;
+}
+.dxmLite_Mulberry .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+    padding: 0 2px;
+}
+.dxmLite_Mulberry .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem,
+.dxmLite_Mulberry .dxm-horizontal.dxmtb .dxtb-labelMenuItem
+{
+    border: 0;
+    background: none;
+
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_Mulberry 
+{
+	background-color: #e7e9ed;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #5c5d5f;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_Mulberry a
+{
+	color: #343434;
+	text-decoration: none!important;
+}
+.dxnbLite_Mulberry .dxnb-gr 
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_Mulberry .dxnb-header,
+.dxnbLite_Mulberry .dxnb-headerCollapsed
+{
+	padding: 40px 30px 10px;
+	white-space: nowrap;
+}
+.dxnbLite_Mulberry .dxnb-headerCollapsed
+{
+	border-bottom: 1px solid #cbcbcb;
+}
+.dxnbLite_Mulberry .dxnb-header a,
+.dxnbLite_Mulberry .dxnb-headerCollapsed a 
+{
+	color: #5e6d9d;
+	text-decoration: underline!important;
+}
+.dxnbLite_Mulberry .dxnb-header a:hover,
+.dxnbLite_Mulberry .dxnb-headerCollapsed a:hover 
+{
+	color: #5c5d5f;
+}
+.dxnbLite_Mulberry .dxnb-content
+{
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	border-top: 1px solid #cbcbcb;
+}
+.dxnbLite_Mulberry .dxnb-item,
+.dxnbLite_Mulberry .dxnb-large,
+.dxnbLite_Mulberry .dxnb-bullet
+{
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+	border-bottom: 1px solid #bfc0c3;
+}
+.dxnbLite_Mulberry .dxnb-item.dxnb-link,
+.dxnbLite_Mulberry .dxnb-item .dxnb-link,
+.dxnbLite_Mulberry .dxnb-large.dxnb-link,
+.dxnbLite_Mulberry .dxnb-large .dxnb-link
+{
+	padding: 10px 30px 9px;
+	white-space: nowrap;
+}
+.dxnbLite_Mulberry .dxnb-bullet,
+.dxnbLite_Mulberry .dxnb-bulletHover,
+.dxnbLite_Mulberry .dxnb-bulletSelected 
+{
+	padding: 8px 30px 7px;
+	overflow: visible;
+	margin-bottom: 1px;
+}
+.dxnbLite_Mulberry .dxnb-itemSelected,
+.dxnbLite_Mulberry .dxnb-largeSelected
+{
+	background-color: #d5d8e0;
+}
+.dxnbLite_Mulberry .dxnb-itemHover,
+.dxnbLite_Mulberry .dxnb-itemHover a,
+.dxnbLite_Mulberry .dxnb-largeHover,
+.dxnbLite_Mulberry .dxnb-largeHover a
+{
+	background-color: #f1f2f5;
+}
+.dxnbLite_Mulberry .dxnb-header,
+.dxnbLite_Mulberry .dxnb-headerCollapsed, 
+.dxnbLite_Mulberry .dxnb-item,
+.dxnbLite_Mulberry .dxnb-itemHover,
+.dxnbLite_Mulberry .dxnb-itemSelected,
+.dxnbLite_Mulberry .dxnb-bullet,
+.dxnbLite_Mulberry .dxnb-bulletHover,
+.dxnbLite_Mulberry .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_Mulberry .dxnb-large,
+.dxnbLite_Mulberry .dxnb-largeHover,
+.dxnbLite_Mulberry .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_Mulberry .dxnb-headerHover
+{
+}
+.dxnbLite_Mulberry .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_Mulberry .dxnb-last
+{
+	
+}
+.dxnbLite_Mulberry .dxnb-btn,
+.dxnbLite_Mulberry .dxnb-btnLeft,
+.dxnbLite_Mulberry .dxnb-img
+{
+	border-width: 0;
+}
+.dxnbLite_Mulberry .dxnb-btnLeft
+{
+	float: left;
+	margin: 0 9px 0 -19px;
+}
+.dxnbLite_Mulberry .dxnb-btn,
+.dxnbLite_Mulberry .dxnb-rtlHeader .dxnb-btn 
+{
+	float: right;
+	margin: 0 -19px 0 9px;
+}
+.dxnbLite_Mulberry .dxnb-img
+{
+	margin: 0 10px 0 0;
+}
+.dxnbLite_Mulberry .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_Mulberry .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 10px;
+}
+.dxnbLite_Mulberry .dxnb-header.dxnb-header-left,
+.dxnbLite_Mulberry .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_Mulberry .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_Mulberry .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 10px;
+}
+.dxnbLite_Mulberry .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 10px;
+}
+.dxnbLite_Mulberry .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_Mulberry,
+.dxnbLite_Mulberry .dxnbLiteDisabled_Mulberry,
+.dxnbLiteDisabled_Mulberry a,
+.dxnbLiteDisabled_Mulberry .dxnb-item,
+.dxnbLiteDisabled_Mulberry .dxnb-large,
+.dxnbLiteDisabled_Mulberry .dxnb-bullet,
+.dxnbLiteDisabled_Mulberry .dxnb-header,
+.dxnbLiteDisabled_Mulberry .dxnb-headerCollapsed 
+{
+	color: #dddddd;
+	cursor: default;
+}
+/* -- ASPxNewsControl -- */
+.dxncControl_Mulberry 
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+}
+.dxncControl_Mulberry td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncControl_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxncControl_Mulberry a:hover
+{
+	color: #343434;
+}
+.dxncContent_Mulberry
+{
+	padding: 20px;
+}
+.dxncPagerPanel_Mulberry
+{
+	padding: 9px 20px 7px;
+}
+.dxncItem_Mulberry
+{
+	padding: 12px 8px;
+}
+.dxncEmptyItem_Mulberry
+{
+	padding: 12px 12px 12px 14px;
+}
+.dxncPagerShowMoreItemsContainer_Mulberry
+{
+    height: 58px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_Mulberry a
+{
+	display: block;
+	padding-top: 20px;
+	color: #5e6d9d;
+}
+.dxncPagerShowMoreItemsContainer_Mulberry  a:hover
+{
+	color: #343434;
+}
+.dxncEmptyData_Mulberry
+{
+	color: #4F4F4F;
+}
+/* BackToTop */
+.dxncBackToTop_Mulberry
+{
+	text-decoration: none;
+	padding: 4px 0px;
+}
+/* Disabled */
+.dxncDisabled_Mulberry,
+.dxncDisabled_Mulberry span.dxhl,
+.dxncDisabled_Mulberry a,
+.dxncDisabled_Mulberry a:hover
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	padding: 6px 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.dxpLite_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxpLite_Mulberry a[href]
+{
+	color: #5e6d9d;
+}
+
+.dxpLite_Mulberry .dxp-summary,
+.dxpLite_Mulberry .dxp-sep,
+.dxpLite_Mulberry .dxp-button,
+.dxpLite_Mulberry .dxp-pageSizeItem,
+.dxpLite_Mulberry .dxp-num,
+.dxpLite_Mulberry .dxp-current,
+.dxpLite_Mulberry .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_Mulberry .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_Mulberry .dxp-button
+{
+	padding: 8px 6px 7px;
+	text-align: center;
+    text-decoration: underline;
+	white-space: nowrap;
+}
+.dxpLite_Mulberry .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_Mulberry .dxp-button.dxp-bi
+{
+	padding: 3px 6px;
+}
+.dxIE.dxBrowserVersion-8 .dxpLite_Mulberry .dxp-button.dxp-bi
+{
+	padding: 5px 6px 1px;
+}
+.dxpLite_Mulberry .dxp-button.dxp-bti 
+{
+	padding: 3px 14px;
+}
+.dxpLite_Mulberry .dxp-disabledButton
+{
+	text-decoration: none;
+	color: #acacac;
+}
+
+.dxpLite_Mulberry .dxp-pageSizeItem
+{
+    padding: 1px 4px 0 16px;
+    white-space: nowrap;
+    color: #8d8d8d;
+}
+.dxWebKitFamily .dxpLite_Mulberry .dxp-pageSizeItem
+{
+    padding: 0 4px 0 16px;
+}
+.dxSafari .dxpLite_Mulberry .dxp-pageSizeItem
+{
+    padding: 1px 4px 0 16px;
+}
+.dxpLite_Mulberry .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_Mulberry .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_Mulberry .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #cbcbcb;
+    margin: -1px 0px -2px;
+    padding: 1px;
+	height: 26px;
+}
+.dxpLite_Mulberry .dxp-comboBox input
+{
+	color: #343434;
+    margin: 4px 4px 3px;
+    width: 32px;
+}
+*[dir="rtl"].dxpLite_Mulberry .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_Mulberry .dxp-hoverComboBox
+{
+}
+.dxpLite_Mulberry .dxp-pressedComboBox
+{
+}
+.dxpLite_Mulberry .dxp-dropDownButton
+{
+	border: 1px Solid Transparent;
+	padding: 0 2px;
+}
+.dxpLite_Mulberry .dxp-hoverDropDownButton
+{
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxpLite_Mulberry .dxp-pressedDropDownButton
+{
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+
+.dxpLite_Mulberry .dxp-num
+{
+	padding: 8px 9px 7px 9px;
+}
+.dxpLite_Mulberry .dxp-num
+{
+	color: #343434;
+}
+.dxpLite_Mulberry .dxp-num[href]
+{
+	color: #5e6d9d;
+}
+
+.dxpLite_Mulberry .dxp-current
+{
+	color: white;
+	background-color: #BF4E6A;
+	text-decoration: none;
+}
+
+.dxpLite_Mulberry .dxp-summary,
+.dxpLite_Mulberry .dxp-ellip
+{
+	color: #8d8d8d;
+	white-space: nowrap;
+	padding: 8px 4px 7px;
+}
+.dxpLite_Mulberry .dxp-ellip
+{
+	color: #5e6d9d;
+}
+
+.dxpLite_Mulberry .dxp-summary
+{
+	margin: 0 16px;
+}
+
+.dxpLite_Mulberry .dxp-sep
+{
+	background-color: #cbcbcb;
+	width: 1px;
+	height: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.dxpLiteDisabled_Mulberry,
+.dxpLiteDisabled_Mulberry a,
+.dxpLiteDisabled_Mulberry .dxp-summary,
+.dxpLiteDisabled_Mulberry .dxp-sep,
+.dxpLiteDisabled_Mulberry .dxp-button,
+.dxpLiteDisabled_Mulberry .dxp-num,
+.dxpLiteDisabled_Mulberry .dxp-current,
+.dxpLiteDisabled_Mulberry .dxp-ellip
+{
+	color: #dddddd;
+	cursor: default;
+}
+.dxpLite_Mulberry .dxp-disabledComboBox
+{
+}
+.dxpLite_Mulberry .dxp-disabledComboBox input
+{
+    color: #acacac;
+}
+.dxpLite_Mulberry .dxp-disabledDropDownButton
+{
+    cursor: default;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_Mulberry,
+.dxdpLite_Mulberry 
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxdpLite_Mulberry {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_Mulberry .dxpc-mainDiv,
+.dxpcLite_Mulberry.dxpc-mainDiv,
+.dxdpLite_Mulberry .dxpc-mainDiv,
+.dxdpLite_Mulberry.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	background-color: white;
+	border: 1px solid #d3d2d2;
+}
+
+.dxpcLite_Mulberry a.dxpc-link,
+.dxdpLite_Mulberry a.dxpc-link 
+{
+	color: #5e6d9d;
+}
+.dxpcLite_Mulberry a.dxpc-link:hover,
+.dxdpLite_Mulberry a.dxpc-link:hover 
+{
+	color: #343434;
+}
+.dxpcLite_Mulberry a.dxpc-link *,
+.dxdpLite_Mulberry a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_Mulberry .dxpc-closeBtn,
+.dxdpLite_Mulberry .dxpc-closeBtn,
+.dxpcLite_Mulberry .dxpc-pinBtn,
+.dxdpLite_Mulberry .dxpc-pinBtn,
+.dxpcLite_Mulberry .dxpc-refreshBtn,
+.dxdpLite_Mulberry .dxpc-refreshBtn,
+.dxpcLite_Mulberry .dxpc-collapseBtn,
+.dxdpLite_Mulberry .dxpc-collapseBtn,
+.dxpcLite_Mulberry .dxpc-maximizeBtn,
+.dxdpLite_Mulberry .dxpc-maximizeBtn
+{
+	border: 1px solid Transparent;
+	padding: 2px;
+    margin: 0 4px;
+	float: right;
+}
+
+.dxpcLite_Mulberry.dxRtl  .dxpc-closeBtn,
+.dxdpLite_Mulberry.dxRtl  .dxpc-closeBtn,
+.dxpcLite_Mulberry.dxRtl  .dxpc-pinBtn,
+.dxdpLite_Mulberry.dxRtl  .dxpc-pinBtn,
+.dxpcLite_Mulberry.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_Mulberry.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_Mulberry.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_Mulberry.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_Mulberry.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_Mulberry.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_Mulberry .dxpc-closeBtnHover,
+.dxdpLite_Mulberry .dxpc-closeBtnHover,
+.dxpcLite_Mulberry .dxpc-pinBtnHover,
+.dxdpLite_Mulberry .dxpc-pinBtnHover,
+.dxpcLite_Mulberry .dxpc-refreshBtnHover,
+.dxdpLite_Mulberry .dxpc-refreshBtnHover,
+.dxpcLite_Mulberry .dxpc-collapseBtnHover,
+.dxdpLite_Mulberry .dxpc-collapseBtnHover,
+.dxpcLite_Mulberry .dxpc-maximizeBtnHover,
+.dxdpLite_Mulberry .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_Mulberry .dxpc-header,
+.dxdpLite_Mulberry .dxpc-header
+{
+	border-bottom: 1px solid #d3d2d2;
+	padding: 7px 6px 7px 18px;
+	background: #fafafa;
+}
+
+.dxpcLite_Mulberry.dxRtl .dxpc-header,
+.dxdpLite_Mulberry.dxRtl .dxpc-header 
+{
+	padding-right: 12px;
+	padding-left: 2px;
+}
+
+.dxpcLite_Mulberry .dxpc-headerText,
+.dxdpLite_Mulberry .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Mulberry .dxpc-headerImg,
+.dxdpLite_Mulberry .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_Mulberry.dxRtl .dxpc-headerImg,
+.dxdpLite_Mulberry.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_Mulberry .dxpc-content,
+.dxdpLite_Mulberry .dxpc-content
+{
+	white-space: normal;
+	line-height: 128%;
+	padding: 14px 20px 15px;
+}
+
+.dxpcLite_Mulberry .dxpc-footer,
+.dxdpLite_Mulberry .dxpc-footer
+{
+	background: #fafafa;
+	border-top: 1px solid #d3d2d2;
+}
+
+.dxpcLite_Mulberry .dxpc-footerContent,
+.dxdpLite_Mulberry .dxpc-footerContent
+{
+	padding: 7px 24px 7px 18px;
+	min-height: 12px;
+}
+
+.dxpcLite_Mulberry.dxRtl .dxpc-footerContent,
+.dxdpLite_Mulberry.dxRtl .dxpc-footerContent
+{
+	padding: 7px 12px 7px 24px;
+}
+
+.dxpcLite_Mulberry .dxpc-footerText,
+.dxdpLite_Mulberry .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Mulberry .dxpc-footerImg,
+.dxdpLite_Mulberry .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_Mulberry.dxRtl .dxpc-footerImg,
+.dxdpLite_Mulberry.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_Mulberry .dxpc-sizeGrip,
+.dxdpLite_Mulberry .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_Mulberry.dxRtl .dxpc-sizeGrip,
+.dxdpLite_Mulberry.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_Mulberry,
+.dxdpModalBackLite_Mulberry
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_Mulberry,
+.dxdpLiteDisabled_Mulberry
+{
+	color: #dddddd;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_Mulberry
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #343434;
+    border: 0px solid #cbcbcb;
+}
+.dxpnlControl_Mulberry.dxpnl-edge,
+.dxpnlControl_Mulberry.dxpnl-edge.dxpnl-bar
+{
+    background-color: white;
+}
+.dxpnlControl_Mulberry.dxpnl-edge,
+.dxpnlControl_Mulberry.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_Mulberry.dxpnl-bar
+{
+    padding: 12px;
+}
+.dxpnlControl_Mulberry .dxpnl-btn
+{
+}
+.dxpnlControl_Mulberry .dxpnl-btnHover
+{
+    background-color: #f1f1f1;
+}
+.dxpnlControl_Mulberry .dxpnl-btnPressed
+{
+    background-color: #BF4E6A;
+}
+.dxpnlControl_Mulberry .dxpnl-btnSelected
+{
+
+}
+.dxpnlDisabled_Mulberry
+{
+	color: #dddddd;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_Mulberry,
+.dxrpControlGB_Mulberry
+{
+	border: 1px solid #cbcbcb;
+}
+.dxrpControl_Mulberry td.dxrp,
+.dxrpControl_Mulberry .dxrpHeader_Mulberry,
+.dxrpControlGB_Mulberry td.dxrp
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxrpControl_Mulberry .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControl_Mulberry:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 4px;
+}
+.dxrpControl_Mulberry:not(.dxrp-hasDefaultImages) .dxrpHeader_Mulberry
+{
+	border-radius:4px 4px 0px 0px;
+}
+.dxrpControl_Mulberry:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 4px 4px;
+}
+.dxrpWithoutHeader_Mulberry:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:4px;
+}
+/* Header */
+.dxrpHeader_Mulberry,
+.dxrpControl_Mulberry .dxrpHeader_Mulberry
+{
+	color: #343434;
+}
+.dxrpControlGB_Mulberry span.dxrpHeader_Mulberry
+{
+	color: #8d8d8d;
+}
+.dxrpControlGB_Mulberry span.dxrpHeader_Mulberry
+{
+	background-color: white;
+}
+.dxrpHeader_Mulberry
+{
+    background-color: #fafafa;
+}
+.dxrpControl_Mulberry  > tbody > tr > .dxrpHeader_Mulberry > a,
+.dxrpControl_Mulberry  > tbody > tr > .dxrpHeader_Mulberry > a > span.dxrpHT,
+.dxrpControlGB_Mulberry span.dxrpHeader_Mulberry a
+{
+    color: #5e6d9d;
+}
+.dxrpControl_Mulberry .dxrpHeader_Mulberry
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControl_Mulberry .dxrpHeader_Mulberry
+{
+	border-bottom: 1px solid #ebebeb;
+}
+/* Header image */
+.dxrpControl_Mulberry .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_Mulberry .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_Mulberry > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Mulberry > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+/* Paddings */
+.dxrpControl_Mulberry .dxrpHeader_Mulberry 
+{
+	padding: 8px 16px 10px 18px;
+}
+.dxrpControlGB_Mulberry .dxrpHeader_Mulberry 
+{
+	padding: 0px 6px 0px 6px;
+}
+.dxrpControl_Mulberry.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Mulberry > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, 
+.dxrpControl_Mulberry > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW,
+.dxrpControlGB_Mulberry > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 10px 16px 10px 18px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_Mulberry > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -20px;
+	left: -6px;
+	margin-bottom:-10px;
+}
+.dxrpControlGB_Mulberry {
+	margin-top: 9px;
+}
+/* Disabled */
+.dxrpDisabled_Mulberry,
+.dxrpDisabled_Mulberry td.dxrp
+{
+	color: #dddddd;
+	cursor: default;
+}
+.dxrpDisabled_Mulberry.dxrpCollapsed > tbody > tr > td.dxrpHeader_Mulberry
+{
+    border-radius: 4px;
+    border: 0px none #343434;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_Mulberry 
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: #FFFFFF;
+	border-width: 0px;
+}
+.dxsmControl_Mulberry a
+{
+	color: #5e6d9d;
+	text-decoration: none;
+}
+.dxsmControl_Mulberry a:hover
+{
+	text-decoration: underline;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_Mulberry,
+.dxsmCategoryLevel_Mulberry a
+{
+	color: #7e7e7e;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_Mulberry
+{
+	font-size: 1.71em;
+	border-bottom: 1px solid #cbcbcb;
+	white-space: nowrap;
+	padding: 0px 0px 12px!important;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_Mulberry,
+.dxsmLevelCategoryFlow_Mulberry a
+{
+	color: #5689C5;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevelCategoryFlow_Mulberry
+{
+	font-size: 1.71em;
+}
+/* - Level 0 - */
+.dxsmLevel0_Mulberry,
+.dxsmLevel0_Mulberry a,
+.dxsmLevel0Categorized_Mulberry a,
+.dxsmLevel0Categorized_Mulberry
+{
+	color: #8a8a8a;
+	font-weight: normal;
+}
+.dxsmLevel0_Mulberry,
+.dxsmLevel0Categorized_Mulberry
+{
+	white-space: nowrap;
+	padding: 0px 0px 1px;
+}
+.dxsmLevel0Categorized_Mulberry
+{
+    font-size: 1.35em;
+}
+.dxsmLevel0_Mulberry
+{
+    font-size: 1.71em;
+	padding: 0px 0px 12px;
+}
+
+ /*flow layout*/
+.dxsmLevel0Flow_Mulberry,
+.dxsmLevel0Flow_Mulberry a,
+.dxsmLevel0CategorizedFlow_Mulberry a,
+.dxsmLevel0CategorizedFlow_Mulberry
+{
+	color: #5e6d9d;
+}
+.dxsmLevel0Flow_Mulberry
+{
+	padding: 0px;
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_Mulberry,
+.dxsmLevel1_Mulberry a,
+.dxsmLevel1Categorized_Mulberry a,
+.dxsmLevel1Categorized_Mulberry
+{
+	color: #5e6d9d;
+}
+.dxsmLevel1_Mulberry,
+.dxsmLevel1Categorized_Mulberry
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+
+
+/*flow layout*/
+.dxsmLevel1Flow_Mulberry,
+.dxsmLevel1Flow_Mulberry a,
+.dxsmLevel1CategorizedFlow_Mulberry,
+.dxsmLevel1CategorizedFlow_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxsmLevel1Flow_Mulberry
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_Mulberry,
+.dxsmLevel2_Mulberry a,
+.dxsmLevel2Categorized_Mulberry a,
+.dxsmLevel2Categorized_Mulberry
+{
+	color: #5e6d9d;
+}
+.dxsmLevel2_Mulberry,
+.dxsmLevel2Categorized_Mulberry
+{
+    font-size: 0.86em;
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel2Flow_Mulberry,
+.dxsmLevel2Flow_Mulberry a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_Mulberry
+{
+    font-size: 0.86em;
+	padding: 0px;
+	text-decoration: none;
+}
+/* - Level 3 - */
+.dxsmLevel3_Mulberry,
+.dxsmLevel3_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxsmLevel3_Mulberry
+{
+    font-size: 0.86em;
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel3Flow_Mulberry,
+.dxsmLevel3Flow_Mulberry a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel3Flow_Mulberry
+{
+	font-size: 0.86em;
+}
+/* - Level 4 - */
+.dxsmLevel4_Mulberry,
+.dxsmLevel4_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxsmLevel4_Mulberry
+{
+    font-size: 0.86em;
+	white-space: nowrap;
+	padding: 0px;
+	text-decoration: none;
+}
+/*flow layout*/
+.dxsmLevel4Flow_Mulberry,
+.dxsmLevel4Flow_Mulberry a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_Mulberry
+{
+    font-size: 0.86em;
+	padding: 0px;
+	text-decoration: none;
+}
+/* - Other Levels - */
+.dxsmLevelOther_Mulberry
+{
+	color: #5e6d9d;
+}
+.dxsmLevelOther_Mulberry
+{
+    font-size: 0.86em;
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_Mulberry,
+.dxsmLevelOtherFlow_Mulberry a
+{
+	color: #5689C5;
+	text-decoration: underline;
+}
+.dxsmLevelOtherFlow_Mulberry
+{
+	font-size: 0.86em;
+}
+/* Disabled */
+.dxsmDisabled_Mulberry
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_Mulberry
+{
+	overflow: hidden;
+	color: #343434;
+	float: left;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 3px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-tab
+{
+	margin-top: 2px;
+}
+.dxtcLite_Mulberry.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	margin-right: -1px;
+}
+.dxtcLite_Mulberry.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab 
+{
+    border-bottom-width: 0!important;
+    padding-bottom: 1px;
+}
+.dxtcLite_Mulberry.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-bottom-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: white;
+	border: 1px solid #cbcbcb;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tabHover,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tabHover .dxtc-link
+{
+	background: #f0f0f0;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	overflow: hidden;
+}
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 2px solid transparent;
+	border-bottom: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 0;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-leftIndent
+{
+	width: 0;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 1px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 10px 5px 10px;
+	display: block;
+	height: 100%;
+    color: #343434;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+	color: #BF4E6A;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 5px 0 0;
+}
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 5px;
+}
+.dxtcLite_Mulberry > .dxtc-content 
+{
+	background-color: #FFFFFF;
+	float: left;
+	clear: left;
+	border: 1px solid #cbcbcb;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_Mulberry.dxtc-top > .dxtc-content
+{
+    border-top: 0;
+}
+/* Rtl */
+.dxtcLite_Mulberry.dxtc-rtl,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-content,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_Mulberry.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_Mulberry.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_Mulberry.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip 
+{
+	float: left;
+}
+.dxtcLite_Mulberry.dxtc-rtl.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-rtl.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-rtl.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-rtl.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	margin-left: -1px;
+    margin-right: 0;
+}
+/* Scrolling */
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sb
+{
+	border: 1px solid Transparent;
+	margin-top: 2px;
+	padding: 1px;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbHover
+{
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbPressed
+{
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-sbDisabled img
+{
+	cursor: default;
+}
+/* Multi-row */
+.dxtcLiteDisabled_Mulberry,
+.dxtcLiteDisabled_Mulberry > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_Mulberry > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_Mulberry > .dxtc-content,
+.dxtcLite_Mulberry > .dxtc-stripContainer .dxtcLiteDisabled_Mulberry .dxtc-link
+{
+	color: #dddddd;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 3px;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-bottom: 2px solid transparent;
+    border-top: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-bottom: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-top-width: 0;
+    padding-top: 1px;
+}
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	margin-right: -1px;
+}
+.dxtcLite_Mulberry.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	margin-bottom: 2px;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-link 
+{
+	padding: 5px 10px 4px 10px;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-content
+{
+    border-bottom: 0;
+}
+.dxtcLite_Mulberry.dxtc-bottom > .dxtc-stripContainer .dxtc-sb
+{
+	margin-top: 3px;
+}
+/* left */
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 3px;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-left: 2px solid transparent;
+    border-top: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-left> .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	margin-bottom: -1px;
+}
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	margin-left: 2px;
+}
+.dxtcLite_Mulberry.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	padding-left: 1px;
+    padding-right: 1px;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-link 
+{
+	padding: 5px 10px 5px 10px;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #cbcbcb;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Mulberry.dxtc-left > .dxtc-content
+{
+    border-left: 0;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 3px;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-right: 2px solid transparent;
+    border-top: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-right: 1px solid #cbcbcb;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	margin-bottom: -1px;
+}
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab
+{
+	margin-right: 2px;
+}
+.dxtcLite_Mulberry.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	padding-left: 1px;
+    padding-right: 1px;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-link 
+{
+	padding: 5px 10px 5px 10px;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #cbcbcb;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Mulberry.dxtc-right > .dxtc-content
+{
+    border-right: 0;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_Mulberry.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #cbcbcb!important;
+}
+/* -- ASPxTitleIndex -- */
+.dxtiControl_Mulberry 
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+.dxtiControl_Mulberry a
+{
+	color: #5e6d9d;
+	text-decoration: none;
+}
+.dxtiControl_Mulberry a:hover
+{
+	text-decoration: underline;
+}
+.dxtiItem_Mulberry
+{
+	font-weight: normal;
+	color: #5e6d9d;
+	white-space: nowrap;
+	padding: 6px 29px!important;
+}
+.dxtiIndexPanelItem_Mulberry a
+{
+	color: #BF4E6A;
+	text-decoration: none;
+	padding: 0px 2px;
+}
+.dxtiIndexPanelItem_Mulberry a:hover
+{
+	text-decoration: underline;
+}
+
+.dxtiGroupHeader_Mulberry,
+.dxtiGroupHeaderCategorized_Mulberry
+{
+	color: #7e7e7e; 
+}
+.dxtiGroupHeaderCategorized_Mulberry
+{
+	padding: 7px 29px!important;
+}
+.dxtiGroupHeader_Mulberry table 
+{
+	width: 100%;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_Mulberry
+{
+    white-space: nowrap;
+    text-decoration: none;
+	padding: 7px 29px!important;
+}
+.dxtiGroupHeaderTextCategorized_Mulberry
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_Mulberry
+{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 0.79em;
+	color: #7D7D7D;
+}
+.dxtiFilterBoxEdit_Mulberry
+{
+	background: #fafafa;
+	border: 1px solid #cbcbcb;
+	padding: 0 2px;
+	width: 180px;
+	height: 28px;
+}
+.dxtiFilterBox_Mulberry,
+.dxtiFilterBox_Mulberry table
+{
+	color: #232323;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxtiFilterBox_Mulberry
+{
+	padding: 10px 0;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_Mulberry
+{
+	color: #BF4E6A;
+	border-bottom: 1px Solid #d4d4d4;
+	padding: 16px 20px!important;
+    line-height: 24px;
+}
+.dxtiIndexPanel_Mulberry td
+{
+	padding-bottom: expression("1px");
+}
+
+.dxtiIndexPanelItem_Mulberry,
+.dxtiCurrentIndexPanelItem_Mulberry
+{
+    padding: 5px 9px;
+}
+.dxtiIndexPanelItem_Mulberry
+{
+	color: #BF4E6A;
+}
+.dxtiCurrentIndexPanelItem_Mulberry
+{
+	background-color: #BF4E6A;
+	color: white;
+}
+/* - BackToTop - */
+.dxtiBackToTop_Mulberry
+{
+	font-size: 0.86em;
+	text-decoration: none;
+	padding: 12px 29px;
+}
+/* Disabled */
+.dxtiDisabled_Mulberry,
+.dxtiDisabled_Mulberry a
+{
+	color: #dddddd;
+	cursor: default!important;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_Mulberry,
+.dxucEditArea_Mulberry,
+input[type="text"].dxucEditArea_Mulberry /*Bootstrap correction*/
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxucEditArea_Mulberry,
+input[type="text"].dxucEditArea_Mulberry /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_Mulberry /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_Mulberry .dxucInputs_Mulberry
+{
+}
+.dxucTextBox_Mulberry
+{
+	background-color: #fafafa;
+	border: 1px Solid #cbcbcb;	
+	padding: 3px 2px 3px 7px;
+}
+.dxucTextBox_Mulberry .dxucEditArea_Mulberry
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_Mulberry .dxucEditArea_Mulberry
+{
+    color: #dddddd;
+}
+.dxucTextBox_Mulberry a
+{
+    display: block;
+}
+.dxucErrorCell_Mulberry
+{
+	color: Red;
+	text-align: left;
+	padding: 3px 0;
+}
+.dxucButton_Mulberry
+{
+    padding: 6px 0 4px;
+}
+.dxucButton_Mulberry,
+.dxucButton_Mulberry a
+{
+	color: #5e6d9d;
+	white-space: nowrap;
+}
+.dxucButton_Mulberry a:hover
+{
+	color: #343434;
+}
+.dxucBrowseButton_Mulberry,
+.dxucBrowseButton_Mulberry a
+{
+	color: #2C4D79;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_Mulberry a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_Mulberry
+{
+	padding: 5px 14px 4px;
+
+	border: 1px solid #CBCBCB;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+}
+.dxucBrowseButton_Mulberry a
+{
+	color: #343434;
+}
+.dxucBrowseButton_Mulberry.dxbf
+{
+    padding: 5px 13px 4px;
+}
+.dxucBrowseButton_Mulberry.dxbf a
+{
+    border: 1px dotted #2C4D79;
+}
+.dxucBrowseButtonHover_Mulberry
+{
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxucBrowseButtonPressed_Mulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_Mulberry,
+.dxucProgressBar_Mulberry td
+{
+	color: #9f9f9f;
+}
+.dxucProgressBar_Mulberry .dxPBMainCell
+{
+	padding: 0;
+}
+.dxucProgressBar_Mulberry td.dx
+{
+    background:  url('../Editors/edtProgressPositionBack.png') no-repeat 50% center;
+	padding: 5px 0 6px;
+}
+.dxucProgressBar_Mulberry
+{
+	background-color: #fafafa;
+
+    height: 10px;
+}
+.dxucProgressBarIndicator_Mulberry
+{
+	background: #BF4E6A;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_Mulberry {
+	font-size: 0.86em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_Mulberry td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_Mulberry a {
+	color: #5689C5;
+}
+/* Disabled */
+.dxucDisabled_Mulberry,
+.dxucDisabled_Mulberry a
+{
+	color: #dddddd;
+	cursor: default;
+}
+.dxucTextBoxDisabled_Mulberry
+{
+	border-color: #cbcbcb;
+}
+.dxucButtonDisabled_Mulberry a,
+.dxucButtonDisabled_Mulberry a:hover
+{
+	color: #dddddd;
+}
+.dxucControl_Mulberry .dxucBrowseButtonDisabled_Mulberry a
+{
+	color: #C3C3C3;
+}
+.dxucBrowseButtonDisabled_Mulberry
+{
+	background: #e7e7e7;
+	color: #C3C3C3;
+	border-color: #d3d3d3;
+	cursor: default;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: #e7e9ed;
+}
+.dxsplPane_Mulberry,
+.dxsplPaneCollapsed_Mulberry
+{
+	background-color: white;
+	border: 1px solid #cbcbcb;
+
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.dxsplVSeparator_Mulberry,
+.dxsplHSeparator_Mulberry,
+.dxsplVSeparator_Mulberry,
+.dxsplHSeparator_Mulberry,
+.dxsplVSeparatorCollapsed_Mulberry,
+.dxsplHSeparatorCollapsed_Mulberry
+{
+	background-color: #e7e9ed;
+}
+.dxsplPane_Mulberry,
+.dxsplPaneCollapsed_Mulberry
+{
+	border-width: 1px;
+}
+.dxsplPaneCollapsed_Mulberry
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparatorHover_Mulberry
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_Mulberry
+{
+	cursor: n-resize;
+}
+.dxsplVSeparator_Mulberry,
+.dxsplHSeparator_Mulberry
+{
+	font-size: 0;
+}
+.dxsplVSeparatorCollapsed_Mulberry,
+.dxsplHSeparatorCollapsed_Mulberry
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_Mulberry
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_Mulberry
+{
+	cursor: pointer;
+	padding: 0px 5px;
+	margin: 0px 14px;
+}
+.dxsplDisabled_Mulberry .dxsplVSeparatorButton_Mulberry,
+.dxsplDisabled_Mulberry .dxsplHSeparatorButton_Mulberry
+{
+	cursor: default;
+}
+.dxsplResizingPointer_Mulberry
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_Mulberry .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	float: left;
+}
+.dxtvControl_Mulberry li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_Mulberry ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_Mulberry a 
+{
+	color: #343434;
+	text-decoration: none;
+}
+
+.dxtvControl_Mulberry .dxtv-ln
+{
+	vertical-align: top;
+}
+
+.dxtvControl_Mulberry .dxtv-nd
+{
+	float: left;
+	margin-top: 1px;
+	padding: 6px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_Mulberry .dxtv-elbNoLn,
+.dxtvControl_Mulberry .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_Mulberry .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_Mulberry .dxtv-btn 
+{
+	margin: 10px 10px;
+}
+
+.dxtvControl_Mulberry .dxtv-subnd 
+{
+	margin-left: 28px;
+}
+
+.dxtvControl_Mulberry .dxtv-ndImg 
+{
+	margin:  0 6px 0 4px;
+}
+
+.dxtvControl_Mulberry .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_Mulberry .dxtv-ndChk
+{
+	margin:  -3px 6px -3px 2px;
+	cursor: default;
+}
+  
+.dxtvControl_Mulberry .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_Mulberry .dxtv-ndSel
+{
+	background-color: #bf4e6a;
+	color: white;
+	cursor: default;
+}
+
+.dxtvControl_Mulberry .dxtv-ndHov 
+{
+	background-color: #f0f0f0;
+   	color: #343434;
+}
+
+.dxtvControl_Mulberry.dxtvRtl,
+.dxtvControl_Mulberry.dxtvRtl .dxtv-nd, 
+.dxtvControl_Mulberry.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_Mulberry.dxtvRtl .dxtv-elb,
+.dxtvControl_Mulberry.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-elb,
+.dxtvControl_Mulberry.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-elb
+{
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-btn 
+{
+	margin: 9px 10px 0 0;
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 28px 0 0;
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-ndImg 
+{
+    margin: 0 4px 0 6px;
+}
+
+.dxtvControl_Mulberry.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_Mulberry.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvControl_Mulberry.dxtvRtl .dxtv-ndChk
+{
+    margin: 0 4px 0 8px;
+}
+
+.dxtvDisabled_Mulberry,
+.dxtvControl_Mulberry .dxtvDisabled_Mulberry,
+.dxtvDisabled_Mulberry a,
+.dxtvDisabled_Mulberry .dxtv-btn,
+.dxtvDisabled_Mulberry .dxtv-nd
+{
+	color: #dddddd;
+	cursor: default;
+}
+
+/* ASPxFileManager */
+.dxfmControl_Mulberry,
+.dxfmControl_Mulberry .dxfm-rInput
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+
+	outline: 0px;
+}
+.dxfmDisabled_Mulberry
+{
+	color: #dddddd;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_Mulberry .dxsplControl_Mulberry
+{
+	border: 1px solid #cbcbcb;
+    background-color: white;
+}
+.dxfmControl_Mulberry .dxsplPane_Mulberry
+{
+	border-width: 0px;
+}
+.dxfmControl_Mulberry .dxsplLCC {
+	outline-width: 0px;
+	padding: 2px 4px;
+}
+.dxfmControl_Mulberry.dxfm-dst .dxsplVSeparator_Mulberry
+{
+	background: none;
+	border-right: 1px solid #cbcbcb;
+	width: 1px!important;
+}
+.dxfmControl_Mulberry.dxfm-dst.dxfm-rtl .dxsplVSeparator_Mulberry
+{
+	border-right: none;
+	border-left: 1px solid #d1d1d1;
+}
+.dxfmControl_Mulberry.dxfm-dst.dxfm-rtl .dxsplVSeparator_Mulberry
+{
+	background-position-x: left;
+}
+.dxfmControl_Mulberry.dxfm-tch .dxsplVSeparator_Mulberry
+{
+	border: 1px solid #cbcbcb;
+	border-width: 0 1px;
+}
+.dxfmControl_Mulberry .dxsplHSeparator_Mulberry
+{
+	border: 0;
+	background: #cbcbcb;
+}
+.dxfmControl_Mulberry .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+} 
+
+/* FileManager - TreeView */
+.dxfmControl_Mulberry .dxtvControl_Mulberry 
+{
+	margin-left: -5px;
+}
+.dxfmControl_Mulberry .dxtvControl_Mulberry .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 5px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_Mulberry div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_Mulberry.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_Mulberry .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_Mulberry .dxfm-fileSI,
+.dxfmControl_Mulberry .dxfm-fileSA
+{
+    background-color: #cc5a76;
+	color: white;
+}
+.dxfmControl_Mulberry div.dxfm-fileH
+{
+	background-color: #dcdcdc;
+    color: #343434;
+}
+.dxfmControl_Mulberry div.dxfm-fileF
+{
+    background-color: #BF4E6A;
+	color: white;
+}
+
+.dxfmControl_Mulberry .dxfm-content .dxfm-highlight
+{
+	background-color: #FFE7A2;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_Mulberry .fileContainer
+{
+    margin: 4px;
+}
+.dxfmControl_Mulberry .dxfm-fileContainer .dxfm-file > .dxichSys,
+.dxfmControl_Mulberry .dxfm-fileContainer .dxfm-file.dxfm-fileH > .dxichSys,
+.dxfmControl_Mulberry .dxfm-fileContainer .dxfm-file.dxfm-fileSA > .dxichSys,
+.dxfmControl_Mulberry .dxfm-fileContainer .dxfm-file.dxfm-fileSI > .dxichSys,
+.dxfmControl_Mulberry .dxfm-fileContainer .dxfm-file.dxfm-fileF > .dxichSys
+{
+    top: 2px;
+    right: 2px;
+}
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-fileContainer .dxfm-file > .dxichSys,
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-fileContainer .dxfm-file.dxfm-fileH > .dxichSys,
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-fileContainer .dxfm-file.dxfm-fileSA > .dxichSys,
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-fileContainer .dxfm-file.dxfm-fileSI > .dxichSys,
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-fileContainer .dxfm-file.dxfm-fileF > .dxichSys
+{
+    right: initial;
+    left: 2px;
+}
+ 
+/* FileManager - GridView */
+.dxfmControl_Mulberry .dxgvControl_Mulberry .dxgvTable_Mulberry,
+.dxfmControl_Mulberry .dxgvControl_Mulberry .dxgvHSDC,
+.dxfmControl_Mulberry .dxgvControl_Mulberry .dxgvFSDC,
+.dxfmControl_Mulberry .dxgvControl_Mulberry .dxgvCSD
+{
+    border: 0px;
+}
+.dxfmControl_Mulberry .dxgvTable_Mulberry td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_Mulberry .dxfm-fileThumb img
+{
+    margin: 1px 0 -3px -4px;
+}
+.dxfmControl_Mulberry .dxgvControl_Mulberry
+{
+    background-color: White;
+    outline: none;
+}
+.dxfmControl_Mulberry .dxgvControl_Mulberry .dxgvHSDC
+{
+	border-top-width: 0!important; 
+}
+.dxfmControl_Mulberry .dxgvHeader_Mulberry
+{
+	border-top-width: 0!important; 
+}
+.dxfmControl_Mulberry .dxgvTable_Mulberry tr.dxfm-fileSA
+{
+    background-color: #dcdcdc;
+    color: #343434;
+}     
+.dxfmControl_Mulberry .dxgvTable_Mulberry tr.dxfm-fileSI
+{
+    background-color: #E9E9E9;
+    color: #343434;
+}
+.dxfmControl_Mulberry .dxfm-fileF.dxgvFocusedRow_Mulberry
+{
+    background-color: #BF4E6A;
+    color: white;
+}
+.dxfmControl_Mulberry .dxgvTable_Mulberry tr.dxfm-fileH
+{
+	background-color: #dcdcdc;
+	color: #343434;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_Mulberry .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-toolbar .dxfm-filter
+{
+	text-align: left;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxfm-filter input,
+.dxfmControl_Mulberry .dxfm-toolbar .dxfm-path input
+{
+	background: #fafafa;
+	border: 1px solid #cbcbcb;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxfm-filter input
+{
+	margin: 4px 4px 4px 3px;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxmtb.dxm-horizontal .dxm-item.dxfm-path
+{
+    margin-top: -1px;
+
+    border: 0;
+    background: none;
+    color: #343434;
+
+	-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_Mulberry .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxmLite_Mulberry .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxmLite_Mulberry .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 1px 8px 2px;
+    margin: 0;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxmLite_Mulberry .dxfm-path 
+{
+	padding-left: 2px;
+}
+.dxfmControl_Mulberry .dxfm-toolbar .dxmLite_Mulberry .dxfm-path input
+{
+	margin: 2px 8px -2px 4px;
+}
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-toolbar .dxmLite_Mulberry .dxfm-path input
+{
+	margin: 2px 4px -2px 8px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_Mulberry .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_Mulberry .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+    background-color: #F0F0F0;
+}
+.dxfmControl_Mulberry .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #C5C6CA;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_Mulberry .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_Mulberry
+{
+    background: #FE9EAC;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_Mulberry .dxfm-uploadPanel 
+{
+	background-color: #fafafa;
+	text-align: right;
+}
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-uploadPanel 
+{
+	text-align: left;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Mulberry 
+{
+	margin-right: 10px;
+	margin-top: 6px;
+}
+.dxfmControl_Mulberry.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Mulberry 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+	padding: 12px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #5e6d9d;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover
+{
+	color: #343434;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #dddddd;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_Mulberry .dxfm-uploadPanel.dxsplPane_Mulberry .dxucSilverlightPluginLinkPanel_Mulberry 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_Mulberry .dxfm-cInput,
+.dxfmControl_Mulberry .dxfm-rInput
+{
+	background: #fafafa;
+	border: 1px solid #cbcbcb;
+}
+
+/* FileManager - item mask */
+.dxfmControl_Mulberry .dxfm-itemMask
+{
+	background-color: #cc5a76;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_Mulberry .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_Mulberry .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_Mulberry .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #cbcbcb;
+	text-align: right;
+	background-color: #fafafa;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_Mulberry .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #5e6d9d;
+    text-decoration: none;
+}
+.dxfmControl_Mulberry .dxpc-content .dxfm-mpButtonC a:hover
+{
+	color: #343434;
+    text-decoration: underline;
+}
+
+/* ASPxImageSlider */
+.dxisControl_Mulberry
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxisControl_Mulberry .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_Mulberry .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_Mulberry > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_Mulberry .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_Mulberry .dxis-slidePanel,
+.dxisControl_Mulberry .dxis-nbSlidePanel,
+.dxisControl_Mulberry .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_Mulberry .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_Mulberry .dxis-nbTop,
+.dxisControl_Mulberry .dxis-nbBottom,
+.dxisControl_Mulberry .dxis-nbLeft,
+.dxisControl_Mulberry .dxis-nbRight,
+.dxisControl_Mulberry .dxis-nbDotsBottom,
+.dxisControl_Mulberry .dxis-nbDotsTop,
+.dxisControl_Mulberry .dxis-nbDotsLeft,
+.dxisControl_Mulberry .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_Mulberry .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_Mulberry .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_Mulberry .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_Mulberry .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_Mulberry .dxis-nbDotsBottom,
+.dxisControl_Mulberry .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_Mulberry .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_Mulberry .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_Mulberry .dxis-nbLeft,
+.dxisControl_Mulberry .dxis-nbRight,
+.dxisControl_Mulberry .dxis-nbDotsLeft,
+.dxisControl_Mulberry .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_Mulberry .dxis-item,
+.dxisControl_Mulberry .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_Mulberry .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_Mulberry .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_Mulberry .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_Mulberry .dxis-item,
+.dxisControl_Mulberry .dxis-nbItem,
+.dxisControl_Mulberry .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_Mulberry .dxis-nbItem,
+.dxisControl_Mulberry .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_Mulberry .dxis-nbDotItemSelected,
+.dxisControl_Mulberry .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_Mulberry .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_Mulberry .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_Mulberry .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_Mulberry .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_Mulberry .dxis-prevBtnVertWrapper,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Mulberry .dxis-nextBtnVertWrapper,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Mulberry .dxis-prevBtnHorWrapper,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Mulberry .dxis-nextBtnHorWrapper,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_Mulberry .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_Mulberry .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_Mulberry .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_Mulberry .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_Mulberry .dxis-prevBtnHorWrapper,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_Mulberry .dxis-nextBtnHorWrapper,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_Mulberry .dxis-prevBtnVertWrapper,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_Mulberry .dxis-nextBtnVertWrapper,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_Mulberry > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_Mulberry > .dxis-passePartout > .dxis-nextBtnHorWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_Mulberry > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_Mulberry > .dxis-passePartout > .dxis-nextBtnVertWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_Mulberry .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_Mulberry .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_Mulberry .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_Mulberry .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_Mulberry > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_Mulberry > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_Mulberry > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_Mulberry > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_Mulberry > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_Mulberry > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_Mulberry > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_Mulberry > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_Mulberry > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Mulberry > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_Mulberry > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_Mulberry .dxis-prevPageBtnHor,
+.dxisControl_Mulberry .dxis-prevPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-nextPageBtnHor,
+.dxisControl_Mulberry .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_Mulberry .dxis-prevPageBtnVert,
+.dxisControl_Mulberry .dxis-prevPageBtnVertOutside,
+.dxisControl_Mulberry .dxis-nextPageBtnVert,
+.dxisControl_Mulberry .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_Mulberry .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Mulberry .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Mulberry .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Mulberry .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Mulberry .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Mulberry .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Mulberry .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Mulberry .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Mulberry .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Mulberry .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Mulberry .dxis-prevBtnVertPressed,
+.dxisControl_Mulberry .dxis-nextBtnVertPressed,
+.dxisControl_Mulberry .dxis-nextBtnHorPressed,
+.dxisControl_Mulberry .dxis-prevBtnHorPressed,
+.dxisControl_Mulberry .dxis-prevPageBtnVertPressed,
+.dxisControl_Mulberry .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_Mulberry .dxis-nextPageBtnVertPressed,
+.dxisControl_Mulberry .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_Mulberry .dxis-prevPageBtnHorPressed,
+.dxisControl_Mulberry .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_Mulberry .dxis-nextPageBtnHorPressed,
+.dxisControl_Mulberry .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_Mulberry .dxis-prevBtnVertDisabled,
+.dxisControl_Mulberry .dxis-nextBtnVertDisabled,
+.dxisControl_Mulberry .dxis-nextBtnHorDisabled,
+.dxisControl_Mulberry .dxis-prevBtnHorDisabled,
+.dxisControl_Mulberry .dxis-prevPageBtnVertDisabled,
+.dxisControl_Mulberry .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_Mulberry .dxis-nextPageBtnVertDisabled,
+.dxisControl_Mulberry .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_Mulberry .dxis-prevPageBtnHorDisabled,
+.dxisControl_Mulberry .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_Mulberry .dxis-nextPageBtnHorDisabled,
+.dxisControl_Mulberry .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_Mulberry .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Mulberry .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Mulberry .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Mulberry .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_Mulberry .dxis-nextPageBtnHorOutside,
+.dxisControl_Mulberry .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxigControl_Mulberry td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_Mulberry
+{
+	padding: 12px 6px;
+	border-bottom: 1px Solid #cbcbcb;
+	border-top: 1px Solid #cbcbcb;
+}
+.dxigEmptyData_Mulberry
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_Mulberry
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_Mulberry
+{
+    float: left;
+}
+.dxigItem_Mulberry
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_Mulberry a
+{
+    outline: 0;
+}
+.dxigItem_Mulberry a > img
+{
+    display: block;
+}
+.dxigPagerPanel_Mulberry
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.dxigItem_Mulberry .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_Mulberry .dxig-thumbnailWrapper,
+.dxigFlowItem_Mulberry
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.dxigControl_Mulberry .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_Mulberry .dxpcLite_Mulberry .dxpc-mainDiv,
+.dxigControl_Mulberry .dxpcLite_Mulberry .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_Mulberry .dxpcLite_Mulberry .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_Mulberry .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_Mulberry.dxTouchUI  .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_Mulberry.dxTouchUI .dxig-imageSliderWrapper
+{
+	padding: 0;
+}
+.dxigControl_Mulberry .dxig-imageSliderWrapper .dxisControl_Mulberry  .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_Mulberry .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_Mulberry .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxisControl_Mulberry
+{
+    position: relative;
+}
+.dxigControl_Mulberry .dxisControl_Mulberry > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbItemHover
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbSelectedItem > div,
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbItemHover > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_Mulberry .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_Mulberry .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_Mulberry .dxig-prevButtonArea,
+.dxigControl_Mulberry .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_Mulberry .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_Mulberry .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_Mulberry .dxig-prevButton,
+.dxigControl_Mulberry .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_Mulberry .dxig-prevButtonDisabled,
+.dxigControl_Mulberry .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_Mulberry .dxig-closeButtonWrapper,
+.dxigControl_Mulberry .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_Mulberry .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_Mulberry .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_Mulberry .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_Mulberry .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_Mulberry .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_Mulberry .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_Mulberry .dxisControl_Mulberry .dxis-nbBottom,
+.dxigControl_Mulberry .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigPagerShowMoreItemsContainer_Mulberry
+{
+    height: 58px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_Mulberry a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3F66A0;
+}
+.dxigPagerShowMoreItemsContainer_Mulberry  a:hover
+{
+	color: #F39128;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_Mulberry,
+.dxnbGroupHeader_Mulberry,
+.dxnbGroupHeaderCollapsed_Mulberry,
+.dxnbGroupContent_Mulberry > TABLE > TBODY > TR,
+.dxtcTab_Mulberry,
+.dxtcActiveTab_Mulberry,
+.dxtv-nd_Mulberry
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_Mulberry {
+    display: table;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	font-weight: inherit;
+	color: #343434;
+}
+
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Mulberry,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Mulberry * {
+    line-height: 16px;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 7px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_Mulberry { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 1px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Mulberry,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Mulberry,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Mulberry {
+    padding-top: 8px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Mulberry {
+    padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 8px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 9px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 17px;  }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 17px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 7px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 12px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 7px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 5px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_Mulberry { padding-top: 8px; }
+
+/* Firefox */
+.dxFirefox .dxflButtonItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+.dxFirefox .dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 2px;
+}
+.dxFirefox .dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Mulberry,
+.dxFirefox .dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Mulberry,
+.dxFirefox .dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Mulberry {
+    padding-top: 7px;
+}
+.dxFirefox .dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Mulberry {
+    padding-top: 0;
+}
+.dxFirefox .dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+
+/* Chrome */
+.dxWebKitFamily .dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 2px;
+}
+.dxWebKitFamily .dxflViewFormLayoutSys .dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+.dxWebKitFamily .dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+.dxWebKitFamily .dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 13px;
+}
+.dxWebKitFamily .dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 6px;
+}
+
+/* Safari */
+.dxflTextItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 1px;
+}
+.dxflListBoxItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 7px;
+}
+.dxflTrackBarItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 12px;
+}
+.dxflMemoItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 5px;
+}
+.dxflTextEditItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 7px;
+}
+.dxflCheckBoxItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 7px;
+}
+.dxflRadioButtonItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+.dxflCheckBoxListItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 16px;
+}
+.dxflRadioButtonListItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 16px;
+}
+.dxflProgressBarItemSys.dxflSafariItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 6px;
+}
+
+/* Opera */
+noindex:-o-prefocus, body:first-of-type .dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 2px;
+}
+noindex:-o-prefocus, body:first-of-type .dxflViewFormLayoutSys .dxflTextItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+noindex:-o-prefocus, body:first-of-type .dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 8px;
+}
+noindex:-o-prefocus, body:first-of-type .dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 13px;
+}
+noindex:-o-prefocus, body:first-of-type .dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Mulberry {
+    padding-top: 6px;
+}
+
+
+.dxflCLTSys .dxflCaptionCell_Mulberry,
+.dxflCLBSys .dxflCaptionCell_Mulberry {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_Mulberry,
+*[dir="rtl"].dxflFormLayout_Mulberry .dxflCLRSys .dxflCaptionCell_Mulberry {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_Mulberry,
+*[dir="rtl"].dxflFormLayout_Mulberry .dxflCLLSys .dxflCaptionCell_Mulberry {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_Mulberry {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_Mulberry {
+    line-height: 16px;
+}
+.dxflCaptionCell_Mulberry {
+    width: 1%;
+}
+td.dxflNestedControlCell_Mulberry {
+    height: 0;
+}
+
+.dxflCheckBoxItemSys.dxflItem_Mulberry .dxichCellSys.dxeBase_Mulberry
+{
+    padding-left: 1px;
+}
+*[dir="rtl"] .dxflCheckBoxItemSys.dxflItem_Mulberry .dxichCellSys.dxeBase_Mulberry
+{
+    padding-right: 1px;
+}
+
+.dxflEmptyItem_Mulberry {
+    height: 21px;
+}
+
+.dxflItem_Mulberry { width: 100%; }
+.dxflItem_Mulberry,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_Mulberry {
+     padding: 4px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_Mulberry {
+     padding-bottom: 10px;
+}
+.dxflItem_Mulberry > table.dxflItemTable_Mulberry { width: 100%; }
+.dxflGroup_Mulberry { padding: 6px 5px; width: 100%;}
+.dxflGroup_Mulberry > table.dxflGroupTable_Mulberry { width: 100%; }
+.dxflGroupCell_Mulberry { padding: 0 8px; }
+
+.dxflGroupBox_Mulberry { 
+	display: table;
+	border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #cbcbcb;
+    padding: 0 0 12px;
+    margin: 18px 0; 
+}
+.dxflGroupBox_Mulberry.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_Mulberry.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 36px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_Mulberry {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_Mulberry > .dxtcControl_Mulberry { margin: 0px; }
+
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry tr:first-child > .dxflGroupCell_Mulberry > .dxflItem_Mulberry,
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry > .dxflChildInFirstRowSys > .dxflGroupCell_Mulberry > .dxflItem_Mulberry { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry tr:first-child > .dxflGroupCell_Mulberry > .dxtcControl_Mulberry,
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry > .dxflChildInFirstRowSys > .dxflGroupCell_Mulberry > .dxtcControl_Mulberry {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry tr:last-child > .dxflGroupCell_Mulberry > .dxflItem_Mulberry,
+.dxflGroupBox_Mulberry > .dxflGroup_Mulberry > .dxflChildInLastRowSys > .dxflGroupCell_Mulberry > .dxflItem_Mulberry {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_Mulberry tr:first-child > .dxflGroupCell_Mulberry > .dxflGroupBox_Mulberry,
+.dxflGroup_Mulberry > .dxflChildInFirstRowSys > .dxflGroupCell_Mulberry > .dxflGroupBox_Mulberry {
+    margin-top: 13px;
+}
+
+.dxflGroup_Mulberry tr:last-child > .dxflGroupCell_Mulberry > .dxflGroupBox_Mulberry,
+.dxflGroup_Mulberry > .dxflChildInLastRowSys > .dxflGroupCell_Mulberry > .dxflGroupBox_Mulberry {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_Mulberry > div > .dxflGroup_Mulberry { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_Mulberry > div > .dxflGroup_Mulberry tr:first-child > .dxflGroupCell_Mulberry > .dxflItem_Mulberry,
+.dxtcPageContent_Mulberry > div > .dxflGroup_Mulberry > .dxflChildInFirstRowSys > .dxflGroupCell_Mulberry > .dxflItem_Mulberry {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_Mulberry > div > .dxflGroup_Mulberry tr:last-child > .dxflGroupCell_Mulberry > .dxflItem_Mulberry,
+.dxtcPageContent_Mulberry > div > .dxflGroup_Mulberry > .dxflChildInLastRowSys > .dxflGroupCell_Mulberry > .dxflItem_Mulberry {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_Mulberry 
+{
+    background-color: White;
+    color: #808080;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -12px;
+}
+
+.dxflGroupBox_Mulberry.dxflHeadingLineGroupBoxSys .dxflGroupBoxCaption_Mulberry
+{
+    top: -32px!important;
+}
+
+*[dir="rtl"].dxflFormLayout_Mulberry .dxflGroupBoxCaption_Mulberry {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_Mulberry > div.dxflGroup_Mulberry:first-child,
+.dxflGroupBox_Mulberry > table.dxflGroup_Mulberry:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_Mulberry {
+    top: -19px;
+}
+
+.dxflOptional_Mulberry {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_Mulberry {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_Mulberry {
+    width: 100%;
+}
+.dxflHelpText_Mulberry {
+    color: #9F9F9F;
+	font-size: 0.86em;
+}
+.dxflHelpText_Mulberry.dxflLHelpTextSys,
+.dxflHelpText_Mulberry.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_Mulberry.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_Mulberry.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+.dxflFormLayout_Mulberry .dxflCommandItemSys a {
+    margin: 0 5px 0 0;
+}
+
+/* Ribbon */
+.dxrControl_Mulberry {
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxrControl_Mulberry .dxr-tabContent {
+    border: 1px solid #CBCBCB;
+    border-top-width: 0;
+    height: 144px;
+    background: #ffffff;
+}
+.dxrControl_Mulberry.dxr-oneLineMode .dxr-tabContent {
+    height: 38px;
+}
+.dxrControl_Mulberry.dxr-grLabelsHidden .dxr-tabContent {
+    height: 110px;
+}
+.dxrControl_Mulberry.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_Mulberry, 
+.dxrControl_Mulberry a {
+    color: #343434;
+}
+
+.dxrControl_Mulberry .dxr-itemDisabled.dxr-item,
+.dxrControl_Mulberry .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_Mulberry .dxr-grExpBtn.dxr-grExpBtnDisabled,
+.dxrControl_Mulberry .dxr-grExpBtn.dxr-grExpBtnDisabled .dxr-img32,
+.dxrControl_Mulberry .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_Mulberry .dxr-itemDisabled a,
+.dxrControl_Mulberry .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #dddddd;
+}
+
+/* Ribbon Popup */
+.dxrControl_Mulberry .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_Mulberry .dxr-minPopup.dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_Mulberry .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #cfcfcf;
+}
+
+/* Ribbon Group List */
+.dxrControl_Mulberry .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_Mulberry .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_Mulberry .dxr-groupList .dxr-groupSep b {
+    display: block;
+    margin: 4px 0;
+    width: 1px;
+    height: 136px;
+    background: #cbcbcb;
+}
+
+.dxrControl_Mulberry.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 30px;
+}
+
+.dxrControl_Mulberry.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 102px;
+}
+
+/* Ribbon Groups */
+.dxrControl_Mulberry .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_Mulberry .dxr-groupContent {
+    height: 110px;
+}
+.dxrControl_Mulberry.dxr-oneLineMode .dxr-groupContent {
+    height: 38px;
+}
+.dxrControl_Mulberry .dxr-groupLabel {
+    text-align: center;
+    color: #7e7e7e;
+    line-height: 15px;
+    padding: 8px 6px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_Mulberry .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: -1px -7px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_Mulberry .dxr-grExpBtn,
+.dxrControl_Mulberry .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_Mulberry .dxr-grExpBtn {
+    height: 130px;
+    text-align: center;
+}
+.dxrControl_Mulberry .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_Mulberry .dxr-groupContent .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 2px 3px 1px 3px;
+    padding: 1px;
+    height: 26px;
+    white-space: nowrap;
+}
+.dxrControl_Mulberry .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_Mulberry .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 8px 3px 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_Mulberry .dxr-blRegItems .dxr-itemSep b {
+    height: 23px;
+    margin: 6px auto;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-itemSep b {
+    height: 92px;
+    margin: 8px auto;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #cbcbcb;
+    width: 1px;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-itemSep,
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+
+/* Ribbon Item */
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item {
+    height: 26px;
+    padding: 1px 1px;
+    margin-bottom: 3px;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item,
+.dxrControl_Mulberry .dxr-blSepItems .dxr-item,
+.dxrControl_Mulberry.dxr-grLabelsHidden .dxr-grExpBtn {
+    height: 106px;
+    text-align: center;
+    overflow: hidden;
+}
+.dxrControl_Mulberry .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 1px 2px;
+}
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item {
+    white-space: nowrap;
+    margin: 1px 0;
+}
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding: 2px 3px 0px 2px;
+}
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_Mulberry .dxr-grExpBtn .dxr-lblContent {
+    margin: 4px 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label {
+    border-top: 1px solid #CBCBCB;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #CBCBCB;
+}
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_Mulberry .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 13px 4px 12px;
+    margin: -8px 0 -5px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item .dxr-popOut {
+    margin: -5px 0 -5px;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_Mulberry .dxr-grExpBtn .dxr-popOut {
+    margin: 0 5px;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #CBCBCB;
+}
+.dxrControl_Mulberry .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #CBCBCB;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_Mulberry .dxr-item.dxr-edtItem {
+    height: 31px;
+    border: 0;
+    padding: 1px 0 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dxrControl_Mulberry .dxr-item.dxr-edtItem .dxeFocused_Mulberry
+{
+    outline: 0;
+}
+.dxrControl_Mulberry .dxr-item.dxr-edtItem .dxeBase_Mulberry .dxichCellSys,
+.dxrControl_Mulberry .dxr-item.dxr-edtItem .dxeBase_Mulberry.dxichCellSys
+{
+    padding: 3px 3px 1px;
+}
+.dxrControl_Mulberry .dxr-item.dxr-edtItem .dxr-label 
+{
+    padding-right: 3px;
+}
+/* Ribbon Item Types */
+.dxrControl_Mulberry .dxr-buttonItem {    
+    text-decoration: none;
+}
+.dxrControl_Mulberry .dxr-buttonItem,
+.dxrControl_Mulberry .dxr-grExpBtn,
+.dxrControl_Mulberry .dxr-olmGrExpBtn 
+{
+    border-radius: 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-top: 1px;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_Mulberry .dxr-grExpBtn
+ {
+    min-width: 70px;
+}
+.dxrControl_Mulberry .dxr-buttonItem.dxr-itemChecked {
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    color: #565656;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxrControl_Mulberry .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_Mulberry .dxr-grExpBtn.dxr-grExpBtnPressed,
+.dxrControl_Mulberry .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxrControl_Mulberry .dxr-buttonItem.dxr-itemHover,
+.dxrControl_Mulberry .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_Mulberry .dxr-olmGrExpBtn.dxr-itemHover {
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxrControl_Mulberry .dxr-img32,
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 11px auto 10px auto;
+}
+.dxrControl_Mulberry .dxr-img16,
+.dxrControl_Mulberry .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+}
+.dxrControl_Mulberry .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_Mulberry .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 5px;
+    position: relative;
+}
+
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -10px auto 6px auto;
+}
+
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_Mulberry .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_Mulberry .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_Mulberry .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_Mulberry .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_Mulberry .dxeColorTable_Mulberry {
+    border: none;
+}
+
+.dxrControl_Mulberry .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+
+	border: 1px solid Transparent;
+	padding: 1px;
+	margin: 0 2px 0 0;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxrControl_Mulberry .dxr-minBtnHover {
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxrControl_Mulberry .dxr-minBtnPressed {
+	border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxrControl_Mulberry .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-leftIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-spacer, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-rightIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-sbIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-sbSpacer
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #cbcbcb;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-leftIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-spacer, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-rightIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-sbIndent, 
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-sbSpacer {
+    padding-top: 0px;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab.dxtc-tabHover {
+    border-top-color: #cbcbcb;
+    border-left-color: #cbcbcb;
+    border-right-color: #cbcbcb;
+    background: white;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-activeTab {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab .dxtc-link {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-activeTab .dxtc-link {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxr-fileTab {
+    border-top-color: #cbcbcb;
+    border-left-color: #cbcbcb;
+    border-right-color: #cbcbcb;
+    background: #e5e5e5;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #BF4E6A;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtcLiteDisabled_Mulberry .dxtc-link {
+    color: #dddddd;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab.dxtc-tabHover.dxr-contextTab .dxtc-link,
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-activeTab.dxr-contextTab .dxtc-link {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-spacer {
+    width: 1px;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tab.dxr-contextTab {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.dxrControl_Mulberry .dxtcLite_Mulberry > .dxtc-stripContainer .dxtc-tab.dxtc-tabHover.dxr-contextTab {
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_Mulberry .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #cfcfcf;
+    background-color: white;
+}
+
+.dxrControl_Mulberry .dxr-glrBarContainer
+{
+    margin-right: 22px;
+    height: 104px;
+}
+
+.dxrControl_Mulberry .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_Mulberry .dxr-glrItem.dxr-itemHover,
+.dxrControl_Mulberry .dxr-glrBtnHover
+{
+    background: #F0F0F0;
+}
+
+.dxrControl_Mulberry .dxr-glrItem.dxr-itemChecked
+{
+    background: #D5D8E0;
+}
+
+.dxrControl_Mulberry .dxr-glrItem.dxr-itemPressed,
+.dxrControl_Mulberry .dxr-glrBtnPressed
+{
+    background: #d8d8d8;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+    background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+
+.dxrControl_Mulberry .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_Mulberry .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_Mulberry .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_Mulberry .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Mulberry .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Mulberry .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_Mulberry .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_Mulberry .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_Mulberry .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_Mulberry .dxr-glrGroup
+{
+    background: #fafafa;
+    font-weight: bold;
+    color: #343434;
+    padding: 3px;
+}
+
+.dxrControl_Mulberry .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_Mulberry .dxr-glrMainDiv > div
+{
+    font-size: 14px;
+}
+
+.dxrControl_Mulberry .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_Mulberry .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 35px;
+    border-left: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 0px;
+}
+
+.dxrControl_Mulberry .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -4px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_Mulberry .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_Mulberry .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 130px;
+}
+.dxrControl_Mulberry .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 2px 0 6px 0;
+    display: block;
+}
+.dxrControl_Mulberry .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 6px 0 0 0;
+    display: block;
+}
+
+/* ASPxImageZoom */
+.dxizControl_Mulberry {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_Mulberry .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Mulberry .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_Mulberry .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_Mulberry .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_Mulberry .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_Mulberry .dxiz-wrapper > img,
+.dxizControl_Mulberry .dxiz-clipPanel > img,
+.dxizControl_Mulberry .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_Mulberry .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_Mulberry .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_Mulberry .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_Mulberry .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_Mulberry .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Mulberry .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index:0;
+    position: absolute;
+}
+.dxizControl_Mulberry .dxiz-lens .dxiz-llp,
+.dxizControl_Mulberry .dxiz-lens .dxiz-lrp,
+.dxizControl_Mulberry .dxiz-lens .dxiz-ltp,
+.dxizControl_Mulberry .dxiz-lens .dxiz-lbp,
+.dxizControl_Mulberry .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_Mulberry .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_Mulberry .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_Mulberry .dxiz-lens.outside .dxiz-llp,
+.dxizControl_Mulberry .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_Mulberry .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_Mulberry .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_Mulberry .dxizLoadingPanel_Mulberry {
+    position: absolute;
+}
+
+.dxisControl_Mulberry.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_Mulberry
+{
+    background-color: #FFF;
+    padding: 3px;
+    border: 1px solid #CBCBCB;
+}
+.dxitcControl_Mulberry > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_Mulberry .dxitcItem
+{
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+}
+.dxitcControl_Mulberry .dxitcItemHover
+{
+    margin: 1px;
+    border: 2px solid #CBCBCB;
+}
+.dxitcCaption_Mulberry
+{
+    background-color: #FFF;
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    margin: 2px 4px 4px 4px;
+}

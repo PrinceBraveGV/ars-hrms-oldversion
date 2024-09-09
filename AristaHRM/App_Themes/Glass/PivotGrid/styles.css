@@ -1,0 +1,573 @@
+.dxpgControl_Glass, .dxpgCustForm_Glass
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: solid 1px #7EACB1;
+}
+.dxpgContainerCell_Glass
+{
+	vertical-align: top;
+}
+.dxpgMainTable_Glass
+{
+	color: Black;
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_Glass
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_Glass caption
+{	
+	background: white;
+    border-bottom: solid 1px #7EACB1;
+    padding: 3px 3px 4px;
+	font-weight: bold;	
+	text-align: center;	    
+}    
+.dxpgHeader_Glass
+{
+	border-width: 0px;
+	color: Black;
+	background-color: #DADFE0;
+	cursor: pointer;
+	white-space: nowrap;
+	font-weight: bold;
+	text-align: left;
+}
+.dxpgHeaderTable_Glass
+{
+	border: solid 1px #7EACB1;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_Glass,
+.dxpgCustFieldsDiv_Glass .dxpgHeaderTable_Glass
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_Glass
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_Glass
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+.dxpgHeaderSort_Glass
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_Glass
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_Glass
+{
+	background-color: #f1f1f1;
+	border-color: #58a9b4;
+}
+.dxpgArea_Glass, .dxpgArea_Glass table
+{
+	color: Black;
+	font-weight: bold;
+}
+.dxpgArea_Glass
+{
+	border: solid 1px #7EACB1;
+	background-color: #EDF3F4;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+.dxpgColumnArea_Glass
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_Glass
+{
+}
+.dxpgDataArea_Glass
+{
+}
+.dxpgFilterArea_Glass
+{
+	background-color: #DAE8EB;
+	color: Black;
+	border-bottom-style: solid;
+	font-weight: bold;
+}
+.dxpgEmptyArea_Glass
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_Glass
+{
+	background-color: #DFEAEC;
+	border: solid 1px #7EACB1;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_Glass
+{
+	background-color: #C7DEDF;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_Glass
+{
+	background-color: #9AC4C8;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_Glass
+{
+	background-color: #DFEAEC;
+	border: solid 1px #7EACB1;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 3px 6px 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_Glass
+{
+	background-color: #C7DEDF;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_Glass
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_Glass
+{
+	background-color: #9AC4C8;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 5px 6px 6px 6px;
+}
+.dxpgCollapsedButton_Glass
+{
+	vertical-align: -1px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_Glass
+{
+	vertical-align: 0px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_Glass
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border-color: #C2D8DA;
+	border-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+    padding-top:3px;
+    white-space: nowrap;
+}
+.dxpgKPICell_Glass
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_Glass
+{
+	background-color: #EDF3F4;
+}
+.dxpgGrandTotalCell_Glass
+{
+	background-color: #D8E6E8;
+}
+.dxpgFilterItem_Glass
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_Glass
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_Glass
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px #7EACB1;
+	background-color: #F4FAFB;
+}
+.dxpgBottomPager_Glass
+{
+	border-top: solid 1px #7EACB1;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background-color: #F4FAFB;
+}
+.dxpgTopPager_Glass,
+.dxpgBottomPager_Glass
+{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_Glass
+{
+	color: Black;
+}
+.dxpgCustomizationFieldsContent_Glass
+{
+	padding: 0px !important;
+}
+.dxpgMenuItem_Glass
+{
+}
+.dxpgControl_Glass .dxpgBottomPager_Glass
+{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color:#EEF2F5;
+}
+.dxpgControl_Glass .dxpgTopPager_Glass
+{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color:#EEF2F5;    
+}
+.dxpgLoadingPanel_Glass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #7EACB1;
+	background-color: White;
+}
+.dxpgLoadingPanel_Glass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxpgLoadingPanel_Glass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 27px;
+	width: 27px;
+}
+.dxpgDataHeadersImage_Glass
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+.dxpgPrefilterPanelContainer_Glass
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanelLink_Glass
+{
+	color: #2a769d;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanel_Glass
+{
+	border: none;
+	background: #d8e4e8;
+}
+.dxpgPrefilterPanelCheckBoxCell_Glass
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_Glass
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_Glass
+{
+	padding: 5px 6px 8px;
+}
+.dxpgPrefilterPanelExpressionCell_Glass
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_Glass
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_Glass
+{
+	border-top: solid 1px #c4d3de;
+	background: #D3E6F3;	
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_Glass
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_Glass,
+.dxpgCustFieldsRowAreaHeaders_Glass,
+.dxpgCustFieldsColumnAreaHeaders_Glass,
+.dxpgCustFieldsDataAreaHeaders_Glass,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_Glass,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_Glass
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_Glass
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_Glass
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_Glass
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_Glass .dxpgFLTextDiv_Glass,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_Glass .dxpgFLTextDiv_Glass
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_Glass
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_Glass .dxeBase_Glass,
+.TopPanelOnly .dxpgFLDefereDiv_Glass .dxpgFLDefereDB_Glass,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_Glass,
+.TopPanelOnly .dxpgFLFRDiv_Glass,
+.TopPanelOnly .dxpgFLCDDiv_Glass,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_Glass,
+.TopPanelOnly .dxpgFLTextDiv_Glass div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_Glass
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_Glass
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_Glass,
+.StackedSideBySide .dxpgCustFieldsFieldList_Glass
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_Glass
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_Glass,
+.StackedSideBySide .dxpgFLCDDiv_Glass
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_Glass
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_Glass > div
+{
+    border:1px solid #7EACB1;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_Glass > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_Glass > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_Glass
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_Glass .dxbButton_Glass div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_Glass .dxbButton_Glass div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_Glass
+{
+ height:28px;
+}
+.dxpgFLTextDiv_Glass div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_Glass
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_Glass
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_Glass
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_Glass
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_Glass
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_Glass .dxeBase_Glass
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:17px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgFLDefereDB_Glass
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_Glass .dxbButton_Glass div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_Glass .dxbButton_Glass div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_Glass table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_Glass table table td
+{
+     overflow:hidden; 
+}
+.dxpgCustForm_Glass
+{
+ background:#EDF3F4;
+}
+
+.dxpgVScrollBarAreaCell_Glass {
+    background-color: #DFEAEC;
+    border-left: 1px solid #7EACB1;
+    border-bottom: 1px solid #7EACB1;
+}
+.dxpgHScrollBarAreaCell_Glass {
+    background-color: #DFEAEC;
+    border-top: 1px solid #7EACB1;
+    border-right: 1px solid #7EACB1;
+}
+.dxpgScrollBarEdgeCell_Glass {
+    background-color: #EDF3F4;
+    border-left: 1px solid #7EACB1;
+    border-top: 1px solid #7EACB1;
+}

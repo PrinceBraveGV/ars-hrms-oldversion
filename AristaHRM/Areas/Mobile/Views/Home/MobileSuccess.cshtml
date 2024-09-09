@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Login Sukses";
+    Layout = "~/Areas/Mobile/Views/Shared/_redirectMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">Login Sukses</li>
+
+        <li data-role="fieldcontain" style="text-align:center">
+            <h2>Proses login berhasil. <br />Tap "Kembali" untuk mengakses menu utama.</h2>
+        </li>
+    </ul>
+
+    <div data-role="footer" style="text-align:center">@Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { hidefocus = "hidefocus", data_ajax = "false" })</div>
+}
+
+

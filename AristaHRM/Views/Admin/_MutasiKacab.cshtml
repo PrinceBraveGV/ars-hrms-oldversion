@@ -1,0 +1,54 @@
+﻿@using AristaHRM.Models
+
+@model MutasiKCBModel
+
+@{
+    for (int i = 0; i < 5; i++)
+    {
+        int j = i + 1;
+        Html.DevExpress().FormLayout(set =>
+        {
+            set.Name = "LayoutNama" + i;
+            set.Style.Add("float", "left");
+            set.Items.Add(item =>
+            {
+                item.Caption = "(" + j.ToString() + ") " + "Nama Karyawan ";
+                item.SetNestedContent(() =>
+                {
+                    Html.DevExpress().ComboBoxFor(m => m.ListKaryawan[i].NIK, combo =>
+                    {
+                        combo.Width = Unit.Pixel(230);
+                        combo.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                        combo.Properties.TextField = "Nama_Karyawan";
+                        combo.Properties.ValueField = "NIK";
+                        combo.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                        combo.Properties.ClientSideEvents.SelectedIndexChanged = "onNamaChanged";
+                    }).BindList(Providers.GetKepalaCabang(Model.Perusahaan)).GetHtml();
+                });
+            });
+        }).GetHtml();
+
+        Html.DevExpress().FormLayout(set =>
+        {
+            set.Name = "LayoutCabang" + i;
+            set.Style.Add("float", "right");
+            set.Items.Add(item =>
+            {
+                item.Caption = "Cabang ";
+                item.SetNestedContent(() =>
+                {
+                    Html.DevExpress().ComboBoxFor(m => m.ListCabang[i].Nama_Cabang, combo =>
+                    {
+                        combo.Width = Unit.Pixel(200);
+                        combo.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                        combo.Properties.TextField = "Nama_Cabang";
+                        combo.Properties.ValueField = "Nama_Cabang";
+                        combo.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                        combo.Properties.ClientSideEvents.SelectedIndexChanged = "onCabangChanged";
+                        combo.Style.Add("float", "right");
+                    }).BindList(Providers.GetCabangByPerusahaan(Model.Perusahaan)).GetHtml();
+                });
+            });
+        }).GetHtml();
+    }
+}

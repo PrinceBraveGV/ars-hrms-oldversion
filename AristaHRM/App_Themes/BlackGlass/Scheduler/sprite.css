@@ -1,0 +1,776 @@
+.dxScheduler_Appointment_DayClock_BlackGlass,
+.dxScheduler_Appointment_EndArrow_BlackGlass,
+.dxScheduler_Appointment_NightClock_BlackGlass,
+.dxScheduler_Appointment_NoRecurrence_BlackGlass,
+.dxScheduler_Appointment_Recurrence_BlackGlass,
+.dxScheduler_Appointment_Reminder_BlackGlass,
+.dxScheduler_Appointment_StartArrow_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_00_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_05_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_10_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_15_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_20_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_25_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_30_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_35_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_40_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_45_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_50_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_hour_55_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_00_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_05_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_10_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_15_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_20_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_25_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_30_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_35_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_40_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_45_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_50_BlackGlass,
+.dxScheduler_AppointmentClockArrows_day_minute_55_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_00_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_05_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_10_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_15_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_20_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_25_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_30_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_35_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_40_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_45_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_50_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_hour_55_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_00_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_05_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_10_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_15_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_20_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_25_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_30_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_35_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_40_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_45_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_50_BlackGlass,
+.dxScheduler_AppointmentClockArrows_night_minute_55_BlackGlass,
+.dxScheduler_InplaceEditor_Cancel_BlackGlass,
+.dxScheduler_InplaceEditor_EditForm_BlackGlass,
+.dxScheduler_InplaceEditor_Save_BlackGlass,
+.dxScheduler_Menu_Delete_BlackGlass,
+.dxScheduler_Menu_GoToDate_BlackGlass,
+.dxScheduler_Menu_NewAppointment_BlackGlass,
+.dxScheduler_Menu_RecurringAppointment_BlackGlass,
+.dxScheduler_MoreButton_Bottom_BlackGlass,
+.dxScheduler_MoreButton_BottomHover_BlackGlass,
+.dxScheduler_MoreButton_Top_BlackGlass,
+.dxScheduler_MoreButton_TopHover_BlackGlass,
+.dxScheduler_NavigationButton_Backward_BlackGlass,
+.dxScheduler_NavigationButton_BackwardDisabled_BlackGlass,
+.dxScheduler_NavigationButton_BackwardHover_BlackGlass,
+.dxScheduler_NavigationButton_Forward_BlackGlass,
+.dxScheduler_NavigationButton_ForwardDisabled_BlackGlass,
+.dxScheduler_NavigationButton_ForwardHover_BlackGlass,
+.dxScheduler_ResourceNavigator_Decrease_BlackGlass,
+.dxScheduler_ResourceNavigator_DecreaseDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_DecreaseHover_BlackGlass,
+.dxScheduler_ResourceNavigator_First_BlackGlass,
+.dxScheduler_ResourceNavigator_FirstDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_FirstHover_BlackGlass,
+.dxScheduler_ResourceNavigator_Increase_BlackGlass,
+.dxScheduler_ResourceNavigator_IncreaseDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_IncreaseHover_BlackGlass,
+.dxScheduler_ResourceNavigator_Last_BlackGlass,
+.dxScheduler_ResourceNavigator_LastDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_LastHover_BlackGlass,
+.dxScheduler_ResourceNavigator_Next_BlackGlass,
+.dxScheduler_ResourceNavigator_NextDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_NextHover_BlackGlass,
+.dxScheduler_ResourceNavigator_NextPage_BlackGlass,
+.dxScheduler_ResourceNavigator_NextPageDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_NextPageHover_BlackGlass,
+.dxScheduler_ResourceNavigator_Prev_BlackGlass,
+.dxScheduler_ResourceNavigator_PrevDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_PrevHover_BlackGlass,
+.dxScheduler_ResourceNavigator_PrevPage_BlackGlass,
+.dxScheduler_ResourceNavigator_PrevPageDisabled_BlackGlass,
+.dxScheduler_ResourceNavigator_PrevPageHover_BlackGlass,
+.dxScheduler_SmartTag_BlackGlass,
+.dxScheduler_StatusInfo_Error_BlackGlass,
+.dxScheduler_StatusInfo_Info_BlackGlass,
+.dxScheduler_StatusInfo_Warning_BlackGlass,
+.dxScheduler_TimeMarker_BlackGlass,
+.dxScheduler_Tooltip_BottomLeft_BlackGlass,
+.dxScheduler_Tooltip_BottomRight_BlackGlass,
+.dxScheduler_Tooltip_BottomStem_BlackGlass,
+.dxScheduler_Tooltip_Empty_BlackGlass,
+.dxScheduler_Tooltip_TopLeft_BlackGlass,
+.dxScheduler_Tooltip_TopRight_BlackGlass,
+.dxScheduler_ViewNavigator_Backward_BlackGlass,
+.dxScheduler_ViewNavigator_Down_BlackGlass,
+.dxScheduler_ViewNavigator_Forward_BlackGlass
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxScheduler_Appointment_DayClock_BlackGlass
+{
+    background-position: -96px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_EndArrow_BlackGlass
+{
+    background-position: -16px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NightClock_BlackGlass
+{
+    background-position: -176px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NoRecurrence_BlackGlass
+{
+    background-position: 0px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Recurrence_BlackGlass
+{
+    background-position: -224px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Reminder_BlackGlass
+{
+    background-position: -256px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_StartArrow_BlackGlass
+{
+    background-position: -144px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_00_BlackGlass
+{
+    background-position: -80px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_05_BlackGlass
+{
+    background-position: -192px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_10_BlackGlass
+{
+    background-position: -225px -92px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_15_BlackGlass
+{
+    background-position: -128px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_20_BlackGlass
+{
+    background-position: -32px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_25_BlackGlass
+{
+    background-position: -176px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_30_BlackGlass
+{
+    background-position: -160px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_35_BlackGlass
+{
+    background-position: -208px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_40_BlackGlass
+{
+    background-position: -48px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_45_BlackGlass
+{
+    background-position: -48px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_50_BlackGlass
+{
+    background-position: -64px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_55_BlackGlass
+{
+    background-position: -96px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_00_BlackGlass
+{
+    background-position: -128px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_05_BlackGlass
+{
+    background-position: -64px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_10_BlackGlass
+{
+    background-position: -224px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_15_BlackGlass
+{
+    background-position: -112px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_20_BlackGlass
+{
+    background-position: -256px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_25_BlackGlass
+{
+    background-position: -209px -92px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_30_BlackGlass
+{
+    background-position: -240px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_35_BlackGlass
+{
+    background-position: -96px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_40_BlackGlass
+{
+    background-position: -208px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_45_BlackGlass
+{
+    background-position: -257px -92px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_50_BlackGlass
+{
+    background-position: -224px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_55_BlackGlass
+{
+    background-position: 0px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_00_BlackGlass
+{
+    background-position: -253px -19px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_05_BlackGlass
+{
+    background-position: -80px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_10_BlackGlass
+{
+    background-position: -16px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_15_BlackGlass
+{
+    background-position: 0px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_20_BlackGlass
+{
+    background-position: -176px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_25_BlackGlass
+{
+    background-position: -112px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_30_BlackGlass
+{
+    background-position: -192px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_35_BlackGlass
+{
+    background-position: -160px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_40_BlackGlass
+{
+    background-position: -192px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_45_BlackGlass
+{
+    background-position: -32px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_50_BlackGlass
+{
+    background-position: -112px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_55_BlackGlass
+{
+    background-position: -240px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_00_BlackGlass
+{
+    background-position: -144px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_05_BlackGlass
+{
+    background-position: -80px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_10_BlackGlass
+{
+    background-position: -144px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_15_BlackGlass
+{
+    background-position: -208px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_20_BlackGlass
+{
+    background-position: -64px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_25_BlackGlass
+{
+    background-position: -48px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_30_BlackGlass
+{
+    background-position: -32px -111px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_35_BlackGlass
+{
+    background-position: -128px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_40_BlackGlass
+{
+    background-position: -241px -92px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_45_BlackGlass
+{
+    background-position: -240px -127px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_50_BlackGlass
+{
+    background-position: -160px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_55_BlackGlass
+{
+    background-position: -16px -143px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_InplaceEditor_Cancel_BlackGlass
+{
+    background-position: -228px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_EditForm_BlackGlass
+{
+    background-position: -188px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_Save_BlackGlass
+{
+    background-position: -208px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_Menu_Delete_BlackGlass
+{
+    background-position: -192px -92px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_GoToDate_BlackGlass
+{
+    background-position: -158px -92px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_NewAppointment_BlackGlass
+{
+    background-position: -141px -92px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_RecurringAppointment_BlackGlass
+{
+    background-position: -175px -92px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_MoreButton_Bottom_BlackGlass
+{
+    background-position: -140px -73px;
+    width: 21px;
+    height: 18px;
+}
+.dxScheduler_MoreButton_BottomHover_BlackGlass
+{
+    background-position: -162px -73px;
+    width: 21px;
+    height: 18px;
+}
+.dxScheduler_MoreButton_Top_BlackGlass
+{
+    background-position: -96px -73px;
+    width: 21px;
+    height: 18px;
+}
+.dxScheduler_MoreButton_TopHover_BlackGlass
+{
+    background-position: -118px -73px;
+    width: 21px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_Backward_BlackGlass
+{
+    background-position: 0px -54px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_BackwardDisabled_BlackGlass
+{
+    background-position: -56px -54px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_BackwardHover_BlackGlass
+{
+    background-position: -245px -35px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_Forward_BlackGlass
+{
+    background-position: -217px -35px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_ForwardDisabled_BlackGlass
+{
+    background-position: -28px -54px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_NavigationButton_ForwardHover_BlackGlass
+{
+    background-position: -189px -35px;
+    width: 27px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Decrease_BlackGlass
+{
+    background-position: -205px -73px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_DecreaseDisabled_BlackGlass
+{
+    background-position: -247px -73px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_DecreaseHover_BlackGlass
+{
+    background-position: -252px -54px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_First_BlackGlass
+{
+    background-position: -84px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_FirstDisabled_BlackGlass
+{
+    background-position: -248px 0px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_FirstHover_BlackGlass
+{
+    background-position: -24px -73px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Increase_BlackGlass
+{
+    background-position: -226px -73px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_IncreaseDisabled_BlackGlass
+{
+    background-position: -184px -73px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_IncreaseHover_BlackGlass
+{
+    background-position: 0px -92px;
+    width: 20px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Last_BlackGlass
+{
+    background-position: -180px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_LastDisabled_BlackGlass
+{
+    background-position: -108px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_LastHover_BlackGlass
+{
+    background-position: -228px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Next_BlackGlass
+{
+    background-position: -61px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_NextDisabled_BlackGlass
+{
+    background-position: -101px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_NextHover_BlackGlass
+{
+    background-position: -41px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_NextPage_BlackGlass
+{
+    background-position: -72px -73px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_NextPageDisabled_BlackGlass
+{
+    background-position: 0px -73px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_NextPageHover_BlackGlass
+{
+    background-position: -204px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Prev_BlackGlass
+{
+    background-position: -121px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_PrevDisabled_BlackGlass
+{
+    background-position: -81px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_PrevHover_BlackGlass
+{
+    background-position: -21px -92px;
+    width: 19px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_PrevPage_BlackGlass
+{
+    background-position: -132px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_PrevPageDisabled_BlackGlass
+{
+    background-position: -48px -73px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_PrevPageHover_BlackGlass
+{
+    background-position: -156px -54px;
+    width: 23px;
+    height: 18px;
+}
+.dxScheduler_SmartTag_BlackGlass
+{
+    background-position: -203px -24px;
+    width: 17px;
+    height: 10px;
+}
+.dxScheduler_StatusInfo_Error_BlackGlass
+{
+    background-position: -90px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Info_BlackGlass
+{
+    background-position: -41px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Warning_BlackGlass
+{
+    background-position: -139px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_TimeMarker_BlackGlass
+{
+    background-position: -188px -21px;
+    width: 14px;
+    height: 13px;
+}
+.dxScheduler_Tooltip_BottomLeft_BlackGlass
+{
+    background-position: -229px -27px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomRight_BlackGlass
+{
+    background-position: -256px -143px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomStem_BlackGlass
+{
+    background-position: 0px 0px;
+    width: 40px;
+    height: 53px;
+}
+.dxScheduler_Tooltip_Empty_BlackGlass
+{
+    background-position: -187px -52px;
+    width: 1px;
+    height: 1px;
+}
+.dxScheduler_Tooltip_TopLeft_BlackGlass
+{
+    background-position: -237px -27px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_TopRight_BlackGlass
+{
+    background-position: -245px -27px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_ViewNavigator_Backward_BlackGlass
+{
+    background-position: -268px -73px;
+    width: 4px;
+    height: 7px;
+}
+.dxScheduler_ViewNavigator_Down_BlackGlass
+{
+    background-position: -221px -27px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_ViewNavigator_Forward_BlackGlass
+{
+    background-position: -248px -19px;
+    width: 4px;
+    height: 7px;
+}
+

@@ -1,0 +1,4861 @@
+/* -- CheckBox -- */
+.dxICBFocused_Office2010Black
+{
+    outline: 1px dotted #dac11e;
+}
+.dxICheckBox_Office2010Black 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	color: #6c6c6c;
+	background: White none;
+}
+.dxccControl_Office2010Black a
+{
+	text-decoration: none!important;
+	color: #6c6c6c;
+}
+.dxccControl_Office2010Black a:hover
+{
+	text-decoration: underline!important;
+}
+.dxccControl_Office2010Black .dxccBEText
+{
+    color: #868686;
+}
+/* Disabled */
+.dxccDisabled_Office2010Black,
+.dxccDisabled_Office2010Black span.dxccValue,
+.dxccDisabled_Office2010Black span.dxccBEText
+{
+	color: #c2c2c2;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_Office2010Black 
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #3c3c3c;
+}
+.dxdvControl_Office2010Black td.dxdvCtrl
+{
+	padding: 0;
+}
+.dxdvContent_Office2010Black
+{
+	background: #f5f5f5 none;
+	padding: 21px;
+	border: 1px solid #6a6a6a;
+	border-right: 0;
+	border-left: 0;
+}
+.dxdvItem_Office2010Black,
+.dxdvFlowItem_Office2010Black
+{
+	border: 1px solid #a7abb0;
+	background: #cecece none;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_Office2010Black
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_Office2010Black 
+{
+}
+.dxdvEmptyItem_Office2010Black
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_Office2010Black
+{
+	padding: 4px 9px;
+	background: #7b7c7c url('dvPagerPanelBack.png') repeat-x left top;
+}
+.dxdvEmptyData_Office2010Black
+{
+	color: Black;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_Office2010Black
+{
+    height: 40px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_Office2010Black a
+{
+	display: block;
+	padding-top: 12px;
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxdvPagerShowMoreItemsContainer_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+/* Disabled */
+.dxdvDisabled_Office2010Black
+{
+	color: #c7cacf;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_Office2010Black 
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+}
+.dxhlControl_Office2010Black a
+{
+	color: #426998;
+	text-decoration: none;
+} 
+.dxhlControl_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+.dxhlContent_Office2010Black
+{
+	padding-left: 2px;
+    line-height: 121%;
+} 
+
+.dxhlDate_Office2010Black
+{
+	font-size: 1.36em;
+	color: #3c3c3c;
+	white-space: nowrap;
+}
+.dxhlHeader_Office2010Black
+{
+	font-size: 1.36em;
+	color: #3c3c3c;
+	padding: 1px 1px 6px;
+}
+
+.dxhlDateHeader_Office2010Black
+{
+	color: Gray;
+	font-weight: normal;
+}
+.dxhlLeftPanel_Office2010Black,
+.dxhlRightPanel_Office2010Black
+{
+    padding: 3px 0;
+}
+.dxhlDateLeftPanel_Office2010Black,
+.dxhlDateRightPanel_Office2010Black
+{
+	color: Gray;
+    padding: 2px 0;
+	white-space: nowrap;
+}
+.dxhlTail_Office2010Black
+{
+	color: #6289b8;
+}
+.dxhlTailDiv_Office2010Black
+{
+}
+/* Disabled */
+.dxhlDisabled_Office2010Black,
+.dxhlDisabled_Office2010Black a,
+.dxhlDisabled_Office2010Black a:hover
+{
+	color: #c7cacf;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_Office2010Black,
+.dxlpLoadingPanelWithContent_Office2010Black
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxlpLoadingPanel_Office2010Black td.dx,
+.dxlpLoadingPanelWithContent_Office2010Black td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxlpLoadingPanel_Office2010Black .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_Office2010Black .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+.dxlpControl_Office2010Black.dxlpLoadingDiv_Office2010Black
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+}
+.dxmLite_Office2010Black .dxm-main 
+{
+	background: #a2a1a1 url('mItemBack.png') repeat-x left top;
+	border: 1px solid #6a6a6a;
+	padding: 0;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-item
+{
+	background: #a2a1a1 url('mItemBack.png') repeat-x left top;
+}
+
+.dxmLite_Office2010Black .dxm-vertical 
+{
+	width: 150px;
+	padding: 0;
+}
+
+.dxmLite_Office2010Black .dxm-popup 
+{
+	background-color: White;
+	border: 1px solid #8e9296;
+	padding: 1px;
+}
+
+.dxmBrdCor_Office2010Black
+{
+	background-color: white;
+}
+
+.dxmLite_Office2010Black .dxm-popup .dxm-gutter
+{
+	background-image: url('mSubItemGutterBack.png');
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter
+{
+	background-image: url('mSubItemRtlGutterBack.png');
+}
+
+.dxmLite_Office2010Black .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_Office2010Black .dxm-image-t .dxm-item,
+.dxmLite_Office2010Black .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_Office2010Black .dxm-content 
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_Office2010Black,
+.dxmLite_Office2010Black .dxm-item a.dx
+{
+	color: Black;
+}
+.dxmLite_Office2010Black .dxm-disabled,
+.dxmLite_Office2010Black .dxm-disabled a.dx
+{
+	color: #5e5e5e;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-disabled,
+.dxmLite_Office2010Black .dxm-popup .dxm-disabled a.dx
+{
+	color: #989898;
+}
+.dxmLite_Office2010Black .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+.dxmLite_Office2010Black .dxm-item
+{
+	border-width: 0px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popOut,
+.dxmLite_Office2010Black.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-image-r .dxm-popOut,
+.dxmLite_Office2010Black.dxm-rtl .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_Office2010Black .dxm-item,
+.dxmLite_Office2010Black .dxm-popOut
+{
+	border-color: Transparent;
+	border-style: solid;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_Office2010Black .dxm-popup .dxm-selected,
+.dxmLite_Office2010Black .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Office2010Black .dxm-main .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-color: #c2762b;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-hovered
+{
+	border-width: 1px;
+	padding: 0;
+}
+.dxmLite_Office2010Black .dxm-main .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #a9a8aa;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-hovered,
+.dxmLite_Office2010Black .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut 
+{
+	border-color: #f2ca58;
+}
+.dxmLite_Office2010Black .dxm-main .dxm-checked,
+.dxmLite_Office2010Black .dxm-main .dxm-selected
+{
+	background: #fddc7f url('mItemSBack.png') repeat-x left top;
+}
+.dxmLite_Office2010Black .dxm-main .dxm-hovered 
+{
+	background: #fcf9df url('mItemHBack.png') repeat-x left top;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-selected 
+{
+	background: #fddc7f url('mItemSBack.png') repeat-x left top;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-hovered 
+{
+	background: #fcf9df url('mSubItemHBack.png') repeat-x left top;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #f2cd57;
+    outline: 1px solid #efbd45;
+    background-color: #f2cd57;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_Office2010Black
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 12px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 12px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content 
+{
+	padding-right: 9px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 9px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 9px;
+	padding-right: 12px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 10px;
+	padding-right: 11px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 10px;
+}
+
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 19px 4px 8px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-content
+{
+	padding: 3px 12px 3px 6px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-gutter.dxm-noImages .dxm-content,
+.dxmLite_Office2010Black .dxm-popup .dxm-gutter .dxm-noImage .dxm-content
+{
+    padding-left: 2px;
+    padding-right: 18px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-gutter.dxm-noImages .dxm-subMenu .dxm-content,
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-gutter .dxm-subMenu .dxm-content
+{
+    padding-right: 9px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Office2010Black.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 8px 4px 12px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 6px 3px 12px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-content,
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter .dxm-noImage .dxm-content
+{
+    padding-left: 18px;
+    padding-right: 2px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-subMenu .dxm-content,
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter .dxm-subMenu .dxm-content
+{
+    padding-left: 9px;
+}
+
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content 
+{
+	padding-right: 5px;
+	padding-left: 7px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 10px;
+}
+
+/* Image */
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 4px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 4px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-image,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-image
+{
+    margin-top: -1px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 7px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 7px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 18px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 18px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 17px -1px -1px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+	margin: -1px -1px -1px 17px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Office2010Black
+{
+    margin: 1px 21px 2px 0px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Office2010Black
+{
+	margin: 1px 0px 2px 21px;
+}
+
+/* Image replacement */
+.dxmLite_Office2010Black.dxm-ltr .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_Office2010Black.dxm-ltr .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content  
+{
+	padding-left: 7px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_Office2010Black.dxm-rtl .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content  
+{
+	padding-right: 7px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 22px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-noImage.dxm-hovered
+{
+	padding-left: 22px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 22px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-noImage 
+{
+	padding-left: 38px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-noImage 
+{
+	padding-right: 38px;
+}
+
+/* PopOut */
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut 
+{
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-popOut 
+{
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}  
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2010Black .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 11px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2010Black.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 8px;
+}
+
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-popOut
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-left: 8px;
+	padding-right: 9px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-dropDownMode .dxm-popOut,
+.dxmLite_Office2010Black .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-popOut 
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-left: 8px;
+}
+
+/* PopOut replacement */
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 19px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-noSubMenu 
+{
+	padding-left: 16px;
+}
+
+/* Spacings, Separator */
+.dxmLite_Office2010Black .dxm-horizontal .dxm-spacing
+{
+	width: 2px;
+    min-width: 2px;
+	height: 1px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-spacing,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-spacing,
+.dxmLite_Office2010Black .dxm-popup .dxm-spacing 
+{
+	height: 1px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-spacing,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-spacing 
+{
+	height: 2px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-separator
+{
+	padding: 0;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-l .dxm-separator,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-r .dxm-separator,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-t .dxm-separator,
+.dxmLite_Office2010Black .dxm-vertical .dxm-image-b .dxm-separator
+{
+	padding: 0;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-separator 
+{
+	padding: 1px;
+}
+.dxmLite_Office2010Black .dxm-horizontal .dxm-separator b
+{
+	background: #838383;
+	height: 100%;
+	width: 1px;
+}
+.dxmLite_Office2010Black .dxm-vertical .dxm-separator b
+{
+	background: #898989 none;
+	height: 1px;
+}
+.dxmLite_Office2010Black .dxm-popup .dxm-separator b
+{
+	background: url('mSubItemSepBack.gif') repeat-x left top;
+	height: 1px;
+}
+
+.dxmLite_Office2010Black.dxm-ltr .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-left: 39px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-right: 39px;
+}
+/* Scroll elements */
+.dxmLite_Office2010Black .dxm-scrollUpBtn,
+.dxmLite_Office2010Black .dxm-scrollDownBtn
+{
+	border: 1px solid #6a6a6a;
+	background: #a2a1a3 url('mScrollBack.png') repeat-x left top;
+	padding: 2px;
+	text-align: center;
+}
+.dxmLite_Office2010Black .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_Office2010Black .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_Office2010Black .dxm-scrollBtnHovered
+{
+	border: 1px solid #eac656;
+	background: #fcf9df url('mScrollHBack.png') repeat-x left top;
+}
+.dxmLite_Office2010Black .dxm-scrollBtnPressed
+{
+	border: 1px solid #c28737;
+	background: #fddd81 none;
+}
+.dxmLite_Office2010Black .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_Office2010Black .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_Office2010Black .dxm-main.dxmtb
+{
+	padding: 1px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-item
+{
+	border: 0 solid #838383;
+	padding: 1px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-item.dxm-hovered,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-item.dxm-selected,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-item.dxm-checked
+{
+	border-width: 1px;
+	padding: 0;
+}
+/* has image */
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 4px 3px;
+}
+
+/* no image */
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 4px 3px;
+}
+
+/* dd has image */
+/* dd no image */
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 4px 4px 3px;
+}
+
+.dxmLite_Office2010Black.dxm-ltr .dxmtb.dxm-popup .dxm-content
+{
+    padding-left: 6px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxmtb.dxm-popup .dxm-content
+{
+    padding-right: 6px;
+}
+
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-popOut,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding: 9px 3px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxmtb.dxm-popup .dxm-image
+{
+	margin-right: 17px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxmtb.dxm-popup .dxm-image
+{
+	margin-left: 17px;
+}
+.dxmLite_Office2010Black.dxm-ltr .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2010Black.dxm-ltr .dxmtb.dxm-popup .dxm-noImage 
+{
+	padding-left: 33px;
+}
+.dxmLite_Office2010Black.dxm-rtl .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2010Black.dxm-rtl .dxmtb.dxm-popup .dxm-noImage 
+{
+	padding-right: 33px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-spacing
+{
+	width: 1px;
+    min-width: 1px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-l .dxm-separator,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-r .dxm-separator
+{
+	padding: 3px 1px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-t .dxm-separator,
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-image-b .dxm-separator 
+{
+	padding: 5px 1px;
+}
+.dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-separator b
+{
+	width: 1px;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxmLite_Office2010Black .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+	padding: 2px 2px 1px !important;
+}
+.dxmLite_Office2010Black .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 7px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_Office2010Black,
+.menuLinks_Office2010Black .dxm-item,
+.menuLinks_Office2010Black .dxm-hovered,
+.menuLinks_Office2010Black .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+
+.menuLinks_Office2010Black .dxm-popOut
+{
+    border-style: none !important;
+}
+.menuLinks_Office2010Black.dxm-horizontal .dxm-item.dxm-hovered
+{
+    padding:1px!important;
+}
+
+.menuLinks_Office2010Black .dxm-item a.dx > span
+{
+    color: #6289b8;
+    text-decoration: underline;
+}
+
+.menuLinks_Office2010Black .dxm-hovered a.dx > span
+{
+    text-decoration: underline !important;
+}
+
+.menuButtons_Office2010Black,
+.menuButtons_Office2010Black .dxm-tmpl
+{
+    color: #3c3c3c;
+    background: none !important;
+}
+
+.menuButtons_Office2010Black .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_Office2010Black .dxm-content
+{
+    padding: 2px 8px 1px 8px !important;
+    height:16px!important;
+}
+
+.menuButtons_Office2010Black .dxm-item
+{
+    border: 1px solid #6a6a6a !important;
+    background: #a09fa0 url('../Editors/edtBtnBack.png') repeat-x left top;
+    padding: 0px !important;
+}
+
+.menuButtons_Office2010Black .dxm-item.dxm-hovered
+{
+    background: #fcf8e5 url('../Editors/edtBtnHBack.png') repeat-x left top;
+    border: 1px solid #eac656;
+}
+
+.menuButtons_Office2010Black .dxm-item.dxm-tmpl
+{
+    border-color: transparent !important;
+}
+
+.menuButtons_Office2010Black .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+} 
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_Office2010Black 
+{
+	color: Black;
+	background-color: White;
+	font: 11px Verdana, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_Office2010Black a
+{
+	color: Black;
+	text-decoration: none;
+}
+.dxnbLite_Office2010Black .dxnb-header a,
+.dxnbLite_Office2010Black .dxnb-headerCollapsed a
+{
+	color: White;
+	text-decoration: none;
+}
+.dxnbLite_Office2010Black .dxnb-header a:hover,
+.dxnbLite_Office2010Black .dxnb-headerCollapsed a:hover
+{
+	text-decoration: underline;
+}
+.dxnbLite_Office2010Black .dxnb-gr 
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_Office2010Black.dxnb-noHeads .dxnb-gr
+{
+	margin-bottom: 12px;
+}
+.dxnbLite_Office2010Black .dxnb-header,
+.dxnbLite_Office2010Black .dxnb-headerCollapsed 
+{
+	color: White;
+	background: #707070 url('nbHBack.png') repeat-x left top;
+	border: 1px solid Black;
+	padding: 6px;
+    white-space: nowrap;
+}
+.dxnbLite_Office2010Black .dxnb-content
+{
+	list-style: none none outside;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 1px 0 0;
+	overflow: hidden;
+}
+.dxnbLite_Office2010Black .dxnb-item,
+.dxnbLite_Office2010Black .dxnb-large,
+.dxnbLite_Office2010Black .dxnb-bullet 
+{
+    border: 1px solid Transparent;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_Office2010Black .dxnb-item,
+.dxnbLite_Office2010Black .dxnb-large,
+.dxnbLite_Office2010Black .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_Office2010Black .dxnb-item.dxnb-link,
+.dxnbLite_Office2010Black .dxnb-item .dxnb-link,
+.dxnbLite_Office2010Black .dxnb-large.dxnb-link,
+.dxnbLite_Office2010Black .dxnb-large .dxnb-link
+{
+	padding: 5px 6px;
+    white-space: nowrap;
+}
+.dxnbLite_Office2010Black .dxnb-bullet,
+.dxnbLite_Office2010Black .dxnb-bulletHover,
+.dxnbLite_Office2010Black .dxnb-bulletSelected 
+{
+	padding: 2px 5px;
+	overflow: visible;
+	margin-bottom: 2px;
+}
+.dxnbLite_Office2010Black .dxnb-itemSelected,
+.dxnbLite_Office2010Black .dxnb-largeSelected
+{
+	background: #fddc7f url('nbISBack.png') repeat-x left top;
+	border: 1px solid #c2762b;
+}
+.dxnbLite_Office2010Black .dxnb-itemHover,
+.dxnbLite_Office2010Black .dxnb-largeHover
+{
+	background: #fcf6dd url('nbIHBack.png') repeat-x left top;
+	border: 1px solid #eecf71;
+}
+.dxnbLite_Office2010Black .dxnb-header,
+.dxnbLite_Office2010Black .dxnb-headerCollapsed, 
+.dxnbLite_Office2010Black .dxnb-item,
+.dxnbLite_Office2010Black .dxnb-itemHover,
+.dxnbLite_Office2010Black .dxnb-itemSelected,
+.dxnbLite_Office2010Black .dxnb-bullet,
+.dxnbLite_Office2010Black .dxnb-bulletHover,
+.dxnbLite_Office2010Black .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_Office2010Black .dxnb-large,
+.dxnbLite_Office2010Black .dxnb-largeHover,
+.dxnbLite_Office2010Black .dxnb-largeSelected
+{
+	text-align: center;
+}
+
+.dxnbLite_Office2010Black .dxnb-headerHover
+{
+}
+.dxnbLite_Office2010Black .dxnb-headerCollapsedHover
+{
+}
+
+.dxnbLite_Office2010Black .dxnb-last,
+.dxnbLite_Office2010Black.dxnb-noHeads .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_Office2010Black .dxnb-btn,
+.dxnbLite_Office2010Black .dxnb-btnLeft,
+.dxnbLite_Office2010Black .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_Office2010Black .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+.dxnbLite_Office2010Black .dxnb-btnLeft,
+.dxnbLite_Office2010Black .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+.dxnbLite_Office2010Black .dxnb-img
+{
+	margin: 0 6px 0 0;
+}
+.dxnbLite_Office2010Black .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_Office2010Black .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 6px;
+}
+.dxnbLite_Office2010Black .dxnb-header.dxnb-header-left,
+.dxnbLite_Office2010Black .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_Office2010Black .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_Office2010Black .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 5px;
+}
+.dxnbLite_Office2010Black .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 5px;
+}
+.dxnbLite_Office2010Black .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_Office2010Black,
+.dxnbLite_Office2010Black .dxnbLiteDisabled_Office2010Black,
+.dxnbLiteDisabled_Office2010Black a,
+.dxnbLiteDisabled_Office2010Black .dxnb-item,
+.dxnbLiteDisabled_Office2010Black .dxnb-large,
+.dxnbLiteDisabled_Office2010Black .dxnb-bullet,
+.dxnbLiteDisabled_Office2010Black .dxnb-header,
+.dxnbLiteDisabled_Office2010Black .dxnb-headerCollapsed 
+{
+	color: #c7cacf;
+	cursor: default;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+}
+.dxncControl_Office2010Black a
+{
+	color: #426998;
+	text-decoration: none;
+} 
+.dxncControl_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+.dxncControl_Office2010Black td.dxncCtrl
+{
+	padding: 0;
+}
+.dxncContent_Office2010Black
+{
+	background: #f5f5f5 none;
+	border: 1px solid #6a6a6a;
+	border-right: 0;
+	border-left: 0;
+	padding: 18px 53px 6px;
+}
+.dxncPagerPanel_Office2010Black
+{
+	padding: 4px 9px;
+	background: #7b7c7c url('dvPagerPanelBack.png') repeat-x left top;
+}
+.dxncItem_Office2010Black
+{
+	vertical-align: top;
+	border-style: none;
+	padding: 7px 0 9px;
+}
+.dxncEmptyItem_Office2010Black
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_Office2010Black
+{
+	color: #6289b8;
+}
+.dxncEmptyData_Office2010Black
+{
+	color: Gray;
+}
+.dxncPagerShowMoreItemsContainer_Office2010Black
+{
+    height: 40px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_Office2010Black a
+{
+	display: block;
+	padding-top: 12px;
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxncPagerShowMoreItemsContainer_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+/* Disabled */
+.dxncDisabled_Office2010Black,
+.dxncDisabled_Office2010Black a,
+.dxncDisabled_Office2010Black a:hover
+{
+	color: #c7cacf;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+	padding: 5px 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_Office2010Black .dxp-summary,
+.dxpLite_Office2010Black .dxp-sep,
+.dxpLite_Office2010Black .dxp-button,
+.dxpLite_Office2010Black .dxp-pageSizeItem,
+.dxpLite_Office2010Black .dxp-num,
+.dxpLite_Office2010Black .dxp-current,
+.dxpLite_Office2010Black .dxp-ellip
+{
+	margin-left: 2px;
+	font-weight: normal;
+}
+.dxpLite_Office2010Black .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_Office2010Black a
+{
+	color: Black;
+	text-decoration: none;
+} 
+.dxpLite_Office2010Black a:hover,
+.dxpLite_Office2010Black a.dxp-button:hover span
+{
+	text-decoration: underline;
+}
+
+.dxpLite_Office2010Black .dxp-button
+{
+	color: Black;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none;
+    padding: 7px 6px;
+}
+.dxpLite_Office2010Black .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_Office2010Black .dxp-button span
+{
+	margin-top: -1px;
+}
+.dxWebKitFamily .dxpLite_Office2010Black .dxp-button span
+{
+	margin-top: 0;
+}
+.dxpLite_Office2010Black .dxp-button.dxp-bi
+{
+	padding: 0;
+}
+.dxpLite_Office2010Black .dxp-button.dxp-bti 
+{
+	padding: 0 6px;
+}
+.dxpLite_Office2010Black .dxp-disabledButton,
+.dxpLite_Office2010Black .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #c7cacf;
+}
+
+.dxpLite_Office2010Black .dxp-pageSizeItem
+{
+    padding: 3px 4px;
+    white-space: nowrap;
+}
+
+.dxpLite_Office2010Black .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_Office2010Black .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_Office2010Black .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #6A6A6A;
+    margin-top: -1px;
+}
+.dxpLite_Office2010Black .dxp-comboBox input
+{
+    margin: 3px 2px 0px;
+}
+*[dir="rtl"].dxpLite_Office2010Black .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_Office2010Black .dxp-hoverComboBox
+{
+}
+.dxpLite_Office2010Black .dxp-pressedComboBox
+{
+}
+.dxpLite_Office2010Black .dxp-dropDownButton
+{
+    padding: 6px 5px;
+    background: #a1a0a0 url('pDropDownButtonBack.png') repeat-x left top;
+    border-color: #6A6A6A;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    padding: 4px 2px 3px 3px;
+}
+.dxpLite_Office2010Black .dxp-hoverDropDownButton
+{
+    background: #f8e9ac url('pDropDownButtonHoverBack.png') repeat-x left top;
+}
+.dxpLite_Office2010Black .dxp-pressedDropDownButton
+{
+    background: #f3d984 url('pDropDownButtonPressedBack.png') repeat-x left top;
+}
+
+.dxpLite_Office2010Black .dxp-num
+{
+	color: Black;
+	text-decoration: none;
+	padding: 6px 6px;
+    margin-top: 1px;
+}
+
+.dxpLite_Office2010Black .dxp-current
+{
+	color: Black;
+	text-decoration: none;
+	background: #fee085 none;
+	padding: 5px 4px;
+	border: 1px solid #c27f31;
+}
+
+.dxpLite_Office2010Black .dxp-summary,
+.dxpLite_Office2010Black .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 7px 4px;
+}
+
+.dxpLite_Office2010Black .dxp-sep
+{
+	background: #c9c9c9 none;
+	width: 1px;
+	height: 21px;
+	margin-top: 1px;
+	padding: 0;
+}
+
+.dxpLiteDisabled_Office2010Black,
+.dxpLiteDisabled_Office2010Black a,
+.dxpLiteDisabled_Office2010Black .dxp-summary,
+.dxpLiteDisabled_Office2010Black .dxp-sep, 
+.dxpLiteDisabled_Office2010Black .dxp-button,
+.dxpLiteDisabled_Office2010Black .dxp-num,
+.dxpLiteDisabled_Office2010Black .dxp-current,
+.dxpLiteDisabled_Office2010Black .dxp-ellip
+{
+	color: #c7cacf;
+	border-color: #c7cacf;
+	cursor: default;
+}
+.dxpLite_Office2010Black .dxp-disabledComboBox
+{
+    border-color: #c7cacf;
+}
+.dxpLite_Office2010Black .dxp-disabledComboBox input
+{
+    color: #c7cacf;
+}
+.dxpLite_Office2010Black .dxp-disabledDropDownButton
+{
+    cursor: default;
+    background: #dedfdf url('pDropDownButtonDisabledBack.png') repeat-x left top;
+    border-color: #c7cacf;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_Office2010Black,
+.dxdpLite_Office2010Black
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 11px Verdana, Geneva, sans-serif;
+	color: black;
+}
+.dxdpLite_Office2010Black {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_Office2010Black .dxpc-mainDiv,
+.dxpcLite_Office2010Black.dxpc-mainDiv,
+.dxdpLite_Office2010Black .dxpc-mainDiv,
+.dxdpLite_Office2010Black.dxpc-mainDiv  
+{
+	top: 0;
+	left: 0;
+	background-color: white;
+	border: 1px solid #484848;
+}
+
+.dxpcLite_Office2010Black a.dxpc-link,
+.dxdpLite_Office2010Black a.dxpc-link 
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxpcLite_Office2010Black a.dxpc-link:hover,
+.dxdpLite_Office2010Black a.dxpc-link:hover 
+{
+	text-decoration: underline;
+}
+.dxpcLite_Office2010Black a.dxpc-link *,
+.dxdpLite_Office2010Black a.dxpc-link *
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+.dxpcLite_Office2010Black a.dxpc-link:hover *,
+.dxdpLite_Office2010Black a.dxpc-link:hover *
+{
+	text-decoration: underline;
+}
+
+.dxpcLite_Office2010Black .dxpc-closeBtn,
+.dxdpLite_Office2010Black .dxpc-closeBtn,
+.dxpcLite_Office2010Black .dxpc-pinBtn,
+.dxdpLite_Office2010Black .dxpc-pinBtn,
+.dxpcLite_Office2010Black .dxpc-refreshBtn,
+.dxdpLite_Office2010Black .dxpc-refreshBtn,
+.dxpcLite_Office2010Black .dxpc-collapseBtn,
+.dxdpLite_Office2010Black .dxpc-collapseBtn,
+.dxpcLite_Office2010Black .dxpc-maximizeBtn,
+.dxdpLite_Office2010Black .dxpc-maximizeBtn
+{
+	padding: 1px 6px 0 1px;
+	float: right;
+}
+
+.dxpcLite_Office2010Black.dxRtl  .dxpc-closeBtn,
+.dxdpLite_Office2010Black.dxRtl  .dxpc-closeBtn,
+.dxpcLite_Office2010Black.dxRtl  .dxpc-pinBtn,
+.dxdpLite_Office2010Black.dxRtl  .dxpc-pinBtn,
+.dxpcLite_Office2010Black.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_Office2010Black.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_Office2010Black.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_Office2010Black.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_Office2010Black.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_Office2010Black.dxRtl  .dxpc-maximizeBtn
+{
+	padding-right: 1px;
+	padding-left: 6px;
+	float: left;
+}
+
+.dxpcLite_Office2010Black .dxpc-closeBtnHover,
+.dxdpLite_Office2010Black .dxpc-closeBtnHover,
+.dxpcLite_Office2010Black .dxpc-pinBtnHover,
+.dxdpLite_Office2010Black .dxpc-pinBtnHover,
+.dxpcLite_Office2010Black .dxpc-refreshBtnHover,
+.dxdpLite_Office2010Black .dxpc-refreshBtnHover,
+.dxpcLite_Office2010Black .dxpc-collapseBtnHover,
+.dxdpLite_Office2010Black .dxpc-collapseBtnHover,
+.dxpcLite_Office2010Black .dxpc-maximizeBtnHover,
+.dxdpLite_Office2010Black .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_Office2010Black .dxpc-header,
+.dxdpLite_Office2010Black .dxpc-header 
+{
+	color: White;
+	background: #6a6b6a url('pcHBack.png') repeat-x left top;
+	border-bottom: 1px solid #484848;
+	padding: 5px 0 6px 12px;
+}
+
+.dxpcLite_Office2010Black .dxpc-header a,
+.dxdpLite_Office2010Black .dxpc-header a 
+{
+    color: White;
+}
+
+.dxpcLite_Office2010Black.dxRtl .dxpc-header,
+.dxdpLite_Office2010Black.dxRtl .dxpc-header 
+{
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+.dxpcLite_Office2010Black .dxpc-header.dxpc-withBtn,
+.dxdpLite_Office2010Black .dxpc-header.dxpc-withBtn 
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.dxpcLite_Office2010Black .dxpc-headerText,
+.dxdpLite_Office2010Black .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Office2010Black .dxpc-headerImg,
+.dxdpLite_Office2010Black .dxpc-headerImg
+{
+	margin: 1px 5px 1px 0;
+}
+
+.dxpcLite_Office2010Black.dxRtl .dxpc-headerImg,
+.dxdpLite_Office2010Black.dxRtl .dxpc-headerImg
+{
+	margin: 1px 0 1px 5px;
+}
+
+.dxpcLite_Office2010Black .dxpc-content,
+.dxdpLite_Office2010Black .dxpc-content
+{
+	white-space: normal;
+	padding: 9px 12px 10px;
+}
+
+.dxpcLite_Office2010Black .dxpc-footer,
+.dxdpLite_Office2010Black .dxpc-footer
+{
+	color: White;
+	background: #6b6a6a url('pcFBack.png') repeat-x left top;
+	border-top: 1px solid #484848;
+}
+
+.dxpcLite_Office2010Black .dxpc-footer a,
+.dxdpLite_Office2010Black .dxpc-footer a
+{
+	color: White;
+}
+
+.dxpcLite_Office2010Black .dxpc-footerContent,
+.dxdpLite_Office2010Black .dxpc-footerContent
+{
+	padding: 5px 20px 6px 12px;
+	min-height: 8px;
+}
+
+.dxpcLite_Office2010Black.dxRtl .dxpc-footerContent,
+.dxdpLite_Office2010Black.dxRtl .dxpc-footerContent
+{
+	padding: 5px 12px 6px 20px;
+}
+
+.dxpcLite_Office2010Black .dxpc-footerText,
+.dxdpLite_Office2010Black .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Office2010Black .dxpc-footerImg,
+.dxdpLite_Office2010Black .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_Office2010Black.dxRtl .dxpc-footerImg,
+.dxdpLite_Office2010Black.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_Office2010Black .dxpc-sizeGrip,
+.dxdpLite_Office2010Black .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_Office2010Black.dxRtl .dxpc-sizeGrip,
+.dxdpLite_Office2010Black.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_Office2010Black,
+.dxdpModalBackLite_Office2010Black
+{
+	background-color: White;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_Office2010Black,
+.dxdpLiteDisabled_Office2010Black
+{
+	color: #c7cacf;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_Office2010Black
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    border: 0px solid #484848;
+}
+.dxpnlControl_Office2010Black.dxpnl-edge,
+.dxpnlControl_Office2010Black.dxpnl-edge.dxpnl-bar
+{
+    background-color: #f5f5f5;
+}
+.dxpnlControl_Office2010Black.dxpnl-edge,
+.dxpnlControl_Office2010Black.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_Office2010Black.dxpnl-bar
+{
+    padding: 12px;
+}
+.dxpnlControl_Office2010Black .dxpnl-btn
+{
+}
+.dxpnlControl_Office2010Black .dxpnl-btnHover
+{
+}
+.dxpnlControl_Office2010Black .dxpnl-btnPressed
+{
+}
+.dxpnlControl_Office2010Black .dxpnl-btnSelected
+{
+}
+.dxpnlDisabled_Office2010Black
+{
+	color: #c7cacf;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_Office2010Black,
+.dxrpControlGB_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+}
+.dxrpControl_Office2010Black .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_Office2010Black:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_Office2010Black:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2010Black:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 4px;
+}
+.dxrpControl_Office2010Black:not(.dxrp-hasDefaultImages) .dxrpHeader_Office2010Black
+{
+	border-radius:4px 4px 0px 0px;
+}
+.dxrpControl_Office2010Black:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 4px 4px;
+}
+.dxrpWithoutHeader_Office2010Black:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:4px;
+}
+/* Header */
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black,
+.dxrpControlGB_Office2010Black span.dxrpHeader_Office2010Black
+{
+}
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black > a,
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black > a > span.dxrpHT,
+.dxrpControlGB_Office2010Black span.dxrpHeader_Office2010Black a
+{
+    color: Black;
+    text-decoration: none;
+}
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black > a:hover,
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black > a:hover > span.dxrpHT
+{
+    text-decoration: underline;
+}
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black
+{
+	background: #d7d7d7 none;
+	border-bottom: 1px solid #b5b5b5;
+}
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+/* Header image */
+.dxrpControl_Office2010Black .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_Office2010Black .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+.dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+    background: #f3f3f3;
+}
+/* Background */
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black
+{
+    background-image: none;
+	background-color: #c8c8c8;
+}
+.dxrpControlGB_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Office2010Black span.dxrpHeader_Office2010Black
+{
+    background-image: none;
+	background-color: #f3f3f3;
+}
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black
+{
+	background: #c8c8c8 url('rpHBack.png') repeat-x left top;
+}
+/*Borders*/
+.dxrpControlGB_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent {
+	border:1px solid #6a6a6a;
+}
+.dxrpControl_Office2010Black > tbody > tr:first-child > .dxrpcontent,
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black
+{
+	border-top:1px solid #6a6a6a;
+}
+.dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:1px solid #6a6a6a;
+}
+.dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black {
+	border-left:1px solid #6a6a6a;
+	border-right:1px solid #6a6a6a;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_Office2010Black {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_Office2010Black.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2010Black.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_Office2010Black td.dxrpHeader_Office2010Black 
+{
+	padding: 5px 8px 6px 11px;
+}
+.dxrpControlGB_Office2010Black span.dxrpHeader_Office2010Black 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_Office2010Black.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW,
+.dxrpControlGB_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 12px 13px 12px 11px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_Office2010Black > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -19px;
+	left: -3px;
+	margin-bottom:-7px;
+}
+.dxrpControlGB_Office2010Black {
+	margin-top:6px;
+}
+/* Disabled */
+.dxrpDisabled_Office2010Black,
+.dxrpDisabled_Office2010Black td.dxrp
+{
+	color: #808080;
+	cursor: default;
+}
+.dxrpDisabled_Office2010Black.dxrpCollapsed > tbody > tr > td.dxrpHeader_Office2010Black
+{
+    border-radius: 4px;
+    border: 1px solid #6a6a6a;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_Office2010Black 
+{
+	color: #313431;
+	background: White none;
+	font: 11px Verdana, Geneva, sans-serif;
+	border-style: none;
+}
+.dxsmControl_Office2010Black a:hover
+{
+	text-decoration: underline!important;
+}
+.dxsmControl_Office2010Black a:visited
+{
+	color: #8467b2!important;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_Office2010Black, 
+.dxsmCategoryLevel_Office2010Black a
+{
+	color: #313431;
+	background: White none;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_Office2010Black
+{
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+}
+.dxsmCategoryLevel_Office2010Black
+{
+	border-bottom: 1px solid #B8B8B8;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_Office2010Black,
+.dxsmLevelCategoryFlow_Office2010Black a 
+{
+	color: #313431;
+	text-decoration: underline;
+}
+/* - Level 0 - */
+.dxsmLevel0_Office2010Black,
+.dxsmLevel0_Office2010Black a,
+.dxsmLevel0Categorized_Office2010Black a,
+.dxsmLevel0Categorized_Office2010Black
+{
+	color: #313431;
+	text-decoration: none;
+}
+.dxsmLevel0_Office2010Black,
+.dxsmLevel0Categorized_Office2010Black 
+{
+	white-space: nowrap;
+	padding: 0px 0px 2px;
+}
+.dxsmLevel0_Office2010Black
+{
+	padding-bottom: 5px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_Office2010Black,
+.dxsmLevel0Flow_Office2010Black a,
+.dxsmLevel0CategorizedFlow_Office2010Black a,
+.dxsmLevel0CategorizedFlow_Office2010Black
+{
+	color: #313431;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_Office2010Black
+{
+	padding: 0;
+}
+.dxsmLevel0Flow_Office2010Black
+{
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_Office2010Black,
+.dxsmLevel1_Office2010Black a,
+.dxsmLevel1Categorized_Office2010Black a,
+.dxsmLevel1Categorized_Office2010Black
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxsmLevel1_Office2010Black,
+.dxsmLevel1Categorized_Office2010Black
+{
+	white-space: nowrap;
+	padding-bottom: 3px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_Office2010Black,
+.dxsmLevel1Flow_Office2010Black a,
+.dxsmLevel1CategorizedFlow_Office2010Black,
+.dxsmLevel1CategorizedFlow_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_Office2010Black 
+{
+	text-decoration: none;
+	padding: 0;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_Office2010Black,
+.dxsmLevel2_Office2010Black a,
+.dxsmLevel2Categorized_Office2010Black a,
+.dxsmLevel2Categorized_Office2010Black
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxsmLevel2_Office2010Black,
+.dxsmLevel2Categorized_Office2010Black 
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_Office2010Black,
+.dxsmLevel2Flow_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_Office2010Black
+{
+	padding: 0;
+}
+/* - Level 3 - */
+.dxsmLevel3_Office2010Black,
+.dxsmLevel3_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxsmLevel3_Office2010Black
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_Office2010Black,
+.dxsmLevel3Flow_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_Office2010Black,
+.dxsmLevel4_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxsmLevel4_Office2010Black
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/ 
+.dxsmLevel4Flow_Office2010Black,
+.dxsmLevel4Flow_Office2010Black a 
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_Office2010Black
+{
+	padding: 0;
+}
+/* - Other Levels - */
+.dxsmLevelOther_Office2010Black,
+.dxsmLevelOther_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxsmLevelOther_Office2010Black
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_Office2010Black,
+.dxsmLevelOtherFlow_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_Office2010Black
+{
+	color: #c7cacf;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_Office2010Black
+{
+	overflow: hidden;
+	color: Black;
+	float: left;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 2px;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+	float: left;
+	border-bottom: 1px solid #484848;
+	overflow: hidden;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #A6A6A6 none;
+	border-top: 1px solid #484848;
+	border-right: 1px solid #484848;
+	border-bottom: 1px solid #484848;
+	border-left: 1px solid #484848;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px none #484848;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-top.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-top.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-left: 1px solid #484848;	
+    border-right: 1px none #484848;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-top.dxtc-rtl > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-top.dxtc-rtl > .dxtc-stripContainer .dxtc-n,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-n
+{
+    border-right: 1px solid #484848;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: White none;
+}
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black.dxtc-top.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2010Black.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n
+{
+	border-left: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-rtl > .dxtc-stripContainer .dxtc-n
+{
+	border-right: 1px solid #484848;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #d7d8d8 none;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 12px;
+	display: block;
+	height: 100%;
+    color: Black;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_Office2010Black > .dxtc-content 
+{
+	background: White none;
+	border: 1px solid #484848;
+	float: left;
+	clear: left;
+	overflow: hidden;
+	padding: 12px;
+}
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    padding-bottom: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_Office2010Black.dxtc-rtl,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-content,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_Office2010Black.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_Office2010Black.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Office2010Black.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_Office2010Black.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_Office2010Black.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-rtl.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-rtl.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-width: 0;
+    padding-left: 1px;
+	border-right: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-noSpacing.dxtc-rtl.dxtc-right > .dxtc-stripContainer .dxtc-tab
+{
+	border-right: 1px solid #484848;
+}
+/* Scrolling */
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sb          
+{
+	border-style: none;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLite_Office2010Black.dxtc-multiRow.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-bottom-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-bottom-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLite_Office2010Black.dxtc-multiRow.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-top-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-multiRow.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-top-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLiteDisabled_Office2010Black,
+.dxtcLiteDisabled_Office2010Black > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_Office2010Black > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_Office2010Black > .dxtc-content,
+.dxtcLite_Office2010Black > .dxtc-stripContainer .dxtcLiteDisabled_Office2010Black .dxtc-link
+{
+	color: #bbbbbb;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 2px;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border-top: 1px solid #484848;
+	border-bottom-style: none;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    padding-bottom: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-width: 0;
+    padding-top: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-content
+{
+	clear: right;
+	border-top: 1px solid #484848;
+	border-right: 1px solid #484848;
+	border-bottom-color: #484848;
+	border-left: 1px solid #484848;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_Office2010Black.dxtc-bottom > .dxtc-stripContainer .dxtc-sb          
+{
+	margin: 1px 0 0;
+}
+/* left */
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 2px;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top: 1px none #484848;
+}
+.dxtcLite_Office2010Black.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead 
+{
+	border-top: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #484848;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-left > .dxtc-content
+{
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 2px;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2010Black.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top: 1px none #484848;
+}
+.dxtcLite_Office2010Black.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead 
+{
+	border-top: 1px solid #484848;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #484848;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Office2010Black.dxtc-right > .dxtc-content
+{
+	border-top: 1px solid #484848;
+	border-right-color: #484848;
+	border-bottom: 1px solid #484848;
+	border-left: 1px solid #484848;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_Office2010Black.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #484848!important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_Office2010Black 
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #6289b8;
+	background: White none;
+	border-style: none;
+}
+.dxtiControl_Office2010Black a
+{
+	color: #426998;
+	text-decoration: none;
+} 
+.dxtiControl_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+.dxtiItem_Office2010Black
+{
+	color: #426998;
+	text-decoration: none;
+    padding: 3px 8px 2px;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_Office2010Black,
+.dxtiGroupHeaderCategorized_Office2010Black
+{
+	font-size: 1.55em;
+	text-decoration: none;
+}
+.dxtiGroupHeader_Office2010Black,
+.dxtiGroupHeaderCategorized_Office2010Black
+{
+	background: #f0f0f0 none;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 2px;
+	white-space: nowrap;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_Office2010Black
+{
+	color: #3c3c3c;
+	padding: 3px 8px 1px;
+}
+.dxtiGroupHeaderTextCategorized_Office2010Black
+{
+	color: #3C3C3C;
+}
+.dxtiGroupHeaderTextCategorized_Office2010Black
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+}
+/* - FilterBox - */
+.dxtiFilterBox_Office2010Black
+{
+	color: White;
+	font-weight: normal;
+	background: #7b7b7b url('tiFBBack.png') repeat-x left top;
+	padding: 10px;
+}
+.dxtiFilterBoxInfoText_Office2010Black
+{
+}
+.dxtiFilterBoxEdit_Office2010Black
+{
+	width: 165px;
+	border: 1px solid #6a6a6a;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_Office2010Black
+{
+	background: #f5f5f5 url('tiIPBack.png') repeat-x left top;
+    font-size: 1.27em;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_Office2010Black,
+.dxtiCurrentIndexPanelItem_Office2010Black,
+.dxtiIndexPanelItem_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+
+.dxtiIndexPanelItem_Office2010Black,
+.dxtiCurrentIndexPanelItem_Office2010Black
+{
+	padding: 2px 4px;
+}
+.dxtiCurrentIndexPanelItem_Office2010Black
+{
+	color: #8467B2;
+}
+/* - BackToTop - */
+.dxtiBackToTop_Office2010Black,
+.dxtiBackToTopRtl_Office2010Black
+{
+	padding: 4px 4px 0;
+	border-top: 1px solid #cbcbcb;
+}
+.dxtiBackToTop_Office2010Black
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+/* Disabled */
+.dxtiDisabled_Office2010Black,
+.dxtiDisabled_Office2010Black a
+{
+	color: #c7cacf;
+	cursor: default!important;
+}
+/* -- ASPxUploadControl -- */
+.dxucControl_Office2010Black,
+.dxucEditArea_Office2010Black,
+input[type="text"].dxucEditArea_Office2010Black /*Bootstrap correction*/
+{
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxucEditArea_Office2010Black,
+input[type="text"].dxucEditArea_Office2010Black /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_Office2010Black /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_Office2010Black .dxucInputs_Office2010Black
+{
+}
+.dxucTextBox_Office2010Black
+{
+	background-color: white;
+	border: 1px solid #6A6A6A;
+	padding: 1px 2px;
+}
+.dxucTextBox_Office2010Black .dxucEditArea_Office2010Black
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_Office2010Black .dxucEditArea_Office2010Black
+{
+    color: #c7cacf;
+}
+.dxucErrorCell_Office2010Black
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_Office2010Black,
+.dxucButton_Office2010Black a
+{
+	color: #6289B8;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucButton_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+.dxucBrowseButton_Office2010Black,
+.dxucBrowseButton_Office2010Black a
+{
+	color: #3C3C3C;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_Office2010Black .dxucBrowseButton_Office2010Black a
+{
+	color: #3C3C3C;
+}
+.dxucControl_Office2010Black a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_Office2010Black
+{
+	padding: 4px 16px;
+	border: 1px solid #6A6A6A;
+	background: #A09FA0 url('ucButtonBack.png') repeat-x top;
+}
+.dxucBrowseButton_Office2010Black.dxbf
+{
+    padding: 4px 15px;
+}
+.dxucBrowseButton_Office2010Black.dxbf a
+{
+    border: 1px dotted black;
+}
+.dxucBrowseButtonHover_Office2010Black
+{
+	border-color: #EAC656;
+	background: #FCF8E5 url('ucButtonHoverBack.png') repeat-x top;
+}
+.dxucBrowseButtonPressed_Office2010Black
+{
+	border-color: #C29641;
+	background: #FEE287 url('ucButtonPressedBack.png') repeat-x top;
+}
+/* ProgressBar */
+.dxucProgressBar_Office2010Black,
+.dxucProgressBar_Office2010Black td.dx
+{
+	color: Black;
+}
+.dxucProgressBar_Office2010Black .dxPBMainCell,
+.dxucProgressBar_Office2010Black td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_Office2010Black
+{
+	background: #f9f9fa url('ucProgressBack.png') repeat-x left top;
+	border: 1px solid #6a6a6a;
+
+    height: 21px;
+}
+.dxucProgressBarIndicator_Office2010Black
+{
+	background: #fef687 url('ucProgressIndicatorBack.png') repeat-x left top;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_Office2010Black {
+	font-size: 0.82em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_Office2010Black td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_Office2010Black a {
+	color: #6289B8;
+}
+
+/* Disabled */
+.dxucDisabled_Office2010Black,
+.dxucDisabled_Office2010Black a
+{
+	color: #C7CACF;
+	cursor: default;
+}
+.dxucTextBoxDisabled_Office2010Black
+{
+	border-color: #737373;
+}
+.dxucButtonDisabled_Office2010Black a,
+.dxucButtonDisabled_Office2010Black a:hover
+{
+	color: #C7CACF;
+	text-decoration: none;
+}
+.dxucBrowseButtonDisabled_Office2010Black
+{
+	border-color: #737373;
+	background: #898989 none;
+}
+.dxucControl_Office2010Black .dxucBrowseButtonDisabled_Office2010Black a
+{
+	color: #5E5E5E;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_Office2010Black
+{
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxsplControl_Office2010Black,
+.dxsplVSeparator_Office2010Black,
+.dxsplHSeparator_Office2010Black
+{
+	background-color: White;
+}
+.dxsplVSeparator_Office2010Black,
+.dxsplHSeparator_Office2010Black
+{
+	font-size: 0;
+}
+.dxsplControl_Office2010Black,
+.dxsplVSeparator_Office2010Black,
+.dxsplHSeparator_Office2010Black,
+.dxsplPane_Office2010Black,
+.dxsplPaneCollapsed_Office2010Black,
+.dxsplVSeparator_Office2010Black,
+.dxsplHSeparator_Office2010Black,
+.dxsplVSeparatorCollapsed_Office2010Black,
+.dxsplHSeparatorCollapsed_Office2010Black
+{
+	border: 0px solid #484848;
+}
+.dxsplPane_Office2010Black,
+.dxsplPaneCollapsed_Office2010Black
+{
+	border-width: 1px;
+}
+.dxsplPaneCollapsed_Office2010Black
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparator_Office2010Black,
+.dxsplHSeparator_Office2010Black
+{
+	background: #838383 none;
+}
+.dxsplVSeparator_Office2010Black
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparator_Office2010Black
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.dxsplVSeparatorHover_Office2010Black
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_Office2010Black
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_Office2010Black
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparatorCollapsed_Office2010Black
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorCollapsed_Office2010Black,
+.dxsplHSeparatorCollapsed_Office2010Black
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_Office2010Black
+{
+	cursor: pointer;
+	padding: 3px 0;
+}
+.dxsplHSeparatorButton_Office2010Black
+{
+	cursor: pointer;
+	padding: 0 3px;
+}
+.dxsplDisabled_Office2010Black .dxsplVSeparatorButton_Office2010Black,
+.dxsplDisabled_Office2010Black .dxsplHSeparatorButton_Office2010Black
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_Office2010Black,
+.dxsplVSeparatorButtonHover_Office2010Black
+{
+	background-image: url('splVSepHBack.png');
+}
+.dxsplHSeparatorHover_Office2010Black,
+.dxsplHSeparatorButtonHover_Office2010Black
+{
+	background-image: url('splHSepHBack.png');
+}
+.dxsplVSeparatorHover_Office2010Black,
+.dxsplHSeparatorHover_Office2010Black,
+.dxsplVSeparatorButtonHover_Office2010Black,
+.dxsplHSeparatorButtonHover_Office2010Black
+{
+	background-color: #f8e393;
+}
+.dxsplResizingPointer_Office2010Black
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_Office2010Black .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_Office2010Black
+{
+	color: Black;
+	font: 11px Verdana, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_Office2010Black li
+{
+	overflow-y: hidden;
+}
+.dxtvControl_Office2010Black ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+.dxtvControl_Office2010Black a
+{
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxtvControl_Office2010Black .dxtv-ln
+{
+	vertical-align: top;
+}
+.dxtvControl_Office2010Black .dxtv-nd
+{
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 3px 5px 4px;
+	margin: 0 1px;
+	outline: 0 none;
+}
+.dxtvControl_Office2010Black .dxtv-elbNoLn,
+.dxtvControl_Office2010Black .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_Office2010Black .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_Office2010Black .dxtv-btn
+{
+	margin-left: 8px;
+	margin-top: 3px;
+}
+.dxtvControl_Office2010Black .dxtv-subnd
+{
+	margin-left: 22px;
+}
+.dxtvControl_Office2010Black .dxtv-ndImg
+{
+	margin:  0 4px 0 2px;
+}
+.dxtvControl_Office2010Black .dxtv-ndTxt
+{
+	white-space: nowrap;
+}
+.dxtvControl_Office2010Black .dxtv-ndChk
+{
+	cursor: default;
+	margin:  0 6px 0 2px;
+} 
+.dxtvControl_Office2010Black .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_Office2010Black .dxtv-ndSel,
+.dxtvControl_Office2010Black .dxtv-ndHov
+{
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_Office2010Black .dxtv-ndSel
+{
+	background: #fddc7f url('mItemSBack.png') repeat-x left top;
+	border: 1px solid #c2762b;
+	cursor: default;
+}
+
+.dxtvControl_Office2010Black .dxtv-ndHov
+{
+	background: #fcf9df url('mSubItemHBack.png') repeat-x left top;
+	border: 1px solid #f2ca58;
+}
+
+.dxtvControl_Office2010Black.dxtvRtl,
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-nd,
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-elb,
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-nd
+{
+	margin: 1px 0 1px 1px;
+}
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-elb,
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-ln
+{
+	background-position: right top;
+}
+
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-btn
+{
+	margin: 3px 8px 0 0;
+}
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-subnd
+{
+	margin: 0 22px 0 0;
+}
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-ndImg
+{
+    margin: 0 2px 0 4px;
+}
+.dxtvControl_Office2010Black.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+.dxtvControl_Office2010Black.dxtvRtl .dxtv-ndChk
+{
+	margin: 0 2px 0 6px;
+}
+.dxtvControl_Office2010Black.dxtvRtl.OperaRtlFix .dxtv-subnd
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_Office2010Black,
+.dxtvControl_Office2010Black .dxtvDisabled,
+.dxtvDisabled_Office2010Black a,
+.dxtvDisabled_Office2010Black .dxtv-btn,
+.dxtvDisabled_Office2010Black .dxtv-nd
+{
+	color: #c7cacf;
+	cursor: default;
+} 
+
+/* ASPxFileManager */
+.dxfmControl_Office2010Black,
+.dxfmControl_Office2010Black .dxfm-rInput
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_Office2010Black
+{
+	color: #ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_Office2010Black .dxsplControl_Office2010Black
+{
+	border-width: 1px;
+	border-color: #484848;
+}
+.dxfmControl_Office2010Black .dxsplPane_Office2010Black
+{
+	background-color: White;
+	border-width: 0px;
+}
+.dxfmControl_Office2010Black .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_Office2010Black.dxfm-dst .dxsplVSeparator_Office2010Black
+{
+	width: 3px;
+	background: White url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_Office2010Black.dxfm-dst.dxfm-rtl .dxsplVSeparator_Office2010Black
+{
+	background-position-x: left;
+}
+.dxfmControl_Office2010Black.dxfm-tch .dxsplVSeparator_Office2010Black
+{
+	border-width: 0 1px;
+	border-color: #484848;
+}
+.dxfmControl_Office2010Black .dxsplHSeparator_Office2010Black
+{
+	border-width: 0px;
+	background: #484848 none;
+}
+.dxfmControl_Office2010Black .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_Office2010Black .dxtvControl_Office2010Black 
+{
+	margin-left: -5px;
+}
+.dxfmControl_Office2010Black .dxtvControl_Office2010Black .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_Office2010Black div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_Office2010Black.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_Office2010Black .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_Office2010Black div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_Office2010Black div.dxfm-fileSA
+{
+	background: #fddc7f url('mItemSBack.png') repeat-x left top;
+	border: 1px solid #888888;
+}
+.dxfmControl_Office2010Black div.dxfm-fileH,
+.dxfmControl_Office2010Black div.dxfm-fileF
+{
+	background: #FCF9DF url('mItemHBack.png') repeat-x left top;
+	border: 1px solid #F2CA58;
+}
+.dxfmControl_Office2010Black td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_Office2010Black .dxfm-file .dxfm-highlight
+{
+	background: #faedb6 none repeat 0 0;
+	color: Black;
+	font-weight: bold;
+}
+.dxfmControl_Office2010Black .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_Office2010Black .dxgvTable_Office2010Black  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_Office2010Black .dxgvControl_Office2010Black 
+{
+    background-color: White; 
+}
+.dxfmControl_Office2010Black .dxgvTable_Office2010Black tr.dxfm-fileSA
+{
+    background: #808080;
+    color: White;
+}     
+.dxfmControl_Office2010Black .dxgvTable_Office2010Black tr.dxfm-fileSI
+{
+    background-color: #BDBDBD;
+    color: White;
+}
+.dxfmControl_Office2010Black .dxfm-fileF.dxgvFocusedRow_Office2010Black
+{
+    background: #9A9A9A;
+    color: White;
+}
+.dxfmControl_Office2010Black .dxgvTable_Office2010Black tr.dxfm-fileH
+{
+    background: #FAEDB6;
+    color: Black;
+}
+.dxfmControl_Office2010Black tr.dxgvFocusedRow_Office2010Black
+{
+    background: White;
+}
+.dxgvHeader_Office2010Black.dxfmGridHeader
+{
+    background: White;
+    border-color: #D2D2D2;
+}
+.dxgvHeader_Office2010Black.dxfmGridHeader, 
+.dxgvHeader_Office2010Black.dxfmGridHeader table 
+{
+    color: black;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_Office2010Black
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_Office2010Black .dxfm-toolbar
+{
+	background: #A2A1A1 url('mItemBack.png') repeat-x left top;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_Office2010Black.dxfm-rtl .dxfm-toolbar .dxfm-filter 
+{
+	text-align: left;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxfm-filter input,
+.dxfmControl_Office2010Black .dxfm-toolbar .dxfm-path input
+{
+	border: 1px solid #6A6A6A;
+    padding: 2px 2px;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_Office2010Black .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxmLite_Office2010Black .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxmLite_Office2010Black .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxmLite_Office2010Black .dxfm-path 
+{
+	padding-left: 2px;
+	padding-top: 1px;
+}
+.dxfmControl_Office2010Black .dxfm-toolbar .dxmLite_Office2010Black .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_Office2010Black .dxfm-breadCrumbs
+{
+	background-color: #CECECE;
+}
+.dxfmControl_Office2010Black .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_Office2010Black .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+	border-color: #f2ca58;
+	background: #fcf9df url('mSubItemHBack.png') repeat-x left top;
+}
+.dxfmControl_Office2010Black .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #838383;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_Office2010Black .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_Office2010Black
+{
+    background: #FFC600;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_Office2010Black .dxfm-uploadPanel
+{
+	background: #6b6a6a url('pcFBack.png') repeat-x left top;
+	text-align: right;
+}
+.dxfmControl_Office2010Black.dxfm-rtl .dxfm-uploadPanel
+{
+	text-align: left;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 4px;
+	margin-top: 1px;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Office2010Black 
+{
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.dxfmControl_Office2010Black.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Office2010Black 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 7px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: white;
+	text-decoration: none;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover 
+{
+	text-decoration: underline;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #333333;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel.dxsplPane_Office2010Black .dxucTextBox_Office2010Black 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel.dxsplPane_Office2010Black .dxucBrowseButton_Office2010Black 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel.dxsplPane_Office2010Black .dxucBrowseButton_Office2010Black.dxbf 
+{
+	padding: 2px 7px 3px;
+}
+.dxfmControl_Office2010Black .dxfm-uploadPanel.dxsplPane_Office2010Black .dxucSilverlightPluginLinkPanel_Office2010Black 
+{
+	margin-top: -8px;
+	color: #2E3139;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_Office2010Black .dxfm-cInput,
+.dxfmControl_Office2010Black .dxfm-rInput
+{
+	border: 1px solid #6A6A6A;
+}
+
+/* FileManager - item mask */
+.dxfmControl_Office2010Black .dxfm-itemMask
+{
+	background-color: #fddc7f;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_Office2010Black .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_Office2010Black .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_Office2010Black .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #484848;
+	text-align: right;
+	background: #6B6A6A url('pcFBack.png') repeat-x left top;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_Office2010Black .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #c7cacf;
+}
+
+/* ASPxImageSlider */
+.dxisControl_Office2010Black
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 11px Verdana, Geneva, sans-serif;
+}
+.dxisControl_Office2010Black .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_Office2010Black .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_Office2010Black > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_Office2010Black .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_Office2010Black .dxis-slidePanel,
+.dxisControl_Office2010Black .dxis-nbSlidePanel,
+.dxisControl_Office2010Black .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_Office2010Black .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_Office2010Black .dxis-nbTop,
+.dxisControl_Office2010Black .dxis-nbBottom,
+.dxisControl_Office2010Black .dxis-nbLeft,
+.dxisControl_Office2010Black .dxis-nbRight,
+.dxisControl_Office2010Black .dxis-nbDotsBottom,
+.dxisControl_Office2010Black .dxis-nbDotsTop,
+.dxisControl_Office2010Black .dxis-nbDotsLeft,
+.dxisControl_Office2010Black .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_Office2010Black .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_Office2010Black .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_Office2010Black .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_Office2010Black .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_Office2010Black .dxis-nbDotsBottom,
+.dxisControl_Office2010Black .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_Office2010Black .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_Office2010Black .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_Office2010Black .dxis-nbLeft,
+.dxisControl_Office2010Black .dxis-nbRight,
+.dxisControl_Office2010Black .dxis-nbDotsLeft,
+.dxisControl_Office2010Black .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_Office2010Black .dxis-item,
+.dxisControl_Office2010Black .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_Office2010Black .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_Office2010Black .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_Office2010Black .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_Office2010Black .dxis-item,
+.dxisControl_Office2010Black .dxis-nbItem,
+.dxisControl_Office2010Black .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_Office2010Black .dxis-nbItem,
+.dxisControl_Office2010Black .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_Office2010Black .dxis-nbDotItemSelected,
+.dxisControl_Office2010Black .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_Office2010Black .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_Office2010Black .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_Office2010Black .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_Office2010Black .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_Office2010Black .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_Office2010Black .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_Office2010Black .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_Office2010Black .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_Office2010Black > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2010Black > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_Office2010Black > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2010Black > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2010Black > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_Office2010Black .dxis-prevPageBtnHor,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-nextPageBtnHor,
+.dxisControl_Office2010Black .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_Office2010Black .dxis-prevPageBtnVert,
+.dxisControl_Office2010Black .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2010Black .dxis-nextPageBtnVert,
+.dxisControl_Office2010Black .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Office2010Black .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Office2010Black .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Office2010Black .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Office2010Black .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Office2010Black .dxis-prevBtnVertPressed,
+.dxisControl_Office2010Black .dxis-nextBtnVertPressed,
+.dxisControl_Office2010Black .dxis-nextBtnHorPressed,
+.dxisControl_Office2010Black .dxis-prevBtnHorPressed,
+.dxisControl_Office2010Black .dxis-prevPageBtnVertPressed,
+.dxisControl_Office2010Black .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_Office2010Black .dxis-nextPageBtnVertPressed,
+.dxisControl_Office2010Black .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorPressed,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_Office2010Black .dxis-nextPageBtnHorPressed,
+.dxisControl_Office2010Black .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_Office2010Black .dxis-prevBtnVertDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnVertDisabled,
+.dxisControl_Office2010Black .dxis-nextBtnHorDisabled,
+.dxisControl_Office2010Black .dxis-prevBtnHorDisabled,
+.dxisControl_Office2010Black .dxis-prevPageBtnVertDisabled,
+.dxisControl_Office2010Black .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_Office2010Black .dxis-nextPageBtnVertDisabled,
+.dxisControl_Office2010Black .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorDisabled,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_Office2010Black .dxis-nextPageBtnHorDisabled,
+.dxisControl_Office2010Black .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_Office2010Black .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2010Black .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2010Black .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_Office2010Black .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2010Black .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_Office2010Black
+{
+    font: 11px Verdana, Geneva, sans-serif;
+	color: #3c3c3c;
+}
+.dxigControl_Office2010Black td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_Office2010Black
+{
+	background: #f5f5f5 none;
+	padding: 6px;
+	border: 1px solid #6a6a6a;
+	border-right: 0;
+	border-left: 0;
+}
+.dxigEmptyData_Office2010Black
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_Office2010Black
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_Office2010Black
+{
+    float: left;
+}
+.dxigItem_Office2010Black
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_Office2010Black a
+{
+    outline: 0;
+}
+.dxigItem_Office2010Black a > img
+{
+    display: block;
+}
+.dxigPagerPanel_Office2010Black
+{
+	padding: 4px 9px;
+	background: #7b7c7c url('dvPagerPanelBack.png') repeat-x left top;
+}
+.dxigItem_Office2010Black .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_Office2010Black .dxig-thumbnailWrapper,
+.dxigFlowItem_Office2010Black
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    background: #cecece none;
+}
+.dxigControl_Office2010Black .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_Office2010Black .dxpcLite_Office2010Black .dxpc-mainDiv,
+.dxigControl_Office2010Black .dxpcLite_Office2010Black .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_Office2010Black .dxpcLite_Office2010Black .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_Office2010Black .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_Office2010Black.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_Office2010Black .dxig-imageSliderWrapper .dxisControl_Office2010Black .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_Office2010Black .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxisControl_Office2010Black
+{
+    position: relative;
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_Office2010Black .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_Office2010Black .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_Office2010Black .dxig-prevButtonArea,
+.dxigControl_Office2010Black .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_Office2010Black .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_Office2010Black .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_Office2010Black .dxig-prevButton,
+.dxigControl_Office2010Black .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_Office2010Black .dxig-prevButtonDisabled,
+.dxigControl_Office2010Black .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_Office2010Black .dxig-closeButtonWrapper,
+.dxigControl_Office2010Black .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_Office2010Black .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_Office2010Black .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_Office2010Black .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_Office2010Black .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_Office2010Black .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbBottom,
+.dxigControl_Office2010Black .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigControl_Office2010Black .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbSelectedItem > div,
+.dxigControl_Office2010Black .dxisControl_Office2010Black .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigPagerShowMoreItemsContainer_Office2010Black
+{
+    height: 40px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_Office2010Black a
+{
+	display: block;
+	padding-top: 12px;
+	color: #6289b8;
+	text-decoration: none;
+}
+.dxigPagerShowMoreItemsContainer_Office2010Black a:hover
+{
+	text-decoration: underline;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_Office2010Black,
+.dxnbGroupHeader_Office2010Black,
+.dxnbGroupHeaderCollapsed_Office2010Black,
+.dxnbGroupContent_Office2010Black > TABLE > TBODY > TR,
+.dxtcTab_Office2010Black,
+.dxtcActiveTab_Office2010Black,
+.dxtv-nd_Office2010Black
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_Office2010Black{
+    display: table;
+    font: 11px Verdana, Geneva, sans-serif;
+    font-weight: inherit;
+	color: #3c3c3c;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 4px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_Office2010Black{ padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Office2010Black {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Office2010Black {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 11px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 11px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 2px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_Office2010Black{ padding-top: 3px; }
+
+html[xmlns*=""] .dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,   /*IE 8*/
+html[xmlns*=""] .dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+html[xmlns*=""] .dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+html[xmlns*=""] .dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Office2010Black {
+    padding-top: 2px;
+}
+html[xmlns*=""] .dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Office2010Black {
+    padding-top: 0;
+}
+
+.dxFirefox .dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+.dxFirefox .dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+.dxFirefox .dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Office2010Black,
+.dxFirefox .dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Office2010Black {
+    padding-top: 2px;
+}
+.dxFirefox .dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Office2010Black {
+    padding-top: 0;
+}
+
+.dxflCLTSys .dxflCaptionCell_Office2010Black,
+.dxflCLBSys .dxflCaptionCell_Office2010Black{
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_Office2010Black,
+*[dir="rtl"].dxflFormLayout_Office2010Black .dxflCLRSys .dxflCaptionCell_Office2010Black{
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_Office2010Black,
+*[dir="rtl"].dxflFormLayout_Office2010Black .dxflCLLSys .dxflCaptionCell_Office2010Black{
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_Office2010Black{
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_Office2010Black {
+    line-height: 16px;
+}
+.dxflCaptionCell_Office2010Black{
+    width: 1%;
+}
+td.dxflNestedControlCell_Office2010Black{
+    height: 0;
+}
+
+.dxflEmptyItem_Office2010Black{
+    height: 21px;
+}
+
+.dxflItem_Office2010Black{ width: 100%; }
+.dxflItem_Office2010Black,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_Office2010Black {
+    padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_Office2010Black {
+    padding-bottom: 4px;
+}
+.dxflItem_Office2010Black > table.dxflItemTable_Office2010Black { width: 100%; }
+.dxflGroup_Office2010Black{ padding: 6px 5px; width: 100%;}
+.dxflGroup_Office2010Black > table.dxflGroupTable_Office2010Black { width: 100%; }
+.dxflGroupCell_Office2010Black{ padding: 0 8px; }
+
+.dxflGroupBox_Office2010Black {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #6a6a6a;
+    border-radius: 4px;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_Office2010Black.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+    border-radius: 0px;
+}
+.dxflGroupBox_Office2010Black.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_Office2010Black{
+    margin-top: -6px;
+}
+
+.dxflGroupCell_Office2010Black > .dxtcControl_Office2010Black{ margin: 0px; }
+
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black{ margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black tr:first-child > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black,
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black > .dxflChildInFirstRowSys > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black {
+    padding-top: 9px;
+}
+
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black tr:first-child > .dxflGroupCell_Office2010Black> .dxtcControl_Office2010Black,
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black > .dxflChildInFirstRowSys > .dxflGroupCell_Office2010Black> .dxtcControl_Office2010Black {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black tr:last-child > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black,
+.dxflGroupBox_Office2010Black > .dxflGroup_Office2010Black > .dxflChildInLastRowSys > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_Office2010Black tr:first-child > .dxflGroupCell_Office2010Black> .dxflGroupBox_Office2010Black,
+.dxflGroup_Office2010Black > .dxflChildInFirstRowSys > .dxflGroupCell_Office2010Black> .dxflGroupBox_Office2010Black {
+    margin-top: 13px;
+}
+
+.dxflGroup_Office2010Black tr:last-child > .dxflGroupCell_Office2010Black> .dxflGroupBox_Office2010Black,
+.dxflGroup_Office2010Black > .dxflChildInLastRowSys > .dxflGroupCell_Office2010Black> .dxflGroupBox_Office2010Black {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_Office2010Black > div > .dxflGroup_Office2010Black { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_Office2010Black > div > .dxflGroup_Office2010Black tr:first-child > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black,
+.dxtcPageContent_Office2010Black > div > .dxflGroup_Office2010Black > .dxflChildInFirstRowSys > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_Office2010Black > div > .dxflGroup_Office2010Black tr:last-child > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black,
+.dxtcPageContent_Office2010Black > div > .dxflGroup_Office2010Black > .dxflChildInLastRowSys > .dxflGroupCell_Office2010Black> .dxflItem_Office2010Black {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_Office2010Black{
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_Office2010Black .dxflGroupBoxCaption_Office2010Black {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_Office2010Black > div.dxflGroup_Office2010Black:first-child,
+.dxflGroupBox_Office2010Black > table.dxflGroup_Office2010Black:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_Office2010Black{
+    top: -19px;
+}
+
+.dxflOptional_Office2010Black{
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_Office2010Black{
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_Office2010Black {
+    width: 100%;
+}
+.dxflHelpText_Office2010Black {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_Office2010Black.dxflLHelpTextSys,
+.dxflHelpText_Office2010Black.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_Office2010Black.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_Office2010Black.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_Office2010Black {
+    font: 11px Verdana, Geneva, sans-serif;
+}
+.dxrControl_Office2010Black .dxr-tabContent {
+    border: 1px solid #5e5e5e;
+    border-top-width: 0px;
+    height: 95px;
+    background: #fdfeff url('rBack.png') repeat-x bottom;
+}
+.dxrControl_Office2010Black.dxr-oneLineMode .dxr-tabContent {
+    height: 31px;
+}
+.dxrControl_Office2010Black.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_Office2010Black.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_Office2010Black,
+.dxrControl_Office2010Black a {
+    color: #201f35;
+}
+.dxrControl_Office2010Black .dxr-itemDisabled.dxr-item,
+.dxrControl_Office2010Black .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_Office2010Black .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_Office2010Black .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_Office2010Black .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_Office2010Black .dxr-itemDisabled a,
+.dxrControl_Office2010Black .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #c7cacf;
+}
+
+/* Ribbon Popup */
+.dxrControl_Office2010Black .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_Office2010Black .dxr-minPopup.dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_Office2010Black .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #5e5e5e;
+}
+
+/* Ribbon Group List */
+.dxrControl_Office2010Black .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_Office2010Black .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_Office2010Black.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 31px;
+}
+
+.dxrControl_Office2010Black .dxr-groupList .dxr-groupSep b {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #e7e9ec url('rGroupSepBack.png') repeat-x bottom;
+}
+
+/* Ribbon Groups */
+.dxrControl_Office2010Black .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_Office2010Black .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_Office2010Black.dxr-oneLineMode .dxr-groupContent {
+    height: 31px;
+}
+.dxrControl_Office2010Black .dxr-groupLabel {
+    text-align: center;
+    color: #3c3c3c;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_Office2010Black .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 2px -4px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_Office2010Black .dxr-grExpBtn,
+.dxrControl_Office2010Black .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_Office2010Black .dxr-grExpBtn {
+    height: 87px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_Office2010Black .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_Office2010Black .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_Office2010Black .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_Office2010Black .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-itemSep,
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #9da0aa;
+    width: 1px;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_Office2010Black .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item,
+.dxrControl_Office2010Black .dxr-blSepItems .dxr-item,
+.dxrControl_Office2010Black.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item {
+    overflow: hidden;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item {
+    margin: 0 3px;
+}
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_Office2010Black .dxr-grExpBtn .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label {
+    border-top: 1px solid #f2ca58;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #C2762B;
+}
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_Office2010Black .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_Office2010Black .dxr-grExpBtn .dxr-popOut {
+    margin: 0 3px;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+noindex:-o-prefocus, 
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #f2ca58;
+}
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #C2762B;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_Office2010Black .dxr-item.dxr-edtItem {
+    border: 0;
+    padding: 1px 0;
+    height: 23px;
+}
+.dxrControl_Office2010Black .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_Office2010Black .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_Office2010Black .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_Office2010Black .dxr-buttonItem.dxr-itemChecked {
+    background: #fddc7f url('rItemSBack.png') repeat-x left top;
+    border-color: #C2762B;
+}
+.dxrControl_Office2010Black .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_Office2010Black .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #fddc7f url('rItemSBack.png') repeat-x left top;
+    border-color: #C2762B;
+}
+.dxrControl_Office2010Black .dxr-buttonItem.dxr-itemHover,
+.dxrControl_Office2010Black .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_Office2010Black .dxr-olmGrExpBtn.dxr-itemHover {
+    border-color: #f2ca58;
+    background: #fcf9df url('rItemHBack.png') repeat-x left top;
+}
+.dxrControl_Office2010Black .dxr-img32,
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_Office2010Black .dxr-img16,
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_Office2010Black .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_Office2010Black .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_Office2010Black .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_Office2010Black .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_Office2010Black .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_Office2010Black .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_Office2010Black .dxeColorTable_Office2010Black {
+    border: none;
+}
+
+.dxrControl_Office2010Black .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_Office2010Black .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab .dxtc-link {
+    color: #3c3c3c;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #7f7f7f url('rTabHoverBack.png') repeat-x;
+    border: solid 1px #5e5e5e;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    color: #FFFFFF;
+}
+.dxrControl_Office2010Black .dxtcLiteDisabled_Office2010Black .dxtc-link {
+    color: #BBBBBB;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #fcc921 url('rFileTabBack.png') repeat-x;
+    border-color: #e07110 #e07110 #5e5e5e #e07110;
+    border-width: 1px;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #fede23 url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #fbbc19 url('rFileTabPressedBack.png') repeat-x;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-leftIndent, 
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-spacer, 
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-rightIndent, 
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-sbIndent, 
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-sbSpacer
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #5e5e5e;
+}
+
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-activeTab {
+    border-left: 1px solid #5e5e5e;
+    background: #fdfeff;
+}
+
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtcLiteDisabled_Office2010Black .dxtc-link {
+    color: #AAAAAA;
+}
+.dxrControl_Office2010Black .dxtcLite_Office2010Black.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_Office2010Black .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #5e5e5e;
+    background-color: white;
+}
+
+.dxrControl_Office2010Black .dxr-glrBarContainer
+{
+    margin-right: 16px;
+    height: 71px;
+}
+
+.dxrControl_Office2010Black .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_Office2010Black .dxr-glrItem.dxr-itemHover
+{
+    border-width: 1px;
+    border-color: #f2ca58;
+    background: #fcf9df;
+}
+
+.dxrControl_Office2010Black .dxr-glrItem.dxr-itemChecked
+{
+    border-color: #c2762b;
+    background: #fddc7f;
+}
+
+.dxrControl_Office2010Black .dxr-glrBtnHover
+{
+    border-width: 1px;
+    border-color: #f2ca58;
+    background: #fcf9df url('mSubItemHBack.png') repeat-x left top;
+}
+
+.dxrControl_Office2010Black .dxr-glrItem.dxr-itemPressed
+{
+    background: #fddc7f;
+    border-color: #C2762B;
+}
+
+
+.dxrControl_Office2010Black .dxr-glrBtnPressed
+{
+    background: #fddc7f url('rItemSBack.png') repeat-x left top;
+    border-color: #C2762B;
+}
+
+.dxrControl_Office2010Black .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_Office2010Black .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_Office2010Black .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_Office2010Black .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Office2010Black .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Office2010Black .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_Office2010Black .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_Office2010Black .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_Office2010Black .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_Office2010Black .dxr-glrGroup
+{
+    background: #6b6a6a url('pcFBack.png') repeat-x left top;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+.dxrControl_Office2010Black .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_Office2010Black .dxr-glrMainDiv > div
+{
+    font-size: 11px;
+}
+
+.dxrControl_Office2010Black .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_Office2010Black .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 24px;
+    border-left: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0px;
+}
+
+.dxrControl_Office2010Black .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_Office2010Black .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_Office2010Black .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 3px 0;
+    display: block;
+}
+.dxrControl_Office2010Black .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_Office2010Black .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_Office2010Black {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_Office2010Black .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_Office2010Black .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_Office2010Black .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_Office2010Black .dxiz-wrapper > img,
+.dxizControl_Office2010Black .dxiz-clipPanel > img,
+.dxizControl_Office2010Black .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_Office2010Black .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_Office2010Black .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_Office2010Black .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_Office2010Black .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-lens .dxiz-llp,
+.dxizControl_Office2010Black .dxiz-lens .dxiz-lrp,
+.dxizControl_Office2010Black .dxiz-lens .dxiz-ltp,
+.dxizControl_Office2010Black .dxiz-lens .dxiz-lbp,
+.dxizControl_Office2010Black .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_Office2010Black .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_Office2010Black .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_Office2010Black .dxiz-lens.outside .dxiz-llp,
+.dxizControl_Office2010Black .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_Office2010Black .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_Office2010Black .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_Office2010Black .dxizLoadingPanel_Office2010Black {
+    position: absolute;
+}
+
+.dxisControl_Office2010Black.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_Office2010Black
+{
+    background-color: #FFF;
+    padding-bottom: 3px;
+    border: 1px solid #484848;
+}
+.dxitcControl_Office2010Black > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_Office2010Black .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #808080;
+    background-color: white;
+}
+.dxitcControl_Office2010Black .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #ffc076;
+}
+.dxitcCaption_Office2010Black
+{
+    background-color: #FFF;
+    padding: 2px;
+    border: 1px solid #808080;
+    margin: 2px 2px 0px 2px;
+}

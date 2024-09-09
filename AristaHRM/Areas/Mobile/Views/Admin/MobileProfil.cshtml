@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = " - Profil Karyawan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_profileMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model KaryawanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminKaryawan", "Admin", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "AdminMenu", "Admin", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@using (Html.BeginForm("Profil", "Admin", mobilearea, FormMethod.Post, null))
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > <a href="@Url.Action("AdminKaryawan", "Admin", mobilearea)">Admin Karyawan</a> > Profil Karyawan</li>
+        <li data-role="list-divider">Profil Karyawan</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.NIK)
+            @Html.DropDownListFor(m => m.NIK, Providers.GetListKaryawan("Mobile"), new { id = "NIK" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Karyawan)
+            @Html.TextBoxFor(m => m.Nama_Karyawan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jenis_Kelamin)
+            @Html.TextBoxFor(m => m.Jenis_Kelamin, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="list-divider">Identitas Perusahaan</li>
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Perusahaan)
+            @Html.TextBoxFor(m => m.Perusahaan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Cabang)
+            @Html.TextBoxFor(m => m.Cabang, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jabatan)
+            @Html.TextBoxFor(m => m.Jabatan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Departemen)
+            @Html.TextBoxFor(m => m.Departemen, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Masuk)
+            @Html.TextBoxFor(m => m.Tgl_Masuk, "{0:dd MMMM yyyy}", new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Status_Karyawan)
+            @Html.TextBoxFor(m => m.Status_Karyawan, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="list-divider">Identitas Lainnya</li>
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tempat_Lahir)
+            @Html.TextBoxFor(m => m.Tempat_Lahir, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Lahir)
+            @Html.TextBoxFor(m => m.Tgl_Lahir, "{0:dd MMMM yyyy}", new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Provinsi)
+            @Html.TextBoxFor(m => m.Provinsi, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Kota)
+            @Html.TextBoxFor(m => m.Kota, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Alamat)
+            @Html.TextBoxFor(m => m.Alamat, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Agama)
+            @Html.TextBoxFor(m => m.Agama, new { @readonly = "readonly" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Status_Nikah)
+            @Html.TextBoxFor(m => m.Status_Nikah, new { @readonly = "readonly" })
+        </li>
+    </ul>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#NIK").change(function () {
+                document.forms[0].submit();
+            });
+        });
+    </script>
+}
+
+

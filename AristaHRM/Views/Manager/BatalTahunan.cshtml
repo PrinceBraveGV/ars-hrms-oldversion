@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pembatalan Cuti Tahunan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // <![CDATA[
+    function customButtonClick(s, e, url) {
+        // fungsi handler pembatalan dengan tombol khusus
+        var key = s.GetRowKey(e.visibleIndex);
+        var dtstamp = key.substring(0, 8);
+        var order = key.substring(9);
+        var key = dtstamp + order;
+        var DestUrl = null;
+
+        if (e.buttonID === "Batal") {
+            DestUrl = url + "/" + key;
+            var ans = confirm("Yakin akan membatalkan cuti tahunan yang dipilih?");
+            if (ans == true) {
+                window.location.href = DestUrl;
+            }
+        }
+    }
+
+    function onInit(s, e) {
+        adjustSize();
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        BatalCTGrid.SetHeight(height);
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pembatalan Cuti Tahunan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:left">Berikut ini adalah daftar cuti tahunan yang telah disetujui oleh atasan masing-masing.<br />Klik "Batalkan" untuk membatalkan cuti karyawan yang ada pada daftar (pembatalan otomatis mengembalikan sisa cuti tahunan karyawan yang bersangkutan).</label>
+                        <br /><br />
+                    </div>
+                    @using (Html.BeginForm("BatalTahunan", "Manager", FormMethod.Post))
+                    {
+                        Html.RenderAction("BatalTahunanPartial");
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

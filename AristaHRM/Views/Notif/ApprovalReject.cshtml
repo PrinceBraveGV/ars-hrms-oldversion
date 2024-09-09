@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pengajuan Cuti Ditolak";
+    Layout = "~/Views/Shared/_approvalRejectLayout.cshtml";
+    string url = ViewBag.RedirectUrl as string;
+}
+
+@using AristaHRM.Models
+
+@model CutiModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Konfirmasi Penolakan Pengajuan Cuti</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 12px Arial, Tahoma; text-align:center">
+                        Proses pengajuan cuti @ViewData["Jenis_Cuti"].ToString().ToLower() untuk nomor pengajuan # @ViewData["ID_Cuti"] atas nama @ViewData["Nama_Karyawan"] telah ditolak.<br />
+                        Mohon berikan alasan penolakan anda untuk pengajuan cuti yang bersangkutan pada isian yang tersedia, kemudian segera periksa inbox email anda.
+                        </p>
+                        <br />
+                        @using (Html.BeginForm("ApprovalReject", "Notif", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "ApprovalRejectForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Alasan Penolakan ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().MemoFor(m => m.Alasan, textarea =>
+                                        {
+                                            textarea.Properties.Columns = 160;
+                                            textarea.Properties.Rows = 8;
+                                            textarea.Width = Unit.Pixel(500);
+                                            textarea.Theme = AristaHRM.Theme.SelectTheme;
+                                            textarea.Properties.HelpText = "(*) Masukkan alasan anda untuk menolak permohonan cuti yang diajukan. Alasan penolakan anda dapat dilihat pada riwayat cuti untuk karyawan ybs.";
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml();
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnProses";
+                                button.Text = "Lanjutkan Proses";
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.UseSubmitBehavior = false;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

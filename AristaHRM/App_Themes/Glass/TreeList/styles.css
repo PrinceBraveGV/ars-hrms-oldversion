@@ -1,0 +1,265 @@
+.dxtlControl_Glass
+{
+	cursor: default;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	border: 1px none #7EACB1;
+}
+.dxtlControl_Glass caption
+{
+	border-bottom: 0 solid #7EACB1;
+	border: 1px solid #7EACB1;
+	background: white none;
+	font-weight: bold;
+	padding: 3px;
+	text-align: center;
+}
+/* Indent cells */
+.dxtlIndent_Glass,
+.dxtlIndentWithButton_Glass
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_Glass
+{
+	padding: 0 11px;
+}
+.dxtlIndentWithButton_Glass
+{
+	padding: 5px 6px;
+}
+.dxtlSelectionCell_Glass
+{
+	border: 1px solid #C2D4DA;
+}
+
+/* Tree-lines cells */
+.dxtlLineRoot_Glass
+{
+	background: White url('CssImages/TreeLineRoot.gif') repeat-y top center;
+}
+.dxtlLineFirst_Glass
+{
+	background-image: url('CssImages/TreeLineFirst.gif');
+}
+.dxtlLineMiddle_Glass
+{
+	background-image: url('CssImages/TreeLineMiddle.gif');
+}
+.dxtlLineLast_Glass
+{
+	background-image: url('CssImages/TreeLineLast.gif');
+}
+
+.dxtlLineFirstRtl_Glass
+{
+	background-image: url('CssImages/TreeLineFirstRtl.gif');
+}
+.dxtlLineMiddleRtl_Glass
+{
+	background-image: url('CssImages/TreeLineMiddleRtl.gif');
+}
+.dxtlLineLastRtl_Glass
+{
+	background-image: url('CssImages/TreeLineLastRtl.gif');
+}
+
+
+/* Headers */
+.dxtlHeader_Glass
+{
+	background: #C0DDE0 url('CssImages/HeaderBack.gif') repeat-x;
+	border: 1px solid #7EACB1;
+	padding: 4px 6px 5px;
+	font-weight: normal;
+}
+.dxtlHeader_Glass table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_Glass td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_Glass,
+.dxtlHeader_Glass td.dxtl
+{
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_Glass
+{
+	background: white none;
+}
+.dxtlAltNode_Glass
+{
+	background: #F3F8F7 none;
+}
+.dxtlSelectedNode_Glass
+{
+	background: #E9F6F8 none;
+}
+.dxtlFocusedNode_Glass
+{
+	background: #c0e0e7 none;
+}
+.dxtlInlineEditNode_Glass
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_Glass
+{
+	background: #EDF3F4 none;
+}
+.dxtlNode_Glass td.dxtl, 
+.dxtlAltNode_Glass  td.dxtl, 
+.dxtlSelectedNode_Glass td.dxtl, 
+.dxtlFocusedNode_Glass td.dxtl,
+.dxtlEditFormDisplayNode_Glass td.dxtl,
+.dxtlCommandCell_Glass
+{
+	padding: 3px 6px 4px;
+	border: 1px solid #C2D4DA;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlHeader_Glass .dxbButton_Glass,
+.dxtlCommandCell_Glass .dxbButton_Glass
+{
+    margin: 0 2px;
+}
+.dxtlHeader_Glass .dxbButton_Glass .dxb,
+.dxtlCommandCel_Glass .dxbButton_Glass .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxtlInlineEditNode_Glass td.dxtl
+{
+	border: 1px solid #C2D4DA;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_Glass
+{
+	background: #ECF2F3 none;
+	padding: 14px;
+	border: 1px solid #C2D4DA;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_Glass
+{
+	background-color: #DAEDF0;
+}
+.dxtlFooter_Glass
+{
+	background-color: #e9f8fa;
+}
+.dxtlGroupFooter_Glass td.dxtl,
+.dxtlFooter_Glass td.dxtl
+{
+	padding: 5px 6px 6px;
+	white-space: nowrap;
+	border: 1px solid #C2D4DA;
+	overflow: hidden;
+}
+.dxtlGroupFooter_Glass .dx-ar > br,
+.dxtlFooter_Glass .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_Glass
+{
+	border-bottom: 1px none #7EACB1;
+}
+.dxtlPagerBottomPanel_Glass
+{
+	border-top: 1px none #7EACB1;
+}
+
+/* Editing */
+.dxtlEditForm_Glass
+{
+	background: #EDF3F4 none;
+	border: 1px solid #C2D4DA;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_Glass,
+.dxtlEditFormEditCell_Glass
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_Glass
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_Glass
+{
+	background: #FFC8C8 none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #cfcfcf;
+}
+.dxtlPopupEditForm_Glass
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_Glass a
+{
+	color: #2a769d;
+}
+.dxtlControl_Glass a:hover
+{
+	color: #f15e34;
+}
+.dxtlCommandCell_Glass a
+{
+	margin-right: 3px;
+}
+.dxtlPopupEditForm_Glass .dxtlCommandCell_Glass a
+{
+	color: #2A769D;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_Glass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #7EACB1;
+	background-color: White;
+}
+.dxtlLoadingPanel_Glass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxtlLoadingPanel_Glass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 27px;
+	width: 27px;
+}
+
+/* Disabled */
+.dxtlDisabled_Glass,
+.dxtlDisabled_Glass .dxtl_Glass
+{
+	color: #808080;
+	cursor: default;
+}
+

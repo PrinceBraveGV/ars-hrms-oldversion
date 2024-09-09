@@ -1,0 +1,176 @@
+﻿@{
+    ViewBag.Title = "HRIS - Input Cabang Baru";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model CabangModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Input Cabang Baru</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        @using (Html.BeginForm())
+                        {
+                             @Html.AntiForgeryToken()
+                             @Html.DevExpress().FormLayout(settings =>
+                             {
+                                 settings.Name = "InputCabangForm";
+                                 settings.AlignItemCaptionsInAllGroups = true;
+                                 settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                 settings.Theme = AristaHRM.Theme.SelectTheme;
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = string.Empty;
+                                     layoutitem.ShowCaption = DefaultBoolean.False;
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Perusahaan</p><hr />");
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = "Nama Perusahaan ";
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         Html.DevExpress().ComboBoxFor(m => m.Nama_Perusahaan, combosettings =>
+                                         {
+                                             combosettings.Properties.NullText = "-- Pilih Perusahaan --";
+                                             combosettings.Properties.HelpText = "(*) Pilih nama perusahaan dari daftar.";
+                                             combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                             combosettings.Properties.TextField = "Nama_Perusahaan";
+                                             combosettings.Properties.ValueField = "Nama_Perusahaan";
+                                             combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                             combosettings.Properties.ValidationSettings.Display = Display.None;
+                                             combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                             combosettings.Width = Unit.Pixel(300);
+                                             combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                             combosettings.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                         }).BindList(Providers.GetPerusahaan()).GetHtml();
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = string.Empty;
+                                     layoutitem.ShowCaption = DefaultBoolean.False;
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Cabang</p><hr />");
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = "Nama Cabang ";
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         Html.DevExpress().TextBoxFor(m => m.Nama_Cabang, textbox =>
+                                         {
+                                             textbox.Width = Unit.Pixel(400);
+                                             textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                             textbox.Properties.HelpText = "(*) Isi dengan nama cabang sesuai keadaan lokasi.";
+                                             textbox.Properties.ValidationSettings.Display = Display.None;
+                                             textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                             textbox.ShowModelErrors = true;
+                                         }).GetHtml();
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = "Lokasi Cabang ";
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         Html.DevExpress().TextBoxFor(m => m.Lokasi, textbox =>
+                                         {
+                                             textbox.Width = Unit.Pixel(400);
+                                             textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                             textbox.Properties.HelpText = "(*) Isi dengan lokasi cabang yang bersangkutan.";
+                                             textbox.Properties.ValidationSettings.Display = Display.None;
+                                             textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                             textbox.ShowModelErrors = true;
+                                         }).GetHtml();
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = "Kepala Cabang ";
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         Html.DevExpress().ComboBoxFor(m => m.Kepala_Cabang, combobox =>
+                                         {
+                                             combobox.Name = "Kepala_Cabang";
+                                             combobox.Properties.HelpText = "(*) Pilih kepala cabang yang memimpin cabang bersangkutan.";
+                                             combobox.Properties.NullText = "-- Pilih Kepala Cabang --";
+                                             combobox.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                             combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                             combobox.Properties.TextField = "Nama_Karyawan";
+                                             combobox.Properties.ValueField = "Nama_Karyawan";
+                                             combobox.Width = Unit.Pixel(300);
+                                             combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                         }).BindList(Providers.GetKaCab()).GetHtml();
+                                     });
+                                 });
+                                 settings.Items.Add(layoutitem =>
+                                 {
+                                     layoutitem.Caption = "Kode Singkatan ";
+                                     layoutitem.SetNestedContent(() =>
+                                     {
+                                         Html.DevExpress().TextBoxFor(m => m.Kode_Singkat, textbox =>
+                                         {
+                                             textbox.Width = Unit.Pixel(100);
+                                             textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                             textbox.Properties.HelpText = "(*) Isi dengan kode singkatan cabang. Contoh: Depok = DP, Bogor = BOO, Tangerang = TNG, d.l.l";
+                                         }).GetHtml();
+                                     });
+                                 });
+                             }).GetHtml();
+                             @Html.DevExpress().Button(button =>
+                             {
+                                 button.Name = "btnRegister";
+                                 button.Text = "Register Cabang";
+                                 button.Images.Image.Url = "~/Images/Document.png";
+                                 button.Images.Image.Width = Unit.Pixel(15);
+                                 button.Images.Image.Height = Unit.Pixel(15);
+                                 button.UseSubmitBehavior = true;
+                                 button.Theme = AristaHRM.Theme.SelectTheme;
+                             }).GetHtml();
+                             ViewContext.Writer.Write("&nbsp;");
+                             @Html.DevExpress().Button(button =>
+                             {
+                                 button.Name = "btnReset";
+                                 button.Text = "Reset Formulir";
+                                 button.Images.Image.Url = "~/Images/Refresh.png";
+                                 button.Images.Image.Width = Unit.Pixel(15);
+                                 button.Images.Image.Height = Unit.Pixel(15);
+                                 button.UseSubmitBehavior = false;
+                                 button.Attributes.Add("type", "reset");
+                                 button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                 button.Theme = AristaHRM.Theme.SelectTheme;
+                             }).GetHtml();
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <p style="text-align:center; color:red">@ViewData["ErrorMsg"]</p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

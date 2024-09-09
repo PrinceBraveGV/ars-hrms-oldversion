@@ -1,0 +1,539 @@
+.dxscControl_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+
+    background: #cbcbcb;
+    border: solid 1px #cbcbcb;
+}
+.dxscLoadingPanel_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscLoadingPanel_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxscLoadingPanel_Mulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Headers */
+.dxscDateHeader_Mulberry, 
+.dxscAlternateDateHeader_Mulberry,
+.dxscDayHeader_Mulberry,
+.dxscDateCellHeader_Mulberry,
+.dxscTodayCellHeader_Mulberry,
+.dxscTimelineDateHeader_Mulberry,
+.dxscHorizontalResourceHeader_Mulberry,
+.dxscVerticalResourceHeader_Mulberry
+{    
+    color: #7e7e7e;
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_Mulberry,
+.dxscAlternateDateHeader_Mulberry
+{
+    background: #BF4E6A;    
+    color: White;
+}
+.dxscDayHeader_Mulberry
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_Mulberry
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_Mulberry
+{    
+    border-top-width: 1px;
+    background: #BF4E6A;
+    color: White;
+}
+.dxscTimelineDateHeader_Mulberry
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_Mulberry
+{
+    border-width: 1px 1px 1px 0;
+    background: #fafafa;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_Mulberry
+{
+    border-width: 1px 1px 0 0;
+    background: #fafafa;
+    white-space: normal;
+}
+.dxscSelectionBar_Mulberry 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_Mulberry, 
+.dxscRightTopCorner_Mulberry
+{
+    background: #fafafa;
+    width: 1px;
+    border-style: solid;
+    border-color: #cbcbcb;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_Mulberry
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.79em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_Mulberry, 
+.dxscGroupSeparatorHorizontal_Mulberry
+{
+    background: white;
+    border: solid 1px #cbcbcb;
+}
+
+.dxscGroupSeparatorVertical_Mulberry
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_Mulberry
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_Mulberry
+{
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_Mulberry 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_Mulberry
+{
+    border: solid 1px #cbcbcb;
+}
+.dxscTimelineCellBody_Mulberry
+{
+    height: 300px;
+    border-color: #cbcbcb;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_Mulberry
+{
+    color: black;
+    font-size: 0.79em;
+    border: solid 1px #cbcbcb;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_Mulberry
+{	
+    border: solid 1px #cbcbcb;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_Mulberry
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_Mulberry
+{
+    font-size: 0.79em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_Mulberry, .dxscTimeRulerMinuteItem_Mulberry
+{
+    color: #283b56;
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_Mulberry
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.21em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_Mulberry
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.79em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_Mulberry
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_Mulberry
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_Mulberry
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_Mulberry
+{
+	border-right: 1px solid #cbcbcb;
+}
+.dxscToolbar_Mulberry
+{
+    border: none;
+    background: #fafafa;
+    padding: 0px 14px;    
+    height: 42px;
+}
+.dxscViewSelector_Mulberry
+{    
+    border: none;
+    padding: 0px 7px;   
+    background: #fafafa;
+    height: 42px;
+}
+.dxscResourceNavigator_Mulberry 
+{    
+    background: white;
+    padding: 7px 10px;
+    border: solid 1px #cbcbcb;
+}
+.dxscViewVisibleInterval_Mulberry
+{    
+    color: #BF4E6A;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_Mulberry
+{
+    background: #fafafa;
+    border: solid 2px black;
+    padding: 0;
+}
+.dxscControlAreaForm_Mulberry
+{
+    font-size: 1.14em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxpcLite_Mulberry .dxscButtonTable,
+.dxpcLite_Mulberry .dxscAppointmentForm
+{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.dxscErrorInfo_Mulberry
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewSelectorButton_Mulberry
+{
+    padding: 5px 13px 6px;
+}
+.dxscViewSelectorButtonPressed_Mulberry
+{
+    background: #d8d8d8;
+}
+.dxscViewSelectorButtonHover_Mulberry
+{
+	background: #dcdcdc;
+}
+.dxscViewSelectorButtonChecked_Mulberry
+{
+    background: #BF4E6A;
+    color: white;
+}
+.dxscViewNavigatorButton_Mulberry,
+.dxscViewNavigatorGotoDateButton_Mulberry 
+{    
+	border: 1px solid transparent!important;
+	margin: 0 1px;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscViewNavigatorButton_Mulberry
+{    
+    padding: 1px 7px;
+}
+.dxscViewNavigatorGotoDateButton_Mulberry 
+{
+    padding: 10px 7px !important;
+}
+.dxscViewNavigatorButtonHover_Mulberry,
+.dxscViewNavigatorGotoDateButtonHover_Mulberry
+{
+    border: 1px solid #CBCBCB!important;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxscViewNavigatorButtonPressed_Mulberry,
+.dxscViewNavigatorGotoDateButtonPressed_Mulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+}
+.dxscViewNavigatorButton_Mulberry.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonHover_Mulberry.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonPressed_Mulberry.dxscViewNavigatorGotoTodayButton
+{
+    border: 0!important;
+    background: none;
+    color: #BF4E6A;
+    padding: 3px 7px 5px;
+
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.dxscViewNavigatorButtonHover_Mulberry.dxscViewNavigatorGotoTodayButton span
+{
+    text-decoration: underline!important;
+}
+.dxscResourceNavigatorButton_Mulberry,
+.dxscDVTopMoreButton_Mulberry,
+.dxscDVBottomMoreButton_Mulberry,
+.dxscNavigationButton_Mulberry
+{
+	border: 1px solid #CBCBCB;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+
+	padding: 9px 7px;
+}
+.dxscResourceNavigatorButtonHover_Mulberry,
+.dxscDVTopMoreButtonHover_Mulberry,
+.dxscDVBottomMoreButtonHover_Mulberry,
+.dxscNavigationButtonHover_Mulberry
+{
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxscResourceNavigatorButtonPressed_Mulberry,
+.dxscDVTopMoreButtonPressed_Mulberry,
+.dxscDVBottomMoreButtonPressed_Mulberry,
+.dxscNavigationButtonPressed_Mulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxscResourceNavigatorDisabled_Mulberry,
+.dxscNavigationDisabled_Mulberry
+{
+	background: #e7e7e7;
+	color: #C3C3C3;
+	border-color: #d3d3d3;
+	cursor: default;
+}
+
+.dxscDVBottomMoreButton_Mulberry
+{
+	padding: 7px 7px 6px;
+}
+.dxscDVTopMoreButton_Mulberry
+{
+	padding: 6px 7px 7px;
+}
+.dxscNavigationButton_Mulberry
+{
+	padding: 4px 6px;
+}
+.dxscSmartTagButton_Mulberry 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_Mulberry
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_Mulberry,
+.dxscNoBorderButtonHover_Mulberry
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_Mulberry 
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_Mulberry
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_Mulberry
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_Mulberry
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_Mulberry
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_Mulberry
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_Mulberry
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_Mulberry 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_Mulberry 
+{
+    top:-2px;
+    height:13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_Mulberry 
+{
+    position:absolute;
+    width:1px;
+    font-size: 0;
+    border: 1px dashed #BF4E6A;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.dxscTimeMarkerLineH_Mulberry
+{
+    position:absolute;
+    top:-2px;
+    height:1px;
+    font-size: 0;
+    border: 1px dashed #BF4E6A;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+

@@ -1,0 +1,443 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Office2010Silver
+{
+    background: White;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_Office2010Silver
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #585e68;
+	background: White none;
+	border: 1px solid #80858d;
+}
+.dxheLoadingPanel_Office2010Silver td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxheLoadingPanel_Office2010Silver .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+
+.dxheControl_Office2010Silver
+{
+    border: 1px solid #868b91;
+    font: 11px Verdana, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_Office2010Silver
+{
+    padding: 0;
+    background-color: #e9edf1;
+}
+.dxheErrorFrame_Office2010Silver
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_Office2010Silver .dxeMemo_Office2010Silver .dxheErrorFrame_Office2010Silver .dxhe,
+.dxheControl_Office2010Silver.dxhe-rtl .dxeMemo_Office2010Silver .dxheErrorFrame_Office2010Silver .dxhe,
+.dxheErrorFrame_Office2010Silver .dxhe {
+    padding: 5px;
+}
+.dxheControl_Office2010Silver .dxeMemo_Office2010Silver .dxheErrorFrame_Office2010Silver .dxhe td,
+.dxheControl_Office2010Silver.dxhe-rtl .dxeMemo_Office2010Silver .dxheErrorFrame_Office2010Silver .dxhe td,
+.dxheErrorFrame_Office2010Silver .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Office2010Silver .dxheErrorFrameCloseButton_Office2010Silver {
+    cursor: pointer;
+}
+.dxheControl_Office2010Silver .dxheViewArea_Office2010Silver
+{
+    border-width: 0;
+}
+.dxheContentArea_Office2010Silver td.dxheViewArea_Office2010Silver {
+    line-height: 0;
+}
+.dxheContentArea_Office2010Silver td.dxheViewArea_Office2010Silver.dxheHtmlViewArea_Office2010Silver
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_Office2010Silver,
+.dxhePreviewArea_Office2010Silver
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_Office2010Silver .dxheHtmlViewArea_Office2010Silver,
+.dxheHtmlViewArea_Office2010Silver .CodeMirror,
+body.dxheDesignViewArea_Office2010Silver,
+body.dxhePreviewArea_Office2010Silver
+{
+    margin: 0px;
+    background-color: White;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.dxheControl_Office2010Silver .dxeMemo_Office2010Silver.dxheHtmlViewArea_Office2010Silver .dxeMemoEditArea_Office2010Silver,
+body.dxheDesignViewArea_Office2010Silver,
+body.dxhePreviewArea_Office2010Silver
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_Office2010Silver .dxeMemo_Office2010Silver.dxheHtmlViewArea_Office2010Silver td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_Office2010Silver.dxhe-rtl .dxheContentArea_Office2010Silver .dxeMemo_Office2010Silver.dxheHtmlViewArea_Office2010Silver td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_Office2010Silver .dxeMemo_Office2010Silver textarea 
+{
+	resize:none;
+}
+.dxheControl_Office2010Silver input.dxeEditArea_Office2010Silver
+{
+    margin-top: -1px;
+}
+.dxheControl_Office2010Silver input.dxeEditArea_Office2010Silver,
+.dxheControl_Office2010Silver td.dxic .dxeEditArea_Office2010Silver /*Bootstrap correction*/
+{
+    padding-bottom: 0px;
+}
+.dxheControl_Office2010Silver td.dxheDesignViewArea_Office2010Silver .dxm-main.dxmtb 
+{
+    border: 1px solid #868b91;
+}
+.dxheControl_Office2010Silver td.dxheDesignViewArea_Office2010Silver
+{
+    position: relative;
+}
+td.dxheDesignViewArea_Office2010Silver .dxmLite_Office2010Silver {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_Office2010Silver .dxmLite_Office2010Silver.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_Office2010Silver .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_Office2010Silver .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_Office2010Silver .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_Office2010Silver .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_Office2010Silver img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_Office2010Silver img.dxheAudio,
+.dxheViewArea_Office2010Silver img.dxheFlash,
+.dxheViewArea_Office2010Silver img.dxheVideo,
+.dxheViewArea_Office2010Silver img.dxheYoutube,
+.dxheViewArea_Office2010Silver img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_Office2010Silver .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_Office2010Silver.dxheDesignViewArea_Office2010Silver .dxheSelected
+{
+    background-color: #E2ECF7;
+}
+.dxhe-insertPlaceholder .dxeListBox_Office2010Silver.dxeFocused_Office2010Silver
+{
+    border: 1px solid #A5ACB5;
+}
+.dxpc-contentWrapper .dxflFormLayout_Office2010Silver.dxhe-insertPlaceholder .dxflGroup_Office2010Silver .dxflGroupBox_Office2010Silver
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_Office2010Silver.dxhe-insertPlaceholder .dxflGroup_Office2010Silver .dxflGroupBox_Office2010Silver .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_Office2010Silver .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_Office2010Silver,
+.dxhe-insertPlaceholder .dxeListBox_Office2010Silver .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_Office2010Silver .CodeMirror-activeline-background 
+{
+    background: #fdf7d9;
+}
+.dxheHtmlViewArea_Office2010Silver .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_Office2010Silver .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_Office2010Silver .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Office2010Silver table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Office2010Silver table.dxEmptyBorderTable td
+{
+    border: 1px dotted Gray;
+}
+@media print
+{
+	body.dxheDesignViewArea_Office2010Silver table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Office2010Silver table.dxEmptyBorderTable td
+	{
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_Office2010Silver
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_Office2010Silver pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_Office2010Silver
+{
+}
+.dxheStatusBar_Office2010Silver .dxheStatusBarTab_Office2010Silver
+{
+    border-bottom-width: 0 !important;
+    border-left-width: 0 !important;
+}
+.dxheControl_Office2010Silver .dxheStatusBar_Office2010Silver .dxheStatusBarTab_Office2010Silver .dxtc-link
+{
+    padding: 4px 35px 5px 34px;
+}
+.dxheControl_Office2010Silver.dxhe-rtl .dxheStatusBar_Office2010Silver .dxheStatusBarTab_Office2010Silver
+{
+    border-left-width: 1px !important;
+    border-right-width: 0 !important;
+}
+.dxheStatusBarActiveTab_Office2010Silver
+{
+}
+.dxHtmlEditor_heSizeGrip_Office2010Silver
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Office2010Silver
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Office2010Silver
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -13px;
+}
+.dxheControl_Office2010Silver.dxhe-rtl .dxheSizeGripContainer_Office2010Silver
+{
+    text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_Office2010Silver .dxheDlgFooter,
+.dxpcLite_Office2010Silver .dxheCustomDialog_Office2010Silver .dxhecd-Buttons
+{
+    background-color: #e9edf1;
+    border-top: 1px solid #c9cdd2;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_Office2010Silver.dxRtl .dxheDlgFooter,
+.dxpcLite_Office2010Silver.dxRtl .dxheCustomDialog_Office2010Silver .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_Office2010Silver .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_Office2010Silver.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_Office2010Silver .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: 1px dashed #cac8c8;
+}
+.dxpcLite_Office2010Silver .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: 1px solid #a5acb5;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Office2010Silver
+{
+	height: 1px;
+}
+.dxtbControl_Office2010Silver
+{
+    color: Black;
+    background-color: #e9edf1;
+    width: 100%;
+    border-bottom: 1px solid #868b91;
+}
+.dxtbControl_Office2010Silver td.dxmMenu_Office2010Silver
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_Office2010Silver
+{
+    padding: 2px 2px 1px;
+}
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver
+{
+    background-color: #E9EDF1;
+}
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver .dxtcLite_Office2010Silver .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver .dxtcLite_Office2010Silver.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver .dxr-minBtn
+{
+    padding-right: 7px;
+}
+.dxheControl_Office2010Silver .dxtbControl_Office2010Silver.dxtbr_Office2010Silver,
+.dxheControl_Office2010Silver .dxrControl_Office2010Silver .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Office2010Silver .dxmLite_Office2010Silver .dxm-main
+{
+    border-width: 0;
+}
+.dxmLite_Office2010Silver .dxhetipControl_Office2010Silver img
+{
+	vertical-align: top;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Office2010Silver
+{
+}
+.dxtcbColorDiv_Office2010Silver
+{
+	width: 16px;
+	height: 3px;
+	font-size: 0;
+	background-color: Transparent;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Office2010Silver .dxrpcontent
+{
+    padding: 9px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_Office2010Silver .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_Office2010Silver.dxhe-mediaDialog 
+{
+    width: 720px;
+}
+.dxflFormLayout_Office2010Silver.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_Office2010Silver.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 410px;
+}
+div.dxflFormLayout_Office2010Silver.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_Office2010Silver.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Office2010Silver.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_Office2010Silver.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Office2010Silver.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_Office2010Silver .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_Office2010Silver.dxeFocused_Office2010Silver
+{
+    border-color: #a5acb5;
+}
+
+div.dxhe-searchQuick div.dxbButton_Office2010Silver,
+div.dxhe-searchQuick div.dxbButton_Office2010Silver .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_Office2010Silver.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_Office2010Silver .dxb 
+{
+    padding: 2px 6px;
+}

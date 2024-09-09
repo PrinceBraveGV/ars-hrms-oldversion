@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "HRIS - Proses Time Sheet";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+    });
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Proses Time Sheet</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">
+
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="errormsg">@ViewData["ErrorMsg"]</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+

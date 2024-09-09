@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_SpecialTheme,
+.dxTreeList_CollapsedButtonRtl_SpecialTheme,
+.dxTreeList_DragAndDropArrowDown_SpecialTheme,
+.dxTreeList_DragAndDropArrowUp_SpecialTheme,
+.dxTreeList_DragAndDropHide_SpecialTheme,
+.dxTreeList_DragAndDropNode_SpecialTheme,
+.dxTreeList_ExpandedButton_SpecialTheme,
+.dxTreeList_ExpandedButtonRtl_SpecialTheme,
+.dxTreeList_SortAsc_SpecialTheme,
+.dxTreeList_SortDesc_SpecialTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_SpecialTheme
+{
+    background-position: 0px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_CollapsedButtonRtl_SpecialTheme
+{
+    background-position: -16px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_DragAndDropArrowDown_SpecialTheme
+{
+    background-position: -12px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_SpecialTheme
+{
+    background-position: 0px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_SpecialTheme
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_SpecialTheme
+{
+    background-position: 0px -55px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_SpecialTheme
+{
+    background-position: -16px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_ExpandedButtonRtl_SpecialTheme
+{
+    background-position: 0px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_SortAsc_SpecialTheme
+{
+    background-position: -14px -55px;
+    width: 9px;
+    height: 13px;
+}
+.dxTreeList_SortDesc_SpecialTheme
+{
+    background-position: -23px 0px;
+    width: 9px;
+    height: 13px;
+}
+

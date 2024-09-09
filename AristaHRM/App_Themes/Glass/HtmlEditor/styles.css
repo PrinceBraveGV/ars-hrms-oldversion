@@ -1,0 +1,444 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Glass
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_Glass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #7EACB1;
+	background-color: White;
+}
+.dxheLoadingPanel_Glass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxheLoadingPanel_Glass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 27px;
+	width: 27px;
+}
+
+.dxheControl_Glass
+{
+    border: Solid 1px #4986A2;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_Glass
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #D3E9F0;
+}
+.dxheErrorFrame_Glass
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_Glass .dxeMemo_Glass .dxheErrorFrame_Glass .dxhe,
+.dxheControl_Glass.dxhe-rtl .dxeMemo_Glass .dxheErrorFrame_Glass .dxhe,
+.dxheErrorFrame_Glass .dxhe {
+    padding: 5px;
+}
+.dxheControl_Glass .dxeMemo_Glass .dxheErrorFrame_Glass .dxhe td,
+.dxheControl_Glass.dxhe-rtl .dxeMemo_Glass .dxheErrorFrame_Glass .dxhe td,
+.dxheErrorFrame_Glass .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Glass .dxheErrorFrameCloseButton_Glass {
+   cursor: pointer;
+}
+.dxheViewArea_Glass
+{
+    border: Solid 1px #4986A2;    
+}
+.dxheContentArea_Glass td.dxheViewArea_Glass {
+    line-height: 0;
+}
+.dxheContentArea_Glass td.dxheViewArea_Glass.dxheHtmlViewArea_Glass
+{
+    line-height: inherit;
+}
+
+.dxheDesignViewArea_Glass,
+.dxhePreviewArea_Glass 
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_Glass .dxheHtmlViewArea_Glass,
+.dxheHtmlViewArea_Glass .CodeMirror,
+body.dxheDesignViewArea_Glass,
+body.dxhePreviewArea_Glass 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_Glass .dxeMemo_Glass.dxheHtmlViewArea_Glass .dxeMemoEditArea_Glass,
+body.dxheDesignViewArea_Glass,
+body.dxhePreviewArea_Glass 
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_Glass .dxeMemo_Glass.dxheHtmlViewArea_Glass td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_Glass.dxhe-rtl .dxheContentArea_Glass .dxeMemo_Glass.dxheHtmlViewArea_Glass td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_Glass .dxeMemo_Glass textarea 
+{
+	resize:none;
+}
+.dxheControl_Glass td.dxheDesignViewArea_Glass .dxm-main.dxmtb 
+{
+    border: 1px solid #4986A2;
+}
+.dxheControl_Glass td.dxheDesignViewArea_Glass
+{
+    position: relative;
+}
+td.dxheDesignViewArea_Glass .dxmLite_Glass {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_Glass .dxmLite_Glass.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_Glass .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_Glass .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_Glass .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_Glass .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_Glass img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_Glass img.dxheAudio,
+.dxheViewArea_Glass img.dxheFlash,
+.dxheViewArea_Glass img.dxheVideo,
+.dxheViewArea_Glass img.dxheYoutube,
+.dxheViewArea_Glass img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_Glass .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_Glass.dxheDesignViewArea_Glass .dxheSelected
+{
+    background-color: #ACCEDE;
+}
+.dxhe-insertPlaceholder .dxeListBox_Glass.dxeFocused_Glass
+{
+    border: 1px solid #7EACB1;
+}
+.dxpc-contentWrapper .dxflFormLayout_Glass.dxhe-insertPlaceholder .dxflGroup_Glass .dxflGroupBox_Glass
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_Glass.dxhe-insertPlaceholder .dxflGroup_Glass .dxflGroupBox_Glass .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_Glass .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_Glass,
+.dxhe-insertPlaceholder .dxeListBox_Glass .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_Glass .CodeMirror-activeline-background 
+{
+    background: #E9F6F8;
+}
+.dxheHtmlViewArea_Glass .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_Glass .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_Glass .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+.dxpcLite_Glass .dxpc-mainDiv.dxpc-shadow
+{
+    padding: 0;
+}
+
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Glass table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Glass table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Glass table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Glass table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_Glass
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_Glass pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_Glass 
+{
+}
+.dxheControl_Glass .dxheStatusBar_Glass .dxheStatusBarTab_Glass .dxtc-link
+{   
+    padding: 4px 27px 5px;
+}
+.dxheStatusBarActiveTab_Glass 
+{
+}
+.dxHtmlEditor_heSizeGrip_Glass 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Glass
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Glass 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -12px;
+}
+.dxheControl_Glass.dxhe-rtl .dxheSizeGripContainer_Glass 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_Glass .dxheDlgFooter,
+.dxpcLite_Glass .dxheCustomDialog_Glass .dxhecd-Buttons
+{
+	background-color: #D3E6F3;
+	border-top-style: none;
+	
+	background-image: url('dfFooterBack.gif');
+    background-repeat:repeat-x;
+    background-position:top;	
+
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_Glass.dxRtl .dxheDlgFooter,
+.dxpcLite_Glass.dxRtl .dxheCustomDialog_Glass .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_Glass .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_Glass.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_Glass .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_Glass .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #7EACB1;
+}
+.dxhe-dialog .dxflGroupBoxCaption_Glass
+{
+	background-color: #EDF3F4;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Glass
+{
+	height: 1px;
+}
+.dxtbControl_Glass 
+{
+	color: black;
+	background-color: #7BA8BD;
+    border-bottom: Solid 1px #4986A2;
+}
+
+.dxtbControl_Glass td.dxtb.dxmMenu_Glass
+{
+	border-style: none;
+}
+.dxtbComboBoxMenuItem_Glass
+{
+    padding: 3px 4px 3px 4px;
+}
+.dxheControl_Glass .dxrControl_Glass
+{
+    background-color: #D3E9F0;
+}
+.dxheControl_Glass .dxrControl_Glass .dxtcLite_Glass .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_Glass .dxrControl_Glass .dxtcLite_Glass.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_Glass .dxrControl_Glass .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_Glass .dxrControl_Glass .dxr-minBtn
+{
+    padding-right: 8px;
+}
+.dxheControl_Glass .dxrControl_Glass .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+    padding: 1px 0 0 0;
+}
+.dxheControl_Glass .dxtbControl_Glass.dxtbr_Glass
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Glass .dxmLite_Glass .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_Glass .dxhetipControl_Glass img
+{
+	vertical-align: top;
+}
+.dxtbControl_Glass .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_Glass
+{
+    margin-bottom: -1px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Glass { }
+.dxtcbColorDiv_Glass
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Glass .dxrpcontent
+{
+    padding: 11px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_Glass .dxhe-dialogSettings 
+{
+    width: 270px;
+    padding-left: 16px;
+}
+.dxflFormLayout_Glass.dxhe-mediaDialog 
+{
+    width: 810px;
+}
+.dxflFormLayout_Glass.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_Glass.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_Glass.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_Glass.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Glass.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_Glass.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Glass.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_Glass .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_Glass.dxeFocused_Glass
+{
+    border-color: #7EACB1;
+}
+
+div.dxhe-searchQuick div.dxbButton_Glass,
+div.dxhe-searchQuick div.dxbButton_Glass .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_Glass.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_Glass .dxb
+{
+    padding: 1px 8px 2px;
+}
+

@@ -1,0 +1,124 @@
+﻿@using AristaHRM.Models
+
+@model MutasiModel
+
+@{
+    Html.DevExpress().FormLayout(settings =>
+    {
+        settings.Name = "UserInfo";
+        settings.AlignItemCaptionsInAllGroups = true;
+        settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+        settings.Style.Add("margin-left", "6px");
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Nama Karyawan ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Nama_Karyawan, textbox =>
+                {
+                    textbox.Name = "Nama_Karyawan";
+                    textbox.Width = Unit.Pixel(400);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                    textbox.Style.Add("background-color", "white");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Perusahaan ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Perusahaan, textbox =>
+                {
+                    textbox.Name = "Perusahaan";
+                    textbox.Width = Unit.Pixel(400);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                    textbox.Style.Add("background-color", "white");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Cabang ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Cabang, textbox =>
+                {
+                    textbox.Name = "Cabang";
+                    textbox.Width = Unit.Pixel(400);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                    textbox.Style.Add("background-color", "white");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Jabatan ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Jabatan, textbox =>
+                {
+                    textbox.Name = "Jabatan";
+                    textbox.Width = Unit.Pixel(400);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                    textbox.Style.Add("background-color", "white");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Departemen ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Departemen, textbox =>
+                {
+                    textbox.Name = "Departemen";
+                    textbox.Width = Unit.Pixel(400);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                    textbox.Style.Add("background-color", "white");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Atasan Utama ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Nama_Atasan, textbox =>
+                {
+                    textbox.Name = "Nama_Atasan";
+                    textbox.Width = Unit.Pixel(300);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                }).GetHtml();
+            });
+        });
+        settings.Items.Add(layoutitem =>
+        {
+            layoutitem.Caption = "Atasan Kedua ";
+            layoutitem.SetNestedContent(() =>
+            {
+                Html.DevExpress().TextBoxFor(m => m.Nama_Supervisor, textbox =>
+                {
+                    textbox.Name = "Nama_Supervisor";
+                    textbox.Width = Unit.Pixel(300);
+                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                    textbox.ReadOnly = true;
+                    textbox.Style.Add("border", "none");
+                }).GetHtml();
+            });
+        });
+    }).GetHtml();
+}

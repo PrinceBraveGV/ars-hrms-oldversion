@@ -1,0 +1,246 @@
+.dxHtmlEditor_heConstrainProportionsBottom_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsTop_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsTopRtl_MarineBlue,
+.dxHtmlEditor_heEnumIcon_MarineBlue,
+.dxHtmlEditor_heErrorFrameCloseButton_MarineBlue,
+.dxHtmlEditor_heEventIcon_MarineBlue,
+.dxHtmlEditor_heFieldIcon_MarineBlue,
+.dxHtmlEditor_heReset_MarineBlue,
+.dxHtmlEditor_heSizeGrip_MarineBlue,
+.dxHtmlEditor_heSizeGripRtl_MarineBlue,
+.dxHtmlEditor_heTagInspectorChangeButton_MarineBlue,
+.dxHtmlEditor_heTagInspectorRemoveButton_MarineBlue,
+.dxHtmlEditor_heTagInspectorSeparator_MarineBlue,
+.dxHtmlEditor_heToolbarPopOut_MarineBlue,
+.dxHtmlEditor_heToolbarPopOutDisabled_MarineBlue,
+.dxHtmlEditor_heToolbarPopOutHover_MarineBlue,
+.dxHtmlEditor_heXmlItemIcon_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_MarineBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_MarineBlue
+{
+    background-position: -69px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_MarineBlue
+{
+    background-position: -57px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MarineBlue
+{
+    background-position: 0px -38px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_MarineBlue
+{
+    background-position: -24px -38px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MarineBlue
+{
+    background-position: -12px -38px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_MarineBlue
+{
+    background-position: -61px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_MarineBlue
+{
+    background-position: 0px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_MarineBlue
+{
+    background-position: -45px -51px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_MarineBlue
+{
+    background-position: -17px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_MarineBlue
+{
+    background-position: -49px -38px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_MarineBlue
+{
+    background-position: -51px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_MarineBlue
+{
+    background-position: 0px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_MarineBlue
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_MarineBlue
+{
+    background-position: -36px -38px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heSizeGripRtl_MarineBlue
+{
+    background-position: -68px -21px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_MarineBlue
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_MarineBlue
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_MarineBlue
+{
+    background-position: -71px -38px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_MarineBlue
+{
+    background-position: -63px -38px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOutDisabled_MarineBlue
+{
+    background-position: -73px 0px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOutHover_MarineBlue
+{
+    background-position: -73px -13px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heXmlItemIcon_MarineBlue
+{
+    background-position: -34px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_MarineBlue
+{
+    background-position: -39px -51px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_MarineBlue
+{
+    background-position: -54px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_MarineBlue
+{
+    background-position: -48px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_MarineBlue
+{
+    background-position: -12px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_MarineBlue
+{
+    background-position: -18px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_MarineBlue
+{
+    background-position: -24px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_MarineBlue
+{
+    background-position: -42px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_MarineBlue
+{
+    background-position: -36px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_MarineBlue
+{
+    background-position: -30px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_MarineBlue
+{
+    background-position: -60px -57px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsBottom_MarineBlue,
+.dxHtmlEditor_heConstrainProportionsTop_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_MarineBlue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_MarineBlue
+{
+	display:block;
+}

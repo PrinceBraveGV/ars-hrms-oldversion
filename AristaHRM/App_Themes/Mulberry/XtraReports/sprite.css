@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_Mulberry,
+.dxXtraReports_BtnFirstPageDisabled_Mulberry,
+.dxXtraReports_BtnLastPage_Mulberry,
+.dxXtraReports_BtnLastPageDisabled_Mulberry,
+.dxXtraReports_BtnNextPage_Mulberry,
+.dxXtraReports_BtnNextPageDisabled_Mulberry,
+.dxXtraReports_BtnPrevPage_Mulberry,
+.dxXtraReports_BtnPrevPageDisabled_Mulberry,
+.dxXtraReports_BtnPrint_Mulberry,
+.dxXtraReports_BtnPrintDisabled_Mulberry,
+.dxXtraReports_BtnPrintPage_Mulberry,
+.dxXtraReports_BtnPrintPageDisabled_Mulberry,
+.dxXtraReports_BtnSave_Mulberry,
+.dxXtraReports_BtnSaveDisabled_Mulberry,
+.dxXtraReports_BtnSaveWindow_Mulberry,
+.dxXtraReports_BtnSaveWindowDisabled_Mulberry,
+.dxXtraReports_BtnSearch_Mulberry,
+.dxXtraReports_BtnSearchDisabled_Mulberry,
+.dxXtraReports_PageBorder_blc_Mulberry,
+.dxXtraReports_PageBorder_brc_Mulberry,
+.dxXtraReports_PageBorder_tlc_Mulberry,
+.dxXtraReports_PageBorder_trc_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_Mulberry
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_Mulberry
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_Mulberry
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_Mulberry
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_Mulberry
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_Mulberry
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_Mulberry
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_Mulberry
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_Mulberry
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_Mulberry
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_Mulberry
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_Mulberry
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_Mulberry
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_Mulberry
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_Mulberry
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_Mulberry
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_Mulberry
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_Mulberry
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_Mulberry
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_Mulberry
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_Mulberry
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_Mulberry
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_Mulberry,
+.dxXtraReports_PageBorder_l_Mulberry,
+.dxXtraReports_PageBorder_r_Mulberry,
+.dxXtraReports_PageBorder_b_Mulberry {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_Mulberry {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_Mulberry {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_Mulberry {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_Mulberry {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

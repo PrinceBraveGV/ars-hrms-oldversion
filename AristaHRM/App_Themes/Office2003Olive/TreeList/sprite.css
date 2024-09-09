@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_Office2003Olive,
+.dxTreeList_CollapsedButtonRtl_Office2003Olive,
+.dxTreeList_DragAndDropArrowDown_Office2003Olive,
+.dxTreeList_DragAndDropArrowUp_Office2003Olive,
+.dxTreeList_DragAndDropHide_Office2003Olive,
+.dxTreeList_DragAndDropNode_Office2003Olive,
+.dxTreeList_ExpandedButton_Office2003Olive,
+.dxTreeList_ExpandedButtonRtl_Office2003Olive,
+.dxTreeList_SortAsc_Office2003Olive,
+.dxTreeList_SortDesc_Office2003Olive
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_Office2003Olive
+{
+    background-position: -24px -23px;
+    width: 11px;
+    height: 11px;
+}
+.dxTreeList_CollapsedButtonRtl_Office2003Olive
+{
+    background-position: -12px -23px;
+    width: 11px;
+    height: 11px;
+}
+.dxTreeList_DragAndDropArrowDown_Office2003Olive
+{
+    background-position: -24px -35px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Office2003Olive
+{
+    background-position: -12px -35px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Office2003Olive
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_Office2003Olive
+{
+    background-position: -23px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_Office2003Olive
+{
+    background-position: 0px -35px;
+    width: 11px;
+    height: 11px;
+}
+.dxTreeList_ExpandedButtonRtl_Office2003Olive
+{
+    background-position: 0px -23px;
+    width: 11px;
+    height: 11px;
+}
+.dxTreeList_SortAsc_Office2003Olive
+{
+    background-position: -31px -18px;
+    width: 7px;
+    height: 4px;
+}
+.dxTreeList_SortDesc_Office2003Olive
+{
+    background-position: -23px -18px;
+    width: 7px;
+    height: 4px;
+}
+

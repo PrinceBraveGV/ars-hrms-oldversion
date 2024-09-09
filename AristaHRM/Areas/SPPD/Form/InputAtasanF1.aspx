@@ -1,0 +1,419 @@
+﻿<%@ Page Title="Entry Data" Language="C#" MasterPageFile="~/Areas/SPPD/Master/Left_Site.Master" AutoEventWireup="true" CodeBehind="InputAtasanF1.aspx.cs" Inherits="SPD.Form.InputAtasanF1" %>
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxRoundPanel" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dx" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <dx:ASPxRoundPanel ID="ClientSideGroupBox" runat="server" Width="100%" HeaderText="Input SPD1" HorizontalAlign="Left" Theme="SoftOrange" ShowCollapseButton="True" Font-Bold="True" View="GroupBox">
+        <PanelCollection>
+            <dx:PanelContent>
+                <div>
+                    <table style="padding-left:30px;">
+                        
+
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="No" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtNo" runat="server" Width="170px" ForeColor="Black" Enabled="false" BackColor="#e6e6e6">
+                                </dx:ASPxTextBox>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel6" runat="server" Text="Nama" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel7" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <%--<dx:ASPxTextBox ID="txtnama" runat="server" Width="170px"></dx:ASPxTextBox>--%>
+                                <dx:ASPxComboBox ID="ASPxComboBox1" runat="server" TextField="Nama_Karyawan" ValueField="NIK" ValueType="System.String" AutoPostBack="true" DataSourceID="SqlDataSource1" TextFormatString="{1}" OnSelectedIndexChanged="ASPxComboBox1_SelectedIndexChanged">
+                                    <Columns>
+                                        <dx:ListBoxColumn FieldName="NIK" Caption="NIK" />
+                                        <dx:ListBoxColumn FieldName="Nama_Karyawan" Caption="Nama" />
+                                    </Columns>
+                                </dx:ASPxComboBox>
+                                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SPPD_HRDConnectionString %>"  SelectCommand="SELECT [NIK],[Nama_Karyawan] FROM [TM_Karyawan] WHERE ([Nama_Atasan] = @Nama)">
+                                    <SelectParameters>
+                                        <asp:SessionParameter Name="Nama" SessionField="Nama" Type="String" />
+                                    </SelectParameters>
+                                </asp:SqlDataSource>
+                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="NIK"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel4" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtnik" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel13" runat="server" Text="Perusahaan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel16" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtPT" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel5" runat="server" Text="Jabatan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel8" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtjabatan" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel9" runat="server" Text="Divisi"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel10" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtdivisi" runat="server" Width="170px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel11" runat="server" Text="Cabang"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel12" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtcabang" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel56" runat="server" Text="Nama Atasan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel57" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtatasan" runat="server" Width="170px" ForeColor="Black" Enabled="false" BackColor="#e6e6e6"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel17" runat="server" ForeColor="Black" Text="Tempat/Kota Tujuan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel18" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxComboBox ID="ASPxComboBox2" runat="server" ValueField="Nama_Wilayah" ValueType="System.String" AutoPostBack="true" DataSourceID="SqlDataSource2">
+                                    <Columns>
+                                      
+                                        <dx:ListBoxColumn FieldName="Nama_Wilayah" Caption="Nama Wilayah" />
+                                    </Columns>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                </dx:ASPxComboBox>
+                                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:SPPD_HRDConnectionString %>" SelectCommand="SELECT [Nama_Wilayah] FROM [TM_Wilayah] ORDER BY [Nama_Wilayah]"></asp:SqlDataSource>
+
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel19" runat="server" ForeColor="Black" Text="Keperluan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel20" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtperlu" runat="server" Width="170px" Height="50px">
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                </dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel52" runat="server" Text="Tgl Pengajuan SPD" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel53" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtglpengajuan" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--" Enabled="false" BackColor="#e6e6e6">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel14" runat="server" Text="Tgl Berangkat" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel15" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtglberangkat" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel21" runat="server" Text="Tgl Pulang" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel22" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtglpulang" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <tr style="height: 50px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel" runat="server" Text="Estimasi Biaya Pengajuan Uang Muka " ForeColor="Black" Font-Bold="True" Font-Size="13px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel47" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel23" runat="server" ForeColor="Black" Text="Tipe Transport"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel24" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <asp:CheckBox ID="CheckBox1" runat="server" Text="Pesawat Udara"/>
+                                <asp:CheckBox ID="CheckBox2" runat="server" Text="Kereta Api"/>
+                                <asp:CheckBox ID="CheckBox3" runat="server" Text="Kapal Laut"/>
+                                <asp:CheckBox ID="CheckBox4" runat="server" Text="Bus"/>
+                                <asp:CheckBox ID="CheckBox5" runat="server" Text="Kend/Oprs"/>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel48" runat="server" ForeColor="Black" Text="Biaya Transport"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel49" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txttransport" runat="server" Width="170px" OnTextChanged="txttransport_TextChanged" ></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel25" runat="server" ForeColor="Black" Text="Biaya Penginapan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel26" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtinap" runat="server" Width="170px" OnTextChanged="txtinap_TextChanged"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel27" runat="server" ForeColor="Black" Text="Biaya Uang Makan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel28" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtmakan" runat="server" Width="170px" OnTextChanged="txtmakan_TextChanged" AutoPostBack="true"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel50" runat="server" ForeColor="Black" Text="Biaya Uang Saku"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel51" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtsaku" runat="server" Width="170px" OnTextChanged="txtsaku_TextChanged"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel29" runat="server" ForeColor="Black" Text="Biaya Transport Lokal"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel30" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtlokal" runat="server" Width="170px" OnTextChanged="txtlokal_TextChanged" AutoPostBack="true"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel54" runat="server" ForeColor="Black" Text="Total Uang Muka"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel55" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txttotal" runat="server" Width="170px" Enabled="false" BackColor="#e6e6e6" ></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr style="height: 50px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel31" runat="server" Text="Pengajuan Pemesanan Tiket Pesawat " ForeColor="Black" Font-Bold="True" Font-Size="13px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel46" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr style="height: 25px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel32" runat="server" Text="KEBERANGKATAN" ForeColor="Black" Font-Underline="True" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel33" runat="server" ForeColor="Black" Text="Maskapai Penerbangan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel34" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txttiketpergi" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel35" runat="server" ForeColor="Black" Text="Harga"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel36" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtharga1" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel37" runat="server" ForeColor="Black" Text="Waktu"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel38" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtwaktu1" runat="server" Width="170px" NullText="00.00 wib"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+
+                        <tr style="height: 25px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel39" runat="server" Text="KEPULANGAN" ForeColor="Black" Font-Underline="True" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel40" runat="server" ForeColor="Black" Text="Maskapai Penerbangan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel41" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txttiketpulang" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel42" runat="server" ForeColor="Black" Text="Harga"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel43" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtharga2" runat="server" Width="170px"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel44" runat="server" ForeColor="Black" Text="Waktu"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel45" runat="server" ForeColor="Black" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtwaktu2" runat="server" Width="170px" NullText="00.00 wib"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        
+                        <tr style="padding-top:30px;">
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxButton ID="btnsimpan" runat="server" Text="SUBMIT" Theme="Office2010Silver" AutoPostBack="false" CausesValidation="true" Font-Size="Small" Style="height: 20px"></dx:ASPxButton>
+                                &nbsp;
+                                <a href="spd1.aspx" onclick="window.history.go(-2); return false;"> CANCEL</a>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="lblMode" runat="server" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxLabel ID="lblError" runat="server" ForeColor="Red" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxRoundPanel>
+
+</asp:Content>

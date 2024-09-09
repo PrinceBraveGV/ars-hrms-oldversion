@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = " - Riwayat Cuti -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "UserHome", "User", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("Dashboard", "Home", mobilearea)">User Home</a> > Riwayat Cuti</li>
+        <li data-role="list-divider">Riwayat Cuti Anda</li>
+    </ul>
+    
+    Html.RenderAction("RiwayatPartial", "User", mobilearea);
+}
+
+

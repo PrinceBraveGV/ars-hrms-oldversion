@@ -1,0 +1,307 @@
+﻿@{
+    ViewBag.Title = "HRIS - Persetujuan Cuti Khusus";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // <![CDATA[
+    var keys = [];
+
+    function onInit(s, e)
+    {
+        adjustSize();
+    }
+
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        if (typeof ApprovalKhususGrid !== "undefined")
+            ApprovalKhususGrid.SetHeight(height);
+        else if (typeof ApprovalMSCKGrid !== "undefined")
+            ApprovalMSCKGrid.SetHeight(height);
+    }
+
+    function onSelectionChanged(s, e)
+    {
+        var combovalue = SelectionGrid.GetValue();
+        if (combovalue == "Standard")
+            window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ApprovalKhusus", id = "Standard" })";
+    else if (combovalue == "Multiple")
+        window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ApprovalKhusus", id = "Multiple" })";
+    }
+
+    function FieldListWindow() {
+        if (ApprovalKhususGrid.IsCustomizationWindowVisible())
+            ApprovalKhususGrid.HideCustomizationWindow();
+        else
+            ApprovalKhususGrid.ShowCustomizationWindow();
+        UpdateCaption();
+    }
+
+    function UpdateCaption() {
+        var text = ApprovalKhususGrid.IsCustomizationWindowVisible() ? "Sembunyikan" : "Tampilkan";
+        text += " Field Chooser";
+        $("#ShowWindow").val(text);
+    }
+
+    function contextMenu(s, e) {
+        switch (e.item.name) {
+            case "Setuju":
+                var url1 = "@DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "SetujuCK" })";
+                var key = s.GetRowKey(e.visibleIndex);
+
+                var dest = url1 + "/" + key;
+                var ans = confirm("Yakin akan menyetujui pengajuan cuti yang dipilih?");
+                if (ans == true) {
+                    setTimeout(PopupTunggu.Hide(), 5000);
+                    setTimeout(window.location.href = dest, 5000);
+                }
+                else {
+                    PopupTunggu.Hide();
+                }
+                break;
+            case "Tolak":
+                var url2 = "@DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "TolakCK" })";
+                var key = s.GetRowKey(e.visibleIndex);
+
+                var dest = url2 + "/" + key;
+                var ans = confirm("Yakin akan menolak pengajuan cuti yang dipilih?");
+                if (ans == true) {
+                    setTimeout(PopupTunggu.Hide(), 5000);
+                    setTimeout(window.location.href = dest, 5000);
+                }
+                else {
+                    PopupTunggu.Hide();
+                }
+                break;
+        }
+    }
+
+    function customButtonClick(s, e, url1, url2)
+    {
+        // fungsi handler persetujuan/penolakan dengan tombol khusus
+        PopupTunggu.Show();
+        var key = s.GetRowKey(e.visibleIndex);
+        var DestUrl = null;
+
+        if (e.buttonID == "Setuju")
+        {
+            DestUrl = url1 + "/" + key;
+            var ans = confirm("Yakin akan menyetujui pengajuan cuti yang dipilih?");
+            if (ans == true)
+            {
+                setTimeout(PopupTunggu.Hide(), 5000);
+                setTimeout(window.location.href = DestUrl, 5000);
+            }
+            else
+            {
+                PopupTunggu.Hide();
+            }
+        }
+        else if (e.buttonID == "Tolak")
+        {
+            DestUrl = url2 + "/" + key;
+            var ans = confirm("Yakin akan menolak pengajuan cuti yang dipilih?");
+            if (ans == true)
+            {
+                setTimeout(PopupTunggu.Hide(), 5000);
+                setTimeout(window.location.href = DestUrl, 5000);
+            }
+            else {
+                PopupTunggu.Hide();
+            }
+        }
+    }
+
+    // update 160209: mendapatkan array ID kunci pada multi-selection mode
+    function getKeys(s, e)
+    {
+        keys = ApprovalMSCKGrid.GetSelectedKeysOnPage();
+    }
+
+    // update 160209: menentukan item yang dipilih pada multi-selection mode
+    // memeriksa apakah tombol yang dipilih adalah persetujuan atau penolakan karyawan bawahan
+    function setKeys(buttonName, url1, url2)
+    {
+        if (keys != null && keys.length != 0 && typeof keys !== "undefined") {
+            if (buttonName == "SetujuMK") {
+                var ans = confirm("Yakin akan menyetujui semua pengajuan cuti yang dipilih?");
+                if (ans == true)
+                {
+                    PopupTunggu.Show();
+                    $.ajax({
+                        type: 'POST',
+                        url: url1,
+                        cache: false,
+                        data: $.param({ arg: keys }, true),
+                        statusCode: {
+                            401: function (response) {
+                                setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })", 5000);
+                            },
+                            200: function (response) {
+                                setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalSukses" })", 5000);
+                            }
+                        },
+                        success: function (res, status, xhr) {
+                            PopupTunggu.Hide();
+                            if (res.search("akan tetapi") > 0 || res.indexOf("akan tetapi") > 0)
+                                window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })";
+                            else
+                                window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalSukses" })";
+                        },
+                        error: function (xhr, status, err) {
+                            PopupTunggu.Hide();
+                            setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })", 5000);
+                        }
+                    });
+                }
+            }
+            else if (buttonName == "TolakMK") {
+                var ans = confirm("Yakin akan menolak semua pengajuan cuti yang dipilih?");
+                if (ans == true) {
+                    var alasan = prompt("Masukkan alasan penolakan cuti yang dipilih pada isian berikut ini, klik OK untuk melanjutkan proses.");
+                    if (alasan != null && alasan != "" && typeof alasan !== "undefined") {
+                        PopupTunggu.Show();
+                        $.ajax({
+                            type: 'POST',
+                            url: url2,
+                            cache: false,
+                            data: $.param({ arg: keys, res: alasan }, true),
+                            statusCode: {
+                                401: function (response) {
+                                    setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })", 5000);
+                                },
+                                200: function (response) {
+                                    setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalSukses" })", 5000);
+                                }
+                            },
+                            success: function (res, status, xhr) {
+                                PopupTunggu.Hide();
+                                if (res.search("akan tetapi") > 0 || res.indexOf("akan tetapi") > 0)
+                                    window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })";
+                                else
+                                    window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalSukses" })";
+                            },
+                            error: function (xhr, status, err) {
+                                PopupTunggu.Hide();
+                                setTimeout(window.location.href = "@DevExpressHelper.GetUrl(new { Controller = "Notif", Action = "MultiApprovalError" })", 5000);
+                            }
+                        });
+                    }
+                    else
+                        alert("Alasan penolakan cuti karyawan harus diisi.");
+                }
+            }
+        }
+        else
+            alert("Silakan pilih satu atau lebih pengajuan cuti dari daftar terlebih dahulu.")
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Persetujuan Cuti Khusus</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        @*<label style="font: 12px Arial; text-align:left">
+                            Berikut ini adalah daftar cuti khusus yang menunggu persetujuan admin/manajer.<br />Klik "Setujui"/"Tolak" untuk menyetujui atau menolak permohonan cuti karyawan yang ada pada daftar.
+                        </label>*@
+                        @*<br /><br />*@
+                        @using (Html.BeginForm("ApprovalKhusus", "Admin", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div style="text-align:center">
+                            @*@Html.DevExpress().ComboBox(settings =>
+                            {
+                                settings.Name = "SelectionGrid";
+                                settings.Width = Unit.Pixel(200);
+                                settings.SelectedIndex = (ViewData["Selection"].ToString() ?? "Standard").Equals("Standard") ? 0 : 1;
+                                settings.Properties.EnableClientSideAPI = true;
+                                settings.Properties.Items.Add("Persetujuan Standar", "Standard");
+                                settings.Properties.Items.Add("Persetujuan Multi-opsi", "Multiple");
+                                settings.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { onSelectionChanged(s, e); }";
+                                settings.Style.Add("text-align", "center");
+                                settings.Style.Add("display", "inline-table");
+                            }).GetHtml()*@
+                            </div>
+                            @*if (ViewData["Selection"].Equals("Multiple"))
+                            {
+                                <br /><br />
+                                <div class="formbutton">
+                                @Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "SetujuMK";
+                                    settings.Text = "Setujui Item Terpilih";
+                                    settings.Images.Image.Url = "~/Images/Approve.png";
+                                    settings.Images.Image.Width = Unit.Pixel(10);
+                                    settings.Images.Image.Height = Unit.Pixel(10);
+                                    settings.UseSubmitBehavior = false;
+                                    settings.ClientSideEvents.Click = string.Format("function (s, e) {{ setKeys(s.name, '{0}', '{1}'); }}", DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "SetujuMSCK" }), DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "TolakMSCK" }));
+                                }).GetHtml()
+                                @{ ViewContext.Writer.Write("&nbsp; &nbsp;"); }
+                                @Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "TolakMK";
+                                    settings.Text = "Tolak Item Terpilih";
+                                    settings.Images.Image.Url = "~/Images/Cancel.png";
+                                    settings.Images.Image.Width = Unit.Pixel(10);
+                                    settings.Images.Image.Height = Unit.Pixel(10);
+                                    settings.UseSubmitBehavior = false;
+                                    settings.ClientSideEvents.Click = string.Format("function (s, e) {{ setKeys(s.name, '{0}', '{1}'); }}", DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "SetujuMSCK" }), DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "TolakMSCK" }));
+                                }).GetHtml()
+                                </div>
+                            }
+                            @*<br /><br />
+                            if (ViewData["Selection"].Equals("Standard"))
+                            {
+                                Html.RenderAction("ApprovalKhususPartial");
+                            }
+                            else if (ViewData["Selection"].Equals("Multiple"))
+                            {
+                                Html.RenderAction("MultiKhususPartial");
+                            }
+                            else
+                            {*@
+                                Html.RenderAction("ApprovalKhususPartial");
+                            //}
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupTunggu";
+    settings.CloseAction = CloseAction.None;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(50);
+    settings.Width = Unit.Pixel(300);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.ShowHeader = false;
+    settings.SetContent(() =>
+    {
+        ViewContext.Writer.Write(@"<img src=""/Images/LoadingBar.gif"" height=""30"" width=""30"" style=""float:left"" /><p style=""text-align:center; font:12px Arial"">Memproses permintaan anda......</p>");
+    });
+}).GetHtml()

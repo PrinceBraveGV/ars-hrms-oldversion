@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "HRIS - Masalah Internal Server";
+    Layout = "~/Views/Shared/_redirectLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">HTTP 1.0/500: Masalah Internal Server</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <label class="labeldesc">
+                        Saat ini server atau aplikasi sedang mengalami masalah internal.<br />
+                        Apabila halaman ini terus muncul tanpa henti pada browser anda, mohon segera hubungi administrator.<br /><br />
+                        Halaman ini akan dialihkan secara otomatis setelah 5 detik atau setelah anda menekan tombol &quot;Kembali&quot;.
+                    </label>
+                    <br /><br />
+                    @Html.DevExpress().Button(settings =>
+                    {
+                        settings.Name = "Return";
+                        settings.Text = "Kembali";
+                        settings.UseSubmitBehavior = false;
+                        settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                        settings.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                        settings.Theme = AristaHRM.Theme.SelectTheme;
+                    }).GetHtml()
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

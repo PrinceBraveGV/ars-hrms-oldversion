@@ -1,0 +1,66 @@
+.dxwscCheckedTextContainer_Office2003Olive
+{
+	background-color: white;
+	border: solid 1px #608058;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;
+
+}
+.dxwscErrorWord_Office2003Olive
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_Office2003Olive
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #758D5E;
+	border: 1px solid #A4B26D;
+	background-color: White;
+}
+.dxwscLoadingPanel_Office2003Olive td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxwscLoadingPanel_Office2003Olive .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_Office2003Olive .dxwscDlgFooter
+{
+	background-color: #E2E8C9;
+	border-top: 1px solid #7BA4E0;
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Office2003Olive .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_Office2003Olive .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Office2003Olive .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_Office2003Olive .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+

@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E9E9E9;
+    font-family: 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+
+    body.dialog {
+        background-color: white;
+    }
+.dxm-popup .TemplatedItem {
+    padding-left: 23px;
+}
+
+.ToggleNavigationActiveImage {
+    margin-left: -15px;
+}
+
+.ToggleNavigationImage {
+    margin-left: -15px;
+}
+
+.dxrpCollapseButton {
+    margin-right: 8px;
+    margin-top: 8px !important;
+}
+
+.CardGroupContent {
+    padding: 30px;
+    background-color: white;
+}
+        .cgc-np
+        {
+            padding: 0px;
+        }
+
+table {
+    border-collapse: separate !important;
+}
+
+.xafCover {
+    background-color: #777777;
+    opacity: 0.7;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.movedMenu {
+    top: 0px;
+    position: fixed;
+}
+
+.movedInnerTable {
+    position: relative;
+}
+
+.GroupHeader {
+    font-size: 15px;
+}
+
+.dxrpHeader_XafTheme.GroupHeader.Label {
+    color: #848484;
+    background-color: #F7F7F7;
+    padding: 0px 0px 5px 20px;
+    font-size: x-large;
+    border-bottom: 0px;
+}
+
+
+.Shadow {
+    border-bottom: 1px solid #BFBFBF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.white {
+    background-color: white;
+}
+
+.darkGray {
+    background-color: #E9E9E9;
+}
+
+.gray {
+    background-color: #F7F7F7;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.GridView {
+    width: 100%;
+}
+
+.xafHidden {
+    display: none;
+}
+
+.xafBackLayer {
+    overflow: hidden;
+}
+
+.xafFrontLayer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    overflow: auto;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.border {
+    border: 1px solid #c6c6c6;
+}
+
+.xafNavToggle {
+    vertical-align: top;
+}
+
+.disable-hover,
+.disable-hover * {
+    pointer-events: none !important;
+}
+
+.viewCaption {
+    font-size: larger;
+    padding-left: 20px;
+}
+
+.ViewImage {
+    padding-right: 20px;
+}
+
+.sizeLimit {
+    max-width: 1200px;
+}
+
+.xafAlignCenter {
+    margin: 0 auto;
+}
+
+.minHeight {
+    min-height: 60px;
+}
+
+.paddings {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.headerTable {
+    min-height: 61px;
+}
+
+.dialog.headerTable {
+    top: 0px;
+}
+
+.vertical.headerTable {
+    white-space: nowrap;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin: 0px;
+}
+
+.xafNavHidden {
+    /*display: none;*/
+}
+
+.xafNavHiddenManually {
+    display: none;
+}
+
+.xafFooter {
+    color: #b8b8b8;
+    background-color: #4a4a4a;
+    padding: 6px 0px;
+}
+
+.xafNavVisible {
+    display: none;
+}
+
+@media all and (max-width: 1000px) {
+    .xafNavHidden {
+        display: none;
+    }
+
+    .xafNavVisible {
+        display: block;
+    }
+
+    .xafFooter {
+        display: none;
+    }
+
+    .xafNavToggleConteiner {
+        display: table-cell;
+    }
+}
+
+.xafNavVisibleManually {
+    display: block;
+}
+
+.xafNav {
+    float: left;
+}
+
+.FindDialogActionsOverflow {
+    /*overflow: hidden;*/ /*for single choise action in find lookup*/
+    background-color: white;
+    width: 100%;
+}
+
+.searchDialogContent {
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .searchDialogContent .right {
+        right: 20px;
+    }
+
+    .searchDialogContent .left {
+        left: 20px;
+    }
+
+    .searchDialogContent .bottom {
+        position: fixed;
+        bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+    .searchDialogContent .search ul,
+    .searchDialogContent .search .TemplatedItem,
+    .searchDialogContent .search .TemplatedItem .dxeButtonEdit_XafTheme {
+        width: 100% !important;
+    }
+
+    .searchDialogContent .searchViewCaption {
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+.LogonContent {
+    padding: 50px 75px;
+    background-color: white;
+}
+
+.LogonMainTable {
+    border: 1px solid #d4d4d4;
+    margin: 0 auto;
+}
+
+.ErrorMessage {
+    background-color: #ffedf0;
+    color: #d44f62;
+    padding: 24px 75px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.LogonContentWidth {
+    width: 470px;
+}
+
+.StaticText {
+    color: #9a9a9a;
+}
+
+.ParametrizedActionControl input[type=text]::-ms-clear,
+.dxm-main .dxm-item .TemplatedItem input[type=text]::-ms-clear {
+    display: none;
+}
+
+.ValidationFailed td.dxic,
+.ValidationFailed td.dxic > input,
+.ValidationFailed .dxeButton {
+    background-color: #ffedf0 !important;
+}
+
+.ValidationFailed .dxeErrorCell_XafTheme.dxeErrorFrame_XafTheme {
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.dxGridView_gvCellError_XafTheme.xafGridCellError {
+    background-image: none !important;
+}
+
+.WebEditorCell .dxeErrorCell_XafTheme.dxeErrorFrame_XafTheme.dxeErrorFrameSys .dxEditors_edtError_XafTheme.XafInplaceValidationErrorIcon  {
+    background-image: none !important;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+}
+/*Reports ===============================================*/
+.ReportViewMainGroup .Item {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.ReportViewMainGroup .CardGroupContent {
+    padding: 0px;
+}
+
+.ReportViewMainGroup .dxsplPane_XafTheme {
+    border: none;
+}
+
+.ReportViewMainGroup .dxmLite_XafTheme .dxm-tmpl td.dxic > input {
+    padding-top: 0px !important;
+    padding-bottom: 2px !important;
+    padding-right: 4px;
+}
+
+.ReportViewMainGroup .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem .dxeButtonEditButton_XafTheme {
+    padding: 3px 3px 1px 4px;
+}
+/*Reports End ===============================================*/
+
+/* ActionContainerHolder */
+
+.ACH {
+    padding-left: 4px !important;
+}
+
+.dialogContent .ACH {
+    margin-right: 31px;
+}
+
+/* ASPxSchedulerListEditor */
+.dateNavigatorIndent {
+    margin-bottom: 20px;
+}
+
+/*ViewCaptionControl*/
+.XafVCap-First {
+    font-size: 14px;
+    color: #848484;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: -5px;
+}
+
+.XafVCap-Second {
+    display: block;
+}
+
+/*xafHeaderMenu*/
+.xafHeaderMenu .accountItem .dxm-popOut {
+    display: none !important;
+    padding: 0px !important;
+    height: 0px !important;
+}
+
+/*SecurityActionContainer*/
+.dxm-item.accountItem.dxm-subMenu .dxm-image.dx-vam {
+    padding-right: 10px !important;
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.dxm-item.accountItem.dropDownSecurity.dxm-subMenu .dx-vam {
+    text-decoration: underline;
+}
+
+.dxm-item.accountItem.dropDownSecurity.dxm-subMenu.dxm-hovered .dx-vam {
+    text-decoration: none;
+}
+
+/*NestedFrame*/
+    .nf_leftMenu
+    {
+        width: 10%;
+        float: left;
+    }
+
+    .nf_rightMenu
+    {
+        width: 85%;
+        float: right;
+    }
+
+    .nf_rightMenu_AC
+    {
+        float: right;
+        padding: 3px 5px;
+    }
+
+    .nf_leftMenu_AC
+    {
+        float: left;
+        padding: 3px 5px;
+    }
+/*end NestedFrame*/
+

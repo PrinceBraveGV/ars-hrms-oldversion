@@ -1,0 +1,4769 @@
+/* -- CheckBox -- */
+.dxICBFocused_Office2003Silver 
+{
+    outline: 1px dotted #9e9cb8;
+}
+.dxICheckBox_Office2003Silver 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_Office2003Silver
+{
+	color: #9391B0;
+	background-color: #E0E0EA;
+	border: 1px solid #7C7C94;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxccControl_Office2003Silver a
+{
+	color: #9391B0;
+	text-decoration: none!important;
+}
+.dxccControl_Office2003Silver a:hover
+{
+	text-decoration: underline!important;
+}
+.dxccControl_Office2003Silver .dxccBEText
+{
+    color: #9391B0;
+}
+/* Disabled */
+.dxccDisabled_Office2003Silver,
+.dxccDisabled_Office2003Silver span.dxccValue,
+.dxccDisabled_Office2003Silver span.dxccBEText
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxdvControl_Office2003Silver td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_Office2003Silver
+{
+	border-top: 1px Solid #9C9AB7;
+	border-bottom: 1px Solid #9C9AB7;
+}
+.dxdvItem_Office2003Silver,
+.dxdvFlowItem_Office2003Silver
+{
+	padding: 26px 50px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_Office2003Silver
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_Office2003Silver
+{
+}
+.dxdvEmptyItem_Office2003Silver
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 26px 50px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_Office2003Silver
+{
+	background-color: #D8D8E4;
+	padding: 6px 0px;
+}
+.dxdvEmptyData_Office2003Silver
+{
+	color: #848484;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_Office2003Silver
+{
+    height: 48px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_Office2003Silver a
+{
+	display: block;
+	padding-top: 12px;
+	color: black;
+}
+/* Disabled */
+.dxdvDisabled_Office2003Silver
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxHeadline -- */
+.dxhlControl_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxhlControl_Office2003Silver a
+{
+    color: black;
+}
+.dxhlContent_Office2003Silver
+{
+	color: #424242;
+    line-height: 133%;
+} 
+.dxhlDate_Office2003Silver
+{
+	color: #67678F;
+	white-space: nowrap;
+}
+.dxhlHeader_Office2003Silver
+{
+	font-size: 1.25em;
+    font-weight: bold;
+	color: Black;
+	padding-bottom: 6px;
+	line-height: 133%;
+}
+.dxhlDateHeader_Office2003Silver
+{
+    font-weight: normal;
+	color: Gray;
+}
+.dxhlLeftPanel_Office2003Silver,
+.dxhlRightPanel_Office2003Silver
+{
+	color: black;
+    padding: 2px;
+}
+.dxhlDateLeftPanel_Office2003Silver,
+.dxhlDateRightPanel_Office2003Silver
+{
+	color: Gray;
+    padding: 1px 0 4px;
+	white-space: nowrap;
+}
+.dxhlTailDiv_Office2003Silver
+{
+	background-color: #EEF2F5;
+}
+/* Disabled */
+.dxhlDisabled_Office2003Silver
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_Office2003Silver,
+.dxlpLoadingPanelWithContent_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxlpLoadingPanel_Office2003Silver td.dx,
+.dxlpLoadingPanelWithContent_Office2003Silver td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxlpLoadingPanel_Office2003Silver .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_Office2003Silver .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxlpControl_Office2003Silver.dxlpLoadingDiv_Office2003Silver 
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxmLite_Office2003Silver .dxm-main
+{
+	border: 1px solid #7C7C94;
+	background: #F3F3F7 url('mItemBack.gif') repeat-y left top;
+	padding: 3px;
+}
+
+.dxmLite_Office2003Silver .dxm-vertical
+{
+	width: 150px;
+}
+
+.dxmLite_Office2003Silver .dxm-popup
+{
+	border: 1px solid #7C7C94;
+	background-color: #F4F4EE;
+	padding: 1px;
+}
+
+.dxmBrdCor_Office2003Silver
+{
+	background-color: #F4F4EE;
+}
+
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-gutter
+{
+	background-image: url('mPopupBack.gif');
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-gutter
+{
+	background-image: url('mPopupRtlBack.gif');
+}
+
+.dxmLite_Office2003Silver .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_Office2003Silver .dxm-image-t .dxm-item,
+.dxmLite_Office2003Silver .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_Office2003Silver .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_Office2003Silver,
+.dxmLite_Office2003Silver .dxm-item a.dx
+{
+	color: Black;
+}
+.dxmLite_Office2003Silver .dxm-disabled,
+.dxmLite_Office2003Silver .dxm-disabled a.dx
+{
+	color: #aaaaaa;
+}
+.dxmLite_Office2003Silver .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_Office2003Silver .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_Office2003Silver .dxm-item,
+.dxmLite_Office2003Silver .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_Office2003Silver .dxm-main .dxm-checked,
+.dxmLite_Office2003Silver .dxm-selected,
+.dxmLite_Office2003Silver .dxm-hovered,
+.dxmLite_Office2003Silver .dxm-main .dxm-dropDownMode.dxm-checked .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #7c7c94;
+}
+.dxmLite_Office2003Silver .dxm-main .dxm-checked,
+.dxmLite_Office2003Silver .dxm-main .dxm-selected,
+.dxmLite_Office2003Silver .dxm-popup .dxm-selected
+{
+	background: #FFAD55 url('mItemSBack.gif') repeat-x center top;
+}
+.dxmLite_Office2003Silver .dxm-main .dxm-hovered
+{
+	background: #FFD69A url('mItemHBack.gif') repeat-x center top;
+}
+.dxmLite_Office2003Silver .dxm-popup .dxm-hovered
+{
+	background: #FFEEC2 url('mPopupHBack.gif') repeat-x center top;
+}
+.dxmLite_Office2003Silver .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #ffc06f;
+    outline: 1px solid #293955;
+    background-color: #ffc06f;
+}
+.dxmLite_Office2003Silver .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_Office2003Silver
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 7px 4px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 1px 11px 1px 10px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 1px 10px 1px 11px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 2px 11px 2px 10px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 2px 10px 2px 11px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 4px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 4px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+	padding-right: 5px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+	padding-left: 5px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 4px;
+	padding-right: 5px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 4px;
+	padding-left: 5px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 8px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 8px;
+}
+
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 3px 18px 4px 2px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 3px 2px 4px 18px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 18px 3px 3px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 3px 3px 18px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content
+{
+	padding-left: 7px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content
+{
+	padding-right: 7px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 18px;
+	padding-right: 5px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 18px;
+	padding-left: 5px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 1px 10px;
+}
+
+/* Image */
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 4px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 4px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 7px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 7px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 14px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 14px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 13px -1px -1px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+	margin: -1px -1px -1px 13px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Office2003Silver
+{
+    margin: 0px 14px 0px 0px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_Office2003Silver
+{
+    margin: 0px 0px 0px 14px;
+}
+
+/* Image replacement */
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 23px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 23px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 4px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 4px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 30px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 30px;
+}
+
+/* PopOut */
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-top: 8px;
+	padding-bottom: 9px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 7px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 7px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 6px;
+	padding-bottom: 7px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.dxmLite_Office2003Silver .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxmLite_Office2003Silver .dxm-popup .dxm-popOut
+{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-left: 2px;
+	padding-right: 6px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-vertical .dxm-image-l .dxm-popOut
+{
+	padding-right: 2px;
+	padding-left: 6px;
+}
+
+/* PopOut replacement */
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 13px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 13px;
+}
+
+/* Spacings, Separator */
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-spacing
+{
+	width: 1px;
+    min-width: 1px;
+	height: 1px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-spacing,
+.dxmLite_Office2003Silver .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-separator
+{
+	padding: 4px 1px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator b,
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator b
+{
+	padding: 2px 1px;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-separator,
+.dxmLite_Office2003Silver .dxm-popup .dxm-separator
+{
+	padding: 1px 0;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-separator b
+{
+	width: 2px;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-separator b
+{
+	height: 2px;
+}
+.dxmLite_Office2003Silver .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal .dxm-separator b
+{
+	background: transparent url('mItemSeparatorBack.gif') repeat-y left top;
+}
+.dxmLite_Office2003Silver .dxm-vertical .dxm-separator b,
+.dxmLite_Office2003Silver .dxm-popup .dxm-separator b
+{
+	background: transparent url('mItemVerticalSeparatorBack.gif') repeat-x left top;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-left: 31px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-right: 31px;
+}
+/* Scroll elements */
+.dxmLite_Office2003Silver .dxm-scrollUpBtn, 
+.dxmLite_Office2003Silver .dxm-scrollDownBtn
+{
+	border: 1px solid #7c7c94;
+	background: #acaac2 url('mScrollBack.gif') repeat-x center top;
+	padding: 2px;
+	text-align: center;
+}
+.dxmLite_Office2003Silver .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_Office2003Silver .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_Office2003Silver .dxm-scrollBtnHovered
+{
+	background: #ffd294 url('mScrollHBack.gif') repeat-x center top;
+}
+.dxmLite_Office2003Silver .dxm-scrollBtnPressed
+{
+	background: #fe9552 url('mScrollSBack.gif') repeat-x center top;
+}
+.dxmLite_Office2003Silver .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_Office2003Silver .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_Office2003Silver .dxm-main.dxmtb 
+{
+	padding: 2px 4px;
+}
+
+/* has image */
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 4px 4px 4px 3px;
+}
+
+/* no image */
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content 
+{
+	padding: 4px 4px 4px 3px;
+}
+
+/* dd has image */
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content 
+{
+	padding: 4px 4px 4px 3px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content 
+{
+	padding: 4px 3px 4px 4px;
+}
+/* dd no image */
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 4px 3px 4px;
+}
+
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-popup .dxm-image 
+{
+	margin-right: 12px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxmtb.dxm-popup .dxm-image 
+{
+	margin-left: 12px;
+}
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2003Silver.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 28px;
+}
+.dxmLite_Office2003Silver.dxm-rtl .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_Office2003Silver.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 28px;
+}
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-popOut,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-dropDownMode .dxm-popOut 
+{
+	padding: 9px 3px 10px;
+}
+
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-spacing 
+{
+	width: 1px;
+    min-width: 1px;
+}
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 3px 1px;
+}
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-t .dxm-separator,
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-image-b .dxm-separator
+{
+	padding: 5px 1px;
+}
+.dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-separator b
+{
+	width: 1px;
+}
+.dxmLite_Office2003Silver .dxmtb .dxtb-comboBoxMenuItem 
+{
+	padding: 1px 2px 1px 0px;
+}
+.dxmLite_Office2003Silver .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 6px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_Office2003Silver,
+.menuLinks_Office2003Silver .dxm-item,
+.menuLinks_Office2003Silver .dxm-hovered,
+.menuLinks_Office2003Silver .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+.menuLinks_Office2003Silver .dxm-tmpl
+{
+    padding-top:1px!important;
+}
+.menuLinks_Office2003Silver .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_Office2003Silver .dxm-item a.dx > span
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.menuLinks_Office2003Silver .dxm-hovered a.dx > span
+{
+    text-decoration: underline !important;
+}
+
+.menuButtons_Office2003Silver,
+.menuButtons_Office2003Silver .dxm-tmpl
+{
+    color: #000000;
+    background: none !important;
+}
+
+.menuButtons_Office2003Silver .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_Office2003Silver .dxm-content
+{
+    padding: 2px 8px 1px 8px !important;
+    height:16px!important;
+}
+
+.menuButtons_Office2003Silver .dxm-item
+{
+    border: 1px solid #7c7c94;
+    background: #e6e6f0 url('../Editors/edtButtonBack.gif') repeat-x center bottom;
+}
+
+.menuButtons_Office2003Silver .dxm-item.dxm-hovered
+{
+    border: 1px solid #000080;
+    background: #fff2c8 url('../Editors/edtButtonBackHover.gif') repeat-x center bottom;
+}
+
+.menuButtons_Office2003Silver .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_Office2003Silver .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_Office2003Silver 
+{
+	color: Black;
+	background: #A2A2B5 url('nbBack.gif') repeat-x center top;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 5px;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_Office2003Silver a
+{
+	color: black;
+	text-decoration: none;
+}
+.dxnbLite_Office2003Silver .dxnb-gr 
+{
+	margin-bottom: 5px;
+}
+.dxnbLite_Office2003Silver .dxnb-header,
+.dxnbLite_Office2003Silver .dxnb-headerCollapsed 
+{
+	background: #F0F0F8 url('nbGroupHeaderBack.gif') repeat-x left bottom;
+	border: 1px solid #7C7C94;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 7px 5px 10px;
+	white-space: nowrap;
+}
+.dxnbLite_Office2003Silver .dxnb-header a,
+.dxnbLite_Office2003Silver .dxnb-headerCollapsed a
+{
+    text-decoration: underline;
+}
+.dxnbLite_Office2003Silver .dxnb-content 
+{
+	list-style: none none outside;
+	margin: 0;
+	padding: 1px;
+	overflow: hidden;
+	border-top: 0 solid #7C7C94;
+	border-right: 1px solid #7C7C94;
+	border-bottom: 1px solid #7C7C94;
+	border-left: 1px solid #7C7C94;
+	background: #E3E3EC url('nbGroupBack.gif') repeat-x left bottom;
+}
+.dxnbLite_Office2003Silver.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_Office2003Silver .dxnb-item,
+.dxnbLite_Office2003Silver .dxnb-large,
+.dxnbLite_Office2003Silver .dxnb-bullet 
+{
+    border: 1px solid Transparent;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_Office2003Silver .dxnb-item,
+.dxnbLite_Office2003Silver .dxnb-large,
+.dxnbLite_Office2003Silver .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_Office2003Silver .dxnb-item.dxnb-link,
+.dxnbLite_Office2003Silver .dxnb-item .dxnb-link
+{
+	padding: 3px 4px 4px 8px;
+    white-space: nowrap;
+}
+.dxnbLite_Office2003Silver .dxnb-large.dxnb-link,
+.dxnbLite_Office2003Silver .dxnb-large .dxnb-link
+{
+	padding: 2px 11px 2px 8px;
+    white-space: nowrap;
+}
+.dxnbLite_Office2003Silver .dxnb-bullet,
+.dxnbLite_Office2003Silver .dxnb-bulletHover,
+.dxnbLite_Office2003Silver .dxnb-bulletSelected 
+{
+	padding: 2px 5px;
+	overflow: visible;
+}
+.dxnbLite_Office2003Silver .dxnb-itemSelected,
+.dxnbLite_Office2003Silver .dxnb-largeSelected
+{
+	background: #FFAD55 url('nbSBack.gif') repeat-x center top;
+	border: 1px solid #7c7c94;
+}
+.dxnbLite_Office2003Silver .dxnb-itemHover,
+.dxnbLite_Office2003Silver .dxnb-largeHover
+{
+	background: #FFEEC2 url('nbHBack.gif') repeat-x center top;
+	border: 1px solid #7c7c94;
+}
+.dxnbLite_Office2003Silver .dxnb-header,
+.dxnbLite_Office2003Silver .dxnb-headerCollapsed, 
+.dxnbLite_Office2003Silver .dxnb-item,
+.dxnbLite_Office2003Silver .dxnb-itemHover,
+.dxnbLite_Office2003Silver .dxnb-itemSelected,
+.dxnbLite_Office2003Silver .dxnb-bullet,
+.dxnbLite_Office2003Silver .dxnb-bulletHover,
+.dxnbLite_Office2003Silver .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_Office2003Silver .dxnb-large,
+.dxnbLite_Office2003Silver .dxnb-largeHover,
+.dxnbLite_Office2003Silver .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_Office2003Silver .dxnb-headerHover
+{
+}
+.dxnbLite_Office2003Silver .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_Office2003Silver .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_Office2003Silver .dxnb-btn,
+.dxnbLite_Office2003Silver .dxnb-btnLeft,
+.dxnbLite_Office2003Silver .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_Office2003Silver .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+.dxnbLite_Office2003Silver .dxnb-btnLeft,
+.dxnbLite_Office2003Silver .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+.dxnbLite_Office2003Silver .dxnb-img
+{
+	margin: 0 4px 0 0;
+}
+.dxnbLite_Office2003Silver .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_Office2003Silver .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 4px;
+}
+.dxnbLite_Office2003Silver .dxnb-header.dxnb-header-left,
+.dxnbLite_Office2003Silver .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_Office2003Silver .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_Office2003Silver .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 3px;
+}
+.dxnbLite_Office2003Silver .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 3px;
+}
+.dxnbLite_Office2003Silver .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_Office2003Silver,
+.dxnbLite_Office2003Silver .dxnbLiteDisabled_Office2003Silver,
+.dxnbLiteDisabled_Office2003Silver a,
+.dxnbLiteDisabled_Office2003Silver .dxnb-item,
+.dxnbLiteDisabled_Office2003Silver .dxnb-large,
+.dxnbLiteDisabled_Office2003Silver .dxnb-bullet,
+.dxnbLiteDisabled_Office2003Silver .dxnb-header,
+.dxnbLiteDisabled_Office2003Silver .dxnb-headerCollapsed 
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	background-color: White;
+}
+.dxncControl_Office2003Silver a
+{
+    color: black;
+}
+.dxncControl_Office2003Silver td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncContent_Office2003Silver
+{
+}
+.dxncPagerPanel_Office2003Silver
+{
+	padding: 0px 3px;
+}
+.dxncItem_Office2003Silver
+{
+	vertical-align: top;
+	padding: 12px 8px;
+}
+.dxncEmptyItem_Office2003Silver
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_Office2003Silver
+{
+	color: #404040;
+}
+.dxncPagerShowMoreItemsContainer_Office2003Silver
+{
+    height: 48px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_Office2003Silver a
+{
+	display: block;
+	padding-top: 12px;
+	color: black;
+}
+.dxncEmptyData_Office2003Silver
+{
+	color: #848484;
+}
+/* Disabled */
+.dxncDisabled_Office2003Silver,
+.dxncDisabled_Office2003Silver a,
+.dxncDisabled_Office2003Silver a:hover
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	padding: 5px 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_Office2003Silver .dxp-summary,
+.dxpLite_Office2003Silver .dxp-sep,
+.dxpLite_Office2003Silver .dxp-button,
+.dxpLite_Office2003Silver .dxp-pageSizeItem,
+.dxpLite_Office2003Silver .dxp-num,
+.dxpLite_Office2003Silver .dxp-current,
+.dxpLite_Office2003Silver .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_Office2003Silver .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_Office2003Silver a
+{
+	color: black;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.dxpLite_Office2003Silver .dxp-button
+{
+	color: black;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: underline;
+    padding: 3px 5px;
+}
+.dxpLite_Office2003Silver .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_Office2003Silver .dxp-button span
+{
+	text-decoration: underline;
+    margin-top: -2px;
+}
+.dxpLite_Office2003Silver .dxp-button.dxp-bi
+{
+	padding: 0;
+}
+.dxpLite_Office2003Silver .dxp-button.dxp-bti 
+{
+	padding: 0 5px;
+}
+.dxpLite_Office2003Silver .dxp-disabledButton,
+.dxpLite_Office2003Silver .dxp-disabledButton span
+{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+.dxpLite_Office2003Silver .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.dxpLite_Office2003Silver .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_Office2003Silver .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_Office2003Silver .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #7C7C94;
+    margin: -2px 0px;
+    padding: 1px;
+}
+.dxpLite_Office2003Silver .dxp-comboBox input
+{
+    margin: 2px 2px 1px;
+}
+*[dir="rtl"].dxpLite_Office2003Silver .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_Office2003Silver .dxp-hoverComboBox
+{
+}
+.dxpLite_Office2003Silver .dxp-pressedComboBox
+{
+}
+.dxpLite_Office2003Silver .dxp-dropDownButton
+{
+    padding: 7px 5px 7px;
+    background: #d7e8fd url('edtButtonBack.gif') repeat-x center bottom;
+	border: 1px solid #6a8ccb;
+}
+.dxpLite_Office2003Silver .dxp-hoverDropDownButton
+{
+    background: #fff2c8 url('edtButtonBackHover.gif') repeat-x center bottom;
+	border: 1px solid #000080;
+}
+.dxpLite_Office2003Silver .dxp-pressedDropDownButton
+{
+    background: #ffcf8b url('edtButtonBackPressed.gif') repeat-x center top;
+	border: 1px solid #000080;
+}
+
+.dxpLite_Office2003Silver .dxp-num
+{
+	color: black;
+	padding: 3px 5px;
+	text-decoration: underline;
+}
+
+.dxpLite_Office2003Silver .dxp-current
+{
+	color: black;
+	background-color: #e3e3ec;
+	padding: 3px 3px;
+	text-decoration: none;
+}
+
+.dxpLite_Office2003Silver .dxp-summary,
+.dxpLite_Office2003Silver .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 3px 4px;
+}
+
+.dxpLite_Office2003Silver .dxp-sep
+{
+	background-color: #e3e3ec;
+	width: 1px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.dxpLiteDisabled_Office2003Silver,
+.dxpLiteDisabled_Office2003Silver a,
+.dxpLiteDisabled_Office2003Silver .dxp-summary,
+.dxpLiteDisabled_Office2003Silver .dxp-sep,
+.dxpLiteDisabled_Office2003Silver .dxp-button,
+.dxpLiteDisabled_Office2003Silver .dxp-num,
+.dxpLiteDisabled_Office2003Silver .dxp-current,
+.dxpLiteDisabled_Office2003Silver .dxp-ellip
+{
+	color: #aaaaaa;
+	border-color: #808080;
+	cursor: default;
+}
+.dxpLite_Office2003Silver .dxp-disabledComboBox
+{
+    border-color: #7C7C94;
+}
+.dxpLite_Office2003Silver .dxp-disabledComboBox input
+{
+    color: #aaaaaa;
+}
+.dxpLite_Office2003Silver .dxp-disabledDropDownButton
+{
+    border-color: #bfbfbf;
+	background: #cccccc url('edtButtonBackDis.gif') repeat-x top;
+	color: #808080;
+	cursor: default;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_Office2003Silver,
+.dxdpLite_Office2003Silver 
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxdpLite_Office2003Silver {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_Office2003Silver .dxpc-mainDiv,
+.dxpcLite_Office2003Silver.dxpc-mainDiv,
+.dxdpLite_Office2003Silver .dxpc-mainDiv,
+.dxdpLite_Office2003Silver.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	background-color: white;
+	border: 1px solid #7C7C94;
+}
+
+.dxpcLite_Office2003Silver a.dxpc-link,
+.dxdpLite_Office2003Silver a.dxpc-link 
+{
+	color: black;
+}
+.dxpcLite_Office2003Silver a.dxpc-link *,
+.dxdpLite_Office2003Silver a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_Office2003Silver .dxpc-closeBtn,
+.dxdpLite_Office2003Silver .dxpc-closeBtn,
+.dxpcLite_Office2003Silver .dxpc-pinBtn,
+.dxdpLite_Office2003Silver .dxpc-pinBtn,
+.dxpcLite_Office2003Silver .dxpc-refreshBtn,
+.dxdpLite_Office2003Silver .dxpc-refreshBtn,
+.dxpcLite_Office2003Silver .dxpc-collapseBtn,
+.dxdpLite_Office2003Silver .dxpc-collapseBtn,
+.dxpcLite_Office2003Silver .dxpc-maximizeBtn,
+.dxdpLite_Office2003Silver .dxpc-maximizeBtn
+{
+	padding: 1px 1px 1px 2px;
+	float: right;
+}
+
+.dxpcLite_Office2003Silver.dxRtl  .dxpc-closeBtn,
+.dxdpLite_Office2003Silver.dxRtl  .dxpc-closeBtn,
+.dxpcLite_Office2003Silver.dxRtl  .dxpc-pinBtn,
+.dxdpLite_Office2003Silver.dxRtl  .dxpc-pinBtn,
+.dxpcLite_Office2003Silver.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_Office2003Silver.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_Office2003Silver.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_Office2003Silver.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_Office2003Silver.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_Office2003Silver.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_Office2003Silver .dxpc-closeBtnHover,
+.dxdpLite_Office2003Silver .dxpc-closeBtnHover,
+.dxpcLite_Office2003Silver .dxpc-pinBtnHover,
+.dxdpLite_Office2003Silver .dxpc-pinBtnHover,
+.dxpcLite_Office2003Silver .dxpc-refreshBtnHover,
+.dxdpLite_Office2003Silver .dxpc-refreshBtnHover,
+.dxpcLite_Office2003Silver .dxpc-collapseBtnHover,
+.dxdpLite_Office2003Silver .dxpc-collapseBtnHover,
+.dxpcLite_Office2003Silver .dxpc-maximizeBtnHover,
+.dxdpLite_Office2003Silver .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_Office2003Silver .dxpc-header,
+.dxdpLite_Office2003Silver .dxpc-header 
+{
+	background: #9391B0 url('pcHeaderBack.gif') repeat-x;
+	border-bottom: 1px solid #7C7C94;
+	padding: 6px 6px 7px 12px;
+}
+
+.dxpcLite_Office2003Silver.dxRtl .dxpc-header,
+.dxdpLite_Office2003Silver.dxRtl .dxpc-header 
+{
+	padding-left: 6px;
+	padding-right: 12px;
+}
+
+.dxpcLite_Office2003Silver .dxpc-headerText,
+.dxdpLite_Office2003Silver .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Office2003Silver .dxpc-headerImg,
+.dxdpLite_Office2003Silver .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_Office2003Silver.dxRtl .dxpc-headerImg,
+.dxdpLite_Office2003Silver.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_Office2003Silver .dxpc-content,
+.dxdpLite_Office2003Silver .dxpc-content
+{
+	white-space: normal;
+	padding: 9px 12px 30px;
+}
+
+.dxpcLite_Office2003Silver .dxpc-footer,
+.dxdpLite_Office2003Silver .dxpc-footer
+{
+	color: #8F8FB1;
+	background-color: #D4D4E2;
+	border-top: 1px solid #BBBBD1;
+	font-weight: bold;
+}
+
+.dxpcLite_Office2003Silver .dxpc-footerContent,
+.dxdpLite_Office2003Silver .dxpc-footerContent
+{
+	padding: 7px 20px 7px 12px;
+	min-height: 8px;
+}
+
+.dxpcLite_Office2003Silver.dxRtl .dxpc-footerContent,
+.dxdpLite_Office2003Silver.dxRtl .dxpc-footerContent
+{
+	padding: 7px 12px 7px 20px;
+}
+
+.dxpcLite_Office2003Silver .dxpc-footerText,
+.dxdpLite_Office2003Silver .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_Office2003Silver .dxpc-footerImg,
+.dxdpLite_Office2003Silver .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_Office2003Silver.dxRtl .dxpc-footerImg,
+.dxdpLite_Office2003Silver.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_Office2003Silver .dxpc-sizeGrip,
+.dxdpLite_Office2003Silver .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_Office2003Silver.dxRtl .dxpc-sizeGrip,
+.dxdpLite_Office2003Silver.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_Office2003Silver,
+.dxdpModalBackLite_Office2003Silver
+{
+	background: url('pcModalBack.gif') repeat;
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_Office2003Silver,
+.dxdpLiteDisabled_Office2003Silver
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_Office2003Silver
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #7C7C94;
+}
+.dxpnlControl_Office2003Silver.dxpnl-edge,
+.dxpnlControl_Office2003Silver.dxpnl-edge.dxpnl-bar
+{
+    background-color: #e3e3ec;
+}
+.dxpnlControl_Office2003Silver.dxpnl-edge,
+.dxpnlControl_Office2003Silver.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_Office2003Silver.dxpnl-bar
+{
+    padding: 8px;
+}
+.dxpnlControl_Office2003Silver .dxpnl-btn
+{
+    border: 1px solid transparent;
+}
+.dxpnlControl_Office2003Silver .dxpnl-btnHover
+{
+    background-color: #FFEEC2;
+}
+.dxpnlControl_Office2003Silver .dxpnl-btnPressed
+{
+    background-color: #FFE29B;
+}
+.dxpnlControl_Office2003Silver .dxpnl-btnSelected
+{
+}
+.dxpnlDisabled_Office2003Silver
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_Office2003Silver,
+.dxrpControlGB_Office2003Silver 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000;
+}
+.dxrpControl_Office2003Silver .dxrpCI
+{
+	display:block;
+}
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver, 
+.dxrpControlGB_Office2003Silver  span.dxrpHeader_Office2003Silver
+{
+	font-weight: bold;
+}
+/*Corner Radius*/
+.dxrpControlGB_Office2003Silver:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_Office2003Silver:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2003Silver:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 9px;
+}
+.dxrpControl_Office2003Silver:not(.dxrp-hasDefaultImages) .dxrpHeader_Office2003Silver
+{
+	border-radius:9px 9px 0px 0px;
+}
+.dxrpControl_Office2003Silver:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 9px 9px;
+}
+.dxrpWithoutHeader_Office2003Silver:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:9px;
+}
+/* - Header - */
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver > a,
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver > a > span.dxrpHT,
+.dxrpControlGB_Office2003Silver span.dxrpHeader_Office2003Silver a
+{
+    color: Black;
+}
+/* Header image */
+.dxrpControl_Office2003Silver .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_Office2003Silver .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver
+{
+    background-image: none;
+	background: #9593B1 url('rpHeader.png') repeat-x left top;
+}
+.dxrpControl_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_Office2003Silver span.dxrpHeader_Office2003Silver
+{
+    background-image: none;
+	background-color: #E3E3EC;
+}
+/* Borders */
+.dxrpControlGB_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent {
+	border:1px solid #7C7C94;
+}
+.dxrpControl_Office2003Silver > tbody > tr:first-child > .dxrpcontent,
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver {
+	border-top:1px solid #7C7C94;
+}
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver,
+.dxrpControl_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent {
+	border-left:1px solid #7C7C94;
+	border-right:1px solid #7C7C94;
+	border-bottom:1px solid #7C7C94;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_Office2003Silver {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_Office2003Silver.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2003Silver.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_Office2003Silver td.dxrpHeader_Office2003Silver 
+{
+	padding: 8px 10px 7px 10px;
+}
+.dxrpControlGB_Office2003Silver span.dxrpHeader_Office2003Silver 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_Office2003Silver.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW,
+.dxrpControlGB_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 10px 10px 10px 10px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_Office2003Silver > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -17px;
+	left: 2px;
+	margin-bottom:-7px;
+}
+.dxrpControlGB_Office2003Silver {
+	margin-top: 6px;
+}
+/*Disabled*/
+.dxrpDisabled_Office2003Silver,
+.dxrpDisabled_Office2003Silver td.dxrp
+{
+	color: #808080;
+	cursor: default;
+}
+.dxrpDisabled_Office2003Silver.dxrpCollapsed > tbody > tr > td.dxrpHeader_Office2003Silver
+{
+    border-radius: 9px;
+    border: 1px solid #7c7c94;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_Office2003Silver 
+{
+	color: black;
+	background: #E3E3EC url('smBack.gif') repeat-x center bottom;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px Solid #7C7C94;
+}
+.dxsmControl_Office2003Silver a:hover
+{
+	text-decoration: underline!important;
+}
+.dxsmControl_Office2003Silver a:visited
+{
+	color: #990099!important;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_Office2003Silver,
+.dxsmCategoryLevel_Office2003Silver a
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_Office2003Silver
+{
+    font-size: 1.5em;
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+}
+.dxsmCategoryLevel_Office2003Silver
+{
+	border-bottom: 1px solid gray;
+	padding: 3px 10px 7px;
+	background: #E3E3EC url('smFirstLevelBack.gif') repeat-x center bottom;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_Office2003Silver,
+.dxsmLevelCategoryFlow_Office2003Silver a
+{
+	color: black;
+    font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevelCategoryFlow_Office2003Silver
+{
+	font-size: 1.5em;
+}
+/* - Level 0 - */
+.dxsmLevel0_Office2003Silver,
+.dxsmLevel0_Office2003Silver a,
+.dxsmLevel0Categorized_Office2003Silver a,
+.dxsmLevel0Categorized_Office2003Silver
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dxsmLevel0Categorized_Office2003Silver a,
+.dxsmLevel0Categorized_Office2003Silver
+{
+	color: #0000de;
+}
+.dxsmLevel0_Office2003Silver
+{
+	white-space: nowrap;
+	background: #E3E3EC url('smFirstLevelBack.gif') repeat-x center bottom;
+	border-bottom: 1px solid gray;
+	padding: 3px 10px 7px;
+}
+.dxsmLevel0Categorized_Office2003Silver 
+{
+	white-space: nowrap;
+	padding: 0px 10px 2px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_Office2003Silver,
+.dxsmLevel0Flow_Office2003Silver a,
+.dxsmLevel0CategorizedFlow_Office2003Silver a,
+.dxsmLevel0CategorizedFlow_Office2003Silver
+{
+	color: #0000cd;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_Office2003Silver
+{
+	padding: 0px;
+}
+.dxsmLevel0Flow_Office2003Silver
+{
+	text-decoration: none;
+}
+.dxsmLevel0CategorizedFlow_Office2003Silver
+{
+	padding: 1px 16px;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_Office2003Silver,
+.dxsmLevel1_Office2003Silver a,
+.dxsmLevel1Categorized_Office2003Silver a,
+.dxsmLevel1Categorized_Office2003Silver
+{
+	color: #0000cd;
+	text-decoration: none;
+}
+.dxsmLevel1_Office2003Silver,
+.dxsmLevel1Categorized_Office2003Silver
+{
+	white-space: nowrap;
+	padding: 0px 10px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_Office2003Silver,
+.dxsmLevel1Flow_Office2003Silver a,
+.dxsmLevel1CategorizedFlow_Office2003Silver,
+.dxsmLevel1CategorizedFlow_Office2003Silver a
+{
+	color: #0000cd;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_Office2003Silver
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_Office2003Silver,
+.dxsmLevel2_Office2003Silver a,
+.dxsmLevel2Categorized_Office2003Silver a,
+.dxsmLevel2Categorized_Office2003Silver
+{
+	color: #483d8b;
+	text-decoration: none;
+}
+.dxsmLevel2_Office2003Silver,
+.dxsmLevel2Categorized_Office2003Silver
+{
+    font-size: 0.91em;
+	white-space: nowrap;
+	padding: 0px 10px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_Office2003Silver,
+.dxsmLevel2Flow_Office2003Silver a
+{
+	color: #0000cd;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_Office2003Silver
+{
+    font-size: 0.91em;
+	padding: 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_Office2003Silver,
+.dxsmLevel3_Office2003Silver a
+{
+	color: #4682b4;
+	text-decoration: none;
+}
+.dxsmLevel3_Office2003Silver
+{
+    font-size: 0.91em;
+	white-space: nowrap;
+	padding: 0px 10px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_Office2003Silver,
+.dxsmLevel3Flow_Office2003Silver a
+{
+	color: #0000cd;
+	text-decoration: underline;
+}
+.dxsmLevel3Flow_Office2003Silver
+{
+	font-size: 0.91em;
+}
+/* - Level 4 - */
+.dxsmLevel4_Office2003Silver,
+.dxsmLevel4_Office2003Silver a
+{
+	color: #9370db;
+	text-decoration: none;
+}
+.dxsmLevel4_Office2003Silver
+{
+    font-size: 0.75em;
+	white-space: nowrap;
+	padding: 0px 10px;
+}
+/*flow layout*/
+.dxsmLevel4Flow_Office2003Silver,
+.dxsmLevel4Flow_Office2003Silver a
+{
+	color: #0000cd;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_Office2003Silver
+{
+    font-size: 0.75em;
+	padding: 0px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_Office2003Silver
+{
+	color: #A8A8A8;
+	text-decoration: none;
+}
+.dxsmLevelOther_Office2003Silver
+{
+    font-size: 0.75em;
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_Office2003Silver,
+.dxsmLevelOtherFlow_Office2003Silver a
+{
+	color: #A8A8A8;
+	text-decoration: underline;
+}
+.dxsmLevelOtherFlow_Office2003Silver
+{
+	font-size: 0.75em;
+}
+/* Disabled */
+.dxsmDisabled_Office2003Silver
+{
+	color: #808080;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_Office2003Silver 
+{
+	overflow: hidden;
+	color: black;	float: left;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_Office2003Silver.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 3px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 1px solid #7C7C94;
+}
+.dxtcLite_Office2003Silver.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_Office2003Silver.dxtc-noSpacing > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2003Silver.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n
+{
+	border-left: 1px solid #7C7C94;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #F0F0F8 url('tcTabBack.gif') repeat-x center bottom;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #E3E3EC;
+}
+.dxtcLite_Office2003Silver.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #FFD091 url('tcTabHBack.gif') repeat-x center top;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-bottom: 1px solid #7C7C94;
+	overflow: hidden;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 12px;
+	display: block;
+	height: 100%;
+    color: black;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_Office2003Silver > .dxtc-content 
+{
+	background-color: #E3E3EC;
+	float: left;
+	clear: left;
+	border: 1px solid #7C7C94;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_Office2003Silver.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_Office2003Silver.dxtc-rtl,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-content,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_Office2003Silver.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_Office2003Silver.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_Office2003Silver.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid #7C7C94;
+	border-right: 1px none #7C7C94;
+}
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-n,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-lead,
+.dxtcLite_Office2003Silver.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-n
+{
+	border-right: 1px solid #7C7C94;
+}
+/* Scrolling */
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sb          
+{
+	background: #9694B2 url('tcScrollBtnBack.gif') repeat-x;
+	border: 1px solid #7C7C93;
+	padding: 4px 6px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbHover
+{
+	border: 1px solid #7C7C93;
+	background: #FDD296 url('tcScrollBtnHoverBack.gif') repeat-x;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbPressed
+{
+	border: 1px solid #7C7C93;
+	background: #FDCC89 url('tcScrollBtnPressedBack.gif') repeat-x;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbDisabled
+{
+	cursor: default;
+	border-color: #BEBEBE;
+	background: #CDCDCC url('tcScrollBtnDisabledBack.gif') repeat-x;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+	margin-top: 1px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLiteDisabled_Office2003Silver,
+.dxtcLiteDisabled_Office2003Silver > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_Office2003Silver > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_Office2003Silver > .dxtc-content,
+.dxtcLite_Office2003Silver > .dxtc-stripContainer .dxtcLiteDisabled_Office2003Silver .dxtc-link
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+.dxtcLite_Office2003Silver.dxtc-multiRow.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-bottom-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-bottom-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLite_Office2003Silver.dxtc-multiRow.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-top-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-multiRow.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-top-width: 1px!important;
+	padding-bottom: 0px;
+}
+/* bottom  */
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 3px;
+}
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+
+}
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 1px solid #7C7C94;
+	border-bottom: 1px solid transparent;
+}
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #E3E3EC;
+	border-top-width: 0;
+	padding-top: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-content
+{
+	border-top: 1px solid #7C7C94;
+	border-right: 1px solid #7C7C94;
+	border-bottom-color: #7C7C94;
+	border-left: 1px solid #7C7C94;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_Office2003Silver.dxtc-bottom > .dxtc-stripContainer .dxtc-sb  
+{
+	margin-top: 1px;
+}
+/* left */
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 3px;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #7C7C94;
+}
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	background-color: #E3E3EC;
+	border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #002D96;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-left > .dxtc-content
+{
+	border-top: 1px solid #7C7C94;
+	border-right: 1px solid #7C7C94;
+	border-bottom: 1px solid #7C7C94;
+	border-left-color: #7C7C94;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 3px;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #7C7C94;
+}
+.dxtcLite_Office2003Silver.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_Office2003Silver.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	background-color: #E3E3EC;
+	border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #7C7C94;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_Office2003Silver.dxtc-right > .dxtc-content
+{
+	border-top: 1px solid #7C7C94;
+	border-right-color: #7C7C94;
+	border-bottom: 1px solid #7C7C94;
+	border-left: 1px solid #7C7C94;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_Office2003Silver.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #7C7C94!important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_Office2003Silver
+{
+	color: #1E3695;
+	background-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtiControl_Office2003Silver a
+{
+    color: Black;
+}
+.dxtiItem_Office2003Silver
+{
+	color: Black;
+	text-decoration: underline;
+}
+.dxtiItem_Office2003Silver
+{
+	white-space: nowrap;
+}
+.dxtiGroupHeader_Office2003Silver,
+.dxtiGroupHeaderCategorized_Office2003Silver
+{
+	font-size: 1.42em;
+	text-decoration: none;
+}
+.dxtiGroupHeader_Office2003Silver,
+.dxtiGroupHeaderCategorized_Office2003Silver
+{
+	white-space: nowrap;
+	padding: 0px 0px 2px;
+}
+.dxtiGroupHeaderCategorized_Office2003Silver
+{
+	background-color: #E5E5Ed;
+}
+/* -- GroupHeaderText -- */
+.dxtiGroupHeaderText_Office2003Silver
+{
+	background-color: #B4B4B4;
+	color: #283B56;
+}
+.dxtiGroupHeaderText_Office2003Silver
+{
+	padding: 0px 5px;
+	background-color: #E5E5ED;
+}
+
+.dxtiGroupHeaderTextCategorized_Office2003Silver
+{
+	color: #283B56;
+}
+.dxtiGroupHeaderTextCategorized_Office2003Silver
+{
+	padding: 0px 6px;
+}
+/* -- FilterBox -- */
+.dxtiFilterBoxInfoText_Office2003Silver
+{
+	color: #636567;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+.dxtiFilterBoxEdit_Office2003Silver
+{
+	border: 1px Solid #7C7C94;
+}
+.dxtiFilterBox_Office2003Silver,
+.dxtiFilterBox_Office2003Silver table
+{
+	color: Black;
+}
+.dxtiFilterBox_Office2003Silver
+{
+	background-color: #D8D8E4;
+	padding: 10px 15px 6px;
+}
+/* -- IndexPanel -- */
+.dxtiIndexPanel_Office2003Silver
+{
+    font-size: 1.17em;
+	padding: 0 10px 4px 10px;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_Office2003Silver,
+.dxtiCurrentIndexPanelItem_Office2003Silver,
+.dxtiIndexPanelItem_Office2003Silver a
+{
+	color: Black;
+	text-decoration: underline;
+}
+.dxtiIndexPanelItem_Office2003Silver,
+.dxtiCurrentIndexPanelItem_Office2003Silver
+{
+	padding: 0px 3px 2px;
+}
+.dxtiCurrentIndexPanelItem_Office2003Silver
+{
+	color: #000000;
+	background-color: #E0E0E0;
+}
+/* -- BackToTop -- */
+.dxtiBackToTop_Office2003Silver
+{
+	font-size: 0.91em;
+	text-decoration: underline;
+	color: #337898;
+	white-space: nowrap;
+}
+.dxtiBackToTop_Office2003Silver
+{
+	padding: 0px 0px 12px 8px;
+}
+.dxtiBackToTopRtl_Office2003Silver
+{
+	padding: 0 8px 12px 0;
+}
+/* Disabled */
+.dxtiDisabled_Office2003Silver,
+.dxtiDisabled_Office2003Silver a
+{
+	color: #aaaaaa;
+	cursor: default!important;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_Office2003Silver,
+.dxucEditArea_Office2003Silver,
+input[type="text"].dxucEditArea_Office2003Silver /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_Office2003Silver,
+input[type="text"].dxucEditArea_Office2003Silver /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_Office2003Silver /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_Office2003Silver .dxucInputs_Office2003Silver
+{
+}
+.dxucTextBox_Office2003Silver
+{
+	background-color: white;
+	border: 1px solid #7C7C94;
+	padding: 1px 2px;
+}
+.dxucTextBox_Office2003Silver .dxucEditArea_Office2003Silver
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_Office2003Silver .dxucEditArea_Office2003Silver
+{
+    color: #aaa;
+}
+.dxucErrorCell_Office2003Silver
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_Office2003Silver,
+.dxucButton_Office2003Silver a,
+.dxucButton_Office2003Silver a:hover
+{
+	color: Black;
+	white-space: nowrap;
+}
+.dxucBrowseButton_Office2003Silver,
+.dxucBrowseButton_Office2003Silver a
+{
+	color: Black;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_Office2003Silver .dxucBrowseButton_Office2003Silver a
+{
+	color: Black;
+}
+.dxucControl_Office2003Silver a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_Office2003Silver
+{
+	padding: 6px 9px 5px;
+	border: 1px solid #7C7C94;
+	background: #E6E6F0 url('ucButtonBack.gif') repeat-x bottom;
+}
+.dxWebKitFamily .dxucBrowseButton_Office2003Silver
+{
+    padding: 5px 9px 6px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_Office2003Silver
+{
+    padding: 5px 9px 6px;
+}
+.dxucBrowseButton_Office2003Silver.dxbf
+{
+    padding: 5px 8px 6px;
+}
+.dxucBrowseButton_Office2003Silver.dxbf a
+{
+    border: 1px dotted black;
+}
+.dxucBrowseButtonHover_Office2003Silver
+{
+	border-color: #000080;
+	background: #FFF2C8 url('ucButtonHoverBack.gif') repeat-x bottom;
+}
+.dxucBrowseButtonPressed_Office2003Silver
+{
+	border-color: #000080;
+	background: #FFCF8B url('ucButtonPressedBack.gif') repeat-x top;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_Office2003Silver
+{
+	border: 1px Solid #7c7c94;
+	background-color: #e3e3ec;
+
+    height: 25px;
+}
+.dxucProgressBar_Office2003Silver .dxPBMainCell
+{
+	padding: 1px;
+}
+.dxucProgressBar_Office2003Silver td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_Office2003Silver,
+.dxucProgressBar_Office2003Silver td.dx
+{
+	color: Black;
+}
+.dxucProgressBarIndicator_Office2003Silver
+{
+	background-color: #9f9db9;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_Office2003Silver {
+	font-size: 0.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_Office2003Silver td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_Office2003Silver a {
+	color: Black;
+}
+/* Disabled */
+.dxucDisabled_Office2003Silver,
+.dxucDisabled_Office2003Silver a
+{
+	color: #AAAAAA;
+	cursor: default;
+}
+.dxucTextBoxDisabled_Office2003Silver
+{
+	border-color: #BFBFBF;
+}
+.dxucButtonDisabled_Office2003Silver a,
+.dxucButtonDisabled_Office2003Silver a:hover
+{
+	color: #AAAAAA;
+	text-decoration: none;
+}
+.dxucControl_Office2003Silver .dxucBrowseButtonDisabled_Office2003Silver a
+{
+	color: #808080;
+}
+.dxucBrowseButtonDisabled_Office2003Silver
+{
+	border-color: #BFBFBF;
+	background: #CECECE url('ucButtonDisabledBack.gif') repeat-x top;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_Office2003Silver
+{
+	background-color: White;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_Office2003Silver,
+.dxsplVSeparator_Office2003Silver,
+.dxsplHSeparator_Office2003Silver,
+.dxsplPane_Office2003Silver,
+.dxsplPaneCollapsed_Office2003Silver,
+.dxsplVSeparator_Office2003Silver,
+.dxsplHSeparator_Office2003Silver,
+.dxsplVSeparatorCollapsed_Office2003Silver,
+.dxsplHSeparatorCollapsed_Office2003Silver
+{
+	border: 0px solid #7C7C94;
+}
+.dxsplPane_Office2003Silver,
+.dxsplPaneCollapsed_Office2003Silver
+{
+	border-width: 1px;
+	background-color: #E3E3EC;
+}
+.dxsplPaneCollapsed_Office2003Silver
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparator_Office2003Silver
+{
+	background-image: url('splVSeparatorBackground.png');
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparator_Office2003Silver
+{
+	background-image: url('splHSeparatorBackground.png');
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorHover_Office2003Silver
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_Office2003Silver
+{
+	cursor: n-resize;
+}
+.dxsplVSeparator_Office2003Silver,
+.dxsplHSeparator_Office2003Silver
+{
+	background-color: #B0AFC7;
+	font-size: 0;
+}
+.dxsplVSeparatorHover_Office2003Silver,
+.dxsplVSeparatorButtonHover_Office2003Silver
+{
+	background-image: url('splVSeparatorBackgroundHover.png');
+}
+.dxsplHSeparatorHover_Office2003Silver,
+.dxsplHSeparatorButtonHover_Office2003Silver
+{
+	background-image: url('splHSeparatorBackgroundHover.png');
+}
+.dxsplVSeparatorCollapsed_Office2003Silver,
+.dxsplHSeparatorCollapsed_Office2003Silver
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_Office2003Silver
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_Office2003Silver
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_Office2003Silver .dxsplVSeparatorButton_Office2003Silver,
+.dxsplDisabled_Office2003Silver .dxsplHSeparatorButton_Office2003Silver
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_Office2003Silver,
+.dxsplHSeparatorHover_Office2003Silver,
+.dxsplVSeparatorButtonHover_Office2003Silver,
+.dxsplHSeparatorButtonHover_Office2003Silver
+{
+	background-color: #FFC57B;
+}
+.dxsplVSeparator_Office2003Silver,
+.dxsplVSeparatorButtonHover_Office2003Silver
+{
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+.dxsplHSeparator_Office2003Silver,
+.dxsplHSeparatorButtonHover_Office2003Silver
+{
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+.dxsplResizingPointer_Office2003Silver
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_Office2003Silver .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_Office2003Silver
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_Office2003Silver li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_Office2003Silver ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_Office2003Silver a 
+{
+	text-decoration: none;
+	color: Black;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_Office2003Silver .dxtv-nd
+{
+	margin-top: 2px;
+	float: left;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_Office2003Silver .dxtv-elbNoLn,
+.dxtvControl_Office2003Silver .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_Office2003Silver .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_Office2003Silver .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_Office2003Silver .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_Office2003Silver .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndChk
+{
+	cursor: default;
+	margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_Office2003Silver .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndSel,
+.dxtvControl_Office2003Silver .dxtv-ndHov 
+{
+	border: 1px solid #7c7c94;
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndSel
+{
+	background: #FFAD55 url('tvNodeSBack.gif') repeat-x center top;
+	cursor: default;
+}
+
+.dxtvControl_Office2003Silver .dxtv-ndHov 
+{
+	background: #FFEEC2 none;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl,
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-nd, 
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-elb,
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-elb,
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-ndImg 
+{
+    margin: 0 2px 0 4px;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_Office2003Silver.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_Office2003Silver,
+.dxtvControl_Office2003Silver .dxtvDisabled_Office2003Silver,
+.dxtvDisabled_Office2003Silver a,
+.dxtvDisabled_Office2003Silver .dxtv-btn,
+.dxtvDisabled_Office2003Silver .dxtv-nd
+{
+	color: #808080;
+	cursor: default;
+}
+
+/* ASPxFileManager */
+.dxfmControl_Office2003Silver,
+.dxfmControl_Office2003Silver .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_Office2003Silver
+{
+	color: #ACACAC;
+}
+.dxfmControl_Office2003Silver .dxsplPane_Office2003Silver {
+	background-color: White;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_Office2003Silver .dxtvControl_Office2003Silver 
+{
+	margin-left: -5px;
+}
+.dxfmControl_Office2003Silver .dxtvControl_Office2003Silver .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_Office2003Silver div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_Office2003Silver.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_Office2003Silver .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_Office2003Silver div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_Office2003Silver div.dxfm-fileSA
+{
+	border: 1px solid #888888;
+}
+.dxfmControl_Office2003Silver div.dxfm-fileSA
+{
+	background: #FFAD55 url('mItemSBack.gif') repeat-x center top;
+	border: 1px solid #002D96;
+}
+.dxfmControl_Office2003Silver div.dxfm-fileH,
+.dxfmControl_Office2003Silver div.dxfm-fileF
+{
+	background: #FFEEC2 none;
+    border: 1px solid #002D96;
+}
+.dxfmControl_Office2003Silver td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_Office2003Silver .dxfm-file .dxfm-highlight
+{
+	background-color: #dfdfdf;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_Office2003Silver .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_Office2003Silver .dxgvTable_Office2003Silver  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_Office2003Silver .dxgvControl_Office2003Silver 
+{
+    background-color: White; 
+}
+.dxfmControl_Office2003Silver .dxgvTable_Office2003Silver tr.dxfm-fileSA
+{
+    background: #FFC076;
+}     
+.dxfmControl_Office2003Silver .dxgvTable_Office2003Silver tr.dxfm-fileSI
+{
+    background: #DCDCDC;
+}
+.dxfmControl_Office2003Silver .dxfm-fileF.dxgvFocusedRow_Office2003Silver
+{
+    background: #FFB364;
+}
+.dxfmControl_Office2003Silver .dxgvTable_Office2003Silver tr.dxfm-fileH
+{
+    background-color: #DFDFDF;
+}
+.dxfmControl_Office2003Silver .dxfm-fileSI td.dxgv,
+.dxfmControl_Office2003Silver .dxfm-fileH td.dxgv
+{
+    border-color: #C8C8D9;
+}
+.dxfmControl_Office2003Silver .dxfm-fileF td.dxgv,
+.dxfmControl_Office2003Silver .dxfm-fileSA td.dxgv 
+{
+    border-color: #FE9552;
+}
+.dxfmControl_Office2003Silver tr.dxgvFocusedRow_Office2003Silver
+{
+    background: White;
+}
+.dxgvHeader_Office2003Silver.dxfmGridHeader
+{
+    background: White;
+    border-color: #C8C8D9;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_Office2003Silver
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_Office2003Silver .dxfm-toolbar
+{
+	background: #F3F3F7 url('mItemBack.gif') repeat-y left top;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_Office2003Silver.dxfm-rtl .dxfm-toolbar .dxfm-filter 
+{
+	text-align: left;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxfm-filter input,
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxfm-path input
+{
+	border: 1px solid #7C7C94;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxmLite_Office2003Silver .dxm-main
+{
+	padding: 1px;
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxmLite_Office2003Silver .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxmLite_Office2003Silver .dxfm-path 
+{
+	padding-left: 2px;
+}
+.dxfmControl_Office2003Silver .dxfm-toolbar .dxmLite_Office2003Silver .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_Office2003Silver .dxfm-breadCrumbs
+{
+	background-color: #F3F3F7;
+}
+.dxfmControl_Office2003Silver .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_Office2003Silver .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+    border-color: #7C7C94;
+    background-color: #FFEEC2;
+}
+.dxfmControl_Office2003Silver .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #6E6D8F;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_Office2003Silver .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_Office2003Silver
+{
+    background: #BECAFB;
+}
+.dxfmControl_Office2003Silver .dxfm-upPopup.dxpc-mainDiv .dxeProgressBar_Office2003Silver .dxePBMainCell
+{
+	padding: 0;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_Office2003Silver .dxfm-uploadPanel 
+{
+	background-color: #D4D4E2;
+	text-align: right;
+}
+.dxfmControl_Office2003Silver.dxfm-rtl .dxfm-uploadPanel 
+{
+	text-align: left;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Office2003Silver 
+{
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.dxfmControl_Office2003Silver.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_Office2003Silver 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 6px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+    color: Black;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel.dxsplPane_Office2003Silver .dxucTextBox_Office2003Silver 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel.dxsplPane_Office2003Silver .dxucBrowseButton_Office2003Silver 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel.dxsplPane_Office2003Silver .dxucBrowseButton_Office2003Silver.dxbf 
+{
+	padding: 2px 7px 3px;
+}
+.dxfmControl_Office2003Silver .dxfm-uploadPanel.dxsplPane_Office2003Silver .dxucSilverlightPluginLinkPanel_Office2003Silver 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_Office2003Silver .dxsplControl_Office2003Silver
+{
+	border-width: 1px;
+	border-color: #7C7C94;
+}
+.dxfmControl_Office2003Silver .dxsplPane_Office2003Silver
+{
+	border-width: 0px;
+}
+.dxfmControl_Office2003Silver .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_Office2003Silver.dxfm-dst .dxsplVSeparator_Office2003Silver
+{
+	width: 3px;
+	background: White url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_Office2003Silver.dxfm-dst.dxfm-rtl .dxsplVSeparator_Office2003Silver
+{
+	background-position-x: left;
+}
+.dxfmControl_Office2003Silver.dxfm-tch .dxsplVSeparator_Office2003Silver
+{
+	border-width: 0 1px;
+	border-color: #BBBBD1;
+}
+.dxfmControl_Office2003Silver .dxsplHSeparator_Office2003Silver
+{
+	border-width: 0px;
+	background: #BBBBD1 none;
+}
+.dxfmControl_Office2003Silver .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_Office2003Silver .dxfm-cInput,
+.dxfmControl_Office2003Silver .dxfm-rInput
+{
+	border: 1px solid #7C7C94;
+}
+
+/* FileManager - item mask */
+.dxfmControl_Office2003Silver .dxfm-itemMask
+{
+	background-color: #FFAD55;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_Office2003Silver .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_Office2003Silver .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_Office2003Silver .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #BBBBD1;
+	text-align: right;
+	background-color: #D4D4E2;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_Office2003Silver .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_Office2003Silver
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_Office2003Silver .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_Office2003Silver .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_Office2003Silver > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_Office2003Silver .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_Office2003Silver .dxis-slidePanel,
+.dxisControl_Office2003Silver .dxis-nbSlidePanel,
+.dxisControl_Office2003Silver .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_Office2003Silver .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_Office2003Silver .dxis-nbTop,
+.dxisControl_Office2003Silver .dxis-nbBottom,
+.dxisControl_Office2003Silver .dxis-nbLeft,
+.dxisControl_Office2003Silver .dxis-nbRight,
+.dxisControl_Office2003Silver .dxis-nbDotsBottom,
+.dxisControl_Office2003Silver .dxis-nbDotsTop,
+.dxisControl_Office2003Silver .dxis-nbDotsLeft,
+.dxisControl_Office2003Silver .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_Office2003Silver .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_Office2003Silver .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_Office2003Silver .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_Office2003Silver .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_Office2003Silver .dxis-nbDotsBottom,
+.dxisControl_Office2003Silver .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_Office2003Silver .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_Office2003Silver .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_Office2003Silver .dxis-nbLeft,
+.dxisControl_Office2003Silver .dxis-nbRight,
+.dxisControl_Office2003Silver .dxis-nbDotsLeft,
+.dxisControl_Office2003Silver .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_Office2003Silver .dxis-item,
+.dxisControl_Office2003Silver .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_Office2003Silver .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_Office2003Silver .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_Office2003Silver .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_Office2003Silver .dxis-item,
+.dxisControl_Office2003Silver .dxis-nbItem,
+.dxisControl_Office2003Silver .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_Office2003Silver .dxis-nbItem,
+.dxisControl_Office2003Silver .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_Office2003Silver .dxis-nbDotItemSelected,
+.dxisControl_Office2003Silver .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_Office2003Silver .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_Office2003Silver .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_Office2003Silver .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_Office2003Silver .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_Office2003Silver .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_Office2003Silver .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_Office2003Silver > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_Office2003Silver > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_Office2003Silver > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_Office2003Silver > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_Office2003Silver .dxis-prevPageBtnHor,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHor,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_Office2003Silver .dxis-prevPageBtnVert,
+.dxisControl_Office2003Silver .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVert,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Office2003Silver .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Office2003Silver .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Office2003Silver .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Office2003Silver .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_Office2003Silver .dxis-prevBtnVertPressed,
+.dxisControl_Office2003Silver .dxis-nextBtnVertPressed,
+.dxisControl_Office2003Silver .dxis-nextBtnHorPressed,
+.dxisControl_Office2003Silver .dxis-prevBtnHorPressed,
+.dxisControl_Office2003Silver .dxis-prevPageBtnVertPressed,
+.dxisControl_Office2003Silver .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVertPressed,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorPressed,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorPressed,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_Office2003Silver .dxis-prevBtnVertDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnVertDisabled,
+.dxisControl_Office2003Silver .dxis-nextBtnHorDisabled,
+.dxisControl_Office2003Silver .dxis-prevBtnHorDisabled,
+.dxisControl_Office2003Silver .dxis-prevPageBtnVertDisabled,
+.dxisControl_Office2003Silver .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVertDisabled,
+.dxisControl_Office2003Silver .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorDisabled,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorDisabled,
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_Office2003Silver .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_Office2003Silver .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_Office2003Silver .dxis-nextPageBtnHorOutside,
+.dxisControl_Office2003Silver .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_Office2003Silver
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxigControl_Office2003Silver td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_Office2003Silver
+{
+	padding: 6px;
+	border-top: 1px Solid #9C9AB7;
+	border-bottom: 1px Solid #9C9AB7;
+}
+.dxigEmptyData_Office2003Silver
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_Office2003Silver
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_Office2003Silver
+{
+    float: left;
+}
+.dxigItem_Office2003Silver
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_Office2003Silver a
+{
+    outline: 0;
+}
+.dxigItem_Office2003Silver a > img
+{
+    display: block;
+}
+.dxigPagerPanel_Office2003Silver 
+{
+	background-color: #D8D8E4;
+	padding: 6px 0px;
+}
+.dxigItem_Office2003Silver .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_Office2003Silver .dxig-thumbnailWrapper,
+.dxigFlowItem_Office2003Silver 
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.dxigControl_Office2003Silver .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_Office2003Silver .dxpcLite_Office2003Silver .dxpc-mainDiv,
+.dxigControl_Office2003Silver .dxpcLite_Office2003Silver .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_Office2003Silver .dxpcLite_Office2003Silver .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_Office2003Silver .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_Office2003Silver.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_Office2003Silver .dxig-imageSliderWrapper .dxisControl_Office2003Silver .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxisControl_Office2003Silver
+{
+    position: relative;
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_Office2003Silver .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_Office2003Silver .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_Office2003Silver .dxig-prevButtonArea,
+.dxigControl_Office2003Silver .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_Office2003Silver .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_Office2003Silver .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_Office2003Silver .dxig-prevButton,
+.dxigControl_Office2003Silver .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_Office2003Silver .dxig-prevButtonDisabled,
+.dxigControl_Office2003Silver .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_Office2003Silver .dxig-closeButtonWrapper,
+.dxigControl_Office2003Silver .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_Office2003Silver .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_Office2003Silver .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_Office2003Silver .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_Office2003Silver .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_Office2003Silver .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbBottom,
+.dxigControl_Office2003Silver .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigControl_Office2003Silver .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbSelectedItem > div,
+.dxigControl_Office2003Silver .dxisControl_Office2003Silver .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigPagerShowMoreItemsContainer_Office2003Silver
+{
+    height: 48px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_Office2003Silver a
+{
+	display: block;
+	padding-top: 12px;
+	color: black;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_Office2003Silver,
+.dxnbGroupHeader_Office2003Silver,
+.dxnbGroupHeaderCollapsed_Office2003Silver,
+.dxnbGroupContent_Office2003Silver > TABLE > TBODY > TR,
+.dxtcTab_Office2003Silver,
+.dxtcActiveTab_Office2003Silver,
+.dxtv-nd_Office2003Silver
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_Office2003Silver {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+    color: #424242;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 5px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_Office2003Silver { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_Office2003Silver {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_Office2003Silver {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 2px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 9px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 10px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 4px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 2px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 4px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_Office2003Silver { padding-top: 3px; }
+
+.dxflCLTSys .dxflCaptionCell_Office2003Silver,
+.dxflCLBSys .dxflCaptionCell_Office2003Silver {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_Office2003Silver,
+*[dir="rtl"].dxflFormLayout_Office2003Silver .dxflCLRSys .dxflCaptionCell_Office2003Silver {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_Office2003Silver,
+*[dir="rtl"].dxflFormLayout_Office2003Silver .dxflCLLSys .dxflCaptionCell_Office2003Silver {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_Office2003Silver {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_Office2003Silver {
+    line-height: 16px;
+}
+.dxflCaptionCell_Office2003Silver {
+    width: 1%;
+}
+td.dxflNestedControlCell_Office2003Silver {
+    height: 0;
+}
+
+.dxflEmptyItem_Office2003Silver {
+    height: 21px;
+}
+
+.dxflItem_Office2003Silver { width: 100%; }
+.dxflItem_Office2003Silver,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_Office2003Silver {
+    padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_Office2003Silver {
+    padding-bottom: 4px;
+}
+.dxflItem_Office2003Silver > table.dxflItemTable_Office2003Silver { width: 100%; }
+.dxflGroup_Office2003Silver { padding: 6px 5px; width: 100%;}
+.dxflGroup_Office2003Silver > table.dxflGroupTable_Office2003Silver { width: 100%; }
+.dxflGroupCell_Office2003Silver { padding: 0 8px; }
+
+.dxflGroupBox_Office2003Silver {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #7C7C94;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_Office2003Silver.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_Office2003Silver.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_Office2003Silver {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_Office2003Silver > .dxtcControl_Office2003Silver { margin: 0px; }
+
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver tr:first-child > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver,
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver > .dxflChildInFirstRowSys > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver tr:first-child > .dxflGroupCell_Office2003Silver > .dxtcControl_Office2003Silver,
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver > .dxflChildInFirstRowSys > .dxflGroupCell_Office2003Silver > .dxtcControl_Office2003Silver {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver tr:last-child > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver,
+.dxflGroupBox_Office2003Silver > .dxflGroup_Office2003Silver > .dxflChildInLastRowSys > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_Office2003Silver tr:first-child > .dxflGroupCell_Office2003Silver > .dxflGroupBox_Office2003Silver,
+.dxflGroup_Office2003Silver > .dxflChildInFirstRowSys > .dxflGroupCell_Office2003Silver > .dxflGroupBox_Office2003Silver {
+    margin-top: 13px;
+}
+
+.dxflGroup_Office2003Silver tr:last-child > .dxflGroupCell_Office2003Silver > .dxflGroupBox_Office2003Silver,
+.dxflGroup_Office2003Silver > .dxflChildInLastRowSys > .dxflGroupCell_Office2003Silver > .dxflGroupBox_Office2003Silver {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_Office2003Silver > div > .dxflGroup_Office2003Silver { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_Office2003Silver > div > .dxflGroup_Office2003Silver tr:first-child > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver,
+.dxtcPageContent_Office2003Silver > div > .dxflGroup_Office2003Silver > .dxflChildInFirstRowSys > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_Office2003Silver > div > .dxflGroup_Office2003Silver tr:last-child > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver,
+.dxtcPageContent_Office2003Silver > div > .dxflGroup_Office2003Silver > .dxflChildInLastRowSys > .dxflGroupCell_Office2003Silver > .dxflItem_Office2003Silver {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_Office2003Silver {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_Office2003Silver .dxflGroupBoxCaption_Office2003Silver {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_Office2003Silver > div.dxflGroup_Office2003Silver:first-child,
+.dxflGroupBox_Office2003Silver > table.dxflGroup_Office2003Silver:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_Office2003Silver {
+    top: -19px;
+}
+
+.dxflOptional_Office2003Silver {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_Office2003Silver {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_Office2003Silver {
+    width: 100%;
+}
+.dxflHelpText_Office2003Silver {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_Office2003Silver.dxflLHelpTextSys,
+.dxflHelpText_Office2003Silver.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_Office2003Silver.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_Office2003Silver.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_Office2003Silver {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_Office2003Silver .dxr-tabContent {
+    border: 1px solid #7c7c94;
+    background: #e3e3ec;
+    border-top-width: 0px;
+    height: 95px;
+}
+.dxrControl_Office2003Silver.dxr-oneLineMode .dxr-tabContent {
+    height: 30px;
+}
+.dxrControl_Office2003Silver.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_Office2003Silver.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_Office2003Silver, 
+.dxrControl_Office2003Silver a {
+    color: #000000;
+}
+.dxrControl_Office2003Silver .dxr-itemDisabled.dxr-item,
+.dxrControl_Office2003Silver .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_Office2003Silver .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_Office2003Silver .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_Office2003Silver .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_Office2003Silver .dxr-itemDisabled a,
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #aaaaaa;
+}
+
+/* Ribbon Popup */
+.dxrControl_Office2003Silver .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_Office2003Silver .dxr-minPopup.dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_Office2003Silver .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #7c7c94;
+}
+
+/* Ribbon Group List */
+.dxrControl_Office2003Silver .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_Office2003Silver .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_Office2003Silver .dxr-groupList .dxr-groupSep b {
+    display: block;
+    margin: 4px 0;
+    width: 1px;
+    height: 87px;
+    background: #babac9;
+}
+.dxrControl_Office2003Silver.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 22px;
+}
+.dxrControl_Office2003Silver.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 73px;
+}
+
+/* Ribbon Groups */
+.dxrControl_Office2003Silver .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_Office2003Silver .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_Office2003Silver.dxr-oneLineMode .dxr-groupContent {
+    height: 30px;
+}
+.dxrControl_Office2003Silver .dxr-groupLabel {
+    text-align: center;
+    color: #000000;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_Office2003Silver .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 3px -4px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_Office2003Silver .dxr-grExpBtn,
+.dxrControl_Office2003Silver .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_Office2003Silver .dxr-grExpBtn {
+    height: 87px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_Office2003Silver .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_Office2003Silver .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 8px 3px 7px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-itemSep,
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #babac9;
+    width: 1px;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_Office2003Silver .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item,
+.dxrControl_Office2003Silver .dxr-blSepItems .dxr-item,
+.dxrControl_Office2003Silver.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item {
+    margin: 0 3px 0 3px;
+}
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_Office2003Silver .dxr-grExpBtn .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label,
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #7c7c94;
+}
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-grExpBtn .dxr-popOut {
+    margin: -1px 3px 1px;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+.dxSafari .dxrControl_Office2003Silver .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #7c7c94;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_Office2003Silver .dxr-item.dxr-edtItem {
+    border: 0;
+    padding: 1px 0;
+    height: 23px;
+}
+.dxrControl_Office2003Silver .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_Office2003Silver .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_Office2003Silver .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_Office2003Silver .dxr-buttonItem.dxr-itemChecked {
+    background: #FFAD55 url('mItemSBack.gif') repeat-x center top;
+    border-color: #7c7c94;
+}
+.dxrControl_Office2003Silver .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #FFD69A url('rItemHBack.gif') repeat-x center top;
+    border-color: #7c7c94;
+}
+.dxrControl_Office2003Silver .dxr-buttonItem.dxr-itemHover,
+.dxrControl_Office2003Silver .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_Office2003Silver .dxr-olmGrExpBtn.dxr-itemHover {
+    background: #FFD69A url('rItemHBack.gif') repeat-x center top;
+    border-color: #7c7c94;
+}
+.dxrControl_Office2003Silver .dxr-img32,
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_Office2003Silver .dxr-img16,
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_Office2003Silver .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_Office2003Silver .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_Office2003Silver .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_Office2003Silver .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_Office2003Silver .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_Office2003Silver .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_Office2003Silver .dxeColorTable_Office2003Silver {
+    border: none;
+}
+
+.dxrControl_Office2003Silver .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_Office2003Silver .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #e6e6f0 url('rFileTabBack.gif') repeat-x center bottom;
+    border-color: #7c7c94;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #fff2c8 url('rFileTabHoverBack.gif') repeat-x center bottom;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #ffcf8b url('rFileTabPressedBack.gif') repeat-x center top;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-leftIndent, 
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-spacer, 
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-rightIndent, 
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-sbIndent, 
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-sbSpacer
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #7c7c94;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #FFD091 url('tcTabHBack.gif') repeat-x center top;
+    border-left-color: #7c7c94;
+    border-right-color: #7c7c94;
+    border-top-color: #7c7c94;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab.dxr-fileTab .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtcLiteDisabled_Office2003Silver .dxtc-link {
+    color: #AAAAAA;
+}
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_Office2003Silver .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #7c7c94;
+    background-color: white;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBarContainer
+{
+    margin-right: 14px;
+    height: 71px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItem.dxr-itemHover
+{
+    background: #FFEEC2;
+    border-color: #7c7c94;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItem.dxr-itemChecked
+{
+    background: #FFAD55;
+    border-color: #7c7c94;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBtnHover
+{
+    background: #FFEEC2 url('mPopupHBack.gif') repeat-x center top;
+    border-color: #7c7c94;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItem.dxr-itemPressed
+{
+    background: #FFD69A;
+    border-color: #7c7c94;
+}
+.dxrControl_Office2003Silver .dxr-glrBtnPressed
+{
+    background: #FFD69A url('rItemHBack.gif') repeat-x center top;
+    border-color: #7c7c94;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_Office2003Silver .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_Office2003Silver .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Office2003Silver .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_Office2003Silver .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_Office2003Silver .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dxrControl_Office2003Silver .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_Office2003Silver .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_Office2003Silver .dxr-glrGroup
+{
+    background-color: #D4D4E2;
+    font-weight: bold;
+    color: #8F8FB1;
+    padding: 3px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 24px;
+    border-left: 1px solid #7c7c94;
+    border-bottom: 1px solid #7c7c94;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_Office2003Silver .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_Office2003Silver .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 2px 0;
+    display: block;
+}
+.dxrControl_Office2003Silver .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_Office2003Silver .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_Office2003Silver {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_Office2003Silver .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_Office2003Silver .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_Office2003Silver .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_Office2003Silver .dxiz-wrapper > img,
+.dxizControl_Office2003Silver .dxiz-clipPanel > img,
+.dxizControl_Office2003Silver .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_Office2003Silver .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_Office2003Silver .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_Office2003Silver .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_Office2003Silver .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-llp,
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-lrp,
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-ltp,
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-lbp,
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_Office2003Silver .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_Office2003Silver .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_Office2003Silver .dxiz-lens.outside .dxiz-llp,
+.dxizControl_Office2003Silver .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_Office2003Silver .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_Office2003Silver .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_Office2003Silver .dxizLoadingPanel_Office2003Silver {
+    position: absolute;
+}
+
+.dxisControl_Office2003Silver.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_Office2003Silver
+{
+    background-color: #F6F6F6;
+    padding-bottom: 2px;
+    border: 1px solid #7C7C94;
+}
+.dxitcControl_Office2003Silver > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_Office2003Silver .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #808080;
+    background-color: white;
+}
+.dxitcControl_Office2003Silver .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #ffc076;
+}
+.dxitcCaption_Office2003Silver
+{
+    background-color: #F6F6F6;
+    padding: 2px;
+    border: 1px solid #808080;
+    margin: 2px 2px 0px 2px;
+}

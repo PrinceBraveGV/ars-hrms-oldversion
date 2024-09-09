@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = " - Login -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using System.Web.Optimization
+@using AristaHRM.Models
+
+@model LoginModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<p>
+    Masukkan NIK &amp; password anda untuk login ke sistem. <br />Untuk karyawan baru silakan mengisi formulir @Html.ActionLink("registrasi", "Register", "Home", mobilearea).
+</p>
+
+@using (Html.BeginForm("Login", "Home", mobilearea, FormMethod.Post, new { id = "LoginForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    
+    <p style="color:red">@ViewBag.ErrorMsg</p>
+    
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">@Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { hidefocus = "hidefocus" }) > Login</li>
+        <li data-role="list-divider">Identitas User</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.NIK)
+            @Html.TextBoxFor(m => m.NIK)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Remember)
+            @Html.CheckBoxFor(m => m.Remember)
+        </li>
+
+        <li data-role="fieldcontain">
+            <input id="login" name="login" type="submit" value="Login Sistem" />
+            <input id="reset" name="reset" type="reset" value="Reset Form" />
+        </li>
+</ul>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+

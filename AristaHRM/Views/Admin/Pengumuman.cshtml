@@ -1,0 +1,162 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pesan Pengumuman (Broadcast)";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model AnnoModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pesan Pengumuman Massal</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial">
+                            Tentukan jenis, tanggal dan isi pengumuman yang akan disampaikan pada halaman utama setelah user melakukan login.<br />
+                            Untuk gabungan dua atau lebih pengumuman di hari yang sama, gunakan pilihan "Lain-lain" pada jenis pengumuman.
+                        </label>
+                        @using (Html.BeginForm("Pengumuman", "Admin", FormMethod.Post))
+                        {
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "AnnoLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = string.Empty;
+                                    item.ShowCaption = DefaultBoolean.False;
+                                    item.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Pengaturan Awal</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Jenis Pengumuman ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.Jenis_Anno, combobox =>
+                                        {
+                                            combobox.Properties.NullText = "-- Pilih --";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                            combobox.Properties.HelpText = "(*) Tentukan jenis pengumuman yang diinginkan.";
+                                            combobox.Properties.TextField = "Keterangan";
+                                            combobox.Properties.ValueField = "Jenis_Isi";
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+                                            combobox.ShowModelErrors = true;
+                                            combobox.Properties.ValidationSettings.Display = Display.Static;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetJenisPengumuman()).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = string.Empty;
+                                    item.ShowCaption = DefaultBoolean.False;
+                                    item.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Detail Pengumuman</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Tanggal Pengumuman ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Anno, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(300);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.MinValue;
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                            dateedit.Properties.DropDownButton.Visible = false;
+                                            dateedit.Properties.ValidationSettings.Display = Display.Static;
+                                            dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Keterangan ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().MemoFor(m => m.Keterangan, textarea =>
+                                        {
+                                            textarea.Properties.Columns = 100;
+                                            textarea.Properties.Rows = 5;
+                                            textarea.Properties.HelpText = "(*) Masukkan isi pengumuman yang akan ditampilkan.";
+                                            textarea.Theme = AristaHRM.Theme.SelectTheme;
+                                            textarea.Properties.ValidationSettings.Display = Display.Static;
+                                            textarea.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Atur Pengumuman";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.RouteValues = new { Controller = "Admin", Action = "Pengumuman" };
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnEdit";
+                                button.Text = "Edit Pengumuman";
+                                button.Images.Image.Url = "~/Images/Edit.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.RouteValues = new { Controller = "Admin", Action = "EditPengumuman" };
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Form";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { window.location.reload(true); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

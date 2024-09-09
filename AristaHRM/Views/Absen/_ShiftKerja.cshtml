@@ -1,0 +1,30 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "ShiftKerjaGrid";
+        settings.CallbackRouteValues = new { Controller = "Absen", Action = "ShiftKerjaPartial" };
+        settings.Width = Unit.Percentage(100);
+
+        settings.SettingsPager.PageSize = 20;
+
+        settings.KeyFieldName = "";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "";
+            column.Caption = "";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "";
+            column.Caption = "";
+        });
+        
+    });
+    
+    
+}
+
+@grid.Bind(Model).GetHtml()

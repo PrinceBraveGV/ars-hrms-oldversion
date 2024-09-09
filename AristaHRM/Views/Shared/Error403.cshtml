@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "HRIS - Akses Tak Diizinkan";
+    Layout = "~/Views/Shared/_redirectLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">HTTP 1.0/403: Akses Tidak Diizinkan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <label class="labeldesc">
+                        Halaman yang anda minta memiliki pengaturan akses yang tidak sesuai dengan hak akses yang anda miliki saat ini.<br />
+                        Periksa kembali URL yang anda masukkan pada address bar browser, atau gunakan menu navigasi yang telah disediakan.<br /><br />
+                        Halaman ini akan dialihkan secara otomatis setelah 5 detik atau setelah anda menekan tombol &quot;Kembali&quot;.
+                    </label>
+                    <br /><br />
+                    @Html.DevExpress().Button(settings =>
+                    {
+                        settings.Name = "Return";
+                        settings.Text = "Kembali";
+                        settings.UseSubmitBehavior = false;
+                        settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                        settings.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                        settings.Theme = AristaHRM.Theme.SelectTheme;
+                    }).GetHtml()
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,576 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_XafTheme
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_XafTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #4a4a4a;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxheLoadingPanel_XafTheme td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 15px 34px 15px 20px;
+}
+.dxheLoadingPanel_XafTheme .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+.dxheControl_XafTheme
+{
+    border: Solid 1px #c6c6c6;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+
+/* Area */
+.dxheContentArea_XafTheme
+{
+    padding: 0;
+}
+.dxheErrorFrame_XafTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_XafTheme .dxeMemo_XafTheme .dxheErrorFrame_XafTheme .dxhe,
+.dxheControl_XafTheme.dxhe-rtl .dxeMemo_XafTheme .dxheErrorFrame_XafTheme .dxhe,
+.dxheErrorFrame_XafTheme .dxhe 
+{
+    padding: 5px;
+}
+.dxheControl_XafTheme .dxeMemo_XafTheme .dxheErrorFrame_XafTheme .dxhe td,
+.dxheControl_XafTheme.dxhe-rtl .dxeMemo_XafTheme .dxheErrorFrame_XafTheme .dxhe td,
+.dxheErrorFrame_XafTheme .dxhe td 
+{
+    padding: 0;
+}
+.dxheErrorFrame_XafTheme .dxheErrorFrameCloseButton_XafTheme 
+{
+    cursor: pointer;
+}
+.dxheViewArea_XafTheme,
+.dxheViewArea_XafTheme.dxeMemo_XafTheme
+{
+    border: 0;
+}
+.dxheContentArea_XafTheme td.dxheViewArea_XafTheme 
+{
+    line-height: 0;
+}
+.dxheContentArea_XafTheme td.dxheViewArea_XafTheme.dxheHtmlViewArea_XafTheme
+{
+    line-height: inherit;
+}
+.dxheHtmlViewEdit_XafTheme,
+.dxheDesignViewArea_XafTheme,
+.dxhePreviewArea_XafTheme 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #4a4a4a;
+}
+.dxheContentArea_XafTheme .dxeMemo_XafTheme,
+.dxheContentArea_XafTheme .dxeMemoEditArea_XafTheme
+{
+    background-color: white;
+}
+.dxheControl_XafTheme .dxeMemo_XafTheme.dxheHtmlViewArea_XafTheme .dxeMemoEditArea_XafTheme,
+body.dxheDesignViewArea_XafTheme,
+body.dxhePreviewArea_XafTheme
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_XafTheme .dxeMemo_XafTheme.dxheHtmlViewArea_XafTheme td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_XafTheme.dxhe-rtl .dxheContentArea_XafTheme .dxeMemo_XafTheme.dxheHtmlViewArea_XafTheme td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_XafTheme .dxeMemo_XafTheme textarea 
+{
+	resize:none;
+}
+.dxheControl_XafTheme td.dxheDesignViewArea_XafTheme .dxm-main.dxmtb 
+{
+    border: 1px solid #cfcfcf;
+    padding: 4px;
+}
+td.dxheDesignViewArea_XafTheme .dxmLite_XafTheme .dxm-horizontal .dxm-spacing {
+    width: 1px;
+}
+.dxheControl_XafTheme td.dxheDesignViewArea_XafTheme
+{
+    position: relative;
+}
+td.dxheDesignViewArea_XafTheme .dxmLite_XafTheme {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_XafTheme .dxmLite_XafTheme.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_XafTheme .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_XafTheme .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_XafTheme .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_XafTheme .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_XafTheme img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_XafTheme img.dxheAudio,
+.dxheViewArea_XafTheme img.dxheFlash,
+.dxheViewArea_XafTheme img.dxheVideo,
+.dxheViewArea_XafTheme img.dxheYoutube,
+.dxheViewArea_XafTheme img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_XafTheme .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_XafTheme.dxheDesignViewArea_XafTheme .dxheSelected
+{
+    background-color: #A0D5FA;
+}
+.dxhe-insertPlaceholder .dxeListBox_XafTheme.dxeFocused_XafTheme
+{
+    border: 1px solid #CFCFCF;
+}
+.dxpc-contentWrapper .dxflFormLayout_XafTheme.dxhe-insertPlaceholder .dxflGroup_XafTheme .dxflGroupBox_XafTheme
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_XafTheme,
+.dxpc-contentWrapper .dxflFormLayout_XafTheme.dxhe-insertPlaceholder .dxflGroup_XafTheme .dxflGroupBox_XafTheme .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_XafTheme .dxheDlgFooterBtn
+{
+    margin-top: 7px;
+}
+.dxhe-insertPlaceholder .dxflGroup_XafTheme .dxflGroupBox_XafTheme .dxflGroup_XafTheme
+{
+    padding-bottom: 2px;
+}
+.dxhe-insertPlaceholder .dxflGroup_XafTheme .dxflGroupCell_XafTheme
+{
+    padding: 0 4px;
+}
+.dxhe-insertPlaceholder .dxeListBox_XafTheme,
+.dxhe-insertPlaceholder .dxeListBox_XafTheme .dxlbd
+{
+    width: 260px;
+    height: 180px;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_XafTheme table.dxEmptyBorderTable,
+body.dxheDesignViewArea_XafTheme table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_XafTheme table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_XafTheme table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_XafTheme
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_XafTheme pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_XafTheme 
+{
+}
+.dxheStatusBarTab_XafTheme 
+{    
+}
+.dxHtmlEditor_heSizeGrip_XafTheme
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_XafTheme
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_XafTheme 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -18px;
+}
+.dxheControl_XafTheme.dxhe-rtl .dxheSizeGripContainer_XafTheme
+{
+	text-align: left;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme .dxtc-leftIndent
+{
+	width: 0!important;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme > .dxtc-stripContainer.dxtc-strip
+{
+	background: #fafafa;
+	padding: 0!important;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-top: 1px solid #c6c6c6!important;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-tab .dxtc-link 
+{
+	padding: 7px 15px 5px 16px;
+}
+
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-top-width: 0!important;
+    padding-top: 1px;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab .dxtc-link 
+{
+	padding: 7px 14px 5px 15px;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid transparent!important;
+}
+.dxheControl_XafTheme.dxhe-rtl .dxtcLite_XafTheme.dxtc-bottom .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #c6c6c6 !important;
+    border-right: 1px solid transparent!important;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme > .dxtc-stripContainer .dxtc-tab
+{
+	background: transparent;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #1279c0;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: white!important;
+	border: 1px solid #c6c6c6;
+	border-top: 0!important;
+}
+.dxheControl_XafTheme .dxtcLite_XafTheme.dxtc-bottom > ul
+{
+    border: 0!important;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_XafTheme .dxheDlgFooter,
+.dxpcLite_XafTheme .dxheCustomDialog_XafTheme .dxhecd-Buttons
+{
+	background-color: #fafafa;
+	border-top: 1px #c6c6c6 solid;
+	padding: 16px 11px;
+	text-align: right;
+}
+.dxpcLite_XafTheme.dxRtl .dxheDlgFooter,
+.dxpcLite_XafTheme.dxRtl .dxheCustomDialog_XafTheme .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_XafTheme .dxheDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 10px;
+}
+.dxpcLite_XafTheme.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_XafTheme .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #c6c6c6;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgRadionButtonTable
+{
+    width: 360px;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgFromTheWeb
+{
+    width: 360px;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgWrapTextCell
+{
+    width: 180px;
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgCaptionCell,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgCaptionCell
+{
+    padding-top: 9px;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeTextBox_XafTheme,
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeButtonEdit_XafTheme  
+{ 
+    width: 200px!important; 
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxrpControl_XafTheme > tbody > tr > td > table,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxrpControl_XafTheme > tbody > tr > td > table
+{
+    width: 480px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgSpinEdit,
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgSpinEdit,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgSpinEdit
+{
+    width: 70px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertImageForm .dxheDlgColorEdit,
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgColorEdit,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgColorEdit
+{
+    width: 140px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgSizeComboBox,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgSizeComboBox
+{
+    width: 170px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgSizeTypeComboBox,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgSizeTypeComboBox
+{
+    width: 60px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgAlignComboBox,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgAlignComboBox
+{
+    width: 100px!important;
+}
+.dxpcLite_XafTheme .dxheDlgInsertTableForm .dxheDlgHeaderComboBox,
+.dxpcLite_XafTheme .dxheDlgTableColumnPropertiesForm .dxheDlgHeaderComboBox
+{
+    width: 120px!important;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_XafTheme
+{
+	height: 1px;
+}
+.dxtbControl_XafTheme 
+{
+	color: #4a4a4a;
+	background-color: #fafafa;
+    border-bottom: Solid 1px #c6c6c6;
+}
+.dxtbControl_XafTheme td.dxmMenu_XafTheme
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_XafTheme
+{
+    padding: 3px 2px;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme > .dxtc-stripContainer.dxtc-strip
+{
+    padding-top: 4px !important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-leftIndent
+{
+    width: 4px !important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    border-bottom: 1px solid #c6c6c6!important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom: 1px solid transparent!important;
+    border-top: 1px solid #c6c6c6!important;
+}
+.dxheControl_XafTheme.dxhe-rtl .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #c6c6c6 !important;
+    border-right: 1px solid transparent!important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab
+{
+    border-top: 1px solid transparent!important;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab.dxr-inactiveTab,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-activeTab.dxr-inactiveTab
+{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-spacer
+{
+    width: 2px;
+    margin-left: -1px;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxtcLite_XafTheme.dxtc-top > ul
+{
+    border: 0!important;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxr-minBtn
+{
+    margin: 1px 5px 0 0;
+}
+.dxheControl_XafTheme .dxtbControl_XafTheme.dxtbr_XafTheme,
+.dxheControl_XafTheme .dxrControl_XafTheme .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+.dxheControl_XafTheme .dxrControl_XafTheme .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #c6c6c6;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxm-main.dxmtb
+{
+	padding: 3px 2px;
+    border-width: 0px;
+}
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxmtb.dxm-horizontal .dxm-separator
+{
+	padding: 1px 3px!important;
+}
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem > .dxeButtonEditSys,
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem > .dxeTextBoxSys
+{
+    margin: 0;
+}
+.dxmLite_XafTheme .dxhetipControl_XafTheme img
+{
+	vertical-align: top;
+	margin-top: 3px;
+}
+.dxtbControl_XafTheme .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbControl_XafTheme > img
+{
+    margin-top: -1px;
+}
+.dxtbControl_XafTheme .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_XafTheme
+{
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_XafTheme .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_XafTheme { }
+.dxtcbColorDiv_XafTheme
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_XafTheme .dxrpcontent
+{
+    padding: 9px 10px 10px 10px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_XafTheme .dxhe-dialogSettings 
+{
+    width: 270px;
+    padding-left: 30px;
+}
+.dxflFormLayout_XafTheme.dxhe-mediaDialog 
+{
+    width: 850px;
+}
+.dxflFormLayout_XafTheme.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_XafTheme.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 610px;
+}
+div.dxflFormLayout_XafTheme.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div.dxflFormLayout_XafTheme.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_XafTheme.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 30px;
+}
+div.dxflFormLayout_XafTheme.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_XafTheme.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 40px;
+}
+

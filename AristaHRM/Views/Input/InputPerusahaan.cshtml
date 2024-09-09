@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "HRIS - Input Perusahaan Baru";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model PerusahaanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Input Perusahaan Baru</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        @using (Html.BeginForm("InputPerusahaan", "Input", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            <div style="margin-left:55px">
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "InputPerusahaanForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Perusahaan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                     {
+                                         layoutitem.Caption = "Nama Perusahaan ";
+                                         layoutitem.SetNestedContent(() =>
+                                         {
+                                             Html.DevExpress().TextBoxFor(m => m.Nama_Perusahaan, textbox =>
+                                             {
+                                                 textbox.Name = "Nama_Perusahaan";
+                                                 textbox.Text = "PT. ";
+                                                 textbox.Width = Unit.Pixel(400);
+                                                 textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                 textbox.Properties.HelpText = "(*) Isi dengan nama perusahaan sesuai SIUP/akta pendirian perusahaan.";
+                                                 textbox.Properties.ValidationSettings.Display = Display.None;
+                                                 textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                 textbox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                                 textbox.ShowModelErrors = true;
+                                             }).GetHtml();
+                                         });
+                                     });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Kode Singkat ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().TextBoxFor(m => m.Kode_Singkat, textbox =>
+                                        {
+                                            textbox.Name = "Kode_Singkat";
+                                            textbox.Width = Unit.Pixel(100);
+                                            textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                            textbox.Properties.HelpText = "(*) Isi dengan kode singkatan perusahaan. Contoh: AAL, AAP, d.l.l";
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            </div>
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnRegister";
+                                button.Text = "Register Perusahaan";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:center; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>

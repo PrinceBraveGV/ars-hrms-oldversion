@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = " - Master Data -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminMenu", "Admin", mobilearea, new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > Master Data</li>
+        <li data-role="list-divider">Menu Master</li>
+
+        <li>@Html.ActionLink("Data Karyawan", "Karyawan", "Master", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Data Perusahaan", "Perusahaan", "Master", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Data Cabang", "Cabang", "Master", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Data Riwayat Cuti", "Riwayat", "Master", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Sisa Cuti Tahunan", "SisaTahunan", "Master", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Bantuan", "MobileGuide", "Help", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+    
+}
+
+

@@ -1,0 +1,811 @@
+.dxScheduler_Appointment_DayClock_iOS,
+.dxScheduler_Appointment_EndArrow_iOS,
+.dxScheduler_Appointment_NightClock_iOS,
+.dxScheduler_Appointment_NoRecurrence_iOS,
+.dxScheduler_Appointment_Recurrence_iOS,
+.dxScheduler_Appointment_Reminder_iOS,
+.dxScheduler_Appointment_StartArrow_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_00_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_05_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_10_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_15_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_20_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_25_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_30_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_35_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_40_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_45_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_50_iOS,
+.dxScheduler_AppointmentClockArrows_day_hour_55_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_00_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_05_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_10_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_15_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_20_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_25_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_30_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_35_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_40_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_45_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_50_iOS,
+.dxScheduler_AppointmentClockArrows_day_minute_55_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_00_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_05_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_10_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_15_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_20_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_25_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_30_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_35_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_40_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_45_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_50_iOS,
+.dxScheduler_AppointmentClockArrows_night_hour_55_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_00_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_05_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_10_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_15_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_20_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_25_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_30_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_35_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_40_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_45_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_50_iOS,
+.dxScheduler_AppointmentClockArrows_night_minute_55_iOS,
+.dxScheduler_CssImages_ButtonBack_iOS,
+.dxScheduler_CssImages_ButtonBackHover_iOS,
+.dxScheduler_CssImages_ViewSelectorButtonBack_iOS,
+.dxScheduler_CssImages_ViewSelectorButtonBackHover_iOS,
+.dxScheduler_InplaceEditor_Cancel_iOS,
+.dxScheduler_InplaceEditor_EditForm_iOS,
+.dxScheduler_InplaceEditor_Save_iOS,
+.dxScheduler_Menu_Delete_iOS,
+.dxScheduler_Menu_GoToDate_iOS,
+.dxScheduler_Menu_NewAppointment_iOS,
+.dxScheduler_Menu_RecurringAppointment_iOS,
+.dxScheduler_MoreButton_Bottom_iOS,
+.dxScheduler_MoreButton_BottomHover_iOS,
+.dxScheduler_MoreButton_Top_iOS,
+.dxScheduler_MoreButton_TopHover_iOS,
+.dxScheduler_NavigationButton_Backward_iOS,
+.dxScheduler_NavigationButton_BackwardDisabled_iOS,
+.dxScheduler_NavigationButton_BackwardHover_iOS,
+.dxScheduler_NavigationButton_Forward_iOS,
+.dxScheduler_NavigationButton_ForwardDisabled_iOS,
+.dxScheduler_NavigationButton_ForwardHover_iOS,
+.dxScheduler_ResourceNavigator_Decrease_iOS,
+.dxScheduler_ResourceNavigator_DecreaseDisabled_iOS,
+.dxScheduler_ResourceNavigator_DecreaseHover_iOS,
+.dxScheduler_ResourceNavigator_First_iOS,
+.dxScheduler_ResourceNavigator_FirstDisabled_iOS,
+.dxScheduler_ResourceNavigator_FirstHover_iOS,
+.dxScheduler_ResourceNavigator_Increase_iOS,
+.dxScheduler_ResourceNavigator_IncreaseDisabled_iOS,
+.dxScheduler_ResourceNavigator_IncreaseHover_iOS,
+.dxScheduler_ResourceNavigator_Last_iOS,
+.dxScheduler_ResourceNavigator_LastDisabled_iOS,
+.dxScheduler_ResourceNavigator_LastHover_iOS,
+.dxScheduler_ResourceNavigator_Next_iOS,
+.dxScheduler_ResourceNavigator_NextDisabled_iOS,
+.dxScheduler_ResourceNavigator_NextHover_iOS,
+.dxScheduler_ResourceNavigator_NextPage_iOS,
+.dxScheduler_ResourceNavigator_NextPageDisabled_iOS,
+.dxScheduler_ResourceNavigator_NextPageHover_iOS,
+.dxScheduler_ResourceNavigator_Prev_iOS,
+.dxScheduler_ResourceNavigator_PrevDisabled_iOS,
+.dxScheduler_ResourceNavigator_PrevHover_iOS,
+.dxScheduler_ResourceNavigator_PrevPage_iOS,
+.dxScheduler_ResourceNavigator_PrevPageDisabled_iOS,
+.dxScheduler_ResourceNavigator_PrevPageHover_iOS,
+.dxScheduler_SmartTag_iOS,
+.dxScheduler_StatusInfo_Error_iOS,
+.dxScheduler_StatusInfo_Info_iOS,
+.dxScheduler_StatusInfo_Warning_iOS,
+.dxScheduler_TimeMarker_iOS,
+.dxScheduler_Tooltip_BottomLeft_iOS,
+.dxScheduler_Tooltip_BottomRight_iOS,
+.dxScheduler_Tooltip_BottomStem_iOS,
+.dxScheduler_Tooltip_Empty_iOS,
+.dxScheduler_Tooltip_TopLeft_iOS,
+.dxScheduler_Tooltip_TopRight_iOS,
+.dxScheduler_ViewNavigator_Backward_iOS,
+.dxScheduler_ViewNavigator_Down_iOS,
+.dxScheduler_ViewNavigator_Forward_iOS,
+.dxScheduler_ViewNavigator_Today_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxScheduler_Appointment_DayClock_iOS
+{
+    background-position: -144px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_EndArrow_iOS
+{
+    background-position: -131px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NightClock_iOS
+{
+    background-position: -16px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NoRecurrence_iOS
+{
+    background-position: -16px -253px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Recurrence_iOS
+{
+    background-position: -32px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Reminder_iOS
+{
+    background-position: -128px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_StartArrow_iOS
+{
+    background-position: -115px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_00_iOS
+{
+    background-position: 0px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_05_iOS
+{
+    background-position: -128px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_10_iOS
+{
+    background-position: -96px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_15_iOS
+{
+    background-position: -67px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_20_iOS
+{
+    background-position: -64px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_25_iOS
+{
+    background-position: -112px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_30_iOS
+{
+    background-position: -96px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_35_iOS
+{
+    background-position: -16px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_40_iOS
+{
+    background-position: -112px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_45_iOS
+{
+    background-position: -163px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_50_iOS
+{
+    background-position: -48px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_55_iOS
+{
+    background-position: -48px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_00_iOS
+{
+    background-position: -160px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_05_iOS
+{
+    background-position: -80px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_10_iOS
+{
+    background-position: -144px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_15_iOS
+{
+    background-position: 0px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_20_iOS
+{
+    background-position: -112px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_25_iOS
+{
+    background-position: -169px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_30_iOS
+{
+    background-position: -99px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_35_iOS
+{
+    background-position: -16px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_40_iOS
+{
+    background-position: -160px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_45_iOS
+{
+    background-position: -128px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_50_iOS
+{
+    background-position: -16px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_55_iOS
+{
+    background-position: -64px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_00_iOS
+{
+    background-position: -144px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_05_iOS
+{
+    background-position: -160px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_10_iOS
+{
+    background-position: -64px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_15_iOS
+{
+    background-position: -144px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_20_iOS
+{
+    background-position: -147px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_25_iOS
+{
+    background-position: -96px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_30_iOS
+{
+    background-position: -83px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_35_iOS
+{
+    background-position: -32px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_40_iOS
+{
+    background-position: -80px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_45_iOS
+{
+    background-position: -64px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_50_iOS
+{
+    background-position: -112px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_55_iOS
+{
+    background-position: -48px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_00_iOS
+{
+    background-position: -80px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_05_iOS
+{
+    background-position: -80px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_10_iOS
+{
+    background-position: -32px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_15_iOS
+{
+    background-position: -32px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_20_iOS
+{
+    background-position: 0px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_25_iOS
+{
+    background-position: -96px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_30_iOS
+{
+    background-position: 0px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_35_iOS
+{
+    background-position: 0px -253px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_40_iOS
+{
+    background-position: -51px -158px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_45_iOS
+{
+    background-position: -128px -175px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_50_iOS
+{
+    background-position: -48px -205px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_55_iOS
+{
+    background-position: -160px -221px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_CssImages_ButtonBack_iOS
+{
+    background-position: -173px 0px;
+    width: 2px;
+    height: 19px;
+}
+.dxScheduler_CssImages_ButtonBackHover_iOS
+{
+    background-position: -176px 0px;
+    width: 1px;
+    height: 19px;
+}
+.dxScheduler_CssImages_ViewSelectorButtonBack_iOS
+{
+    background-position: -171px 0px;
+    width: 1px;
+    height: 29px;
+}
+.dxScheduler_CssImages_ViewSelectorButtonBackHover_iOS
+{
+    background-position: -169px 0px;
+    width: 1px;
+    height: 29px;
+}
+.dxScheduler_InplaceEditor_Cancel_iOS
+{
+    background-position: -162px -133px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_EditForm_iOS
+{
+    background-position: -165px -34px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_Save_iOS
+{
+    background-position: -145px -34px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_Menu_Delete_iOS
+{
+    background-position: -60px -86px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_GoToDate_iOS
+{
+    background-position: 0px -158px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_NewAppointment_iOS
+{
+    background-position: -17px -158px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_RecurringAppointment_iOS
+{
+    background-position: -34px -158px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_MoreButton_Bottom_iOS
+{
+    background-position: -30px -103px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_MoreButton_BottomHover_iOS
+{
+    background-position: -49px -54px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_MoreButton_Top_iOS
+{
+    background-position: -79px -54px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_MoreButton_TopHover_iOS
+{
+    background-position: -120px -103px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_Backward_iOS
+{
+    background-position: -90px -103px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_BackwardDisabled_iOS
+{
+    background-position: 0px -103px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_BackwardHover_iOS
+{
+    background-position: -109px -54px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_Forward_iOS
+{
+    background-position: -139px -54px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_ForwardDisabled_iOS
+{
+    background-position: -60px -103px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_NavigationButton_ForwardHover_iOS
+{
+    background-position: -139px 0px;
+    width: 29px;
+    height: 29px;
+}
+.dxScheduler_ResourceNavigator_Decrease_iOS
+{
+    background-position: -149px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_DecreaseDisabled_iOS
+{
+    background-position: -167px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_DecreaseHover_iOS
+{
+    background-position: -77px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_First_iOS
+{
+    background-position: -32px -253px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_FirstDisabled_iOS
+{
+    background-position: -113px -191px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_FirstHover_iOS
+{
+    background-position: -151px -191px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_Increase_iOS
+{
+    background-position: -113px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_IncreaseDisabled_iOS
+{
+    background-position: -95px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_IncreaseHover_iOS
+{
+    background-position: -131px -84px;
+    width: 17px;
+    height: 18px;
+}
+.dxScheduler_ResourceNavigator_Last_iOS
+{
+    background-position: -132px -191px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_LastDisabled_iOS
+{
+    background-position: -75px -191px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_LastHover_iOS
+{
+    background-position: -94px -191px;
+    width: 18px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_Next_iOS
+{
+    background-position: -159px -253px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_NextDisabled_iOS
+{
+    background-position: -169px -253px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_NextHover_iOS
+{
+    background-position: -173px -21px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_NextPage_iOS
+{
+    background-position: -51px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_NextPageDisabled_iOS
+{
+    background-position: -141px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_NextPageHover_iOS
+{
+    background-position: -69px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_Prev_iOS
+{
+    background-position: -170px -191px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_PrevDisabled_iOS
+{
+    background-position: -50px -90px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_PrevHover_iOS
+{
+    background-position: -169px -71px;
+    width: 9px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_PrevPage_iOS
+{
+    background-position: -105px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_PrevPageDisabled_iOS
+{
+    background-position: -87px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_ResourceNavigator_PrevPageHover_iOS
+{
+    background-position: -123px -253px;
+    width: 17px;
+    height: 12px;
+}
+.dxScheduler_SmartTag_iOS
+{
+    background-position: -178px 0px;
+    width: 6px;
+    height: 9px;
+}
+.dxScheduler_StatusInfo_Error_iOS
+{
+    background-position: 0px -54px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Info_iOS
+{
+    background-position: -90px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Warning_iOS
+{
+    background-position: -41px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_TimeMarker_iOS
+{
+    background-position: 0px -191px;
+    width: 74px;
+    height: 13px;
+}
+.dxScheduler_Tooltip_BottomLeft_iOS
+{
+    background-position: -177px -183px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomRight_iOS
+{
+    background-position: -176px -175px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomStem_iOS
+{
+    background-position: 0px 0px;
+    width: 40px;
+    height: 53px;
+}
+.dxScheduler_Tooltip_Empty_iOS
+{
+    background-position: -143px -52px;
+    width: 1px;
+    height: 1px;
+}
+.dxScheduler_Tooltip_TopLeft_iOS
+{
+    background-position: -176px -205px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_TopRight_iOS
+{
+    background-position: -177px -213px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_ViewNavigator_Backward_iOS
+{
+    background-position: -109px -133px;
+    width: 52px;
+    height: 24px;
+}
+.dxScheduler_ViewNavigator_Down_iOS
+{
+    background-position: -150px -103px;
+    width: 32px;
+    height: 24px;
+}
+.dxScheduler_ViewNavigator_Forward_iOS
+{
+    background-position: -56px -133px;
+    width: 52px;
+    height: 24px;
+}
+.dxScheduler_ViewNavigator_Today_iOS
+{
+    background-position: 0px -133px;
+    width: 55px;
+    height: 24px;
+}
+

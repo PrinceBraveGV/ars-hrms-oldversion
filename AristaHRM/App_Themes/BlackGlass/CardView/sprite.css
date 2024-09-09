@@ -1,0 +1,48 @@
+.dxCardView_gvCellError_BlackGlass,
+.dxCardView_gvFilterRowButton_BlackGlass,
+.dxCardView_gvHeaderFilter_BlackGlass,
+.dxCardView_gvHeaderFilterActive_BlackGlass,
+.dxCardView_gvHeaderSortDown_BlackGlass,
+.dxCardView_gvHeaderSortUp_BlackGlass
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_BlackGlass
+{
+    background-position: 0px -34px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_BlackGlass
+{
+    background-position: 0px -49px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_BlackGlass
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_gvHeaderFilterActive_BlackGlass
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxCardView_gvHeaderSortDown_BlackGlass
+{
+    background-position: -8px -63px;
+    width: 7px;
+    height: 4px;
+}
+.dxCardView_gvHeaderSortUp_BlackGlass
+{
+    background-position: 0px -63px;
+    width: 7px;
+    height: 4px;
+}
+

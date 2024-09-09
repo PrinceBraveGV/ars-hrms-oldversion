@@ -1,0 +1,13 @@
+﻿@using AristaHRM.Reports
+
+@Html.DevExpress().DocumentViewer(settings =>
+{
+       settings.Name = "ReportRiwayatViewer";
+       settings.Report = (ReportRiwayat)ViewData["ReportRiwayat"];
+       settings.ToolbarMode = DocumentViewerToolbarMode.ExternalRibbon;
+       settings.AssociatedRibbonName = "Ribbon";
+       settings.StylesSplitter.SidePaneWidth = 290;
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.CallbackRouteValues = new { Controller = "Report", Action = "ReportRiwayatPartial" };
+       settings.ExportRouteValues = new { Controller = "Report", Action = "EksporRiwayat" };
+}).GetHtml()

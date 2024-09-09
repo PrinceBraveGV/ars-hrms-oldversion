@@ -1,0 +1,867 @@
+.dxeButtonEditButtonHover_SoftOrange .dxEditors_edtClear_SoftOrange,
+.dxEditors_caRefresh_SoftOrange,
+.dxEditors_edtBinaryImageDelete_SoftOrange,
+.dxEditors_edtBinaryImageOpenDialog_SoftOrange,
+.dxEditors_edtCalendarFNNextYear_SoftOrange,
+.dxEditors_edtCalendarFNPrevYear_SoftOrange,
+.dxEditors_edtCalendarNextMonth_SoftOrange,
+.dxEditors_edtCalendarNextMonthDisabled_SoftOrange,
+.dxEditors_edtCalendarNextYear_SoftOrange,
+.dxEditors_edtCalendarNextYearDisabled_SoftOrange,
+.dxEditors_edtCalendarPrevMonth_SoftOrange,
+.dxEditors_edtCalendarPrevMonthDisabled_SoftOrange,
+.dxEditors_edtCalendarPrevYear_SoftOrange,
+.dxEditors_edtCalendarPrevYearDisabled_SoftOrange,
+.dxEditors_edtClear_SoftOrange,
+.dxEditors_edtDETSClockFace_SoftOrange,
+.dxEditors_edtDETSHourHand_SoftOrange,
+.dxEditors_edtDETSMinuteHand_SoftOrange,
+.dxEditors_edtDETSSecondHand_SoftOrange,
+.dxEditors_edtDropDown_SoftOrange,
+.dxEditors_edtDropDownDisabled_SoftOrange,
+.dxEditors_edtEllipsis_SoftOrange,
+.dxEditors_edtEllipsisDisabled_SoftOrange,
+.dxEditors_edtError_SoftOrange,
+.dxEditors_edtRadioButtonChecked_SoftOrange,
+.dxEditors_edtRadioButtonCheckedDisabled_SoftOrange,
+.dxEditors_edtRadioButtonUnchecked_SoftOrange,
+.dxEditors_edtRadioButtonUncheckedDisabled_SoftOrange,
+.dxEditors_edtSpinEditDecrementImage_SoftOrange,
+.dxEditors_edtSpinEditDecrementImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditIncrementImage_SoftOrange,
+.dxEditors_edtSpinEditIncrementImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditLargeDecImage_SoftOrange,
+.dxEditors_edtSpinEditLargeDecImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditLargeIncImage_SoftOrange,
+.dxEditors_edtSpinEditLargeIncImageDisabled_SoftOrange,
+.dxEditors_edtTBDecBtn_SoftOrange,
+.dxEditors_edtTBDecBtnDisabled_SoftOrange,
+.dxEditors_edtTBDecBtnHover_SoftOrange,
+.dxEditors_edtTBDecBtnPressed_SoftOrange,
+.dxEditors_edtTBIncBtn_SoftOrange,
+.dxEditors_edtTBIncBtnDisabled_SoftOrange,
+.dxEditors_edtTBIncBtnHover_SoftOrange,
+.dxEditors_edtTBIncBtnPressed_SoftOrange,
+.dxEditors_edtTokenBoxTokenRemoveButton_SoftOrange,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_SoftOrange,
+.dxEditors_fcadd_SoftOrange,
+.dxEditors_fcaddhot_SoftOrange,
+.dxEditors_fcgroupaddcondition_SoftOrange,
+.dxEditors_fcgroupaddgroup_SoftOrange,
+.dxEditors_fcgroupand_SoftOrange,
+.dxEditors_fcgroupnotand_SoftOrange,
+.dxEditors_fcgroupnotor_SoftOrange,
+.dxEditors_fcgroupor_SoftOrange,
+.dxEditors_fcgroupremove_SoftOrange,
+.dxEditors_fcopany_SoftOrange,
+.dxEditors_fcopavg_SoftOrange,
+.dxEditors_fcopbegin_SoftOrange,
+.dxEditors_fcopbetween_SoftOrange,
+.dxEditors_fcopblank_SoftOrange,
+.dxEditors_fcopcontain_SoftOrange,
+.dxEditors_fcopcount_SoftOrange,
+.dxEditors_fcopend_SoftOrange,
+.dxEditors_fcopequal_SoftOrange,
+.dxEditors_fcopexists_SoftOrange,
+.dxEditors_fcopgreater_SoftOrange,
+.dxEditors_fcopgreaterorequal_SoftOrange,
+.dxEditors_fcopless_SoftOrange,
+.dxEditors_fcoplessorequal_SoftOrange,
+.dxEditors_fcoplike_SoftOrange,
+.dxEditors_fcopmax_SoftOrange,
+.dxEditors_fcopmin_SoftOrange,
+.dxEditors_fcopnotany_SoftOrange,
+.dxEditors_fcopnotbetween_SoftOrange,
+.dxEditors_fcopnotblank_SoftOrange,
+.dxEditors_fcopnotcontain_SoftOrange,
+.dxEditors_fcopnotequal_SoftOrange,
+.dxEditors_fcopnotlike_SoftOrange,
+.dxEditors_fcopsingle_SoftOrange,
+.dxEditors_fcopsum_SoftOrange,
+.dxEditors_fcoptypefield_SoftOrange,
+.dxEditors_fcoptypefieldhot_SoftOrange,
+.dxEditors_fcoptypevalue_SoftOrange,
+.dxEditors_fcoptypevaluehot_SoftOrange,
+.dxEditors_fcremove_SoftOrange,
+.dxEditors_fcremovehot_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange,
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBMainDH_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBMainDH_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeButtonEditButtonHover_SoftOrange .dxEditors_edtClear_SoftOrange
+{
+    background-position: -70px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_caRefresh_SoftOrange
+{
+    background-position: -106px -120px;
+    width: 21px;
+    height: 23px;
+}
+.dxEditors_edtBinaryImageDelete_SoftOrange
+{
+    background-position: -40px -120px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_SoftOrange
+{
+    background-position: -73px -120px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_SoftOrange
+{
+    background-position: 0px -217px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarFNPrevYear_SoftOrange
+{
+    background-position: -48px -197px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonth_SoftOrange
+{
+    background-position: -121px -100px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_SoftOrange
+{
+    background-position: -68px -197px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYear_SoftOrange
+{
+    background-position: 0px -197px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYearDisabled_SoftOrange
+{
+    background-position: -88px -175px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonth_SoftOrange
+{
+    background-position: -88px -197px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_SoftOrange
+{
+    background-position: -108px -197px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYear_SoftOrange
+{
+    background-position: -112px -175px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_SoftOrange
+{
+    background-position: -24px -197px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtClear_SoftOrange
+{
+    background-position: -75px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtDETSClockFace_SoftOrange
+{
+    background-position: 0px 0px;
+    width: 119px;
+    height: 119px;
+}
+.dxEditors_edtDETSHourHand_SoftOrange
+{
+    background-position: -30px -120px;
+    width: 9px;
+    height: 54px;
+}
+.dxEditors_edtDETSHourHand_SoftOrange
+{
+    background-position: 0px -120px \9;
+    width: 9px \9;
+    height: 54px \9;
+}
+.dxEditors_edtDETSMinuteHand_SoftOrange
+{
+    background-position: -20px -120px;
+    width: 9px;
+    height: 54px;
+}
+.dxEditors_edtDETSMinuteHand_SoftOrange
+{
+    background-position: -10px -120px \9;
+    width: 9px \9;
+    height: 54px \9;
+}
+.dxEditors_edtDETSSecondHand_SoftOrange
+{
+    background-position: -130px 0px;
+    width: 9px;
+    height: 85px;
+}
+.dxEditors_edtDETSSecondHand_SoftOrange
+{
+    background-position: -120px 0px \9;
+    width: 9px \9;
+    height: 85px \9;
+}
+.dxEditors_edtDropDown_SoftOrange
+{
+    background-position: -106px -148px;
+    width: 9px;
+    height: 4px;
+}
+.dxEditors_edtDropDownDisabled_SoftOrange
+{
+    background-position: -116px -148px;
+    width: 9px;
+    height: 4px;
+}
+.dxEditors_edtEllipsis_SoftOrange
+{
+    background-position: -106px -145px;
+    width: 10px;
+    height: 2px;
+}
+.dxEditors_edtEllipsisDisabled_SoftOrange
+{
+    background-position: -117px -145px;
+    width: 10px;
+    height: 2px;
+}
+.dxEditors_edtError_SoftOrange
+{
+    background-position: -60px -253px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_SoftOrange
+{
+    background-position: -32px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_SoftOrange
+{
+    background-position: -64px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_SoftOrange
+{
+    background-position: -48px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_SoftOrange
+{
+    background-position: -80px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_SoftOrange
+{
+    background-position: -103px -321px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_SoftOrange
+{
+    background-position: -133px -263px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImage_SoftOrange
+{
+    background-position: -40px -153px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_SoftOrange
+{
+    background-position: -111px -321px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditLargeDecImage_SoftOrange
+{
+    background-position: -134px -90px;
+    width: 6px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_SoftOrange
+{
+    background-position: -96px -321px;
+    width: 6px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImage_SoftOrange
+{
+    background-position: -131px -253px;
+    width: 6px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_SoftOrange
+{
+    background-position: -128px -311px;
+    width: 6px;
+    height: 9px;
+}
+.dxEditors_edtTBDecBtn_SoftOrange
+{
+    background-position: -22px -175px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnDisabled_SoftOrange
+{
+    background-position: -97px -153px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnHover_SoftOrange
+{
+    background-position: -75px -153px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnPressed_SoftOrange
+{
+    background-position: -66px -175px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtn_SoftOrange
+{
+    background-position: -44px -175px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnDisabled_SoftOrange
+{
+    background-position: -53px -153px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnHover_SoftOrange
+{
+    background-position: -119px -153px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnPressed_SoftOrange
+{
+    background-position: 0px -175px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_SoftOrange
+{
+    background-position: 0px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_SoftOrange
+{
+    background-position: -16px -237px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_SoftOrange
+{
+    background-position: -84px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_SoftOrange
+{
+    background-position: -14px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_SoftOrange
+{
+    background-position: -84px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_SoftOrange
+{
+    background-position: -126px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_SoftOrange
+{
+    background-position: -14px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_SoftOrange
+{
+    background-position: -42px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_SoftOrange
+{
+    background-position: -70px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_SoftOrange
+{
+    background-position: -42px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_SoftOrange
+{
+    background-position: -98px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_SoftOrange
+{
+    background-position: -42px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_SoftOrange
+{
+    background-position: -88px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_SoftOrange
+{
+    background-position: 0px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_SoftOrange
+{
+    background-position: -112px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_SoftOrange
+{
+    background-position: -103px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_SoftOrange
+{
+    background-position: -117px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_SoftOrange
+{
+    background-position: -105px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_SoftOrange
+{
+    background-position: -56px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_SoftOrange
+{
+    background-position: -120px -86px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_SoftOrange
+{
+    background-position: -122px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_SoftOrange
+{
+    background-position: -126px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_SoftOrange
+{
+    background-position: -56px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_SoftOrange
+{
+    background-position: 0px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_SoftOrange
+{
+    background-position: -112px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_SoftOrange
+{
+    background-position: -28px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_SoftOrange
+{
+    background-position: -54px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_SoftOrange
+{
+    background-position: -71px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_SoftOrange
+{
+    background-position: -98px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_SoftOrange
+{
+    background-position: -70px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_SoftOrange
+{
+    background-position: -14px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_SoftOrange
+{
+    background-position: -84px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_SoftOrange
+{
+    background-position: -28px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_SoftOrange
+{
+    background-position: -98px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_SoftOrange
+{
+    background-position: -37px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_SoftOrange
+{
+    background-position: -20px -217px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_SoftOrange
+{
+    background-position: 0px -269px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_SoftOrange
+{
+    background-position: -28px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_SoftOrange
+{
+    background-position: -89px -253px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_SoftOrange
+{
+    background-position: -126px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_SoftOrange
+{
+    background-position: -112px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_SoftOrange
+{
+    background-position: -56px -297px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_SoftOrange
+{
+    background-position: -128px -137px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_SoftOrange
+{
+    background-position: -96px -237px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_SoftOrange
+{
+    background-position: -43px -159px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_SoftOrange
+{
+    background-position: -116px -237px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange
+{
+    background-position: -50px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+    background-position: -40px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_SoftOrange
+{
+    background-position: -64px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_SoftOrange
+{
+    background-position: -32px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_SoftOrange
+{
+    background-position: 0px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_SoftOrange
+{
+    background-position: -112px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange
+{
+    background-position: -32px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeFocused_SoftOrange .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+    background-position: -48px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_SoftOrange
+{
+    background-position: -106px -237px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_SoftOrange
+{
+    background-position: 0px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_SoftOrange
+{
+    background-position: -126px -237px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_SoftOrange
+{
+    background-position: -30px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_SoftOrange
+{
+    background-position: -128px -197px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_SoftOrange
+{
+    background-position: -10px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_SoftOrange
+{
+    background-position: -20px -253px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+    background-position: -128px -120px;
+    width: 9px;
+    height: 15px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_SoftOrange
+{
+    background-position: -80px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_SoftOrange
+{
+    background-position: 0px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_SoftOrange
+{
+    background-position: -48px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_SoftOrange
+{
+    background-position: -16px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_SoftOrange
+{
+    background-position: -16px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_SoftOrange
+{
+    background-position: -96px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_SoftOrange
+{
+    background-position: -80px -311px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+    background-position: -64px -321px;
+    width: 15px;
+    height: 9px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_SoftOrange,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_SoftOrange
+{
+	z-index: 7;
+}
+.dxEditors_edtError_SoftOrange,
+.dxEditors_edtCalendarPrevYear_SoftOrange,
+.dxEditors_edtCalendarPrevYearDisabled_SoftOrange,
+.dxEditors_edtCalendarPrevMonth_SoftOrange,
+.dxEditors_edtCalendarPrevMonthDisabled_SoftOrange,
+.dxEditors_edtCalendarNextMonth_SoftOrange,
+.dxEditors_edtCalendarNextMonthDisabled_SoftOrange,
+.dxEditors_edtCalendarNextYear_SoftOrange,
+.dxEditors_edtCalendarNextYearDisabled_SoftOrange,
+.dxEditors_edtCalendarFNPrevYear_SoftOrange,
+.dxEditors_edtCalendarFNNextYear_SoftOrange,
+.dxEditors_edtEllipsis_SoftOrange,
+.dxEditors_edtEllipsisDisabled_SoftOrange,
+.dxEditors_edtDropDown_SoftOrange,
+.dxEditors_edtDropDownDisabled_SoftOrange,
+.dxEditors_edtSpinEditIncrementImage_SoftOrange,
+.dxEditors_edtSpinEditIncrementImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditDecrementImage_SoftOrange,
+.dxEditors_edtSpinEditDecrementImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditLargeIncImage_SoftOrange,
+.dxEditors_edtSpinEditLargeIncImageDisabled_SoftOrange,
+.dxEditors_edtSpinEditLargeDecImage_SoftOrange,
+.dxEditors_edtSpinEditLargeDecImageDisabled_SoftOrange
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_SoftOrange
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_SoftOrange
+{
+    margin-left: 8px;
+}
+

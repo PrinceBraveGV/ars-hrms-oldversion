@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "HRIS - Edit Informasi Akun";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model PasswordModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Setting Password Akun</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:left">Perhatian: Apabila anda tidak ingin mengubah password akun anda, silakan klik tombol "Kembali" untuk kembali ke halaman indeks.</label>
+                            @using (Html.BeginForm("EditAkun", "Home", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <div style="margin-left:55px">
+                                @Html.DevExpress().FormLayout(settings =>
+                                {
+                                    settings.Name = "ResetForm";
+                                    settings.AlignItemCaptionsInAllGroups = true;
+                                    settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "NIK ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.NIK, textbox =>
+                                            {
+                                                textbox.Name = "NIK";
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                textbox.ReadOnly = true;
+                                                textbox.Style.Add("background-color", "white");
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Password Baru ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Pass_Baru, textbox =>
+                                            {
+                                                textbox.Properties.Password = true;
+                                                textbox.Width = Unit.Pixel(400);
+                                                textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                textbox.Properties.ValidationSettings.Display = Display.None;
+                                                textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                textbox.ShowModelErrors = true;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Konfirmasi Password ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Konfirmasi, textbox =>
+                                            {
+                                                textbox.Properties.Password = true;
+                                                textbox.Width = Unit.Pixel(400);
+                                                textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                textbox.Properties.ValidationSettings.Display = Display.None;
+                                                textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                textbox.ShowModelErrors = true;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = string.Empty;
+                                        layoutitem.ShowCaption = DefaultBoolean.False;
+                                    });
+                                }).GetHtml()
+                                </div>
+                                @Html.DevExpress().Button(button =>
+                                {
+                                    button.Name = "btnConfirm";
+                                    button.Text = "Lanjutkan";
+                                    button.UseSubmitBehavior = true;
+                                    button.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml()
+                                ViewContext.Writer.Write("&nbsp;");
+                                @Html.DevExpress().Button(button =>
+                                {
+                                    button.Name = "btnReset";
+                                    button.Text = "Reset Formulir";
+                                    button.UseSubmitBehavior = false;
+                                    button.Attributes.Add("type", "reset");
+                                    button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                    button.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml()
+                                ViewContext.Writer.Write("&nbsp;");
+                                @Html.DevExpress().Button(btn3settings =>
+                                {
+                                    btn3settings.Name = "btnIndex";
+                                    btn3settings.Text = "Kembali";
+                                    btn3settings.UseSubmitBehavior = false;
+                                    btn3settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                                    btn3settings.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml()
+                            }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

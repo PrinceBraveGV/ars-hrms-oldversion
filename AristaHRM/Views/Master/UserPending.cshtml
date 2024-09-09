@@ -1,0 +1,156 @@
+﻿@{
+    ViewBag.Title = "HRIS - Daftar User Pending";
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+<script>
+    var keys = [];
+
+    $(function () {
+
+    });
+
+    function customButtonClick(s, e, url) {
+        PopupTunggu.Show();
+        var key = s.GetRowKey(e.visibleIndex);
+
+        if (e.buttonID === "Activate") {
+            var ans = confirm("Yakin akan mengaktifkan user yang dipilih?");
+            if (ans == true) {
+                setTimeout(PopupTunggu.Hide(), 3000);
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: { NIK: key },
+                    dataType: 'json',
+                    success: function (response) {
+                        if (response.status == "Success") {
+                            alert("Aktivasi login karyawan yang dipilih berhasil.")
+                        }
+                        else if (typeof response.message !== 'undefined' && response.message != null && response.message != '') {
+                            alert(response.message);
+                        }
+
+                        DataKaryawanGrid.Refresh();
+                    },
+                    error: function (xhr, status, err) {
+                        alert(status + ' - ' + err);
+                    }
+                });
+            }
+            else {
+                PopupTunggu.Hide();
+            }
+        }
+    }
+
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "UserPending" })";
+        var exportToXLS = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporPendingXLS" })";
+        var exportToXLSX = "@DevExpressHelper.GetUrl(new { Controller = "Master", Action = "EksporPendingXLSX" })";
+        var inKar = "@DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputKaryawan" })";
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "ExXLS") {
+            window.location.href = exportToXLS;
+        }
+        else if (button == "ExXLSX") {
+            window.location.href = exportToXLSX;
+        }
+        else if (button == "InKar") {
+            window.location.href = inKar;
+        }
+    }
+</script>
+
+<!-- Bagian daftar grid karyawan KKWT -->
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Data Pending Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial">
+                            Anda dapat melakukan proses aktivasi status karyawan dengan masa kerja lebih dari satu tahun yang tersedia pada daftar di bawah ini.<br />
+                            Karyawan yang sudah diaktifkan dapat melakukan login dan mengajukan cuti via sistem.
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonKaryawan";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Karyawan");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = string.Empty;
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Export";
+                                    group.Text = "Ekspor Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLS", "Ekspor XLS", RibbonItemSize.Large, "~/Images/ExportXLS.png"));
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("ExXLSX", "Ekspor XLSX", RibbonItemSize.Large, "~/Images/ExportXLSX.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Inputs";
+                                    group.Text = "Input Data";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("InKar", "Data Karyawan", RibbonItemSize.Large, "~/Images/Employee.png"));
+                                });
+                            }).GetHtml();
+                            
+                            Html.RenderAction("UserPendingPartial", "Master");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupTunggu";
+    settings.CloseAction = CloseAction.None;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(50);
+    settings.Width = Unit.Pixel(300);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.ShowHeader = false;
+    settings.SetContent(() =>
+    {
+        ViewContext.Writer.Write(@"<img src=""/Images/LoadingBar.gif"" height=""30"" width=""30"" style=""float:left"" /><p style=""text-align:center; font:12px Arial"">Memproses permintaan anda......</p>");
+    });
+}).GetHtml()

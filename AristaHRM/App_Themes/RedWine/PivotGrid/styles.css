@@ -1,0 +1,585 @@
+.dxpgControl_RedWine, .dxpgCustForm_RedWine
+{
+	color: #000000;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: Solid 1px #8A0A37;
+	background-color: #F5ECF1;
+}
+.dxpgContainerCell_RedWine
+{
+	vertical-align: top;
+}
+.dxpgMainTable_RedWine
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_RedWine
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_RedWine caption
+{
+    background: #EED8E3;
+    color: #8A0A37;
+    border-bottom: Solid 1px #8A0A37;
+    padding: 5px 5px 6px;
+	font-weight: normal;		
+	text-align: center;	
+}    
+.dxpgHeader_RedWine
+{
+	border-width: 0px;
+	color: #FFFFFF;
+	background-color: #F0749F;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+
+	background-image: url('pgHeaderBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgHeaderTable_RedWine
+{
+	border: Solid 1px #8A0A37;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_RedWine,
+.dxpgCustFieldsDiv_RedWine .dxpgHeaderTable_RedWine
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_RedWine
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_RedWine
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+.dxpgHeaderSort_RedWine
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_RedWine
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_RedWine
+{
+	background-color: #D69BD3;
+
+	background-image: url('pgHeaderHoverBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgArea_RedWine, .dxpgArea_RedWine table
+{
+	color: #AA1248;
+}
+.dxpgArea_RedWine
+{
+	border: Solid 1px #8A0A37;
+	background-color: #EED8E3;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+.dxpgArea_RedWine > table
+{
+    padding: 0px 3px 0px 3px;
+}
+.dxpgColumnArea_RedWine
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_RedWine
+{
+}
+.dxpgDataArea_RedWine
+{
+}
+.dxpgFilterArea_RedWine
+{
+	background-color: #AA1248;
+	color: #E3ACBF;
+	border-bottom-style: Solid;
+}
+.dxpgEmptyArea_RedWine 
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_RedWine
+{
+    color: #FFFFFF;
+	background-color: #D04D7E;
+	border: Solid 1px #8A0A37;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+	padding-bottom: 5px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_RedWine
+{
+	background-color: #A22D59;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_RedWine
+{
+	background-color: #BF3E6E;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_RedWine
+{
+    color: #FFFFFF;
+	background-color: #D04D7E;
+	border: Solid 1px #8A0A37;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 4px 6px 5px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_RedWine
+{
+	background-color: #A22D59;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+}
+.dxpgRowTreeFieldValue_RedWine
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_RedWine
+{
+	background-color: #A22D59;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 6px 6px 7px 6px;
+}
+.dxpgCollapsedButton_RedWine
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_RedWine
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_RedWine
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border-color: #D5D5D5;
+	border-width: 1px;
+	border-top-style: Solid;
+	border-left-style: Solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	padding-bottom: 5px;
+	white-space: nowrap;
+}
+.dxpgKPICell_RedWine
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_RedWine
+{
+	background-color: #EFEFEF;
+}
+.dxpgGrandTotalCell_RedWine
+{
+	background-color: #E6E6E6;
+}
+.dxpgFilterItem_RedWine
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_RedWine
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_RedWine
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: Solid 1px #8A0A37;
+	background-color: #EFEFEF;
+	padding:6px 0px;
+}
+.dxpgBottomPager_RedWine
+{
+	border-top: Solid 1px #8A0A37;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background-color: #EFEFEF;
+	padding:6px 0px;
+}
+.dxpgTopPager_RedWine,
+.dxpgBottomPager_RedWine
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_RedWine
+{
+	color: #000000;
+}
+.dxpgCustomizationFieldsContent_RedWine
+{
+	padding: 0px!important;
+}
+.dxpgMenuItem_RedWine 
+{
+}
+.dxpgDataHeadersImage_RedWine
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+.dxpgPrefilterPanelContainer_RedWine
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanel_RedWine
+{
+	border: none;
+	background: #efe2e8;
+}
+.dxpgPrefilterPanelLink_RedWine
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+a:hover.dxpgPrefilterPanelLink_RedWine
+{
+	color: #BE458B;
+}
+.dxpgPrefilterPanelCheckBoxCell_RedWine
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_RedWine
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_RedWine
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_RedWine
+{
+	padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_RedWine
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_RedWine
+{
+	background-color: #EED8E3;
+	border-top: solid 1px #CB9FB4;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_RedWine
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_RedWine,
+.dxpgCustFieldsRowAreaHeaders_RedWine,
+.dxpgCustFieldsColumnAreaHeaders_RedWine,
+.dxpgCustFieldsDataAreaHeaders_RedWine,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_RedWine,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_RedWine
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_RedWine
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_RedWine
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_RedWine
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_RedWine .dxpgFLTextDiv_RedWine,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_RedWine .dxpgFLTextDiv_RedWine
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_RedWine
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_RedWine .dxeBase_RedWine,
+.TopPanelOnly .dxpgFLDefereDiv_RedWine .dxpgFLDefereDB_RedWine,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_RedWine,
+.TopPanelOnly .dxpgFLFRDiv_RedWine,
+.TopPanelOnly .dxpgFLCDDiv_RedWine,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_RedWine,
+.TopPanelOnly .dxpgFLTextDiv_RedWine div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_RedWine
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_RedWine
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_RedWine,
+.StackedSideBySide .dxpgCustFieldsFieldList_RedWine
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_RedWine
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_RedWine,
+.StackedSideBySide .dxpgFLCDDiv_RedWine
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_RedWine
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_RedWine > div
+{
+    border:1px solid #8A0A37;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_RedWine > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_RedWine > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_RedWine
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_RedWine .dxbButton_RedWine div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_RedWine .dxbButton_RedWine div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_RedWine
+{
+ height:28px;
+}
+.dxpgFLTextDiv_RedWine div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_RedWine
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_RedWine
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_RedWine
+{
+    height:52px;
+}
+.dxpgFLDefereDiv_RedWine
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_RedWine
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_RedWine
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_RedWine .dxeBase_RedWine
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:18px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgCustForm_RedWine .dxpgFLDefereDiv_RedWine .dxeBase_RedWine
+{
+ padding:18px 0px 0px 0px; 
+}
+.dxpgFLDefereDB_RedWine
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_RedWine .dxbButton_RedWine div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_RedWine .dxbButton_RedWine div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_RedWine table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_RedWine table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxpgLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxpgLoadingPanel_RedWine .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxpgVScrollBarAreaCell_RedWine {
+     background-color: #D04D7E;
+     border-left: 1px solid #8A0A37;
+     border-bottom: 1px solid #8A0A37;
+ }
+.dxpgHScrollBarAreaCell_RedWine {
+    background-color: #D04D7E;
+    border-top: 1px solid #8A0A37;
+    border-right: 1px solid #8A0A37;
+}
+.dxpgScrollBarEdgeCell_RedWine {
+    background-color: #EED8E3;
+    border-left: 1px solid #D5D5D5;
+    border-top: 1px solid #D5D5D5;
+}

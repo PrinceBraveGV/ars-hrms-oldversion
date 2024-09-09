@@ -1,0 +1,55 @@
+.dxRichEdit_CenterTabDragHandle_Mulberry,
+.dxRichEdit_DecimalTabDragHandle_Mulberry,
+.dxRichEdit_FirstLineIdentDragHandle_Mulberry,
+.dxRichEdit_LeftIdentDragHandle_Mulberry,
+.dxRichEdit_LeftTabDragHandle_Mulberry,
+.dxRichEdit_RightIdentDragHandle_Mulberry,
+.dxRichEdit_RightTabDragHandle_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_Mulberry
+{
+    background-position: 0px -34px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_DecimalTabDragHandle_Mulberry
+{
+    background-position: 0px -27px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_Mulberry
+{
+    background-position: 0px -9px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_Mulberry
+{
+    background-position: 0px -18px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_Mulberry
+{
+    background-position: 0px -48px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_RightIdentDragHandle_Mulberry
+{
+    background-position: 0px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_Mulberry
+{
+    background-position: 0px -41px;
+    width: 6px;
+    height: 6px;
+}
+

@@ -1,0 +1,428 @@
+.dxscControl_MarineBlue
+{
+    background: #a3c0e8;
+    border: solid 1px #a3c0e8;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxscLoadingPanel_MarineBlue,
+.dxscLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxscLoadingPanel_MarineBlue  td.dx,
+.dxscLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxscLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxscLoadingPanelWithContent_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+
+/* Headers */
+.dxscDateHeader_MarineBlue, 
+.dxscAlternateDateHeader_MarineBlue,
+.dxscDayHeader_MarineBlue,
+.dxscDateCellHeader_MarineBlue,
+.dxscTodayCellHeader_MarineBlue,
+.dxscTimelineDateHeader_MarineBlue,
+.dxscHorizontalResourceHeader_MarineBlue,
+.dxscVerticalResourceHeader_MarineBlue
+{    
+    color: #283b56;
+    background: #dcebfe;
+    border: solid 1px #a3c0e8;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_MarineBlue,
+.dxscAlternateDateHeader_MarineBlue
+{
+    background: #ffbd69;    
+}
+.dxscDayHeader_MarineBlue
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_MarineBlue
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_MarineBlue
+{    
+    border-top-width: 1px;
+    background: #ffbd69;
+}
+.dxscTimelineDateHeader_MarineBlue
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_MarineBlue
+{
+    border-width: 1px 1px 1px 0;
+    background: url('CssImages/resHeader.gif') repeat-x top #e2f0ff;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_MarineBlue
+{
+    border-width: 1px 1px 0 0;
+    background: #e2f0ff;
+    white-space: normal;
+}
+.dxscSelectionBar_MarineBlue 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_MarineBlue, 
+.dxscRightTopCorner_MarineBlue
+{
+    background: url('CssImages/ltcorner.gif') repeat-x bottom #eef5fe;
+    width: 1px;
+    border-style: solid;
+    border-color: #a3c0e8;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_MarineBlue
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.91em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_MarineBlue, 
+.dxscGroupSeparatorHorizontal_MarineBlue
+{
+    background: white;
+    border: solid 1px #a3c0e8;
+}
+
+.dxscGroupSeparatorVertical_MarineBlue
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_MarineBlue
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_MarineBlue
+{
+    background: #eef5fe;
+    border: solid 1px #a3c0e8;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_MarineBlue 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_MarineBlue
+{
+    border: solid 1px;
+}
+.dxscTimelineCellBody_MarineBlue
+{
+    height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_MarineBlue
+{
+    color: black;
+    font-size: 0.91em;
+    border: solid 1px #398bb1;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;    
+}
+.dxscAppointmentInnerBorders_MarineBlue
+{	
+    border: solid 1px #398bb1;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_MarineBlue
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_MarineBlue
+{
+    font-size: 0.91em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_MarineBlue, .dxscTimeRulerMinuteItem_MarineBlue
+{
+    color: #283b56;
+    background: #f3f8ff;
+    border: solid 1px #dbe7f8;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_MarineBlue
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.42em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_MarineBlue
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.91em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_MarineBlue
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_MarineBlue
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_MarineBlue
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_MarineBlue
+{
+    background: url('CssImages/ToolbarBack.gif') repeat-x #d0e4ff;
+}
+.dxscToolbar_MarineBlue
+{
+    border: none;
+    padding: 0px 7px;    
+    height: 42px;
+}
+.dxscViewSelector_MarineBlue
+{    
+    border: none;
+    padding: 0px 7px;   
+    background: url('CssImages/ToolbarBack.gif') repeat-x #d0e4ff;
+    height: 42px;
+}
+.dxscResourceNavigator_MarineBlue 
+{    
+    background: #ddebfe;
+    padding: 7px;
+    border: solid 1px #a3c0e8;
+}
+.dxscViewVisibleInterval_MarineBlue
+{    
+    color: #283b56;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_MarineBlue
+{
+    background: #c6dfff;
+    border: solid 2px black;
+    padding: 0;
+    color: #303030;
+}
+.dxscControlAreaForm_MarineBlue
+{
+    font-size: 1.33em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxscErrorInfo_MarineBlue
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewSelectorButton_MarineBlue,
+.dxscViewNavigatorButton_MarineBlue,
+.dxscViewNavigatorGotoDateButton_MarineBlue
+{    
+    border: solid 1px #a3c0e8;
+    color: #2c4d79;
+    background: url('CssImages/vnBtnBack.gif') repeat-x left top #dfefff;
+    line-height: 100%;
+    padding: 4px 7px;    
+
+    min-height: 1em;
+    display: block!important;
+}
+.dxscViewNavigatorGotoDateButton_MarineBlue 
+{
+    padding: 4px 6px;
+}
+.dxscViewNavigatorButton_MarineBlue.dxscViewNavigatorGotoTodayButton
+{    
+    padding: 2px 7px;
+}
+
+.dxscViewSelectorButtonHover_MarineBlue,
+.dxscViewNavigatorButtonHover_MarineBlue,
+.dxscViewNavigatorGotoDateButtonHover_MarineBlue
+{
+    border-color: #c3ab7a;
+    background: url('CssImages/vnBtnBackH.gif') repeat-x left top #ffe48b;
+}
+.dxscViewSelectorButtonPressed_MarineBlue,
+.dxscViewNavigatorButtonPressed_MarineBlue,
+.dxscViewNavigatorGotoDateButtonPressed_MarineBlue,
+.dxscViewSelectorButtonChecked_MarineBlue
+{
+    border-color: #c3977a;
+    background: url('CssImages/vnBtnBackP.gif') repeat-x left top #fed570;
+}
+
+.dxscResourceNavigatorButton_MarineBlue,
+.dxscNavigationButton_MarineBlue,
+.dxscDVTopMoreButton_MarineBlue,
+.dxscDVBottomMoreButton_MarineBlue
+{
+    cursor: pointer;
+}
+
+.dxscSmartTagButton_MarineBlue 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_MarineBlue
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_MarineBlue,
+.dxscNoBorderButtonHover_MarineBlue
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_MarineBlue 
+{
+    font-size: 0;		
+}
+.dxscToolTipRoundedCornersTopSide_MarineBlue
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_MarineBlue
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_MarineBlue
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_MarineBlue
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_MarineBlue
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_MarineBlue
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_MarineBlue 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_MarineBlue 
+{
+    top:-2px;
+    height:13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_MarineBlue 
+{
+    position:absolute;
+    background-color:#FFAD43;
+    width:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-top-width:0;
+    border-bottom-width:0;
+}
+.dxscTimeMarkerLineH_MarineBlue
+{
+    position:absolute;
+    top:-2px;
+    background-color:#FFAD43;
+    height:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-left-width:0;
+    border-right-width:0;
+}

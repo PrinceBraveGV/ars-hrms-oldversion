@@ -1,0 +1,916 @@
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtClear_RedWine,
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtDropDown_RedWine,
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtEllipsis_RedWine,
+.dxEditors_caRefresh_RedWine,
+.dxEditors_edtBinaryImageDelete_RedWine,
+.dxEditors_edtBinaryImageOpenDialog_RedWine,
+.dxEditors_edtCalendarFNNextYear_RedWine,
+.dxEditors_edtCalendarFNPrevYear_RedWine,
+.dxEditors_edtCalendarNextMonth_RedWine,
+.dxEditors_edtCalendarNextMonthDisabled_RedWine,
+.dxEditors_edtCalendarNextYear_RedWine,
+.dxEditors_edtCalendarNextYearDisabled_RedWine,
+.dxEditors_edtCalendarPrevMonth_RedWine,
+.dxEditors_edtCalendarPrevMonthDisabled_RedWine,
+.dxEditors_edtCalendarPrevYear_RedWine,
+.dxEditors_edtCalendarPrevYearDisabled_RedWine,
+.dxEditors_edtClear_RedWine,
+.dxEditors_edtDETSClockFace_RedWine,
+.dxEditors_edtDETSHourHand_RedWine,
+.dxEditors_edtDETSMinuteHand_RedWine,
+.dxEditors_edtDETSSecondHand_RedWine,
+.dxEditors_edtDropDown_RedWine,
+.dxEditors_edtDropDownDisabled_RedWine,
+.dxEditors_edtEllipsis_RedWine,
+.dxEditors_edtEllipsisDisabled_RedWine,
+.dxEditors_edtError_RedWine,
+.dxEditors_edtRadioButtonChecked_RedWine,
+.dxEditors_edtRadioButtonCheckedDisabled_RedWine,
+.dxEditors_edtRadioButtonUnchecked_RedWine,
+.dxEditors_edtRadioButtonUncheckedDisabled_RedWine,
+.dxEditors_edtSpinEditDecrementImage_RedWine,
+.dxEditors_edtSpinEditDecrementImageDisabled_RedWine,
+.dxEditors_edtSpinEditIncrementImage_RedWine,
+.dxEditors_edtSpinEditIncrementImageDisabled_RedWine,
+.dxEditors_edtSpinEditLargeDecImage_RedWine,
+.dxEditors_edtSpinEditLargeDecImageDisabled_RedWine,
+.dxEditors_edtSpinEditLargeIncImage_RedWine,
+.dxEditors_edtSpinEditLargeIncImageDisabled_RedWine,
+.dxEditors_edtTBDecBtn_RedWine,
+.dxEditors_edtTBDecBtnDisabled_RedWine,
+.dxEditors_edtTBDecBtnHover_RedWine,
+.dxEditors_edtTBDecBtnPressed_RedWine,
+.dxEditors_edtTBIncBtn_RedWine,
+.dxEditors_edtTBIncBtnDisabled_RedWine,
+.dxEditors_edtTBIncBtnHover_RedWine,
+.dxEditors_edtTBIncBtnPressed_RedWine,
+.dxEditors_edtTokenBoxTokenRemoveButton_RedWine,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_RedWine,
+.dxEditors_fcadd_RedWine,
+.dxEditors_fcaddhot_RedWine,
+.dxEditors_fcgroupaddcondition_RedWine,
+.dxEditors_fcgroupaddgroup_RedWine,
+.dxEditors_fcgroupand_RedWine,
+.dxEditors_fcgroupnotand_RedWine,
+.dxEditors_fcgroupnotor_RedWine,
+.dxEditors_fcgroupor_RedWine,
+.dxEditors_fcgroupremove_RedWine,
+.dxEditors_fcopany_RedWine,
+.dxEditors_fcopavg_RedWine,
+.dxEditors_fcopbegin_RedWine,
+.dxEditors_fcopbetween_RedWine,
+.dxEditors_fcopblank_RedWine,
+.dxEditors_fcopcontain_RedWine,
+.dxEditors_fcopcount_RedWine,
+.dxEditors_fcopend_RedWine,
+.dxEditors_fcopequal_RedWine,
+.dxEditors_fcopexists_RedWine,
+.dxEditors_fcopgreater_RedWine,
+.dxEditors_fcopgreaterorequal_RedWine,
+.dxEditors_fcopless_RedWine,
+.dxEditors_fcoplessorequal_RedWine,
+.dxEditors_fcoplike_RedWine,
+.dxEditors_fcopmax_RedWine,
+.dxEditors_fcopmin_RedWine,
+.dxEditors_fcopnotany_RedWine,
+.dxEditors_fcopnotbetween_RedWine,
+.dxEditors_fcopnotblank_RedWine,
+.dxEditors_fcopnotcontain_RedWine,
+.dxEditors_fcopnotequal_RedWine,
+.dxEditors_fcopnotlike_RedWine,
+.dxEditors_fcopsingle_RedWine,
+.dxEditors_fcopsum_RedWine,
+.dxEditors_fcoptypefield_RedWine,
+.dxEditors_fcoptypefieldhot_RedWine,
+.dxEditors_fcoptypevalue_RedWine,
+.dxEditors_fcoptypevaluehot_RedWine,
+.dxEditors_fcremove_RedWine,
+.dxEditors_fcremovehot_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_RedWine,
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_RedWine,
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_RedWine,
+.dxeSpinDecButtonHover_RedWine .dxEditors_edtSpinEditDecrementImage_RedWine,
+.dxeSpinIncButtonHover_RedWine .dxEditors_edtSpinEditIncrementImage_RedWine,
+.dxeSpinLargeDecButtonHover_RedWine .dxEditors_edtSpinEditLargeDecImage_RedWine,
+.dxeSpinLargeIncButtonHover_RedWine .dxEditors_edtSpinEditLargeIncImage_RedWine,
+.dxeTBHSys .dxEditors_edtTBMainDH_RedWine,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_RedWine,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_RedWine,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_RedWine,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_RedWine,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_RedWine,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_RedWine,
+.dxeTBVSys .dxEditors_edtTBMainDH_RedWine,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_RedWine,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_RedWine,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_RedWine,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_RedWine,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_RedWine,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtClear_RedWine
+{
+    background-position: -28px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtDropDown_RedWine
+{
+    background-position: -140px -261px;
+    width: 11px;
+    height: 5px;
+}
+.dxeButtonEditButtonHover_RedWine .dxEditors_edtEllipsis_RedWine
+{
+    background-position: -163px -166px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_caRefresh_RedWine
+{
+    background-position: -166px -65px;
+    width: 21px;
+    height: 23px;
+}
+.dxEditors_edtBinaryImageDelete_RedWine
+{
+    background-position: -155px -89px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_RedWine
+{
+    background-position: -122px -89px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_RedWine
+{
+    background-position: -54px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarFNPrevYear_RedWine
+{
+    background-position: -18px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextMonth_RedWine
+{
+    background-position: -108px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_RedWine
+{
+    background-position: -36px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextYear_RedWine
+{
+    background-position: -148px -71px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextYearDisabled_RedWine
+{
+    background-position: -90px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevMonth_RedWine
+{
+    background-position: 0px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_RedWine
+{
+    background-position: -72px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevYear_RedWine
+{
+    background-position: -154px -148px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_RedWine
+{
+    background-position: -126px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtClear_RedWine
+{
+    background-position: -168px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtDETSClockFace_RedWine
+{
+    background-position: 0px 0px;
+    width: 121px;
+    height: 121px;
+}
+.dxEditors_edtDETSHourHand_RedWine
+{
+    background-position: -138px 0px;
+    width: 7px;
+    height: 69px;
+}
+.dxEditors_edtDETSHourHand_RedWine
+{
+    background-position: -146px 0px \9;
+    width: 7px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDETSMinuteHand_RedWine
+{
+    background-position: -122px 0px;
+    width: 7px;
+    height: 69px;
+}
+.dxEditors_edtDETSMinuteHand_RedWine
+{
+    background-position: -130px 0px \9;
+    width: 7px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDETSSecondHand_RedWine
+{
+    background-position: -160px 0px;
+    width: 5px;
+    height: 69px;
+}
+.dxEditors_edtDETSSecondHand_RedWine
+{
+    background-position: -154px 0px \9;
+    width: 5px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDropDown_RedWine
+{
+    background-position: -176px -164px;
+    width: 11px;
+    height: 5px;
+}
+.dxEditors_edtDropDownDisabled_RedWine
+{
+    background-position: -152px -261px;
+    width: 11px;
+    height: 5px;
+}
+.dxEditors_edtEllipsis_RedWine
+{
+    background-position: -135px -71px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtEllipsisDisabled_RedWine
+{
+    background-position: -122px -71px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtError_RedWine
+{
+    background-position: -148px -216px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_RedWine
+{
+    background-position: -68px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_RedWine
+{
+    background-position: -132px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_RedWine
+{
+    background-position: -100px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_RedWine
+{
+    background-position: -116px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_RedWine
+{
+    background-position: -180px -194px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_RedWine
+{
+    background-position: -124px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImage_RedWine
+{
+    background-position: -116px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_RedWine
+{
+    background-position: -108px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeDecImage_RedWine
+{
+    background-position: -177px -216px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_RedWine
+{
+    background-position: -180px 0px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImage_RedWine
+{
+    background-position: -92px -261px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_RedWine
+{
+    background-position: -178px -184px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtTBDecBtn_RedWine
+{
+    background-position: -22px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnDisabled_RedWine
+{
+    background-position: -110px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnHover_RedWine
+{
+    background-position: 0px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnPressed_RedWine
+{
+    background-position: -132px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtn_RedWine
+{
+    background-position: -66px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnDisabled_RedWine
+{
+    background-position: -44px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnHover_RedWine
+{
+    background-position: -88px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnPressed_RedWine
+{
+    background-position: -166px -43px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_RedWine
+{
+    background-position: -84px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_RedWine
+{
+    background-position: -172px -148px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_RedWine
+{
+    background-position: -126px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_RedWine
+{
+    background-position: -163px -216px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_RedWine
+{
+    background-position: -98px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_RedWine
+{
+    background-position: -168px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_RedWine
+{
+    background-position: -28px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_RedWine
+{
+    background-position: -112px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_RedWine
+{
+    background-position: -126px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_RedWine
+{
+    background-position: -14px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_RedWine
+{
+    background-position: -70px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_RedWine
+{
+    background-position: -42px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_RedWine
+{
+    background-position: 0px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_RedWine
+{
+    background-position: -84px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_RedWine
+{
+    background-position: -140px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_RedWine
+{
+    background-position: 0px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_RedWine
+{
+    background-position: -98px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_RedWine
+{
+    background-position: -166px -26px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_RedWine
+{
+    background-position: -154px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_RedWine
+{
+    background-position: -156px -202px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_RedWine
+{
+    background-position: -144px -184px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_RedWine
+{
+    background-position: -42px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_RedWine
+{
+    background-position: -14px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_RedWine
+{
+    background-position: -84px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_RedWine
+{
+    background-position: -70px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_RedWine
+{
+    background-position: 0px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_RedWine
+{
+    background-position: -51px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_RedWine
+{
+    background-position: -17px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_RedWine
+{
+    background-position: -56px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_RedWine
+{
+    background-position: -140px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_RedWine
+{
+    background-position: -70px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_RedWine
+{
+    background-position: -56px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_RedWine
+{
+    background-position: -112px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_RedWine
+{
+    background-position: -154px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_RedWine
+{
+    background-position: -161px -184px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_RedWine
+{
+    background-position: -34px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_RedWine
+{
+    background-position: -170px -202px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_RedWine
+{
+    background-position: -28px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_RedWine
+{
+    background-position: 0px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_RedWine
+{
+    background-position: -42px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_RedWine
+{
+    background-position: -56px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_RedWine
+{
+    background-position: -14px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_RedWine
+{
+    background-position: -70px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_RedWine
+{
+    background-position: -126px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_RedWine
+{
+    background-position: -140px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_RedWine
+{
+    background-position: -42px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_RedWine
+{
+    background-position: -168px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+    background-position: -112px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_RedWine
+{
+    background-position: 0px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_RedWine
+{
+    background-position: -78px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_RedWine
+{
+    background-position: -104px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_RedWine
+{
+    background-position: -78px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_RedWine
+{
+    background-position: -122px -75px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_RedWine .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+    background-position: -130px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeSpinDecButtonHover_RedWine .dxEditors_edtSpinEditDecrementImage_RedWine
+{
+    background-position: -132px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinIncButtonHover_RedWine .dxEditors_edtSpinEditIncrementImage_RedWine
+{
+    background-position: -100px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinLargeDecButtonHover_RedWine .dxEditors_edtSpinEditLargeDecImage_RedWine
+{
+    background-position: -84px -261px;
+    width: 7px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonHover_RedWine .dxEditors_edtSpinEditLargeIncImage_RedWine
+{
+    background-position: -180px -16px;
+    width: 7px;
+    height: 9px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_RedWine
+{
+    background-position: -98px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_RedWine
+{
+    background-position: -166px 0px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_RedWine
+{
+    background-position: -56px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_RedWine
+{
+    background-position: -14px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_RedWine
+{
+    background-position: 0px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_RedWine
+{
+    background-position: -154px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_RedWine
+{
+    background-position: -28px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+    background-position: -84px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_RedWine
+{
+    background-position: -104px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_RedWine
+{
+    background-position: -52px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_RedWine
+{
+    background-position: -156px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_RedWine
+{
+    background-position: 0px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_RedWine
+{
+    background-position: -26px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_RedWine
+{
+    background-position: -26px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_RedWine
+{
+    background-position: -52px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+    background-position: -130px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_RedWine,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_RedWine
+{
+	z-index: 7;
+}
+.dxEditors_edtError_RedWine,
+.dxEditors_edtCalendarPrevYear_RedWine,
+.dxEditors_edtCalendarPrevYearDisabled_RedWine,
+.dxEditors_edtCalendarPrevMonth_RedWine,
+.dxEditors_edtCalendarPrevMonthDisabled_RedWine,
+.dxEditors_edtCalendarNextMonth_RedWine,
+.dxEditors_edtCalendarNextMonthDisabled_RedWine,
+.dxEditors_edtCalendarNextYear_RedWine,
+.dxEditors_edtCalendarNextYearDisabled_RedWine,
+.dxEditors_edtCalendarFNPrevYear_RedWine,
+.dxEditors_edtCalendarFNNextYear_RedWine,
+.dxEditors_edtCheckBoxOn_RedWine,
+.dxEditors_edtCheckBoxOff_RedWine,
+.dxEditors_edtCheckBoxUndefined_RedWine,
+.dxEditors_edtRadioButtonOn_RedWine,
+.dxEditors_edtRadioButtonOff_RedWine,
+.dxEditors_edtRadioButtonUndefined_RedWine,
+.dxEditors_edtEllipsis_RedWine,
+.dxEditors_edtEllipsisDisabled_RedWine,
+.dxEditors_edtEllipsisHover_RedWine,
+.dxEditors_edtDropDown_RedWine,
+.dxEditors_edtDropDownDisabled_RedWine,
+.dxEditors_edtSpinEditIncrementImage_RedWine,
+.dxEditors_edtSpinEditIncrementImageDisabled_RedWine,
+.dxEditors_edtSpinEditDecrementImage_RedWine,
+.dxEditors_edtSpinEditDecrementImageDisabled_RedWine,
+.dxEditors_edtSpinEditLargeIncImage_RedWine,
+.dxEditors_edtSpinEditLargeIncImageDisabled_RedWine,
+.dxEditors_edtSpinEditLargeDecImage_RedWine,
+.dxEditors_edtSpinEditLargeDecImageDisabled_RedWine
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_RedWine
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_RedWine
+{
+    margin-left: 8px;
+}
+

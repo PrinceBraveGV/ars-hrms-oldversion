@@ -1,0 +1,311 @@
+.dxreControl_RedWine
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A74768;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxreControl_RedWine .dxre-rulerWrapper {
+	padding-top: 2px;
+    background-color: #EFE1E8;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-columnHandleLeftPart,
+.dxreControl_RedWine .dxre-ruler .dxre-columnHandleRightPart {
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions div,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_RedWine .dxre-ruler .dxre-columnHandle,
+.dxreControl_RedWine .dxre-ruler .dxre-columnHandle > div {
+	height: 12px;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_RedWine .dxre-rulerWrapper .dxre-rulertabAlignBox > div {
+    background-color: #fff;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_RedWine .dxre-ruler .dxre-columnHandle,
+.dxreControl_RedWine .dxre-rulerWrapper .dxre-rulertabAlignBox {
+    background-color: #d3d3d3;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions .dxre-rulerMajorDivision {
+	border-left: 1px solid #a3a3a3;
+}
+.dxreControl_RedWine .dxre-ruler .dxre-rulerDivisions .dxre-rulerNumberDivision {
+	color: #4e4e4e;
+}
+.dxreControl_RedWine .dxre-rulerLine {
+	border-left: 1px dashed #717171;
+}
+.dxreControl_RedWine .dxre-leftIdentDragHandleBody {
+    background-color: white;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_RedWine .dxrControl_RedWine .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxreControl_RedWine .dxrControl_RedWine .dxtcLite_RedWine
+{
+	background-color: #BE7790;
+}
+.dxreControl_RedWine .dxrControl_RedWine .dxtcLite_RedWine .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxreControl_RedWine .dxrControl_RedWine .dxtcLite_RedWine > .dxtc-stripContainer
+{
+    border-style: none;
+}
+.dxreControl_RedWine .dxrControl_RedWine .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+    border-bottom-color: #A74768;
+}
+.dxreControl_RedWine .dxre-page 
+{
+    border: 1px solid #808080;
+}
+.dxreControl_RedWine .dxre-view 
+{
+	background: #EFE1E8;
+}
+.dxreControl_RedWine .dxre-bar 
+{
+	background-color: #EFEFEF;
+	border-top: 1px solid #D5D5D5;
+    height: 22px;
+}
+.dxreControl_RedWine .dxre-bar .dxre-loadingPanel {
+    float: right;
+    margin: 2px 2px 0 0;
+    color: #000;
+}
+.dxreControl_RedWine .dxre-bar .dxre-loadingPanel .dx {
+    line-height: 0;
+}
+.dxreControl_RedWine .dxre-bar .dxre-loadingPanel .dxlp-loadingImage {
+    width: 18px;
+    height: 18px;
+    background: url('../Web/Loading.gif');
+}
+
+/*Dialogs Style*/
+.dxreControl_RedWine .dxreDlgParagraphForm .dxtc-content {
+    width: 387px;
+    height: 290px;
+}
+.dxreControl_RedWine .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    text-align: left;
+}
+.dxreControl_RedWine .dxreDlgPageSetupForm .dxtc-content {
+    width: 320px;
+    height: 155px;
+}
+.dxreControl_RedWine .dxreDlgTablePropertiesForm .dxtc-content {
+    width: 385px;
+    height: 400px;
+}
+.dxFirefox .dxreControl_RedWine .dxreDlgTablePropertiesForm .dxtc-content {
+    height: 410px;
+}
+.dxreControl_RedWine .dxreDlgTablePropertiesForm .dxre-dialogCellBlock {
+    width: 68px;
+    background-color: #EED8E3;
+    border: dashed 1px #818181;
+}
+.dxreControl_RedWine .dxreDlgTablePropertiesForm .dxre-dialogCellMargins td.dxre-dialogLGC {
+    padding-left: 2px;
+}
+.dxreControl_RedWine .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation {
+    width: auto;
+}
+.dxreControl_RedWine .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation td.dxre-dialogLGC {
+    padding: 0px;
+}
+.dxreControl_RedWine .dxreTableBorderPreview {
+    position: absolute;
+    width: 130px;
+    left: 335px;
+    top: 85px;
+}
+.dxreControl_RedWine .dxreDlgBorderShadingForm .dxtc-content {
+    width: 460px;
+    height: 260px;
+}
+.dxreControl_RedWine .dxreDlgBorderShadingForm .dxtc-content .dxflGroup_RedWine {
+    width: auto;
+}
+.dxreControl_RedWine .dxreBorderButton {
+    visibility: hidden;
+}
+.dxreControl_RedWine .dxreBorderButton div.dxb {
+    border: 1px dotted transparent;
+    padding: 0px !important;
+}
+.dxreControl_RedWine .dxreDlgColumnsForm {
+    width: 400px;
+}
+.dxreControl_RedWine .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td {
+    padding: 2px 4px;
+}
+.dxreControl_RedWine .dxreDlgColumnsForm .dxreDlgColumnsEditor {
+    height: 100px;
+}
+.dxreControl_RedWine .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox {
+    width: 40px;
+}
+.dxreControl_RedWine .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit {
+    width: 90px;
+}
+.dxreControl_RedWine .dxreDlgErrorForm {
+    width: 350px;
+}
+.dxreControl_RedWine .dxreDlgSaveFileForm {
+    width: 380px;
+}
+.dxreControl_RedWine .dxreDlgInsertMergeFieldForm {
+    width: 300px;
+}
+.dxreControl_RedWine .dxreDlgInsertMergeFieldForm .dxeListBox_RedWine {
+    height: 250px;
+}
+.dxreControl_RedWine .dxreDlgBookmarksForm {
+    width: 300px;
+}
+.dxreControl_RedWine .dxreDlgOpenFileForm {
+    width: 800px;
+    height: 500px;
+}
+.dxreControl_RedWine .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_RedWine .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_RedWine {
+    padding: 0px !important;
+}
+.dxreControl_RedWine .dxre-dialogShortEditor {
+    width: 70px;
+}
+.dxreControl_RedWine .dxre-dialogEditor {
+    width: 110px;
+}
+.dxreControl_RedWine .dxre-dialogLongEditor {
+    width: 170px;
+}
+.dxreControl_RedWine .dxre-EmptyLine {
+    height: 10px;
+}
+.dxreControl_RedWine .dxre-Separator {
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_RedWine .dxreDlgFooterBtn {
+    width: 80px;
+    margin-left: 8px;
+}
+.dxreControl_RedWine table.dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup {
+    padding: 11px;
+}
+.dxreControl_RedWine .dxre-dialogFooter {
+    width: auto;
+	padding: 11px;
+    background-color: #EED8E3;
+    border-top: solid 1px #CB9FB4;
+}
+.dxreControl_RedWine .dxreDlgInsertImageForm .dxreDlgImagePreview {
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #808080;
+    border: dashed 1px #808080;
+    text-align:center;
+}
+.dxreControl_RedWine .dxreDlgInsertImageForm .dxreDlgInsertImagePanel {
+    width: 320px;
+}
+.dxreControl_RedWine .dxreDlgNumberingListForm .dxreDlgMainContainer {
+    width: 520px;
+    height: 220px;
+}
+.dxreControl_RedWine .dxreDlgHyperlinkForm {
+    width: 380px;
+}
+.dxreControl_RedWine .dxreDlgTabsForm {
+    width: 380px;
+}
+.dxreControl_RedWine .dxreDlgTabsForm .dxreDlgTabsList {
+    height: 70px;
+}
+.dxreControl_RedWine .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_RedWine .dxreMultiLevelNumberingListBoxLayout .dxlbd {
+    width: 30px;
+    height: 100% !important;
+}
+.dxreControl_RedWine .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup td.dxre-dialogLGC:first-child {
+    padding-left: 8px;
+}
+.dxreControl_RedWine .dxreDlgMultiLevelNumberingListForm .dxflFullHeightItemCellSys {
+    padding-left: 0px !important;
+}
+.dxreControl_RedWine .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn {
+    width: 45px;
+    margin: 8px 0px 12px 5px;
+}
+.dxreControl_RedWine .dxreDlgNumberingListForm .dxreDlgNumberingListPreview {
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_RedWine .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_RedWine {
+    padding: 0px 0px 0px 30px;
+}
+.dxreControl_RedWine .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_RedWine {
+    padding: 0px;
+}
+.dxreControl_RedWine .dxreDlgListBox {
+    padding: 1px;
+}
+.dxreControl_RedWine .dxreDlgSymbolsForm .dxreDlgSymbolsList {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #BC758E;
+}
+.dxreControl_RedWine .dxreDlgListBox > div {
+    border: 1px solid #BC758E;
+    margin: 1px;
+}
+.dxreControl_RedWine .dxreDlgSymbolsForm .dxreDlgListBox > div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+.dxreControl_RedWine .dxreDlgNumberingListForm .dxreDlgListBox > div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_RedWine .dxreDlgListBox .dxreDlgListHover {
+    background-color: #DBBBDA;
+}
+.dxreControl_RedWine .dxreDlgListBox .dxreDlgListSelected {
+    background-color: #AD275C;
+    color: #FFF;
+}
+.dxreControl_RedWine .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflItemSys {
+    padding-left: 5px;
+}
+.dxreControl_RedWine .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflTextItemSys {
+    padding-left: 0px;
+}

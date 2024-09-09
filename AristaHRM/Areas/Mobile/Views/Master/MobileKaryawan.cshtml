@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = " - Data Karyawan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "MasterData", "Master", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Index", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<script type="text/javascript">
+    function onEndCallback(s, e) {
+        if (s.cpMessage) {
+            alert(s.cpMessage);
+            delete s.cpMessage;
+        }
+
+        var edit = s.GetEditor(1);
+        if (edit) {
+            edit.SelectAll();
+            edit.SetFocus();
+        }
+    }
+</script>
+
+@using (Html.BeginForm())
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > <a href="@Url.Action("MasterData", "Master", mobilearea)">Master Data</a> > Data Karyawan</li>
+        <li data-role="list-divider">Data Karyawan</li>
+    </ul>
+    
+    Html.RenderAction("KaryawanPartial", "Master", mobilearea);
+}

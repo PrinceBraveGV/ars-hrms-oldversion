@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "HRIS - Sesi User";
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pemberitahuan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="text-align:center">
+                            Halaman yang anda minta saat ini mungkin membutuhkan akses user yang terdaftar, atau sesi login sebelumnya telah berakhir.
+                            <br />Silakan klik salah satu dari 3 tombol di bawah ini untuk melakukan proses login, registrasi atau kembali ke menu utama.
+                            <br /><br />
+                            @using (Html.BeginForm()) 
+                            {
+                                Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "btnLogin";
+                                    settings.Text = "Login Sistem";
+                                    settings.UseSubmitBehavior = false;
+                                    settings.ClientSideEvents.Click = "function (s, e) { PopupLogin.Show(); }";
+                                    settings.Style.Add("margin-left", "5px");
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml();
+
+                                Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "btnRegister";
+                                    settings.Text = "Registrasi Karyawan";
+                                    settings.UseSubmitBehavior = false;
+                                    settings.RouteValues = new { Controller = "Home", Action = "Register" };
+                                    settings.Style.Add("margin-left", "20px");
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml();
+
+                                Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "btnIndex";
+                                    settings.Text = "Halaman Utama";
+                                    settings.UseSubmitBehavior = false;
+                                    settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                                    settings.Style.Add("margin-left", "20px");
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml();
+                            }
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupLogin";
+    settings.CloseAction = CloseAction.OuterMouseClick;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.ScrollBars = ScrollBars.Vertical;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(420);
+    settings.Width = Unit.Pixel(660);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.HeaderText = "Login";
+    settings.ShowHeader = false;
+    settings.Style.Add("text-align", "center");
+    settings.ContentUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Login" });
+}).GetHtml()

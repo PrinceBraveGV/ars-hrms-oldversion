@@ -1,0 +1,25 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "GrupShiftGrid";
+        settings.CallbackRouteValues = new { Controller = "Absen", Action = "GrupShiftPartial" };
+        settings.Width = Unit.Percentage(100);
+
+        settings.SettingsPager.PageSize = 50;
+
+        settings.KeyFieldName = "";
+
+        settings.Columns.Add(column =>
+        {
+
+        });
+        settings.Columns.Add(column =>
+        {
+
+        });
+    });
+}
+
+@grid.Bind(Model).GetHtml()

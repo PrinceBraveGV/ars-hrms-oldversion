@@ -1,0 +1,5 @@
+.dxsplControl_Office2010Black .dxmLiteReportToolbarPane {
+    border: 1px solid #6a6a6a;
+    background: #a2a1a1 url('../Web/mItemBack.png') repeat-x left top;
+    padding: 0;
+}

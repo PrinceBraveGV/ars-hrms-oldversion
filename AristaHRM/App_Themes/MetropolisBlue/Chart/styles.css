@@ -1,0 +1,162 @@
+/* -- WebChartControl -- */
+.dxchartsuiLoadingDiv_MetropolisBlue
+{
+	background-color:Gray;	
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxchartsuiLoadingPanel_MetropolisBlue
+{
+	border: 1px solid #C3C3C3;
+	background-color: white;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #333333;
+}
+.dxchartsuiLoadingPanel_MetropolisBlue td.dx
+{
+    font-size: 1.17em;
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+
+/* -- Crosshair -- */
+.dxchartsuiCrosshairHLine_MetropolisBlue,
+.dxchartsuiCrosshairVLine_MetropolisBlue
+{
+    background-color: transparent;
+    border-color: #de39cd;
+}
+
+.dxchartsuiCrosshairLabel_MetropolisBlue,
+.dxchartsuiCrosshairHLine_MetropolisBlue,
+.dxchartsuiCrosshairVLine_MetropolisBlue
+{
+    position: absolute;
+    z-index: 41998;
+}
+
+.dxchartsuiCrosshairLabel_MetropolisBlue
+{
+    background-color: #de39cd;
+    color: White;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	padding: 1px 4px 1px 4px;
+    white-space: nowrap;    
+}
+
+.dxchartsuiCrosshairHLine_MetropolisBlue
+{
+    height: 0px;
+}
+
+.dxchartsuiCrosshairVLine_MetropolisBlue
+{
+    width: 0px;
+}
+
+/* -- Tooltip -- */
+.dxchartsuiTooltip_MetropolisBlue,
+.dxchartsuiTooltip_TopLeft_MetropolisBlue,
+.dxchartsuiTooltip_TopRight_MetropolisBlue,
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue,
+.dxchartsuiTooltip_BottomRight_MetropolisBlue
+{
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid rgb(139, 139, 139);
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	padding: 6px 10px 6px 10px;
+    position: absolute;
+    cursor: default;
+    white-space: nowrap;
+    -moz-box-shadow:    0px 2px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 2px 10px rgba(0, 0, 0, 0.35);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: 41999;
+}
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:before,
+.dxchartsuiTooltip_TopRight_MetropolisBlue:before,
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:before,
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:before,
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:after,
+.dxchartsuiTooltip_TopRight_MetropolisBlue:after,
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:after,
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:after
+{
+    border-style: solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+}
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:before,
+.dxchartsuiTooltip_TopRight_MetropolisBlue:before,
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:before,
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:before
+{
+    border-width: 10px 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:after,
+.dxchartsuiTooltip_TopRight_MetropolisBlue:after,
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:after,
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:after
+{
+    border-width: 8px 4px;
+}
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:before
+{
+    border-color: transparent transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35);
+    top: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_TopLeft_MetropolisBlue:after
+{
+    border-color: transparent transparent White White;
+    top: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopRight_MetropolisBlue:before
+{
+    border-color: transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent;
+    top: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_TopRight_MetropolisBlue:after
+{
+    border-color: transparent White White transparent;
+    top: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:before
+{
+    border-color: rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent transparent;
+    bottom: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomRight_MetropolisBlue:after
+{
+    border-color: White White transparent transparent;
+    bottom: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:before
+{
+    border-color: rgba(139, 139, 139, 0.35) transparent transparent rgba(139, 139, 139, 0.35);
+    bottom: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_BottomLeft_MetropolisBlue:after
+{
+    border-color: White transparent transparent White;
+    bottom: -16px;
+    left: 11px;
+}
+

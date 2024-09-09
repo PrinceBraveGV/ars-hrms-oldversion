@@ -1,0 +1,488 @@
+.dxcvControl_MarineBlue,
+.dxcvDisabled_MarineBlue
+{
+    border: 1px Solid #A3C0E8;
+    font: 12px Tahoma, Geneva, sans-serif;
+    background-color: #FFFFFF;
+    color: #4F4F4F;
+    cursor: default;
+}
+.dxcvDisabled_MarineBlue
+{
+    color: Gray;
+}
+.dxcvControl_MarineBlue a
+{
+    color: #3F66A0;
+}
+.dxcvControl_MarineBlue a:hover
+{
+    color: #F39128;
+}
+.dxcvDisabled_MarineBlue a
+{
+    color: Gray;
+}
+
+.dxcvLoadingPanel_MarineBlue,
+.dxcvLoadingPanelWithContent_MarineBlue 
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #2C4D79;
+    background-color: White;
+    border: 1px solid #67A2C6;
+}
+.dxcvLoadingPanel_MarineBlue  td.dx,
+.dxcvLoadingPanelWithContent_MarineBlue td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 20px 8px;
+}
+.dxcvLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxcvLoadingPanelWithContent_MarineBlue .dxlp-loadingImage,
+.dxcvLoadingPanelStatusBar_MarineBlue .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height:18px;
+    width:18px;
+}
+.dxcvLoadingPanelStatusBar_MarineBlue
+{
+    background-color: transparent;
+}
+.dxcvLoadingPanelStatusBar_MarineBlue td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+
+.dxcvFilterPopupWindow_MarineBlue
+{
+    color: Black;
+    border: 1px solid #A3C0E8;
+}
+.dxcvFilterPopupItemsArea_MarineBlue
+{
+    color: Black;
+    background-color: #FFFFFF;
+}
+.dxcvFilterPopupButtonPanel_MarineBlue
+{
+    background-color: #ECF4FE;
+    border: 1px solid #AECAF0;
+    color: #2C4D79;
+}
+
+.dxcvFilterPopupItem_MarineBlue td.dxcv,
+.dxcvFilterPopupActiveItem_MarineBlue td.dxcv,
+.dxcvFilterPopupSelectedItem_MarineBlue td.dxcv
+{
+    padding: 3px 2px 4px 4px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_MarineBlue
+{
+    background-color: #FFE7A2;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_MarineBlue
+{
+    color: Black;
+    background-color: #FFBD69;
+}
+
+.dxcvTable_MarineBlue
+{
+    background-color: #FFFFFF;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dxcvHeader_MarineBlue
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px;
+    border: 1px Solid #A3C0E8;
+    background: #E2F0FF url('cvHeaderBackground.gif') repeat-x top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+.dxcvHeader_MarineBlue a,
+.dxcvHeader_MarineBlue a:hover
+{
+    color: #3F66A0;
+}
+
+.dxcvHeader_MarineBlue,
+.dxcvHeader_MarineBlue table
+{
+    color: #283B56;
+}
+.dxcvHeader_MarineBlue td
+{
+    white-space: nowrap;
+}
+
+.dxcvCustomization_MarineBlue,
+.dxcvPopupEditForm_MarineBlue
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxcvTitlePanel_MarineBlue,
+.dxcvTable_MarineBlue caption
+{
+    font-weight: normal;
+    padding: 5px 5px 6px;
+    text-align: center;
+    border-bottom: 1px Solid #A3C0E8;
+    color: #283B56;
+    background-color: #F7FAFF;
+}
+.dxcvStatusBar_MarineBlue
+{
+    border-top: 1px Solid #A3C0E8;
+    background-color: #EEF3FF;
+}
+.dxcvStatusBar_MarineBlue tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_MarineBlue tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxcvCommandItem_MarineBlue
+{
+    padding: 2px 0px 2px 2px;
+}
+.dxcvCommandItem_MarineBlue a
+{
+    margin: 0px 3px 0px 0px;
+}
+
+.dxbButton_MarineBlue[class~="dxcvCommandItem_MarineBlue"]
+{
+    margin: 0px 2px -1px;
+}
+.dxbButton_MarineBlue[class~="dxcvCommandItem_MarineBlue"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.dxcvFilterBar_MarineBlue
+{
+    border-top: 1px solid #A3C0E8;
+    background: #B7D7FF none;
+}
+.dxcvFilterBar_MarineBlue a
+{
+    color: #283B56;
+    text-decoration: underline;
+}
+.dxcvFilterBar_MarineBlue a:hover
+{
+    color: #F39128;
+}
+.dxcvFilterBarCheckBoxCell_MarineBlue
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_MarineBlue
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_MarineBlue
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_MarineBlue
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_MarineBlue
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_MarineBlue
+{
+    background-color: #EEF3FF;
+    border-top: 1px solid #A3C0E8;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvPagerBottomPanel_MarineBlue, 
+.dxcvPagerTopPanel_MarineBlue
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #C6DEFF url('cvPagerBottomPanelBackground.gif') repeat-x;
+}
+.dxcvPagerTopPanel_MarineBlue
+{
+    border-bottom: 1px solid #A3C0E8;
+}
+.dxcvPagerBottomPanel_MarineBlue
+{
+    border-top: 1px solid #A3C0E8;
+}
+
+.dxcvControl_MarineBlue .dxpLite_MarineBlue,
+.dxcvDisabled_MarineBlue .dxpLite_MarineBlue
+{
+    padding: 6px 0;
+}
+
+.dxcvControl_MarineBlue .dxpSummary_MarineBlue,
+.dxcvControl_MarineBlue .dxpPageSizeItem_MarineBlue
+{
+    color: #283B56;
+}
+
+.dxcvControl_MarineBlue .dxpLite_MarineBlue .dx-summary,
+.dxcvControl_MarineBlue .dxpLite_MarineBlue .dxp-pageSizeItem
+{
+    color: #283B56;
+}
+
+.dxcvControl_MarineBlue .dxcvHFSAC
+{
+    padding: 10px 0 0 5px;
+}
+.dxcvControl_MarineBlue .dxcvHFSC
+{
+    padding: 10px 0 6px;
+}
+.dxcvControl_MarineBlue .dxcvHFSC div
+{
+    height: 1px;
+    background: #8BB6EF;
+}
+.dxcvControl_MarineBlue div[id$='DXEPLPC']
+{
+    height: 60px;
+}
+
+.dxcvControl_MarineBlue .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_MarineBlue .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_MarineBlue .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_MarineBlue .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_MarineBlue .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_MarineBlue
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_MarineBlue
+{
+    border-bottom: 1px solid #A3C0E8;
+    background: #ECF4FE;
+    padding: 10px 4px 10px 6px;
+}
+.dxcvSearchPanel_MarineBlue > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_MarineBlue .dxcvSearchPanel_MarineBlue .dxbButton_MarineBlue
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_MarineBlue .dxcvSearchPanel_MarineBlue .dxbButton_MarineBlue {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_MarineBlue .dxcvHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.dxcvControl_MarineBlue .dxcvSearchPanel_MarineBlue .dxbButton_MarineBlue
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_MarineBlue .dxcvSearchPanel_MarineBlue .dxbButton_MarineBlue .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.dxcvCard_MarineBlue,
+.dxcvFlowCard_MarineBlue,
+.dxcvEmptyCard_MarineBlue,
+.dxcvEmptyHiddenCard_MarineBlue
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_MarineBlue,
+.dxcvFlowCard_MarineBlue,
+.dxcvEmptyCard_MarineBlue
+{
+    border: 1px solid #AECAF0;
+    background-color: #DBEBFF;
+    color: #212326;
+    outline: none;
+}
+.dxcvEmptyCard_MarineBlue 
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_MarineBlue
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_MarineBlue,
+div.dxcvEmptyCard_MarineBlue
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_MarineBlue,
+.dxcvFocusedCard_MarineBlue
+{
+    border-color: #D9A159;
+    outline: 3px solid #FFBD69;
+}
+.dxcvFocusedCard_MarineBlue
+{
+    background-color: White;
+}
+.dxcvCardHover_MarineBlue
+{
+    border-color: #D9C58A;
+    outline: 3px solid #FFE7A2;
+}
+
+.dxcvCard_MarineBlue .dxflCaption_MarineBlue,
+.dxcvFlowCard_MarineBlue .dxflCaption_MarineBlue
+{
+    color: #7F7F7F;
+}
+.dxcvCard_MarineBlue .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_MarineBlue .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_MarineBlue
+{
+    background: #ECF4FE;
+    border-bottom: 1px solid #A3C0E8;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_MarineBlue
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_MarineBlue
+{
+    background: #ECF4FE;
+    border-top: 1px solid #A3C0E8;
+    padding: 8px 20px;
+}
+.dxcvSummaryItem_MarineBlue
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_MarineBlue .dxcvSeparator_MarineBlue,
+.dxcvControl_MarineBlue .dxcvSeparator_MarineBlue div
+{
+    width: 20px;
+    height: 20px;
+}
+
+.dxcvControl_MarineBlue td.dxcvBatchEditCell_MarineBlue
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_MarineBlue .dxcvBatchEditModifiedCell_MarineBlue
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_MarineBlue .dxcvErrorCell_MarineBlue
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_MarineBlue .dxcvErrorCell_MarineBlue img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_MarineBlue .dxbButton_MarineBlue
+{
+    margin-right: 10px;
+}
+.dxcvControl_MarineBlue td.dxcvBatchEditCell_MarineBlue .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_MarineBlue .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_MarineBlue
+{
+   	background-color: #F3D6D6;	
+    border-top: 1px solid #AECAF0;
+	color: #BA1717;
+    padding: 6px 13px;    
+}

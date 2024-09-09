@@ -1,0 +1,15 @@
+<div class="footerMenu" style="text-align:center">
+    @Html.DevExpress().Label(settings =>
+    {
+        settings.EncodeHtml = false;
+        settings.Text = "HRIS Next Generation Version " + DateTime.Now.Year + " Rev. 0.6.0 &copy; ARISTA GROUP. Revision No. 220616";
+        settings.Style.Add("color", "none");
+    }).GetHtml()
+</div>
+<table style="text-align:center; width:100%">
+    <tr>
+        <td style="width:93%; padding-right:1px"><div id="progressbar" style="height:10px"></div></td>
+        <td style="width:3%"><label id="progresscount" style="text-align:center; font:12px Arial"></label></td>
+        <td style="width:3%"><img id="imgload" src="../../Images/LoadPage.gif" height="20" width="20" style="text-align:right; background-color:transparent" /></td>
+    </tr>
+</table>

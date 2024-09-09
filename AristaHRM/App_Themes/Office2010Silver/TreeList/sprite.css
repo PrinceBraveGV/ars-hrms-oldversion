@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_Office2010Silver,
+.dxTreeList_CollapsedButtonRtl_Office2010Silver,
+.dxTreeList_DragAndDropArrowDown_Office2010Silver,
+.dxTreeList_DragAndDropArrowUp_Office2010Silver,
+.dxTreeList_DragAndDropHide_Office2010Silver,
+.dxTreeList_DragAndDropNode_Office2010Silver,
+.dxTreeList_ExpandedButton_Office2010Silver,
+.dxTreeList_ExpandedButtonRtl_Office2010Silver,
+.dxTreeList_SortAsc_Office2010Silver,
+.dxTreeList_SortDesc_Office2010Silver
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_Office2010Silver
+{
+    background-position: -23px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_CollapsedButtonRtl_Office2010Silver
+{
+    background-position: -28px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_DragAndDropArrowDown_Office2010Silver
+{
+    background-position: -51px -13px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Office2010Silver
+{
+    background-position: -51px 0px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Office2010Silver
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_Office2010Silver
+{
+    background-position: -14px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_Office2010Silver
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButtonRtl_Office2010Silver
+{
+    background-position: -37px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_SortAsc_Office2010Silver
+{
+    background-position: -35px -17px;
+    width: 7px;
+    height: 5px;
+}
+.dxTreeList_SortDesc_Office2010Silver
+{
+    background-position: -43px -17px;
+    width: 7px;
+    height: 5px;
+}
+

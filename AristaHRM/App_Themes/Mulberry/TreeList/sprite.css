@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_Mulberry,
+.dxTreeList_CollapsedButtonRtl_Mulberry,
+.dxTreeList_DragAndDropArrowDown_Mulberry,
+.dxTreeList_DragAndDropArrowUp_Mulberry,
+.dxTreeList_DragAndDropHide_Mulberry,
+.dxTreeList_DragAndDropNode_Mulberry,
+.dxTreeList_ExpandedButton_Mulberry,
+.dxTreeList_ExpandedButtonRtl_Mulberry,
+.dxTreeList_SortAsc_Mulberry,
+.dxTreeList_SortDesc_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_Mulberry
+{
+    background-position: 0px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_CollapsedButtonRtl_Mulberry
+{
+    background-position: -16px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_DragAndDropArrowDown_Mulberry
+{
+    background-position: -12px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Mulberry
+{
+    background-position: 0px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Mulberry
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_Mulberry
+{
+    background-position: 0px -55px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_Mulberry
+{
+    background-position: -16px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_ExpandedButtonRtl_Mulberry
+{
+    background-position: 0px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_SortAsc_Mulberry
+{
+    background-position: -14px -55px;
+    width: 9px;
+    height: 13px;
+}
+.dxTreeList_SortDesc_Mulberry
+{
+    background-position: -23px 0px;
+    width: 9px;
+    height: 13px;
+}
+

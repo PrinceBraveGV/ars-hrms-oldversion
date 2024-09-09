@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "HRIS - Persetujuan Resign Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    var keys = [];
+    var DestUrl = "";
+
+    $(document).ready(function () {
+        
+    });
+
+    function customButtonClick(s, e, url1, url2) {
+        PopupTunggu.Show();
+        var key = s.GetRowKey(e.visibleIndex);
+        if (e.buttonID == "Setuju") {
+            DestUrl = url1 + "/" + key;
+            var ans = confirm("Yakin akan menyetujui permohonan resign yang dipilih?");
+            if (ans === true) {
+                setTimeout(PopupTunggu.Hide(), 5000);
+                setTimeout(window.location.href = DestUrl, 5000);
+            } else {
+                PopupTunggu.Hide();
+            }
+        }
+        else if (e.buttonID == "Batal") {
+            DestUrl = url2 + "/" + key;
+            var ans = confirm("Yakin akan membatalkan permohonan resign yang dipilih?");
+            if (ans === true) {
+                setTimeout(PopupTunggu.Hide(), 5000);
+                setTimeout(window.location.href = DestUrl, 5000);
+            } else {
+                PopupTunggu.Hide();
+            }
+        }
+    }
+
+    function getKeys(s, e) {
+        keys = ApprovalResignGrid.GetSelectedKeysOnPage();
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Persetujuan Resign Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">Anda dapat menyetujui pengajuan resign karyawan yang terdaftar pada list di bawah ini.</label>
+                        <br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            Html.RenderAction("ApprovalResignPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupTunggu";
+    settings.CloseAction = CloseAction.None;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(50);
+    settings.Width = Unit.Pixel(300);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.ShowHeader = false;
+    settings.SetContent(() =>
+    {
+        ViewContext.Writer.Write(@"<img src=""/Images/LoadingBar.gif"" height=""30"" width=""30"" style=""float:left"" /><p style=""text-align:center; font:12px Arial"">Memproses permintaan anda......</p>");
+    });
+}).GetHtml()

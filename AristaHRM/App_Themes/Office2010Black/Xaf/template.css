@@ -1,0 +1,222 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 11px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+    background-color: #393939;
+}
+a {
+    color: #6289b8;
+    text-decoration: underline;   
+}
+a:visited {
+    color: #8467b2;
+    text-decoration: underline;   
+}
+div.PageContent {
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background-color: #5D5D5D;
+    border-collapse: separate;
+	padding: 2px 5px 1px 20px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	
+	color: #7E7E7E;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+.PopupWindow .dxpc-footer {
+    background: white;
+    border-top: none;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Links on dark background */
+.Footer .menuLinks_Office2010Black .dxm-item a,
+.Footer .menuLinks_Office2010Black .dxm-item a.dx,
+.Footer.menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.Security .menuLinks_Office2010Black .dxm-item a,
+.Security .menuLinks_Office2010Black .dxm-item a.dx > span,
+.Security .menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.TabsContainer .menuLinks_Office2010Black .dxm-item a,
+.TabsContainer .menuLinks_Office2010Black .dxm-item a.dx > span,
+.TabsContainer .menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.Footer .menuLinks_Office2010Black .dxm-item a:visited,
+.Footer .menuLinks_Office2010Black .dxm-item a.dx:visited,
+.Footer .menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.Security .menuLinks_Office2010Black .dxm-item a:visited,
+.Security .menuLinks_Office2010Black .dxm-item a.dx > span:visited,
+.Security .menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.TabsContainer .menuLinks_Office2010Black .dxm-item a:visited,
+.TabsContainer .menuLinks_Office2010Black .dxm-item a.dx > span:visited,
+.TabsContainer .menuLinks_Office2010Black .dxm-hovered a.dx > span,
+.TabsContainer .menuLinks_Office2010Black .Label
+{
+	color: White !important;
+}
+
+/* Controls customization */
+.dxgvControl_Office2010Black {
+	width: 100%;
+}
+.dxtcControl_Office2010Black,
+.dxtcLite_Office2010Black {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_Office2010Black,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black {
+	background-color: #5D5D5D;
+}
+.NavigationTabsActionContainer .dxtcPageContent_Office2010Black,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-content {
+	padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_Office2010Black div,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-leftIndent {
+	width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-activeTab
+{
+    margin-top: 4px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-leftIndent,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-spacer,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-rightIndent,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-sbWrapper,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-sbIndent,
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-sbSpacer
+{
+	height: 25px;
+}
+.NavigationTabsActionContainer .dxtc-content .dxmLite_Office2010Black .menuLinks_Office2010Black
+{
+    padding-left: 22px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Office2010Black .dxtc-strip
+{
+    padding-top: 0px !important;
+} 
+.ACV .dxmVerticalMenuItemWithImage_Office2010Black
+{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #6289b8;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #6289b8;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_Office2010Black,
+.Security .dxmLite_Office2010Black .dxm-separator {
+	padding: 0px 11px 0px 11px!important;
+}
+.Security .dxmLite_Office2010Black .dxm-separator b
+{
+    margin-top: 0px !important;
+}
+.TabsContainer .dxmMenuSeparator_Office2010Black,
+.TabsContainer .dxmLite_Office2010Black .dxm-separator {
+	padding: 0px 10px 0px 16px!important;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Office2010Black,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Office2010Black .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Office2010Black,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Office2010Black .dxm-main
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+.Layout .TabControlContent {
+	padding: 0px !important;
+}
+.Layout .TabControlContent > div {
+	padding: 0px !important;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header {
+	background-color: #393939;
+}
+.RecordsNavigationContainer .menuLinks_Office2010Black {
+	padding-left: 8px;
+}
+.RecordsNavigationContainer .menuLinks_Office2010Black .dxmMenuItemWithImage_Office2010Black {
+	padding-left: 3px;
+}
+.RecordsNavigationContainer .dxmLite_Office2010Black .dxm-content,
+.RecordsNavigationContainer .dxmLite_Office2010Black .dxm-disabled.dxm-content
+{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+.EditModeActions .dxmLite_Office2010Black
+{
+	margin-right: 3px !important;
+}
+.Content .EditModeActions .dxmLite_Office2010Black
+{
+    margin-right: 2px !important;
+}
+.RecordsNavigationContainer .dxmLite_Office2010Black
+{
+    margin-right: 7px !important;
+}
+.ACH.MainToolbar .dxmLite_Office2010Black .dxm-main
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

@@ -1,0 +1,183 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pengajuan Resign";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model ResignModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function selectKaryawan(s, e) {
+        ResignPanel.PerformCallback();
+    }
+
+    function getKaryawan(s, e) {
+        e.customArgs["NIK"] = NIK.GetValue();
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pengajuan Resign Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">
+                            Anda dapat mengisi pengajuan resign dari karyawan lain dengan form isian berikut ini.<br />
+                            Isian bertanda (*) wajib diisi oleh admin/manajer yang mewakili karyawan bersangkutan.
+                        </label>
+                        @using (Html.BeginForm("Resignation", "Admin", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            
+                            <div style="margin-left:55px">
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "ResignForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Karyawan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "======== NIK ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                        {
+                                            combobox.Name = "NIK";
+                                            combobox.Properties.NullText = "-- Pilih NIK --";
+                                            combobox.Properties.HelpText = "(*) Pilih NIK karyawan dari daftar.";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "NIK";
+                                            combobox.Properties.ValueField = "NIK";
+                                            combobox.Properties.ValueType = typeof(String);
+                                            combobox.Properties.TextFormatString = "{0} - {1}";
+                                            combobox.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(70));
+                                            combobox.Properties.Columns.Add("Nama_Karyawan", "Nama Karyawan", Unit.Pixel(300));
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ValidationSettings.Display = Display.None;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                            combobox.Properties.EnableClientSideAPI = true;
+                                            combobox.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                                            combobox.Properties.ClientSideEvents.ValueChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.SelectedIndexChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                        }).BindList(Providers.GetKaryawanByAtasan(User.Identity.Name)).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            @{ Html.RenderPartial("_PanelResignInfo", Model); }
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "ResignLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Resign</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tanggal Resign ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Resign, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(200);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.NullText = "-- Pilih Tanggal --";
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal karyawan ybs resign dari perusahaan.";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.ValidationSettings.Display = Display.None;
+                                            dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            dateedit.ShowModelErrors = true;
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Alasan Resign ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().MemoFor(m => m.Alasan, textarea =>
+                                        {
+                                            textarea.Properties.HelpText = "(*) Masukkan alasan ybs untuk resign dari perusahaan.";
+                                            textarea.Properties.Columns = 60;
+                                            textarea.Properties.Rows = 6;
+                                            textarea.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                });
+                            }).GetHtml()
+                            </div>
+                            
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Proses Resign";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

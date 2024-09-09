@@ -1,0 +1,67 @@
+.dxwscCheckedTextContainer_PlasticBlue
+{
+	background-color: white;
+	border: solid 1px #b8b8b8;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;
+
+}
+.dxwscErrorWord_PlasticBlue
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxwscLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxwscLoadingPanel_PlasticBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_PlasticBlue .dxwscDlgFooter
+{
+	background-color: #E9E9E9;
+	border-top: solid 1px #E0E0E0;
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_PlasticBlue .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_PlasticBlue .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_PlasticBlue .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_PlasticBlue .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+

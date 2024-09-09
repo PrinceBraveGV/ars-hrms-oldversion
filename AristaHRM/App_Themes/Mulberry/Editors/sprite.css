@@ -1,0 +1,638 @@
+.dxDateEditSys .dxEditors_edtDropDown_Mulberry,
+.dxDateEditSys .dxEditors_edtDropDownDisabled_Mulberry,
+.dxeButtonEditButtonHover_Mulberry .dxEditors_edtClear_Mulberry,
+.dxEditors_caRefresh_Mulberry,
+.dxEditors_edtBinaryImageDelete_Mulberry,
+.dxEditors_edtBinaryImageOpenDialog_Mulberry,
+.dxEditors_edtCalendarFNNextYear_Mulberry,
+.dxEditors_edtCalendarFNPrevYear_Mulberry,
+.dxEditors_edtCalendarNextMonth_Mulberry,
+.dxEditors_edtCalendarNextMonthDisabled_Mulberry,
+.dxEditors_edtCalendarNextYear_Mulberry,
+.dxEditors_edtCalendarNextYearDisabled_Mulberry,
+.dxEditors_edtCalendarPrevMonth_Mulberry,
+.dxEditors_edtCalendarPrevMonthDisabled_Mulberry,
+.dxEditors_edtCalendarPrevYear_Mulberry,
+.dxEditors_edtCalendarPrevYearDisabled_Mulberry,
+.dxEditors_edtClear_Mulberry,
+.dxEditors_edtDETSClockFace_Mulberry,
+.dxEditors_edtDETSHourHand_Mulberry,
+.dxEditors_edtDETSMinuteHand_Mulberry,
+.dxEditors_edtDETSSecondHand_Mulberry,
+.dxEditors_edtDropDown_Mulberry,
+.dxEditors_edtDropDownDisabled_Mulberry,
+.dxEditors_edtEllipsis_Mulberry,
+.dxEditors_edtEllipsisDisabled_Mulberry,
+.dxEditors_edtError_Mulberry,
+.dxEditors_edtRadioButtonChecked_Mulberry,
+.dxEditors_edtRadioButtonCheckedDisabled_Mulberry,
+.dxEditors_edtRadioButtonUnchecked_Mulberry,
+.dxEditors_edtRadioButtonUncheckedDisabled_Mulberry,
+.dxEditors_edtSpinEditDecrementImage_Mulberry,
+.dxEditors_edtSpinEditDecrementImageDisabled_Mulberry,
+.dxEditors_edtSpinEditIncrementImage_Mulberry,
+.dxEditors_edtSpinEditIncrementImageDisabled_Mulberry,
+.dxEditors_edtSpinEditLargeDecImage_Mulberry,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Mulberry,
+.dxEditors_edtSpinEditLargeIncImage_Mulberry,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Mulberry,
+.dxEditors_edtTokenBoxTokenRemoveButton_Mulberry,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Mulberry,
+.dxEditors_fcadd_Mulberry,
+.dxEditors_fcaddhot_Mulberry,
+.dxEditors_fcgroupaddcondition_Mulberry,
+.dxEditors_fcgroupaddgroup_Mulberry,
+.dxEditors_fcgroupand_Mulberry,
+.dxEditors_fcgroupnotand_Mulberry,
+.dxEditors_fcgroupnotor_Mulberry,
+.dxEditors_fcgroupor_Mulberry,
+.dxEditors_fcgroupremove_Mulberry,
+.dxEditors_fcopany_Mulberry,
+.dxEditors_fcopavg_Mulberry,
+.dxEditors_fcopbegin_Mulberry,
+.dxEditors_fcopbetween_Mulberry,
+.dxEditors_fcopblank_Mulberry,
+.dxEditors_fcopcontain_Mulberry,
+.dxEditors_fcopcount_Mulberry,
+.dxEditors_fcopend_Mulberry,
+.dxEditors_fcopequal_Mulberry,
+.dxEditors_fcopexists_Mulberry,
+.dxEditors_fcopgreater_Mulberry,
+.dxEditors_fcopgreaterorequal_Mulberry,
+.dxEditors_fcopless_Mulberry,
+.dxEditors_fcoplessorequal_Mulberry,
+.dxEditors_fcoplike_Mulberry,
+.dxEditors_fcopmax_Mulberry,
+.dxEditors_fcopmin_Mulberry,
+.dxEditors_fcopnotany_Mulberry,
+.dxEditors_fcopnotbetween_Mulberry,
+.dxEditors_fcopnotblank_Mulberry,
+.dxEditors_fcopnotcontain_Mulberry,
+.dxEditors_fcopnotequal_Mulberry,
+.dxEditors_fcopnotlike_Mulberry,
+.dxEditors_fcopsingle_Mulberry,
+.dxEditors_fcopsum_Mulberry,
+.dxEditors_fcoptypefield_Mulberry,
+.dxEditors_fcoptypefieldhot_Mulberry,
+.dxEditors_fcoptypevalue_Mulberry,
+.dxEditors_fcoptypevaluehot_Mulberry,
+.dxEditors_fcremove_Mulberry,
+.dxEditors_fcremovehot_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxDateEditSys .dxEditors_edtDropDown_Mulberry
+{
+    background-position: -60px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxDateEditSys .dxEditors_edtDropDownDisabled_Mulberry
+{
+    background-position: -48px -217px;
+    width: 21px;
+    height: 22px;
+}
+.dxeButtonEditButtonHover_Mulberry .dxEditors_edtClear_Mulberry
+{
+    background-position: -119px -263px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_caRefresh_Mulberry
+{
+    background-position: -104px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageDelete_Mulberry
+{
+    background-position: -38px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_Mulberry
+{
+    background-position: -71px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_Mulberry
+{
+    background-position: -80px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarFNPrevYear_Mulberry
+{
+    background-position: -116px -241px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonth_Mulberry
+{
+    background-position: -20px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_Mulberry
+{
+    background-position: -40px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYear_Mulberry
+{
+    background-position: -68px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYearDisabled_Mulberry
+{
+    background-position: -44px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonth_Mulberry
+{
+    background-position: -60px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_Mulberry
+{
+    background-position: 0px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYear_Mulberry
+{
+    background-position: -18px -197px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_Mulberry
+{
+    background-position: -92px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtClear_Mulberry
+{
+    background-position: -100px -263px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtDETSClockFace_Mulberry
+{
+    background-position: 0px 0px;
+    width: 135px;
+    height: 135px;
+}
+.dxEditors_edtDETSHourHand_Mulberry
+{
+    background-position: -30px -136px;
+    width: 7px;
+    height: 60px;
+}
+.dxEditors_edtDETSHourHand_Mulberry
+{
+    background-position: -22px -136px \9;
+    width: 7px \9;
+    height: 60px \9;
+}
+.dxEditors_edtDETSMinuteHand_Mulberry
+{
+    background-position: -14px -136px;
+    width: 7px;
+    height: 60px;
+}
+.dxEditors_edtDETSMinuteHand_Mulberry
+{
+    background-position: -6px -136px \9;
+    width: 7px \9;
+    height: 60px \9;
+}
+.dxEditors_edtDETSSecondHand_Mulberry
+{
+    background-position: 0px -136px;
+    width: 5px;
+    height: 80px;
+}
+.dxEditors_edtDETSSecondHand_Mulberry
+{
+    background-position: -136px 0px \9;
+    width: 5px \9;
+    height: 80px \9;
+}
+.dxEditors_edtDropDown_Mulberry
+{
+    background-position: -104px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtDropDownDisabled_Mulberry
+{
+    background-position: -38px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtEllipsis_Mulberry
+{
+    background-position: -70px -217px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtEllipsisDisabled_Mulberry
+{
+    background-position: -82px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtError_Mulberry
+{
+    background-position: -126px -177px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_Mulberry
+{
+    background-position: -67px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_Mulberry
+{
+    background-position: -42px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonUnchecked_Mulberry
+{
+    background-position: -92px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_Mulberry
+{
+    background-position: -117px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtSpinEditDecrementImage_Mulberry
+{
+    background-position: -72px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_Mulberry
+{
+    background-position: -94px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditIncrementImage_Mulberry
+{
+    background-position: -28px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_Mulberry
+{
+    background-position: -50px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditLargeDecImage_Mulberry
+{
+    background-position: -22px -241px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_Mulberry
+{
+    background-position: -114px -217px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeIncImage_Mulberry
+{
+    background-position: 0px -241px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_Mulberry
+{
+    background-position: -92px -217px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_Mulberry
+{
+    background-position: 0px -217px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_Mulberry
+{
+    background-position: -24px -217px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_fcadd_Mulberry
+{
+    background-position: -70px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_Mulberry
+{
+    background-position: -14px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_Mulberry
+{
+    background-position: -56px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_Mulberry
+{
+    background-position: -14px -342px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_Mulberry
+{
+    background-position: -119px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_Mulberry
+{
+    background-position: 0px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_Mulberry
+{
+    background-position: -56px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_Mulberry
+{
+    background-position: -112px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_Mulberry
+{
+    background-position: -56px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_Mulberry
+{
+    background-position: 0px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_Mulberry
+{
+    background-position: 0px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_Mulberry
+{
+    background-position: -14px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_Mulberry
+{
+    background-position: -126px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_Mulberry
+{
+    background-position: -84px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_Mulberry
+{
+    background-position: -112px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_Mulberry
+{
+    background-position: -34px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_Mulberry
+{
+    background-position: -28px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_Mulberry
+{
+    background-position: -126px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_Mulberry
+{
+    background-position: -85px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_Mulberry
+{
+    background-position: -112px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_Mulberry
+{
+    background-position: -98px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_Mulberry
+{
+    background-position: -42px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_Mulberry
+{
+    background-position: -70px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_Mulberry
+{
+    background-position: -84px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_Mulberry
+{
+    background-position: -68px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_Mulberry
+{
+    background-position: -17px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_Mulberry
+{
+    background-position: -98px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_Mulberry
+{
+    background-position: 0px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_Mulberry
+{
+    background-position: -28px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_Mulberry
+{
+    background-position: -126px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_Mulberry
+{
+    background-position: 0px -342px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_Mulberry
+{
+    background-position: -98px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_Mulberry
+{
+    background-position: -51px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_Mulberry
+{
+    background-position: -102px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_Mulberry
+{
+    background-position: -84px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_Mulberry
+{
+    background-position: -28px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_Mulberry
+{
+    background-position: -14px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_Mulberry
+{
+    background-position: -42px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_Mulberry
+{
+    background-position: -42px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_Mulberry
+{
+    background-position: -70px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtRadioButtonChecked_Mulberry,
+.dxEditors_edtRadioButtonCheckedDisabled_Mulberry,
+.dxEditors_edtRadioButtonUnchecked_Mulberry,
+.dxEditors_edtRadioButtonUncheckedDisabled_Mulberry
+{
+    background-color: #BF4E6A;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Mulberry,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Mulberry
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Mulberry,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Mulberry
+{
+	z-index: 7;
+}
+.dxEditors_edtError_Mulberry,
+.dxEditors_edtCalendarPrevYear_Mulberry,
+.dxEditors_edtCalendarPrevYearDisabled_Mulberry,
+.dxEditors_edtCalendarPrevMonth_Mulberry,
+.dxEditors_edtCalendarPrevMonthDisabled_Mulberry,
+.dxEditors_edtCalendarNextMonth_Mulberry,
+.dxEditors_edtCalendarNextMonthDisabled_Mulberry,
+.dxEditors_edtCalendarNextYear_Mulberry,
+.dxEditors_edtCalendarNextYearDisabled_Mulberry,
+.dxEditors_edtCalendarFNPrevYear_Mulberry,
+.dxEditors_edtCalendarFNNextYear_Mulberry,
+.dxEditors_edtEllipsis_Mulberry,
+.dxEditors_edtEllipsisDisabled_Mulberry,
+.dxEditors_edtEllipsisHover_Mulberry,
+.dxEditors_edtEllipsisPressed_Mulberry,
+.dxEditors_edtDropDown_Mulberry,
+.dxEditors_edtDropDownDisabled_Mulberry,
+.dxEditors_edtSpinEditIncrementImage_Mulberry,
+.dxEditors_edtSpinEditIncrementImageDisabled_Mulberry,
+.dxEditors_edtSpinEditDecrementImage_Mulberry,
+.dxEditors_edtSpinEditDecrementImageDisabled_Mulberry,
+.dxEditors_edtSpinEditLargeIncImage_Mulberry,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Mulberry,
+.dxEditors_edtSpinEditLargeDecImage_Mulberry,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Mulberry
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_Mulberry
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_Mulberry
+{
+    margin-left: 8px;
+}
+

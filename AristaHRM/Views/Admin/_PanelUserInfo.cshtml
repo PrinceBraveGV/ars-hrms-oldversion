@@ -1,0 +1,18 @@
+﻿@using AristaHRM.Models
+
+@model CutiModel
+
+@{
+    Html.DevExpress().CallbackPanel(panel =>
+    {
+        panel.Name = "UserPanel";
+        panel.CallbackRouteValues = new { Controller = "Admin", Action = "GetKaryawan" };
+        panel.ClientSideEvents.BeginCallback = "getKaryawan";
+        panel.ClientSideEvents.EndCallback = "endKaryawan";
+        panel.EnableClientSideAPI = true;
+        panel.SetContent(() =>
+        {
+            Html.RenderPartial("_UserInfo", Model);
+        });
+    }).GetHtml();
+}

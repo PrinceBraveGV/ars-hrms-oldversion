@@ -1,0 +1,23 @@
+﻿@using AristaHRM.Models
+
+@Html.DevExpress().FileManager(settings =>
+{
+    settings.Name = "fileManager";
+    settings.CallbackRouteValues = new { Controller = "Files", Action = "DownloadPartial" };
+    settings.DownloadRouteValues = new { Controller = "Files", Action = "DownloadFiles" };
+    settings.Width = Unit.Percentage(100);
+    settings.Settings.AllowedFileExtensions = FileManagerHelper.AllowedFileExtensions;
+
+    settings.Settings.InitialFolder = Url.Content("~/Files");
+    settings.Settings.ThumbnailFolder = Url.Content("~/Files");
+    settings.Settings.EnableMultiSelect = true;
+    settings.SettingsFileList.View = (FileListView)Session["ListViewMode"];
+    settings.Settings.UseAppRelativePath = true;
+    settings.Styles.FolderContainer.Width = Unit.Percentage(20);
+    settings.SettingsUpload.Enabled = false;
+    settings.SettingsEditing.AllowDownload = true;
+    settings.SettingsToolbar.ShowFilterBox = true;
+    settings.SettingsFolders.HideAspNetFolders = true;
+
+    settings.SettingsPermissions.AccessRules.Add(new FileManagerFolderAccessRule { Path = "System", Edit = Rights.Deny });
+}).BindToFolder(Model).GetHtml()

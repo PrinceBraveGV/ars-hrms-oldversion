@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_XafTheme,
+.dxTreeList_CollapsedButtonRtl_XafTheme,
+.dxTreeList_DragAndDropArrowDown_XafTheme,
+.dxTreeList_DragAndDropArrowUp_XafTheme,
+.dxTreeList_DragAndDropHide_XafTheme,
+.dxTreeList_DragAndDropNode_XafTheme,
+.dxTreeList_ExpandedButton_XafTheme,
+.dxTreeList_ExpandedButtonRtl_XafTheme,
+.dxTreeList_SortAsc_XafTheme,
+.dxTreeList_SortDesc_XafTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_XafTheme
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_CollapsedButtonRtl_XafTheme
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_DragAndDropArrowDown_XafTheme
+{
+    background-position: -12px -73px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_XafTheme
+{
+    background-position: 0px -73px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_XafTheme
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_XafTheme
+{
+    background-position: -11px -57px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_XafTheme
+{
+    background-position: -17px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_ExpandedButtonRtl_XafTheme
+{
+    background-position: 0px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxTreeList_SortAsc_XafTheme
+{
+    background-position: 0px -57px;
+    width: 10px;
+    height: 15px;
+}
+.dxTreeList_SortDesc_XafTheme
+{
+    background-position: -23px 0px;
+    width: 10px;
+    height: 15px;
+}
+

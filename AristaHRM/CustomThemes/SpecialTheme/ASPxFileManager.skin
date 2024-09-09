@@ -1,0 +1,26 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxFileManager runat="server" CssFilePath="{0}/styles.css" CssPostfix="SpecialTheme">
+<Styles CssPostfix="SpecialTheme" CssFilePath="{0}/styles.css">
+<Toolbar Height="48px"></Toolbar>
+
+<UploadPanel Height="50px"></UploadPanel>
+
+<LoadingPanel ImageSpacing="9px"></LoadingPanel>
+</Styles>
+
+<StylesDetailsView AdaptiveDetailButtonWidth="22">
+<CommandColumn Width="46px"></CommandColumn>
+</StylesDetailsView>
+
+<SettingsFileList>
+<DetailsViewSettings ThumbnailSize="24px"></DetailsViewSettings>
+</SettingsFileList>
+
+<SettingsLoadingPanel Text="Memuat&amp;hellip;"></SettingsLoadingPanel>
+
+<Images SpriteCssFilePath="{0}/sprite.css">
+<FolderContainerNodeLoadingPanel Url="Web/tvNodeLoading.gif"></FolderContainerNodeLoadingPanel>
+</Images>
+</dx:ASPxFileManager>

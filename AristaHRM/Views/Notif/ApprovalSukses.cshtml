@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pengajuan Cuti Disetujui";
+    Layout = "~/Views/Shared/_approvalRedirectLayout.cshtml";
+    string url = ViewBag.RedirectUrl as string;
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Konfirmasi Persetujuan Cuti</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Proses pengajuan cuti @ViewData["Jenis_Cuti"].ToString().ToLower() untuk nomor pengajuan # @ViewData["ID_Cuti"] atas nama @ViewData["Nama_Karyawan"] telah disetujui.<br />
+                        Mohon segera memeriksa inbox email anda untuk konfirmasi persetujuan cuti yang telah dilakukan.</p>
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Silakan klik tombol kiri untuk kembali ke halaman approval, atau tombol kanan untuk kembali ke halaman utama.</p>
+                        <br />
+                        @using (Html.BeginForm("ApprovalSukses", "Notif", FormMethod.Post))
+                        {
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnBack";
+                                button.Text = "Kembali ke Approval";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                button.UseSubmitBehavior = false;
+                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + url + "', '_parent'); }";
+                            }).GetHtml();
+                            ViewContext.Writer.Write("&nbsp;");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnRedirect";
+                                button.Text = "Kembali ke Menu Utama";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                button.UseSubmitBehavior = true;
+                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                            }).GetHtml();
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

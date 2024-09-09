@@ -1,0 +1,582 @@
+.dxpgControl_PlasticBlue, .dxpgCustForm_PlasticBlue
+{
+	font-weight: normal;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: solid 1px #CBCBCB;
+}
+.dxpgContainerCell_PlasticBlue
+{
+	vertical-align: top;
+}
+.dxpgMainTable_PlasticBlue
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_PlasticBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_PlasticBlue caption
+{
+    background: #F0F0F0;    
+    border-bottom: solid 1px #CCCCCC;	
+	padding: 3px 3px 5px 3px;
+	font-size: 1.25em;
+	text-align: center;
+	color: #707070;
+}
+.dxpgHeader_PlasticBlue
+{
+	color: White;
+	background-color: #3F5496;
+	background-image: url('pgHeaderBack.gif');
+	background-repeat: repeat-x;	
+	
+	border-width: 0;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxpgHeaderTable_PlasticBlue
+{
+	border: Solid 1px #2B4081;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_PlasticBlue,
+.dxpgCustFieldsDiv_PlasticBlue .dxpgHeaderTable_PlasticBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_PlasticBlue
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_PlasticBlue
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+.dxpgHeaderSort_PlasticBlue
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_PlasticBlue
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_PlasticBlue
+{
+	background-color: #5068AD;
+
+	background-image: url('pgHeaderBackHot.gif');	                       
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgArea_PlasticBlue, .dxpgArea_PlasticBlue table
+{	
+	border-style:none;
+	color: Black;
+	font-weight: normal;
+}
+.dxpgArea_PlasticBlue
+{
+	background-color: #F4F4F4;
+	border-color: #CBCBCB;
+	border-left-style: none;
+	border-top-style: none;
+    border-bottom-style: none;
+    border-bottom-color: #475CA0;
+}
+.dxpgColumnArea_PlasticBlue
+{
+	border-bottom: solid 1px #475CA0;
+}
+.dxpgRowArea_PlasticBlue
+{
+}
+.dxpgDataArea_PlasticBlue
+{
+}
+.dxpgFilterArea_PlasticBlue
+{
+	background-color: #DDDDDD;
+	color: #808080;
+	border-bottom: solid 1px #CBCBCB;
+	font-weight: normal;
+}
+.dxpgEmptyArea_PlasticBlue
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_PlasticBlue
+{
+	color: White;
+	background-color: #6C81C4;
+	border: Solid 1px #475CA0;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_PlasticBlue
+{
+	background-color: #5B70B4;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_PlasticBlue
+{
+	background-color: #4F65AB;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_PlasticBlue
+{
+	background-color: #6C81C4;
+	border: solid 1px #475CA0;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	color: White;	
+	white-space:nowrap;
+	padding: 4px 6px 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_PlasticBlue
+{
+	background-color: #5B70B4;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_PlasticBlue
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_PlasticBlue
+{
+	background-color: #4F65AB;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 6px 6px 6px 6px;
+}
+.dxpgCollapsedButton_PlasticBlue
+{
+	vertical-align: -1px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_PlasticBlue
+{
+	vertical-align: 0px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_PlasticBlue
+{
+	text-align: right;
+	background-color: #FEFEFE;	
+	border-color: #C8C8D9;
+	border-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	white-space: nowrap;
+}
+.dxpgKPICell_PlasticBlue
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_PlasticBlue
+{
+	background-color: #F0F0F0;
+}
+.dxpgGrandTotalCell_PlasticBlue
+{
+	background-color: #E7E7E7;
+}
+.dxpgFilterItem_PlasticBlue
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_PlasticBlue
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_PlasticBlue
+{
+	border-top: none 0px;
+	border-right: none 0px;
+	border-left: none 0px;
+	border-bottom: solid 1px #CBCBCB;
+	padding-top:8px;
+	padding-bottom:7px;
+	background-color: #F0F0F0;
+}
+.dxpgBottomPager_PlasticBlue
+{
+	border-top: solid 1px #CBCBCB;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	padding-top:8px;
+	padding-bottom:7px;
+	background-color: #F0F0F0;
+}
+.dxpgTopPager_PlasticBlue .dxpPageSizeItem_PlasticBlue > table,
+.dxpgBottomPager_PlasticBlue .dxpPageSizeItem_PlasticBlue > table
+{
+    margin: -2px 0px;
+}
+.dxpgTopPager_PlasticBlue,
+.dxpgBottomPager_PlasticBlue
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_PlasticBlue
+{
+	background-color: #3D5294;
+	border: Solid 1px #2C4182;
+	color: White;
+	padding: 4px 4px 4px 10px;	
+}
+.dxpgCustomizationFieldsContent_PlasticBlue
+{
+	background-color: #F5F5F5;
+	color: #323232;    	
+	padding: 0px !important;
+}
+.dxpgDataHeadersImage_PlasticBlue
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+.dxpgPrefilterPanelContainer_PlasticBlue
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanel_PlasticBlue
+{
+	border: none;
+	background-color: #E8E8E8;
+}
+.dxpgPrefilterPanelLink_PlasticBlue
+{
+	color: #5A83D0;
+	text-decoration: underline;	
+}
+.dxpgPrefilterPanelCheckBoxCell_PlasticBlue
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_PlasticBlue
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_PlasticBlue
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_PlasticBlue
+{
+	padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_PlasticBlue
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_PlasticBlue
+{
+	border-top: solid 1px #e0e0e0;
+	background-color: #E9E9E9;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_PlasticBlue
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_PlasticBlue,
+.dxpgCustFieldsRowAreaHeaders_PlasticBlue,
+.dxpgCustFieldsColumnAreaHeaders_PlasticBlue,
+.dxpgCustFieldsDataAreaHeaders_PlasticBlue,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_PlasticBlue,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_PlasticBlue
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_PlasticBlue
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_PlasticBlue
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_PlasticBlue
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_PlasticBlue .dxpgFLTextDiv_PlasticBlue,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_PlasticBlue .dxpgFLTextDiv_PlasticBlue
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_PlasticBlue
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_PlasticBlue .dxeBase_PlasticBlue,
+.TopPanelOnly .dxpgFLDefereDiv_PlasticBlue .dxpgFLDefereDB_PlasticBlue,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_PlasticBlue,
+.TopPanelOnly .dxpgFLFRDiv_PlasticBlue,
+.TopPanelOnly .dxpgFLCDDiv_PlasticBlue,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_PlasticBlue,
+.TopPanelOnly .dxpgFLTextDiv_PlasticBlue div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_PlasticBlue
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_PlasticBlue
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_PlasticBlue,
+.StackedSideBySide .dxpgCustFieldsFieldList_PlasticBlue
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_PlasticBlue
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_PlasticBlue,
+.StackedSideBySide .dxpgFLCDDiv_PlasticBlue
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_PlasticBlue
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_PlasticBlue > div
+{
+    border:1px solid #CBCBCB;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_PlasticBlue > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_PlasticBlue > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_PlasticBlue
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_PlasticBlue .dxbButton_PlasticBlue div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_PlasticBlue .dxbButton_PlasticBlue div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_PlasticBlue
+{
+ height:28px;
+}
+.dxpgFLTextDiv_PlasticBlue div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_PlasticBlue
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_PlasticBlue
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_PlasticBlue
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_PlasticBlue
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_PlasticBlue
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_PlasticBlue .dxeBase_PlasticBlue
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:17px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgFLDefereDB_PlasticBlue
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_PlasticBlue .dxbButton_PlasticBlue div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_PlasticBlue .dxbButton_PlasticBlue div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_PlasticBlue table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_PlasticBlue table table td
+{
+     overflow:hidden; 
+}
+.dxpgCustForm_PlasticBlue
+{
+ background:#F4F4F4
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxpgLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxpgLoadingPanel_PlasticBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+
+.dxpgVScrollBarAreaCell_PlasticBlue {
+     background-color: #6C81C4;
+     border-left: 1px solid #475CA0;
+     border-bottom: 1px solid #475CA0;
+ }
+.dxpgHScrollBarAreaCell_PlasticBlue {
+    background-color: #6C81C4;
+    border-top: 1px solid #475CA0;
+    border-right: 1px solid #475CA0;
+}
+.dxpgScrollBarEdgeCell_PlasticBlue {
+    background-color: #F4F4F4;
+    border-left: 1px solid #C8C8D9;
+    border-top: 1px solid #C8C8D9;
+}

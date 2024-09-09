@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_Youthful,
+.dxTreeList_CollapsedButtonRtl_Youthful,
+.dxTreeList_DragAndDropArrowDown_Youthful,
+.dxTreeList_DragAndDropArrowUp_Youthful,
+.dxTreeList_DragAndDropHide_Youthful,
+.dxTreeList_DragAndDropNode_Youthful,
+.dxTreeList_ExpandedButton_Youthful,
+.dxTreeList_ExpandedButtonRtl_Youthful,
+.dxTreeList_SortAsc_Youthful,
+.dxTreeList_SortDesc_Youthful
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_Youthful
+{
+    background-position: -10px -67px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_CollapsedButtonRtl_Youthful
+{
+    background-position: -12px -47px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowDown_Youthful
+{
+    background-position: 0px -47px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_Youthful
+{
+    background-position: 0px -37px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_Youthful
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_Youthful
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_Youthful
+{
+    background-position: 0px -67px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_ExpandedButtonRtl_Youthful
+{
+    background-position: 0px -57px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_SortAsc_Youthful
+{
+    background-position: -10px -57px;
+    width: 9px;
+    height: 9px;
+}
+.dxTreeList_SortDesc_Youthful
+{
+    background-position: -12px -37px;
+    width: 9px;
+    height: 9px;
+}
+

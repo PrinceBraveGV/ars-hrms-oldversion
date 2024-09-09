@@ -1,0 +1,22 @@
+@media all and (max-width: 500px)
+{
+    /*.CardGroupTableCell
+    {
+        padding-top: 12px;
+        padding-bottom: 17px;
+        padding-left: 14px;
+        padding-right: 0px;
+    }*/
+
+    .paddings
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /*.headerTable
+    {
+        padding-left: 28px;
+        padding-right: 28px;
+    }*/
+}

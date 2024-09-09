@@ -1,0 +1,17 @@
+﻿@using AristaHRM.Models
+
+@model ResignModel
+
+@{
+    Html.DevExpress().CallbackPanel(panel =>
+    {
+        panel.Name = "ResignPanel";
+        panel.CallbackRouteValues = new { Controller = "Admin", Action = "GetResign" };
+        panel.ClientSideEvents.BeginCallback = "getKaryawan";
+        panel.EnableClientSideAPI = true;
+        panel.SetContent(() =>
+        {
+            Html.RenderPartial("_ResignInfo", Model);
+        });
+    }).GetHtml();
+}

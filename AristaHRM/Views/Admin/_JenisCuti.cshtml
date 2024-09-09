@@ -1,0 +1,20 @@
+﻿@using AristaHRM.Models
+
+@model CutiModel
+
+@{
+    Html.DevExpress().ComboBoxFor(m => m.Jenis_Cuti, combo =>
+    {
+        combo.Name = "Jenis_Cuti";
+        combo.CallbackRouteValues = new { Controller = "Admin", Action = "JenisCutiPartial" };
+        combo.Properties.DropDownStyle = DropDownStyle.DropDownList;
+        combo.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+        combo.Width = Unit.Pixel(300);
+        combo.Properties.TextField = "Jenis_Cuti";
+        combo.Properties.ValueField = "ID_Cuti";
+        combo.Properties.ValueType = typeof(string);
+        combo.Theme = AristaHRM.Theme.SelectTheme;
+        combo.Properties.ClientSideEvents.BeginCallback = "function (s, e) { console.log(Tgl_Masuk.GetValue()); e.customArgs['NIK'] = NIK.GetValue(); }";
+        combo.Properties.ClientSideEvents.SelectedIndexChanged = "onJenisChanged";
+    }).BindList(Providers.GetListJenisCuti(Model.Tgl_Masuk)).GetHtml();
+}

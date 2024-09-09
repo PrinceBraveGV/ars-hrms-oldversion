@@ -1,0 +1,426 @@
+@model HeaderViewRenderMode
+
+@if(Model == HeaderViewRenderMode.Title) {
+    <div class="templateTitle">
+        <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/Images/Logo.png")" style="width:150px; height:40px;" /></a>
+    </div>
+}
+else
+{
+    if (Model == HeaderViewRenderMode.Full)
+    { 
+        <div class="headerTop">
+            <div class="templateTitle">
+                <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/Images/Logo.png")" style="width:150px; height:40px;" /></a>
+            </div>
+            <div class="loginControl">
+                @Html.Partial("LogOnPartialView")
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="headerTop">
+            <div class="templateTitle">
+                <a href="@Url.Action("Index", "Home")"><img src="@Url.Content("~/Images/Logo.png")" style="width:150px; height:40px;" /></a>
+            </div>
+            <div class="loginControl">
+                @Html.Partial("LogOnPartialView")
+            </div>
+        </div>
+    }
+
+    <div class="headerMenu">
+            @* DXCOMMENT: Configure the header menu *@
+
+        @Html.DevExpress().Menu(settings =>
+   {
+       settings.Name = "HeaderMenu";
+       settings.ItemAutoWidth = false;
+       settings.ShowPopOutImages = DefaultBoolean.True;
+       settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.Styles.Style.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+       settings.Styles.Style.BorderTop.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+
+       if (!Request.IsAuthenticated)
+       {
+           var home = settings.Items.Add("Home");
+           home.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Index" });
+           home.Image.Url = Url.Content("~/Images/Home.png");
+           home.Image.Width = Unit.Pixel(15);
+           home.Image.Height = Unit.Pixel(15);
+           var login = settings.Items.Add("Login");
+           login.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "UserSession" });
+           login.Image.Url = Url.Content("~/Images/Login.png");
+           login.Image.Width = Unit.Pixel(15);
+           login.Image.Height = Unit.Pixel(15);
+           var regis = settings.Items.Add("Register");
+           regis.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Register" });
+           regis.Image.Url = Url.Content("~/Images/Register.png");
+           regis.Image.Width = Unit.Pixel(15);
+           regis.Image.Height = Unit.Pixel(15);
+           settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+           var p_help = settings.Items.Add("Bantuan");
+           // p_help.Items.Add("Reset Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "ResetPassword" });
+           p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
+           p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
+           p_help.Items.Add("FAQ").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "FAQGuide" });
+           p_help.Items.Add("Tentang Kami").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "About" });
+           p_help.Items.Add("Ketentuan Penggunaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UseTerms" });
+       }
+       else
+       {
+           if (ViewBag.Privilege == "Admin")
+           {
+               var home = settings.Items.Add("Home");
+               home.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Index" });
+               home.Image.Url = Url.Content("~/Images/Home.png");
+               home.Image.Width = Unit.Pixel(15);
+               home.Image.Height = Unit.Pixel(15);
+               var p_admin = settings.Items.Add("Admin Karyawan");
+               p_admin.Items.Add("Profil Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Profil" });
+               p_admin.Items.Add("Ubah Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "UbahPassword" });
+               // p_admin.Items.Add("Reset Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "ResetPassword" });
+
+               if (User.Identity.Name.Equals("ADMIN") || User.Identity.Name.Equals("SISTEM"))
+               {
+                   p_admin.Items.Add("Reset Master").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "ResetMaster" });
+               }
+               p_admin.Items.Add(item =>
+               {
+                   item.Text = "Absensi";
+                   item.Items.Add("Daftar Kehadiran").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "DaftarHadir" });
+                   item.Items.Add("Daftar Ketidakhadiran").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "DaftarTidakHadir" });
+                   item.Items.Add("Grup Shift").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "GrupShift" });
+                   item.Items.Add(subitem =>
+                   {
+                       subitem.Text = "Shift";
+                       subitem.Items.Add("Shift Kerja").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "ShiftKerja" });
+                       subitem.Items.Add("Shift Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "ShiftKhusus" });
+                       subitem.Items.Add("Shift Tetap").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "ShiftTetap" });
+                       subitem.Items.Add("Shift Tidak Tetap").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Absen", Action = "ShiftTidakTetap" });
+                   });
+               });
+               p_admin.Items.Add(item =>
+               {
+                   item.Text = "Mutasi";
+                   item.Items.Add("Mutasi Staf").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "MutasiStaf" });
+                   item.Items.Add("Mutasi Atasan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "MutasiAtasan" });
+                   item.Items.Add("Mutasi Kepala Cabang").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "MutasiKacab" });
+               });
+               p_admin.Items.Add(item =>
+               {
+                   item.Text = "Data";
+                   item.Items.Add("Manajemen Berkas").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "FileManager" });
+                   item.Items.Add("Ekspor Data").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Common", Action = "EksporData" });
+                   item.Items.Add("Impor Data").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Common", Action = "ImporData" });
+                   item.Items.Add("Email Counter").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "EmailCounter" });
+               });
+               p_admin.Items.Add(item =>
+               {
+                   item.Text = "Resign";
+                   item.Items.Add("Pengajuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Resignation" });
+                   item.Items.Add("Persetujuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "ApprovalResign" });
+               });
+               p_admin.Items.Add("Pengumuman User").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Pengumuman" });
+               // p_admin.Items.Add("Setting Sistem").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Setting" });
+
+               // p_admin.Items.Add("Feedback").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Feedback" });
+               // p_admin.Items.Add("Feedback List").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FeedbackList" });
+               var p_cuti = settings.Items.Add("Admin Cuti");
+               p_cuti.Items.Add("Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Pengajuan" });
+               p_cuti.Items.Add("Persetujuan Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "ApprovalTahunan" });
+               p_cuti.Items.Add("Persetujuan Cuti Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "ApprovalKhusus" });
+               p_cuti.Items.Add("Pembatalan Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "BatalTahunan" });
+               p_cuti.Items.Add("Pembatalan Cuti Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "BatalKhusus" });
+               // p_cuti.Items.Add("Persetujuan Cuti Otomatis").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "AutoApproval" });
+               /*
+               var p_form = settings.Items.Add("Admin Formulir");
+               p_form.Items.Add("Formulir Pengajuan SPD (F1)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormPengajuanSPD" });
+               p_form.Items.Add("Formulir Laporan SPD (F2)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormLaporanSPD" });
+               p_form.Items.Add("Formulir Izin (F3)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormIzin" });
+               p_form.Items.Add("Formulir Pemberitahuan Duka Cita (F5)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormDuka" });
+               p_form.Items.Add("Formulir Sumbangan Kelahiran (F6)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormLahir" });
+               p_form.Items.Add("Formulir Sumbangan Pernikahan (F7)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormNikah" });
+               p_form.Items.Add("Formulir Insentif Tour (F8)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormInsentif" });
+               p_form.Items.Add("Formulir Pengganti UMTL (F9)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormUMTL" });
+               p_form.Items.Add("Formulir Lembur Driver (F10)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormLemburDrv" });
+               p_form.Items.Add("Formulir Perubahan Data Karyawan (F11)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormUbahData" });
+               p_form.Items.Add("Formulir Permintaan Tenaga Kerja (F14)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FormPermintaanTK" });
+               */
+               var p_input = settings.Items.Add("Input Master");
+               p_input.Items.Add("Input Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputKaryawan" });
+               p_input.Items.Add("Input Karyawan Trainee").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputKaryawanTrainee" });
+               p_input.Items.Add("Input Perusahaan Baru").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputPerusahaan" });
+               p_input.Items.Add("Input Cabang Baru").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputCabang" });
+               p_input.Items.Add("Input Cuti Massal HO").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputCutiMassalPusat" });
+               p_input.Items.Add("Input Cuti Massal Cabang").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputCutiMassalCabang" });
+               p_input.Items.Add("Input Hari Libur").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Input", Action = "InputLiburan" });
+               var p_master = settings.Items.Add("Master Data");
+               var p_kar = p_master.Items.Add("Daftar Karyawan");
+               p_kar.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Karyawan" });
+               p_kar.Image.Url = Url.Content("~/Images/Manager.png");
+               p_kar.Image.Width = Unit.Pixel(10);
+               p_kar.Image.Height = Unit.Pixel(10);
+               var p_trn = p_master.Items.Add("Daftar Karyawan Trainee");
+               p_trn.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "KaryawanTrainee" });
+               p_trn.Image.Url = Url.Content("~/Images/Employee.png");
+               p_trn.Image.Width = Unit.Pixel(10);
+               p_trn.Image.Height = Unit.Pixel(10);
+               var p_usaha = p_master.Items.Add("Daftar Perusahaan");
+               p_usaha.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Perusahaan" });
+               p_usaha.Image.Url = Url.Content("~/Images/Company.png");
+               p_usaha.Image.Width = Unit.Pixel(10);
+               p_usaha.Image.Height = Unit.Pixel(10);
+               var p_cabang = p_master.Items.Add("Daftar Cabang");
+               p_cabang.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Cabang" });
+               p_cabang.Image.Url = Url.Content("~/Images/Branch.png");
+               p_cabang.Image.Width = Unit.Pixel(10);
+               p_cabang.Image.Height = Unit.Pixel(10);
+               var p_mts = p_master.Items.Add("Daftar Mutasi Karyawan");
+               p_mts.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Mutasi" });
+               p_mts.Image.Url = Url.Content("~/Images/Staff.png");
+               p_mts.Image.Width = Unit.Pixel(10);
+               p_mts.Image.Height = Unit.Pixel(10);
+
+               string departemen = ViewBag.Departemen as string;
+
+               if (!string.IsNullOrEmpty(departemen) && departemen.Contains("HRD"))
+               {
+                   var p_userpending = p_master.Items.Add("Daftar Pending Karyawan");
+                   p_userpending.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "UserPending" });
+               }
+
+               p_master.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Image.Url = Url.Content("~/Images/Riwayat.png");
+                   item.Image.Width = Unit.Pixel(10);
+                   item.Image.Height = Unit.Pixel(10);
+                   item.Items.Add("Daftar Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Riwayat" });
+                   item.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "SisaTahunan" });
+                   item.Items.Add("Daftar Tunggu Persetujuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "DaftarTunggu" });
+                   item.Items.Add("Kalender Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "Kalender" });
+               });
+               var p_report = settings.Items.Add("Laporan");
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Perusahaan";
+                   item.Items.Add("Data Karyawan (Personal)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportKaryawan" });
+                   item.Items.Add("Data Karyawan (Tabel)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportListKaryawan" });
+                   item.Items.Add("Data Statistik Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "StatKaryawan" });
+                   item.Items.Add("Data Perusahaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportPerusahaan" });
+                   item.Items.Add("Data Cabang").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCabang" });
+               });
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Items.Add("Data Cuti Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCuti" });
+                   item.Items.Add("Data Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportRiwayat" });
+                   item.Items.Add("Data Persetujuan Cuti Tertunda").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportTunggu" });
+                   item.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportSisaTahunan" });
+                   item.Items.Add("Data Sisa Cuti Tahunan (Atasan & Bawahan)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportSisaBawahan" });
+                   item.Items.Add("Data Statistik Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "StatCuti" });
+                   item.Items.Add("Riwayat Pengajuan Cuti (Semua Karyawan)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "RiwayatPengajuan" });
+               });
+               var p_help = settings.Items.Add("Bantuan");
+               p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
+               p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
+               p_help.Items.Add("FAQ").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "FAQGuide" });
+               p_help.Items.Add("Tentang Kami").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "About" });
+               p_help.Items.Add("Ketentuan Penggunaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "Terms" });
+           }
+           else if (ViewBag.Privilege == "Manager")
+           {
+               var home = settings.Items.Add("Home");
+               home.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Index" });
+               home.Image.Url = Url.Content("~/Images/Home.png");
+               home.Image.Width = Unit.Pixel(15);
+               home.Image.Height = Unit.Pixel(15);
+               var p_admin = settings.Items.Add("Manajemen Karyawan");
+               p_admin.Items.Add("Profil Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Profil" });
+               p_admin.Items.Add("Ubah Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "UbahPassword" });
+               // p_admin.Items.Add("Reset Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ResetPassword" });
+               /* p_admin.Items.Add(item =>
+               {
+                   item.Text = "Mutasi";
+                   item.Items.Add("Mutasi Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "MutasiStaff" });
+                   item.Items.Add("Mutasi Atasan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "MutasiManajer" });
+               }); */
+               p_admin.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               p_admin.Items.Add(item =>
+               {
+                   item.Text = "Resign";
+                   item.Items.Add("Pengajuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Resignation" });
+                   item.Items.Add("Persetujuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ApprovalResign" });
+               });
+
+               // p_admin.Items.Add("Feedback").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "Feedback" });
+               // p_admin.Items.Add("Feedback List").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Admin", Action = "FeedbackList" });
+               var p_cuti = settings.Items.Add("Manajemen Cuti");
+               p_cuti.Items.Add("Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Pengajuan" });
+               p_cuti.Items.Add("Persetujuan Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ApprovalTahunan" });
+               p_cuti.Items.Add("Persetujuan Cuti Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "ApprovalKhusus" });
+               p_cuti.Items.Add("Pembatalan Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "BatalTahunan" });
+               p_cuti.Items.Add("Pembatalan Cuti Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "BatalKhusus" });
+               var p_master = settings.Items.Add("Master Data");
+               var p_kar = p_master.Items.Add("Daftar Karyawan");
+               p_kar.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Karyawan" });
+               p_kar.Image.Url = Url.Content("~/Images/Manager.png");
+               p_kar.Image.Width = Unit.Pixel(10);
+               p_kar.Image.Height = Unit.Pixel(10);
+               var p_usaha = p_master.Items.Add("Daftar Perusahaan");
+               p_usaha.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Perusahaan" });
+               p_usaha.Image.Url = Url.Content("~/Images/Company.png");
+               p_usaha.Image.Width = Unit.Pixel(10);
+               p_usaha.Image.Height = Unit.Pixel(10);
+               var p_cabang = p_master.Items.Add("Daftar Cabang");
+               p_cabang.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Cabang" });
+               p_cabang.Image.Url = Url.Content("~/Images/Branch.png");
+               p_cabang.Image.Width = Unit.Pixel(10);
+               p_cabang.Image.Height = Unit.Pixel(10);
+
+               string departemen = ViewBag.Departemen as string;
+
+               if (!string.IsNullOrEmpty(departemen) && departemen.Contains("HRD"))
+               {
+                   var p_userpending = p_master.Items.Add("Daftar Pending Karyawan");
+                   p_userpending.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Master", Action = "UserPending" });
+               }
+
+               p_master.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Image.Url = Url.Content("~/Images/Riwayat.png");
+                   item.Image.Width = Unit.Pixel(10);
+                   item.Image.Height = Unit.Pixel(10);
+                   item.Items.Add("Daftar Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Riwayat" });
+                   item.Items.Add("Sisa Cuti Tahunan (Perseorangan)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "SisaTahunan" });
+                   item.Items.Add("Sisa Cuti Tahunan (Semua Bawahan)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "SisaBawahan" });
+                   item.Items.Add("Daftar Cuti Massal").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "CutiMassal" });
+                   item.Items.Add("Kalender Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Kalender" });
+               });
+               var p_report = settings.Items.Add("Laporan");
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Perusahaan";
+                   item.Items.Add("Data Karyawan (Personal)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportKaryawan" });
+                   item.Items.Add("Data Karyawan (Tabel)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportListKaryawan" });
+                   item.Items.Add("Data Statistik Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "StatKaryawan" });
+                   item.Items.Add("Data Perusahaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportPerusahaan" });
+                   item.Items.Add("Data Cabang").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCabang" });
+               });
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Items.Add("Data Cuti Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCuti" });
+                   item.Items.Add("Data Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportRiwayat" });
+                   item.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportSisaTahunan" });
+                   item.Items.Add("Data Sisa Cuti Tahunan (Atasan & Bawahan)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportSisaBawahan" });
+                   item.Items.Add("Data Statistik Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "StatCuti" });
+                   item.Items.Add("Riwayat Pengajuan Cuti (Manajer)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "RiwayatManajer" });
+               });
+               var p_help = settings.Items.Add("Bantuan");
+               p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
+               p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
+               p_help.Items.Add("FAQ").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "FAQGuide" });
+               p_help.Items.Add("Tentang Kami").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "About" });
+               p_help.Items.Add("Ketentuan Penggunaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "Terms" });
+           }
+           else if (ViewBag.Privilege == "Supervisor")
+           {
+               var home = settings.Items.Add("Home");
+               home.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Index" });
+               home.Image.Url = Url.Content("~/Images/Home.png");
+               home.Image.Width = Unit.Pixel(15);
+               home.Image.Height = Unit.Pixel(15);
+               var p_user = settings.Items.Add("Manajemen User");
+               p_user.Items.Add("Profil Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Profil" });
+               p_user.Items.Add("Ubah Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "UbahPassword" });
+               p_user.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               p_user.Items.Add(item =>
+               {
+                   item.Text = "Resign";
+                   item.Items.Add("Pengajuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Resignation" });
+                   item.Items.Add("Status Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "StatusResign" });
+               });
+
+               // p_user.Items.Add("Feedback").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Feedback" });
+               // p_user.Items.Add("Feedback List").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "FeedbackList" });
+               var p_cuti = settings.Items.Add("Supervisi Cuti");
+               p_cuti.Items.Add("Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Pengajuan" });
+               p_cuti.Items.Add("Persetujuan Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "ApprovalTahunan" });
+               p_cuti.Items.Add("Persetujuan Cuti Khusus").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "ApprovalKhusus" });
+               var p_master = settings.Items.Add("Master Data");
+               var p_kar = p_master.Items.Add("Daftar Karyawan");
+               p_kar.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Karyawan" });
+               p_kar.Image.Url = Url.Content("~/Images/Manager.png");
+               p_kar.Image.Width = Unit.Pixel(10);
+               p_kar.Image.Height = Unit.Pixel(10);
+               p_master.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Image.Url = Url.Content("~/Images/Riwayat.png");
+                   item.Image.Width = Unit.Pixel(10);
+                   item.Image.Height = Unit.Pixel(10);
+                   item.Items.Add("Daftar Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Riwayat" });
+                   item.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "SisaTahunan" });
+                   item.Items.Add("Daftar Cuti Massal").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "CutiMassal" });
+                   item.Items.Add("Kalender Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Kalender" });
+               });
+               var p_report = settings.Items.Add("Laporan");
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Perusahaan";
+                   item.Items.Add("Data Karyawan (Personal)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportKaryawan" });
+                   item.Items.Add("Data Karyawan (Tabel)").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportListKaryawan" });
+                   item.Items.Add("Data Perusahaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportPerusahaan" });
+                   item.Items.Add("Data Cabang").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCabang" });
+               });
+               p_report.Items.Add(item =>
+               {
+                   item.Text = "Cuti";
+                   item.Items.Add("Data Cuti Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportCuti" });
+                   item.Items.Add("Data Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportRiwayat" });
+                   item.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "ReportSisaTahunan" });
+                   item.Items.Add("Data Statistik Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Report", Action = "StatCuti" });
+                   item.Items.Add("Data Riwayat Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "RiwayatUser" });
+               });
+               var p_help = settings.Items.Add("Bantuan");
+               p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
+               p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
+               p_help.Items.Add("FAQ").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "FAQGuide" });
+               p_help.Items.Add("Tentang Kami").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "About" });
+               p_help.Items.Add("Ketentuan Penggunaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UseTerms" });
+           }
+           else
+           {
+               var home = settings.Items.Add("Home");
+               home.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Home", Action = "Index" });
+               home.Image.Url = Url.Content("~/Images/Home.png");
+               home.Image.Width = Unit.Pixel(15);
+               home.Image.Height = Unit.Pixel(15);
+               var p_user = settings.Items.Add("Manajemen User");
+               p_user.Items.Add("Profil Karyawan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "Profil" });
+               p_user.Items.Add("Ubah Password").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "UbahPassword" });
+               p_user.Items.Add("Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "Pengajuan" });
+               p_user.Items.Add("Pengajuan Resign").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "Resignation" });
+               // p_user.Items.Add("Feedback").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "Feedback" });
+               var p_master = settings.Items.Add("Master Data");
+               p_master.Items.Add("Daftar Riwayat Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "Riwayat" });
+               p_master.Items.Add("Data Sisa Cuti Tahunan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "SisaTahunan" });
+               p_master.Items.Add("Daftar Cuti Massal").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "CutiMassal" });
+               p_master.Items.Add("Data Riwayat Pengajuan Cuti").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "User", Action = "RiwayatUser" });
+               settings.Items.Add("Download").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Files", Action = "Download" });
+               var p_help = settings.Items.Add("Bantuan");
+               p_help.Items.Add("User Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "UserGuide" });
+               p_help.Items.Add("Region Guide").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "RegionGuide" });
+               p_help.Items.Add("FAQ").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "FAQGuide" });
+               p_help.Items.Add("Tentang Kami").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "About" });
+               p_help.Items.Add("Ketentuan Penggunaan").NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Help", Action = "Terms" });
+           }
+       }
+   }).GetHtml()
+    </div>
+}

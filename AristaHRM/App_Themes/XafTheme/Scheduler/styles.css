@@ -1,0 +1,533 @@
+.dxscControl_XafTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #4a4a4a;
+
+    background: #c6c6c6;
+    border: solid 1px #c6c6c6;
+}
+.dxscLoadingPanel_XafTheme
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #4a4a4a;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscLoadingPanel_XafTheme td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 15px 34px 15px 20px;
+}
+.dxscLoadingPanel_XafTheme .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Headers */
+.dxscDateHeader_XafTheme, 
+.dxscAlternateDateHeader_XafTheme,
+.dxscDayHeader_XafTheme,
+.dxscDateCellHeader_XafTheme,
+.dxscTodayCellHeader_XafTheme,
+.dxscTimelineDateHeader_XafTheme,
+.dxscHorizontalResourceHeader_XafTheme,
+.dxscVerticalResourceHeader_XafTheme
+{    
+    color: #7e7e7e;
+    background: #fafafa;
+    border: solid 1px #c6c6c6;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_XafTheme,
+.dxscAlternateDateHeader_XafTheme
+{
+    background: #f0f0f0;    
+    color: #2c86d3;
+}
+.dxscDayHeader_XafTheme
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_XafTheme
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_XafTheme
+{    
+    border-top-width: 1px;
+    background: #1279c0;
+    color: White;
+}
+.dxscTimelineDateHeader_XafTheme
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_XafTheme
+{
+    border-width: 1px 1px 1px 0;
+    background: #fafafa;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_XafTheme
+{
+    border-width: 1px 1px 0 0;
+    background: #fafafa;
+    white-space: normal;
+}
+.dxscSelectionBar_XafTheme 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_XafTheme, 
+.dxscRightTopCorner_XafTheme
+{
+    background: #fafafa;
+    width: 1px;
+    border-style: solid;
+    border-color: #c6c6c6;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_XafTheme
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.79em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_XafTheme, 
+.dxscGroupSeparatorHorizontal_XafTheme
+{
+    background: white;
+    border: solid 1px #c6c6c6;
+}
+
+.dxscGroupSeparatorVertical_XafTheme
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_XafTheme
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_XafTheme
+{
+    background: #fafafa;
+    border: solid 1px #c6c6c6;
+    border-width: 0 1px 1px 0;
+    border-collapse: collapse !important; 
+}
+.dxscDateCellBody_XafTheme 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_XafTheme
+{
+    border-color: #c6c6c6;
+    border-style: solid;
+    border-width: 0 1px 1px;
+}
+.dxscControl_XafTheme .dxscDayScrollBodyTable,
+.dxscControl_XafTheme .dxscRendererTable,
+.dxscControl_XafTheme .dxscRendererTable .dxscDayHdrsTbl
+{
+    border-collapse: collapse !important;
+}
+.dxscTimelineCellBody_XafTheme
+{
+    height: 300px;
+    border-color: #c6c6c6;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_XafTheme
+{
+    color: black;
+    font-size: 0.79em;
+    border: solid 1px #c6c6c6;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_XafTheme
+{	
+    border: solid 1px #c6c6c6;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_XafTheme
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_XafTheme
+{
+    font-size: 0.79em;
+    color: #2c86d3;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_XafTheme, .dxscTimeRulerMinuteItem_XafTheme
+{
+    color: #283b56;
+    background: #fafafa;
+    border: solid 1px #c6c6c6;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_XafTheme
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.21em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_XafTheme
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.79em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_XafTheme
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_XafTheme
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_XafTheme
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+/*.dxscToolbarContainer_XafTheme
+{
+	border-right: 1px solid #c6c6c6;
+}*/
+.dxscToolbar_XafTheme
+{
+    border: none;
+    background: #fafafa;
+    padding: 0px 8px;    
+    height: 47px;
+}
+.dxscViewSelector_XafTheme
+{    
+    border: none;
+    padding: 0px 9px;   
+    background: #fafafa;
+    height: 47px;
+}
+.dxscResourceNavigator_XafTheme 
+{    
+    background: white;
+    padding: 7px 10px;
+    border: solid 1px #c6c6c6;
+}
+.dxscViewVisibleInterval_XafTheme
+{    
+    color: #4a4a4a;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_XafTheme
+{
+    background: #fafafa;
+    border: solid 2px black;
+    padding: 0;
+}
+.dxscControlAreaForm_XafTheme
+{
+    font-size: 1.14em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxpcLite_XafTheme .dxscButtonTable,
+.dxpcLite_XafTheme .dxscAppointmentForm
+{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.dxscErrorInfo_XafTheme
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewSelectorButton_XafTheme
+{
+    color:#2C86D3;
+    padding: 6px 14px 7px;
+}
+.dxscViewSelectorButtonPressed_XafTheme
+{
+	background: #dcdcdc;
+	color: #4a4a4a;
+}
+.dxscViewSelectorButtonHover_XafTheme
+{
+	background: #f0f0f0;
+	color: #2c86d3;
+    border-radius: 2px;
+}
+.dxscViewSelectorButtonChecked_XafTheme
+{
+	background: #2c86d3;
+	color: white;
+    border-radius: 2px;
+}
+.dxscViewNavigatorButton_XafTheme
+{    
+    padding: 0 4px;
+	margin: 0 2px;
+	border: 1px solid #c6c6c6;
+    border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscViewSelectorIndent_XafTheme
+{
+    background-color: #dadada;
+}
+.dxscViewNavigatorGotoDateButton_XafTheme 
+{
+    padding: 4px 8px 4px !important;
+	margin: 0 1px 0 2px;
+	border: 1px solid #c6c6c6 !important;
+    border-radius: 2px;
+}
+
+.dxscViewNavigatorButtonHover_XafTheme,
+.dxscViewNavigatorGotoDateButtonHover_XafTheme
+{
+	background: #f0f0f0;
+	color: #2c86d3;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscViewNavigatorButton_XafTheme.dxscViewNavigatorGotoTodayButton
+{
+    background: none;
+}
+.dxscViewNavigatorButtonHover_XafTheme.dxscViewNavigatorGotoTodayButton
+{
+    background: #f0f0f0;
+}
+.dxscViewNavigatorButton_XafTheme.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonHover_XafTheme.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonPressed_XafTheme.dxscViewNavigatorGotoTodayButton
+{
+    /*border: 1!important;*/
+    color: #045cad;
+    padding: 5px 11px 6px 13px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/*.dxscViewNavigatorButton_XafTheme.dxscViewNavigatorGotoTodayButton 
+.dxscViewNavigatorButtonHover_XafTheme.dxscViewNavigatorGotoTodayButton span
+{
+    text-decoration: underline!important;
+}*/
+.dxscResourceNavigatorButton_XafTheme,
+.dxscDVTopMoreButton_XafTheme,
+.dxscDVBottomMoreButton_XafTheme,
+.dxscNavigationButton_XafTheme
+{
+
+    padding: 9px 12px;
+	border: 1px solid #c6c6c6;
+    border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscResourceNavigatorButtonHover_XafTheme,
+.dxscDVTopMoreButtonHover_XafTheme,
+.dxscDVBottomMoreButtonHover_XafTheme,
+.dxscNavigationButtonHover_XafTheme
+{	
+
+    background: #f0f0f0;
+	color: #2c86d3;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscResourceNavigatorButtonPressed_XafTheme,
+.dxscDVTopMoreButtonPressed_XafTheme,
+.dxscDVBottomMoreButtonPressed_XafTheme,
+.dxscNavigationButtonPressed_XafTheme
+{
+	color: #a7a7a7;
+	background: #dcdcdc;
+	border: 1px solid #cccccc;
+
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+}
+.dxscResourceNavigatorDisabled_XafTheme,
+.dxscNavigationDisabled_XafTheme
+{
+	background: #e7e7e7;
+	color: #C3C3C3;
+	border-color: #d3d3d3;
+	cursor: default;
+}
+
+.dxscDVBottomMoreButton_XafTheme
+{
+	padding: 7px 7px 6px;
+}
+.dxscDVTopMoreButton_XafTheme
+{
+	padding: 6px 7px 7px;
+}
+.dxscNavigationButton_XafTheme
+{
+	padding: 7px 6px;
+}
+.dxscSmartTagButton_XafTheme 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_XafTheme
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_XafTheme,
+.dxscNoBorderButtonHover_XafTheme
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_XafTheme 
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_XafTheme
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_XafTheme
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_XafTheme
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_XafTheme
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_XafTheme
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_XafTheme
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_XafTheme 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_XafTheme 
+{
+    top:-2px;
+    height:13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_XafTheme 
+{
+    position:absolute;
+    width:1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.dxscTimeMarkerLineH_XafTheme
+{
+    position: absolute;
+    top: -2px;
+    height: 1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+

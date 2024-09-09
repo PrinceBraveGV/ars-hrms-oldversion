@@ -1,0 +1,274 @@
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_Moderno,
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_Moderno,
+.dxPivotGrid_FLBottomPanelOnly2by2_Moderno,
+.dxPivotGrid_FLButton_Moderno,
+.dxPivotGrid_FLColumnAreaHeaders_Moderno,
+.dxPivotGrid_FLDataAreaHeaders_Moderno,
+.dxPivotGrid_FLFieldList_Moderno,
+.dxPivotGrid_FLFilterAreaHeaders_Moderno,
+.dxPivotGrid_FLRowAreaHeaders_Moderno,
+.dxPivotGrid_FLStackedDefault_Moderno,
+.dxPivotGrid_FLStackedSideBySide_Moderno,
+.dxPivotGrid_FLTopPanelOnly_Moderno,
+.dxPivotGrid_pgCollapsedButton_Moderno,
+.dxPivotGrid_pgCustomizationFormCloseButton_Moderno,
+.dxPivotGrid_pgDataHeaders_Moderno,
+.dxPivotGrid_pgDragArrowDown_Moderno,
+.dxPivotGrid_pgDragArrowLeft_Moderno,
+.dxPivotGrid_pgDragArrowRight_Moderno,
+.dxPivotGrid_pgDragArrowUp_Moderno,
+.dxPivotGrid_pgDragHideField_Moderno,
+.dxPivotGrid_pgExpandedButton_Moderno,
+.dxPivotGrid_pgFilterButton_Moderno,
+.dxPivotGrid_pgFilterButtonActive_Moderno,
+.dxPivotGrid_pgFilterResizer_Moderno,
+.dxPivotGrid_pgGroupSeparator_Moderno,
+.dxPivotGrid_pgPrefilterButton_Moderno,
+.dxPivotGrid_pgSortByColumn_Moderno,
+.dxPivotGrid_pgSortDownButton_Moderno,
+.dxPivotGrid_pgSortUpButton_Moderno
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_Moderno
+{
+    background-position: -207px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -187px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -17px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -119px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -102px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -204px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -136px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -68px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -170px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_Moderno
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_Moderno
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_Moderno
+{
+    background-position: -34px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_Moderno
+{
+    background-position: -221px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_Moderno
+{
+    background-position: -85px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_Moderno
+{
+    background-position: -153px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_Moderno
+{
+    background-position: -245px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_Moderno
+{
+    background-position: -262px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_Moderno
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_Moderno
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_Moderno
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_Moderno
+{
+    background-position: -51px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Moderno
+{
+    background-position: -188px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgDataHeaders_Moderno
+{
+    background-position: -220px -20px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgDragArrowDown_Moderno
+{
+    background-position: -176px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_Moderno
+{
+    background-position: -200px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_Moderno
+{
+    background-position: -210px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_Moderno
+{
+    background-position: -188px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_Moderno
+{
+    background-position: -165px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxPivotGrid_pgExpandedButton_Moderno
+{
+    background-position: 0px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_pgFilterButton_Moderno
+{
+    background-position: -247px -17px;
+    width: 18px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButtonActive_Moderno
+{
+    background-position: -266px -17px;
+    width: 18px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterResizer_Moderno
+{
+    background-position: -226px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgGroupSeparator_Moderno
+{
+    background-position: -279px 0px;
+    width: 5px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_Moderno
+{
+    background-position: -233px -19px;
+    width: 13px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortByColumn_Moderno
+{
+    background-position: -238px -33px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_Moderno
+{
+    background-position: -265px -33px;
+    width: 10px;
+    height: 15px;
+}
+.dxPivotGrid_pgSortUpButton_Moderno
+{
+    background-position: -254px -33px;
+    width: 10px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButtonActive_Moderno
+{
+	background-color: #1279C0;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Moderno,
+.dxPivotGrid_FLButton_Moderno
+{
+    display:block;
+}
+

@@ -1,0 +1,4814 @@
+/* -- CheckBox -- */
+.dxICBFocused_SoftOrange 
+{
+    outline: 1px dotted #676767;
+}
+.dxICheckBox_SoftOrange 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: #92110e;
+	background-color: #FFFFFF;
+}
+.dxccControl_SoftOrange a
+{
+	text-decoration: none!important;
+}
+.dxccControl_SoftOrange a:hover
+{
+	color: #f15e34!important;
+}
+.dxccControl_SoftOrange a:visited
+{
+	color: #a1a1a1!important;
+}
+/* Disabled */
+.dxccDisabled_SoftOrange,
+.dxccDisabled_SoftOrange span.dxccValue,
+.dxccDisabled_SoftOrange span.dxccBEText
+{
+	color: #ababab;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_SoftOrange 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #707070;
+	border: 4px solid #d3d3d3;
+	background-color: #f9f9f9;
+}
+.dxdvControl_SoftOrange td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_SoftOrange
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px dotted #5c5c5c;
+	border-bottom: 1px dotted #5c5c5c;
+}
+.dxdvItem_SoftOrange
+{
+	font-size: 1.17em;
+	background-color: #F9F9F9;
+	padding: 5px 43px 12px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_SoftOrange
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_SoftOrange
+{
+}
+.dxdvEmptyItem_SoftOrange
+{
+	font-size: 1.17em;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 43px 12px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_SoftOrange
+{
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+.dxdvEmptyData_SoftOrange
+{
+	color: Gray;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_SoftOrange
+{
+    height: 60px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_SoftOrange a
+{
+	display: block;
+	padding-top: 25px;
+	color: #BC3F26;
+}
+/* Disabled */
+.dxdvDisabled_SoftOrange
+{
+	color: #848484;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_SoftOrange 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxhlControl_SoftOrange a
+{
+	color: #bc3f26;
+}
+.dxhlControl_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+.dxhlContent_SoftOrange
+{
+	color: #707070;
+} 
+.dxhlDate_SoftOrange
+{
+	color: #C1C1C1;
+	white-space: nowrap;
+	font-size: 0.91em;
+}
+.dxhlHeader_SoftOrange
+{
+	font-size: 1.25em;
+    font-weight: bold;
+	color: #707070;
+	line-height: 121%;
+}
+.dxhlDateHeader_SoftOrange
+{
+	font-size: 0.87em;
+    font-weight: normal;
+	color: Gray;
+	font-weight: normal;
+}
+.dxhlLeftPanel_SoftOrange,
+.dxhlRightPanel_SoftOrange
+{
+	font-size: 0.91em;
+}
+.dxhlDateLeftPanel_SoftOrange,
+.dxhlDateRightPanel_SoftOrange
+{
+    color: Gray;
+    padding: 2px 0 0;
+	white-space: nowrap;
+}
+.dxhlTailDiv_SoftOrange
+{
+	color: #707070;
+}
+/* Disabled */
+.dxhlDisabled_SoftOrange
+{
+	color: #ababab;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_SoftOrange,
+.dxlpLoadingPanelWithContent_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #f88538;
+	background-color: White;
+	border: 1px solid #F88538;
+}
+.dxlpLoadingPanel_SoftOrange td.dx,
+.dxlpLoadingPanelWithContent_SoftOrange td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxlpLoadingPanel_SoftOrange .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_SoftOrange .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxlpControl_SoftOrange.dxlpLoadingDiv_SoftOrange 
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxmLite_SoftOrange .dxm-main
+{
+	border: 3px solid #D3D3D3;
+	padding: 1px;
+}
+
+.dxmLite_SoftOrange .dxm-horizontal
+{
+}
+.dxmLite_SoftOrange .dxm-vertical
+{
+	width: 150px;
+}
+
+.dxmLite_SoftOrange .dxm-popup
+{
+	background-color: #F9F9F9;
+	border: 1px solid #A8A8A8;
+	padding: 2px;
+}
+
+.dxmBrdCor_SoftOrange
+{
+	background-color: #F9F9F9;
+}
+
+.dxmLite_SoftOrange .dxm-main,
+.dxmLite_SoftOrange .dxm-main .dxm-item
+{
+	background: #F4F4F4 url('mItemBack.png') repeat-x left top;
+}
+
+.dxmLite_SoftOrange .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_SoftOrange .dxm-image-t .dxm-item,
+.dxmLite_SoftOrange .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_SoftOrange .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_SoftOrange,
+.dxmLite_SoftOrange .dxm-item a.dx
+{
+	color: #707070;
+}
+.dxmLite_SoftOrange .dxm-disabled,
+.dxmLite_SoftOrange .dxm-disabled a.dx
+{
+	color: #abb590;
+}
+.dxmLite_SoftOrange .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_SoftOrange .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popOut,
+.dxmLite_SoftOrange.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popOut,
+.dxmLite_SoftOrange.dxm-ltr .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_SoftOrange .dxm-item,
+.dxmLite_SoftOrange .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_SoftOrange .dxm-selected,
+.dxmLite_SoftOrange .dxm-main .dxm-item.dxm-selected,
+.dxmLite_SoftOrange .dxm-main .dxm-item.dxm-checked,
+.dxmLite_SoftOrange .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_SoftOrange .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	background: #DFDFDF url('mItemBackS.png') repeat-x left top;
+	border-style: dotted;
+	border-color: #5c5c5c;
+}
+.dxmLite_SoftOrange .dxm-hovered,
+.dxmLite_SoftOrange .dxm-main .dxm-item.dxm-hovered,
+.dxmLite_SoftOrange .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+    background: transparent;
+    border-style: solid;
+	border-color: #A8A8A8;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-hovered
+{
+	background: #F15E34;
+	border-color: #F15E34;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-hovered,
+.dxmLite_SoftOrange .dxm-popup .dxm-hovered a.dx 
+{
+	color: White;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #F9F9F9;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #dfdfdf;
+    outline: 1px dotted #5c5c5c;
+    background-color: #dfdfdf;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_SoftOrange
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 7px 4px 8px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 8px 4px 7px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 11px 4px 10px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 10px 4px 11px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 5px 11px 5px 10px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 5px 10px 5px 11px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content
+{
+	padding-right: 10px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 10px;
+}
+
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 18px 5px 6px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 6px 5px 18px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 5px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-left: 5px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 5px 11px 5px 10px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 5px 10px 5px 11px;
+}
+
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 2px 39px 2px 7px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 2px 7px 2px 39px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 17px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 17px;
+}
+
+/* Image */
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 6px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 6px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 6px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 6px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-l .dxm-image,
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 9px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-r .dxm-image,
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 9px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 8px -1px -1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+	margin: -1px -1px -1px 8px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_SoftOrange
+{
+	margin: 0px 10px 0px 1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_SoftOrange
+{
+	margin: 0px 1px 0px 10px;
+}
+
+/* Image replacement */
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 26px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 26px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 3px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 25px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 25px;
+}
+
+/* PopOut */
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-popOut
+{
+	padding-right: 7px;
+	margin-left: -1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-popOut
+{
+	padding-left: 7px;
+	margin-right: -1px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-popOut
+{
+	padding-left: 8px;
+	margin-right: -1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-popOut
+{
+	padding-right: 8px;
+	margin-left: -1px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxmLite_SoftOrange.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-popOut
+{
+	padding-right: 5px;
+	margin-left: -1px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxmLite_SoftOrange.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-popOut
+{
+	padding-left: 5px;
+	margin-right: -1px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_SoftOrange .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-popOut
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	margin-right: 2px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-vertical .dxm-image-l .dxm-popOut
+{
+	margin-left: 2px;
+}
+
+.dxmLite_SoftOrange .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-popOut
+{
+	padding-left: 6px;
+	padding-right: 3px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-popOut
+{
+	padding-right: 6px;
+	padding-left: 3px;
+}
+
+/* PopOut replacement */
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+
+/* Spacings, Separator */
+.dxmLite_SoftOrange .dxm-spacing
+{
+	width: 1px;
+	height: 1px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-separator b
+{
+	width: 5px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-separator b
+{
+	height: 3px;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-separator
+{
+	padding: 2px 1px;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-separator,
+.dxmLite_SoftOrange .dxm-popup .dxm-separator
+{
+	padding: 1px 0;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-separator b
+{
+	background: #F4F4F4 url('mSeparatorBack.png') no-repeat center center;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	background: #F4F4F4 url('mLargeSeparatorBack.png') no-repeat center center;
+}
+.dxmLite_SoftOrange .dxm-vertical .dxm-separator b
+{
+	background: #F4F4F4 url('mVSeparatorBack.png') repeat-x left;
+}
+.dxmLite_SoftOrange .dxm-popup .dxm-separator b
+{
+	background-color: #D3D3D3;
+}
+.dxmLite_SoftOrange .dxm-horizontal .dxm-separator b,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator b,
+.dxmLite_SoftOrange .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator b
+{
+	height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-separator
+{
+	padding-left: 31px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-right: 31px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-left: 0;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-right: 0;
+}
+/* Scroll elements */
+.dxmLite_SoftOrange .dxm-scrollUpBtn, 
+.dxmLite_SoftOrange .dxm-scrollDownBtn
+{
+	background-color: #f9f9f9;
+	border-style: none;
+	padding: 2px;
+	text-align: center;
+}
+.dxmLite_SoftOrange .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+	padding-bottom: 4px;
+}
+.dxmLite_SoftOrange .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+	padding-top: 4px;
+}
+.dxmLite_SoftOrange .dxm-scrollBtnHovered
+{
+	background: #f98936 url('mScrollHBack.gif') repeat-x top;
+}
+.dxmLite_SoftOrange .dxm-scrollBtnPressed
+{
+	background-color: #d95626;
+}
+.dxmLite_SoftOrange .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_SoftOrange .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_SoftOrange .dxm-main.dxmtb 
+{
+	padding: 1px 4px;
+}
+
+/* has image */
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 5px 5px 4px;
+}
+/* no image */
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 5px 5px 4px;
+}
+
+/* dd has image */
+.dxmLite_SoftOrange.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_SoftOrange.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_SoftOrange.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content 
+{
+	padding: 5px 4px 4px 5px;
+}
+
+/* dd no image */
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content, 
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content, 
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 5px 5px 4px;
+}
+
+/* image */
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-popOut,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-noImage .dxm-popOut 
+{
+	padding: 11px 5px 10px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxmtb.dxm-popup .dxm-image 
+{
+	margin-right: 10px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxmtb.dxm-popup .dxm-image 
+{
+	margin-left: 10px;
+}
+.dxmLite_SoftOrange.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 26px;
+}
+.dxmLite_SoftOrange.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 26px;
+}
+
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-spacing 
+{
+	width: 1px;
+    min-width: 2px;
+}
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 2px 1px;
+}
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-separator,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-separator
+{
+	padding: 3px 1px;
+}
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-image-b .dxm-separator b 
+{
+	*height: 34px;
+}
+.dxmLite_SoftOrange .dxmtb .dxtb-comboBoxMenuItem 
+{
+	padding: 2px 0;
+}
+.dxmLite_SoftOrange .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 7px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_SoftOrange,
+.menuLinks_SoftOrange .dxm-item,
+.menuLinks_SoftOrange .dxm-hovered,
+.menuLinks_SoftOrange .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+.menuLinks_SoftOrange .dxm-tmpl
+{
+    padding-top:1px!important;
+}
+
+.menuLinks_SoftOrange .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_SoftOrange .dxm-item a.dx > span
+{
+    color: #707070;
+    text-decoration: underline;
+}
+
+.menuLinks_SoftOrange .dxm-hovered a.dx > span
+{
+    color: #f15e34 !important;
+    text-decoration: underline !important;
+}
+
+.menuButtons_SoftOrange,
+.menuButtons_SoftOrange a.dx,
+.menuButtons_SoftOrange .dxm-item.dxm-tmpl
+{
+    color: #FFFFFF !important;
+    background: none !important;
+}
+
+.menuButtons_SoftOrange .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_SoftOrange .dxm-content
+{
+    padding: 1px 8px 1px 8px !important;
+    height:17px!important;
+}
+
+.menuButtons_SoftOrange .dxm-item
+{
+    border: 1px solid #cb4b31;
+    background: #EF643C url('../Editors/edtButtonBack.gif') repeat-x top !important;
+}
+
+.menuButtons_SoftOrange .dxm-item.dxm-hovered
+{
+    background: #f88e3d url('../Editors/edtButtonHoverBack.gif') repeat-x top !important;
+    border: 1px solid #cb4b31;
+}
+
+.menuButtons_SoftOrange .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_SoftOrange .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_SoftOrange 
+{
+	color: Black;
+	background-color: White;
+	border: 4px Solid #D3D3D3;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 1px;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_SoftOrange a
+{
+	color: #959595;
+	text-decoration: none;
+}
+.dxnbLite_SoftOrange .dxnb-gr 
+{
+	margin-bottom: 0;
+}
+.dxnbLite_SoftOrange .dxnb-header,
+.dxnbLite_SoftOrange .dxnb-headerCollapsed 
+{
+	color: #707070;
+	background: #f4f4f4 url('nbHeaderBack.png') repeat-x top;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom: 1px Dotted #5C5C5C;
+	margin: 0;
+	padding: 4px 4px 4px 6px;
+	white-space: nowrap;
+}
+.dxnbLite_SoftOrange .dxnb-header a,
+.dxnbLite_SoftOrange .dxnb-headerCollapsed a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxnbLite_SoftOrange .dxnb-header a:hover,
+.dxnbLite_SoftOrange .dxnb-headerCollapsed a:hover
+{
+	color: #f15e34;
+	text-decoration: underline;
+}
+.dxnbLite_SoftOrange .dxnb-content 
+{
+	color: #959595;
+	border-bottom: 1px Dotted #5C5C5C;
+	list-style: none none outside;
+	margin: 0;
+	padding: 2px 1px;
+	overflow: hidden;
+}
+.dxnbLite_SoftOrange.dxnb-noHeads .dxnb-content
+{
+}
+.dxnbLite_SoftOrange .dxnb-item,
+.dxnbLite_SoftOrange .dxnb-large,
+.dxnbLite_SoftOrange .dxnb-bullet
+{
+    border: 1px solid Transparent;
+	color: #959595;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_SoftOrange .dxnb-item,
+.dxnbLite_SoftOrange .dxnb-large,
+.dxnbLite_SoftOrange .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_SoftOrange .dxnb-item.dxnb-link,
+.dxnbLite_SoftOrange .dxnb-item .dxnb-link
+{
+	padding: 3px 4px 3px 19px;
+    white-space: nowrap;
+}
+.dxnbLite_SoftOrange .dxnb-large.dxnb-link,
+.dxnbLite_SoftOrange .dxnb-large .dxnb-link
+{
+	padding: 5px 11px 1px;
+    white-space: nowrap;
+}
+.dxnbLite_SoftOrange .dxnb-bullet,
+.dxnbLite_SoftOrange .dxnb-bulletHover,
+.dxnbLite_SoftOrange .dxnb-bulletSelected 
+{
+	padding: 2px 8px;
+	overflow: visible;
+	margin-bottom: 2px;
+}
+.dxnbLite_SoftOrange .dxnb-itemSelected,
+.dxnbLite_SoftOrange .dxnb-largeSelected
+{
+	color: #FFFFFF;
+	background-color: #F15E34;
+	border: 1px Solid #F15E34;
+}
+.dxnbLite_SoftOrange .dxnb-itemSelected a,
+.dxnbLite_SoftOrange .dxnb-largeSelected a
+{
+	color: #FFFFFF;
+}
+.dxnbLite_SoftOrange .dxnb-itemHover,
+.dxnbLite_SoftOrange .dxnb-largeHover
+{
+	background-color: #EFEFEF;
+	border: 1px solid #E3E3E3;
+	color: #959595;
+}
+.dxnbLite_SoftOrange .dxnb-itemHover a,
+.dxnbLite_SoftOrange .dxnb-largeHover a
+{
+	color: #959595;
+}
+.dxnbLite_SoftOrange .dxnb-header,
+.dxnbLite_SoftOrange .dxnb-headerCollapsed, 
+.dxnbLite_SoftOrange .dxnb-item,
+.dxnbLite_SoftOrange .dxnb-itemHover,
+.dxnbLite_SoftOrange .dxnb-itemSelected,
+.dxnbLite_SoftOrange .dxnb-bullet,
+.dxnbLite_SoftOrange .dxnb-bulletHover,
+.dxnbLite_SoftOrange .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_SoftOrange .dxnb-large,
+.dxnbLite_SoftOrange .dxnb-largeHover,
+.dxnbLite_SoftOrange .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_SoftOrange .dxnb-headerHover
+{
+	background: url('nbHeaderHBack.png') repeat-x top;
+}
+.dxnbLite_SoftOrange .dxnb-headerCollapsedHover
+{
+	background: url('nbHeaderHBack.png') repeat-x top;
+}
+.dxnbLite_SoftOrange .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_SoftOrange .dxnb-btn,
+.dxnbLite_SoftOrange .dxnb-btnLeft,
+.dxnbLite_SoftOrange .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_SoftOrange .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+.dxnbLite_SoftOrange .dxnb-btnLeft,
+.dxnbLite_SoftOrange .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+.dxnbLite_SoftOrange .dxnb-img
+{
+	margin: 0 4px 0 0;
+}
+.dxnbLite_SoftOrange .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_SoftOrange .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 4px;
+}
+.dxnbLite_SoftOrange .dxnb-header.dxnb-header-left,
+.dxnbLite_SoftOrange .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_SoftOrange .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_SoftOrange .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 3px;
+}
+.dxnbLite_SoftOrange .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 3px;
+}
+.dxnbLite_SoftOrange .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_SoftOrange,
+.dxnbLite_SoftOrange .dxnbLiteDisabled_SoftOrange,
+.dxnbLiteDisabled_SoftOrange a,
+.dxnbLiteDisabled_SoftOrange .dxnb-item,
+.dxnbLiteDisabled_SoftOrange .dxnb-large,
+.dxnbLiteDisabled_SoftOrange .dxnb-bullet,
+.dxnbLiteDisabled_SoftOrange .dxnb-header,
+.dxnbLiteDisabled_SoftOrange .dxnb-headerCollapsed 
+{
+	color: #d1d0d0;
+	cursor: default;
+}
+/* -- ASPxNewsControl -- */
+.dxncControl_SoftOrange 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	background-color: White;
+}
+.dxncControl_SoftOrange a
+{
+	color: #bc3f26;
+}
+.dxncControl_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+.dxncControl_SoftOrange td.dxncCtrl
+{
+	padding: 0px 18px 18px;
+}
+.dxncContent_SoftOrange
+{
+}
+.dxncPagerPanel_SoftOrange
+{
+	padding: 0px 3px;
+}
+.dxncItem_SoftOrange
+{
+	vertical-align: top;
+	border-bottom: 1px dotted #5c5c5c;
+	padding: 28px 8px 30px;
+}
+.dxncEmptyItem_SoftOrange
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncPagerShowMoreItemsContainer_SoftOrange
+{
+    height: 60px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_SoftOrange a
+{
+	display: block;
+	padding-top: 25px;
+	color: #BC3F26;
+}
+/* Disabled */
+.dxncDisabled_SoftOrange,
+.dxncDisabled_SoftOrange span.dxhl,
+.dxncDisabled_SoftOrange a,
+.dxncDisabled_SoftOrange a:hover
+{
+	color: #ababab;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #696969;
+	padding: 5px 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_SoftOrange .dxp-summary,
+.dxpLite_SoftOrange .dxp-sep,
+.dxpLite_SoftOrange .dxp-button,
+.dxpLite_SoftOrange .dxp-pageSizeItem,
+.dxpLite_SoftOrange .dxp-num,
+.dxpLite_SoftOrange .dxp-current,
+.dxpLite_SoftOrange .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_SoftOrange .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_SoftOrange a
+{
+	color: #BC3F26;
+}
+.dxpLite_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+
+.dxpLite_SoftOrange .dxp-button
+{
+	color: #BC3F26;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: underline;
+    padding: 3px 5px 4px;
+}
+.dxpLite_SoftOrange .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_SoftOrange .dxp-button span
+{
+	text-decoration: underline;
+    margin-top: -1px;
+}
+.dxpLite_SoftOrange .dxp-button.dxp-bi
+{
+	padding: 0;
+}
+.dxpLite_SoftOrange .dxp-button.dxp-bti 
+{
+	padding: 0 5px;
+}
+.dxpLite_SoftOrange .dxp-disabledButton,
+.dxpLite_SoftOrange .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #ababab;
+}
+
+.dxpLite_SoftOrange .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.dxpLite_SoftOrange .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_SoftOrange .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_SoftOrange .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #A0A0A0;
+    margin: -1px 0px;
+    padding: 1px;
+}
+.dxpLite_SoftOrange .dxp-comboBox input
+{
+    margin: 1px 2px 0px;
+}
+*[dir="rtl"].dxpLite_SoftOrange .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_SoftOrange .dxp-hoverComboBox
+{
+}
+.dxpLite_SoftOrange .dxp-pressedComboBox
+{
+}
+.dxpLite_SoftOrange .dxp-dropDownButton
+{
+    padding: 7px 5px 6px;
+    background: #f0653a url('pDropDownButtonBack.gif') repeat-x top;
+}
+.dxpLite_SoftOrange .dxp-hoverDropDownButton
+{
+    background: #f88e3d url('pDropDownButtonHoverBack.gif') repeat-x top;
+}
+.dxpLite_SoftOrange .dxp-pressedDropDownButton
+{
+    background: #d34f25 url('pDropDownButtonPressedBack.gif') repeat-x top;
+}
+
+.dxpLite_SoftOrange .dxp-num
+{
+	color: #BC3F26;
+	text-decoration: underline;
+	padding: 3px 4px 4px;
+}
+
+.dxpLite_SoftOrange .dxp-current
+{
+	color: #f15e34;
+	background-color: #dfdfdf;
+}
+
+.dxpLite_SoftOrange .dxp-summary,
+.dxpLite_SoftOrange .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 3px 4px 4px;
+}
+.dxpLite_SoftOrange .dxp-summary
+{
+	padding-right: 10px;
+}
+
+.dxpLite_SoftOrange .dxp-sep
+{
+	background-color: #d3d3d3;
+	width: 1px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.dxpLiteDisabled_SoftOrange,
+.dxpLiteDisabled_SoftOrange a,
+.dxpLiteDisabled_SoftOrange .dxp-summary,
+.dxpLiteDisabled_SoftOrange .dxp-sep,
+.dxpLiteDisabled_SoftOrange .dxp-button,
+.dxpLiteDisabled_SoftOrange .dxp-pageSizeItem,
+.dxpLiteDisabled_SoftOrange .dxp-num,
+.dxpLiteDisabled_SoftOrange .dxp-current,
+.dxpLiteDisabled_SoftOrange .dxp-ellip
+{
+	color: #ababab;
+	border-color: #848484;
+	cursor: default;
+}
+.dxpLite_SoftOrange .dxp-disabledComboBox
+{
+    border-color: #A0A0A0;
+}
+.dxpLite_SoftOrange .dxp-disabledComboBox input
+{
+    color: #ababab;
+}
+.dxpLite_SoftOrange .dxp-disabledDropDownButton
+{
+    cursor: default;
+    background: #c0c0c0 url('pDropDownButtonDisabledBack.gif') repeat-x left top;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_SoftOrange,
+.dxdpLite_SoftOrange
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #737373;
+}
+.dxdpLite_SoftOrange {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_SoftOrange .dxpc-mainDiv,
+.dxpcLite_SoftOrange.dxpc-mainDiv,
+.dxdpLite_SoftOrange .dxpc-mainDiv,
+.dxdpLite_SoftOrange.dxpc-mainDiv  
+{
+	top: 0;
+	left: 0;
+	background-color: white;
+	border: 4px solid #d3d3d3;
+	padding: 1px;
+}
+
+.dxpcLite_SoftOrange a.dxpc-link,
+.dxdpLite_SoftOrange a.dxpc-link 
+{
+	color: #bc3f26;
+}
+.dxpcLite_SoftOrange a.dxpc-link:hover,
+.dxdpLite_SoftOrange a.dxpc-link:hover 
+{
+	color: #f15e34;
+}
+.dxpcLite_SoftOrange a.dxpc-link *,
+.dxdpLite_SoftOrange a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_SoftOrange .dxpc-closeBtn,
+.dxdpLite_SoftOrange .dxpc-closeBtn,
+.dxpcLite_SoftOrange .dxpc-pinBtn,
+.dxdpLite_SoftOrange .dxpc-pinBtn,
+.dxpcLite_SoftOrange .dxpc-refreshBtn,
+.dxdpLite_SoftOrange .dxpc-refreshBtn,
+.dxpcLite_SoftOrange .dxpc-collapseBtn,
+.dxdpLite_SoftOrange .dxpc-collapseBtn,
+.dxpcLite_SoftOrange .dxpc-maximizeBtn,
+.dxdpLite_SoftOrange .dxpc-maximizeBtn 
+{
+	padding: 1px;
+	float: right;
+}
+
+.dxpcLite_SoftOrange.dxRtl  .dxpc-closeBtn,
+.dxdpLite_SoftOrange.dxRtl  .dxpc-closeBtn,
+.dxpcLite_SoftOrange.dxRtl  .dxpc-pinBtn,
+.dxdpLite_SoftOrange.dxRtl  .dxpc-pinBtn,
+.dxpcLite_SoftOrange.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_SoftOrange.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_SoftOrange.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_SoftOrange.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_SoftOrange.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_SoftOrange.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_SoftOrange .dxpc-closeBtnHover,
+.dxdpLite_SoftOrange .dxpc-closeBtnHover,
+.dxpcLite_SoftOrange .dxpc-pinBtnHover,
+.dxdpLite_SoftOrange .dxpc-pinBtnHover,
+.dxpcLite_SoftOrange .dxpc-refreshBtnHover,
+.dxdpLite_SoftOrange .dxpc-refreshBtnHover,
+.dxpcLite_SoftOrange .dxpc-collapseBtnHover,
+.dxdpLite_SoftOrange .dxpc-collapseBtnHover,
+.dxpcLite_SoftOrange .dxpc-maximizeBtnHover,
+.dxdpLite_SoftOrange .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_SoftOrange .dxpc-header,
+.dxdpLite_SoftOrange .dxpc-header 
+{
+	color: #5c5c5c;
+	background: #f4f4f4 url('pcHeaderBack.gif') repeat-x left top;
+	border-bottom: 1px dotted #5c5c5c;
+	padding: 3px 2px 3px 12px;
+}
+
+.dxpcLite_SoftOrange.dxRtl .dxpc-header,
+.dxdpLite_SoftOrange.dxRtl .dxpc-header  
+{
+	padding-left: 2px;
+	padding-right: 12px;
+}
+
+.dxpcLite_SoftOrange .dxpc-headerText,
+.dxdpLite_SoftOrange .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_SoftOrange .dxpc-headerImg,
+.dxdpLite_SoftOrange .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_SoftOrange.dxRtl .dxpc-headerImg,
+.dxdpLite_SoftOrange.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_SoftOrange .dxpc-content,
+.dxdpLite_SoftOrange .dxpc-content
+{
+	white-space: normal;
+	padding: 9px 12px 10px;
+}
+
+.dxpcLite_SoftOrange .dxpc-footer,
+.dxdpLite_SoftOrange .dxpc-footer
+{
+	color: #999999;
+	background: #f4f4f4 url('pcFooterBack.gif') repeat-x left top;
+	border-top: 1px solid #E0E0E0;
+}
+
+.dxpcLite_SoftOrange .dxpc-footerContent,
+.dxdpLite_SoftOrange .dxpc-footerContent
+{
+	padding: 15px 20px 15px 12px;
+}
+
+.dxpcLite_SoftOrange.dxRtl .dxpc-footerContent,
+.dxdpLite_SoftOrange.dxRtl .dxpc-footerContent
+{
+	padding: 15px 12px 15px 20px;
+}
+
+.dxpcLite_SoftOrange .dxpc-footerText,
+.dxdpLite_SoftOrange .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_SoftOrange .dxpc-footerImg,
+.dxdpLite_SoftOrange .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_SoftOrange.dxRtl .dxpc-footerImg,
+.dxdpLite_SoftOrange.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_SoftOrange .dxpc-sizeGrip,
+.dxdpLite_SoftOrange .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_SoftOrange.dxRtl .dxpc-sizeGrip,
+.dxdpLite_SoftOrange.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_SoftOrange,
+.dxdpModalBackLite_SoftOrange
+{
+	background: url('pcModalBack.gif') repeat;
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_SoftOrange,
+.dxdpLiteDisabled_SoftOrange
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_SoftOrange
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #d3d3d3;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge,
+.dxpnlControl_SoftOrange.dxpnl-edge.dxpnl-bar
+{
+    background-color: white;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge,
+.dxpnlControl_SoftOrange.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_SoftOrange.dxpnl-bar
+{
+    padding: 12px;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge.t
+{
+    border-bottom-width: 3px;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge.b
+{
+    border-top-width: 3px;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge.l
+{
+    border-right-width: 3px;
+}
+.dxpnlControl_SoftOrange.dxpnl-edge.r
+{
+    border-left-width: 3px;
+}
+.dxpnlControl_SoftOrange .dxpnl-btn
+{
+}
+.dxpnlControl_SoftOrange .dxpnl-btnHover
+{
+}
+.dxpnlControl_SoftOrange .dxpnl-btnPressed
+{
+}
+.dxpnlControl_SoftOrange .dxpnl-btnSelected
+{
+}
+.dxpnlDisabled_SoftOrange
+{
+	color: #ababab;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_SoftOrange, 
+.dxrpControlGB_SoftOrange
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #737373;
+}
+.dxrpControl_SoftOrange .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_SoftOrange:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_SoftOrange:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_SoftOrange:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 9px;
+}
+.dxrpControl_SoftOrange:not(.dxrp-hasDefaultImages) .dxrpHeader_SoftOrange
+{
+	border-radius:9px 9px 0px 0px;
+}
+.dxrpControl_SoftOrange:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 9px 9px;
+}
+.dxrpWithoutHeader_SoftOrange:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent{
+	border-radius:9px;
+}
+/* Header */
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange, 
+.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange
+{
+	color: #5c5c5c;
+}
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange > a,
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange > a > span.dxrpHT,
+.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange a
+{
+    color: #BC3F26;
+}
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange > a:hover,
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange > a:hover > span.dxrpHT,
+.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange a:hover
+{
+    color: #F15E34;
+}
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControl_SoftOrange .dxrpCollapseButtonRtl ~ .dxrpHT,
+.dxrpControl_SoftOrange .dxrpCollapseButton ~ .dxrpHT
+{
+	margin-top:1px;
+}
+/* Header image */
+.dxrpControl_SoftOrange .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_SoftOrange .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+/* Background */
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange
+{
+    background-image: none;
+	background-color: #F9F9F9;
+}
+.dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange
+{
+    background-image: none;
+	background-color: White;
+}
+/* Borders */
+.dxrpControl_SoftOrange > tbody > tr:first-child > .dxrpcontent,
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange 
+{
+	border-top:4px solid #D3D3D3;
+}
+.dxrpControlGB_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border:4px solid #D3D3D3;
+}
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange 
+{
+	border-bottom:1px dotted #5C5C5C;
+}
+.dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent 
+{
+	border-bottom:4px solid #D3D3D3;
+}
+.dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange 
+{
+	border-left:4px solid #D3D3D3;
+	border-right:4px solid #D3D3D3;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_SoftOrange {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_SoftOrange.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_SoftOrange.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_SoftOrange td.dxrpHeader_SoftOrange 
+{
+	padding: 5px 5px 5px 10px;
+}
+.dxrpControlGB_SoftOrange span.dxrpHeader_SoftOrange 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_SoftOrange.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW
+{
+	padding: 9px 10px 10px 10px;
+}
+.dxrpControlGB_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 6px 10px 10px 10px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_SoftOrange > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -15px;
+	left: 0px;
+	margin-bottom:-9px;
+}
+.dxrpControlGB_SoftOrange {
+	margin-top: 5px;
+}
+/* Disabled */
+.dxrpDisabled_SoftOrange,
+.dxrpDisabled_SoftOrange td.dxrp
+{
+	color: #ababab;
+	cursor: default;
+}
+.dxrpDisabled_SoftOrange.dxrpCollapsed > tbody > tr > td.dxrpHeader_SoftOrange
+{
+    border-radius: 9px;
+    border: 4px solid #d3d3d3;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_SoftOrange 
+{
+	color: #1E3695;
+	background-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px Solid #A8A8A8;
+}
+.dxsmControl_SoftOrange a:hover
+{
+	color: #f15e34!important;
+}
+.dxsmControl_SoftOrange a:visited
+{
+	color: #a1a1a1!important;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_SoftOrange,
+.dxsmCategoryLevel_SoftOrange a
+{
+	color: #f15e34;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_SoftOrange
+{
+    font-size: 1.42em;
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+	border-bottom: 1px solid #B8B8B8;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_SoftOrange,
+.dxsmLevelCategoryFlow_SoftOrange a
+{
+	color: #f15e34;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.dxsmLevelCategoryFlow_SoftOrange
+{
+	font-size: 1.42em;
+}
+/* - Level 0 - */
+.dxsmLevel0_SoftOrange,
+.dxsmLevel0_SoftOrange a,
+.dxsmLevel0Categorized_SoftOrange a,
+.dxsmLevel0Categorized_SoftOrange
+{
+	color: #f15e34;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxsmLevel0_SoftOrange,
+.dxsmLevel0Categorized_SoftOrange
+{
+    font-size: 1.42em;
+	white-space: nowrap;
+	padding: 0px 0px 2px;
+}
+.dxsmLevel0_SoftOrange
+{
+	border-bottom: 1px dotted #5c5c5c;
+	padding: 2px 0px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_SoftOrange,
+.dxsmLevel0Flow_SoftOrange a,
+.dxsmLevel0CategorizedFlow_SoftOrange a,
+.dxsmLevel0CategorizedFlow_SoftOrange
+{
+	color: #f15e34;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_SoftOrange
+{
+    font-size: 1.42em;
+	padding: 0px;
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_SoftOrange,
+.dxsmLevel1_SoftOrange a,
+.dxsmLevel1Categorized_SoftOrange a,
+.dxsmLevel1Categorized_SoftOrange
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxsmLevel1_SoftOrange,
+.dxsmLevel1Categorized_SoftOrange
+{
+	white-space: nowrap;
+	padding: 2px 0px 3px 9px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_SoftOrange,
+.dxsmLevel1Flow_SoftOrange a,
+.dxsmLevel1CategorizedFlow_SoftOrange,
+.dxsmLevel1CategorizedFlow_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_SoftOrange
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_SoftOrange,
+.dxsmLevel2_SoftOrange a,
+.dxsmLevel2Categorized_SoftOrange a,
+.dxsmLevel2Categorized_SoftOrange
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxsmLevel2_SoftOrange,
+.dxsmLevel2Categorized_SoftOrange
+{
+	white-space: nowrap;
+	padding: 2px 0px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_SoftOrange,
+.dxsmLevel2Flow_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_SoftOrange
+{
+	padding: 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_SoftOrange,
+.dxsmLevel3_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxsmLevel3_SoftOrange
+{
+	white-space: nowrap;
+	padding: 2px 0px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_SoftOrange,
+.dxsmLevel3Flow_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_SoftOrange,
+.dxsmLevel4_SoftOrange a
+{
+	color: #A8A8A8;
+	text-decoration: none;
+}
+.dxsmLevel4_SoftOrange
+{
+	white-space: nowrap;
+	padding: 2px 0px;
+}
+/*flow layout*/
+.dxsmLevel4Flow_SoftOrange,
+.dxsmLevel4Flow_SoftOrange a
+{
+	color: #A8A8A8;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_SoftOrange
+{
+	padding: 0px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_SoftOrange
+{
+	color: #A8A8A8;
+	text-decoration: none;
+}
+.dxsmLevelOther_SoftOrange
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_SoftOrange,
+.dxsmLevelOtherFlow_SoftOrange a
+{
+	color: #A8A8A8;
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_SoftOrange
+{
+	color: #ababab;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_SoftOrange 
+{
+	overflow: hidden;
+	color: #707070;
+	float: left;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 4px;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #F5F5F5 url('tcTabBack.gif') repeat-x left top;
+	border: 1px solid #D3D3D3;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #F9F9F9 url('tcATabBack.gif') repeat-x left top;
+	border: 3px solid #D3D3D3;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-tab
+{
+	border-bottom: 3px solid #D3D3D3;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-tabHover
+{
+	background-color: #ececec;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-top: 1px solid transparent;
+	border-bottom: 3px solid #D3D3D3;
+	overflow: hidden;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-link
+{
+	display: block;
+	height: 100%;
+    color: #707070;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+	color: #F15E34;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_SoftOrange > .dxtc-content 
+{
+	background-color: #F9F9F9;
+	float: left;
+	clear: left;
+	border: 3px solid #D3D3D3;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-tab
+{
+    padding: 2px 2px 0;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    padding: 0 0 3px;
+    border-bottom-width: 0;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 12px 6px;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    padding-bottom: 2px;
+}
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+
+/* Rtl */
+.dxtcLite_SoftOrange.dxtc-rtl,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-content,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_SoftOrange.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_SoftOrange.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_SoftOrange.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_SoftOrange.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_SoftOrange.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_SoftOrange.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+/* Scrolling */
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sb          
+{
+	margin-top: 3px;
+	border-style: none;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLiteDisabled_SoftOrange,
+.dxtcLiteDisabled_SoftOrange > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_SoftOrange > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_SoftOrange > .dxtc-content,
+.dxtcLite_SoftOrange > .dxtc-stripContainer .dxtcLiteDisabled_SoftOrange .dxtc-link
+{
+	color: #ababab;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 4px;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 3px solid #D3D3D3;
+	border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border: 1px solid #D3D3D3;
+    padding: 0 2px 2px;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #F9F9F9 url('tcATabBottomBack.gif') repeat-x left bottom;
+	border: 3px solid #D3D3D3;
+	border-top-width: 0;
+    padding: 3px 0 0;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border-top: 3px solid #D3D3D3;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-stripContainer .dxtc-link
+{
+	padding: 6px 12px 4px;
+}
+.dxtcLite_SoftOrange.dxtc-bottom > .dxtc-content
+{
+	clear: right;
+	border-top: 3px solid #D3D3D3;
+	border-right: 3px solid #D3D3D3;
+	border-bottom-color: #D3D3D3;
+	border-left: 3px solid #D3D3D3;
+	border-bottom-width: 3px;
+	border-bottom-style: none!important;
+}
+/* left */
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 4px;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-tab
+{
+	border: 1px solid #D3D3D3;
+    padding: 2px 0 2px 2px;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 3px solid #D3D3D3;
+	border-right-width: 0;
+    padding: 0 3px 0 0;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-tab
+{
+	border-right: 3px solid #D3D3D3;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 14px 4px 12px;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 3px solid #D3D3D3;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_SoftOrange.dxtc-left > .dxtc-content
+{
+	border-top: 3px solid #D3D3D3;
+	border-right: 3px solid #D3D3D3;
+	border-bottom: 3px solid #D3D3D3;
+	border-left-color: #D3D3D3;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 4px;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-tab
+{
+	border: 1px solid #D3D3D3;
+    padding: 2px 2px 2px 0;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #F5F5F5;
+	border: 3px solid #D3D3D3;
+	border-left-width: 0;
+    padding: 0 0 0 3px;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-tab
+{
+	border-left: 3px solid #D3D3D3;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 12px 4px 14px;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 3px solid #D3D3D3;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_SoftOrange.dxtc-right > .dxtc-content
+{
+	background-color: #F5F5F5;
+	border-top: 3px solid #D3D3D3;
+	border-right-color: #D3D3D3;
+	border-bottom: 3px solid #D3D3D3;
+	border-left: 3px solid #D3D3D3;
+	border-right-width: 3px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_SoftOrange.dxtc-noTabs > .dxtc-content
+{
+	border: 3px solid #CCCCCC!important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_SoftOrange 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #1E3695;
+	background-color: white;
+	border-style: none;
+}
+.dxtiControl_SoftOrange a
+{
+	color: #bc3f26;
+}
+.dxtiControl_SoftOrange a:hover
+{
+	color: #f15e34;
+}
+.dxtiItem_SoftOrange
+{
+	color: #bc3f26;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_SoftOrange,
+.dxtiGroupHeaderCategorized_SoftOrange
+{
+	color: #707070;
+	font-size: 1.33em;
+	text-decoration: none;
+}
+.dxtiGroupHeader_SoftOrange,
+.dxtiGroupHeaderCategorized_SoftOrange
+{
+	white-space: nowrap;
+	padding: 0px 0px 3px;
+}
+.dxtiGroupHeaderCategorized_SoftOrange
+{
+	border-bottom: 1px Solid #C0C0C0;
+	padding-bottom: 2px;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_SoftOrange
+{
+	background-color: transparent;
+	color: #707070;
+}
+.dxtiGroupHeaderText_SoftOrange
+{
+	padding: 0px;
+	border-bottom: 1px dotted #707070;
+}
+.dxtiGroupHeaderTextCategorized_SoftOrange
+{
+	color: #666666;
+}
+.dxtiGroupHeaderTextCategorized_SoftOrange
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_SoftOrange
+{
+	color: #999999;
+	font-weight: normal;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+.dxtiFilterBoxEdit_SoftOrange
+{
+	border: 1px Solid #A0A0A0;
+}
+.dxtiFilterBox_SoftOrange,
+.dxtiFilterBox_SoftOrange table
+{
+	color: #898989;
+	font-weight: normal;
+}
+.dxtiFilterBox_SoftOrange
+{
+	background-color: #E8E8E8;
+	border: 1px dotted #5c5c5c;
+	padding: 11px 15px 15px;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_SoftOrange
+{
+    font-size: 1.33em;
+	padding-bottom: 12px;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_SoftOrange,
+.dxtiCurrentIndexPanelItem_SoftOrange,
+.dxtiIndexPanelItem_SoftOrange a
+{
+	color: #bc3f26;
+	text-decoration: underline;
+}
+.dxtiIndexPanelItem_SoftOrange,
+.dxtiCurrentIndexPanelItem_SoftOrange
+{
+	padding: 2px 6px;
+}
+.dxtiCurrentIndexPanelItem_SoftOrange
+{
+	color: #f15e34;
+	background-color: #dfdfdf;
+}
+/* - BackToTop - */
+.dxtiBackToTop_SoftOrange
+{
+	text-decoration: underline;
+	color: #AAAAAA;
+}
+.dxtiBackToTop_SoftOrange,
+.dxtiBackToTopRtl_SoftOrange
+{
+	padding: 4px 0 12px;
+}
+/* Disabled */
+.dxtiDisabled_SoftOrange,
+.dxtiDisabled_SoftOrange a
+{
+	color: #848484;
+	cursor: default!important;
+}
+/* -- ASPxUploadControl -- */
+.dxucControl_SoftOrange,
+.dxucEditArea_SoftOrange,
+input[type="text"].dxucEditArea_SoftOrange /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_SoftOrange,
+input[type="text"].dxucEditArea_SoftOrange /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_SoftOrange /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_SoftOrange .dxucInputs_SoftOrange
+{
+}
+.dxucTextBox_SoftOrange
+{
+	background-color: white;
+	border: 1px solid #A0A0A0;
+	padding: 1px 2px;
+}
+.dxucTextBox_SoftOrange .dxucEditArea_SoftOrange
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_SoftOrange .dxucEditArea_SoftOrange
+{
+    color: #ababab;
+}
+.dxucErrorCell_SoftOrange
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_SoftOrange,
+.dxucButton_SoftOrange a
+{
+	color: #BC3F26;
+	white-space: nowrap;
+}
+.dxucButton_SoftOrange a:hover
+{
+	color: #F15E34;
+}
+.dxucBrowseButton_SoftOrange,
+.dxucBrowseButton_SoftOrange a
+{
+	color: White;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_SoftOrange .dxucBrowseButton_SoftOrange a
+{
+	color: White;
+}
+.dxucControl_SoftOrange a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_SoftOrange
+{
+	padding: 5px 14px 4px;
+	border: 1px solid #CB4B31;
+	background: #EF643C url('ucButtonBack.gif') repeat-x top;
+}
+.dxWebKitFamily .dxucBrowseButton_SoftOrange
+{
+    padding: 4px 14px 5px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_SoftOrange
+{
+    padding: 4px 14px 5px;
+}
+.dxucBrowseButton_SoftOrange.dxbf
+{
+    padding: 4px 13px 5px;
+}
+.dxucBrowseButton_SoftOrange.dxbf a
+{
+    border: 1px dotted White;
+}
+.dxucBrowseButtonHover_SoftOrange
+{
+	border: 1px solid #CB4B31;
+	background: #F88B31 url('ucButtonHoverBack.gif') repeat-x top;
+}
+.dxucBrowseButtonPressed_SoftOrange
+{
+	color: #F1BFAC;
+	border: 1px solid #BA2000;
+	background: #D95626 url('ucButtonPressedBack.gif') repeat-x top;
+}
+.dxucControl_SoftOrange .dxucBrowseButtonPressed_SoftOrange a
+{
+    color: #F1BFAC;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_SoftOrange,
+.dxucProgressBar_SoftOrange td
+{
+	color: Black;
+}
+.dxucProgressBar_SoftOrange .dxPBMainCell,
+.dxucProgressBar_SoftOrange td
+{
+	padding: 0;
+}
+.dxucProgressBar_SoftOrange
+{
+	border: 3px Solid #D3D3D3;
+	background-color: #E5E5E5;
+
+    height: 29px;
+}
+.dxucProgressBarIndicator_SoftOrange
+{
+	background-color: #F98936;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_SoftOrange {
+	font-size: 1.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_SoftOrange td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_SoftOrange a {
+	color: #BC3F26;
+}
+/* Disabled */
+.dxucDisabled_SoftOrange,
+.dxucDisabled_SoftOrange a
+{
+	color: #ABABAB;
+	cursor: default;
+}
+.dxucTextBoxDisabled_SoftOrange
+{
+	border-color: #A2A2A2;
+}
+.dxucButtonDisabled_SoftOrange a,
+.dxucButtonDisabled_SoftOrange a:hover
+{
+	color: #ABABAB;
+	text-decoration: none;
+}
+.dxucBrowseButtonDisabled_SoftOrange
+{
+	border-color: #A2A2A2;
+	background: #CACACA url('ucButtonDisabledBack.gif') repeat-x top;
+}
+.dxucControl_SoftOrange .dxucBrowseButtonDisabled_SoftOrange a
+{
+	color: #9D9D9D;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_SoftOrange
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_SoftOrange,
+.dxsplVSeparator_SoftOrange,
+.dxsplHSeparator_SoftOrange
+{
+	background-color: White;
+}
+.dxsplVSeparator_SoftOrange,
+.dxsplHSeparator_SoftOrange
+{
+	font-size: 0;
+}
+.dxsplControl_SoftOrange,
+.dxsplVSeparator_SoftOrange,
+.dxsplHSeparator_SoftOrange,
+.dxsplPane_SoftOrange,
+.dxsplPaneCollapsed_SoftOrange,
+.dxsplVSeparator_SoftOrange,
+.dxsplHSeparator_SoftOrange,
+.dxsplVSeparatorCollapsed_SoftOrange,
+.dxsplHSeparatorCollapsed_SoftOrange
+{
+	border: 0px solid #D3D3D3;
+}
+.dxsplPane_SoftOrange,
+.dxsplPaneCollapsed_SoftOrange
+{
+	border-width: 3px;
+}
+.dxsplPaneCollapsed_SoftOrange
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparatorHover_SoftOrange
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_SoftOrange
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_SoftOrange
+{
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+}
+.dxsplHSeparatorCollapsed_SoftOrange
+{
+	border-left-width: 3px;
+	border-right-width: 3px;
+}
+.dxsplVSeparatorCollapsed_SoftOrange,
+.dxsplHSeparatorCollapsed_SoftOrange
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_SoftOrange
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_SoftOrange
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_SoftOrange .dxsplVSeparatorButton_SoftOrange,
+.dxsplDisabled_SoftOrange .dxsplHSeparatorButton_SoftOrange
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_SoftOrange,
+.dxsplHSeparatorHover_SoftOrange,
+.dxsplVSeparatorButtonHover_SoftOrange,
+.dxsplHSeparatorButtonHover_SoftOrange
+{
+	background-color: #EFEFEF;
+}
+.dxsplResizingPointer_SoftOrange
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_SoftOrange .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_SoftOrange
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_SoftOrange li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_SoftOrange ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_SoftOrange a {
+	text-decoration: none;
+	color: Black;
+}
+
+.dxtvControl_SoftOrange .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_SoftOrange .dxtv-nd
+{
+	margin-top: 1px;
+	float: left;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_SoftOrange .dxtv-elbNoLn,
+.dxtvControl_SoftOrange .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_SoftOrange .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_SoftOrange .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_SoftOrange .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_SoftOrange .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndChk
+{
+	cursor: default;
+	margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_SoftOrange .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndSel,
+.dxtvControl_SoftOrange .dxtv-ndHov 
+{
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndSel
+{
+	border: 1px solid #D6D6D6;
+	background-color: #E1E1E1;
+	color: #000000;
+	cursor: default;
+}
+
+.dxtvControl_SoftOrange .dxtv-ndHov 
+{
+	border: 1px solid #F15E34;
+	background-color: #F15E34;
+	color: #FFFFFF;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl,
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-nd, 
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-elb,
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-elb,
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-ndImg 
+{
+    margin: 0 2px 0 4px;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_SoftOrange.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+
+.dxtvDisabled_SoftOrange,
+.dxtvControl_SoftOrange .dxtvDisabled_SoftOrange,
+.dxtvDisabled_SoftOrange a,
+.dxtvDisabled_SoftOrange .dxtv-btn,
+.dxtvDisabled_SoftOrange .dxtv-nd
+{
+	color: #ababab;
+	cursor: default;
+} 
+
+/* ASPxFileManager */
+.dxfmControl_SoftOrange,
+.dxfmControl_SoftOrange .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_SoftOrange
+{
+	color: #ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_SoftOrange .dxsplControl_SoftOrange
+{
+	border: 4px solid #D3D3D3;
+}
+.dxfmControl_SoftOrange .dxsplPane_SoftOrange
+{
+	border-width: 0px;
+	background-color: White;
+}
+.dxfmControl_SoftOrange .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_SoftOrange.dxfm-dst .dxsplVSeparator_SoftOrange
+{
+	width: 3px;
+	background: White url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_SoftOrange.dxfm-dst.dxfm-rtl .dxsplVSeparator_SoftOrange
+{
+	background-position-x: left;
+}
+.dxfmControl_SoftOrange.dxfm-tch .dxsplVSeparator_SoftOrange
+{
+	border-width: 0 1px;
+	border-color: #E0E0E0;
+}
+.dxfmControl_SoftOrange .dxsplHSeparator_SoftOrange
+{
+	border-width: 0px;
+	background: #E0E0E0 none;
+}
+.dxfmControl_SoftOrange .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+
+/* FileManager - TreeView */
+.dxfmControl_SoftOrange .dxtvControl_SoftOrange 
+{
+	margin-left: -5px;
+}
+.dxfmControl_SoftOrange .dxtvControl_SoftOrange .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_SoftOrange div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_SoftOrange.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_SoftOrange .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_SoftOrange div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_SoftOrange div.dxfm-fileSA
+{
+	background-color: #E1E1E1;
+	border: 1px solid #888888;
+}
+.dxfmControl_SoftOrange div.dxfm-fileH,
+.dxfmControl_SoftOrange div.dxfm-fileF
+{
+	background-color: #F15E34;
+    border: 1px solid #F15E34;
+	color: White;
+}
+.dxfmControl_SoftOrange .dxfm-file .dxfm-highlight
+{
+	background-color: #ff9460;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_SoftOrange .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_SoftOrange .dxgvTable_SoftOrange  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_SoftOrange .dxgvControl_SoftOrange,
+.dxfmControl_SoftOrange .dxgvDataRow_SoftOrange
+{
+    background-color: White; 
+}
+.dxfmControl_SoftOrange .dxgvTable_SoftOrange tr.dxfm-fileSA
+{
+    background-color: #D3D3D3;
+}     
+.dxfmControl_SoftOrange .dxgvTable_SoftOrange tr.dxfm-fileSI
+{
+    background-color: #E9E9E9;
+    color: Black;
+}
+.dxfmControl_SoftOrange .dxfm-fileF.dxgvFocusedRow_SoftOrange
+{
+    background-color: #BABABA;
+    color: Black;
+}
+.dxfmControl_SoftOrange .dxgvTable_SoftOrange tr.dxfm-fileH
+{
+    background-color: #FF9460;
+    color: Black;
+}
+.dxfmControl_SoftOrange tr.dxgvFocusedRow_SoftOrange
+{
+    background: White;
+    color: Black;
+}
+.dxgvHeader_SoftOrange.dxfmGridHeader
+{
+    background: White;
+    border-color: #C5C5C5;
+    border-style: solid;
+}
+.dxgvHeader_SoftOrange.dxfmGridHeader, 
+.dxgvHeader_SoftOrange.dxfmGridHeader table 
+{
+    color: black;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_SoftOrange
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_SoftOrange .dxfm-toolbar
+{
+	background: #F4F4F4 url('mItemBack.png') repeat-x left top;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar.dxsplPane_SoftOrange table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar.dxsplPane_SoftOrange .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_SoftOrange.dxfm-rtl .dxfm-toolbar.dxsplPane_SoftOrange .dxfm-filter
+{
+	text-align: left;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar.dxsplPane_SoftOrange .dxfm-filter input,
+.dxfmControl_SoftOrange .dxfm-toolbar.dxsplPane_SoftOrange .dxfm-path input
+{
+	border: 1px solid #A0A0A0;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_SoftOrange .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar .dxmLite_SoftOrange .dxm-main
+{
+	border-width: 0px;
+	background: transparent none;
+	padding-left: 3px;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar .dxmLite_SoftOrange .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar .dxmLite_SoftOrange .dxfm-path 
+{
+	padding-left: 0px;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar .dxmLite_SoftOrange .dxfm-path input
+{
+	margin: 3px 8px 0px 4px;
+}
+.dxfmControl_SoftOrange.dxfm-rtl .dxfm-toolbar .dxmLite_SoftOrange .dxfm-path input
+{
+	margin: 3px 4px 0px 8px;
+}
+.dxfmControl_SoftOrange .dxfm-toolbar .dxmLite_SoftOrange .dxm-item {
+	background: transparent none;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_SoftOrange .dxfm-breadCrumbs
+{
+	background-color: #F9F9F9;
+}
+.dxfmControl_SoftOrange .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_SoftOrange .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+	color: #FFF;
+	border-color: #F15E34;
+	background-color: #F15E34;
+}
+.dxfmControl_SoftOrange .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #5C5C5C;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_SoftOrange .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_SoftOrange
+{
+    background: #FF9639;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_SoftOrange .dxfm-uploadPanel
+{
+	background: #f4f4f4 url('pcFooterBack.gif') repeat-x left top;
+	text-align: right;
+}
+.dxfmControl_SoftOrange.dxfm-rtl .dxfm-uploadPanel
+{
+	text-align: left;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable .dxucControl_SoftOrange 
+{
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.dxfmControl_SoftOrange.dxfm-rtl .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable .dxucControl_SoftOrange
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 6px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #BC3F26;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover 
+{
+	color: #F15E34;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange .dxucTextBox_SoftOrange 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange .dxucBrowseButton_SoftOrange 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange .dxucBrowseButton_SoftOrange.dxbf 
+{
+	padding: 2px 7px 3px;
+}
+.dxfmControl_SoftOrange .dxfm-uploadPanel.dxsplPane_SoftOrange .dxucSilverlightPluginLinkPanel_SoftOrange 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_SoftOrange .dxfm-cInput,
+.dxfmControl_SoftOrange .dxfm-rInput
+{
+	border: 1px solid #A0A0A0;
+}
+
+/* FileManager - item mask */
+.dxfmControl_SoftOrange .dxfm-itemMask
+{
+	background-color: #E1E1E1;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_SoftOrange .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_SoftOrange .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_SoftOrange .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #E0E0E0;
+	text-align: right;
+	background: #f4f4f4 url('pcFooterBack.gif') repeat-x left top;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_SoftOrange .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_SoftOrange
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_SoftOrange .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_SoftOrange .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_SoftOrange > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_SoftOrange .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_SoftOrange .dxis-slidePanel,
+.dxisControl_SoftOrange .dxis-nbSlidePanel,
+.dxisControl_SoftOrange .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_SoftOrange .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_SoftOrange .dxis-nbTop,
+.dxisControl_SoftOrange .dxis-nbBottom,
+.dxisControl_SoftOrange .dxis-nbLeft,
+.dxisControl_SoftOrange .dxis-nbRight,
+.dxisControl_SoftOrange .dxis-nbDotsBottom,
+.dxisControl_SoftOrange .dxis-nbDotsTop,
+.dxisControl_SoftOrange .dxis-nbDotsLeft,
+.dxisControl_SoftOrange .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_SoftOrange .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_SoftOrange .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_SoftOrange .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_SoftOrange .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_SoftOrange .dxis-nbDotsBottom,
+.dxisControl_SoftOrange .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_SoftOrange .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_SoftOrange .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_SoftOrange .dxis-nbLeft,
+.dxisControl_SoftOrange .dxis-nbRight,
+.dxisControl_SoftOrange .dxis-nbDotsLeft,
+.dxisControl_SoftOrange .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_SoftOrange .dxis-item,
+.dxisControl_SoftOrange .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_SoftOrange .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_SoftOrange .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_SoftOrange .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_SoftOrange .dxis-item,
+.dxisControl_SoftOrange .dxis-nbItem,
+.dxisControl_SoftOrange .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_SoftOrange .dxis-nbItem,
+.dxisControl_SoftOrange .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_SoftOrange .dxis-nbDotItemSelected,
+.dxisControl_SoftOrange .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_SoftOrange .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_SoftOrange .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_SoftOrange .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_SoftOrange .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_SoftOrange .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_SoftOrange .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_SoftOrange .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_SoftOrange .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_SoftOrange > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_SoftOrange > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_SoftOrange > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_SoftOrange > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_SoftOrange > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_SoftOrange .dxis-prevPageBtnHor,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-nextPageBtnHor,
+.dxisControl_SoftOrange .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_SoftOrange .dxis-prevPageBtnVert,
+.dxisControl_SoftOrange .dxis-prevPageBtnVertOutside,
+.dxisControl_SoftOrange .dxis-nextPageBtnVert,
+.dxisControl_SoftOrange .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_SoftOrange .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_SoftOrange .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_SoftOrange .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_SoftOrange .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_SoftOrange .dxis-prevBtnVertPressed,
+.dxisControl_SoftOrange .dxis-nextBtnVertPressed,
+.dxisControl_SoftOrange .dxis-nextBtnHorPressed,
+.dxisControl_SoftOrange .dxis-prevBtnHorPressed,
+.dxisControl_SoftOrange .dxis-prevPageBtnVertPressed,
+.dxisControl_SoftOrange .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_SoftOrange .dxis-nextPageBtnVertPressed,
+.dxisControl_SoftOrange .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorPressed,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_SoftOrange .dxis-nextPageBtnHorPressed,
+.dxisControl_SoftOrange .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_SoftOrange .dxis-prevBtnVertDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnVertDisabled,
+.dxisControl_SoftOrange .dxis-nextBtnHorDisabled,
+.dxisControl_SoftOrange .dxis-prevBtnHorDisabled,
+.dxisControl_SoftOrange .dxis-prevPageBtnVertDisabled,
+.dxisControl_SoftOrange .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_SoftOrange .dxis-nextPageBtnVertDisabled,
+.dxisControl_SoftOrange .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorDisabled,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_SoftOrange .dxis-nextPageBtnHorDisabled,
+.dxisControl_SoftOrange .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_SoftOrange .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_SoftOrange .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_SoftOrange .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_SoftOrange .dxis-nextPageBtnHorOutside,
+.dxisControl_SoftOrange .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_SoftOrange
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: #707070;
+    border: 4px solid #d3d3d3;
+	background-color: #f9f9f9;
+}
+.dxigControl_SoftOrange td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_SoftOrange
+{
+	padding: 6px;
+	border-top: 1px dotted #5c5c5c;
+	border-bottom: 1px dotted #5c5c5c;
+}
+.dxigEmptyData_SoftOrange
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_SoftOrange
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_SoftOrange
+{
+    float: left;
+}
+.dxigItem_SoftOrange
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_SoftOrange a
+{
+    outline: 0;
+}
+.dxigItem_SoftOrange a > img
+{
+    display: block;
+}
+.dxigPagerPanel_SoftOrange
+{
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+.dxigItem_SoftOrange .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_SoftOrange .dxig-thumbnailWrapper,
+.dxigFlowItem_SoftOrange
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #F9F9F9;
+}
+.dxigControl_SoftOrange .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_SoftOrange .dxpcLite_SoftOrange .dxpc-mainDiv,
+.dxigControl_SoftOrange .dxpcLite_SoftOrange .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_SoftOrange .dxpcLite_SoftOrange .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_SoftOrange .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_SoftOrange.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_SoftOrange .dxig-imageSliderWrapper .dxisControl_SoftOrange .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_SoftOrange .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxisControl_SoftOrange
+{
+    position: relative;
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_SoftOrange .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_SoftOrange .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_SoftOrange .dxig-prevButtonArea,
+.dxigControl_SoftOrange .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_SoftOrange .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_SoftOrange .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_SoftOrange .dxig-prevButton,
+.dxigControl_SoftOrange .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_SoftOrange .dxig-prevButtonDisabled,
+.dxigControl_SoftOrange .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_SoftOrange .dxig-closeButtonWrapper,
+.dxigControl_SoftOrange .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_SoftOrange .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_SoftOrange .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_SoftOrange .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_SoftOrange .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_SoftOrange .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbBottom,
+.dxigControl_SoftOrange .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbSelectedItem > div,
+.dxigControl_SoftOrange .dxisControl_SoftOrange .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_SoftOrange .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigPagerShowMoreItemsContainer_SoftOrange
+{
+    height: 60px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_SoftOrange a
+{
+	display: block;
+	padding-top: 25px;
+	color: #BC3F26;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_SoftOrange,
+.dxnbGroupHeader_SoftOrange,
+.dxnbGroupHeaderCollapsed_SoftOrange,
+.dxnbGroupContent_SoftOrange > TABLE > TBODY > TR,
+.dxtcTab_SoftOrange,
+.dxtcActiveTab_SoftOrange,
+.dxtv-nd_SoftOrange
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_SoftOrange {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+	color: #303030;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 3px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_SoftOrange { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_SoftOrange,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_SoftOrange,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_SoftOrange {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_SoftOrange {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 2px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 9px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 10px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 3px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 2px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 6px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_SoftOrange { padding-top: 3px; }
+
+.dxflCLTSys .dxflCaptionCell_SoftOrange,
+.dxflCLBSys .dxflCaptionCell_SoftOrange {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_SoftOrange,
+*[dir="rtl"].dxflFormLayout_SoftOrange .dxflCLRSys .dxflCaptionCell_SoftOrange {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_SoftOrange,
+*[dir="rtl"].dxflFormLayout_SoftOrange .dxflCLLSys .dxflCaptionCell_SoftOrange {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_SoftOrange {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_SoftOrange {
+    line-height: 16px;
+}
+.dxflCaptionCell_SoftOrange {
+    width: 1%;
+}
+td.dxflNestedControlCell_SoftOrange {
+    height: 0;
+}
+
+.dxflEmptyItem_SoftOrange {
+    height: 21px;
+}
+
+.dxflItem_SoftOrange { width: 100%; }
+.dxflItem_SoftOrange,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_SoftOrange {
+    padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_SoftOrange {
+    padding-bottom: 4px;
+}
+.dxflItem_SoftOrange > table.dxflItemTable_SoftOrange { width: 100%; }
+.dxflGroup_SoftOrange { padding: 6px 5px; width: 100%;}
+.dxflGroup_SoftOrange > table.dxflGroupTable_SoftOrange { width: 100%; }
+.dxflGroupCell_SoftOrange { padding: 0 8px; }
+
+.dxflGroupBox_SoftOrange {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #A0A0A0;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_SoftOrange.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_SoftOrange.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_SoftOrange {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_SoftOrange > .dxtcControl_SoftOrange { margin: 0px; }
+
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange tr:first-child > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange,
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange > .dxflChildInFirstRowSys > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange tr:first-child > .dxflGroupCell_SoftOrange > .dxtcControl_SoftOrange,
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange > .dxflChildInFirstRowSys > .dxflGroupCell_SoftOrange > .dxtcControl_SoftOrange {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange tr:last-child > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange,
+.dxflGroupBox_SoftOrange > .dxflGroup_SoftOrange > .dxflChildInLastRowSys > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_SoftOrange tr:first-child > .dxflGroupCell_SoftOrange > .dxflGroupBox_SoftOrange,
+.dxflGroup_SoftOrange > .dxflChildInFirstRowSys > .dxflGroupCell_SoftOrange > .dxflGroupBox_SoftOrange {
+    margin-top: 13px;
+}
+
+.dxflGroup_SoftOrange tr:last-child > .dxflGroupCell_SoftOrange > .dxflGroupBox_SoftOrange,
+.dxflGroup_SoftOrange > .dxflChildInLastRowSys > .dxflGroupCell_SoftOrange > .dxflGroupBox_SoftOrange {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_SoftOrange > div > .dxflGroup_SoftOrange { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_SoftOrange > div > .dxflGroup_SoftOrange tr:first-child > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange,
+.dxtcPageContent_SoftOrange > div > .dxflGroup_SoftOrange > .dxflChildInFirstRowSys > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_SoftOrange > div > .dxflGroup_SoftOrange tr:last-child > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange,
+.dxtcPageContent_SoftOrange > div > .dxflGroup_SoftOrange > .dxflChildInLastRowSys > .dxflGroupCell_SoftOrange > .dxflItem_SoftOrange {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_SoftOrange {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_SoftOrange .dxflGroupBoxCaption_SoftOrange {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_SoftOrange > div.dxflGroup_SoftOrange:first-child,
+.dxflGroupBox_SoftOrange > table.dxflGroup_SoftOrange:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_SoftOrange {
+    top: -19px;
+}
+
+.dxflOptional_SoftOrange {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_SoftOrange {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_SoftOrange {
+    width: 100%;
+}
+.dxflHelpText_SoftOrange {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_SoftOrange.dxflLHelpTextSys,
+.dxflHelpText_SoftOrange.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_SoftOrange.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_SoftOrange.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_SoftOrange {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_SoftOrange .dxr-tabContent {
+    border: 3px solid #d3d3d3;
+    border-top-width: 0px;
+    height: 95px;
+    background: #f9f9f9;
+}
+.dxrControl_SoftOrange.dxr-oneLineMode .dxr-tabContent {
+    height: 31px;
+}
+.dxrControl_SoftOrange.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_SoftOrange.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 3px;
+}
+.dxrControl_SoftOrange, 
+.dxrControl_SoftOrange a {
+    color: #000000;
+}
+.dxrControl_SoftOrange .dxr-itemDisabled.dxr-item,
+.dxrControl_SoftOrange .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_SoftOrange .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_SoftOrange .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_SoftOrange .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_SoftOrange .dxr-itemDisabled a,
+.dxrControl_SoftOrange .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #ababab;
+}
+
+.dxrControl_SoftOrange .dxr-contextTabColor {
+    margin-left: -3px;
+    padding-right: 6px;
+}
+
+.dxrControl_SoftOrange .dxtc-tab.dxtc-tabHover .dxr-contextTabColor {
+    margin-left: -1px;
+    padding-right: 2px;
+}
+
+.dxrControl_SoftOrange .dxtc-tab .dxr-contextTabColor {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.dxrControl_SoftOrange .dxr-contextTabColor,
+.dxrControl_SoftOrange .dxtc-tab.dxtc-tabHover .dxr-contextTabColor {
+    margin-top: -11px;
+}
+
+.dxrControl_SoftOrange .dxtc-tab.dxtc-tabHover.dxr-contextTab .dxr-contextTabColor,
+.dxrControl_SoftOrange .dxtc-activeTab.dxr-contextTab .dxr-contextTabColor {
+    margin-bottom: 1px;
+    padding-top: 0px;
+    height: 8px;
+}
+
+.dxtcLite_SoftOrange.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxr-contextTab {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-activeTab.dxr-contextTab .dxtc-link {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxtc-tabHover.dxr-contextTab .dxtc-link {
+    padding-top: 5px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxr-contextTab .dxtc-link {
+    padding-top: 5px;
+}
+
+/* Ribbon Popup */
+.dxrControl_SoftOrange .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_SoftOrange .dxr-minPopup.dxpc-mainDiv,
+.dxrControl_SoftOrange .dxpc-contentWrapper {
+    border: 0;
+}
+.dxrControl_SoftOrange .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #a9a9a9;
+}
+
+/* Ribbon Group List */
+.dxrControl_SoftOrange .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_SoftOrange .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_SoftOrange.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 31px;
+}
+
+.dxrControl_SoftOrange .dxr-groupList .dxr-groupSep b {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #d3d3d3;
+}
+
+/* Ribbon Groups */
+.dxrControl_SoftOrange .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_SoftOrange .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_SoftOrange.dxr-oneLineMode .dxr-groupContent {
+    height: 31px;
+}
+.dxrControl_SoftOrange .dxr-groupLabel {
+    text-align: center;
+    color: #707070;
+    line-height: 15px;
+    padding: 0px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_SoftOrange .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 3px -6px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_SoftOrange .dxr-grExpBtn,
+.dxrControl_SoftOrange .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_SoftOrange .dxr-grExpBtn {
+    height: 87px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_SoftOrange .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_SoftOrange .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_SoftOrange .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_SoftOrange .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-itemSep,
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #cccccc;
+    width: 1px;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_SoftOrange .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item,
+.dxrControl_SoftOrange .dxr-blSepItems .dxr-item,
+.dxrControl_SoftOrange.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item {
+    margin: 0 3px;
+}
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_SoftOrange .dxr-grExpBtn .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label,
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #a8a8a8;
+}
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_SoftOrange .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_SoftOrange .dxr-grExpBtn .dxr-popOut {
+    margin: -1px 3px 1px;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+.dxSafari .dxrControl_SoftOrange .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #a8a8a8;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_SoftOrange .dxr-item.dxr-edtItem {
+    border: 0;
+    padding: 1px 0;
+    height: 23px;
+}
+.dxrControl_SoftOrange .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_SoftOrange .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_SoftOrange .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_SoftOrange .dxr-buttonItem.dxr-itemChecked {
+    border: 1px dotted #5C5C5C;
+}
+.dxrControl_SoftOrange .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_SoftOrange .dxr-olmGrExpBtn.dxr-itemPressed {
+    border-color: #a8a8a8;
+}
+.dxrControl_SoftOrange .dxr-buttonItem.dxr-itemHover,
+.dxrControl_SoftOrange .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_SoftOrange .dxr-olmGrExpBtn.dxr-itemHover {
+    border-color: #a8a8a8;
+}
+.dxrControl_SoftOrange .dxr-img32,
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_SoftOrange .dxr-img16,
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_SoftOrange .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_SoftOrange .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_SoftOrange .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_SoftOrange .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_SoftOrange .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_SoftOrange .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_SoftOrange .dxeColorTable_SoftOrange {
+    border: none;
+}
+
+.dxrControl_SoftOrange .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_SoftOrange .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: 3px solid #d3d3d3;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab .dxtc-link {
+    color: #707070;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #ececec;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link,
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #f15e34;
+    border: 0px;
+    border-top: 1px solid #f15e34;
+    border-bottom: 3px solid #d3d3d3;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #f17a34;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #ec4323;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab.dxr-fileTab .dxtc-link {
+    color: #FFFFFF;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-leftIndent, 
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-spacer, 
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-rightIndent, 
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-sbIndent, 
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-sbSpacer
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-width: 3px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-spacer {
+    width: 1px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-activeTab {
+    background: #f9f9f9;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-activeTab .dxtc-link {
+    color: #f15e34;
+}
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtcLiteDisabled_SoftOrange .dxtc-link,
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtcLiteDisabled_SoftOrange.dxr-fileTab .dxtc-link {
+    color: #ABABAB;
+}
+.dxrControl_SoftOrange .dxtcLiteDisabled_SoftOrange.dxr-fileTab {
+    background: #fbcfc2;
+    border-top-color: #fbcfc2;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_SoftOrange .dxtcLite_SoftOrange.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_SoftOrange .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #a9a9a9;
+    background-color: white;
+}
+
+.dxrControl_SoftOrange .dxr-glrBarContainer
+{
+    margin-right: 14px;
+    height: 71px;
+}
+
+.dxrControl_SoftOrange .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_SoftOrange .dxr-glrItem.dxr-itemHover,
+.dxrControl_SoftOrange .dxr-glrBtnHover
+{
+    background: #F15E34;
+    border-color: #F15E34;
+    color: White;
+}
+
+.dxrControl_SoftOrange .dxr-glrItem.dxr-itemChecked
+{
+    background: #DFDFDF;
+    border-style: dotted;
+    border-color: #5c5c5c;
+    color: #000000;
+}
+
+.dxrControl_SoftOrange .dxr-glrItem.dxr-itemPressed,
+.dxrControl_SoftOrange .dxr-glrBtnPressed
+{
+    border-color: #a8a8a8;
+}
+
+.dxrControl_SoftOrange .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_SoftOrange .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_SoftOrange .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_SoftOrange .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_SoftOrange .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_SoftOrange .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_SoftOrange .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_SoftOrange .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_SoftOrange .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_SoftOrange .dxr-glrGroup
+{
+    color: #999999;
+    background: #f4f4f4 url('pcFooterBack.gif') repeat-x left top;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.dxrControl_SoftOrange .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_SoftOrange .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_SoftOrange .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_SoftOrange .dxr-glrBarItem .dxr-glrButtons div
+{
+    height: 24px;
+    border-left: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0px;
+}
+
+.dxrControl_SoftOrange .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_SoftOrange .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_SoftOrange .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 2px 0;
+    display: block;
+}
+.dxrControl_SoftOrange .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_SoftOrange .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_SoftOrange {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_SoftOrange .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_SoftOrange .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_SoftOrange .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_SoftOrange .dxiz-wrapper > img,
+.dxizControl_SoftOrange .dxiz-clipPanel > img,
+.dxizControl_SoftOrange .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_SoftOrange .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_SoftOrange .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_SoftOrange .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_SoftOrange .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-lens .dxiz-llp,
+.dxizControl_SoftOrange .dxiz-lens .dxiz-lrp,
+.dxizControl_SoftOrange .dxiz-lens .dxiz-ltp,
+.dxizControl_SoftOrange .dxiz-lens .dxiz-lbp,
+.dxizControl_SoftOrange .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_SoftOrange .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_SoftOrange .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_SoftOrange .dxiz-lens.outside .dxiz-llp,
+.dxizControl_SoftOrange .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_SoftOrange .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_SoftOrange .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_SoftOrange .dxizLoadingPanel_SoftOrange {
+    position: absolute;
+}
+
+.dxisControl_SoftOrange.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_SoftOrange
+{
+    background-color: #f9f9f9;
+    padding-bottom: 2px;
+    border: 1px solid #7F7F7F;
+}
+.dxitcControl_SoftOrange > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_SoftOrange .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+.dxitcControl_SoftOrange .dxitcItemHover
+{
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    border: 3px solid #D3D3D3;
+}
+.dxitcCaption_SoftOrange
+{
+    background-color: #f9f9f9;
+    padding: 2px;
+    border: 1px solid #CCC;
+    margin: 2px 2px 0px 2px;
+}

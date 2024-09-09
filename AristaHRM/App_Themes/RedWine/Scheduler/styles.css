@@ -1,0 +1,428 @@
+.dxscControl_RedWine
+{
+    background: #8a0a37;
+    border: solid 1px #8a0a37;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxscLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxscLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxscLoadingPanel_RedWine .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+/* Headers */
+.dxscDateHeader_RedWine, 
+.dxscAlternateDateHeader_RedWine,
+.dxscDayHeader_RedWine,
+.dxscDateCellHeader_RedWine,
+.dxscTodayCellHeader_RedWine,
+.dxscTimelineDateHeader_RedWine,
+.dxscHorizontalResourceHeader_RedWine,
+.dxscVerticalResourceHeader_RedWine
+{    
+    color: white;
+    background: #d04d7e;
+    border: solid 1px #8a0a37;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_RedWine,
+.dxscAlternateDateHeader_RedWine
+{
+    background: url('CssImages/today.gif') repeat-x #ce71bb;    
+}
+.dxscDayHeader_RedWine
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_RedWine
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_RedWine
+{    
+    border-top-width: 1px;
+    background: url('CssImages/today.gif') repeat-x #ce71bb;
+}
+.dxscTimelineDateHeader_RedWine
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_RedWine
+{
+    border-width: 1px 1px 1px 0;
+    background: #a22d59;
+}
+.dxscVerticalResourceHeader_RedWine
+{
+    border-width: 1px 1px 0 0;
+    background: #a22d59;
+    white-space: normal;
+}
+.dxscSelectionBar_RedWine 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_RedWine, 
+.dxscRightTopCorner_RedWine
+{
+    background: #a22d59;
+    width: 1px;
+    border-style: solid;
+    border-color: #8a0a37;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_RedWine
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.91em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_RedWine, 
+.dxscGroupSeparatorHorizontal_RedWine
+{
+    background: white;
+    border: solid 1px #8a0a37;
+}
+
+.dxscGroupSeparatorVertical_RedWine
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_RedWine
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_RedWine
+{
+    background: #e2a4ba;
+    border: solid 1px #8a0a37;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_RedWine 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_RedWine
+{
+    border: solid 1px;
+}
+.dxscTimelineCellBody_RedWine
+{
+    height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_RedWine
+{
+    color: black;
+    font-size: 0.91em;
+    border: solid 1px #8a0a37;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_RedWine
+{	
+    border: solid 1px #8a0a37;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_RedWine
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_RedWine
+{
+    font-size: 0.91em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_RedWine, .dxscTimeRulerMinuteItem_RedWine
+{
+    color: #b5486d;
+    background: #ebebeb;
+    border: solid 1px #cbcbcb;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_RedWine
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.42em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_RedWine
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.91em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_RedWine
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_RedWine
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_RedWine
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_RedWine
+{
+    background: #aa1248;
+}
+.dxscToolbar_RedWine
+{
+    border: none;
+    padding: 3px 7px;    
+}
+.dxscResourceNavigator_RedWine 
+{    
+    background: #eed8e3;
+    padding: 7px;
+    border: solid 1px #8a0a37;
+}
+.dxscViewVisibleInterval_RedWine
+{    
+    color: #d8abbb;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_RedWine
+{
+    background: #fdfdfd;
+    border: solid 2px black;
+    padding: 0;
+    color: #303030;
+}
+.dxscControlAreaForm_RedWine
+{
+    font-size: 1.33em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxscErrorInfo_RedWine
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewNavigatorButton_RedWine,
+.dxscViewNavigatorGotoDateButton_RedWine
+{    
+    border: solid 1px #8a0a37;
+    color: white;
+    background: url('CssImages/vnBtnBack.gif') repeat-x left top #f0749f;
+    line-height: 100%;
+    padding: 3px 8px 4px;    
+
+    min-height: 1em;
+    display: block!important;
+}
+.dxscViewNavigatorGotoDateButton_RedWine
+{
+    padding: 3px 6px 4px;
+}
+.dxscViewNavigatorButton_RedWine.dxscViewNavigatorGotoTodayButton
+{    
+    padding: 1px 8px 2px;
+}
+.dxscViewNavigatorButtonHover_RedWine,
+.dxscViewNavigatorGotoDateButtonHover_RedWine
+{
+    background: url('CssImages/vnBtnBackH.gif') repeat-x left top #d69bd3;
+}
+.dxscViewNavigatorButtonPressed_RedWine,
+.dxscViewNavigatorGotoDateButtonPressed_RedWine
+{
+    background: url('CssImages/vnBtnBackP.gif') repeat-x left top #bd71b9;
+}
+
+.dxscResourceNavigatorButton_RedWine,
+.dxscNavigationButton_RedWine,
+.dxscDVTopMoreButton_RedWine,
+.dxscDVBottomMoreButton_RedWine
+{
+    cursor: pointer;
+}
+
+.dxscSmartTagButton_RedWine 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+.dxscViewSelectorButton_RedWine 
+{
+    background: url('CssImages/vsBtnBack.gif') repeat-x #f487ad;
+    color: white;
+    border: solid 1px #8a0a37;
+    border-width: 0 0 0 1px;
+    padding: 8px 18px 7px;
+}
+.dxscViewSelectorButtonHover_RedWine
+{
+    background: url('CssImages/vsBtnBackH.gif') repeat-x #d59cd2;
+}
+.dxscViewSelectorButtonChecked_RedWine,
+.dxscViewSelectorButtonPressed_RedWine
+{
+    background: url('CssImages/vsBtnBackP.gif') repeat-x #cf547f;
+}
+
+.dxscNoBorderButton_RedWine
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #FDFDFD;
+}
+.dxscNoBorderButtonPressed_RedWine,
+.dxscNoBorderButtonHover_RedWine
+{
+    border-color: #A8A8A8;
+}
+.dxscToolTipRoundedCornersTopBottomRow_RedWine
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_RedWine
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_RedWine
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_RedWine
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_RedWine
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_RedWine
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_RedWine
+{
+    background: #f9f9cd;
+    padding: 0;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_RedWine
+{
+    top:-6px;
+}
+.dxscTimeMarkerLine_RedWine
+{
+    top:-2px;
+    height:3px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_RedWine
+{
+    position:absolute;
+    background-color:#B84C72;
+    width:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-top-width:0;
+    border-bottom-width:0;
+}
+.dxscTimeMarkerLineH_RedWine
+{
+    position:absolute;
+    top:-2px;
+    background-color:#B84C72;
+    height:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-left-width:0;
+    border-right-width:0;
+}

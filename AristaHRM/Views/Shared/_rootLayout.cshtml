@@ -1,0 +1,238 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/jquery.calendars.picker.css")" rel="stylesheet" type="text/css" />
+
+    @{
+        Scripts.Render("~/bundles/jquery");
+        Scripts.Render("~/bundles/modernizr");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/angularbase");
+        Scripts.Render("~/bundles/pdf");
+        Scripts.Render("~/bundles/js");
+        Styles.Render("~/Content/css");
+    }
+
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    <script type="text/javascript">
+        function Waktu() {
+            var waktu = new Date();
+            var jam = (waktu.getHours() < 10 ? "0" : "") + waktu.getHours();
+            var menit = (waktu.getMinutes() < 10 ? "0" : "") + waktu.getMinutes();
+            var detik = (waktu.getSeconds() < 10 ? "0" : "") + waktu.getSeconds();
+            var namahari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+            var namabulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+            var hari = namahari[waktu.getDay()];
+            var tanggal = (waktu.getDate() < 10 ? "0" : "") + waktu.getDate();
+            var bulan = namabulan[waktu.getMonth()];
+            var tahun = waktu.getFullYear();
+            var complete = hari + ", " + tanggal + " " + bulan + " " + tahun + " " + jam + ":" + menit + ":" + detik;
+
+            return document.getElementById("clock").firstChild.nodeValue = complete;
+        }
+
+        function setTime() {
+            Waktu();
+            setInterval('Waktu()', 1000);
+        }
+
+        function preventBack() {
+            window.history.forward();
+        }
+
+        setTimeout("preventBack()", 10);
+
+        var Elapsed = 0;
+        var Interval = setInterval(function () {
+            Timer()
+        }, 50);
+
+        function ProgressBar(Percent) {
+            var progressBar = document.getElementById("progressbar");
+            if (progressBar != null && typeof progressBar !== "undefined")
+            {
+                document.getElementById("progressbar").style.width = Percent + '%';
+                document.getElementById("progressbar").style.backgroundColor = "#FF0000";
+                document.getElementById("progresscount").innerHTML = Percent + '%';
+            }
+        }
+
+        function Timer() {
+            if (Elapsed > 100) {
+                document.getElementById("progressbar").style.backgroundColor = "transparent";
+                document.getElementById("progresscount").innerHTML = "";
+                // document.getElementById("imgload").hidden = true;
+                $("#imgload").fadeOut("slow");
+                if (Elapsed >= 107) {
+                    clearInterval(Interval);
+                }
+            }
+            else {
+                ProgressBar(Elapsed);
+            }
+            Elapsed++;
+        }
+
+        function LoadImage() {
+            document.getElementById("imgload").hidden = false;
+            $("#imgload").fadeIn("slow");
+        }
+
+        function showGauge() {
+            var gauge = document.getElementById("gaugebar");
+            if (typeof gauge !== "undefined" && gauge != null) {
+                CutiGauge();
+            }
+        }
+    </script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.plus.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.plugin.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.picker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/HRIS.js")" type="text/javascript"></script>
+
+</head>
+<body onload="setTime(); Timer(); showGauge();">
+    <div ng-app="HRIS">
+    <form id="form1" enctype="multipart/form-data" method="post">
+        @Html.DevExpress().Splitter(settings =>
+        {
+            settings.Name = "MainSplitter";
+            settings.AllowResize = false;
+            settings.Orientation = System.Web.UI.WebControls.Orientation.Vertical;
+            settings.FullscreenMode = true;
+            settings.SeparatorVisible = false;
+            settings.Styles.Pane.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+            settings.Styles.Pane.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+            settings.Theme = AristaHRM.Theme.SelectTheme;
+
+            settings.Panes.Add(pane =>
+            {
+                pane.Name = "Header";
+                pane.PaneStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+                pane.Size = ASPxWebControl.GlobalTheme == "Moderno" ? 95 : 82; // asli: 82
+                pane.MinSize = ASPxWebControl.GlobalTheme == "Moderno" ? 95 : 82; // asli: 82
+                pane.PaneStyle.CssClass = "headerPane";
+                pane.SetContent(() =>
+                {
+                    Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Full);
+                });
+            });
+
+            settings.Panes.Add(pane =>
+            {
+                pane.Name = "Content";
+                pane.AutoHeight = true;
+                pane.PaneStyle.CssClass = "mainContentPane";
+                pane.MinSize = System.Web.UI.WebControls.Unit.Pixel(375);
+                pane.ScrollBars = ScrollBars.Auto;
+                pane.PaneStyle.BackColor = System.Drawing.Color.White;
+                pane.PaneStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+                pane.SetContent(RenderBody().ToHtmlString());
+            });
+
+            settings.Panes.Add(pane =>
+            {
+                pane.Name = "Footer";
+                pane.Size = System.Web.UI.WebControls.Unit.Pixel(45);
+                pane.PaneStyle.CssClass = "footerPane";
+                pane.SetContent(() =>
+                {
+                    Html.RenderPartial("FooterPartialView");
+                });
+            });
+        }).GetHtml()
+    @*
+    @Html.DevExpress().Panel(settings =>
+    {
+        settings.Name = "HeaderPane";
+        settings.FixedPosition = PanelFixedPosition.WindowTop;
+        settings.Collapsible = true;
+        settings.SettingsAdaptivity.CollapseAtWindowInnerWidth = 500;
+        settings.ControlStyle.CssClass = "headerPane";
+        settings.Styles.Panel.CssClass = "panel";
+        settings.Styles.ExpandedPanel.CssClass = "expandedPanel";
+        settings.Styles.ExpandBar.CssClass = "bar";
+        settings.SetContent(() =>
+        {
+            Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Full);
+        });
+        settings.SetExpandBarTemplateContent((c) =>
+        {
+            Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Title);
+        });
+    }).GetHtml()
+
+        <script type="text/javascript">
+            function updateHeaderMenuOrientation() {
+                var orientation = HeaderPane.IsExpandable() ? 'Vertical' : 'Horizontal';
+                if (orientation !== HeaderMenu.GetOrientation())
+                    HeaderMenu.SetOrientation(orientation);
+            }
+            var collection = ASPxClientControl.GetControlCollection();
+            collection.ControlsInitialized.AddHandler(updateHeaderMenuOrientation);
+            collection.BrowserWindowResized.AddHandler(updateHeaderMenuOrientation);
+        </script>
+
+    @Html.DevExpress().Panel(settings =>
+    {
+        settings.Name = "MainPane";
+        settings.ControlStyle.CssClass = "mainContentPane";
+        settings.SetContent(RenderBody().ToHtmlString());
+    }).GetHtml()
+
+    @Html.DevExpress().Panel(settings =>
+    {
+        settings.Name = "FooterPane";
+        settings.FixedPosition = PanelFixedPosition.WindowBottom;
+        settings.SettingsAdaptivity.HideAtWindowInnerWidth = 500;
+        settings.ControlStyle.CssClass = "footerPane";
+        settings.Styles.Panel.CssClass = "panel";
+        settings.SetContent(() =>
+        {
+            Html.RenderPartial("FooterPartialView");
+        });
+    }).GetHtml()
+    *@
+    </form>
+    </div>
+</body>
+</html>

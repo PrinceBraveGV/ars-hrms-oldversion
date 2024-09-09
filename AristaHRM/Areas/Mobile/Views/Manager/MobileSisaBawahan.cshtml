@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = " - Sisa Cuti Bawahan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+<p>
+    Sisa Cuti Anda &amp; Bawahan Anda
+</p>
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("ManagerMenu", "Manager", mobilearea)"></a> > <a href="@Url.Action("ManageCuti", "Manager", mobilearea)">Manajemen Cuti</a> > Sisa Cuti Bawahan</li>
+        <li data-role="list-divider">Sisa Cuti Atasan &amp; Bawahan</li>
+    </ul>
+    
+    Html.RenderAction("SisaBawahanPartial", "Manager", mobilearea);
+}
+

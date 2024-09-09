@@ -1,0 +1,83 @@
+.dxwscCheckedTextContainer_Office2010Black
+{
+	background-color: white;
+	border: 1px solid #6a6a6a;
+	vertical-align: top;
+	overflow: auto;
+	height: 110px;
+	width: 340px;
+	padding: 5px;
+}
+.dxwscErrorWord_Office2010Black 
+{
+	background: url('scErrorUnderline.gif') repeat-x left bottom;
+	padding-bottom: 3px;
+	color: Black;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_Office2010Black
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxwscLoadingPanel_Office2010Black td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxwscLoadingPanel_Office2010Black .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgFooter
+{
+	background-color: #d7d8d8;
+	border-top: 1px solid #adadad;
+
+	padding: 12px 12px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Office2010Black .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Office2010Black .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgMainSpellCheckFormTable .dxwscDlgContentSCFormContainer
+{
+	padding: 9px 12px 0px;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgMainSpellCheckOptionsFormTable .dxwscDlgContentSCOptionsFormContainer
+{
+	padding: 12px 12px 0px;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgSpellCheckForm .dxwscDlgListBoxContainer
+{
+	padding-top: 5px;
+	padding-bottom: 12px;
+}
+.dxwsc-main .dxpcLite_Office2010Black .dxwscDlgOptionsForm .dxwscDlgLanguagePanel
+{
+	padding-top: 10px;
+	padding-bottom: 12px;
+}

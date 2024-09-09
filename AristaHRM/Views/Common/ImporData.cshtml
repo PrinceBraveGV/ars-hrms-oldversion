@@ -1,0 +1,197 @@
+﻿@{
+    ViewBag.Title = "HRIS - Impor Data";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model UploadModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function onComplete(s, e) {
+        if (e.callbackData) {
+            Nama_File.SetText(e.callbackData);
+            Nama_File.SetValue(e.callbackData);
+        }
+    }
+
+    function onClick(s, e) {
+        PopupTunggu.Show();
+        document.forms[0].submit();
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Impor Data Sumber Eksternal</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <div style="padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; border: 10px 10px 10px 10px solid blue">
+                            <p style="font: 12px Arial; text-align:left">
+                                Anda dapat mengimpor berkas/file Excel atau Access ke dalam sistem untuk disesuaikan dengan tabel master pada database tujuan.
+                                <br />
+                                <br />Silakan pilih file yang diinginkan kemudian klik tombol "Upload" untuk melanjutkan proses impor file.
+                                <br />
+                                <br /><span style="color:blue; text-decoration:underline">Perhatian: </span>
+                                <br /><span style="color:blue">Untuk menghindari error saat proses impor data (akibat adanya dua proses yang berjalan pada tabel master yang sama), anda hanya dapat melakukan impor satu jenis berkas dalam satu waktu.</span><br />
+                            </p>
+                            <hr />
+                            <label style="font: 14px Arial; color:blue; text-align:center;">Impor Berkas/File Eksternal</label>
+                            @using (Html.BeginForm("ImporData", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formupload" }))
+                            {
+                                @Html.DevExpress().FormLayout(settings =>
+                                {
+                                    settings.Name = "UploadLayout";
+                                    settings.AlignItemCaptionsInAllGroups = true;
+                                    settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Tabel Tujuan ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().ComboBoxFor(m => m.Nama_Tabel, combobox =>
+                                            {
+                                                combobox.Properties.NullText = "-- Pilih --";
+                                                combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                combobox.Properties.TextField = "Alias";
+                                                combobox.Properties.ValueField = "NamaTabel";
+                                                combobox.Properties.EnableClientSideAPI = true;
+                                                combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                combobox.Width = Unit.Pixel(300);
+                                            }).BindList(Providers.GetListTabel()).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Tabel/Sheet Sumber ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Nama_Sumber, textbox =>
+                                            {
+                                                textbox.Width = Unit.Pixel(300);
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Password Berkas/File Sumber ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Pass_File, textbox =>
+                                            {
+                                                textbox.Properties.Password = true;
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Properties.HelpText = "Isi dengan password file sumber bila ada (khusus untuk MS Access MDB/E dan ACCDB/E).";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Parameter Impor ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Parameter_File, textbox =>
+                                            {
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Properties.HelpText = "Isi dengan parameter khusus untuk berkas yang akan diunggah.";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(item =>
+                                    {
+                                        item.Caption = "Berkas ";
+                                        item.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Nama_File, text =>
+                                            {
+                                                text.Name = "Nama_File";
+                                                text.Width = Unit.Pixel(300);
+                                                text.ReadOnly = true;
+                                                text.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("<br />");
+                                            Html.DevExpress().UploadControl(upd =>
+                                            {
+                                                upd.Name = "Upload";
+                                                upd.Width = Unit.Pixel(300);
+                                                upd.NullText = "Pilih Berkas...";
+                                                upd.AutoStartUpload = true;
+                                                upd.BrowseButton.Text = "Cari";
+                                                upd.UploadButton.Text = "Unggah";
+                                                upd.CancelButton.Text = "Batal";
+                                                upd.ShowProgressPanel = true;
+                                                upd.ShowUploadButton = true;
+                                                upd.Theme = AristaHRM.Theme.SelectTheme;
+                                                upd.ToolTip = "Tidak ada berkas dipilih.";
+                                                upd.CallbackRouteValues = new { Controller = "Common", Action = "UploadData" };
+                                                upd.ValidationSettings.AllowedFileExtensions = new String[] { ".xls", ".xlsx", ".csv", ".mdb", ".accdb", ".txt" };
+                                                upd.ClientSideEvents.FileUploadComplete = "function (s, e) { onComplete(s, e); }";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                }).GetHtml();
+                                            ViewContext.Writer.Write(@"<p class=""formbutton"">");
+                                            @Html.DevExpress().Button(button =>
+                                {
+                                    button.Name = "Proses";
+                                    button.Text = "Proses Data";
+                                    button.UseSubmitBehavior = true;
+                                    button.Theme = AristaHRM.Theme.SelectTheme;
+                                    button.ClientSideEvents.Click = "onClick";
+                                }).GetHtml()
+                                    ViewContext.Writer.Write("&nbsp;");
+                                    @Html.DevExpress().Button(button =>
+                                {
+                                    button.Name = "Reset";
+                                    button.Text = "Reset Form";
+                                    button.UseSubmitBehavior = false;
+                                    button.Theme = AristaHRM.Theme.SelectTheme;
+                                    button.Attributes.Add("type", "reset");
+                                    button.ClientSideEvents.Click = "function (s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                }).GetHtml()
+                                    ViewContext.Writer.Write(@"</p>");
+                                }
+</div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupTunggu";
+    settings.CloseAction = CloseAction.None;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(50);
+    settings.Width = Unit.Pixel(300);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.ShowHeader = false;
+    settings.SetContent(() =>
+    {
+        ViewContext.Writer.Write(@"<img src=""/Images/LoadingBar.gif"" height=""30"" width=""30"" style=""float:left"" /><p style=""text-align:center; font:12px Arial"">Memproses permintaan anda......</p>");
+    });
+}).GetHtml()

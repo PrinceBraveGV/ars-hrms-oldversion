@@ -1,0 +1,1379 @@
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igCloseButton_Mulberry,
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igPauseButton_Mulberry,
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igPlayButton_Mulberry,
+.dxpc-closeBtnHover .dxWeb_pcCloseButton_Mulberry,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Mulberry,
+.dxpc-collapseBtnHover .dxWeb_pcCollapseButton_Mulberry,
+.dxpc-collapseBtnHover.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Mulberry,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Mulberry,
+.dxpc-maximizeBtnHover .dxWeb_pcMaximizeButton_Mulberry,
+.dxpc-maximizeBtnHover.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Mulberry,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_Mulberry,
+.dxpc-pinBtnHover .dxWeb_pcPinButton_Mulberry,
+.dxpc-pinBtnHover.dxpc-pinBtnChecked .dxWeb_pcPinButton_Mulberry,
+.dxpc-refreshBtnHover .dxWeb_pcRefreshButton_Mulberry,
+.dxpnl-btnPressed .dxWeb_pnlExpand_Mulberry,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Mulberry,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Mulberry,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Mulberry,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Mulberry,
+.dxpnl-btnSelected .dxWeb_pnlExpand_Mulberry,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Mulberry,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Mulberry,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Mulberry,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Mulberry,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_Mulberry,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Mulberry,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Mulberry,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Mulberry,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Mulberry,
+.dxrpCollapsed .dxWeb_rpCollapseButton_Mulberry,
+.dxWeb_edtCheckBoxChecked_Mulberry,
+.dxWeb_edtCheckBoxCheckedDisabled_Mulberry,
+.dxWeb_edtCheckBoxGrayed_Mulberry,
+.dxWeb_edtCheckBoxGrayedDisabled_Mulberry,
+.dxWeb_edtCheckBoxUnchecked_Mulberry,
+.dxWeb_edtCheckBoxUncheckedDisabled_Mulberry,
+.dxWeb_fmBreadCrumbsSeparatorArrow_Mulberry,
+.dxWeb_fmBreadCrumbsUpButton_Mulberry,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_Mulberry,
+.dxWeb_fmCopyButton_Mulberry,
+.dxWeb_fmCopyButtonDisabled_Mulberry,
+.dxWeb_fmCreateButton_Mulberry,
+.dxWeb_fmCreateButtonDisabled_Mulberry,
+.dxWeb_fmDeleteButton_Mulberry,
+.dxWeb_fmDeleteButtonDisabled_Mulberry,
+.dxWeb_fmDwnlButton_Mulberry,
+.dxWeb_fmDwnlButtonDisabled_Mulberry,
+.dxWeb_fmFolder_Mulberry,
+.dxWeb_fmFolderLocked_Mulberry,
+.dxWeb_fmMoveButton_Mulberry,
+.dxWeb_fmMoveButtonDisabled_Mulberry,
+.dxWeb_fmRefreshButton_Mulberry,
+.dxWeb_fmRefreshButtonDisabled_Mulberry,
+.dxWeb_fmRenameButton_Mulberry,
+.dxWeb_fmRenameButtonDisabled_Mulberry,
+.dxWeb_fmThumbnailCheck_Mulberry,
+.dxWeb_fmUplButton_Mulberry,
+.dxWeb_fmUplButtonDisabled_Mulberry,
+.dxWeb_igCloseButton_Mulberry,
+.dxWeb_igNavigationBarMarker_Mulberry,
+.dxWeb_igNextButton_Mulberry,
+.dxWeb_igNextButtonDisabled_Mulberry,
+.dxWeb_igNextButtonHover_Mulberry,
+.dxWeb_igNextButtonPressed_Mulberry,
+.dxWeb_igPauseButton_Mulberry,
+.dxWeb_igPlayButton_Mulberry,
+.dxWeb_igPrevButton_Mulberry,
+.dxWeb_igPrevButtonDisabled_Mulberry,
+.dxWeb_igPrevButtonHover_Mulberry,
+.dxWeb_igPrevButtonPressed_Mulberry,
+.dxWeb_isDot_Mulberry,
+.dxWeb_isDotDisabled_Mulberry,
+.dxWeb_isDotPressed_Mulberry,
+.dxWeb_isDotSelected_Mulberry,
+.dxWeb_isNextBtnHor_Mulberry,
+.dxWeb_isNextBtnHorDisabled_Mulberry,
+.dxWeb_isNextBtnVert_Mulberry,
+.dxWeb_isNextBtnVertDisabled_Mulberry,
+.dxWeb_isNextPageBtnHor_Mulberry,
+.dxWeb_isNextPageBtnHorDisabled_Mulberry,
+.dxWeb_isNextPageBtnHorOutside_Mulberry,
+.dxWeb_isNextPageBtnHorOutsideDisabled_Mulberry,
+.dxWeb_isNextPageBtnVert_Mulberry,
+.dxWeb_isNextPageBtnVertDisabled_Mulberry,
+.dxWeb_isNextPageBtnVertOutside_Mulberry,
+.dxWeb_isNextPageBtnVertOutsideDisabled_Mulberry,
+.dxWeb_isPauseBtn_Mulberry,
+.dxWeb_isPlayBtn_Mulberry,
+.dxWeb_isPrevBtnHor_Mulberry,
+.dxWeb_isPrevBtnHorDisabled_Mulberry,
+.dxWeb_isPrevBtnVert_Mulberry,
+.dxWeb_isPrevBtnVertDisabled_Mulberry,
+.dxWeb_isPrevPageBtnHor_Mulberry,
+.dxWeb_isPrevPageBtnHorDisabled_Mulberry,
+.dxWeb_isPrevPageBtnHorOutside_Mulberry,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Mulberry,
+.dxWeb_isPrevPageBtnVert_Mulberry,
+.dxWeb_isPrevPageBtnVertDisabled_Mulberry,
+.dxWeb_isPrevPageBtnVertOutside_Mulberry,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Mulberry,
+.dxWeb_izEWCloseButton_Mulberry,
+.dxWeb_izHint_Mulberry,
+.dxWeb_mAdaptiveMenu_Mulberry,
+.dxWeb_mHorizontalPopOut_Mulberry,
+.dxWeb_mScrollDown_Mulberry,
+.dxWeb_mScrollUp_Mulberry,
+.dxWeb_mSubMenuItem_Mulberry,
+.dxWeb_mSubMenuItemChecked_Mulberry,
+.dxWeb_mVerticalPopOut_Mulberry,
+.dxWeb_mVerticalPopOutRtl_Mulberry,
+.dxWeb_nbCollapse_Mulberry,
+.dxWeb_nbExpand_Mulberry,
+.dxWeb_pAll_Mulberry,
+.dxWeb_pAllDisabled_Mulberry,
+.dxWeb_pcCloseButton_Mulberry,
+.dxWeb_pcCollapseButton_Mulberry,
+.dxWeb_pcMaximizeButton_Mulberry,
+.dxWeb_pcPinButton_Mulberry,
+.dxWeb_pcRefreshButton_Mulberry,
+.dxWeb_pcSizeGrip_Mulberry,
+.dxWeb_pcSizeGripRtl_Mulberry,
+.dxWeb_pFirst_Mulberry,
+.dxWeb_pFirstDisabled_Mulberry,
+.dxWeb_pLast_Mulberry,
+.dxWeb_pLastDisabled_Mulberry,
+.dxWeb_pNext_Mulberry,
+.dxWeb_pNextDisabled_Mulberry,
+.dxWeb_pnlExpand_Mulberry,
+.dxWeb_pnlExpandArrowBottom_Mulberry,
+.dxWeb_pnlExpandArrowLeft_Mulberry,
+.dxWeb_pnlExpandArrowRight_Mulberry,
+.dxWeb_pnlExpandArrowTop_Mulberry,
+.dxWeb_pPopOut_Mulberry,
+.dxWeb_pPopOutDisabled_Mulberry,
+.dxWeb_pPrev_Mulberry,
+.dxWeb_pPrevDisabled_Mulberry,
+.dxWeb_rDialogBoxLauncher_Mulberry,
+.dxWeb_rDialogBoxLauncherDisabled_Mulberry,
+.dxWeb_rDialogBoxLauncherHover_Mulberry,
+.dxWeb_rDialogBoxLauncherPressed_Mulberry,
+.dxWeb_rGlrDown_Mulberry,
+.dxWeb_rGlrDownDisabled_Mulberry,
+.dxWeb_rGlrPopOut_Mulberry,
+.dxWeb_rGlrPopOutDisabled_Mulberry,
+.dxWeb_rGlrUp_Mulberry,
+.dxWeb_rGlrUpDisabled_Mulberry,
+.dxWeb_rMinBtn_Mulberry,
+.dxWeb_rMinBtnChecked_Mulberry.dxWeb_rMinBtn_Mulberry,
+.dxWeb_rMinBtnChecked_Mulberry.dxWeb_rMinBtnDisabled_Mulberry,
+.dxWeb_rMinBtnDisabled_Mulberry,
+.dxWeb_rpCollapseButton_Mulberry,
+.dxWeb_rPopOut_Mulberry,
+.dxWeb_splHCollapseBackwardButton_Mulberry,
+.dxWeb_splHCollapseBackwardButtonHover_Mulberry,
+.dxWeb_splHCollapseForwardButton_Mulberry,
+.dxWeb_splHCollapseForwardButtonHover_Mulberry,
+.dxWeb_splHSeparator_Mulberry,
+.dxWeb_splHSeparatorHover_Mulberry,
+.dxWeb_splVCollapseBackwardButton_Mulberry,
+.dxWeb_splVCollapseBackwardButtonHover_Mulberry,
+.dxWeb_splVCollapseForwardButton_Mulberry,
+.dxWeb_splVCollapseForwardButtonHover_Mulberry,
+.dxWeb_splVSeparator_Mulberry,
+.dxWeb_splVSeparatorHover_Mulberry,
+.dxWeb_tcScrollLeft_Mulberry,
+.dxWeb_tcScrollLeftDisabled_Mulberry,
+.dxWeb_tcScrollRight_Mulberry,
+.dxWeb_tcScrollRightDisabled_Mulberry,
+.dxWeb_tiBackToTop_Mulberry,
+.dxWeb_tvColBtn_Mulberry,
+.dxWeb_tvColBtnRtl_Mulberry,
+.dxWeb_tvExpBtn_Mulberry,
+.dxWeb_tvExpBtnRtl_Mulberry,
+.dxWeb_ucClearButton_Mulberry,
+.dxWeb_ucClearButtonDisabled_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igCloseButton_Mulberry
+{
+    background-position: -204px -108px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igPauseButton_Mulberry
+{
+    background-position: 0px -300px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_Mulberry.dxTouchUI .dxWeb_igPlayButton_Mulberry
+{
+    background-position: -210px -258px;
+    width: 21px;
+    height: 25px;
+}
+.dxpc-closeBtnHover .dxWeb_pcCloseButton_Mulberry
+{
+    background-position: -100px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Mulberry
+{
+    background-position: 0px -389px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-collapseBtnHover .dxWeb_pcCollapseButton_Mulberry
+{
+    background-position: -140px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-collapseBtnHover.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Mulberry
+{
+    background-position: -200px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Mulberry
+{
+    background-position: -80px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-maximizeBtnHover .dxWeb_pcMaximizeButton_Mulberry
+{
+    background-position: -20px -389px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-maximizeBtnHover.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Mulberry
+{
+    background-position: -220px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_Mulberry
+{
+    background-position: -120px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-pinBtnHover .dxWeb_pcPinButton_Mulberry
+{
+    background-position: -20px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-pinBtnHover.dxpc-pinBtnChecked .dxWeb_pcPinButton_Mulberry
+{
+    background-position: 0px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-refreshBtnHover .dxWeb_pcRefreshButton_Mulberry
+{
+    background-position: -40px -389px;
+    width: 19px;
+    height: 19px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpand_Mulberry
+{
+    background-position: -168px -174px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Mulberry
+{
+    background-position: -42px -216px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Mulberry
+{
+    background-position: -126px -174px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Mulberry
+{
+    background-position: -180px -66px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Mulberry
+{
+    background-position: 0px -258px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_Mulberry
+{
+    background-position: -42px -174px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Mulberry
+{
+    background-position: -126px -132px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Mulberry
+{
+    background-position: 0px -174px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Mulberry
+{
+    background-position: 0px -132px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Mulberry
+{
+    background-position: -84px -132px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_Mulberry
+{
+    background-position: -84px -258px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_Mulberry
+{
+    background-position: -84px -216px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_Mulberry
+{
+    background-position: -42px -258px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_Mulberry
+{
+    background-position: 0px -216px;
+    width: 41px;
+    height: 41px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_Mulberry
+{
+    background-position: -84px -174px;
+    width: 41px;
+    height: 41px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_Mulberry
+{
+    background-position: -229px -246px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_edtCheckBoxChecked_Mulberry
+{
+    background-position: -22px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_Mulberry
+{
+    background-position: -72px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxGrayed_Mulberry
+{
+    background-position: -97px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_Mulberry
+{
+    background-position: -122px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxUnchecked_Mulberry
+{
+    background-position: -47px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_Mulberry
+{
+    background-position: -147px -300px;
+    width: 24px;
+    height: 24px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_Mulberry
+{
+    background-position: -213px -250px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_Mulberry
+{
+    background-position: -187px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_Mulberry
+{
+    background-position: -221px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_Mulberry
+{
+    background-position: -208px -389px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_Mulberry
+{
+    background-position: -68px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_Mulberry
+{
+    background-position: -34px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_Mulberry
+{
+    background-position: -85px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_Mulberry
+{
+    background-position: -68px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_Mulberry
+{
+    background-position: -136px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_Mulberry
+{
+    background-position: -153px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_Mulberry
+{
+    background-position: -17px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_Mulberry
+{
+    background-position: 0px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_Mulberry
+{
+    background-position: -204px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButton_Mulberry
+{
+    background-position: -34px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_Mulberry
+{
+    background-position: -51px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_Mulberry
+{
+    background-position: 0px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_Mulberry
+{
+    background-position: -51px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_Mulberry
+{
+    background-position: -119px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_Mulberry
+{
+    background-position: -17px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_Mulberry
+{
+    background-position: -219px -165px;
+    width: 9px;
+    height: 8px;
+}
+.dxWeb_fmUplButton_Mulberry
+{
+    background-position: -224px -326px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_Mulberry
+{
+    background-position: -85px -426px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_igCloseButton_Mulberry
+{
+    background-position: -28px -443px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_Mulberry
+{
+    background-position: -187px -389px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_Mulberry
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_Mulberry
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_Mulberry
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_Mulberry
+{
+    background-position: -184px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_Mulberry
+{
+    background-position: -135px -389px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_Mulberry
+{
+    background-position: -174px -389px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_Mulberry
+{
+    background-position: -138px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_Mulberry
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_Mulberry
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_Mulberry
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_Mulberry
+{
+    background-position: -14px -443px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_Mulberry
+{
+    background-position: 0px -443px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_Mulberry
+{
+    background-position: -42px -443px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_Mulberry
+{
+    background-position: -219px -426px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_Mulberry
+{
+    background-position: -126px -258px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_Mulberry
+{
+    background-position: -210px -216px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_Mulberry
+{
+    background-position: -60px -326px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_Mulberry
+{
+    background-position: 0px -326px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_Mulberry
+{
+    background-position: -22px -346px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_Mulberry
+{
+    background-position: -226px -300px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_Mulberry
+{
+    background-position: -228px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_Mulberry
+{
+    background-position: -171px -258px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_Mulberry
+{
+    background-position: -146px -426px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_Mulberry
+{
+    background-position: -102px -426px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_Mulberry
+{
+    background-position: -114px -443px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_Mulberry
+{
+    background-position: -56px -443px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_Mulberry
+{
+    background-position: -161px -389px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_Mulberry
+{
+    background-position: -148px -389px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_Mulberry
+{
+    background-position: -210px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_Mulberry
+{
+    background-position: -210px -174px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_Mulberry
+{
+    background-position: -30px -326px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_Mulberry
+{
+    background-position: -90px -326px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_Mulberry
+{
+    background-position: -52px -346px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_Mulberry
+{
+    background-position: -37px -346px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_Mulberry
+{
+    background-position: -158px -258px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Mulberry
+{
+    background-position: -145px -258px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_Mulberry
+{
+    background-position: -124px -426px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_Mulberry
+{
+    background-position: -168px -426px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_Mulberry
+{
+    background-position: -164px -287px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Mulberry
+{
+    background-position: -85px -443px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_Mulberry
+{
+    background-position: -184px -258px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_Mulberry
+{
+    background-position: -117px -389px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_Mulberry
+{
+    background-position: -228px -322px;
+    width: 12px;
+    height: 3px;
+}
+.dxWeb_mHorizontalPopOut_Mulberry
+{
+    background-position: -232px -279px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mScrollDown_Mulberry
+{
+    background-position: -232px -269px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mScrollUp_Mulberry
+{
+    background-position: -232px -274px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mSubMenuItem_Mulberry
+{
+    background-position: -190px -426px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_Mulberry
+{
+    background-position: -60px -389px;
+    width: 18px;
+    height: 19px;
+}
+.dxWeb_mVerticalPopOut_Mulberry
+{
+    background-position: -214px -166px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_mVerticalPopOutRtl_Mulberry
+{
+    background-position: -213px -208px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_nbCollapse_Mulberry
+{
+    background-position: -229px -204px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_nbExpand_Mulberry
+{
+    background-position: -229px -162px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_pAll_Mulberry
+{
+    background-position: -170px -108px;
+    width: 16px;
+    height: 23px;
+}
+.dxWeb_pAllDisabled_Mulberry
+{
+    background-position: -187px -108px;
+    width: 16px;
+    height: 23px;
+}
+.dxWeb_pcCloseButton_Mulberry
+{
+    background-position: -40px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcCollapseButton_Mulberry
+{
+    background-position: -180px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcMaximizeButton_Mulberry
+{
+    background-position: -60px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcPinButton_Mulberry
+{
+    background-position: -160px -369px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcRefreshButton_Mulberry
+{
+    background-position: -204px -326px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcSizeGrip_Mulberry
+{
+    background-position: -98px -389px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pcSizeGripRtl_Mulberry
+{
+    background-position: -79px -389px;
+    width: 18px;
+    height: 18px;
+}
+.dxWeb_pFirst_Mulberry
+{
+    background-position: -188px -300px;
+    width: 15px;
+    height: 23px;
+}
+.dxWeb_pFirstDisabled_Mulberry
+{
+    background-position: -154px -108px;
+    width: 15px;
+    height: 23px;
+}
+.dxWeb_pLast_Mulberry
+{
+    background-position: -138px -108px;
+    width: 15px;
+    height: 23px;
+}
+.dxWeb_pLastDisabled_Mulberry
+{
+    background-position: -172px -300px;
+    width: 15px;
+    height: 23px;
+}
+.dxWeb_pNext_Mulberry
+{
+    background-position: -229px -132px;
+    width: 10px;
+    height: 23px;
+}
+.dxWeb_pNextDisabled_Mulberry
+{
+    background-position: -230px -42px;
+    width: 10px;
+    height: 23px;
+}
+.dxWeb_pnlExpand_Mulberry
+{
+    background-position: -126px -216px;
+    width: 41px;
+    height: 41px;
+}
+.dxWeb_pnlExpandArrowBottom_Mulberry
+{
+    background-position: -168px -216px;
+    width: 41px;
+    height: 41px;
+}
+.dxWeb_pnlExpandArrowLeft_Mulberry
+{
+    background-position: -138px -66px;
+    width: 41px;
+    height: 41px;
+}
+.dxWeb_pnlExpandArrowRight_Mulberry
+{
+    background-position: -168px -132px;
+    width: 41px;
+    height: 41px;
+}
+.dxWeb_pnlExpandArrowTop_Mulberry
+{
+    background-position: -42px -132px;
+    width: 41px;
+    height: 41px;
+}
+.dxWeb_pPopOut_Mulberry
+{
+    background-position: -204px -300px;
+    width: 21px;
+    height: 22px;
+}
+.dxWeb_pPopOutDisabled_Mulberry
+{
+    background-position: 0px -346px;
+    width: 21px;
+    height: 22px;
+}
+.dxWeb_pPrev_Mulberry
+{
+    background-position: -229px -174px;
+    width: 10px;
+    height: 23px;
+}
+.dxWeb_pPrevDisabled_Mulberry
+{
+    background-position: -229px -216px;
+    width: 10px;
+    height: 23px;
+}
+.dxWeb_rDialogBoxLauncher_Mulberry
+{
+    background-position: -67px -346px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_Mulberry
+{
+    background-position: -130px -346px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherHover_Mulberry
+{
+    background-position: -88px -346px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rDialogBoxLauncherPressed_Mulberry
+{
+    background-position: -109px -346px;
+    width: 20px;
+    height: 20px;
+}
+.dxWeb_rGlrDown_Mulberry
+{
+    background-position: -230px -36px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrDownDisabled_Mulberry
+{
+    background-position: -231px -355px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOut_Mulberry
+{
+    background-position: -231px -361px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_rGlrPopOutDisabled_Mulberry
+{
+    background-position: -231px -346px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_rGlrUp_Mulberry
+{
+    background-position: -229px -198px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rGlrUpDisabled_Mulberry
+{
+    background-position: -229px -240px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_rMinBtn_Mulberry
+{
+    background-position: -211px -346px;
+    width: 19px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_Mulberry.dxWeb_rMinBtn_Mulberry
+{
+    background-position: -191px -346px;
+    width: 19px;
+    height: 20px;
+}
+.dxWeb_rMinBtnChecked_Mulberry.dxWeb_rMinBtnDisabled_Mulberry
+{
+    background-position: -171px -346px;
+    width: 19px;
+    height: 20px;
+}
+.dxWeb_rMinBtnDisabled_Mulberry
+{
+    background-position: -151px -346px;
+    width: 19px;
+    height: 20px;
+}
+.dxWeb_rpCollapseButton_Mulberry
+{
+    background-position: -152px -288px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_rPopOut_Mulberry
+{
+    background-position: -229px -156px;
+    width: 9px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_Mulberry
+{
+    background-position: -233px -66px;
+    width: 7px;
+    height: 10px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_Mulberry
+{
+    background-position: -233px -92px;
+    width: 7px;
+    height: 10px;
+}
+.dxWeb_splHCollapseForwardButton_Mulberry
+{
+    background-position: -232px -258px;
+    width: 7px;
+    height: 10px;
+}
+.dxWeb_splHCollapseForwardButtonHover_Mulberry
+{
+    background-position: -233px -81px;
+    width: 7px;
+    height: 10px;
+}
+.dxWeb_splHSeparator_Mulberry
+{
+    background-position: -143px -443px;
+    width: 35px;
+    height: 10px;
+}
+.dxWeb_splHSeparatorHover_Mulberry
+{
+    background-position: -179px -443px;
+    width: 35px;
+    height: 10px;
+}
+.dxWeb_splVCollapseBackwardButton_Mulberry
+{
+    background-position: -141px -292px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_Mulberry
+{
+    background-position: -130px -292px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_Mulberry
+{
+    background-position: -218px -250px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_Mulberry
+{
+    background-position: -218px -208px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_Mulberry
+{
+    background-position: -230px 0px;
+    width: 10px;
+    height: 35px;
+}
+.dxWeb_splVSeparatorHover_Mulberry
+{
+    background-position: -222px -66px;
+    width: 10px;
+    height: 35px;
+}
+.dxWeb_tcScrollLeft_Mulberry
+{
+    background-position: -141px -326px;
+    width: 20px;
+    height: 19px;
+}
+.dxWeb_tcScrollLeftDisabled_Mulberry
+{
+    background-position: -183px -326px;
+    width: 20px;
+    height: 19px;
+}
+.dxWeb_tcScrollRight_Mulberry
+{
+    background-position: -162px -326px;
+    width: 20px;
+    height: 19px;
+}
+.dxWeb_tcScrollRightDisabled_Mulberry
+{
+    background-position: -120px -326px;
+    width: 20px;
+    height: 19px;
+}
+.dxWeb_tiBackToTop_Mulberry
+{
+    background-position: -205px -426px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_tvColBtn_Mulberry
+{
+    background-position: -225px -389px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_tvColBtnRtl_Mulberry
+{
+    background-position: -225px -284px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_tvExpBtn_Mulberry
+{
+    background-position: -209px -284px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_tvExpBtnRtl_Mulberry
+{
+    background-position: -193px -284px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_ucClearButton_Mulberry
+{
+    background-position: -102px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_Mulberry
+{
+    background-position: -170px -409px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_edtCheckBoxChecked_Mulberry,
+.dxWeb_edtCheckBoxCheckedDisabled_Mulberry,
+.dxWeb_edtCheckBoxGrayed_Mulberry,
+.dxWeb_edtCheckBoxGrayedDisabled_Mulberry,
+.dxWeb_edtCheckBoxUnchecked_Mulberry,
+.dxWeb_edtCheckBoxUncheckedDisabled_Mulberry
+{
+    background-color: #BF4E6A;
+}
+
+.dxWeb_rpHeaderTopLeftCorner_Mulberry,
+.dxWeb_rpHeaderTopRightCorner_Mulberry,
+.dxWeb_rpBottomLeftCorner_Mulberry,
+.dxWeb_rpBottomRightCorner_Mulberry,
+.dxWeb_rpTopLeftCorner_Mulberry,
+.dxWeb_rpTopRightCorner_Mulberry,
+.dxWeb_rpGroupBoxBottomLeftCorner_Mulberry,
+.dxWeb_rpGroupBoxBottomRightCorner_Mulberry,
+.dxWeb_rpGroupBoxTopLeftCorner_Mulberry,
+.dxWeb_rpGroupBoxTopRightCorner_Mulberry,
+.dxWeb_mHorizontalPopOut_Mulberry,
+.dxWeb_mHorizontalPopOutHover_Mulberry,
+.dxWeb_mVerticalPopOut_Mulberry,
+.dxWeb_mVerticalPopOutHover_Mulberry,
+.dxWeb_mVerticalPopOutRtl_Mulberry,
+.dxWeb_mSubMenuItem_Mulberry,
+.dxWeb_mSubMenuItemChecked_Mulberry,
+.dxWeb_mScrollUp_Mulberry,
+.dxWeb_mScrollUpHover_Mulberry,
+.dxWeb_mScrollUpDisabled_Mulberry,
+.dxWeb_mScrollDown_Mulberry,
+.dxWeb_mScrollDownHover_Mulberry,
+.dxWeb_mScrollDownDisabled_Mulberry,
+.dxWeb_tcScrollLeft_Mulberry,
+.dxWeb_tcScrollRight_Mulberry,
+.dxWeb_tcScrollLeftHover_Mulberry,
+.dxWeb_tcScrollRightHover_Mulberry,
+.dxWeb_tcScrollLeftPressed_Mulberry,
+.dxWeb_tcScrollRightPressed_Mulberry,
+.dxWeb_tcScrollLeftDisabled_Mulberry,
+.dxWeb_tcScrollRightDisabled_Mulberry,
+.dxWeb_nbCollapse_Mulberry,
+.dxWeb_nbExpand_Mulberry,
+.dxWeb_splVSeparator_Mulberry,
+.dxWeb_splVSeparatorHover_Mulberry,
+.dxWeb_splHSeparator_Mulberry,
+.dxWeb_splHSeparatorHover_Mulberry,
+.dxWeb_splVCollapseBackwardButton_Mulberry,
+.dxWeb_splVCollapseBackwardButtonHover_Mulberry,
+.dxWeb_splHCollapseBackwardButton_Mulberry,
+.dxWeb_splHCollapseBackwardButtonHover_Mulberry,
+.dxWeb_splVCollapseForwardButton_Mulberry,
+.dxWeb_splVCollapseForwardButtonHover_Mulberry,
+.dxWeb_splHCollapseForwardButton_Mulberry,
+.dxWeb_splHCollapseForwardButtonHover_Mulberry,
+.dxWeb_pcCloseButton_Mulberry,
+.dxWeb_pcPinButton_Mulberry,
+.dxWeb_pcRefreshButton_Mulberry,
+.dxWeb_pcCollapseButton_Mulberry,
+.dxWeb_pcMaximizeButton_Mulberry,
+.dxWeb_pcSizeGrip_Mulberry,
+.dxWeb_pcSizeGripRtl_Mulberry,
+.dxWeb_pPopOut_Mulberry,
+.dxWeb_pPopOutDisabled_Mulberry,
+.dxWeb_pPopOutHover_Mulberry,
+.dxWeb_pPopOutPressed_Mulberry,
+.dxWeb_pAll_Mulberry,
+.dxWeb_pAllDisabled_Mulberry,
+.dxWeb_pPrev_Mulberry,
+.dxWeb_pPrevDisabled_Mulberry,
+.dxWeb_pNext_Mulberry,
+.dxWeb_pNextDisabled_Mulberry,
+.dxWeb_pLast_Mulberry,
+.dxWeb_pLastDisabled_Mulberry,
+.dxWeb_pFirst_Mulberry,
+.dxWeb_pFirstDisabled_Mulberry,
+.dxWeb_tiBackToTop_Mulberry,
+.dxWeb_smBullet_Mulberry,
+.dxWeb_tvColBtn_Mulberry,
+.dxWeb_tvColBtnRtl_Mulberry,
+.dxWeb_tvExpBtn_Mulberry,
+.dxWeb_tvExpBtnRtl_Mulberry,
+.dxWeb_fmFolder_Mulberry,
+.dxWeb_fmFolderLocked_Mulberry,
+.dxWeb_fmCreateButton_Mulberry,
+.dxWeb_fmMoveButton_Mulberry,
+.dxWeb_fmRenameButton_Mulberry,
+.dxWeb_fmDeleteButton_Mulberry,
+.dxWeb_fmRefreshButton_Mulberry,
+.dxWeb_fmDwnlButton_Mulberry,
+.dxWeb_fmCreateButtonDisabled_Mulberry,
+.dxWeb_fmMoveButtonDisabled_Mulberry,
+.dxWeb_fmRenameButtonDisabled_Mulberry,
+.dxWeb_fmDeleteButtonDisabled_Mulberry,
+.dxWeb_fmRefreshButtonDisabled_Mulberry,
+.dxWeb_fmDwnlButtonDisabled_Mulberry,
+.dxWeb_ucClearButton_Mulberry,
+.dxWeb_ucClearButtonDisabled_Mulberry,
+.dxWeb_isPrevBtnHor_Mulberry,
+.dxWeb_isNextBtnHor_Mulberry,
+.dxWeb_isPrevBtnVert_Mulberry,
+.dxWeb_isNextBtnVert_Mulberry,
+.dxWeb_isPrevPageBtnHor_Mulberry,
+.dxWeb_isPrevPageBtnHorOutside_Mulberry,
+.dxWeb_isNextPageBtnHor_Mulberry,
+.dxWeb_isNextPageBtnHorOutside_Mulberry,
+.dxWeb_isPrevPageBtnVert_Mulberry,
+.dxWeb_isPrevPageBtnVertOutside_Mulberry,
+.dxWeb_isNextPageBtnVert_Mulberry,
+.dxWeb_isNextPageBtnVertOutside_Mulberry,
+.dxWeb_isPrevBtnHorDisabled_Mulberry,
+.dxWeb_isNextBtnHorDisabled_Mulberry,
+.dxWeb_isPrevBtnVertDisabled_Mulberry,
+.dxWeb_isNextBtnVertDisabled_Mulberry,
+.dxWeb_isPrevPageBtnHorDisabled_Mulberry,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Mulberry,
+.dxWeb_isNextPageBtnHorDisabled_Mulberry,
+.dxWeb_isNextPageBtnHorOutsideDisabled_Mulberry,
+.dxWeb_isPrevPageBtnVertDisabled_Mulberry,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Mulberry,
+.dxWeb_isNextPageBtnVertDisabled_Mulberry,
+.dxWeb_isNextPageBtnVertOutsideDisabled_Mulberry,
+.dxWeb_isDot_Mulberry,
+.dxWeb_isDotDisabled_Mulberry,
+.dxWeb_isDotSelected_Mulberry,
+.dxWeb_fmGvHeaderFilter_Mulberry,
+.dxWeb_fmGvHeaderFilterActive_Mulberry,
+.dxWeb_fmThumbnailCheck_Mulberry,
+.dxWeb_isPlayBtn_Mulberry,
+.dxWeb_isPauseBtn_Mulberry,
+.dxWeb_igCloseButton_Mulberry,
+.dxWeb_igNextButton_Mulberry,
+.dxWeb_igPrevButton_Mulberry,
+.dxWeb_igPlayButton_Mulberry,
+.dxWeb_igPauseButton_Mulberry,
+.dxWeb_igNavigationBarMarker_Mulberry
+{
+	display: block;
+}
+.dxWeb_mScrollUp_Mulberry, .dxWeb_mScrollDown_Mulberry
+{
+	margin: auto;
+}
+.dxWeb_smBullet_Mulberry,
+.dxWeb_tiBackToTop_Mulberry
+{
+	display:inline;
+}
+

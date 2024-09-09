@@ -1,0 +1,558 @@
+.dxpgControl_BlackGlass, .dxpgCustForm_BlackGlass
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: solid 1px Black;
+	background-color: #EEF2F5;
+}
+.dxpgContainerCell_BlackGlass
+{
+	vertical-align: top;
+}
+.dxpgMainTable_BlackGlass
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_BlackGlass
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_BlackGlass caption
+{
+	background: #c9d7dc;
+	border-bottom: solid 1px #A4BED1;
+	padding:3px;
+	font-weight: bold;
+	text-align: center;	
+}
+.dxpgHeader_BlackGlass
+{
+	border-width: 0px;
+	color: White;
+	background-color: #444444;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxpgHeaderTable_BlackGlass
+{
+	border: solid 1px Black;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_BlackGlass,
+.dxpgCustFieldsDiv_BlackGlass .dxpgHeaderTable_BlackGlass
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_BlackGlass
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_BlackGlass
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+.dxpgHeaderSort_BlackGlass
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_BlackGlass
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_BlackGlass
+{
+	background-color: #86BAD6;
+	color: White;
+}
+.dxpgArea_BlackGlass, .dxpgArea_BlackGlass table
+{
+	color: Black;
+}
+.dxpgArea_BlackGlass
+{
+	border: solid 1px #A4BED1;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	background-color: #eef2f5;
+}
+.dxpgArea_BlackGlass > table 
+{
+    padding:0px 5px 0px 0px;
+}
+.dxpgColumnArea_BlackGlass
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_BlackGlass
+{
+}
+.dxpgDataArea_BlackGlass
+{
+}
+.dxpgFilterArea_BlackGlass
+{
+	color: #808080;
+	background-color: #dcdcdc;
+	border-bottom-style: solid;
+}
+.dxpgEmptyArea_BlackGlass
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_BlackGlass
+{
+	background-color: #D5DFE7;
+	border: solid 1px #A4BED1;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_BlackGlass
+{
+	background-color: #BDCAD5;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_BlackGlass
+{
+	background-color: #BDCAD5;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_BlackGlass
+{
+	background-color: #D5DFE7;
+	border: solid 1px #A4BED1;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 4px 6px 4px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_BlackGlass
+{
+	background-color: #B2C6D2;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_BlackGlass
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_BlackGlass
+{
+	background-color: #9BB4C2;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right: solid 1px #80ADC6;
+	border-top: solid 1px #80ADC6;
+	padding: 6px 6px 6px 6px;
+}
+.dxpgCollapsedButton_BlackGlass
+{
+	vertical-align: -1px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_BlackGlass
+{
+	vertical-align: 0px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_BlackGlass
+{
+	text-align: right;
+	background-color: White;	
+	border-color: #cbdfee;
+	border-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	white-space: nowrap;
+}
+.dxpgKPICell_BlackGlass
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_BlackGlass
+{
+	background-color: #EEF2F5;
+}
+.dxpgGrandTotalCell_BlackGlass
+{
+	background-color: #e2e9ee;
+}
+.dxpgFilterItem_BlackGlass
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_BlackGlass
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_BlackGlass
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px #9f9f9f;
+	background-color: #EEF2F5;
+}
+.dxpgBottomPager_BlackGlass
+{
+	border-top: solid 1px #4d7993;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background-color: #EEF2F5;
+}
+.dxpgTopPager_BlackGlass,
+.dxpgBottomPager_BlackGlass
+{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_BlackGlass
+{
+	color: White;
+}
+.dxpgCustomizationFieldsContent_BlackGlass
+{
+	padding: 0px !important;
+}
+.dxpgMenuItem_BlackGlass 
+{
+}
+.dxpgDataHeadersImage_BlackGlass
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+.dxpgPrefilterPanelContainer_BlackGlass
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanelLink_BlackGlass
+{
+	color: #3e6b96;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanel_BlackGlass
+{
+	background-color: #d3e3ed;
+}
+.dxpgPrefilterPanelCheckBoxCell_BlackGlass
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_BlackGlass
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_BlackGlass
+{
+	padding: 5px 6px 8px;
+}
+.dxpgPrefilterPanelExpressionCell_BlackGlass
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_BlackGlass
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_BlackGlass
+{
+	border-top: solid 1px #b2bcc7;
+	background: #C9D6DE;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_BlackGlass
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_BlackGlass,
+.dxpgCustFieldsRowAreaHeaders_BlackGlass,
+.dxpgCustFieldsColumnAreaHeaders_BlackGlass,
+.dxpgCustFieldsDataAreaHeaders_BlackGlass,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_BlackGlass,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_BlackGlass
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_BlackGlass
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_BlackGlass
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_BlackGlass
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_BlackGlass .dxpgFLTextDiv_BlackGlass,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_BlackGlass .dxpgFLTextDiv_BlackGlass
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_BlackGlass
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_BlackGlass .dxeBase_BlackGlass,
+.TopPanelOnly .dxpgFLDefereDiv_BlackGlass .dxpgFLDefereDB_BlackGlass,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_BlackGlass,
+.TopPanelOnly .dxpgFLFRDiv_BlackGlass,
+.TopPanelOnly .dxpgFLCDDiv_BlackGlass,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_BlackGlass,
+.TopPanelOnly .dxpgFLTextDiv_BlackGlass div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_BlackGlass
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_BlackGlass
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_BlackGlass,
+.StackedSideBySide .dxpgCustFieldsFieldList_BlackGlass
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_BlackGlass
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_BlackGlass,
+.StackedSideBySide .dxpgFLCDDiv_BlackGlass
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_BlackGlass
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_BlackGlass > div
+{
+    border:1px solid #9F9F9F;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_BlackGlass > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_BlackGlass > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_BlackGlass
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_BlackGlass .dxbButton_BlackGlass div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_BlackGlass .dxbButton_BlackGlass div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_BlackGlass
+{
+ height:28px;
+}
+.dxpgFLTextDiv_BlackGlass div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_BlackGlass
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_BlackGlass
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_BlackGlass
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_BlackGlass
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_BlackGlass
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_BlackGlass .dxeBase_BlackGlass
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:17px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgFLDefereDB_BlackGlass
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_BlackGlass .dxbButton_BlackGlass div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_BlackGlass .dxbButton_BlackGlass div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_BlackGlass table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_BlackGlass table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9F9F9F;
+	background-color: White;
+}
+.dxpgLoadingPanel_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxpgLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+
+.dxpgVScrollBarAreaCell_BlackGlass {
+    background-color:  #D5DFE7;
+    border-left: 1px solid #A4BED1;
+    border-bottom: 1px solid #A4BED1;
+}
+.dxpgHScrollBarAreaCell_BlackGlass {
+    background-color:  #D5DFE7;
+    border-top: 1px solid #A4BED1;
+    border-right: 1px solid #A4BED1;
+}
+.dxpgScrollBarEdgeCell_BlackGlass {
+    background-color: #eef2f5;
+    border-left: 1px solid #A4BED1;
+    border-top: 1px solid #A4BED1;
+}

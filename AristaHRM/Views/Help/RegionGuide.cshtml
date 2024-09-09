@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "HRIS - Petunjuk Setting Regional";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Petunjuk Setting Regional</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <a id="top" name="top"></a>
+                        <div style="border-style:double; width: 500px; padding-left:10px; margin-left: 14px">
+                            <p style="font-family:Arial, Helvetica; font-size:14px; padding-left:10px;"><span style="color:blue; font-size:22px">D</span><span style="font-size: 18px">aftar Isi</span></p>
+                            <hr style="color:black; height:2px; width: 500px;" />
+                            <ol type="A" style="font: 14px Arial; text-decoration:underline; color:blue;">
+                                <li style="width: 449px; margin-left: 0px; text-align:left"><a href="#settingseven">Setting Regional Windows 7</a></li>
+                                <br />
+                                <li style="width: 449px; margin-left: 0px; text-align:left"><a href="#settingxp">Setting Regional Windows XP</a></li>
+                                <br />
+                            </ol>
+                        </div>
+                        <br />
+                        <div style="text-align:left; font: 12px Arial">
+                            <ol type="A" style="font: 14px Arial">
+                                <li><a id="settingseven" name="settingseven">Setting Regional Windows 7</a></li>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">
+                                    Buka Control Panel dengan menu Start => Control Panel. Ubah tampilan "view by" menjadi "large icons"/"small icons", kemudian klik pada "Region and Language" (tanda kotak merah).<br /><br />
+                                    <img src="../../Images/Guide/Region1.png" style="text-align:center; vertical-align:middle; width: 500px; height: 375px;" />
+                                </p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">
+                                    Setelah terbuka tampilan "Region and Language", buka kotak pilihan "Format" (tanda biru) di bagian atas, kemudian pilih "Indonesian (Indonesia)" seperti pada gambar berikut ini (bertanda merah).<br /><br />
+                                    <img src="../../Images/Guide/Region2.png" style="text-align:center; vertical-align:middle; width: 300px; height: 375px;" />
+                                </p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">
+                                    Klik "Apply", kemudian klik "OK" untuk menerapkan perubahan dan menutup kotak dialog "Region and Language". <br />Untuk mengubah setting zona waktu menjadi WIB, klik pada jam di pojok kanan bawah desktop kemudian pilih "Change date and time settings." Klik tombol "Change time zone" (tanda biru).<br /><br />
+                                    <img src="../../Images/Guide/Region3.png" style="text-align:center; vertical-align:middle; width: 250px; height: 375px;" />
+                                </p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">Pada tampilan "Time Zone Settings" (gambar bawah), pilih "Set the time zone" menjadi "(UTC+07:00) Bangkok, Hanoi, Jakarta". Klik "OK" untuk menetapkan perubahan. <br />Pastikan pada tampilan "Date and Time" tertera zona waktu yang telah dipilih (tanda merah), kemudian klik "Apply" dan "OK" untuk menutup tampilan setting waktu (gambar atas). </p>
+                                <br />
+                                <br />
+                                <li><a id="settingxp" name="settingxp">Setting Regional Windows XP</a></li>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">Buka Control Panel dengan menu Start => Control Panel (versi tampilan standar) atau Start => Setting => Control Panel (versi tampilan Windows 98/ME). Ubah tampilan "View" menjadi "large icons/small icons", kemudian klik pada "Regional Settings" (tanda kotak merah).</p>
+                                <img src="../../Images/Guide/Region4.png" style="text-align:center; vertical-align:middle; width: 500px; height: 375px;" /></p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">
+                                    Setelah terbuka tampilan "Regional Settings", buka kotak pilihan "Format" (tanda biru) di bagian atas, kemudian pilih "Indonesian (Indonesia)" seperti pada gambar berikut ini (bertanda merah).<br /><br />
+                                    <img src="../../Images/Guide/Region5.png" style="text-align:center; vertical-align:middle; width: 300px; height: 375px;" />
+                                </p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">
+                                    Klik "Apply", kemudian klik "OK" untuk menerapkan perubahan dan menutup kotak dialog "Regional Settings". <br />Untuk mengubah setting zona waktu menjadi WIB, klik ganda pada jam di pojok kanan bawah desktop kemudian pilih tab "Time Zone." Pilih "GMT +07.00 Bangkok, Hanoi, Jakarta" pada daftar yang tersedia.<br /><br />
+                                    <img src="../../Images/Guide/Region6.png" style="text-align:center; vertical-align:middle; width: 250px; height: 375px;" />
+                                </p>
+                                <p style="text-align:left; font:12px Arial; text-decoration:none">Klik "Apply", kemudian klik "OK" untuk menetapkan perubahan. <br />Pastikan pada tab "Date and Time" tertera zona waktu yang telah dipilih (tanda merah), dan sistem waktu pada taskbar menggunakan format waktu Indonesia. </p>
+                                <br />
+                                <p style="text-align:center; font:14px Arial; text-decoration:none"><a href="#top">Kembali ke atas</a></p>
+                            </ol>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

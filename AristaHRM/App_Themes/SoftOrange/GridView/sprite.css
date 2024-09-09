@@ -1,0 +1,524 @@
+.dxGridView_gvCellError_SoftOrange,
+.dxGridView_gvCMClearFilter_SoftOrange,
+.dxGridView_gvCMClearFilterDisabled_SoftOrange,
+.dxGridView_gvCMClearGrouping_SoftOrange,
+.dxGridView_gvCMClearGroupingDisabled_SoftOrange,
+.dxGridView_gvCMCollapseDetailRow_SoftOrange,
+.dxGridView_gvCMCollapseDetailRowDisabled_SoftOrange,
+.dxGridView_gvCMCollapseRow_SoftOrange,
+.dxGridView_gvCMCollapseRowDisabled_SoftOrange,
+.dxGridView_gvCMDeleteRow_SoftOrange,
+.dxGridView_gvCMDeleteRowDisabled_SoftOrange,
+.dxGridView_gvCMEditRow_SoftOrange,
+.dxGridView_gvCMEditRowDisabled_SoftOrange,
+.dxGridView_gvCMExpandDetailRow_SoftOrange,
+.dxGridView_gvCMExpandDetailRowDisabled_SoftOrange,
+.dxGridView_gvCMExpandRow_SoftOrange,
+.dxGridView_gvCMExpandRowDisabled_SoftOrange,
+.dxGridView_gvCMFullCollapse_SoftOrange,
+.dxGridView_gvCMFullCollapseDisabled_SoftOrange,
+.dxGridView_gvCMFullExpand_SoftOrange,
+.dxGridView_gvCMFullExpandDisabled_SoftOrange,
+.dxGridView_gvCMGroupByColumn_SoftOrange,
+.dxGridView_gvCMGroupByColumnDisabled_SoftOrange,
+.dxGridView_gvCMNewRow_SoftOrange,
+.dxGridView_gvCMNewRowDisabled_SoftOrange,
+.dxGridView_gvCMRefresh_SoftOrange,
+.dxGridView_gvCMRefreshDisabled_SoftOrange,
+.dxGridView_gvCMSearchPanel_SoftOrange,
+.dxGridView_gvCMSearchPanelDisabled_SoftOrange,
+.dxGridView_gvCMShowCustomizationWindow_SoftOrange,
+.dxGridView_gvCMShowCustomizationWindowDisabled_SoftOrange,
+.dxGridView_gvCMShowFilterEditor_SoftOrange,
+.dxGridView_gvCMShowFilterEditorDisabled_SoftOrange,
+.dxGridView_gvCMShowGroupPanel_SoftOrange,
+.dxGridView_gvCMShowGroupPanelDisabled_SoftOrange,
+.dxGridView_gvCMShowSearchPanel_SoftOrange,
+.dxGridView_gvCMShowSearchPanelDisabled_SoftOrange,
+.dxGridView_gvCMSortAscending_SoftOrange,
+.dxGridView_gvCMSortAscendingDisabled_SoftOrange,
+.dxGridView_gvCMSortDescending_SoftOrange,
+.dxGridView_gvCMSortDescendingDisabled_SoftOrange,
+.dxGridView_gvCMSummaryAverage_SoftOrange,
+.dxGridView_gvCMSummaryAverageDisabled_SoftOrange,
+.dxGridView_gvCMSummaryCount_SoftOrange,
+.dxGridView_gvCMSummaryCountDisabled_SoftOrange,
+.dxGridView_gvCMSummaryMax_SoftOrange,
+.dxGridView_gvCMSummaryMaxDisabled_SoftOrange,
+.dxGridView_gvCMSummaryMin_SoftOrange,
+.dxGridView_gvCMSummaryMinDisabled_SoftOrange,
+.dxGridView_gvCMSummarySum_SoftOrange,
+.dxGridView_gvCMSummarySumDisabled_SoftOrange,
+.dxGridView_gvCMUngroupColumn_SoftOrange,
+.dxGridView_gvCollapsedButton_SoftOrange,
+.dxGridView_gvCollapsedButtonRtl_SoftOrange,
+.dxGridView_gvDetailCollapsedButton_SoftOrange,
+.dxGridView_gvDetailCollapsedButtonRtl_SoftOrange,
+.dxGridView_gvDetailExpandedButton_SoftOrange,
+.dxGridView_gvDetailExpandedButtonRtl_SoftOrange,
+.dxGridView_gvDragAndDropArrowDown_SoftOrange,
+.dxGridView_gvDragAndDropArrowUp_SoftOrange,
+.dxGridView_gvDragAndDropHideColumn_SoftOrange,
+.dxGridView_gvExpandedButton_SoftOrange,
+.dxGridView_gvExpandedButtonRtl_SoftOrange,
+.dxGridView_gvFilterRowButton_SoftOrange,
+.dxGridView_gvFixedGroupRow_SoftOrange,
+.dxGridView_gvHeaderFilter_SoftOrange,
+.dxGridView_gvHeaderFilterActive_SoftOrange,
+.dxGridView_gvHeaderSortDown_SoftOrange,
+.dxGridView_gvHeaderSortUp_SoftOrange,
+.dxGridView_gvHideAdaptiveDetailButton_SoftOrange,
+.dxGridView_gvParentGroupRows_SoftOrange,
+.dxGridView_gvShowAdaptiveDetailButton_SoftOrange,
+.dxGridView_WindowResizer_SoftOrange,
+.dxGridView_WindowResizerRtl_SoftOrange
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxGridView_gvCellError_SoftOrange
+{
+    background-position: -120px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMClearFilter_SoftOrange
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearFilterDisabled_SoftOrange
+{
+    background-position: -68px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGrouping_SoftOrange
+{
+    background-position: -68px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGroupingDisabled_SoftOrange
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRow_SoftOrange
+{
+    background-position: 0px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRowDisabled_SoftOrange
+{
+    background-position: -17px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRow_SoftOrange
+{
+    background-position: -34px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRowDisabled_SoftOrange
+{
+    background-position: 0px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRow_SoftOrange
+{
+    background-position: -17px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRowDisabled_SoftOrange
+{
+    background-position: -51px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRow_SoftOrange
+{
+    background-position: -17px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRowDisabled_SoftOrange
+{
+    background-position: -85px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRow_SoftOrange
+{
+    background-position: -85px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRowDisabled_SoftOrange
+{
+    background-position: -85px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRow_SoftOrange
+{
+    background-position: -85px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRowDisabled_SoftOrange
+{
+    background-position: -102px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapse_SoftOrange
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapseDisabled_SoftOrange
+{
+    background-position: -51px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpand_SoftOrange
+{
+    background-position: -102px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpandDisabled_SoftOrange
+{
+    background-position: 0px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumn_SoftOrange
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumnDisabled_SoftOrange
+{
+    background-position: -68px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRow_SoftOrange
+{
+    background-position: -103px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRowDisabled_SoftOrange
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefresh_SoftOrange
+{
+    background-position: -51px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefreshDisabled_SoftOrange
+{
+    background-position: -51px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanel_SoftOrange
+{
+    background-position: -85px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanelDisabled_SoftOrange
+{
+    background-position: -34px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindow_SoftOrange
+{
+    background-position: -102px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindowDisabled_SoftOrange
+{
+    background-position: -85px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditor_SoftOrange
+{
+    background-position: -102px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditorDisabled_SoftOrange
+{
+    background-position: -68px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanel_SoftOrange
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanelDisabled_SoftOrange
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanel_SoftOrange
+{
+    background-position: -68px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanelDisabled_SoftOrange
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscending_SoftOrange
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscendingDisabled_SoftOrange
+{
+    background-position: -86px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescending_SoftOrange
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescendingDisabled_SoftOrange
+{
+    background-position: -17px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverage_SoftOrange
+{
+    background-position: -102px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverageDisabled_SoftOrange
+{
+    background-position: -68px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCount_SoftOrange
+{
+    background-position: -68px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCountDisabled_SoftOrange
+{
+    background-position: -51px -125px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMax_SoftOrange
+{
+    background-position: -34px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMaxDisabled_SoftOrange
+{
+    background-position: -102px -108px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMin_SoftOrange
+{
+    background-position: -34px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMinDisabled_SoftOrange
+{
+    background-position: -102px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySum_SoftOrange
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySumDisabled_SoftOrange
+{
+    background-position: 0px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMUngroupColumn_SoftOrange
+{
+    background-position: -85px -91px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCollapsedButton_SoftOrange
+{
+    background-position: -119px -74px;
+    width: 13px;
+    height: 14px;
+}
+.dxGridView_gvCollapsedButtonRtl_SoftOrange
+{
+    background-position: -119px -57px;
+    width: 13px;
+    height: 14px;
+}
+.dxGridView_gvDetailCollapsedButton_SoftOrange
+{
+    background-position: -47px -142px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvDetailCollapsedButtonRtl_SoftOrange
+{
+    background-position: -33px -142px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvDetailExpandedButton_SoftOrange
+{
+    background-position: -19px -142px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvDetailExpandedButtonRtl_SoftOrange
+{
+    background-position: -119px -108px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvDragAndDropArrowDown_SoftOrange
+{
+    background-position: -119px -40px;
+    width: 15px;
+    height: 14px;
+}
+.dxGridView_gvDragAndDropArrowUp_SoftOrange
+{
+    background-position: -119px -23px;
+    width: 15px;
+    height: 14px;
+}
+.dxGridView_gvDragAndDropHideColumn_SoftOrange
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvExpandedButton_SoftOrange
+{
+    background-position: -119px -125px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvExpandedButtonRtl_SoftOrange
+{
+    background-position: -61px -142px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvFilterRowButton_SoftOrange
+{
+    background-position: -119px -91px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvFixedGroupRow_SoftOrange
+{
+    background-position: -67px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_gvHeaderFilter_SoftOrange
+{
+    background-position: -23px 0px;
+    width: 21px;
+    height: 21px;
+}
+.dxGridView_gvHeaderFilterActive_SoftOrange
+{
+    background-position: -45px 0px;
+    width: 21px;
+    height: 21px;
+}
+.dxGridView_gvHeaderSortDown_SoftOrange
+{
+    background-position: -121px -19px;
+    width: 6px;
+    height: 3px;
+}
+.dxGridView_gvHeaderSortUp_SoftOrange
+{
+    background-position: -128px -19px;
+    width: 6px;
+    height: 3px;
+}
+.dxGridView_gvHideAdaptiveDetailButton_SoftOrange
+{
+    background-position: -115px -142px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_gvParentGroupRows_SoftOrange
+{
+    background-position: 0px -142px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvShowAdaptiveDetailButton_SoftOrange
+{
+    background-position: -101px -142px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_WindowResizer_SoftOrange
+{
+    background-position: -88px -142px;
+    width: 12px;
+    height: 12px;
+}
+.dxGridView_WindowResizerRtl_SoftOrange
+{
+    background-position: -75px -142px;
+    width: 12px;
+    height: 12px;
+}
+

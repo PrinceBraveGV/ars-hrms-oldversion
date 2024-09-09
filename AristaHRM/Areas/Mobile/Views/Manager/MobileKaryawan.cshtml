@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = " - Data Karyawan -";
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "MasterData", "Manager", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "MasterData", "Manager", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"></li>
+        <li data-role="list-divider">Daftar Karyawan</li>
+    </ul>
+    
+    Html.RenderAction("KaryawanPartial", "Manager", mobilearea);
+    
+}
+
+
+

@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "HRIS - Master Reset Password";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model PasswordModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Master Reset Password</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 12px Arial; text-align:left">
+                            Silakan isi NIK yang akan direset dengan password default pada kotak di bawah ini.
+                        </p><br />
+
+                        @using (Html.BeginForm("ResetMaster", "Home", FormMethod.Post))
+                        {
+                            <div style="text-align:center">
+                            @Html.AntiForgeryToken()
+
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "KonfirmasiLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "NIK Target ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                        {
+                                            combobox.Name = "NIK";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "NIK";
+                                            combobox.Properties.ValueField = "NIK";
+                                            combobox.Properties.ValueType = typeof(String);
+                                            combobox.Properties.TextFormatString = "{0} - {1}";
+                                            combobox.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(70));
+                                            combobox.Properties.Columns.Add("Nama_Karyawan", "Nama Karyawan", Unit.Pixel(300));
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ValidationSettings.Display = Display.None;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                            combobox.Properties.EnableClientSideAPI = true;
+                                            combobox.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                                            combobox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                        }).BindList(Providers.GetListKaryawan()).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                });
+                            }).GetHtml()
+                            </div>
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnSubmit";
+                                button.Text = "Reset Password";
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnRedirect";
+                                button.Text = "Kembali";
+                                button.UseSubmitBehavior = false;
+                                button.RouteValues = new { Controller = "Home", Action = "Index" };
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+    </table>
+</div>
+
+

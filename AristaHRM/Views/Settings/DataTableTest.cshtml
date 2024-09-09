@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script src="@Url.Content("~/Scripts/DataTables/jquery.dataTables.js")"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#partial").hide();
+
+        $.getJSON("@Url.Action("GetJson", "Settings")", { NIK: '00001' }, function (json) {
+            var tr;
+            for (var i = 0; i < json.length; i++)
+            {
+                tr = $('<tr data-id="' + json[i].NIK + '"/>');
+                tr.append("<td>" + json[i].NIK + "</td>");
+                tr.append("<td>" + json[i].Nama_Karyawan + "</td>");
+                tr.append("<td>" + json[i].Perusahaan + "</td>");
+                tr.append("<td>" + json[i].Cabang + "</td>");
+                tr.append("<td>" + json[i].Jabatan + "</td>");
+                $("#karyawan").append(tr);
+            }
+            $("#karyawan").DataTable();
+        });
+
+        $("#karyawan").on("click", "tr", function () {
+            var table = $("#karyawan").DataTable();
+
+            var data = table.row(this).data();
+
+            $.ajax({
+                type: 'GET',
+                url: '@Url.Action("DataTableTestPartial", "Settings")',
+                data: { NIK: data[0] },
+                success: function (result) {
+                    console.log(result);
+                    $("#partial").show();
+                }
+            });
+        });
+    });
+</script>
+
+<table id="karyawan"></table>
+
+<div id="partial">
+@Html.Partial("_DataTableTest")
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#Selection1').change(function () {
+            var url = 'GetSelectList';
+            var source = $(this).attr('id');
+            cascadeDropDownList(url, source, 'Selection2');
+        });
+			
+        $('#Selection3').change(function () {
+            var url = 'GetSelectList';
+            var source = $(this).attr('id');
+            var target = $('#targetdiv').attr('id');
+            cascadeDropDownList2(url, source, target, 'Selection4');
+        });
+    });
+		
+    function cascadeDropDownList(url, source, target) {
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: { Id: $('#' + source).val() },
+            dataType: 'json',
+            traditional: true,
+            success: function (data) {
+                // remove previous option contents first
+                $('#' + target + ' option').each(function () {
+                    $(this).remove();
+                });
+
+                // add new option contents
+                var options = '<option value="">--Seçin--</option>';
+                for (var i = 0; i < data.length; i++) {
+                    options += '<option value=' + data[i].Value + '>' + data[i].Text + '</option>';
+                }
+                $('#' + target).html(options);
+            }
+        });
+    }
+			
+    function cascadeDropDownList2(url, source, target, ddlName) {
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: { Id: $('#' + source).val() },
+            dataType: 'json',
+            traditional: true,
+            success: function (data) {
+                var ddl = "<select id='" + ddlName + "'>";
+                ddl += '<option value="">--Seçin--</option>';
+                for (var i = 0; i < data.length; i++) {
+                    ddl += '<option value=' + data[i].Value + '>' + data[i].Text + '</option>';
+                }
+                ddl += '</select>';
+                $('#' + target).html(ddl);
+            }
+        });
+    }
+</script>

@@ -1,0 +1,289 @@
+﻿@{
+    Layout = null;
+}
+
+@using System.Web.Optimization
+
+@using AristaHRM.Models
+
+@model LoginModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content="600; URL=@Url.Action("Login", "Home" )" />
+    <title>Login</title>
+
+    @{
+        Scripts.Render("~/bundles/jquery");
+        Scripts.Render("~/bundles/jqueryui");
+        Scripts.Render("~/bundles/modernizr");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/addonbase");
+        Scripts.Render("~/bundles/angularbase");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/pdf");
+        Scripts.Render("~/bundles/js");
+        Styles.Render("~/Content/css");
+    }
+
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    <script type="text/javascript">
+
+    var url = '@Url.Action("Index", "Home")';
+    var chr = 0;
+    var isshift = false;
+    var capsstate = false;
+    function onKeyPress(s, e) {
+        e = e || window.htmlEvent || window.event;
+
+        chr = (typeof e.htmlEvent.which != 'undefined') ? e.htmlEvent.which : e.htmlEvent.keyCode;
+
+        isshift = (typeof e.htmlEvent.shiftKey != 'undefined') ? e.htmlEvent.shiftKey : !!(e.htmlEvent.modifiers & 4);
+
+        // periksa huruf kecil & besar (ASCII code A-Z & a-z)
+        if (((chr >= 97 && chr <= 122) && isshift) || ((chr >= 65 && chr <= 90) && !isshift)) {
+            // tampilkan label peringatan CAPS LOCK
+            document.getElementById("caps").style.visibility = 'visible';
+        }
+
+        else {
+            // sembunyikan label peringatan CAPS LOCK
+            document.getElementById("caps").style.visibility = 'hidden';
+        }
+    }
+
+    function onKeyDown(s, e) {
+
+        if (typeof capsState !== 'undefined' && e.htmlEvent.keyCode == 20) {
+            capsState = !capsState;
+            if (capsState) {
+                document.getElementById("caps").style.visibility = 'visible';
+            }
+            else {
+                document.getElementById("caps").style.visibility = 'hidden';
+            }
+        }
+    }
+
+    function onClick(s, e) {
+        var formdata = $('form');
+
+        var aft = function (data) {
+            data.__RequestVerificationToken = $("[name='__RequestVerificationToken']").val();
+
+            return data;
+        };
+
+        check = function (result) {
+            if (result.response == 'Success') {
+                // periksa jika terdapat return URL
+                var returnUrl = result.returnUrl;
+
+                if (returnUrl != null && returnUrl != '') {
+                    window.open(returnUrl, '_parent');
+                }
+                else {
+                    window.open(url, '_parent');
+                }
+                window.close();
+            }
+            else if (result.response == 'Failure') {
+                var msg = result.error;
+                console.log(msg);
+                $('#error').html(msg);
+            }
+        }
+
+        var password = Password.GetValue();
+        if (password != null && password != '') {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Login", "Home")',
+                data: aft(formdata.serialize()),
+                success: check,
+                error: function (xhr, textStatus, errorThrown) {
+                    // alert(errorThrown);
+                }
+            });
+        }
+    }
+    </script>
+</head>
+<body>
+    <div>
+    <form id="form1" enctype="multipart/form-data" method="post">
+        <div style="padding-left:10px">
+            <br />
+            <table style="text-align:center">
+                <tr>
+                    <td style="background-image:url('/content/images/AquaHeader.jpg'); border: 20px 20px 20px 20px solid black">
+                        <p class="tableheadercontent">HRIS Login</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: double 1px; width:600px; text-align:center">
+                        <div style="padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; border: 10px 10px 10px 10px solid blue">
+                            @* Begin form *@
+                            @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { target = "_parent" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.DevExpress().FormLayout(settings =>
+                                {
+                                    settings.Name = "LoginFormLayout";
+                                    settings.AlignItemCaptionsInAllGroups = true;
+                                    settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                    settings.Width = Unit.Pixel(550);
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "NIK ";
+                                        layoutitem.HelpText = "Isi sesuai dengan NIK anda (5 digit angka).";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.NIK, textbox =>
+                                            {
+                                                textbox.Name = "NIK";
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                textbox.Properties.EnableClientSideAPI = true;
+                                                textbox.Properties.ValidationSettings.Display = Display.Static;
+                                                textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                textbox.Properties.MaskSettings.Mask = "00000";
+                                                textbox.Properties.MaskSettings.IncludeLiterals = MaskIncludeLiteralsMode.None;
+                                                textbox.ShowModelErrors = true;
+                                                textbox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                                textbox.Properties.ClientSideEvents.KeyDown = "function (s, e) { onKeyDown(s, e); }";
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Password ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().TextBoxFor(m => m.Password, textbox =>
+                                            {
+                                                textbox.Properties.Password = true;
+                                                textbox.Width = Unit.Pixel(300);
+                                                textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                textbox.Properties.ValidationSettings.Display = Display.Static;
+                                                textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                textbox.Properties.ClientSideEvents.KeyPress = "function (s, e) { onKeyPress(s, e); }";
+                                                textbox.ShowModelErrors = true;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = string.Empty;
+                                        layoutitem.ShowCaption = DefaultBoolean.False;
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().CheckBoxFor(m => m.IsTrainee, chksettings =>
+                                            {
+                                                chksettings.Name = "IsTrainee";
+                                                chksettings.Text = "Karyawan trainee/percobaan";
+                                                chksettings.Style.Add("margin-left", "60px");
+                                                chksettings.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = string.Empty;
+                                        layoutitem.ShowCaption = DefaultBoolean.False;
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().CheckBoxFor(m => m.Remember, chksettings =>
+                                            {
+                                                chksettings.Name = "Remember";
+                                                chksettings.Text = "Simpan informasi login saya";
+                                                chksettings.Style.Add("margin-left", "60px");
+                                                chksettings.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = string.Empty;
+                                        layoutitem.ShowCaption = DefaultBoolean.False;
+                                    });
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = string.Empty;
+                                        layoutitem.ShowCaption = DefaultBoolean.False;
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnLogin";
+                                                button.Text = "Login Sistem";
+                                                button.UseSubmitBehavior = true;
+                                                button.Style.Add("margin-left", "190px");
+                                                button.ClientSideEvents.Click = "onClick";
+                                                // button.ClientSideEvents.Click = "function (s, e) { document.forms[0].submit(); window.close(); }";
+                                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnReset";
+                                                button.Text = "Reset Form";
+                                                button.UseSubmitBehavior = false;
+                                                button.Attributes.Add("type", "reset");
+                                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                        });
+                                    });
+                                }).GetHtml();
+                            }
+                            @* End form *@
+                            @*<p style="font: 14px Arial, sans-serif; color:blue"><a href="/Home/ResetPassword" target="_parent">Lupa Password</a></p>*@
+                            <p id="error" style="text-align:left; color:red; font:12px Arial; padding-left:1em">@ViewData["ErrorMsg"]</p>
+                            <div id="caps" style="visibility:hidden; font:12px Arial; color:green">'Caps Lock' pada keyboard anda sedang aktif. <br />Isian password membedakan huruf besar dan huruf kecil.</div>
+                            @*Html.DevExpress().ValidationSummary().GetHtml() *@
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

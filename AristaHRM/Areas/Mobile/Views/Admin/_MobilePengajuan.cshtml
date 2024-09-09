@@ -1,0 +1,20 @@
+﻿@using AristaHRM.Models
+
+@model CutiModel
+
+@Html.DevExpress().ComboBoxFor(m => m.Jenis_Cuti, combobox =>
+{
+    combobox.Name = "Jenis_Cuti";
+    combobox.CallbackRouteValues = new { Area = "Mobile", Controller = "Admin", Action = "PengajuanPartial" };
+    combobox.Properties.NullText = "-- Pilih Jenis Cuti --";
+    combobox.Properties.HelpText = "(*) Pilih jenis cuti yang diinginkan dari daftar.";
+    combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combobox.Properties.TextField = "Jenis_Cuti";
+    combobox.Properties.ValueField = "Jenis_Cuti";
+    combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    combobox.Properties.ValidationSettings.Display = Display.None;
+    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+    combobox.Width = Unit.Pixel(300);
+    combobox.Theme = AristaHRM.Theme.SelectTheme;
+    combobox.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Status_Nikah'] = Status_Nikah.GetValue(); e.customArgs['Agama'] = Agama.GetValue(); e.customArgs['Jenis_Kelamin'] = Jenis_Kelamin.GetValue(); }";
+}).BindList(Providers.GetJenisCutiByKaryawan(Model.Status_Nikah, Model.Agama, Model.Jenis_Kelamin, Model.NIK)).Bind(Model.Jenis_Cuti).GetHtml()

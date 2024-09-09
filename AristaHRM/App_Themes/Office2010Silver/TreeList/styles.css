@@ -1,0 +1,292 @@
+.dxtlControl_Office2010Silver
+{
+	cursor: default;
+	font: 11px Verdana, Geneva, sans-serif;
+	color: Black;
+	border: 1px solid #868b91;
+}
+.dxtlControl_Office2010Silver caption
+{
+	font-weight: normal;
+	color: Black;
+	padding: 3px 3px 5px;
+	text-align: center;
+	background: #e8ebee url('CssImages/TitleBack.png') repeat-x left top;
+	border-bottom: 0 solid #868b91;
+	border: 1px solid #868b91;
+}
+
+/* Indent cells */
+.dxtlIndent_Office2010Silver,
+.dxtlIndentWithButton_Office2010Silver
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_Office2010Silver
+{
+	padding: 0 11px;
+}
+.dxtlIndentWithButton_Office2010Silver
+{
+	padding: 4px 5px;
+}
+.dxtlSelectionCell_Office2010Silver
+{
+	border-width: 0;
+}
+
+/* Tree-lines cells */
+.dxtlLineRoot_Office2010Silver,
+.dxtlLineFirst_Office2010Silver,
+.dxtlLineMiddle_Office2010Silver,
+.dxtlLineLast_Office2010Silver,
+.dxtlLineFirstRtl_Office2010Silver,
+.dxtlLineMiddleRtl_Office2010Silver,
+.dxtlLineLastRtl_Office2010Silver
+{
+	background-color: Transparent;
+}
+
+.dxtlIndent_Office2010Silver,
+.dxtlIndentWithButton_Office2010Silver
+{
+	background-color: White;
+}
+
+/* Headers */
+.dxtlHeader_Office2010Silver,
+.dxtlControl_Office2010Silver .dxtlHSDC
+{
+    background: #e7eaee url('CssImages/HeaderBack.png') repeat-x left top;
+}
+.dxtlHeader_Office2010Silver
+{
+	border: 1px solid #868b91;
+	padding: 5px 6px;
+	font-weight: normal;
+	color: #3b3b3b;
+}
+.dxtlHeader_Office2010Silver table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_Office2010Silver td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_Office2010Silver,
+.dxtlHeader_Office2010Silver td.dxtl
+{
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_Office2010Silver
+{
+	background: white none;
+}
+.dxtlAltNode_Office2010Silver
+{
+	background: #f7f7f8 none;
+}
+.dxtlAltNode_Office2010Silver .dxtlIndent_Office2010Silver,
+.dxtlSelectedNode_Office2010Silver .dxtlIndent_Office2010Silver,
+.dxtlFocusedNode_Office2010Silver .dxtlIndent_Office2010Silver
+{
+	background: White none;
+}
+.dxtlSelectedNode_Office2010Silver
+{
+	background: #faedb6 none;
+	color: Black;
+}
+.dxtlFocusedNode_Office2010Silver
+{
+	background: #fdf7d9 none;
+	color: Black;
+}
+.dxtlInlineEditNode_Office2010Silver
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_Office2010Silver
+{
+	background: #f9fafb none;
+}
+
+.dxtlNode_Office2010Silver td.dxtl,
+.dxtlAltNode_Office2010Silver  td.dxtl,
+.dxtlSelectedNode_Office2010Silver td.dxtl,
+.dxtlFocusedNode_Office2010Silver td.dxtl,
+.dxtlEditFormDisplayNode_Office2010Silver td.dxtl,
+.dxtlCommandCell_Office2010Silver
+{
+	padding: 4px 6px;
+	border-width: 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlHeader_Office2010Silver .dxbButton_Office2010Silver,
+.dxtlCommandCell_Office2010Silver .dxbButton_Office2010Silver
+{
+    margin: 0 2px;
+}
+.dxtlHeader_Office2010Silver .dxbButton_Office2010Silver .dxb,
+.dxtlCommandCell_Office2010Silver .dxbButton_Office2010Silver .dxb
+{
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+.dxtlEditFormDisplayNode_Office2010Silver td.dxtl,
+.dxtlEditFormDisplayNode_Office2010Silver td.dxtl__cc
+{
+	border-bottom: 1px solid #dbdee1;
+}
+.dxtlInlineEditNode_Office2010Silver td.dxtl
+{
+	border-width: 0;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_Office2010Silver
+{
+	background: #efeff0 none;
+	color: #777777;
+	padding: 14px;
+	border-width: 0;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_Office2010Silver,
+.dxtlFooter_Office2010Silver,
+.dxtlControl_Office2010Silver .dxtlFSDC
+{
+	background-color: #f6f7f9;
+}
+.dxtlGroupFooter_Office2010Silver td.dxtl,
+.dxtlFooter_Office2010Silver td.dxtl
+{
+	padding: 6px;
+	white-space: nowrap;
+	border-top: 1px solid #dbdee1;
+	border-right: 1px solid #dbdee1;
+	border-bottom: 1px solid #dbdee1;
+	border-left-color: #dbdee1;
+	border-left-style: solid;
+	border-left-width: 0!important;
+	overflow: hidden;
+}
+.dxtlGroupFooter_Office2010Silver .dx-ar > br,
+.dxtlFooter_Office2010Silver .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_Office2010Silver,
+.dxtlPagerBottomPanel_Office2010Silver
+{
+	background: #e7eaee url('CssImages/PagerPanelBack.png') repeat-x left top;
+}
+.dxtlPagerTopPanel_Office2010Silver
+{
+	border-bottom: 1px solid #b0b3b7;
+	padding-bottom: 2px;
+}
+.dxtlPagerBottomPanel_Office2010Silver
+{
+	border-top: 1px solid #b0b3b7;
+	padding-bottom: 2px;
+}
+
+/* Editing */
+.dxtlEditForm_Office2010Silver
+{
+	background: #f9fafb none;
+	border-width: 0;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_Office2010Silver,
+.dxtlEditFormEditCell_Office2010Silver
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_Office2010Silver
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_Office2010Silver
+{
+	background: #e9edf1 none;
+	color: #ba1717;
+	padding: 6px 10px;
+	border-width: 0;
+}
+.dxtlPopupEditForm_Office2010Silver
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_Office2010Silver a
+{
+	color: #5a9ddb;
+	text-decoration: none;
+}
+.dxtlControl_Office2010Silver a:hover
+{
+	text-decoration: underline;
+}
+
+.dxtlSelectedNode_Office2010Silver a,
+.dxtlFocusedNode_Office2010Silver a
+{
+	color: #5a9ddb;
+	text-decoration: none;
+}
+.dxtlSelectedNode_Office2010Silver a:hover,
+.dxtlFocusedNode_Office2010Silver a:hover
+{
+	text-decoration: underline;
+}
+.dxtlCommandCell_Office2010Silver a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_Office2010Silver
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #585e68;
+	background: White none;
+	border: 1px solid #80858d;
+}
+.dxtlLoadingPanel_Office2010Silver td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxtlLoadingPanel_Office2010Silver .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+
+/* Disabled */
+.dxtlDisabled_Office2010Silver,
+.dxtlDisabled_Office2010Silver .dxtl
+{
+	color: #989898;
+	cursor: default;
+}
+

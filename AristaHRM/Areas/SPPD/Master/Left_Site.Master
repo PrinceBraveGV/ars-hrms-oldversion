@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Areas/SPPD/Master/Full_Site.Master" AutoEventWireup="true" CodeBehind="Left_Site.Master.cs" Inherits="SPD.Master.Left_Site" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+
+
+
+
+
+
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+    <dx:ASPxSplitter ID="ContentSplitter" runat="server" Width="100%" Height="100%" Theme="Aqua">
+
+        <Panes>
+            <dx:SplitterPane Name="ContentLeft" ShowCollapseBackwardButton="True" Size="16%" ScrollBars="Auto">
+                <PaneStyle CssClass="leftPane">
+                    <Paddings Padding="1px"></Paddings>
+                </PaneStyle>
+                <PaneStyle>
+                    <Paddings Padding="1px" />
+                </PaneStyle>
+
+                <ContentCollection>
+                    <dx:SplitterContentControl>
+                        <%--
+                        <!-- perintah untuk back browser mati-->
+                        <script type="text/javascript">
+                            window.history.forward(-1);
+                        </script>
+                        --%>
+
+                        <div>
+                            <dx:ASPxLabel ID="lbldep" runat="server" Text="" Visible="false"></dx:ASPxLabel>
+                            <dx:ASPxLabel ID="lbljabatan" runat="server" Text="" Visible="false"></dx:ASPxLabel>
+                        </div>
+
+
+                        <div>
+                            <dx:ASPxNavBar ID="NavBar" runat="server" AllowSelectItem="True" EnableAnimation="True" Width="100%" Theme="MetropolisBlue" EnableTheming="True" Font-Size="Small">
+                                <GroupHeaderStyle HorizontalAlign="Left" />
+                                <ItemStyle HorizontalAlign="Left" />
+                                <Groups>
+                                    <dx:NavBarGroup Name="User" Text="User Navigation" Expanded="true" HeaderStyle-Font-Size="Small" HeaderStyle-Font-Bold="false">
+                                        <Items>
+                                            <dx:NavBarItem Text="Home" NavigateUrl="../Form/Home.aspx">
+                                                <Image Url="~/Image/home.png" Height="21px" Width="20px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="UserSPD1" Text="Data SPD Form 1" NavigateUrl="../Form/spd1.aspx">
+                                                <Image Url="~/Image/datas.png" Height="19px" Width="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="UserSPD2" Text="Data SPD Form 2" NavigateUrl="../Form/spd2.aspx">
+                                                <Image Url="~/Image/datas.png" Height="19px" Width="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="AdminSPD1" Text="ALL Data SPD Form 1" NavigateUrl="../Form/ALLSPD1.aspx">
+                                                <Image Url="~/Image/datas.png" Height="19px" Width="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="AdminSPD2" Text="ALL Data SPD Form 2" NavigateUrl="../Form/ALLSPD2.aspx">
+                                                <Image Url="~/Image/datas.png" Height="19px" Width="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Text="Contact Us" NavigateUrl="~/Form/Contact.aspx">
+                                                <Image Url="~/Image/contact.png" Height="19px" Width="19px" ></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Text="About" NavigateUrl="~/Form/Help.aspx">
+                                                <Image Url="~/Image/help.png" Height="19px" Width="19px" ></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Text="Log Out" NavigateUrl="~/Form/Login.aspx">
+                                                <Image Url="~/Image/Exit.png" Height="19px" Width="19px" ></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <HeaderStyle Font-Bold="True" Font-Size="Small"></HeaderStyle>
+                                    </dx:NavBarGroup>
+
+                                    <dx:NavBarGroup Name="Approval" Text="SPD Need Approval" Expanded="true" HeaderStyle-Font-Size="Small" HeaderStyle-Font-Bold="false">
+
+                                        <Items>
+                                            <dx:NavBarItem Name="AtasanF1" NavigateUrl="../Form/AtasanF1.aspx" Text="SPD F1 Need Approval">
+                                                <Image Url="~/Image/data.png" Height="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="HRMF1" NavigateUrl="../Form/AtasanF1.aspx" Text="SPD F1 HR Manager">
+                                                <Image Url="~/Image/data.png" Height="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem Name="GMHRF1" NavigateUrl="../Form/AtasanF1.aspx" Text="SPD F1 General Manager">
+                                                <Image Url="~/Image/data.png" Height="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+
+                                        <HeaderStyle Font-Bold="True" Font-Size="Small"></HeaderStyle>
+                                    </dx:NavBarGroup>
+
+                                    <dx:NavBarGroup Name="Report" Text="Report Data" Expanded="true" HeaderStyle-Font-Size="Small" HeaderStyle-Font-Bold="false">
+
+                                        <Items>
+                                            <dx:NavBarItem NavigateUrl="~/Report/spd1.aspx" Text="Report SPD Form 1">
+                                                <Image Url="~/Image/reports.png" Height="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <Items>
+                                            <dx:NavBarItem NavigateUrl="~/Report/spd2.aspx" Text="Report SPD Form 2">
+                                                <Image Url="~/Image/reports.png" Height="19px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+
+                                        <HeaderStyle Font-Bold="True" Font-Size="Small"></HeaderStyle>
+                                    </dx:NavBarGroup>
+
+                                    <dx:NavBarGroup Name="Master" Text="Data Master" Expanded="true" HeaderStyle-Font-Size="Small" HeaderStyle-Font-Bold="false">
+
+                                        <Items>
+                                            <dx:NavBarItem Text="Master Karyawan" NavigateUrl="../Form/MasterKaryawan.aspx">
+                                                <Image Url="~/Image/database.png" Height="17px" Width="17px"></Image>
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        
+                                        <HeaderStyle Font-Bold="True" Font-Size="Small"></HeaderStyle>
+                                    </dx:NavBarGroup>
+
+                                </Groups>
+                            </dx:ASPxNavBar>
+                        </div>
+
+
+                        <div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+
+            </dx:SplitterPane>
+            <dx:SplitterPane Name="ContentCenter" ScrollBars="Auto">
+                <PaneStyle CssClass="contentPane"></PaneStyle>
+                <Separator Visible="True">
+                    <SeparatorStyle>
+                        <Border BorderWidth="1px" />
+                        <BorderTop BorderWidth="0px" />
+                    </SeparatorStyle>
+                </Separator>
+                <ContentCollection>
+                    <dx:SplitterContentControl BackColor="#E9E9E9">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+
+        </Panes>
+    </dx:ASPxSplitter>
+
+
+</asp:Content>

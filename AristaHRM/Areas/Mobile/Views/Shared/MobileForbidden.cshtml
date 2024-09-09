@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "- Akses Tak Diizinkan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Pemberitahuan</li>
+
+    <li data-role="fieldcontain" style="text-align:center">
+        <h2>Anda tidak memiliki hak akses yang sesuai untuk halaman yang diminta. Tap "Kembali" untuk kembali ke dashboard.</h2>
+    </li>
+</ul>
+
+<div data-role="footer" style="text-align:center">@Html.ActionLink("Kembali", "Index", "Home", new { area = "Mobile" }, new { id = "backbutton" })</div>
+
+

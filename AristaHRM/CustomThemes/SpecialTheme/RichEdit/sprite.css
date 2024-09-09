@@ -1,0 +1,55 @@
+.dxRichEdit_CenterTabDragHandle_SpecialTheme,
+.dxRichEdit_DecimalTabDragHandle_SpecialTheme,
+.dxRichEdit_FirstLineIdentDragHandle_SpecialTheme,
+.dxRichEdit_LeftIdentDragHandle_SpecialTheme,
+.dxRichEdit_LeftTabDragHandle_SpecialTheme,
+.dxRichEdit_RightIdentDragHandle_SpecialTheme,
+.dxRichEdit_RightTabDragHandle_SpecialTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_SpecialTheme
+{
+    background-position: 0px -34px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_DecimalTabDragHandle_SpecialTheme
+{
+    background-position: 0px -27px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_SpecialTheme
+{
+    background-position: 0px -9px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_SpecialTheme
+{
+    background-position: 0px -18px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_SpecialTheme
+{
+    background-position: 0px -48px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_RightIdentDragHandle_SpecialTheme
+{
+    background-position: 0px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_SpecialTheme
+{
+    background-position: 0px -41px;
+    width: 6px;
+    height: 6px;
+}
+

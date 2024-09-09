@@ -1,0 +1,317 @@
+.FixedEditorContainer {
+    vertical-align: top;
+}
+
+    .FixedEditorContainer.firstEditorContainer .Item {
+        padding-right: 10px;
+    }
+
+    .FixedEditorContainer.secondEditorContainer .Item {
+        padding-right: 10px;
+        padding-left: 11px;
+    }
+
+    .FixedEditorContainer.lastEditorContainer .Item {
+        padding-left: 11px;
+    }
+
+/* popup */
+
+.dialogContent .CardGroupBase {
+    border: none;
+}
+.dialogContent .CardGroupBase > tbody > tr > td > .GroupHeader {
+    background-color: #fff;
+    padding-bottom: 0;
+}
+.dialogContent .GroupHeader .Label {
+    padding-left: 30px;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+.dialogContent .viewSite {
+    margin-top: 93px!important;
+}
+.dialogContent .CardGroupContent
+{
+    padding: 15px 30px 7px 30px;
+}        
+.dialogContent .TabControlContent {
+    margin-left: 1px;
+}
+.dialogContent .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer {
+    margin-left: 1px;
+}
+
+/*T305393*/
+.dialogContent .LayoutTabbedGroupContainer .dxtcLite_XafTheme.dxtc-top > .TabControlContent
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dialogContent .LayoutTabbedGroupContainer .dxtcLite_XafTheme.dxtc-top > .dxtc-stripContainer
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*end T305393*/
+
+.Item {
+    padding-bottom: 5px; /*padding-right: 19px;*/
+    padding-top: 6px;
+}
+
+@media all and (min-width: 800px) {
+    .AdaptivityEditorContainer {
+        float: left;
+    }
+    /*Layout*/
+    .firstEditorContainer {
+        min-width: 32px;
+    }
+
+        .firstEditorContainer .Item {
+            padding-right: 19px;
+        }
+
+    .secondEditorContainer {
+        min-width: 32px;
+        margin-bottom: 8px;
+    }
+
+        .secondEditorContainer .Item {
+            padding-right: 19px;
+        }
+
+    .secondHorizontalEditorContainer {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .lastEditorContainer {
+        min-width: 32px;
+    }
+
+        .lastEditorContainer .Item {
+            padding-right: 14px;
+        }
+
+
+    .CardGroupBase {
+        border: 1px solid #c6c6c6;
+    }
+
+        .CardGroupBase.GroupContent {
+            border-collapse: separate !important;
+        }
+
+    .LayoutTabbedGroupContainer {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+        .LayoutTabbedGroupContainer .CardGroupBase.GroupContent {
+            padding: 0px;
+        }
+
+    .NestedFrame .CardGroupBase {
+        border: none;
+    }
+
+    .NestedFrame > .ToolBarUpdatePanel > .ToolBar {
+        float: right;
+    }
+
+    .firstVerticalCardGroup {
+        margin-bottom: 10px;
+    }
+
+    .secondVerticalCardGroup {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .lastVerticalCardGroup {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .firstCardGroup {
+        padding-bottom: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .secondCardGroup {
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .lastCardGroup {
+        padding-bottom: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .GroupContent {
+        width: 100%;
+    }
+
+        .GroupContent .Item {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        .GroupContent.firstEditorContainer .Item {
+            padding-right: 10px;
+        }
+
+        .GroupContent.secondEditorContainer .Item {
+            padding-right: 10px;
+            padding-left: 11px;
+        }
+
+        .GroupContent.lastEditorContainer .Item {
+            padding-left: 11px;
+        }
+
+    .LayoutTabContainer {
+        padding: 30px;
+    }
+
+        .LayoutTabContainer:after {
+            display: table;
+            content: "";
+            line-height: 0;
+            clear: both;
+        }
+
+        .LayoutTabContainer .CardGroupBase {
+            margin: 0px;
+        }
+
+        .LayoutTabContainer .Item {
+            padding-right: 0px;
+        }
+
+        .LayoutTabContainer.LayoutTabContainerWithNestedFrame {
+            padding: 0px;
+        }
+
+            .LayoutTabContainer.LayoutTabContainerWithNestedFrame .Item {
+                padding: 0px;
+            }
+
+    .NestedFrameViewSite .Item.ListViewItem {
+        /*border: 1px solid #c6c6c6;*/
+        border: none;
+    }
+
+        .NestedFrameViewSite .Item.ListViewItem .GridView {
+            border: none;
+        }
+
+    /*.NestedFrameViewSite .Item.ListViewItem .GridView .dxgvTable_XafTheme
+            {
+                border: none;
+            }*/
+
+    /*.NestedFrameViewSite .Item.ListViewItem .GridView .dxgvTable_XafTheme .dxgvHeader_XafTheme
+                {
+                    border-top: none;
+                }*/
+    /*DashboardView*/
+    .DashboardView .NestedFrameViewSite .Item.ListViewItem {
+        padding-left: 0px;
+        border: none;
+    }
+
+        .DashboardView .NestedFrameViewSite .Item.ListViewItem .GridView {
+            border: 1px solid #c6c6c6;
+        }
+    /*DashboardView End*/
+
+    .LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .NestedFrameViewSite > .Item.ListViewItem {
+        border: none;
+    }
+
+        .LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .NestedFrameViewSite > .Item.ListViewItem .GridView {
+        }
+
+            .LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .NestedFrameViewSite > .Item.ListViewItem .GridView .dxgvTable_XafTheme {
+                border: none;
+            }
+
+                .LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .NestedFrameViewSite > .Item.ListViewItem .GridView .dxgvTable_XafTheme .dxgvHeader_XafTheme {
+                    border-top: 1px solid #c6c6c6;
+                }
+
+
+
+    .Item.ListViewItem {
+        padding-right: 0px;
+        padding-top: 0px;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .Item.NestedFrameControl {
+        padding-right: 0px;
+        width: 100%;
+    }
+}
+
+.searchDialogContent .Item.ListViewItem {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.searchDialogContent .Item.ListViewItem {
+    padding-bottom: 0px !important;
+}
+
+.Caption {
+    color: #9a9a9a;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+    .Caption.dxeTAR {
+        padding-top: 9px;
+        padding-bottom: 0px;
+    }
+
+.GroupHeader .Image {
+    padding-left: 19px;
+}
+
+.GroupHeader .Label {
+    padding-left: 19px;
+    display: inline-block;
+}
+
+.CardGroupBase > tbody > tr > td > .GroupHeader {
+    color: #848484;
+    background-color: #F7F7F7;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-collapse: separate !important;
+}
+
+.CardGroupBase .NestedFrame .CardGroupBase, .CardGroupBase .NestedFrame .CardGroupBase .lastCardGroup, .CardGroupBase .NestedFrame .CardGroupBase .CardGroupContent {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+

@@ -1,0 +1,473 @@
+.dxcvControl_Office2010Blue,
+.dxcvDisabled_Office2010Blue
+{
+    border: 1px solid #8ba0bc;
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #e4effa;
+    color: Black;
+    cursor: default;
+}
+.dxcvDisabled_Office2010Blue
+{
+    color: #b2b7bd;
+}
+.dxcvControl_Office2010Blue a
+{
+    color: #1e395b;
+    text-decoration: none;
+}
+.dxcvControl_Office2010Blue a:hover
+{
+    text-decoration: underline;
+}
+.dxcvDisabled_Office2010Blue a
+{
+    color: #b2b7bd;
+}
+
+.dxcvLoadingPanel_Office2010Blue
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #1e395b;
+    background: White none;
+    border: 1px solid #859ebf;
+}
+.dxcvLoadingPanel_Office2010Blue td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxcvLoadingPanel_Office2010Blue .dxlp-loadingImage,
+.dxcvLoadingPanelStatusBar_Office2010Blue .dxlp-loadingImage 
+{
+    background-image: url('../Web/Loading.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxcvLoadingPanelStatusBar_Office2010Blue
+{
+    background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_Office2010Blue td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 2px;
+}
+.dxcvFilterPopupWindow_Office2010Blue
+{
+    color: Black;
+    border: 1px solid #8ba0bc;
+}
+.dxcvFilterPopupItemsArea_Office2010Blue
+{
+    color: Black;
+    background-color: White;
+    padding-top: 1px;
+}
+.dxcvFilterPopupButtonPanel_Office2010Blue
+{
+    background-color: #cfddee;
+    border-top: 1px solid #8ba0bc;
+    color: #1e395b;
+}
+
+.dxcvFilterPopupItem_Office2010Blue td.dxcv,
+.dxcvFilterPopupActiveItem_Office2010Blue td.dxcv,
+.dxcvFilterPopupSelectedItem_Office2010Blue td.dxcv
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 3px 2px 3px 3px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_Office2010Blue
+{
+    background: #d5e8ff none;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_Office2010Blue
+{
+    background: #e2ecf7 none;
+    color: Black;
+}
+
+.dxcvTable_Office2010Blue
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dxcvHeader_Office2010Blue
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #8ba0bc;
+    background: #e4effa url('cvHeaderBack.png') repeat-x left top;    
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxcvHeader_Office2010Blue,
+.dxcvHeader_Office2010Blue table
+{
+    color: #1e395b;
+}
+.dxcvHeader_Office2010Blue td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_Office2010Blue a
+{
+    color: #1e395b;
+    text-decoration: underline;
+}
+.dxcvHeader_Office2010Blue a.dxcvCommandItem_Office2010Blue
+{
+    margin: 0px 3px 0px 0px;
+    color: #337cd4;
+    text-decoration: none;
+}
+.dxcvHeader_Office2010Blue a.dxcvCommandItem_Office2010Blue:hover
+{
+    text-decoration: underline;
+}
+.dxcvCommandItem_Office2010Blue
+{
+    vertical-align: middle;
+}
+.dxcvCustomization_Office2010Blue,
+.dxcvPopupEditForm_Office2010Blue
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxcvTitlePanel_Office2010Blue,
+.dxcvTable_Office2010Blue caption
+{
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #bdd0e7 url('cvTitleBack.png') repeat-x left top;
+    color: #1e395b;
+    border-bottom: 1px solid #8ba0bc;
+}
+.dxcvStatusBar_Office2010Blue
+{
+    background: #cfddee none;
+    border-top: 1px solid #8ba0bc;
+}
+.dxcvStatusBar_Office2010Blue tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_Office2010Blue tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxbButton_Office2010Blue[class~="dxcvCommandItem_Office2010Blue"]
+{
+    margin: 0px 2px 0px 2px;
+}
+.dxbButton_Office2010Blue[class~="dxcvCommandItem_Office2010Blue"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvPagerTopPanel_Office2010Blue,
+.dxcvPagerBottomPanel_Office2010Blue
+{
+    background: #e4effa none;
+}
+.dxcvPagerTopPanel_Office2010Blue
+{
+    border-bottom: 1px solid #8BA0BC;
+}
+.dxcvPagerBottomPanel_Office2010Blue
+{
+    border-top: 1px solid #8BA0BC;
+}
+
+.dxcvFilterBar_Office2010Blue
+{
+    border-top: 1px solid #8ba0bc;
+    background: #cfddee none;
+}
+.dxcvFilterBar_Office2010Blue a
+{
+    color: #337cd4;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_Office2010Blue
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_Office2010Blue
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_Office2010Blue
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_Office2010Blue
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_Office2010Blue
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_Office2010Blue
+{
+    background: #cfddee none;
+    border-top: 1px solid #aec0d5;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_Office2010Blue .dxpLite_Office2010Blue,
+.dxcvDisabled_Office2010Blue .dxpLite_Office2010Blue
+{
+    padding-top: 4px;
+}
+
+.dxcvControl_Office2010Blue .dxcvHFSAC
+{
+    padding: 7px 0 0 6px;
+}
+.dxcvControl_Office2010Blue .dxcvHFSC
+{
+    padding: 7px 0 5px;
+}
+.dxcvControl_Office2010Blue .dxcvHFSC div
+{
+    height: 1px;
+    background: #909AA6;
+}
+.dxcvControl_Office2010Blue div[id$='DXEPLPC']
+{
+    height: 39px;
+}
+
+.dxcvControl_Office2010Blue .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_Office2010Blue .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_Office2010Blue .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_Office2010Blue .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_Office2010Blue .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_Office2010Blue
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_Office2010Blue
+{
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #8ba0bc;
+}
+.dxcvSearchPanel_Office2010Blue > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_Office2010Blue .dxcvSearchPanel_Office2010Blue .dxbButton_Office2010Blue
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_Office2010Blue .dxcvSearchPanel_Office2010Blue .dxbButton_Office2010Blue {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_Office2010Blue .dxcvHL
+{
+    background: #ffd83a;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_Office2010Blue .dxcvSearchPanel_Office2010Blue .dxbButton_Office2010Blue
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_Office2010Blue .dxcvSearchPanel_Office2010Blue .dxbButton_Office2010Blue .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.dxcvCard_Office2010Blue,
+.dxcvFlowCard_Office2010Blue,
+.dxcvEmptyCard_Office2010Blue,
+.dxcvEmptyHiddenCard_Office2010Blue
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_Office2010Blue,
+.dxcvFlowCard_Office2010Blue,
+.dxcvEmptyCard_Office2010Blue
+{
+    border: 1px solid #8BA0BC;
+    background-color: #E4EFFA;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_Office2010Blue
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_Office2010Blue
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_Office2010Blue,
+div.dxcvEmptyCard_Office2010Blue
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_Office2010Blue,
+.dxcvFocusedCard_Office2010Blue
+{
+    border-color: #8BA0BC;
+    outline: 3px solid #F7E7A6;
+}
+.dxcvFocusedCard_Office2010Blue
+{
+    background-color: White;
+}
+.dxcvCardHover_Office2010Blue
+{
+    border-color: #8BA0BC;
+    outline: 3px solid #D5E8FF;
+}
+
+.dxcvCard_Office2010Blue .dxflCaption_Office2010Blue,
+.dxcvFlowCard_Office2010Blue .dxflCaption_Office2010Blue
+{
+    color: #7F7F7F;
+}
+.dxcvCard_Office2010Blue .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_Office2010Blue .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_Office2010Blue
+{
+    background-color: #cfddee;
+    border-bottom: 1px solid #8BA0BC;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_Office2010Blue
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_Office2010Blue
+{
+    background-color: #e2ebf6;
+    border-top: 1px solid #8BA0BC;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_Office2010Blue
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_Office2010Blue .dxcvSeparator_Office2010Blue,
+.dxcvControl_Office2010Blue .dxcvSeparator_Office2010Blue div
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.dxcvControl_Office2010Blue td.dxcvBatchEditCell_Office2010Blue
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_Office2010Blue .dxcvBatchEditModifiedCell_Office2010Blue
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_Office2010Blue .dxcvErrorCell_Office2010Blue
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_Office2010Blue .dxcvErrorCell_Office2010Blue img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_Office2010Blue .dxbButton_Office2010Blue
+{
+    margin-right: 10px;
+}
+.dxcvControl_Office2010Blue td.dxcvBatchEditCell_Office2010Blue .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_Office2010Blue .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_Office2010Blue
+{
+    background-color: #CFDDEE;	
+    border-top: 1px solid #8BA0BC;
+    color: #BA1717;
+    padding: 6px 13px;
+}

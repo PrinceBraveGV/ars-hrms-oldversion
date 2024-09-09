@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "HRIS - Riwayat Pengajuan Cuti";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model FindModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // fungsi ribbon control
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        if (button == "Print") {
+            chart.Print();
+        }
+        else if (button == "SaveDisk") {
+            var format = document.getElementById("cbFormat").value;
+            chart.SaveToDisk(format);
+        }
+        else if (button = "SaveWindow") {
+            var format = document.getElementById("cbFormat").value;
+            chart.SaveToDisk(format);
+        }
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Riwayat Pengajuan Cuti</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font:12px Arial">Pilih angka tahun dari daftar untuk menampilkan grafik riwayat pengajuan cuti per bulan dari tahun yang dipilih.</label>
+                        <br /><br />
+                        @using (Html.BeginForm("RiwayatPengajuan", "Report", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "RiwayatFormLayout";
+                                settings.Width = Unit.Percentage(100);
+                                settings.Style.Add("text-align", "center");
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tahun Rekap Cuti";
+                                    layoutitem.Width = Unit.Percentage(100);
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.String_Akhir, combobox =>
+                                        {
+                                            combobox.Name = "String_Akhir";
+                                            combobox.Properties.NullText = "-- Pilih --";
+                                            combobox.Properties.ClientInstanceName = "TahunCuti";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "Tahun_Cuti";
+                                            combobox.Properties.ValueField = "Tahun_Cuti";
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ClientSideEvents.SelectedIndexChanged = "function(s, e) { document.forms[0].submit(); }";
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetTahunRekap()).GetHtml();
+                                    });
+                                });
+                            }).GetHtml();
+                            Html.RenderAction("RiwayatPengajuanPartial");
+                            <br /><br />
+                            @Html.DevExpress().Button(btnsettings =>
+                            {
+                                btnsettings.Name = "Refresh";
+                                btnsettings.Text = "Refresh Grafik";
+                                btnsettings.Images.Image.Url = "~/Images/Refresh.png";
+                                btnsettings.Images.Image.Width = Unit.Pixel(15);
+                                btnsettings.Images.Image.Height = Unit.Pixel(15);
+                                btnsettings.UseSubmitBehavior = false;
+                                btnsettings.RouteValues = new { Controller = "Report", Action = "RiwayatPengajuan" };
+                                btnsettings.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

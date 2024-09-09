@@ -1,0 +1,306 @@
+.dxreControl_PlasticBlue
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxreControl_PlasticBlue .dxre-rulerWrapper {
+	padding-top: 2px;
+    background-color: #F2F2F2;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-columnHandleLeftPart,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-columnHandleRightPart {
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions div,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-columnHandle,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-columnHandle > div {
+	height: 12px;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_PlasticBlue .dxre-rulerWrapper .dxre-rulertabAlignBox > div {
+    background-color: #fff;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-columnHandle,
+.dxreControl_PlasticBlue .dxre-rulerWrapper .dxre-rulertabAlignBox {
+    background-color: #d3d3d3;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions .dxre-rulerMajorDivision {
+	border-left: 1px solid #a3a3a3;
+}
+.dxreControl_PlasticBlue .dxre-ruler .dxre-rulerDivisions .dxre-rulerNumberDivision {
+	color: #4e4e4e;
+}
+.dxreControl_PlasticBlue .dxre-rulerLine {
+	border-left: 1px dashed #717171;
+}
+.dxreControl_PlasticBlue .dxre-leftIdentDragHandleBody {
+    background-color: white;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_PlasticBlue .dxrControl_PlasticBlue .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxreControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue
+{
+	background-color: #E5E7F0;
+}
+.dxreControl_PlasticBlue .dxrControl_PlasticBlue .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxreControl_PlasticBlue .dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxreControl_PlasticBlue .dxre-page 
+{
+    border: 1px solid #808080;
+}
+.dxreControl_PlasticBlue .dxre-view 
+{
+	background: #F2F2F2;
+}
+.dxreControl_PlasticBlue .dxre-bar 
+{
+	background-color: #E8E8E8;
+	border-top: 1px solid #CCC;
+    height: 22px;
+}
+.dxreControl_PlasticBlue .dxre-bar .dxre-loadingPanel {
+    float: right;
+    margin: 1px 2px 0 0;
+    color: #707070;
+}
+.dxreControl_PlasticBlue .dxre-bar .dxre-loadingPanel .dx {
+    line-height: 0;
+}
+.dxreControl_PlasticBlue .dxre-bar .dxre-loadingPanel .dxlp-loadingImage {
+    width: 19px;
+    height: 20px;
+    background: url('../Web/Loading.gif');
+}
+
+/*Dialogs Style*/
+.dxreControl_PlasticBlue .dxreDlgParagraphForm .dxtc-content {
+    width: 387px;
+    height: 290px;
+}
+.dxreControl_PlasticBlue .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    text-align: left;
+}
+.dxreControl_PlasticBlue .dxreDlgPageSetupForm .dxtc-content {
+    width: 320px;
+    height: 155px;
+}
+.dxreControl_PlasticBlue .dxreDlgTablePropertiesForm .dxtc-content {
+    width: 385px;
+    height: 415px;
+}
+.dxreControl_PlasticBlue .dxreDlgTablePropertiesForm .dxre-dialogCellBlock {
+    width: 68px;
+    background-color: #E9E9E9;
+    border: dashed 1px #818181;
+}
+.dxreControl_PlasticBlue .dxreDlgTablePropertiesForm .dxre-dialogCellMargins td.dxre-dialogLGC {
+    padding-left: 2px;
+}
+.dxreControl_PlasticBlue .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation {
+    width: auto;
+}
+.dxreControl_PlasticBlue .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation td.dxre-dialogLGC {
+    padding: 0px;
+}
+.dxreControl_PlasticBlue .dxreTableBorderPreview {
+    position: absolute;
+    width: 130px;
+    left: 335px;
+    top: 85px;
+}
+.dxreControl_PlasticBlue .dxreDlgBorderShadingForm .dxtc-content {
+    width: 460px;
+    height: 260px;
+}
+.dxreControl_PlasticBlue .dxreDlgBorderShadingForm .dxtc-content .dxflGroup_PlasticBlue {
+    width: auto;
+}
+.dxreControl_PlasticBlue .dxreBorderButton {
+    visibility: hidden;
+}
+.dxreControl_PlasticBlue .dxreBorderButton div.dxb {
+    padding: 0px !important;
+}
+.dxreControl_PlasticBlue .dxreDlgColumnsForm {
+    width: 400px;
+}
+.dxreControl_PlasticBlue .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td {
+    padding: 2px 4px;
+}
+.dxreControl_PlasticBlue .dxreDlgColumnsForm .dxreDlgColumnsEditor {
+    height: 110px;
+}
+.dxreControl_PlasticBlue .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox {
+    width: 40px;
+}
+.dxreControl_PlasticBlue .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit {
+    width: 90px;
+}
+.dxreControl_PlasticBlue .dxreDlgErrorForm {
+    width: 350px;
+}
+.dxreControl_PlasticBlue .dxreDlgSaveFileForm {
+    width: 380px;
+}
+.dxreControl_PlasticBlue .dxreDlgInsertMergeFieldForm {
+    width: 300px;
+}
+.dxreControl_PlasticBlue .dxreDlgInsertMergeFieldForm .dxeListBox_PlasticBlue {
+    height: 250px;
+}
+.dxreControl_PlasticBlue .dxreDlgBookmarksForm {
+    width: 300px;
+}
+.dxreControl_PlasticBlue .dxreDlgOpenFileForm {
+    width: 800px;
+    height: 500px;
+}
+.dxreControl_PlasticBlue .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_PlasticBlue .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_PlasticBlue {
+    padding: 0px !important;
+}
+.dxreControl_PlasticBlue .dxre-dialogShortEditor {
+    width: 70px;
+}
+.dxreControl_PlasticBlue .dxre-dialogEditor {
+    width: 110px;
+}
+.dxreControl_PlasticBlue .dxre-dialogLongEditor {
+    width: 170px;
+}
+.dxreControl_PlasticBlue .dxre-EmptyLine {
+    height: 10px;
+}
+.dxreControl_PlasticBlue .dxre-Separator {
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_PlasticBlue .dxreDlgFooterBtn {
+    width: 80px;
+    margin-left: 8px;
+}
+.dxreControl_PlasticBlue table.dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup {
+    padding: 11px;
+}
+.dxreControl_PlasticBlue .dxre-dialogFooter {
+    width: auto;
+	padding: 11px;
+    background-color: #E9E9E9;
+	background-image: url('DlgFooterBack.gif');
+    background-repeat:no-repeat;
+	border-top: 1px #E0E0E0 solid;
+}
+.dxreControl_PlasticBlue .dxreDlgInsertImageForm .dxreDlgImagePreview {
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #808080;
+    border: dashed 1px #808080;
+    text-align:center;
+}
+.dxreControl_PlasticBlue .dxreDlgInsertImageForm .dxreDlgInsertImagePanel {
+    width: 320px;
+}
+.dxreControl_PlasticBlue .dxreDlgNumberingListForm .dxreDlgMainContainer {
+    width: 520px;
+    height: 220px;
+}
+.dxreControl_PlasticBlue .dxreDlgHyperlinkForm {
+    width: 380px;
+}
+.dxreControl_PlasticBlue .dxreDlgTabsForm {
+    width: 380px;
+}
+.dxreControl_PlasticBlue .dxreDlgTabsForm .dxreDlgTabsList {
+    height: 70px;
+}
+.dxreControl_PlasticBlue .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_PlasticBlue .dxreMultiLevelNumberingListBoxLayout .dxlbd {
+    width: 30px;
+    height: 100% !important;
+}
+.dxreControl_PlasticBlue .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup td.dxre-dialogLGC:first-child {
+    padding-left: 8px;
+}
+.dxreControl_PlasticBlue .dxreDlgMultiLevelNumberingListForm .dxflFullHeightItemCellSys {
+    padding-left: 0px !important;
+}
+.dxreControl_PlasticBlue .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn {
+    width: 45px;
+    margin: 8px 0px 12px 5px;
+}
+.dxreControl_PlasticBlue .dxreDlgNumberingListForm .dxreDlgNumberingListPreview {
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_PlasticBlue .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_PlasticBlue {
+    padding: 0px 0px 0px 30px;
+}
+.dxreControl_PlasticBlue .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_PlasticBlue {
+    padding: 0px;
+}
+.dxreControl_PlasticBlue .dxreDlgListBox {
+    padding: 1px;
+    margin-top: 4px;
+}
+.dxreControl_PlasticBlue .dxreDlgSymbolsForm .dxreDlgSymbolsList {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #B8B8B8;
+}
+.dxreControl_PlasticBlue .dxreDlgListBox > div {
+    border: 1px solid #B8B8B8;
+    margin: 1px;
+    background-color: #FFF;
+}
+.dxreControl_PlasticBlue .dxreDlgSymbolsForm .dxreDlgListBox > div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+.dxreControl_PlasticBlue .dxreDlgNumberingListForm .dxreDlgListBox > div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_PlasticBlue .dxreDlgListBox .dxreDlgListHover {
+    background-color: #DEDEDE;
+}
+.dxreControl_PlasticBlue .dxreDlgListBox .dxreDlgListSelected {
+    background-color: #6D82C5;
+    color: #FFF;
+}
+.dxreControl_PlasticBlue .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflItemSys {
+    padding-left: 5px;
+}
+.dxreControl_PlasticBlue .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflTextItemSys {
+    padding-left: 0px;
+}

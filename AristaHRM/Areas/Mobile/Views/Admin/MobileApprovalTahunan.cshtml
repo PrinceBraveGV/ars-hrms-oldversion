@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = " - Persetujuan Cuti Tahunan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminCuti", "Admin", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "AdminMenu", "Admin", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<script type="text/javascript">
+    function customButtonClick(s, e, url1, url2) {
+
+        // fungsi handler persetujuan/penolakan dengan tombol khusus
+        var key = s.GetRowKey(e.visibleIndex);
+        var DestUrl = null;
+
+        if (e.buttonID === "Setuju") {
+            DestUrl = url1 + "/" + key;
+            var ans = confirm("Yakin akan menyetujui pengajuan cuti yang dipilih?");
+            if (ans == true) {
+                window.location.href = DestUrl;
+            }
+        }
+        else if (e.buttonID === "Tolak") {
+            DestUrl = url2 + "/" + key;
+            var ans = confirm("Yakin akan menolak pengajuan cuti yang dipilih?");
+            if (ans == true) {
+                window.location.href = DestUrl;
+            }
+        }
+    }
+</script>
+
+@using (Html.BeginForm())
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Menu</a> > <a href="@Url.Action("AdminCuti", "Admin", mobilearea)">Admin Cuti</a> > Persetujuan Cuti Tahunan</li>
+        <li data-role="list-divider">Daftar Tunggu Cuti Tahunan</li>
+        <li data-role="footer">@Html.ActionLink("Persetujuan Cuti Khusus", "ApprovalKhusus", "Admin", mobilearea, new { @style = "text-align:center" })</li>
+    </ul>
+
+    Html.RenderAction("ApprovalTahunanPartial", "Admin", mobilearea);
+}
+
+

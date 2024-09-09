@@ -1,0 +1,489 @@
+.dxcvControl_DevEx,
+.dxcvDisabled_DevEx
+{
+	border: 1px solid #9da0aa;
+	font: 11px Verdana, Geneva, sans-serif;
+	background-color: #f1f2f6;
+	color: #201f35;
+	cursor: default;
+}
+.dxcvDisabled_DevEx
+{
+	color: #b1b1b8;
+}
+.dxcvControl_DevEx a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxcvControl_DevEx a:hover
+{
+	text-decoration: underline;
+}
+.dxcvDisabled_DevEx a
+{
+	color: #b1b1b8;
+}
+/*Loading Panel*/
+.dxcvLoadingPanel_DevEx
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxcvLoadingPanel_DevEx td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxcvLoadingPanel_DevEx .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+.dxcvLoadingPanelStatusBar_DevEx .dxlp-loadingImage 
+{
+	background-image: url('StatusBarLoading.gif');
+	height: 15px;
+	width: 15px;
+}
+.dxcvLoadingPanelStatusBar_DevEx
+{
+	background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_DevEx td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0 2px;
+}
+.dxcvFilterPopupWindow_DevEx
+{
+	color: #201f35;
+	border: 1px solid #9da0aa;
+}
+.dxcvFilterPopupItemsArea_DevEx
+{
+	color: #201f35;
+	background-color: White;
+}
+.dxcvFilterPopupButtonPanel_DevEx
+{
+	background-color: #ebecef;
+	border-top: 1px solid #9da0aa;
+	color: #201f35;
+}
+
+.dxcvFilterPopupItem_DevEx td.dxcv,
+.dxcvFilterPopupActiveItem_DevEx td.dxcv,
+.dxcvFilterPopupSelectedItem_DevEx td.dxcv
+{
+	padding: 3px 2px 3px 3px;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_DevEx
+{
+	background: #e2eafd none;
+	color: #201f35;
+}
+.dxcvFilterPopupSelectedItem_DevEx
+{
+	background: #eff0f2 none;
+	color: #201f35;
+}
+
+.dxcvTable_DevEx
+{
+	background-color: White;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+    padding: 20px;
+}
+.dxcvHeader_DevEx
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #cacbd3;
+    background: #f2f3f4 url('../GridView/gvHeaderBack.png') repeat-x left top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxcvHeader_DevEx,
+.dxcvHeader_DevEx table
+{
+	color: #201f35;
+}
+.dxcvHeader_DevEx td
+{
+	white-space: nowrap;
+}
+.dxcvHeader_DevEx a
+{
+	color: #1b3f91;
+	text-decoration: underline;
+}
+.dxcvHeader_DevEx a.dxcvCommandItem_DevEx
+{
+	margin: 0px 3px 0px 0px;
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxcvHeader_DevEx a.dxcvCommandItem_DevEx:hover
+{
+	text-decoration: underline;
+}
+.dxcvCustomization_DevEx,
+.dxcvPopupEditForm_DevEx
+{
+	padding: 0;
+	margin: 0;
+}
+
+.dxcvTitlePanel_DevEx,
+.dxcvTable_DevEx caption
+{
+	font-weight: normal;
+	padding: 3px 3px 5px;
+	text-align: center;
+	background: #f2f3f4 url('cvTitleBack.png') repeat-x left top;
+	color: #201f35;
+	border-bottom: 1px solid #9da0aa;
+}
+.dxcvLoadingDiv_DevEx
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: alpha(opacity=1);
+}
+.dxcvStatusBar_DevEx
+{
+	background: #f9f9fc none;
+	border-top: 1px solid #cacbd3;
+}
+.dxcvStatusBar_DevEx tr.dxcv
+{
+	height: 20px;
+}
+.dxcvStatusBar_DevEx tr.dxcv > td
+{
+	padding: 4px;
+}
+.dxcvCommandItem_DevEx 
+{
+    vertical-align: middle;
+}
+.dxcvCommandItem_DevEx a
+{
+	margin: 0px 3px 0px 0px;
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxcvCommandItem_DevEx a:hover
+{
+	text-decoration: underline;
+}
+
+.dxbButton_DevEx[class~="dxcvCommandItem_DevEx"]
+{
+	margin: -2px 2px;
+}
+.dxbButton_DevEx[class~="dxcvCommandItem_DevEx"] .dxb
+{
+	margin: -2px 2px;
+}
+
+.dxcvPagerTopPanel_DevEx,
+.dxcvPagerBottomPanel_DevEx
+{
+	background: #f1f2f6 url('cvPagerPanelBack.png') repeat-x left top;
+}
+.dxcvPagerTopPanel_DevEx
+{
+    border-bottom: 1px solid #cacbd3;
+}
+.dxcvPagerBottomPanel_DevEx
+{
+    border-top: 1px solid #cacbd3;
+}
+
+.dxcvFilterBar_DevEx
+{
+	border-top: 1px solid #cacbd3;
+	background: #f9f9fc none;
+}
+.dxcvFilterBar_DevEx a
+{
+	color: #1b3f91;
+	text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_DevEx
+{
+	padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_DevEx
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_DevEx
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_DevEx
+{
+	padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_DevEx
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_DevEx
+{
+	background: #ebecef none;
+	border-top: 1px solid #abacb9;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxcvControl_DevEx .dxpLite_DevEx,
+.dxcvDisabled_DevEx .dxpLite_DevEx
+{
+	padding-top: 4px;
+}
+
+.dxcvControl_DevEx .dxcvHFSAC
+{
+    padding: 6px 0 0 5px;
+}
+.dxcvControl_DevEx .dxcvHFSC
+{
+    padding: 6px 0 5px;
+}
+.dxcvControl_DevEx .dxcvHFSC div
+{
+    height: 1px;
+    background: #9DA0AA;
+}
+.dxcvControl_DevEx div[id$='DXEPLPC']
+{
+    height: 47px;
+}
+
+.dxcvControl_DevEx .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_DevEx .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_DevEx .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_DevEx .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_DevEx .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_DevEx
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_DevEx
+{
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding: 7px 6px;
+}
+.dxcvSearchPanel_DevEx > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_DevEx .dxcvSearchPanel_DevEx .dxbButton_DevEx
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_DevEx .dxcvSearchPanel_DevEx .dxbButton_DevEx {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_DevEx .dxcvHL
+{
+    background: #ffd83a;
+	color: #201f35;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_DevEx .dxcvSearchPanel_DevEx .dxbButton_DevEx
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_DevEx .dxcvSearchPanel_DevEx .dxbButton_DevEx .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+.dxcvCard_DevEx,
+.dxcvFlowCard_DevEx,
+.dxcvEmptyCard_DevEx,
+.dxcvEmptyHiddenCard_DevEx
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_DevEx,
+.dxcvFlowCard_DevEx,
+.dxcvEmptyCard_DevEx
+{
+    border: 1px solid #CACBD3;
+    background-color: #F2F3F4;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_DevEx
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_DevEx
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_DevEx,
+div.dxcvEmptyCard_DevEx
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_DevEx,
+.dxcvFocusedCard_DevEx
+{
+    border-color: #CACBD3;
+    outline: 3px solid #EFF0F2;
+}
+.dxcvFocusedCard_DevEx
+{
+    background-color: White;
+}
+.dxcvCardHover_DevEx
+{
+    border-color: #CACBD3;
+    outline: 3px solid #E2EAFD;
+}
+
+.dxcvCard_DevEx .dxflCaption_DevEx,
+.dxcvFlowCard_DevEx .dxflCaption_DevEx
+{
+    color: #7F7F7F;
+}
+.dxcvCard_DevEx .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_DevEx .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_DevEx
+{
+    background: #ebecef;
+    border-bottom: 1px solid #cacbd3;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_DevEx
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_DevEx
+{
+    background: #f9f9fc;
+    border-top: 1px solid #cacbd3;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_DevEx
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_DevEx .dxcvSeparator_DevEx,
+.dxcvControl_DevEx .dxcvSeparator_DevEx div
+{
+    width: 20px;
+    height: 20px;
+}
+
+.dxcvControl_DevEx td.dxcvBatchEditCell_DevEx
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_DevEx .dxcvBatchEditModifiedCell_DevEx
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_DevEx .dxcvErrorCell_DevEx
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_DevEx .dxcvErrorCell_DevEx img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_DevEx .dxbButton_DevEx
+{
+    margin-right: 10px;
+}
+.dxcvControl_DevEx td.dxcvBatchEditCell_DevEx .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_DevEx .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_DevEx
+{
+    background-color: #ebecef;	
+    border-top: 1px solid #CACBD3;
+	color: #ba1717;
+    padding: 6px 13px;
+}

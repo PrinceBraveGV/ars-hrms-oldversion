@@ -1,0 +1,51 @@
+.dxCardView_gvCellError_MetropolisBlue,
+.dxCardView_gvFilterRowButton_MetropolisBlue,
+.dxCardView_gvHeaderFilter_MetropolisBlue,
+.dxCardView_gvHeaderFilterActive_MetropolisBlue,
+.dxCardView_gvHeaderSortDown_MetropolisBlue,
+.dxCardView_gvHeaderSortUp_MetropolisBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_MetropolisBlue
+{
+    background-position: 0px -34px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_MetropolisBlue
+{
+    background-position: 0px -49px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvHeaderFilter_MetropolisBlue
+{
+    background-position: 0px 0px;
+    width: 14px;
+    height: 16px;
+}
+.dxCardView_gvHeaderFilterActive_MetropolisBlue
+{
+    background-position: 0px -17px;
+    width: 14px;
+    height: 16px;
+}
+.dxCardView_gvHeaderSortDown_MetropolisBlue
+{
+    background-position: 0px -70px;
+    width: 7px;
+    height: 5px;
+}
+.dxCardView_gvHeaderSortUp_MetropolisBlue
+{
+    background-position: 0px -64px;
+    width: 7px;
+    height: 5px;
+}
+.dxCardView_gvHeaderFilterActive_MetropolisBlue
+{
+	background-color: #0072C6;
+}

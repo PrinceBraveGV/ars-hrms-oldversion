@@ -1,0 +1,208 @@
+/* -- WebChartControl -- */
+.dxchartsuiLoadingPanel_iOS
+{
+	font: bold 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxchartsuiLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxchartsuiLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxchartsuiLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxchartsuiLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxchartsuiLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxchartsuiLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxchartsuiLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxchartsuiLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+
+.dxchartsuiLoadingPanelStatusBar_iOS
+{
+	background-color: Transparent;
+}
+.dxchartsuiLoadingPanelStatusBar_iOS td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+/* -- Crosshair -- */
+.dxchartsuiCrosshairHLine_iOS,
+.dxchartsuiCrosshairVLine_iOS
+{
+    background-color: transparent;
+    border-color: #de39cd;
+}
+
+.dxchartsuiCrosshairLabel_iOS,
+.dxchartsuiCrosshairHLine_iOS,
+.dxchartsuiCrosshairVLine_iOS
+{
+    position: absolute;
+    z-index: 41998;
+}
+
+.dxchartsuiCrosshairLabel_iOS
+{
+    background-color: #de39cd;
+    color: White;
+	font: 11px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	padding: 1px 4px 1px 4px;
+    white-space: nowrap;    
+}
+
+.dxchartsuiCrosshairHLine_iOS
+{
+    height: 0px;
+}
+
+.dxchartsuiCrosshairVLine_iOS
+{
+    width: 0px;
+}
+
+/* -- Tooltip -- */
+.dxchartsuiTooltip_iOS,
+.dxchartsuiTooltip_TopLeft_iOS,
+.dxchartsuiTooltip_TopRight_iOS,
+.dxchartsuiTooltip_BottomLeft_iOS,
+.dxchartsuiTooltip_BottomRight_iOS
+{
+	font: 12px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid rgb(150, 150, 150);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	padding: 6px 10px 6px 10px;
+    position: absolute;
+    cursor: default;
+    white-space: nowrap;
+    -moz-box-shadow:    0px 2px 10px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(0,0,0,0.35);
+    box-shadow:         0px 2px 10px rgba(0,0,0,0.35);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	border-radius: 8px;
+    z-index: 41999;
+}
+.dxchartsuiTooltip_TopLeft_iOS:before,
+.dxchartsuiTooltip_TopRight_iOS:before,
+.dxchartsuiTooltip_BottomLeft_iOS:before,
+.dxchartsuiTooltip_BottomRight_iOS:before,
+.dxchartsuiTooltip_TopLeft_iOS:after,
+.dxchartsuiTooltip_TopRight_iOS:after,
+.dxchartsuiTooltip_BottomLeft_iOS:after,
+.dxchartsuiTooltip_BottomRight_iOS:after
+{
+    border-style: solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+}
+.dxchartsuiTooltip_TopLeft_iOS:before,
+.dxchartsuiTooltip_TopRight_iOS:before,
+.dxchartsuiTooltip_BottomLeft_iOS:before,
+.dxchartsuiTooltip_BottomRight_iOS:before
+{
+    border-width: 10px 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dxchartsuiTooltip_TopLeft_iOS:after,
+.dxchartsuiTooltip_TopRight_iOS:after,
+.dxchartsuiTooltip_BottomLeft_iOS:after,
+.dxchartsuiTooltip_BottomRight_iOS:after
+{
+    border-width: 8px 4px;
+}
+.dxchartsuiTooltip_TopLeft_iOS:after
+{
+    border-color: transparent transparent #FFFFFF #FFFFFF;
+    top: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopRight_iOS:after
+{
+    border-color: transparent #FFFFFF #FFFFFF transparent;
+    top: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomRight_iOS:after
+{
+    border-color: #FFFFFF #FFFFFF transparent transparent;
+    bottom: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomLeft_iOS:after
+{
+    border-color: #FFFFFF transparent transparent #FFFFFF;
+    bottom: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopLeft_iOS:before
+{
+    border-color: transparent transparent rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15);
+    top: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_TopRight_iOS:before
+{
+    border-color: transparent rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) transparent;
+    top: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomRight_iOS:before
+{
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) transparent transparent;
+    bottom: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomLeft_iOS:before
+{
+    border-color: rgba(0, 0, 0, 0.15) transparent transparent rgba(0, 0, 0, 0.15);
+    bottom: -20px;
+    left: 10px;
+}
+

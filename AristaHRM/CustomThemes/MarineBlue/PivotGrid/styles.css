@@ -1,0 +1,579 @@
+.dxpgControl_MarineBlue, .dxpgCustForm_MarineBlue
+{
+	color: #4F4F4F;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: Solid 1px #A3C0E8;
+	background-color: #F7FAFF;
+}
+.dxpgContainerCell_MarineBlue
+{
+	vertical-align: top;
+}
+.dxpgMainTable_MarineBlue
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_MarineBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_MarineBlue caption
+{
+    background: #F7FAFF;
+    color: #283B56;
+    border-bottom: Solid 1px #A3C0E8;
+    padding: 5px 5px 6px;
+	font-weight: normal;		
+	text-align: center;	
+}    
+.dxpgHeader_MarineBlue
+{
+	border-width: 0px;
+	color: #283B56;
+	background-color: #DDECFF;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+
+	background-image: url('pgHeaderBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgHeaderTable_MarineBlue
+{
+	border: Solid 1px #A3C0E8;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_MarineBlue,
+.dxpgCustFieldsDiv_MarineBlue .dxpgHeaderTable_MarineBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_MarineBlue
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_MarineBlue
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+.dxpgHeaderSort_MarineBlue
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_MarineBlue
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_MarineBlue
+{
+	background-color: #FFD770;
+	background-image: url('pgHeaderHoverBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgArea_MarineBlue, .dxpgArea_MarineBlue table
+{
+	color: #283B56;
+}
+.dxpgArea_MarineBlue
+{
+	border: Solid 1px #A3C0E8;
+	background-color: #F7FAFF;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+.dxpgColumnArea_MarineBlue
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_MarineBlue
+{
+}
+.dxpgDataArea_MarineBlue
+{
+}
+.dxpgFilterArea_MarineBlue
+{
+	background-color: #D7E9FD;
+	color: #4F4F4F;
+	border-bottom-style: Solid;
+}
+.dxpgEmptyArea_MarineBlue 
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_MarineBlue
+{
+    color: #4F4F4F;
+	background-color: #E2F0FF;
+	border: Solid 1px #A3C0E8;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+	padding-bottom: 5px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_MarineBlue
+{
+	background-color: #C3DCFF;
+	background-image: none;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_MarineBlue
+{
+	background-color: #C3DCFF;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_MarineBlue
+{
+    color: #4F4F4F;
+	background-color: #D7E9FD;
+	border: Solid 1px #A3C0E8;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 4px 6px 5px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_MarineBlue
+{
+	background-color: #C3DCFF;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+}
+.dxpgRowTreeFieldValue_MarineBlue
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_MarineBlue
+{
+	background-color: #AFCDF8;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 6px 6px 7px 6px;
+}
+.dxpgCollapsedButton_MarineBlue
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_MarineBlue
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_MarineBlue
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border-color: #C9D6E9;
+	border-width: 1px;
+	border-top-style: Solid;
+	border-left-style: Solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	padding-bottom: 5px;
+	white-space: nowrap;
+}
+.dxpgKPICell_MarineBlue
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_MarineBlue
+{
+	background-color: #F7FAFF;
+}
+.dxpgGrandTotalCell_MarineBlue
+{
+	background-color: #EEF3FF;
+}
+.dxpgFilterItem_MarineBlue
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_MarineBlue
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_MarineBlue
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: Solid 1px #A3C0E8;
+	background: #C7DFFF url('pgPagerBack.gif') top;
+	padding:6px 0px;
+}
+.dxpgBottomPager_MarineBlue
+{
+	border-top: Solid 1px #A3C0E8;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background: #C7DFFF url('pgPagerBack.gif') top;
+	padding:6px 0px;
+}
+.dxpgTopPager_MarineBlue,
+.dxpgBottomPager_MarineBlue
+{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_MarineBlue
+{
+	color: #000000;
+}
+.dxpgCustomizationFieldsContent_MarineBlue
+{
+	padding: 0px!important;
+}
+.dxpgMenuItem_MarineBlue 
+{
+}
+.dxpgDataHeadersImage_MarineBlue
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_MarineBlue
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanelLink_MarineBlue
+{
+	color: #283B56;
+	text-decoration: underline;	
+}
+.dxpgPrefilterPanel_MarineBlue
+{
+	border: none;
+	background: #B7D7FF;
+}
+.dxpgPrefilterPanelCheckBoxCell_MarineBlue
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_MarineBlue
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_MarineBlue
+{
+	padding: 5px 6px 8px;
+}
+.dxpgPrefilterPanelExpressionCell_MarineBlue
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_MarineBlue
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_MarineBlue
+{
+	background-color: #EEF3FF;
+	border-top: solid 1px #A3C0E8;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_MarineBlue
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_MarineBlue,
+.dxpgCustFieldsRowAreaHeaders_MarineBlue,
+.dxpgCustFieldsColumnAreaHeaders_MarineBlue,
+.dxpgCustFieldsDataAreaHeaders_MarineBlue,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_MarineBlue,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_MarineBlue
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_MarineBlue
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_MarineBlue
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_MarineBlue
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_MarineBlue .dxpgFLTextDiv_MarineBlue,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_MarineBlue .dxpgFLTextDiv_MarineBlue
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_MarineBlue
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_MarineBlue .dxeBase_MarineBlue,
+.TopPanelOnly .dxpgFLDefereDiv_MarineBlue .dxpgFLDefereDB_MarineBlue,
+.TopPanelOnly .dxpgFLFRDiv_MarineBlue,
+.TopPanelOnly .dxpgFLCDDiv_MarineBlue,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_MarineBlue,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_MarineBlue,
+.TopPanelOnly .dxpgFLTextDiv_MarineBlue div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_MarineBlue
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_MarineBlue
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_MarineBlue,
+.StackedSideBySide .dxpgCustFieldsFieldList_MarineBlue
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_MarineBlue
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_MarineBlue,
+.StackedSideBySide .dxpgFLCDDiv_MarineBlue
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_MarineBlue
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_MarineBlue > div
+{
+    border:1px solid #A3C0E8;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_MarineBlue > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_MarineBlue > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_MarineBlue
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_MarineBlue .dxbButton_MarineBlue div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_MarineBlue .dxbButton_MarineBlue div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_MarineBlue
+{
+ height:28px;
+}
+.dxpgFLTextDiv_MarineBlue div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_MarineBlue
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_MarineBlue
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_MarineBlue
+{
+    height:52px;
+}
+.dxpgFLDefereDiv_MarineBlue
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_MarineBlue
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_MarineBlue
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_MarineBlue .dxeBase_MarineBlue
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:18px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgCustForm_MarineBlue .dxpgFLDefereDiv_MarineBlue .dxeBase_MarineBlue
+{
+ padding:18px 0px 0px;
+}
+.dxpgFLDefereDB_MarineBlue
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_MarineBlue .dxbButton_MarineBlue div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_MarineBlue .dxbButton_MarineBlue div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_MarineBlue table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_MarineBlue table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_MarineBlue,
+.dxpgLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxpgLoadingPanel_MarineBlue  td.dx,
+.dxpgLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxpgLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxpgLoadingPanelWithContent_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+
+.dxpgVScrollBarAreaCell_MarineBlue {
+    background-color: #DDECFF;
+    border-left: 1px solid #A3C0E8;
+    border-bottom: 1px solid #A3C0E8;
+}
+.dxpgHScrollBarAreaCell_MarineBlue {
+    background-color: #DDECFF;
+    border-top: 1px solid #A3C0E8;
+    border-right: 1px solid #A3C0E8;
+}
+.dxpgScrollBarEdgeCell_MarineBlue {
+    background-color: #F7FAFF;
+    border-left: 1px solid #A3C0E8;
+    border-top: 1px solid #A3C0E8;
+}

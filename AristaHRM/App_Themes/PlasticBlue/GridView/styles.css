@@ -1,0 +1,772 @@
+.dxgvControl_PlasticBlue,
+.dxgvDisabled_PlasticBlue
+{
+	border-top: 1px none #CCCCCC;
+	border: 1px Solid #CCCCCC;
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: #F0F0F0;
+	color: #000000;
+	cursor: default;
+}
+.dxgvDisabled_PlasticBlue
+{
+	color: #9CAFDF!important;
+}
+
+.dxgvControl_PlasticBlue a
+{
+	color: #5A83D0;
+}
+.dxgvControl_PlasticBlue a:hover
+{
+	color: #2443AA;
+}
+.dxgvDisabled_PlasticBlue a
+{
+	color: Gray;
+}
+
+.dxgvEmptyDataRow_PlasticBlue.dxgvBELVR > td.dxgv,
+.dxgvDataRow_PlasticBlue.dxgvBELVR > td.dxgv,
+.dxgvGroupRow_PlasticBlue.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+
+.dxgvRBB .dxgvEmptyDataRow_PlasticBlue.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_PlasticBlue.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_PlasticBlue.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxgvLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxgvLoadingPanel_PlasticBlue .dxlp-loadingImage,
+.dxgvLoadingPanelStatusBar_PlasticBlue .dxlp-loadingImage 
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+.dxgvLoadingPanelStatusBar_PlasticBlue
+{
+	background-color: transparent;
+	color: #000000;
+}
+.dxgvLoadingPanelStatusBar_PlasticBlue td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_PlasticBlue
+{
+	color: Black;
+	border: 1px solid #cbcbcb;
+}
+.dxgvFilterPopupItemsArea_PlasticBlue
+{
+	color: Black;
+	background-color: White;
+}
+.dxgvFilterPopupButtonPanel_PlasticBlue
+{
+	background-color: #e8e8e8;
+	border: 1px solid #dcdcdc;
+	border-left: 0px solid #dcdcdc;
+	color: Black;
+}
+
+.dxgvFilterPopupItem_PlasticBlue td.dxgv,
+.dxgvFilterPopupActiveItem_PlasticBlue td.dxgv,
+.dxgvFilterPopupSelectedItem_PlasticBlue td.dxgv
+{
+	padding: 2px 2px 3px 4px;
+	border-left: 1px solid White;
+	border-bottom: 1px solid #FAFAFA;
+	border-right: 1px solid White;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_PlasticBlue
+{
+	background: #dedede none;
+	color: Black;
+}
+.dxgvFilterPopupSelectedItem_PlasticBlue
+{
+	color: White;
+	background: #5066ac none;
+}
+
+.dxgvTable_PlasticBlue
+{
+	background-color: #F0F0F0;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+}
+.dxgvTable_PlasticBlue .dxgvHEC
+{
+	background-color: #F0F0F0;
+	border-width: 0;
+	overflow: hidden;
+}
+.dxgvControl_PlasticBlue .dxgvFSDC .dxgvFooter_PlasticBlue td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_PlasticBlue .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_PlasticBlue .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_PlasticBlue .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_PlasticBlue,
+.dxgvDataRow_PlasticBlue
+{
+}
+.dxgvInlineEditRow_PlasticBlue td.dxgv
+{
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+}
+.dxgvInlineEditRow_PlasticBlue td.dxgvIndentCell
+{
+	background-color: #E8E8E8;
+}
+.dxgvFilterRow_PlasticBlue
+{
+	background-color: #F0F0F0;
+}
+.dxgvEditFormDisplayRow_PlasticBlue
+{
+	background-color: #DCE0F0;
+}
+
+.dxgvEditForm_PlasticBlue
+{
+	background-color: #E8EAF6;
+}
+.dxgvEditForm_PlasticBlue  td.dxgv
+{
+	border-bottom: 1px solid #d9d9d9;
+	padding: 10px 10px 12px;
+}
+.dxgvEditForm_PlasticBlue td.dxgvIndentCell
+{
+	background: #e8e8e8 none;
+	border-right: 1px Solid #d9d9d9;
+	border-left: 1px Solid #d9d9d9;
+	border-top-width: 0px;
+}
+.dxgvDetailRow_PlasticBlue,
+.dxgvPreviewRow_PlasticBlue
+{
+	background-color: #E8E8E8;
+}
+.dxgvDetailRow_PlasticBlue td.dxgv,
+.dxgvPreviewRow_PlasticBlue td.dxgv,
+.dxgvEmptyDataRow_PlasticBlue td.dxgv
+{
+	padding: 20px 2px 20px 4px;
+	border-bottom: 1px solid #d9d9d9;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvEmptyDataRow_PlasticBlue td.dxgv
+{
+	text-align: center;
+}
+.dxgvPreviewRow_PlasticBlue
+{
+	color: #777777;
+}
+.dxgvPreviewRow_PlasticBlue td.dxgv
+{
+	padding: 15px;
+}
+.dxgvDetailRow_PlasticBlue td.dxgvDetailCell_PlasticBlue
+{
+	padding: 15px 12px 15px 6px;
+}
+.dxgvDetailRow_PlasticBlue td.IndentCell
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.dxgvDetailRow_PlasticBlue.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 5px 0;
+}
+.dxgvDetailRow_PlasticBlue.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_PlasticBlue.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -5px 0 -4px 0;
+}
+.dxgvDetailRow_PlasticBlue.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvFocusedRow_PlasticBlue .dxgvADCC,
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvFocusedRow_PlasticBlue .dxgvADDC,
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvSelectedRow_PlasticBlue .dxgvADCC,
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvSelectedRow_PlasticBlue .dxgvADDC,
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvFocusedRow_PlasticBlue .dxgvADCMDC a,
+.dxgvDetailRow_PlasticBlue.dxgvADR.dxgvSelectedRow_PlasticBlue .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvSelectedRow_PlasticBlue,
+.dxgvFocusedRow_PlasticBlue,
+.dxgvFocusedRow_PlasticBlue a.dxeHyperlink_PlasticBlue
+{
+	color: White;
+}
+.dxgvEditFormDisplayRow_PlasticBlue td.dxgv,
+.dxgvDetailCell_PlasticBlue td.dxgv,
+.dxgvDataRow_PlasticBlue td.dxgv,
+.dxgvDetailRow_PlasticBlue.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 4px 6px 5px;
+}
+.dxgvDataRow_PlasticBlue td.dxgvAIC,
+.dxgvInlineEditRow_PlasticBlue td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvDetailRow_PlasticBlue.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_PlasticBlue td.dxgvIndentCell
+{
+	background: #e8e8e8 none;
+	border-right: 1px Solid #d9d9d9;
+	border-left: 1px Solid #d9d9d9;
+	border-top-width: 0px;
+}
+.dxgvDataRow_PlasticBlue
+{
+	background-color: #FFFFFF;
+}
+.dxgvDataRowAlt_PlasticBlue
+{
+	background-color: #F1F1F1;
+}
+.dxgvEditingErrorRow_PlasticBlue
+{
+	background-color: #FFC8C8;
+	color: Red;
+}
+.dxgvSelectedRow_PlasticBlue
+{
+	background-color: #6d82c5;
+}
+.dxgvFocusedRow_PlasticBlue
+{
+	background-color: #5066ac;
+}
+.dxgvEditingErrorRow_PlasticBlue td.dxgv
+{
+	white-space: pre-wrap;
+	border-bottom: 1px solid #d9d9d9;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 10px;
+}
+.dxgvFilterRow_PlasticBlue td.dxgv
+{
+	border-bottom: 1px Solid #D9D9D9;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 3px 4px;
+	overflow: hidden;
+}
+.dxgvGroupRow_PlasticBlue
+{
+	background-color: #E8E8E8;
+}
+.dxgvFocusedGroupRow_PlasticBlue
+{
+	background-color: #5066AC;
+}
+.dxgvGroupRow_PlasticBlue,
+.dxgvFocusedGroupRow_PlasticBlue
+{
+	color: #696969;
+}
+.dxgvGroupRow_PlasticBlue td.dxgv,
+.dxgvFocusedGroupRow_PlasticBlue td.dxgv
+{
+	border: 0 none;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 4px 6px 5px;
+    background-color: inherit;
+}
+.dxgvFocusedGroupRow_PlasticBlue
+{
+	color: White;
+}
+.dxgvFocusedGroupRow_PlasticBlue td.dxgv
+{
+	border-top: 1px solid #5066AC;
+}
+.dxgvFocusedRow_PlasticBlue td.dxgvIndentCell,
+.dxgvFocusedGroupRow_PlasticBlue td.dxgvIndentCell,
+.dxgvSelectedRow_PlasticBlue td.dxgvIndentCell
+{
+	background-color: #E8E8E8!important;
+	border-right: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	border-top-width: 0px;
+}
+.dxgvHeaderPanel_PlasticBlue
+{
+	background-color: #D4E3E5;
+	padding: 8px 4px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_PlasticBlue,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_PlasticBlue
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_PlasticBlue,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_PlasticBlue
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_PlasticBlue
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 7px 6px;
+	border-top: 1px none #2c4182;
+	border: 1px solid #2c4182;
+	background: #415698 url('gvHeaderBackground.gif') repeat-x top;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+
+.dxgvHeader_PlasticBlue a,
+.dxgvHeader_PlasticBlue a:hover
+{
+	color: White;
+}
+
+.dxgvHeader_PlasticBlue,
+.dxgvHeader_PlasticBlue table
+{
+	color: White;
+}
+.dxgvHeader_PlasticBlue td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_PlasticBlue a.dxgvCommandColumnItem_PlasticBlue
+{
+	margin: 0px 3px 0px 0px;
+	color: White;
+}
+.dxgvHeader_PlasticBlue a.dxgvCommandColumnItem_PlasticBlue:hover
+{
+	color: White;
+}
+.dxgvCustomization_PlasticBlue
+{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+.dxgvAdaptiveHeaderPanel_PlasticBlue,
+.dxgvEmptyDataRow_PlasticBlue,
+.dxgvGroupPanel_PlasticBlue
+{
+	color: #848484;
+}
+.dxgvGroupPanel_PlasticBlue
+{
+	background-color: #dedede;
+	border-top: 1px Solid #CCCCCC;
+	white-space: nowrap;
+	padding: 10px 4px 10px 8px;
+}
+.dxgvAdaptiveHeaderPanel_PlasticBlue
+{
+	background-color: #dedede;
+	border-top: 1px Solid #CCCCCC;
+    padding-top: 10px;
+}
+.dxgvAdaptiveFooterPanel_PlasticBlue
+{
+    background-color: #6D82C5;
+    border-bottom: 1px solid #7F93D4;
+    color: #FFFFFF;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_PlasticBlue,
+.dxgvAdaptiveFooterPanel_PlasticBlue
+{
+    padding-left: 12px;
+}
+.dxgvFooter_PlasticBlue
+{
+	background-color: #6D82C5;
+	color: #FFFFFF;
+	white-space: nowrap;
+	border-bottom: 1px solid #7F93D4;
+}
+.dxgvFooter_PlasticBlue
+{
+	background-color: #6D82C5;
+	color: #FFFFFF;
+}
+.dxgvFooter_PlasticBlue td.dxgv
+{
+	padding: 6px 6px 7px;
+	border-bottom: 1px solid #D9D9D9;
+	border-right-width: 0px;
+}
+.dxgvGroupFooter_PlasticBlue
+{
+	background-color: #DEDEDE;
+	white-space: nowrap;
+}
+.dxgvGroupFooter_PlasticBlue td.dxgv
+{
+	padding: 6px 5px 7px;
+	border-bottom: 1px Solid #D5D5D5;
+	border-right-width: 0px;
+}
+.dxgvDataRow_PlasticBlue td.dxgvIndentCell,
+.dxgvDetailRow_PlasticBlue td.dxgvIndentCell,
+.dxgvPreviewRow_PlasticBlue td.dxgvIndentCell,
+.dxgvGroupRow_PlasticBlue td.dxgvIndentCell,
+.dxgvGroupFooter_PlasticBlue td.dxgvIndentCell
+{
+	background-color: #E8E8E8;
+	border-right: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	border-top-width: 0px;
+}
+.dxgvTitlePanel_PlasticBlue,
+.dxgvTable_PlasticBlue caption
+{
+	padding: 3px 3px 5px;
+	font-size: 1.25em;
+	text-align: center;
+	color: #707070;
+	border-top: 1px Solid #CCCCCC;
+}
+.dxgvStatusBar_PlasticBlue
+{
+	border-top: 1px solid #CCCCCC;
+	background-color: #E8E8E8;
+	color: Black;
+}
+.dxgvStatusBar_PlasticBlue tr.dxgv
+{
+	height: 22px;
+}
+.dxgvStatusBar_PlasticBlue tr.dxgv > td
+{
+	padding: 4px;
+}
+.dxgvCommandColumn_PlasticBlue
+{
+	padding: 0px 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_PlasticBlue a
+{
+	margin: 0px 3px 0px 0px;
+}
+/*focused column*/
+.dxgvSelectedRow_PlasticBlue td.dxgvCommandColumn_PlasticBlue a, 
+.dxgvSelectedRow_PlasticBlue td.dxgvAIC a, 
+.dxgvFocusedRow_PlasticBlue td.dxgvCommandColumn_PlasticBlue a,
+.dxgvFocusedRow_PlasticBlue td.dxgvAIC a,
+.dxgvPreviewRow_PlasticBlue td.dxgvCommandColumn_PlasticBlue a
+{
+	color: #FFFFFF;
+}
+.dxbButton_PlasticBlue[class~="dxgvCommandColumnItem_PlasticBlue"],
+.dxgvEditFormTable_PlasticBlue div.dxbButton_PlasticBlue
+{
+	margin: 0px 2px 0px 2px;
+}
+.dxbButton_PlasticBlue[class~="dxgvCommandColumnItem_PlasticBlue"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_PlasticBlue a.dxgvCommandColumnItem_PlasticBlue
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+.dxgvEditFormTable_PlasticBlue
+{
+	margin: 10px 0px;
+	padding: 0px;
+	color: Black;
+}
+.dxgvEditFormCaption_PlasticBlue
+{
+	padding: 5px 4px 4px 10px;
+	white-space: nowrap;
+}
+.dxgvInlineEditCell_PlasticBlue
+{
+	padding: 1px;
+}
+
+.dxgvEditFormCell_PlasticBlue
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvPagerTopPanel_PlasticBlue,
+.dxgvPagerBottomPanel_PlasticBlue
+{
+	padding: 6px 0;
+}
+
+.dxgvPagerTopPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table,
+.dxgvPagerBottomPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table
+{
+    margin: -2px 0px;
+}
+
+.dxgvPagerTopPanel_PlasticBlue .dxpPSI .dxpPageSizeItem_PlasticBlue > table,
+.dxgvPagerBottomPanel_PlasticBlue .dxpPSI .dxpPageSizeItem_PlasticBlue > table
+{
+    *margin: 0px;
+}
+
+.dxgvFilterBar_PlasticBlue
+{
+	border-top: 1px solid #CCCCCC;
+	background-color: #E8E8E8;
+}
+.dxgvFilterBar_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+.dxgvFilterBar_PlasticBlue a:hover
+{
+	color: #2443AA;
+}
+.dxgvFilterBarCheckBoxCell_PlasticBlue
+{
+	padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_PlasticBlue
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_PlasticBlue
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_PlasticBlue
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_PlasticBlue
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_PlasticBlue
+{
+	border-top: 1px solid #e0e0e0;
+	background-color: #E9E9E9;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxgvDataRowHover_PlasticBlue
+{
+	background: #dedede none;
+	color: Black;
+}
+.dxgvControl_PlasticBlue .dxgvHFSAC
+{
+    padding: 8px 0 0 5px;
+}
+.dxgvControl_PlasticBlue .dxgvHFC
+{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.dxgvControl_PlasticBlue .dxgvHFC .dxeCalendar_PlasticBlue
+{
+    margin-top: 3px;
+    margin-left: 23px;
+}
+.dxgvControl_PlasticBlue .dxgvHFSC
+{
+    padding: 8px 0 6px;
+}
+.dxgvControl_PlasticBlue .dxgvHFSC div
+{
+    height: 1px;
+    background: #CCCCCC;
+}
+.dxgvControl_PlasticBlue .dxgvHFSAC,
+.dxgvControl_PlasticBlue .dxgvHFSC,
+.dxgvControl_PlasticBlue .dxgvHFLC
+{
+    background: #fafafa;
+}
+.dxgvControl_PlasticBlue div[id$='DXEPLPC']
+{
+    height: 45px;
+}
+
+.dxgvControl_PlasticBlue .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_PlasticBlue .dxgvHFDRC
+{
+    margin: 10px;
+}
+.dxgvControl_PlasticBlue .dxgvHFDRP
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_PlasticBlue .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_PlasticBlue .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_PlasticBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_PlasticBlue td.dxgvBatchEditCell_PlasticBlue
+{
+    padding: 0;
+}
+.dxgvControl_PlasticBlue td.dxgvBatchEditModifiedCell_PlasticBlue
+{
+    background: #d7f9c7;
+}
+.dxgvControl_PlasticBlue .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_PlasticBlue .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_PlasticBlue .dxgvCommandColumn_PlasticBlue a
+{
+    margin-right: 10px;
+}
+.dxgvControl_PlasticBlue td.dxgvBatchEditCell_PlasticBlue .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvSearchPanel_PlasticBlue
+{
+    padding: 10px 4px 10px 8px;
+}
+.dxgvSearchPanel_PlasticBlue > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_PlasticBlue .dxgvSearchPanel_PlasticBlue .dxbButton_PlasticBlue
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_PlasticBlue .dxgvSearchPanel_PlasticBlue .dxbButton_PlasticBlue {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_PlasticBlue .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_PlasticBlue .dxgvSearchPanel_PlasticBlue .dxbButton_PlasticBlue
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_PlasticBlue .dxgvSearchPanel_PlasticBlue .dxbButton_PlasticBlue .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvEditForm_PlasticBlue .dxflGroupBoxCaption_PlasticBlue {
+    background-color: #E8EAF6;
+}
+.dxgvPopupEditForm_PlasticBlue .dxflGroupBoxCaption_PlasticBlue {
+    background-color: #EDF3F4;
+}

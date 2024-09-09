@@ -1,0 +1,524 @@
+.dxGridView_gvCellError_iOS,
+.dxGridView_gvCMClearFilter_iOS,
+.dxGridView_gvCMClearFilterDisabled_iOS,
+.dxGridView_gvCMClearGrouping_iOS,
+.dxGridView_gvCMClearGroupingDisabled_iOS,
+.dxGridView_gvCMCollapseDetailRow_iOS,
+.dxGridView_gvCMCollapseDetailRowDisabled_iOS,
+.dxGridView_gvCMCollapseRow_iOS,
+.dxGridView_gvCMCollapseRowDisabled_iOS,
+.dxGridView_gvCMDeleteRow_iOS,
+.dxGridView_gvCMDeleteRowDisabled_iOS,
+.dxGridView_gvCMEditRow_iOS,
+.dxGridView_gvCMEditRowDisabled_iOS,
+.dxGridView_gvCMExpandDetailRow_iOS,
+.dxGridView_gvCMExpandDetailRowDisabled_iOS,
+.dxGridView_gvCMExpandRow_iOS,
+.dxGridView_gvCMExpandRowDisabled_iOS,
+.dxGridView_gvCMFullCollapse_iOS,
+.dxGridView_gvCMFullCollapseDisabled_iOS,
+.dxGridView_gvCMFullExpand_iOS,
+.dxGridView_gvCMFullExpandDisabled_iOS,
+.dxGridView_gvCMGroupByColumn_iOS,
+.dxGridView_gvCMGroupByColumnDisabled_iOS,
+.dxGridView_gvCMNewRow_iOS,
+.dxGridView_gvCMNewRowDisabled_iOS,
+.dxGridView_gvCMRefresh_iOS,
+.dxGridView_gvCMRefreshDisabled_iOS,
+.dxGridView_gvCMSearchPanel_iOS,
+.dxGridView_gvCMSearchPanelDisabled_iOS,
+.dxGridView_gvCMShowCustomizationWindow_iOS,
+.dxGridView_gvCMShowCustomizationWindowDisabled_iOS,
+.dxGridView_gvCMShowFilterEditor_iOS,
+.dxGridView_gvCMShowFilterEditorDisabled_iOS,
+.dxGridView_gvCMShowGroupPanel_iOS,
+.dxGridView_gvCMShowGroupPanelDisabled_iOS,
+.dxGridView_gvCMShowSearchPanel_iOS,
+.dxGridView_gvCMShowSearchPanelDisabled_iOS,
+.dxGridView_gvCMSortAscending_iOS,
+.dxGridView_gvCMSortAscendingDisabled_iOS,
+.dxGridView_gvCMSortDescending_iOS,
+.dxGridView_gvCMSortDescendingDisabled_iOS,
+.dxGridView_gvCMSummaryAverage_iOS,
+.dxGridView_gvCMSummaryAverageDisabled_iOS,
+.dxGridView_gvCMSummaryCount_iOS,
+.dxGridView_gvCMSummaryCountDisabled_iOS,
+.dxGridView_gvCMSummaryMax_iOS,
+.dxGridView_gvCMSummaryMaxDisabled_iOS,
+.dxGridView_gvCMSummaryMin_iOS,
+.dxGridView_gvCMSummaryMinDisabled_iOS,
+.dxGridView_gvCMSummarySum_iOS,
+.dxGridView_gvCMSummarySumDisabled_iOS,
+.dxGridView_gvCMUngroupColumn_iOS,
+.dxGridView_gvCollapsedButton_iOS,
+.dxGridView_gvCollapsedButtonRtl_iOS,
+.dxGridView_gvDetailCollapsedButton_iOS,
+.dxGridView_gvDetailCollapsedButtonRtl_iOS,
+.dxGridView_gvDetailExpandedButton_iOS,
+.dxGridView_gvDetailExpandedButtonRtl_iOS,
+.dxGridView_gvDragAndDropArrowDown_iOS,
+.dxGridView_gvDragAndDropArrowUp_iOS,
+.dxGridView_gvDragAndDropHideColumn_iOS,
+.dxGridView_gvExpandedButton_iOS,
+.dxGridView_gvExpandedButtonRtl_iOS,
+.dxGridView_gvFilterRowButton_iOS,
+.dxGridView_gvFixedGroupRow_iOS,
+.dxGridView_gvHeaderFilter_iOS,
+.dxGridView_gvHeaderFilterActive_iOS,
+.dxGridView_gvHeaderSortDown_iOS,
+.dxGridView_gvHeaderSortUp_iOS,
+.dxGridView_gvHideAdaptiveDetailButton_iOS,
+.dxGridView_gvParentGroupRows_iOS,
+.dxGridView_gvShowAdaptiveDetailButton_iOS,
+.dxGridView_WindowResizer_iOS,
+.dxGridView_WindowResizerRtl_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxGridView_gvCellError_iOS
+{
+    background-position: -394px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMClearFilter_iOS
+{
+    background-position: -255px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearFilterDisabled_iOS
+{
+    background-position: -187px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGrouping_iOS
+{
+    background-position: -153px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGroupingDisabled_iOS
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRow_iOS
+{
+    background-position: -153px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRowDisabled_iOS
+{
+    background-position: -204px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRow_iOS
+{
+    background-position: -323px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRowDisabled_iOS
+{
+    background-position: -170px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRow_iOS
+{
+    background-position: -238px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRowDisabled_iOS
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRow_iOS
+{
+    background-position: -68px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRowDisabled_iOS
+{
+    background-position: -136px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRow_iOS
+{
+    background-position: -68px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRowDisabled_iOS
+{
+    background-position: -187px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRow_iOS
+{
+    background-position: -238px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRowDisabled_iOS
+{
+    background-position: -221px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapse_iOS
+{
+    background-position: -85px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapseDisabled_iOS
+{
+    background-position: -306px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpand_iOS
+{
+    background-position: -391px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpandDisabled_iOS
+{
+    background-position: -357px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumn_iOS
+{
+    background-position: -374px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumnDisabled_iOS
+{
+    background-position: -272px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRow_iOS
+{
+    background-position: -359px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRowDisabled_iOS
+{
+    background-position: -255px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefresh_iOS
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefreshDisabled_iOS
+{
+    background-position: -272px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanel_iOS
+{
+    background-position: -85px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanelDisabled_iOS
+{
+    background-position: -170px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindow_iOS
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindowDisabled_iOS
+{
+    background-position: -51px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditor_iOS
+{
+    background-position: -325px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditorDisabled_iOS
+{
+    background-position: -136px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanel_iOS
+{
+    background-position: -102px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanelDisabled_iOS
+{
+    background-position: -119px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanel_iOS
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanelDisabled_iOS
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscending_iOS
+{
+    background-position: -340px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscendingDisabled_iOS
+{
+    background-position: -102px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescending_iOS
+{
+    background-position: -376px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescendingDisabled_iOS
+{
+    background-position: -119px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverage_iOS
+{
+    background-position: -360px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverageDisabled_iOS
+{
+    background-position: -377px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCount_iOS
+{
+    background-position: -323px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCountDisabled_iOS
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMax_iOS
+{
+    background-position: -289px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMaxDisabled_iOS
+{
+    background-position: -393px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMin_iOS
+{
+    background-position: -306px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMinDisabled_iOS
+{
+    background-position: -289px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySum_iOS
+{
+    background-position: -342px -23px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySumDisabled_iOS
+{
+    background-position: -221px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMUngroupColumn_iOS
+{
+    background-position: -204px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCollapsedButton_iOS
+{
+    background-position: -223px 0px;
+    width: 20px;
+    height: 39px;
+}
+.dxGridView_gvCollapsedButtonRtl_iOS
+{
+    background-position: -160px 0px;
+    width: 20px;
+    height: 39px;
+}
+.dxGridView_gvDetailCollapsedButton_iOS
+{
+    background-position: -40px 0px;
+    width: 39px;
+    height: 39px;
+}
+.dxGridView_gvDetailCollapsedButtonRtl_iOS
+{
+    background-position: 0px 0px;
+    width: 39px;
+    height: 39px;
+}
+.dxGridView_gvDetailExpandedButton_iOS
+{
+    background-position: -120px 0px;
+    width: 39px;
+    height: 39px;
+}
+.dxGridView_gvDetailExpandedButtonRtl_iOS
+{
+    background-position: -80px 0px;
+    width: 39px;
+    height: 39px;
+}
+.dxGridView_gvDragAndDropArrowDown_iOS
+{
+    background-position: -380px -57px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropArrowUp_iOS
+{
+    background-position: -368px -57px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropHideColumn_iOS
+{
+    background-position: -317px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvExpandedButton_iOS
+{
+    background-position: -202px 0px;
+    width: 20px;
+    height: 39px;
+}
+.dxGridView_gvExpandedButtonRtl_iOS
+{
+    background-position: -181px 0px;
+    width: 20px;
+    height: 39px;
+}
+.dxGridView_gvFilterRowButton_iOS
+{
+    background-position: -308px -24px;
+    width: 16px;
+    height: 15px;
+}
+.dxGridView_gvFixedGroupRow_iOS
+{
+    background-position: -244px 0px;
+    width: 24px;
+    height: 24px;
+}
+.dxGridView_gvHeaderFilter_iOS
+{
+    background-position: -291px -24px;
+    width: 16px;
+    height: 15px;
+}
+.dxGridView_gvHeaderFilterActive_iOS
+{
+    background-position: -274px -24px;
+    width: 16px;
+    height: 15px;
+}
+.dxGridView_gvHeaderSortDown_iOS
+{
+    background-position: -340px 0px;
+    width: 9px;
+    height: 17px;
+}
+.dxGridView_gvHeaderSortUp_iOS
+{
+    background-position: -350px 0px;
+    width: 9px;
+    height: 17px;
+}
+.dxGridView_gvHideAdaptiveDetailButton_iOS
+{
+    background-position: -354px -57px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_gvParentGroupRows_iOS
+{
+    background-position: -255px -26px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvShowAdaptiveDetailButton_iOS
+{
+    background-position: -340px -57px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_WindowResizer_iOS
+{
+    background-position: -293px 0px;
+    width: 23px;
+    height: 23px;
+}
+.dxGridView_WindowResizerRtl_iOS
+{
+    background-position: -269px 0px;
+    width: 23px;
+    height: 23px;
+}
+

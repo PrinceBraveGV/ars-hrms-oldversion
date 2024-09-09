@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "HRIS - Laporan Data Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Laporan Data Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:center">Masukkan kriteria pencarian pada isian berikut ini untuk menampilkan laporan.</label><br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            @Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "Ribbon";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Tabs.AddRange(DocumentViewerExtension.DefaultRibbonTabs);
+                            }).GetHtml()
+                            
+                            Html.RenderAction("ReportKaryawanPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

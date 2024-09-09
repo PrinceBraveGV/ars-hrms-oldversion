@@ -1,0 +1,4851 @@
+/* -- CheckBox -- */
+.dxICBFocused_BlackGlass
+{
+    outline: 1px dotted #68a4c0;
+}
+.dxICheckBox_BlackGlass 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: #B4CFEC;
+	background-color: #FFFFFF;
+}
+.dxccControl_BlackGlass a
+{
+	text-decoration: none!important;
+	color: #3e6b96;
+}
+.dxccControl_BlackGlass a:hover
+{
+	color: #ff9600!important;
+}
+/* Disabled */
+.dxccDisabled_BlackGlass,
+.dxccDisabled_BlackGlass span.dxccValue,
+.dxccDisabled_BlackGlass span.dxccBEText
+{
+	color: #bebebe;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_BlackGlass 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: #E8EDF1;
+	border: 1px solid Black;
+	color: black;
+}
+.dxdvControl_BlackGlass td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_BlackGlass
+{
+	border-bottom: 1px solid #A4BED1;
+	border-top: 1px solid #A4BED1;
+}
+.dxdvItem_BlackGlass,
+.dxdvFlowItem_BlackGlass
+{
+	background-color: #E8EDF1;
+	padding: 13px 50px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_BlackGlass
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_BlackGlass
+{
+}
+.dxdvEmptyItem_BlackGlass
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 14px 20px 14px 50px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_BlackGlass
+{
+	color: #2A769D;
+	background-color: #C9D7DC;
+	padding: 0px;
+}
+.dxdvEmptyData_BlackGlass
+{
+	color: Gray;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_BlackGlass
+{
+    height: 58px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_BlackGlass a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3e6b96;
+}
+.dxdvPagerShowMoreItemsContainer_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+
+/* Disabled */
+.dxdvDisabled_BlackGlass
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_BlackGlass 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxhlControl_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxhlControl_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+.dxhlContent_BlackGlass
+{
+	color: #585858;
+} 
+.dxhlDate_BlackGlass
+{
+    font-size: 0.83em;
+    font-weight: bold;
+	white-space: nowrap;
+}
+.dxhlHeader_BlackGlass
+{
+	font-weight: bold;
+	padding-bottom: 4px;
+	line-height: 133%;
+}
+.dxhlDateHeader_BlackGlass
+{
+	font-weight: normal;
+	color: Gray;
+}
+.dxhlLeftPanel_BlackGlass,
+.dxhlRightPanel_BlackGlass
+{
+}
+.dxhlDateLeftPanel_BlackGlass,
+.dxhlDateRightPanel_BlackGlass
+{
+	color: Gray;
+    padding: 1px 0 0;
+	white-space: nowrap;
+}
+.dxhlTailDiv_BlackGlass
+{
+	background-color: #EEF2F5;
+}
+/* Disabled */
+.dxhlDisabled_BlackGlass
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_BlackGlass,
+.dxlpLoadingPanelWithContent_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9F9F9F;
+	background-color: White;
+}
+.dxlpLoadingPanel_BlackGlass td.dx,
+.dxlpLoadingPanelWithContent_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxlpLoadingPanel_BlackGlass .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_BlackGlass .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+.dxlpControl_BlackGlass.dxlpLoadingDiv_BlackGlass
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxmLite_BlackGlass .dxm-main
+{
+	border: 1px solid #16171B;
+	background-color: #444444;
+}
+
+.dxmLite_BlackGlass .dxm-horizontal,
+.dxmLite_BlackGlass .dxm-vertical
+{
+	padding: 0px;
+}
+.dxmLite_BlackGlass .dxm-vertical
+{
+	width: 150px;
+}
+
+.dxmLite_BlackGlass .dxm-popup
+{
+	border: 1px solid #4E4F51;
+	background-color: #E8EDF1;
+	padding: 1px;
+}
+
+.dxmBrdCor_BlackGlass
+{
+	background-color: #E8EDF1;
+}
+
+.dxmLite_BlackGlass .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_BlackGlass .dxm-image-t .dxm-item,
+.dxmLite_BlackGlass .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_BlackGlass .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_BlackGlass,
+.dxmLite_BlackGlass .dxeCaption_BlackGlass,
+.dxmLite_BlackGlass .dxeRequiredMark_BlackGlass,
+.dxmLite_BlackGlass .dxeOptionalMark_BlackGlass,
+.dxmLite_BlackGlass .dxm-item a.dx
+{
+	color: White;
+}
+.dxmLite_BlackGlass .dxm-popup,
+.dxmLite_BlackGlass .dxm-popup .dxm-item a.dx
+{
+	color: Black;
+}
+.dxmLite_BlackGlass .dxm-disabled,
+.dxmLite_BlackGlass .dxm-disabled a.dx,
+.dxmLite_BlackGlass .dxm-popup .dxm-disabled a.dx
+{
+	color: #9f9f9f;
+}
+.dxmLite_BlackGlass .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+.dxmLite_BlackGlass .dxm-horizontal
+{
+	background: #444444 url('mItemBack.gif') repeat-x center top;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-item
+{
+	background: #444444 url('mVerticalItemBack.gif') repeat-x center top;
+}
+
+.dxmLite_BlackGlass .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popOut,
+.dxmLite_BlackGlass.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popOut,
+.dxmLite_BlackGlass.dxm-ltr .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-item,
+.dxmLite_BlackGlass .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_BlackGlass .dxm-dropDownMode.dxm-hovered .dxm-popOut
+
+{
+	border-color: #16171B;
+}
+.dxmLite_BlackGlass .dxm-main .dxm-checked,
+.dxmLite_BlackGlass .dxm-main .dxm-selected
+{
+	background: #457692 url('mItemBackS.gif') repeat-x center top;
+}
+.dxmLite_BlackGlass .dxm-main .dxm-hovered
+{
+	background: #82b3ce url('mItemBackH.gif') repeat-x center top;
+}
+
+.dxmLite_BlackGlass .dxm-popup .dxm-selected
+{
+	background-color: #93A7BA;
+	border-color: #719DBE;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-hovered,
+.dxmLite_BlackGlass .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	background-color: #C1CED9;
+	border-color: #A4BED1;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #93a7ba;
+    outline: 1px solid transparent;
+    background-color: #93a7ba;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_BlackGlass
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_BlackGlass.dxm-ltr .dxm-main .dxm-content
+{
+	padding: 4px 10px 5px 11px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-main .dxm-content
+{
+	padding: 4px 11px 5px 10px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 11px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 11px;
+}
+
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 17px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 17px;
+}
+
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 40px 3px 10px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 10px 3px 40px;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_BlackGlass .dxm-popup .dxm-subMenu .dxm-content
+{
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 16px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 16px;
+}
+
+/* Image */
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 4px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 4px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 7px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 7px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 10px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 10px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 9px -1px -1px;	
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px -1px -1px 9px;	
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_BlackGlass
+{
+    margin: 0px 11px 0px 1px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_BlackGlass
+{
+	margin: 0px 1px 0px 11px;
+}
+
+/* Image replacement */
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 23px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 23px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_BlackGlass.dxm-ltr .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_BlackGlass.dxm-rtl .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 3px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 26px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 26px;
+}
+
+/* PopOut */
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 10px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 10px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 10px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 10px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 11px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 11px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 10px;
+	padding-right: 11px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 11px;
+	padding-right: 10px;
+}
+
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_BlackGlass .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 25px;
+	padding-bottom: 26px;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-popOut,
+.dxmLite_BlackGlass .dxm-popup .dxm-popOut
+{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+/* PopOut replacement */
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+
+/* Spacings, Separator */
+.dxmLite_BlackGlass .dxm-horizontal .dxm-spacing
+{
+	width: 0px;
+	height: 1px;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-spacing
+{
+	height: 0px;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_BlackGlass .dxm-horizontal .dxm-separator b
+{
+	width: 1px;
+    height: 100%;
+}
+.dxmLite_BlackGlass .dxm-vertical .dxm-separator b,
+.dxmLite_BlackGlass .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_BlackGlass .dxm-main .dxm-separator b
+{
+	background-color: #16171B;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-separator b
+{
+	background-color: #9F9F9F;
+}
+.dxmLite_BlackGlass .dxm-popup .dxm-separator
+{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-separator
+{
+	padding-left: 35px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-separator
+{
+	padding-right: 35px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-left: 0;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxm-popup .dxm-noImages .dxm-separator
+{
+	padding-right: 0;
+}
+/* Scroll elements */
+.dxmLite_BlackGlass .dxm-scrollUpBtn, 
+.dxmLite_BlackGlass .dxm-scrollDownBtn
+{
+	background-color: #E8EDF1;
+	border: 1px solid #E8EDF1;
+	padding: 2px;
+	text-align: center;
+}
+.dxmLite_BlackGlass .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_BlackGlass .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_BlackGlass .dxm-scrollBtnHovered
+{
+	background: #424141 url('mScrollHBack.gif') repeat-x center top;
+}
+.dxmLite_BlackGlass .dxm-scrollBtnPressed
+{
+	background: #838383 url('mScrollSBack.gif') repeat-x center top;
+}
+.dxmLite_BlackGlass .dxm-scrollBtnHovered,
+.dxmLite_BlackGlass .dxm-scrollBtnPressed
+{
+	border: 1px solid #16171B;
+}
+
+.dxmLite_BlackGlass .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_BlackGlass .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+
+/* has image */
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 6px 8px 5px;
+}
+
+/* no image */
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 6px 8px 5px;
+}
+
+/* dd has image */
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+/* dd no image */
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-popup .dxm-image 
+{
+	margin-right: 10px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxmtb.dxm-popup .dxm-image 
+{
+	margin-left: 10px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-popup .dxm-noImage 
+{
+	padding-left: 26px;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxmtb.dxm-popup .dxm-noImage 
+{
+	padding-right: 26px;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage,
+.dxmLite_BlackGlass.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage 
+{
+	padding-left: 0;
+}
+.dxmLite_BlackGlass.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage,
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage
+{
+	padding-right: 0;
+}
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-image-b .dxm-popOut 
+{
+	padding: 10px 8px 10px 7px;
+}
+.dxmLite_BlackGlass.dxm-rtr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BlackGlass.dxm-rtr .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut 
+{
+	padding: 4px 7px 4px 8px;
+}
+.dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+    padding: 3px 4px;
+}
+.dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 8px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_BlackGlass,
+.menuLinks_BlackGlass .dxm-item,
+.menuLinks_BlackGlass .dxm-hovered,
+.menuLinks_BlackGlass .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+
+.menuLinks_BlackGlass .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_BlackGlass .dxm-item a.dx > span
+{
+    color: #3e6b96;
+    text-decoration: underline;
+}
+
+.menuLinks_BlackGlass .dxm-hovered a.dx > span
+{
+    color: #FF9600 !important;
+    text-decoration: underline !important;
+}
+.menuLinks_BlackGlass .dxm-tmpl
+{
+    padding-top:2px!important;
+}
+
+.menuButtons_BlackGlass,
+.menuButtons_BlackGlass .dxm-tmpl
+{
+    color: #2C4D79;
+    background: none !important;
+}
+
+.menuButtons_BlackGlass .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_BlackGlass .dxm-content
+{
+    
+    padding: 1px 8px 1px 8px !important;
+    height:17px!important;
+}
+
+.menuButtons_BlackGlass .dxm-item
+{
+    background: #424242 url('../Editors/edtButtonBack.gif') repeat-x top;
+    border: solid 1px #a5a5a5;
+}
+
+.menuButtons_BlackGlass .dxm-item.dxm-hovered
+{
+    background: #759DB3 url('../Editors/edtButtonHoverBack.gif') repeat-x top;
+}
+
+.menuButtons_BlackGlass .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_BlackGlass .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_BlackGlass 
+{
+	color: Black;
+	background-color: white;
+	border-bottom: 1px solid Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_BlackGlass a
+{
+	color: Black;
+	text-decoration: none!important;
+}
+.dxnbLite_BlackGlass .dxnb-gr 
+{
+	margin-bottom: 0;
+}
+.dxnbLite_BlackGlass .dxnb-header,
+.dxnbLite_BlackGlass .dxnb-headerCollapsed 
+{
+	color: white;
+	background: #444444 url('nbItemBack.gif') repeat-x left top;
+	border-top: 1px solid Black;
+	border-right: 1px solid Black;
+	border-bottom: 0 solid Black;
+	border-left: 1px solid Black;
+	padding: 4px 6px 5px 10px;
+    white-space: nowrap;
+}
+.dxnbLite_BlackGlass .dxnb-header a,
+.dxnbLite_BlackGlass .dxnb-headerCollapsed a
+{
+	color: White;
+	white-space: nowrap;
+	text-decoration: underline!important;
+}
+.dxnbLite_BlackGlass .dxnb-content 
+{
+	color: #4F4F51;
+	background-color: #E8EDF1;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-top: 0 solid Black;
+	border-right: 1px solid Black;
+	border-bottom: 0 solid Black;
+	border-left: 1px solid Black;
+}
+.dxnbLite_BlackGlass.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_BlackGlass .dxnb-item,
+.dxnbLite_BlackGlass .dxnb-large,
+.dxnbLite_BlackGlass .dxnb-bullet 
+{
+	color: #4F4F51;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+    border-bottom: 1px solid #a4bed1;
+}
+.dxnbLite_BlackGlass .dxnb-last
+{
+    border-bottom: 0;
+}
+.dxnbLite_BlackGlass .dxnb-item.dxnb-link, 
+.dxnbLite_BlackGlass .dxnb-item .dxnb-link
+
+{
+	padding: 6px 5px 7px 10px;
+    white-space: nowrap;
+}
+.dxnbLite_BlackGlass .dxnb-large.dxnb-link,
+.dxnbLite_BlackGlass .dxnb-large .dxnb-link
+{
+	padding: 6px 11px;
+    white-space: nowrap;
+}
+.dxnbLite_BlackGlass .dxnb-bullet,
+.dxnbLite_BlackGlass .dxnb-bulletHover,
+.dxnbLite_BlackGlass .dxnb-bulletSelected 
+{
+	padding: 6px 5px 7px 10px;
+	overflow: visible;
+}
+.dxnbLite_BlackGlass .dxnb-itemSelected,
+.dxnbLite_BlackGlass .dxnb-largeSelected
+{
+	background-color: #9faebb;
+	color: white;
+}
+.dxnbLite_BlackGlass .dxnb-itemHover,
+.dxnbLite_BlackGlass .dxnb-largeHover
+{
+	background-color: #c1ced9;
+	color: #4f4f51;
+}
+.dxnbLite_BlackGlass .dxnb-header,
+.dxnbLite_BlackGlass .dxnb-headerCollapsed, 
+.dxnbLite_BlackGlass .dxnb-item,
+.dxnbLite_BlackGlass .dxnb-itemHover,
+.dxnbLite_BlackGlass .dxnb-itemSelected,
+.dxnbLite_BlackGlass .dxnb-bullet,
+.dxnbLite_BlackGlass .dxnb-bulletHover,
+.dxnbLite_BlackGlass .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_BlackGlass .dxnb-large,
+.dxnbLite_BlackGlass .dxnb-largeHover,
+.dxnbLite_BlackGlass .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_BlackGlass .dxnb-headerHover
+{
+	background: #82b3ce url('nbItemBackH.gif') repeat-x left top;
+}
+.dxnbLite_BlackGlass .dxnb-headerCollapsedHover
+{
+	background: #82b3ce url('nbItemBackH.gif') repeat-x left top;
+}
+.dxnbLite_BlackGlass .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_BlackGlass .dxnb-btn,
+.dxnbLite_BlackGlass .dxnb-btnLeft,
+.dxnbLite_BlackGlass .dxnb-img
+{
+	border-width: 0;
+}
+.dxnbLite_BlackGlass .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+.dxnbLite_BlackGlass .dxnb-btnLeft,
+.dxnbLite_BlackGlass .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+.dxnbLite_BlackGlass .dxnb-img
+{
+	margin: 0 4px 0 0;
+}
+.dxnbLite_BlackGlass .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_BlackGlass .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 4px;
+}
+.dxnbLite_BlackGlass .dxnb-header.dxnb-header-left,
+.dxnbLite_BlackGlass .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_BlackGlass .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_BlackGlass .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 3px;
+}
+.dxnbLite_BlackGlass .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 3px;
+}
+.dxnbLite_BlackGlass .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_BlackGlass,
+.dxnbLite_BlackGlass .dxnbLiteDisabled_BlackGlass,
+.dxnbLiteDisabled_BlackGlass a,
+.dxnbLiteDisabled_BlackGlass .dxnb-item,
+.dxnbLiteDisabled_BlackGlass .dxnb-large,
+.dxnbLiteDisabled_BlackGlass .dxnb-bullet,
+.dxnbLiteDisabled_BlackGlass .dxnb-header,
+.dxnbLiteDisabled_BlackGlass .dxnb-headerCollapsed 
+{
+	color: #acacac;
+	cursor: default;
+}
+/* -- ASPxNewsControl -- */
+.dxncControl_BlackGlass 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	background-color: White;
+}
+.dxncControl_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxncControl_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+.dxncControl_BlackGlass td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncContent_BlackGlass
+{
+}
+.dxncPagerPanel_BlackGlass
+{
+	padding: 0px 2px;
+}
+.dxncItem_BlackGlass
+{
+	vertical-align: top;
+	padding: 0px;
+}
+.dxncEmptyItem_BlackGlass
+{
+	vertical-align: top;
+	padding: 0px;
+}
+.dxncBackToTop_BlackGlass
+{
+	color: #404040;
+}
+.dxncEmptyData_BlackGlass
+{
+	color: Gray;
+}
+.dxncPagerShowMoreItemsContainer_BlackGlass
+{
+    height: 58px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_BlackGlass a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3e6b96;
+}
+.dxncPagerShowMoreItemsContainer_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+/* Disabled */
+.dxncDisabled_BlackGlass,
+.dxncDisabled_BlackGlass span.dxhl,
+.dxncDisabled_BlackGlass a,
+.dxncDisabled_BlackGlass a:hover
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	padding: 14px 20px 15px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_BlackGlass .dxp-summary,
+.dxpLite_BlackGlass .dxp-sep,
+.dxpLite_BlackGlass .dxp-button,
+.dxpLite_BlackGlass .dxp-pageSizeItem,
+.dxpLite_BlackGlass .dxp-num,
+.dxpLite_BlackGlass .dxp-current,
+.dxpLite_BlackGlass .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_BlackGlass .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxpLite_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+
+.dxpLite_BlackGlass .dxp-button
+{
+	color: #3e6b96;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: underline;
+    padding: 2px 5px 1px;
+}
+.dxpLite_BlackGlass .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_BlackGlass .dxp-button span
+{
+	text-decoration: underline;
+    margin-top: -1px;
+}
+.dxpLite_BlackGlass .dxp-button.dxp-bi 
+{
+    padding: 0;
+}
+.dxpLite_BlackGlass .dxp-button.dxp-bti 
+{
+    padding: 0 5px;
+    margin-top: -1px;
+}
+.dxWebKitFamily .dxpLite_BlackGlass .dxp-button.dxp-bti 
+{
+    margin-top: 0;
+}
+.dxSafari .dxpLite_BlackGlass .dxp-button.dxp-bti 
+{
+    margin-top: -1px;
+}
+doesnotexist:-o-prefocus, .dxpLite_BlackGlass .dxp-button.dxp-bti 
+{
+    margin-top: 0;
+}
+.dxpLite_BlackGlass .dxp-disabledButton,
+.dxpLite_BlackGlass .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #9f9f9f;
+}
+
+.dxpLite_BlackGlass .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.dxpLite_BlackGlass .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 1px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_BlackGlass .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_BlackGlass .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #9F9F9F;
+    margin: -2px 0px;
+    padding: 1px;
+}
+.dxpLite_BlackGlass .dxp-comboBox input
+{
+    margin: 1px 2px 0px;
+}
+*[dir="rtl"].dxpLite_BlackGlass .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_BlackGlass .dxp-dropDownButton
+{
+    padding: 5px 3px;
+    background: #303030 url('pDropDownButtonBack.gif') repeat-x top;
+	border: 1px solid Black;
+}
+.dxpLite_BlackGlass .dxp-hoverDropDownButton
+{
+    background: #86bad6 url('pDropDownButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid Black;
+}
+.dxpLite_BlackGlass .dxp-pressedDropDownButton
+{
+    background: #bdbdbd url('pDropDownButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid Black;
+}
+
+.dxpLite_BlackGlass .dxp-num
+{
+	color: #3e6b96;
+	text-decoration: underline;
+	padding: 2px 3px 4px;
+}
+
+.dxpLite_BlackGlass .dxp-current
+{
+	color: white;
+	background-color: #3e6b96;
+	text-decoration: underline;
+}
+
+.dxpLite_BlackGlass .dxp-summary,
+.dxpLite_BlackGlass .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 2px 0 1px;
+}
+
+.dxpLite_BlackGlass .dxp-sep
+{
+	background-color: #cccccc;
+	width: 1px;
+	height: 11px;
+	margin-top: 4px;
+}
+
+.dxpLiteDisabled_BlackGlass,
+.dxpLiteDisabled_BlackGlass a,
+.dxpLiteDisabled_BlackGlass .dxp-summary,
+.dxpLiteDisabled_BlackGlass .dxp-sep,
+.dxpLiteDisabled_BlackGlass .dxp-button,
+.dxpLiteDisabled_BlackGlass .dxp-num,
+.dxpLiteDisabled_BlackGlass .dxp-current,
+.dxpLiteDisabled_BlackGlass .dxp-ellip
+{
+	color: #9f9f9f;
+	border-color: #9f9f9f;
+	cursor: default;
+}
+.dxpLite_BlackGlass .dxp-disabledComboBox input
+{
+    color: #acacac;
+}
+.dxpLite_BlackGlass .dxp-disabledDropDownButton
+{
+    color: #808080;
+	background: #b6b6b6 url('pDropDownButtonDisabledBack.gif') repeat-x left top;
+	border-color: #a5a5a5;
+	cursor: default;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_BlackGlass,
+.dxdpLite_BlackGlass 
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxdpLite_BlackGlass {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_BlackGlass .dxpc-mainDiv,
+.dxpcLite_BlackGlass.dxpc-mainDiv,
+.dxdpLite_BlackGlass .dxpc-mainDiv,
+.dxdpLite_BlackGlass.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	background-color: #E8EDF1;
+	border: 1px solid #4E4F51;
+}
+
+.dxpcLite_BlackGlass a.dxpc-link,
+.dxdpLite_BlackGlass a.dxpc-link 
+{
+	color: #1E3695;
+}
+.dxpcLite_BlackGlass a.dxpc-link *,
+.dxdpLite_BlackGlass a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_BlackGlass .dxpc-closeBtn,
+.dxdpLite_BlackGlass .dxpc-closeBtn,
+.dxpcLite_BlackGlass .dxpc-pinBtn,
+.dxdpLite_BlackGlass .dxpc-pinBtn,
+.dxpcLite_BlackGlass .dxpc-refreshBtn,
+.dxdpLite_BlackGlass .dxpc-refreshBtn,
+.dxpcLite_BlackGlass .dxpc-collapseBtn,
+.dxdpLite_BlackGlass .dxpc-collapseBtn,
+.dxpcLite_BlackGlass .dxpc-maximizeBtn,
+.dxdpLite_BlackGlass .dxpc-maximizeBtn
+{
+	float: right;
+	padding: 1px 1px 1px 2px;
+}
+
+.dxpcLite_BlackGlass.dxRtl  .dxpc-closeBtn,
+.dxdpLite_BlackGlass.dxRtl  .dxpc-closeBtn,
+.dxpcLite_BlackGlass.dxRtl  .dxpc-pinBtn,
+.dxdpLite_BlackGlass.dxRtl  .dxpc-pinBtn,
+.dxpcLite_BlackGlass.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_BlackGlass.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_BlackGlass.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_BlackGlass.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_BlackGlass.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_BlackGlass.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_BlackGlass .dxpc-closeBtnHover,
+.dxdpLite_BlackGlass .dxpc-closeBtnHover,
+.dxpcLite_BlackGlass .dxpc-pinBtnHover,
+.dxdpLite_BlackGlass .dxpc-pinBtnHover,
+.dxpcLite_BlackGlass .dxpc-refreshBtnHover,
+.dxdpLite_BlackGlass .dxpc-refreshBtnHover,
+.dxpcLite_BlackGlass .dxpc-collapseBtnHover,
+.dxdpLite_BlackGlass .dxpc-collapseBtnHover,
+.dxpcLite_BlackGlass .dxpc-maximizeBtnHover,
+.dxdpLite_BlackGlass .dxpc-maximizeBtnHover
+{
+	color: White;
+}
+
+.dxpcLite_BlackGlass .dxpc-header,
+.dxdpLite_BlackGlass .dxpc-header 
+{
+	color: white;
+	background: #444444 url('pcItemHeader.gif') repeat-x center top;
+	padding: 3px 6px 6px 15px;
+}
+
+.dxpcLite_BlackGlass .dxpc-header a,
+.dxdpLite_BlackGlass .dxpc-header a 
+{
+	color: white;
+}
+
+.dxpcLite_BlackGlass.dxRtl .dxpc-header,
+.dxdpLite_BlackGlass.dxRtl .dxpc-header 
+{
+	padding-left: 6px;
+	padding-right: 15px;
+}
+
+.dxpcLite_BlackGlass .dxpc-headerText,
+.dxdpLite_BlackGlass .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_BlackGlass .dxpc-headerImg,
+.dxdpLite_BlackGlass .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_BlackGlass.dxRtl .dxpc-headerImg,
+.dxdpLite_BlackGlass.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_BlackGlass .dxpc-content,
+.dxdpLite_BlackGlass .dxpc-content
+{
+	white-space: normal;
+	padding: 16px;
+}
+
+.dxpcLite_BlackGlass .dxpc-footer,
+.dxdpLite_BlackGlass .dxpc-footer
+{
+	background: #C9D6DE url('pcItemFooter.gif') repeat-x center top;
+}
+
+.dxpcLite_BlackGlass .dxpc-footerContent,
+.dxdpLite_BlackGlass .dxpc-footerContent
+{
+	padding: 12px 24px 12px 16px;
+}
+
+.dxpcLite_BlackGlass.dxRtl .dxpc-footerContent,
+.dxdpLite_BlackGlass.dxRtl .dxpc-footerContent
+{
+	padding: 12px 16px 12px 24px;
+}
+
+.dxpcLite_BlackGlass .dxpc-footerText,
+.dxdpLite_BlackGlass .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_BlackGlass .dxpc-footerImg,
+.dxdpLite_BlackGlass .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_BlackGlass.dxRtl .dxpc-footerImg,
+.dxdpLite_BlackGlass.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_BlackGlass .dxpc-sizeGrip,
+.dxdpLite_BlackGlass .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_BlackGlass.dxRtl .dxpc-sizeGrip,
+.dxdpLite_BlackGlass.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_BlackGlass,
+.dxdpModalBackLite_BlackGlass
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_BlackGlass,
+.dxdpLiteDisabled_BlackGlass
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_BlackGlass
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #16171B;
+}
+.dxpnlControl_BlackGlass.dxpnl-edge,
+.dxpnlControl_BlackGlass.dxpnl-edge.dxpnl-bar
+{
+    background-color: #e8edf1;
+}
+.dxpnlControl_BlackGlass.dxpnl-edge,
+.dxpnlControl_BlackGlass.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_BlackGlass.dxpnl-bar
+{
+    padding: 8px;
+}
+.dxpnlControl_BlackGlass .dxpnl-btn
+{
+}
+.dxpnlControl_BlackGlass .dxpnl-btnHover
+{
+    background-color: #E0EAEC;
+}
+.dxpnlControl_BlackGlass .dxpnl-btnPressed
+{
+    background-color: #CEDAE5;
+}
+.dxpnlControl_BlackGlass .dxpnl-btnSelected
+{
+
+}
+.dxpnlDisabled_BlackGlass
+{
+	color: #bebebe;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_BlackGlass,
+.dxrpControlGB_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Black;
+}
+.dxrpControl_BlackGlass .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_BlackGlass:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_BlackGlass:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BlackGlass:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 10px;
+}
+.dxrpControl_BlackGlass:not(.dxrp-hasDefaultImages)  > tbody > tr > .dxrpHeader_BlackGlass
+
+{
+	border-radius:10px 10px 0px 0px;
+}
+.dxrpControl_BlackGlass:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 10px 10px;
+}
+.dxrpWithoutHeader_BlackGlass:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:10px;
+}
+/* Header */
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass 
+{
+    background-image: none;
+    background-color: #C9D7DC;
+}
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass,
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass
+{
+	font-size: 0.9em;
+	color: White;
+}
+.dxrpControl_BlackGlass  > tbody > tr > .dxrpHeader_BlackGlass > a,
+.dxrpControl_BlackGlass  > tbody > tr > .dxrpHeader_BlackGlass > a > span.dxrpHT,
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass a
+{
+    color: White;
+}
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass
+{
+	text-align: left;
+}
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass
+{
+	color: Black;
+}
+/* Header image */
+.dxrpControl_BlackGlass .dxrpHI
+{
+	margin-right: 4px;
+}
+/* Content */
+.dxrpControl_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent
+{
+	vertical-align: top;
+    background-image: none;
+}
+/*Borders*/
+.dxrpControl_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass {
+	border-top: 1px solid black;
+	border-bottom:0px none;
+}
+.dxrpControl_BlackGlass > tbody > tr:first-child > .dxrpcontent {
+	border-top: 1px solid black;
+}
+.dxrpControlGB_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent{
+	border: 1px solid black;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_BlackGlass {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_BlackGlass.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BlackGlass.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass 
+{
+	padding: 5px 6px 4px 13px;
+}
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_BlackGlass.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW
+{
+	padding: 5px 6px 15px 13px;
+}
+.dxrpControlGB_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 6px 12px 10px 12px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -17px;
+	left: 5px;
+	margin-bottom:-9px;
+}
+.dxrpControlGB_BlackGlass {
+	margin-top: 7px;
+}
+/* Background */
+.dxrpControl_BlackGlass td.dxrpHeader_BlackGlass
+{
+    background: #444545 url('rpHeaderBack.gif') repeat-x left top;
+}
+.dxrpControlGB_BlackGlass span.dxrpHeader_BlackGlass
+{
+    background-image: none;
+	background-color: #C9D7DC;
+}
+.dxrpControl_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_BlackGlass > tbody > tr.dxrpCR > .dxrpcontent
+{
+	background-color: #C9D7DC;
+}
+/* Disabled */
+.dxrpDisabled_BlackGlass,
+.dxrpDisabled_BlackGlass td.dxrp
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+.dxrpDisabled_BlackGlass.dxrpCollapsed > tbody > tr > td.dxrpHeader_BlackGlass
+{
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_BlackGlass a
+{
+	color: #3E6B96;
+	text-decoration: none!important;
+}
+.dxsmControl_BlackGlass 
+{
+	color: #1E3695;
+	background-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsmControl_BlackGlass a:visited
+{
+	color: #efbc8f;
+	text-decoration: none!important;
+}
+.dxsmControl_BlackGlass a:hover
+{
+	color: #ff9600;
+	text-decoration: none!important;
+}
+
+/* - Category Level - */
+.dxsmCategoryLevel_BlackGlass,
+.dxsmCategoryLevel_BlackGlass a
+{
+	padding: 4px 9px 5px 0px;
+	color: White;
+}
+.dxsmCategoryLevel_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmCategoryLevel_BlackGlass
+{
+    font-size: 1.17em;
+	color: White;
+	background: #575757 url('mItemBackLevel0.gif') repeat-x left top;
+	white-space: nowrap;
+	padding: 2px 9px 5px;
+}
+.dxsmCategoryLevel_BlackGlass
+{
+	border: 1px solid Black;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_BlackGlass,
+.dxsmLevelCategoryFlow_BlackGlass a
+{
+	border: 1px solid Black;
+	color: #2a769d;
+	padding: 4px 9px 5px;
+}
+.dxsmLevelCategoryFlow_BlackGlass a
+{
+	text-decoration: underline;
+}
+/* - Level 0 - */
+.dxsmLevel0_BlackGlass,
+.dxsmLevel0_BlackGlass a
+{
+	color: White;
+}
+.dxsmLevel0_BlackGlass a
+{
+	color: #b1cae2;
+	text-decoration: underline;
+}
+.dxsmLevel0_BlackGlass
+{
+    font-size: 1.17em;
+	padding: 2px 9px 5px;
+	border: 1px solid Black;
+}
+.dxsmLevel0Categorized_BlackGlass,
+.dxsmLevel0Categorized_BlackGlass a
+{
+	color: #3e6b96;
+	padding: 4px 9px 5px 0px;
+}
+.dxsmLevel0Categorized_BlackGlass a
+{
+	color: #3e6b96;
+	text-decoration: underline;
+}
+.dxsmLevel0_BlackGlass
+{
+	background: #444444 url('mItemBackLevel0.gif') repeat-x left top;
+	white-space: nowrap;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_BlackGlass,
+.dxsmLevel0Flow_BlackGlass a,
+.dxsmLevel0CategorizedFlow_BlackGlass,
+.dxsmLevel0CategorizedFlow_BlackGlass a
+{
+	color: #2A769D;
+}
+.dxsmLevel0Flow_BlackGlass a,
+.dxsmLevel0CategorizedFlow_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_BlackGlass
+{
+	padding: 0px;
+}
+.dxsmLevel0Flow_BlackGlass
+{
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_BlackGlass,
+.dxsmLevel1_BlackGlass a,
+.dxsmLevel1Categorized_BlackGlass,
+.dxsmLevel1Categorized_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxsmLevel1_BlackGlass a,
+.dxsmLevel1Categorized_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel1_BlackGlass,
+.dxsmLevel1Categorized_BlackGlass
+{
+	padding: 0px 0px 0px 6px;
+	white-space: nowrap;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_BlackGlass,
+.dxsmLevel1Flow_BlackGlass a,
+.dxsmLevel1CategorizedFlow_BlackGlass,
+.dxsmLevel1CategorizedFlow_BlackGlass a
+{
+	color: #2A769D;
+}
+.dxsmLevel1Flow_BlackGlass a,
+.dxsmLevel1CategorizedFlow_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_BlackGlass
+{
+	text-decoration: none;
+	padding: 0px;
+}
+/* - Level 2 - */
+.dxsmLevel2_BlackGlass,
+.dxsmLevel2_BlackGlass a,
+.dxsmLevel2Categorized_BlackGlass a,
+.dxsmLevel2Categorized_BlackGlass
+{
+	color: #3e6b96;
+}
+.dxsmLevel2_BlackGlass a,
+.dxsmLevel2Categorized_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel2_BlackGlass,
+.dxsmLevel2Categorized_BlackGlass
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_BlackGlass,
+.dxsmLevel2Flow_BlackGlass a
+{
+	color: #6199B6;
+}
+.dxsmLevel2Flow_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_BlackGlass
+{
+	padding: 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_BlackGlass,
+.dxsmLevel3_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxsmLevel3_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel3_BlackGlass
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_BlackGlass,
+.dxsmLevel3Flow_BlackGlass a
+{
+	color: #A0C2D3;
+}
+.dxsmLevel3Flow_BlackGlass a
+{
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_BlackGlass,
+.dxsmLevel4_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxsmLevel4_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel4_BlackGlass
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel4Flow_BlackGlass,
+.dxsmLevel4Flow_BlackGlass a
+{
+	color: #A0C2D3;
+}
+.dxsmLevel4Flow_BlackGlass a
+{
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_BlackGlass
+{
+	padding: 0px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_BlackGlass
+{
+	color: #3e6b96;
+	text-decoration: none;
+}
+.dxsmLevelOther_BlackGlass
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_BlackGlass,
+.dxsmLevelOtherFlow_BlackGlass a
+{
+	color: #A0C2D3;
+}
+.dxsmLevelOtherFlow_BlackGlass a
+{
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_BlackGlass
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_BlackGlass
+{
+	overflow: hidden;
+    color: black;
+	float: left;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 3px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n.dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-n.dxtc-activeTab
+{
+	border: 1px solid #4E4F51;
+}
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #444444 url('tcTabBack.gif') repeat-x left top;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #E8EDF1 none;
+}
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-lead.dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-n.dxtc-activeTab
+{
+	border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #82b3ce url('tcTabBackH.gif') repeat-x left top;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-bottom: 1px solid #4E4F51;
+	overflow: hidden;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-link
+{
+	padding: 3px 13px 4px;
+	display: block;
+	height: 100%;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-rightIndent
+{
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-activeTab .dxtc-link
+{
+	color: Black;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_BlackGlass > .dxtc-content 
+{
+	background-color: #E8EDF1;
+	float: left;
+	clear: left;
+	border: 1px solid #4E4F51;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    padding-bottom: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_BlackGlass.dxtc-rtl,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-content,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_BlackGlass.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_BlackGlass.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_BlackGlass.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_BlackGlass.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid #4E4F51;
+	border-right: 1px none #4E4F51;
+}
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-n,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab.dxtc-n,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-n,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-n
+{
+	border-right: 1px solid #4E4F51;
+}
+/* Scrolling */
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sb          
+{
+	background: #E7EDED url('tcScrollBtnBack.gif') repeat-x;
+	border: 1px solid #B2BDBF;
+	padding: 6px 7px 5px 6px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbHover
+{
+	border: 1px solid #8DC5D8;
+	background: #DCEDF3 url('tcScrollBtnHoverBack.gif') repeat-x;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbPressed
+{
+	border: 1px solid #62AFC9;
+	background: #CFE8EE url('tcScrollBtnPressedBack.gif') repeat-x;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbDisabled
+{
+	cursor: default;
+	border-color: #A5A5A5;
+	background: #A1A0A0 url('tcScrollBtnDisabledBack.gif') repeat-x;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLiteDisabled_BlackGlass,
+.dxtcLiteDisabled_BlackGlass > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_BlackGlass > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_BlackGlass > .dxtc-content,
+.dxtcLite_BlackGlass > .dxtc-stripContainer .dxtcLiteDisabled_BlackGlass .dxtc-link
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+.dxtcLite_BlackGlass.dxtc-multiRow.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-bottom-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-multiRow.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-bottom-width: 1px!important;
+	padding-bottom: 0px;
+}
+.dxtcLite_BlackGlass.dxtc-multiRow.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab 
+{
+	border-top-width: 0!important;
+	padding-bottom: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-multiRow.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-activeRowItem 
+{
+	border-top-width: 1px!important;
+	padding-bottom: 0px;
+}
+/* bottom  */
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 3px;
+}
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 1px solid #4E4F51;
+	border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-n
+{
+	border-top-width: 0;
+    padding-top: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-content
+{
+	border-top: 1px solid #4E4F51;
+	border-right: 1px solid #4E4F51;
+	border-bottom-color: #4E4F51;
+	border-left: 1px solid #4E4F51;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_BlackGlass.dxtc-bottom > .dxtc-stripContainer .dxtc-sb
+{
+	margin-top: 1px;
+}
+/* left */
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 3px;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 1px solid #4E4F51;
+}
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #4E4F51;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-left > .dxtc-content
+{
+	border-top: 1px solid #4E4F51;
+	border-right: 1px solid #4E4F51;
+	border-bottom: 1px solid #4E4F51;
+	border-left-color: #4E4F51;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 3px;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border: 1px solid #4E4F51;
+}
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BlackGlass.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #4E4F51;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_BlackGlass.dxtc-right > .dxtc-content
+{
+	border-top: 1px solid #4E4F51;
+	border-right-color: #4E4F51;
+	border-bottom: 1px solid #4E4F51;
+	border-left: 1px solid #4E4F51;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_BlackGlass.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #4E4F51!important;
+} 
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_BlackGlass 
+{
+	color: #3e6b96;
+	background-color: white;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtiControl_BlackGlass a
+{
+	color: #3e6b96;
+}
+.dxtiControl_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+.dxtiItem_BlackGlass
+{
+	color: #3e6b96;
+	padding: 0px 0px 4px;
+	white-space: nowrap;
+}
+
+.dxtiGroupHeader_BlackGlass,
+.dxtiGroupHeaderCategorized_BlackGlass
+{
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.dxtiGroupHeader_BlackGlass,
+.dxtiGroupHeaderCategorized_BlackGlass
+{
+	white-space: nowrap;
+	padding: 0px 0px 0px 1px;
+}
+.dxtiGroupHeaderCategorized_BlackGlass
+{
+	border-bottom: 1px Solid #C0C0C0;
+	padding-bottom: 2px;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_BlackGlass
+{
+	border: 1px solid Black;
+	color: #FFFFFF;
+}
+.dxtiGroupHeaderText_BlackGlass
+{
+	color: White;
+	padding: 0px 7px 2px 6px;
+	background: #444444 url('tiItemBack.gif') repeat-x left top;
+}
+.dxtiGroupHeaderTextCategorized_BlackGlass
+{
+	color: White;
+	font-weight: bold;
+	background: #575757 url('tiItemBack.gif') repeat-x left top;
+	padding: 0px 7px 2px 5px;
+}
+.dxtiGroupHeaderTextCategorized_BlackGlass
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_BlackGlass
+{
+    font-size: 0.83em;
+    font-weight: normal;
+	color: #999999;
+	padding-top: 0px;
+	padding-bottom: 4px;
+}
+.dxtiFilterBoxEdit_BlackGlass
+{
+	border: 1px Solid #a0a0a0;
+}
+.dxtiFilterBox_BlackGlass,
+.dxtiFilterBox_BlackGlass table
+{
+	color: #898989;
+	font-weight: bold;
+}
+.dxtiFilterBox_BlackGlass
+{
+	background-color: #E8E8E8;
+	padding: 15px;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_BlackGlass
+{
+	font-size: 1.33em;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-bottom: 2px solid Black;
+}
+.dxtiIndexPanelItem_BlackGlass,
+.dxtiCurrentIndexPanelItem_BlackGlass
+{
+	color: #4688aa;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-decoration: underline;
+}
+.dxtiIndexPanelItem_BlackGlass a
+{
+	color: #4688aa;
+	text-decoration: underline;
+}
+.dxtiIndexPanelItem_BlackGlass a:hover
+{
+	color: #ff9600;
+	text-decoration: underline;
+}
+.dxtiCurrentIndexPanelItem_BlackGlass
+{
+	color: #000000;
+	background-color: #E0E0E0;
+}
+/* - BackToTop - */
+.dxtiBackToTop_BlackGlass,
+.dxtiBackToTop_BlackGlass a
+{
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #468cbc;
+}
+.dxtiBackToTop_BlackGlass,
+.dxtiBackToTopRtl_BlackGlass
+{
+	padding: 0 0 12px;
+}
+/* Disabled */
+.dxtiDisabled_BlackGlass,
+.dxtiDisabled_BlackGlass a
+{
+	color: #9f9f9f;
+	cursor: default!important;
+}
+/* -- ASPxUploadControl -- */
+.dxucControl_BlackGlass,
+.dxucEditArea_BlackGlass,
+input[type="text"].dxucEditArea_BlackGlass /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_BlackGlass,
+input[type="text"].dxucEditArea_BlackGlass /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_BlackGlass /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_BlackGlass .dxucInputs_BlackGlass
+{
+}
+.dxucTextBox_BlackGlass
+{
+	background-color: white;
+	border: 1px solid #9F9F9F;
+	padding: 1px 2px;
+}
+.dxucTextBox_BlackGlass .dxucEditArea_BlackGlass
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_BlackGlass .dxucEditArea_BlackGlass
+{
+    color: #bebebe;
+}
+.dxucErrorCell_BlackGlass
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_BlackGlass,
+.dxucButton_BlackGlass a
+{
+	color: #3E6B96;
+	white-space: nowrap;
+}
+.dxucButton_BlackGlass a:hover
+{
+	color: #FF9600;
+}
+.dxucBrowseButton_BlackGlass,
+.dxucBrowseButton_BlackGlass a
+{
+	color: #FFFFFF;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_BlackGlass .dxucBrowseButton_BlackGlass a
+{
+	color: #FFFFFF;
+}
+.dxucControl_BlackGlass a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_BlackGlass
+{
+	padding: 4px 13px 3px;
+	border: 1px solid #000000;
+	background: #424242 url('ucButtonBack.gif') repeat-x;
+}
+.dxWebKitFamily .dxucBrowseButton_BlackGlass
+{
+	padding: 3px 13px 4px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_BlackGlass
+{
+    padding: 3px 13px 4px;
+}
+.dxucBrowseButton_BlackGlass.dxbf
+{
+    padding: 3px 12px 4px;
+}
+.dxucBrowseButton_BlackGlass.dxbf a
+{
+    border: 1px dotted #C2E4F6;
+}
+.dxucBrowseButtonHover_BlackGlass
+{
+	background: #759DB3 url('ucButtonHoverBack.gif') repeat-x;
+}
+.dxucBrowseButtonPressed_BlackGlass
+{
+	background: #AEAEAE url('ucButtonPressedBack.gif') repeat-x;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_BlackGlass,
+.dxucProgressBar_BlackGlass td
+{
+	color: #FFFFFF;
+}
+.dxucProgressBar_BlackGlass .dxPBMainCell,
+.dxucProgressBar_BlackGlass td
+{
+	padding: 0;
+}
+.dxucProgressBar_BlackGlass
+{
+	border: 1px Solid #000000;
+	background-color: #8A8B8B;
+
+    height: 25px;
+}
+.dxucProgressBarIndicator_BlackGlass
+{
+	background: #464646 url('ucProgressIndicatorBack.gif') repeat-x;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_BlackGlass {
+    font-size: 0.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_BlackGlass td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_BlackGlass a {
+	color: #3E6B96;
+}
+/* Disabled */
+.dxucDisabled_BlackGlass,
+.dxucDisabled_BlackGlass a
+{
+	color: #9F9F9F;
+	cursor: default;
+}
+.dxucTextBoxDisabled_BlackGlass
+{
+	color: #BEBEBE;
+	border-color: #D2D2D2;
+}
+.dxucButtonDisabled_BlackGlass a,
+.dxucButtonDisabled_BlackGlass a:hover
+{
+	color: #9F9F9F;
+	text-decoration: none;
+}
+.dxucControl_BlackGlass .dxucBrowseButtonDisabled_BlackGlass a
+{
+	color: #FFFFFF;
+}
+.dxucBrowseButtonDisabled_BlackGlass
+{
+	border-color: #A5A5A5;
+	background: #A1A1A1 url('ucButtonDisabledBack.gif') repeat-x;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_BlackGlass
+{
+	background-color: White;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_BlackGlass,
+.dxsplVSeparator_BlackGlass,
+.dxsplHSeparator_BlackGlass,
+.dxsplPane_BlackGlass,
+.dxsplPaneCollapsed_BlackGlass,
+.dxsplVSeparator_BlackGlass,
+.dxsplHSeparator_BlackGlass,
+.dxsplVSeparatorCollapsed_BlackGlass,
+.dxsplHSeparatorCollapsed_BlackGlass
+{
+	border: 0px solid #16171B;
+}
+.dxsplPane_BlackGlass,
+.dxsplPaneCollapsed_BlackGlass
+{
+	border-width: 1px;
+	background-color: #C9D7DC;
+}
+.dxsplPaneCollapsed_BlackGlass
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparator_BlackGlass
+{
+	background-image: url('splVSeparatorBackground.png');
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparator_BlackGlass
+{
+	background-image: url('splHSeparatorBackground.png');
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorHover_BlackGlass
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_BlackGlass
+{
+	cursor: n-resize;
+}
+.dxsplVSeparator_BlackGlass,
+.dxsplHSeparator_BlackGlass
+{
+	background-color: #3D3D3D;
+	font-size: 0;
+}
+.dxsplVSeparatorHover_BlackGlass,
+.dxsplVSeparatorButtonHover_BlackGlass
+{
+	background-image: url('splVSeparatorBackgroundHover.png');
+}
+.dxsplHSeparatorHover_BlackGlass,
+.dxsplHSeparatorButtonHover_BlackGlass
+{
+	background-image: url('splHSeparatorBackgroundHover.png');
+}
+.dxsplVSeparatorCollapsed_BlackGlass,
+.dxsplHSeparatorCollapsed_BlackGlass
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_BlackGlass
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_BlackGlass
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_BlackGlass .dxsplVSeparatorButton_BlackGlass,
+.dxsplDisabled_BlackGlass .dxsplHSeparatorButton_BlackGlass
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_BlackGlass,
+.dxsplHSeparatorHover_BlackGlass,
+.dxsplVSeparatorButtonHover_BlackGlass,
+.dxsplHSeparatorButtonHover_BlackGlass
+{
+	background-color: #4E626D;
+}
+.dxsplVSeparator_BlackGlass,
+.dxsplVSeparatorButtonHover_BlackGlass
+{
+	background-repeat: repeat-y;
+	background-position: top left;
+}
+.dxsplHSeparator_BlackGlass,
+.dxsplHSeparatorButtonHover_BlackGlass
+{
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+.dxsplResizingPointer_BlackGlass
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_BlackGlass .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_BlackGlass
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_BlackGlass li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_BlackGlass ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_BlackGlass a {
+	text-decoration: none;
+	color: Black;
+}
+
+.dxtvControl_BlackGlass .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_BlackGlass .dxtv-nd
+{
+	margin-top: 1px;
+	float: left;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_BlackGlass .dxtv-elbNoLn,
+.dxtvControl_BlackGlass .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_BlackGlass .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_BlackGlass .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_BlackGlass .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_BlackGlass .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndChk
+{
+	cursor: default;
+    margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_BlackGlass .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndSel,
+.dxtvControl_BlackGlass .dxtv-ndHov 
+{
+    padding: 2px 4px 3px;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndSel
+{
+	border: 1px solid #719DBE;
+	background-color: #93A7BA;
+	cursor: default;
+}
+
+.dxtvControl_BlackGlass .dxtv-ndHov 
+{
+	border: 1px solid #A4BED1;
+	background-color: #C1CED9;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl,
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-nd, 
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-elb,
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-elb,
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-ndImg 
+{
+	margin: 0 2px 0 4px;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_BlackGlass.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_BlackGlass,
+.dxtvControl_BlackGlass .dxtvDisabled_BlackGlass,
+.dxtvDisabled_BlackGlass a,
+.dxtvDisabled_BlackGlass .dxtv-btn,
+.dxtvDisabled_BlackGlass .dxtv-nd
+{
+	color: #bebebe;
+	cursor: default;
+} 
+/* ASPxFileManager */
+.dxfmControl_BlackGlass,
+.dxfmControl_BlackGlass .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_BlackGlass
+{
+	color: #ACACAC;
+}
+.dxfmControl_BlackGlass .dxsplPane_BlackGlass {
+	background-color: #E8EDF1;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_BlackGlass .dxtvControl_BlackGlass 
+{
+	margin-left: -5px;
+}
+.dxfmControl_BlackGlass .dxtvControl_BlackGlass .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+    padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_BlackGlass div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_BlackGlass.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_BlackGlass .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_BlackGlass div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_BlackGlass div.dxfm-fileSA
+{
+	border: 1px solid #888888;
+}
+.dxfmControl_BlackGlass div.dxfm-fileH,
+.dxfmControl_BlackGlass div.dxfm-fileF
+{
+	border: 1px solid #A4BED1;
+}
+.dxfmControl_BlackGlass div.dxfm-fileSA
+{
+	background-color: #93A7BA;
+}
+.dxfmControl_BlackGlass div.dxfm-fileH,
+.dxfmControl_BlackGlass div.dxfm-fileF
+{
+	background-color: #C1CED9;
+}
+.dxfmControl_BlackGlass td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_BlackGlass .dxfm-file .dxfm-highlight
+{
+	background-color: #CEDAE5;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_BlackGlass  .fileContainer
+{
+    margin: 4px;
+} 
+
+/* FileManager - GridView */
+.dxfmControl_BlackGlass .dxgvTable_BlackGlass  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_BlackGlass .dxgvControl_BlackGlass
+{
+    outline: none;
+}
+.dxfmControl_BlackGlass .dxgvControl_BlackGlass,
+.dxfmControl_BlackGlass .dxgvDataRow_BlackGlass
+{
+    background-color: #E8EDF1;
+}
+.dxfmControl_BlackGlass .dxgvTable_BlackGlass tr.dxfm-fileSA
+{
+    background-color: #D4E2E5;
+}     
+.dxfmControl_BlackGlass .dxgvTable_BlackGlass tr.dxfm-fileSI
+{
+    background-color: #E6E6E6;
+}
+.dxfmControl_BlackGlass .dxfm-fileF.dxgvFocusedRow_BlackGlass
+{
+    background-color: #E0EAEC;
+}
+.dxfmControl_BlackGlass .dxgvTable_BlackGlass tr.dxfm-fileH
+{
+    background-color: #CEDAE5;
+}
+.dxfmControl_BlackGlass tr.dxgvFocusedRow_BlackGlass
+{
+    background-color: #E8EDF1;
+}
+.dxgvHeader_BlackGlass.dxfmGridHeader
+{
+    background: #E8EDF1;
+    border-color: #A4BED1;
+}
+.dxgvHeader_BlackGlass.dxfmGridHeader table
+{
+    color: black;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_BlackGlass
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_BlackGlass .dxfm-toolbar
+{
+	background: #444444 url('mItemBack.gif') repeat-x top left;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxfm-filter
+{
+	color: White;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_BlackGlass.dxfm-rtl .dxfm-toolbar .dxfm-filter
+{
+	text-align: left;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxfm-filter input,
+.dxfmControl_BlackGlass .dxfm-toolbar .dxfm-path input
+{
+    border: 1px solid #9F9F9F;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_BlackGlass .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxmLite_BlackGlass .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxmLite_BlackGlass .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxmLite_BlackGlass .dxfm-path 
+{
+	padding-left: 4px;
+}
+.dxfmControl_BlackGlass .dxfm-toolbar .dxmLite_BlackGlass .dxfm-path input
+{
+	margin: 4px 8px 0px 4px;
+}
+.dxfmControl_BlackGlass.dxfm-rtl .dxfm-toolbar .dxmLite_BlackGlass .dxfm-path input
+{
+	margin: 4px 4px 0px 8px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_BlackGlass .dxfm-breadCrumbs
+{
+	background-color: #CAD6DE;
+}
+.dxfmControl_BlackGlass .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_BlackGlass .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+    border-color: #A4BED1;
+    background-color: #C1CED9;
+}
+.dxfmControl_BlackGlass .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #808080;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_BlackGlass .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_BlackGlass
+{
+    background: #A3E7EB;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_BlackGlass .dxfm-uploadPanel 
+{
+	background: #C9D6DE url('pcItemFooter.gif') repeat-x center top;
+	text-align: right;
+}
+.dxfmControl_BlackGlass.dxfm-rtl .dxfm-uploadPanel 
+{
+	text-align: left;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_BlackGlass 
+{
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.dxfmControl_BlackGlass.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_BlackGlass 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 7px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #3E6B96;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover 
+{
+	color: #FF9600;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+
+.dxfmControl_BlackGlass .dxfm-uploadPanel.dxsplPane_BlackGlass .dxucTextBox_BlackGlass 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel.dxsplPane_BlackGlass .dxucBrowseButton_BlackGlass 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel.dxsplPane_BlackGlass .dxucBrowseButton_BlackGlass.dxbf
+{
+    padding: 2px 7px 3px;
+}
+.dxfmControl_BlackGlass .dxfm-uploadPanel.dxsplPane_BlackGlass .dxucSilverlightPluginLinkPanel_BlackGlass 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_BlackGlass .dxsplControl_BlackGlass
+{
+	border-width: 1px;
+	border-color: Black;
+}
+.dxfmControl_BlackGlass .dxsplPane_BlackGlass
+{
+	border-width: 0px;
+}
+.dxfmControl_BlackGlass .dxsplLCC 
+{
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_BlackGlass.dxfm-dst .dxsplVSeparator_BlackGlass
+{
+	width: 3px;
+	background: #E8EDF1 url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_BlackGlass.dxfm-dst.dxfm-rtl .dxsplVSeparator_BlackGlass
+{
+	background-position-x: left;
+}
+.dxfmControl_BlackGlass.dxfm-tch .dxsplVSeparator_BlackGlass
+{
+	border-width: 0 1px;
+	border-color: #B5C5CE;
+}
+.dxfmControl_BlackGlass .dxsplHSeparator_BlackGlass
+{
+	border-width: 0px;
+	background: #B5C5CE none;
+}
+.dxfmControl_BlackGlass  .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_BlackGlass .dxfm-cInput,
+.dxfmControl_BlackGlass .dxfm-rInput
+{
+	border: 1px solid #9F9F9F;
+}
+
+/* FileManager - item mask */
+.dxfmControl_BlackGlass .dxfm-itemMask
+{
+	background-color: #93A7BA;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_BlackGlass .dxpc-content 
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_BlackGlass .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_BlackGlass .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #B5C5CE;
+	text-align: right;
+	padding: 10px 15px 10px 10px;
+	background: #C9D6DE url('pcItemFooter.gif') repeat-x center top;
+}
+.dxfmControl_BlackGlass .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_BlackGlass
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_BlackGlass .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_BlackGlass .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_BlackGlass > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_BlackGlass .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_BlackGlass .dxis-slidePanel,
+.dxisControl_BlackGlass .dxis-nbSlidePanel,
+.dxisControl_BlackGlass .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_BlackGlass .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_BlackGlass .dxis-nbTop,
+.dxisControl_BlackGlass .dxis-nbBottom,
+.dxisControl_BlackGlass .dxis-nbLeft,
+.dxisControl_BlackGlass .dxis-nbRight,
+.dxisControl_BlackGlass .dxis-nbDotsBottom,
+.dxisControl_BlackGlass .dxis-nbDotsTop,
+.dxisControl_BlackGlass .dxis-nbDotsLeft,
+.dxisControl_BlackGlass .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_BlackGlass .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_BlackGlass .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_BlackGlass .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_BlackGlass .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_BlackGlass .dxis-nbDotsBottom,
+.dxisControl_BlackGlass .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_BlackGlass .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_BlackGlass .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_BlackGlass .dxis-nbLeft,
+.dxisControl_BlackGlass .dxis-nbRight,
+.dxisControl_BlackGlass .dxis-nbDotsLeft,
+.dxisControl_BlackGlass .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_BlackGlass .dxis-item,
+.dxisControl_BlackGlass .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_BlackGlass .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_BlackGlass .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_BlackGlass .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_BlackGlass .dxis-item,
+.dxisControl_BlackGlass .dxis-nbItem,
+.dxisControl_BlackGlass .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_BlackGlass .dxis-nbItem,
+.dxisControl_BlackGlass .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_BlackGlass .dxis-nbDotItemSelected,
+.dxisControl_BlackGlass .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_BlackGlass .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_BlackGlass .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_BlackGlass .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_BlackGlass .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_BlackGlass .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_BlackGlass .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_BlackGlass .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_BlackGlass .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_BlackGlass > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_BlackGlass > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_BlackGlass > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BlackGlass > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_BlackGlass > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_BlackGlass .dxis-prevPageBtnHor,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-nextPageBtnHor,
+.dxisControl_BlackGlass .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_BlackGlass .dxis-prevPageBtnVert,
+.dxisControl_BlackGlass .dxis-prevPageBtnVertOutside,
+.dxisControl_BlackGlass .dxis-nextPageBtnVert,
+.dxisControl_BlackGlass .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_BlackGlass .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_BlackGlass .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_BlackGlass .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_BlackGlass .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_BlackGlass .dxis-prevBtnVertPressed,
+.dxisControl_BlackGlass .dxis-nextBtnVertPressed,
+.dxisControl_BlackGlass .dxis-nextBtnHorPressed,
+.dxisControl_BlackGlass .dxis-prevBtnHorPressed,
+.dxisControl_BlackGlass .dxis-prevPageBtnVertPressed,
+.dxisControl_BlackGlass .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_BlackGlass .dxis-nextPageBtnVertPressed,
+.dxisControl_BlackGlass .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorPressed,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_BlackGlass .dxis-nextPageBtnHorPressed,
+.dxisControl_BlackGlass .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_BlackGlass .dxis-prevBtnVertDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnVertDisabled,
+.dxisControl_BlackGlass .dxis-nextBtnHorDisabled,
+.dxisControl_BlackGlass .dxis-prevBtnHorDisabled,
+.dxisControl_BlackGlass .dxis-prevPageBtnVertDisabled,
+.dxisControl_BlackGlass .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_BlackGlass .dxis-nextPageBtnVertDisabled,
+.dxisControl_BlackGlass .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorDisabled,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_BlackGlass .dxis-nextPageBtnHorDisabled,
+.dxisControl_BlackGlass .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_BlackGlass .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BlackGlass .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BlackGlass .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_BlackGlass .dxis-nextPageBtnHorOutside,
+.dxisControl_BlackGlass .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_BlackGlass
+{
+	background-color: #E8EDF1;
+	border: 1px solid Black;
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+}
+.dxigControl_BlackGlass td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_BlackGlass
+{
+    padding: 6px;
+	border-bottom: 1px solid #A4BED1;
+	border-top: 1px solid #A4BED1;
+}
+.dxigEmptyData_BlackGlass
+{
+	color: Gray;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_BlackGlass
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_BlackGlass
+{
+    float: left;
+}
+.dxigItem_BlackGlass
+{
+    background-color: #E8EDF1;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_BlackGlass a
+{
+    outline: 0;
+}
+.dxigItem_BlackGlass a > img
+{
+    display: block;
+}
+.dxigPagerPanel_BlackGlass
+{
+	color: #2A769D;
+	background-color: #C9D7DC;
+	padding: 0px;
+}
+.dxigItem_BlackGlass .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_BlackGlass .dxig-thumbnailWrapper,
+.dxigFlowItem_BlackGlass
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.dxigControl_BlackGlass .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_BlackGlass .dxpcLite_BlackGlass .dxpc-mainDiv,
+.dxigControl_BlackGlass .dxpcLite_BlackGlass .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_BlackGlass .dxpcLite_BlackGlass .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_BlackGlass .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_BlackGlass.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_BlackGlass .dxig-imageSliderWrapper .dxisControl .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_BlackGlass .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxisControl_BlackGlass
+{
+    position: relative;
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_BlackGlass .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_BlackGlass .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_BlackGlass .dxig-prevButtonArea,
+.dxigControl_BlackGlass .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_BlackGlass .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_BlackGlass .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_BlackGlass .dxig-prevButton,
+.dxigControl_BlackGlass .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_BlackGlass .dxig-prevButtonDisabled,
+.dxigControl_BlackGlass .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_BlackGlass .dxig-closeButtonWrapper,
+.dxigControl_BlackGlass .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_BlackGlass .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_BlackGlass .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_BlackGlass .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_BlackGlass .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_BlackGlass .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbSelectedItem > div,
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_BlackGlass .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_BlackGlass .dxisControl_BlackGlass .dxis-nbBottom,
+.dxigControl_BlackGlass .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigPagerShowMoreItemsContainer_BlackGlass
+{
+    height: 58px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_BlackGlass a
+{
+	display: block;
+	padding-top: 20px;
+	color: #3e6b96;
+}
+.dxigPagerShowMoreItemsContainer_BlackGlass a:hover
+{
+	color: #ff9600;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_BlackGlass,
+.dxnbGroupHeader_BlackGlass,
+.dxnbGroupHeaderCollapsed_BlackGlass,
+.dxnbGroupContent_BlackGlass > TABLE > TBODY > TR,
+.dxtcTab_BlackGlass,
+.dxtcActiveTab_BlackGlass,
+.dxtv-nd_BlackGlass
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_BlackGlass {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+    color: #303030;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 3px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_BlackGlass { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_BlackGlass,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_BlackGlass,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_BlackGlass {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflItemSys.dxflEditFormItemSys .dxflNestedControlCell_BlackGlass {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 2px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 9px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 10px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 3px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 6px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 4px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_BlackGlass { padding-top: 3px; }
+
+.dxflCLTSys .dxflCaptionCell_BlackGlass,
+.dxflCLBSys .dxflCaptionCell_BlackGlass {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_BlackGlass,
+*[dir="rtl"].dxflFormLayout_BlackGlass .dxflCLRSys .dxflCaptionCell_BlackGlass {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_BlackGlass,
+*[dir="rtl"].dxflFormLayout_BlackGlass .dxflCLLSys .dxflCaptionCell_BlackGlass {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_BlackGlass {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_BlackGlass {
+    line-height: 16px;
+}
+.dxflCaptionCell_BlackGlass {
+    width: 1%;
+}
+td.dxflNestedControlCell_BlackGlass {
+    height: 0;
+}
+
+.dxflEmptyItem_BlackGlass {
+    height: 21px;
+}
+
+.dxflItem_BlackGlass { width: 100%; }
+.dxflItem_BlackGlass,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_BlackGlass {
+     padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_BlackGlass {
+     padding-bottom: 4px;
+}
+.dxflItem_BlackGlass > table.dxflItemTable_BlackGlass { width: 100%; }
+.dxflGroup_BlackGlass { padding: 6px 5px; width: 100%;}
+.dxflGroup_BlackGlass > table.dxflGroupTable_BlackGlass { width: 100%; }
+.dxflGroupCell_BlackGlass { padding: 0 8px; }
+
+.dxflGroupBox_BlackGlass {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #9F9F9F;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_BlackGlass.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_BlackGlass.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_BlackGlass {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_BlackGlass > .dxtcControl_BlackGlass { margin: 0px; }
+
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass tr:first-child > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass,
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass > .dxflChildInFirstRowSys > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass tr:first-child > .dxflGroupCell_BlackGlass > .dxtcControl_BlackGlass,
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass > .dxflChildInFirstRowSys > .dxflGroupCell_BlackGlass > .dxtcControl_BlackGlass {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass tr:last-child > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass,
+.dxflGroupBox_BlackGlass > .dxflGroup_BlackGlass > .dxflChildInLastRowSys > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_BlackGlass tr:first-child > .dxflGroupCell_BlackGlass > .dxflGroupBox_BlackGlass,
+.dxflGroup_BlackGlass > .dxflChildInFirstRowSys > .dxflGroupCell_BlackGlass > .dxflGroupBox_BlackGlass {
+    margin-top: 13px;
+}
+
+.dxflGroup_BlackGlass tr:last-child > .dxflGroupCell_BlackGlass > .dxflGroupBox_BlackGlass,
+.dxflGroup_BlackGlass > .dxflChildInLastRowSys > .dxflGroupCell_BlackGlass > .dxflGroupBox_BlackGlass {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_BlackGlass > div > .dxflGroup_BlackGlass { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_BlackGlass > div > .dxflGroup_BlackGlass tr:first-child > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass,
+.dxtcPageContent_BlackGlass > div > .dxflGroup_BlackGlass > .dxflChildInFirstRowSys > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_BlackGlass > div > .dxflGroup_BlackGlass tr:last-child > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass,
+.dxtcPageContent_BlackGlass > div > .dxflGroup_BlackGlass > .dxflChildInLastRowSys > .dxflGroupCell_BlackGlass > .dxflItem_BlackGlass {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_BlackGlass {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_BlackGlass .dxflGroupBoxCaption_BlackGlass {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_BlackGlass > div.dxflGroup_BlackGlass:first-child,
+.dxflGroupBox_BlackGlass > table.dxflGroup_BlackGlass:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_BlackGlass {
+    top: -19px;
+}
+
+.dxflOptional_BlackGlass {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_BlackGlass {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_BlackGlass {
+    width: 100%;
+}
+.dxflHelpText_BlackGlass {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_BlackGlass.dxflLHelpTextSys,
+.dxflHelpText_BlackGlass.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_BlackGlass.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_BlackGlass.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+.dxflFormLayout_BlackGlass .dxflCommandItemSys a {
+    color: #3e6b96;
+}
+.dxflFormLayout_BlackGlass .dxflCommandItemSys a:hover {
+    color: #FF9600;
+}
+
+/* Ribbon */
+.dxrControl_BlackGlass {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_BlackGlass .dxr-tabContent {
+    border: 1px solid #4e4f51;
+    border-top-width: 0px;
+    height: 95px;
+    background: #e8edf1;
+}
+.dxrControl_BlackGlass.dxr-oneLineMode .dxr-tabContent {
+    height: 30px;
+}
+.dxrControl_BlackGlass.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_BlackGlass.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_BlackGlass, 
+.dxrControl_BlackGlass a {
+    color: #000000;
+}
+
+.dxrControl_BlackGlass .dxr-itemDisabled.dxr-item,
+.dxrControl_BlackGlass .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_BlackGlass .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_BlackGlass .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_BlackGlass .dxr-minBtn.dxr-minBtnDisabled, 
+.dxrControl_BlackGlass .dxr-itemDisabled a,
+.dxrControl_BlackGlass .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #BEBEBE;
+}
+
+/* Ribbon Popup */
+.dxrControl_BlackGlass .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_BlackGlass .dxr-minPopup.dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_BlackGlass .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #4E4F51;
+}
+
+/* Ribbon Group List */
+.dxrControl_BlackGlass .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_BlackGlass .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_BlackGlass .dxr-groupList .dxr-groupSep b {
+    display: block;
+    margin: 7px 0;
+    width: 1px;
+    height: 81px;
+    background: #4e4f51;
+}
+
+.dxrControl_BlackGlass.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 16px;
+}
+
+.dxrControl_BlackGlass.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 67px;
+}
+
+/* Ribbon Groups */
+.dxrControl_BlackGlass .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_BlackGlass .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_BlackGlass.dxr-oneLineMode .dxr-groupContent {
+    height: 30px;
+}
+.dxrControl_BlackGlass .dxr-groupLabel {
+    text-align: center;
+    color: #000000;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_BlackGlass .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 2px -3px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_BlackGlass .dxr-grExpBtn,
+.dxrControl_BlackGlass .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_BlackGlass .dxr-grExpBtn {
+    height: 87px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_BlackGlass .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_BlackGlass .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_BlackGlass .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_BlackGlass .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-itemSep,
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #4e4f51;
+    width: 1px;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_BlackGlass .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item,
+.dxrControl_BlackGlass .dxr-blSepItems .dxr-item,
+.dxrControl_BlackGlass.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item {
+    overflow: hidden;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item {
+    margin: 0 3px 0 3px;
+}
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_BlackGlass .dxr-grExpBtn .dxr-lblContent  {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_BlackGlass .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_BlackGlass .dxr-grExpBtn .dxr-popOut {
+    margin: -1px 3px 1px;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+
+.dxSafari .dxrControl_BlackGlass .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-popOut
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label {
+    border-top: 1px solid #a4bed1;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #719DBE;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #a4bed1;
+}
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #719DBE;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_BlackGlass .dxr-item.dxr-edtItem {
+    border: 0;
+    height: 23px;
+    padding: 1px 0;
+}
+.dxrControl_BlackGlass .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_BlackGlass .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_BlackGlass .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_BlackGlass .dxr-buttonItem.dxr-itemChecked {
+    background: #93a7ba;
+}
+.dxrControl_BlackGlass .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_BlackGlass .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #93a7ba;
+}
+.dxrControl_BlackGlass .dxr-buttonItem.dxr-itemHover,
+.dxrControl_BlackGlass .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_BlackGlass .dxr-olmGrExpBtn.dxr-itemHover {
+    border-color: #a4bed1;
+    background: #c1ced9;
+}
+.dxrControl_BlackGlass .dxr-img32,
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_BlackGlass .dxr-img16,
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_BlackGlass .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_BlackGlass .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_BlackGlass .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_BlackGlass .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_BlackGlass .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_BlackGlass .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_BlackGlass .dxeColorTable_BlackGlass {
+    border: none;
+}
+
+.dxrControl_BlackGlass .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_BlackGlass .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+
+/* Ribbon TabControl */
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-leftIndent, 
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-spacer, 
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-rightIndent, 
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-sbIndent, 
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-sbSpacer
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #4e4f51;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab .dxtc-link {
+    color: #000000;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxr-fileTab .dxtc-link {
+    color: #FFFFFF;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtcLiteDisabled_BlackGlass .dxtc-link {
+    color: #BEBEBE;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #f3f6f8;
+    border-color: #4e4f51;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-activeTab {
+    border-color: #4e4f51;
+    border-top-width: 1px;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxr-fileTab {
+    background: #474747 url('rFileTabBack.png') repeat-x;
+    border-color: #4e4f51;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #3f677f url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #878787 url('rFileTabPressedBack.png') repeat-x;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_BlackGlass .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #4E4F51;
+    background-color: white;
+}
+
+.dxrControl_BlackGlass .dxr-glrBarContainer
+{
+    margin-right: 16px;
+    height: 71px;
+}
+
+.dxrControl_BlackGlass .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_BlackGlass .dxr-glrItem.dxr-itemHover,
+.dxrControl_BlackGlass .dxr-glrBtnHover
+{
+    background-color: #C1CED9;
+    border-color: #A4BED1;
+}
+
+.dxrControl_BlackGlass .dxr-glrItem.dxr-itemChecked
+{
+    background-color: #93A7BA;
+    border-color: #719DBE;
+}
+
+.dxrControl_BlackGlass .dxr-glrItem.dxr-itemPressed,
+.dxrControl_BlackGlass .dxr-glrBtnPressed
+{
+    background: #93a7ba;
+}
+
+.dxrControl_BlackGlass .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_BlackGlass .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_BlackGlass .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_BlackGlass .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_BlackGlass .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_BlackGlass .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_BlackGlass .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_BlackGlass .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_BlackGlass .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_BlackGlass .dxr-glrGroup
+{
+    background: #C9D6DE url('pcItemFooter.gif') repeat-x center top;
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+}
+
+.dxrControl_BlackGlass .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_BlackGlass .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_BlackGlass .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_BlackGlass .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 24px;
+    border-left: 1px solid #4E4F51;
+    border-bottom: 1px solid #4E4F51;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0px;
+}
+
+.dxrControl_BlackGlass .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_BlackGlass .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_BlackGlass .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 2px 0;
+    display: block;
+}
+.dxrControl_BlackGlass .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_BlackGlass .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_BlackGlass {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_BlackGlass .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_BlackGlass .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_BlackGlass .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_BlackGlass .dxiz-wrapper > img,
+.dxizControl_BlackGlass .dxiz-clipPanel > img,
+.dxizControl_BlackGlass .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_BlackGlass .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_BlackGlass .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_BlackGlass .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_BlackGlass .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-lens .dxiz-llp,
+.dxizControl_BlackGlass .dxiz-lens .dxiz-lrp,
+.dxizControl_BlackGlass .dxiz-lens .dxiz-ltp,
+.dxizControl_BlackGlass .dxiz-lens .dxiz-lbp,
+.dxizControl_BlackGlass .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_BlackGlass .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_BlackGlass .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_BlackGlass .dxiz-lens.outside .dxiz-llp,
+.dxizControl_BlackGlass .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_BlackGlass .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_BlackGlass .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_BlackGlass .dxizLoadingPanel_BlackGlass {
+    position: absolute;
+}
+
+.dxisControl_BlackGlass.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_BlackGlass
+{
+    background-color: #E8EDF1;
+    padding-bottom: 2px;
+    border: 1px solid #4E4F51;
+}
+.dxitcControl_BlackGlass > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_BlackGlass .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #a4bed1;
+    background-color: white;
+}
+.dxitcControl_BlackGlass .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #4E4F51;
+}
+.dxitcCaption_BlackGlass
+{
+    background-color: #E8EDF1;
+    padding: 2px;
+    border: 1px solid #a4bed1;
+    margin: 2px 2px 0px 2px;
+}

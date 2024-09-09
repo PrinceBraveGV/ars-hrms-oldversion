@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_iOS,
+.dxXtraReports_BtnFirstPageDisabled_iOS,
+.dxXtraReports_BtnLastPage_iOS,
+.dxXtraReports_BtnLastPageDisabled_iOS,
+.dxXtraReports_BtnNextPage_iOS,
+.dxXtraReports_BtnNextPageDisabled_iOS,
+.dxXtraReports_BtnPrevPage_iOS,
+.dxXtraReports_BtnPrevPageDisabled_iOS,
+.dxXtraReports_BtnPrint_iOS,
+.dxXtraReports_BtnPrintDisabled_iOS,
+.dxXtraReports_BtnPrintPage_iOS,
+.dxXtraReports_BtnPrintPageDisabled_iOS,
+.dxXtraReports_BtnSave_iOS,
+.dxXtraReports_BtnSaveDisabled_iOS,
+.dxXtraReports_BtnSaveWindow_iOS,
+.dxXtraReports_BtnSaveWindowDisabled_iOS,
+.dxXtraReports_BtnSearch_iOS,
+.dxXtraReports_BtnSearchDisabled_iOS,
+.dxXtraReports_PageBorder_blc_iOS,
+.dxXtraReports_PageBorder_brc_iOS,
+.dxXtraReports_PageBorder_tlc_iOS,
+.dxXtraReports_PageBorder_trc_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_iOS
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_iOS
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_iOS
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_iOS
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_iOS
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_iOS
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_iOS
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_iOS
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_iOS
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_iOS
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_iOS
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_iOS
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_iOS
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_iOS
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_iOS
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_iOS
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_iOS
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_iOS
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_iOS
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_iOS
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_iOS
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_iOS
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_iOS,
+.dxXtraReports_PageBorder_l_iOS,
+.dxXtraReports_PageBorder_r_iOS,
+.dxXtraReports_PageBorder_b_iOS {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_iOS {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_iOS {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_iOS {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_iOS {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

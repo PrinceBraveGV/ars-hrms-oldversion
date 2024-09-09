@@ -1,0 +1,4986 @@
+/* -- CheckBox -- */
+.dxICBFocused_PlasticBlue 
+{
+    outline: 1px dotted #8497d2;
+}
+.dxICheckBox_PlasticBlue 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: #91ACE0;
+	background-color: transparent;
+}
+.dxccControl_PlasticBlue a
+{
+	text-decoration: none!important;
+	color: #91ACE0;
+}
+.dxccControl_PlasticBlue a:hover
+{
+	text-decoration: underline!important;
+} 
+.dxccControl_PlasticBlue .dxccValue
+{
+    color: #A0A0A0;
+}
+.dxccControl_PlasticBlue .dxccBEText
+{
+    color: #A0A0A0;
+}
+/* Disabled */
+.dxccDisabled_PlasticBlue,
+.dxccDisabled_PlasticBlue span.dxccValue,
+.dxccDisabled_PlasticBlue span.dxccBEText
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #98a3c4;
+	background-color: transparent;
+}
+.dxdvControl_PlasticBlue td.dxdvCtrl
+{
+	padding: 3px;
+}
+.dxdvContent_PlasticBlue
+{
+}
+.dxdvItem_PlasticBlue,
+.dxdvFlowItem_PlasticBlue
+{
+	background-color: #E9E9E9;
+	border: 1px Solid #CCCCCC;
+	padding: 12px 12px 12px 14px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_PlasticBlue
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_PlasticBlue
+{
+}
+.dxdvEmptyItem_PlasticBlue
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_PlasticBlue
+{
+	padding: 2px 10px;
+	border: 1px Solid #2C4182;
+	background: #3F5496 url('dvPagerBack.gif') repeat-x top;
+}
+.dxdvPagerPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table
+{
+    margin: -2px 0px;
+}
+.dxdvPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-num,
+.dxdvPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-summary,
+.dxdvPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-pageSizeItem
+{
+	color: white;
+}
+.dxdvPagerPanel_PlasticBlue .dxm-popupMain .dxm-item .dx-vam,
+.dxdvPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-comboBox input
+{
+	color: black;
+}
+.dxdvPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-pageSizeItem
+{
+	margin: -2px 0 -2px 4px;
+}
+.dxdvEmptyData_PlasticBlue
+{
+	color: #848484;
+	padding: 9px 37px;
+}
+.dxdvPagerShowMoreItemsContainer_PlasticBlue
+{
+    height: 48px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_PlasticBlue a
+{
+	display: block;
+	padding-top: 15px;
+	color: #5A83D0;
+}
+.dxdvPagerShowMoreItemsContainer_PlasticBlue a:hover
+{
+	color: #2443AA;
+}
+/* Disabled */
+.dxdvDisabled_PlasticBlue
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	padding: 0px;
+}
+.dxhlControl_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxhlContent_PlasticBlue
+{
+	color: #575757;
+	line-height: 121%;
+}
+.dxhlTail_PlasticBlue
+{
+	text-decoration: none;
+}
+.dxhlDateHeader_PlasticBlue
+{
+	background-color: #5066AC;
+	color: #FFFFFF;
+	padding: 4px 6px 5px 7px;
+}
+.dxhlDate_PlasticBlue
+{
+	background-color: #5066AC;
+	color: #FFFFFF;
+	padding: 4px 6px 5px 7px;
+	white-space: nowrap;
+}
+.dxhlHeader_PlasticBlue
+{
+	font-size: 1.17em;
+	text-decoration: none;
+	color: #5A83D0;
+	line-height: 141%;
+}
+.dxhlLeftPanel_PlasticBlue,
+.dxhlRightPanel_PlasticBlue
+{
+	color: #575757;
+}
+.dxhlDateLeftPanel_PlasticBlue,
+.dxhlDateRightPanel_PlasticBlue
+{
+    padding: 3px 0;
+	white-space: nowrap;
+}
+.dxhlContent_PlasticBlue a.dxhl
+{
+	color: #5A83D0;
+	text-decoration: none;
+} 
+.dxhlContent_PlasticBlue a.dxhl:hover
+{
+	text-decoration: none;
+}
+.dxhlContent_PlasticBlue a.dxhl:visited
+{
+	color: #98A3C4;
+}
+/* Disabled */
+.dxhlDisabled_PlasticBlue
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_PlasticBlue,
+.dxlpLoadingPanelWithContent_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxlpLoadingPanel_PlasticBlue td.dx,
+.dxlpLoadingPanelWithContent_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxlpLoadingPanel_PlasticBlue .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_PlasticBlue .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+.dxlpControl_PlasticBlue.dxlpLoadingDiv_PlasticBlue
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxmLite_PlasticBlue .dxm-horizontal
+{
+	border: 1px solid #2C4182;
+	background: #3E5496 url('mItemBack.gif') repeat-x left top;
+	padding: 0px;
+}
+.dxmLite_PlasticBlue .dxm-vertical,
+.dxmLite_PlasticBlue .dxm-popup
+{
+	border: 1px solid #CCCCCC;
+	background-color: #CCCCCC;
+	padding: 0px;
+}
+
+.dxmLite_PlasticBlue .dxm-vertical
+{
+	width: 150px;
+}
+
+.dxmBrdCor_PlasticBlue
+{
+	background-color: #CCCCCC;
+}
+
+.dxmLite_PlasticBlue .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_PlasticBlue .dxm-image-t .dxm-item,
+.dxmLite_PlasticBlue .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_PlasticBlue .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_PlasticBlue .dxm-horizontal,
+.dxmLite_PlasticBlue .dxm-horizontal .dxeCaption_PlasticBlue,
+.dxmLite_PlasticBlue .dxm-horizontal .dxeRequiredMark_PlasticBlue,
+.dxmLite_PlasticBlue .dxm-horizontal .dxeOptionalMark_PlasticBlue,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-item a.dx
+{
+	color: White;
+}
+.dxmLite_PlasticBlue .dxm-vertical,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-item a.dx,
+.dxmLite_PlasticBlue .dxm-popup,
+.dxmLite_PlasticBlue .dxm-popup .dxm-item a.dx
+{
+	color: Black;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-disabled,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-disabled a.dx,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-disabled,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-disabled a.dx,
+.dxmLite_PlasticBlue .dxm-popup .dxm-disabled,
+.dxmLite_PlasticBlue .dxm-popup .dxm-disabled a.dx
+{
+	color: #787878;
+}
+.dxmLite_PlasticBlue .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+.dxmLite_PlasticBlue .dxm-vertical .dxm-item,
+.dxmLite_PlasticBlue .dxm-popup .dxm-item
+{
+	background-color: #F5F5F5;
+}
+
+.dxmLite_PlasticBlue .dxm-vertical .dxm-item,
+.dxmLite_PlasticBlue .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-item,
+.dxmLite_PlasticBlue .dxm-popup .dxm-item,
+.dxmLite_PlasticBlue .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_PlasticBlue .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #dedede;
+    outline: 1px solid #888888;
+    background-color: #dedede;
+}
+.dxmLite_PlasticBlue .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_PlasticBlue
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-selected,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-selected a.dx,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-checked,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-checked a.dx
+{
+	color: White;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #2C4182;
+}
+
+.dxmLite_PlasticBlue .dxm-vertical .dxm-item,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-popup .dxm-item,
+.dxmLite_PlasticBlue .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	border-color: White;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-checked,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-selected
+{
+	background: #273A79 url('mItemSBack.gif') repeat-x left top;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-hovered
+{
+	background: #E9E9E9 url('mItemHBack.gif') repeat-x left top;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-checked,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-selected,
+.dxmLite_PlasticBlue .dxm-popup .dxm-selected
+{
+	background-color: #DEDEDE;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-checked,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-checked.dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-selected,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-selected.dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-popup .dxm-selected,
+.dxmLite_PlasticBlue .dxm-popup .dxm-selected.dxm-dropDownMode .dxm-popOut
+{
+	border-color: #DEDEDE;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-hovered,
+.dxmLite_PlasticBlue .dxm-popup .dxm-hovered
+{
+	background-color: #E9E9E9;
+	border-right-color: #E9E9E9;
+	border-bottom-color: #E9E9E9;
+}
+
+/* Content */
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 16px 5px 18px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 18px 5px 16px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-left: 9px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 9px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-right: 13px;
+	padding-left: 3px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content
+{
+	padding-left: 13px;
+	padding-right: 3px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content
+{
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content
+{
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 16px 5px 18px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 18px 5px 16px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 16px 6px 18px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 18px 6px 16px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 3px 19px 3px 8px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 3px 8px 3px 19px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 5px;
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-left: 5px;
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 12px 6px 11px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 11px 6px 12px;
+}
+
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 8px 3px 10px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 10px 3px 8px;
+}
+.dxmLite_PlasticBlue .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_PlasticBlue .dxm-popup .dxm-subMenu .dxm-content
+{
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 16px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 16px;
+}
+
+/* Image */
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 4px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 4px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 7px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 7px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 9px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 9px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 8px -1px -1px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px -1px -1px 8px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_PlasticBlue
+{
+    margin: 0px 10px 0px 1px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_PlasticBlue
+{
+	margin: 0px 1px 0px 10px;
+}
+
+/* Image replacement */
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage
+{
+	padding-left: 4px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage
+{
+	padding-right: 4px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 23px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 23px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 3px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 25px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 25px;
+}
+
+/* PopOut */
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 6px;
+	padding-bottom: 7px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 16px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 16px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-noImage .dxm-popOut
+{
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-noImage .dxm-popOut
+{
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 12px;
+	padding-right: 13px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 12px;
+	padding-left: 13px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 11px;
+	padding-right: 14px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 11px;
+	padding-left: 14px;
+}
+
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-popup .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 6px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_PlasticBlue .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 28px;
+	padding-bottom: 27px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxm-vertical .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-popOut
+{
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-vertical .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+/* PopOut replacement */
+.dxmLite_PlasticBlue.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 20px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 20px;
+}
+
+/* Spacings, Separator */
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-spacing
+{
+	width: 0px;
+	height: 1px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-spacing,
+.dxmLite_PlasticBlue .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-separator b
+{
+	width: 2px;
+}
+.dxmLite_PlasticBlue .dxm-vertical .dxm-separator b,
+.dxmLite_PlasticBlue .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-separator b
+{
+	background: transparent url('mSeparatorHor.gif') repeat-y left top;
+}
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-spacing,
+.dxmLite_PlasticBlue .dxm-horizontal .dxm-separator b
+{
+	height: 100%;
+}
+/* Scroll elements */
+.dxmLite_PlasticBlue .dxm-scrollUpBtn, 
+.dxmLite_PlasticBlue .dxm-scrollDownBtn
+{
+    border: 0 solid;
+	border-left: 1px solid White;
+	background: #f5f5f5 url('mScrollBack.gif') repeat-x left top;
+	padding: 3px 0 2px;
+	text-align: center;
+}
+.dxmLite_PlasticBlue .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_PlasticBlue .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_PlasticBlue .dxm-scrollBtnHovered
+{
+	background: #E9E9E9 url('mScrollHBack.gif') repeat-x left top;
+}
+.dxmLite_PlasticBlue .dxm-scrollBtnPressed
+{
+	background: #dedede none;
+	border-left-color: #dedede;
+}
+.dxmLite_PlasticBlue .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_PlasticBlue .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+/* has image */
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+
+/* no image */
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+
+/* dd has image */
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+
+/* dd no image*/
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 6px 8px 5px;
+}
+
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-popOut 
+{
+	padding: 8px 6px 9px 5px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut 
+{
+	padding: 8px 7px 9px 4px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-popup .dxm-image 
+{
+	margin-right: 3px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-popup .dxm-image 
+{
+	margin-left: 3px;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 19px;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 19px;
+}
+
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage,
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage 
+{
+	padding-left: 0;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage 
+{
+	padding-right: 0;
+}
+.dxmLite_PlasticBlue.dxm-ltr .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-left-color: #2C4182;
+}
+.dxmLite_PlasticBlue.dxm-rtl .dxmtb.dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-right-color: #2C4182;
+}
+.dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-separator b 
+{
+	width: 2px;
+	height: 100%;
+}
+.dxmLite_PlasticBlue .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem 
+{
+    padding: 2px 4px 1px;
+}
+.dxmLite_PlasticBlue .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 8px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_PlasticBlue,
+.menuLinks_PlasticBlue .dxm-item,
+.menuLinks_PlasticBlue .dxm-hovered,
+.menuLinks_PlasticBlue .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+.menuLinks_PlasticBlue .dxm-tmpl
+{
+    padding-top:1px!important;
+}
+.menuLinks_PlasticBlue .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_PlasticBlue .dxm-item a.dx > span
+{
+    color: #5A83D0;
+    text-decoration: underline;
+}
+
+.menuLinks_PlasticBlue .dxm-hovered a.dx > span
+{
+    color: #2443AA !important;
+    text-decoration: underline !important;
+}
+
+.menuButtons_PlasticBlue,
+.menuButtons_PlasticBlue a.dx,
+.menuButtons_PlasticBlue .dxm-tmpl
+{
+    color: #000000 !important;
+    background: none !important;
+}
+
+.menuButtons_PlasticBlue .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_PlasticBlue .dxm-content
+{
+    padding: 3px 8px 1px 8px !important;
+    height:16px!important;
+}
+
+.menuButtons_PlasticBlue .dxm-item
+{
+    border: 1px solid #B8B8B8;
+    background: #e5e5e5 url('../Editors/edtButtonBack.gif') left top;
+}
+
+.menuButtons_PlasticBlue .dxm-item.dxm-hovered
+{
+    background: #F2F2F2 url('../Editors/edtButtonBackHover.gif') left top;
+}
+
+.menuButtons_PlasticBlue .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_PlasticBlue .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_PlasticBlue 
+{
+	color: White;
+	background-color: #FFFFFF;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_PlasticBlue a
+{
+	color: black;
+	text-decoration: none;
+}
+.dxnbLite_PlasticBlue .dxnb-gr 
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_PlasticBlue .dxnb-header,
+.dxnbLite_PlasticBlue .dxnb-headerCollapsed 
+{
+	background: #3F5396 url('nbHeaderBack.gif') repeat-x;
+	border: 1px solid #2C4182;
+	margin: 0;
+	padding: 4px 4px 6px 8px;
+	white-space: nowrap;
+}
+.dxnbLite_PlasticBlue .dxnb-header a,
+.dxnbLite_PlasticBlue .dxnb-headerCollapsed a
+{
+    color: White;
+}
+.dxnbLite_PlasticBlue .dxnb-content 
+{
+	background-color: #CCCCCC;
+	border-top: 0 solid #A8A8A8;
+	border-right: 1px solid #A8A8A8;
+	border-bottom: 1px solid #A8A8A8;
+	border-left: 1px solid #A8A8A8;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.dxnbLite_PlasticBlue.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_PlasticBlue .dxnb-item,
+.dxnbLite_PlasticBlue .dxnb-large,
+.dxnbLite_PlasticBlue .dxnb-bullet
+{
+	color: Black;
+	background-color: #f5f5f5;
+	border: 1px Solid #FFFFFF;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_PlasticBlue .dxnb-item,
+.dxnbLite_PlasticBlue .dxnb-large,
+.dxnbLite_PlasticBlue .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_PlasticBlue .dxnb-item.dxnb-link,
+.dxnbLite_PlasticBlue .dxnb-item .dxnb-link
+{
+	padding: 3px 5px 4px 6px;
+    white-space: nowrap;
+}
+.dxnbLite_PlasticBlue .dxnb-large.dxnb-link,
+.dxnbLite_PlasticBlue .dxnb-large .dxnb-link
+{
+	padding: 6px 12px;
+    white-space: nowrap;
+}
+.dxnbLite_PlasticBlue .dxnb-bullet,
+.dxnbLite_PlasticBlue .dxnb-bulletHover,
+.dxnbLite_PlasticBlue .dxnb-bulletSelected 
+{
+	padding: 0 5px;
+	overflow: visible;
+	margin-bottom: 9px;
+}
+.dxnbLite_PlasticBlue .dxnb-itemSelected,
+.dxnbLite_PlasticBlue .dxnb-largeSelected
+{
+	background-color: #DEDEDE;
+	border: 1px solid #DEDEDE;
+}
+.dxnbLite_PlasticBlue .dxnb-itemHover,
+.dxnbLite_PlasticBlue .dxnb-largeHover
+{
+	background-color: #E9E9E9;
+	color: Black;
+	border-right: 1px solid #E9E9E9;
+	border-bottom: 1px solid #E9E9E9;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+}
+.dxnbLite_PlasticBlue .dxnb-header,
+.dxnbLite_PlasticBlue .dxnb-headerCollapsed, 
+.dxnbLite_PlasticBlue .dxnb-item,
+.dxnbLite_PlasticBlue .dxnb-itemHover,
+.dxnbLite_PlasticBlue .dxnb-itemSelected,
+.dxnbLite_PlasticBlue .dxnb-bullet,
+.dxnbLite_PlasticBlue .dxnb-bulletHover,
+.dxnbLite_PlasticBlue .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_PlasticBlue .dxnb-large,
+.dxnbLite_PlasticBlue .dxnb-largeHover,
+.dxnbLite_PlasticBlue .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_PlasticBlue .dxnb-headerHover
+{
+}
+.dxnbLite_PlasticBlue .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_PlasticBlue .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_PlasticBlue .dxnb-btn,
+.dxnbLite_PlasticBlue .dxnb-btnLeft,
+.dxnbLite_PlasticBlue .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_PlasticBlue .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 8px;
+}
+.dxnbLite_PlasticBlue .dxnb-btnLeft,
+.dxnbLite_PlasticBlue .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 8px 0 0;
+}
+.dxnbLite_PlasticBlue .dxnb-img
+{
+	margin: 0 8px 0 0;
+}
+.dxnbLite_PlasticBlue .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_PlasticBlue .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 8px;
+}
+.dxnbLite_PlasticBlue .dxnb-header.dxnb-header-left,
+.dxnbLite_PlasticBlue .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_PlasticBlue .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_PlasticBlue .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 8px;
+}
+.dxnbLite_PlasticBlue .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 8px;
+}
+.dxnbLite_PlasticBlue .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_PlasticBlue,
+.dxnbLite_PlasticBlue .dxnbLiteDisabled_PlasticBlue,
+.dxnbLiteDisabled_PlasticBlue a,
+.dxnbLiteDisabled_PlasticBlue .dxnb-item,
+.dxnbLiteDisabled_PlasticBlue .dxnb-large,
+.dxnbLiteDisabled_PlasticBlue .dxnb-bullet,
+.dxnbLiteDisabled_PlasticBlue .dxnb-header,
+.dxnbLiteDisabled_PlasticBlue .dxnb-headerCollapsed 
+{
+	color: #787878;
+	cursor: default;
+}
+.dxnbLiteDisabled_PlasticBlue .dxnb-header,
+.dxnbLiteDisabled_PlasticBlue .dxnb-headerCollapsed
+{
+	color: #B8B8B8;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	background-color: White;
+}
+.dxncControl_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxncControl_PlasticBlue td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncContent_PlasticBlue
+{
+}
+.dxncPagerPanel_PlasticBlue
+{
+	border-top: 1px Solid #CCCCCC;
+	padding: 5px 3px 0px 1px;
+}
+.dxncPagerPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table
+{
+    margin: -2px 0px;
+}
+.dxncItem_PlasticBlue
+{
+	vertical-align: top;
+	padding: 12px 8px 7px 7px;
+	border-bottom-width: 0px;
+}
+.dxncEmptyItem_PlasticBlue
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncPagerShowMoreItemsContainer_PlasticBlue
+{
+    height: 48px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_PlasticBlue a
+{
+	display: block;
+	padding-top: 15px;
+	color: #5A83D0;
+}
+.dxncPagerShowMoreItemsContainer_PlasticBlue a:hover
+{
+	color: #2443AA;
+}
+.dxncEmptyData_PlasticBlue
+{
+	color: #848484;
+}
+/* Disabled */
+.dxncDisabled_PlasticBlue,
+.dxncDisabled_PlasticBlue span.dxhl
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+.dxncDisabled_PlasticBlue a,
+.dxncDisabled_PlasticBlue a:hover,
+.dxncDisabled_PlasticBlue a:visited
+{
+	color: #B8B8B8;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #909090;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_PlasticBlue .dxp-summary,
+.dxpLite_PlasticBlue .dxp-sep,
+.dxpLite_PlasticBlue .dxp-button,
+.dxpLite_PlasticBlue .dxp-pageSizeItem,
+.dxpLite_PlasticBlue .dxp-num,
+.dxpLite_PlasticBlue .dxp-current,
+.dxpLite_PlasticBlue .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_PlasticBlue .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_PlasticBlue a
+{
+    color: #5A83D0;
+    text-decoration: none;    
+}
+
+.dxpLite_PlasticBlue .dxp-button
+{
+	color: #5A83D0;
+	white-space: nowrap;
+	text-align: center;
+    padding: 2px 5px;
+}
+.dxpLite_PlasticBlue .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_PlasticBlue .dxp-button.dxp-bi 
+{
+	padding: 0;
+}
+.dxpLite_PlasticBlue .dxp-button.dxp-bti
+{
+	padding: 0 5px;
+}
+.dxpLite_PlasticBlue .dxp-disabledButton
+{
+	color: #B8B8B8;
+}
+
+.dxpLite_PlasticBlue .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    margin-top: -3px;
+    color: #909090;
+    white-space: nowrap;
+}
+.dxFirefox .dxpLite_PlasticBlue .dxp-pageSizeItem
+{
+    margin-top: -4px;
+}
+.dxpLite_PlasticBlue .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_PlasticBlue .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_PlasticBlue .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border: 1px solid #B8B8B8;
+    padding: 1px;
+}
+.dxpLite_PlasticBlue .dxp-comboBox input
+{
+    color: #909090;
+    margin: 2px 2px 0px;
+}
+*[dir="rtl"].dxpLite_PlasticBlue .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_PlasticBlue .dxp-hoverComboBox
+{
+}
+.dxpLite_PlasticBlue .dxp-pressedComboBox
+{
+}
+.dxpLite_PlasticBlue .dxp-dropDownButton
+{
+    padding: 0px 3px 3px;
+    background: #223672 url('pDropDownButtonBack.gif') repeat-x top;
+	border: 1px Solid #2c4182;
+}
+.dxpLite_PlasticBlue .dxp-hoverDropDownButton
+{
+    background: url('pDropDownButtonHoverBack.gif') top, left;
+}
+.dxpLite_PlasticBlue .dxp-pressedDropDownButton
+{
+    background: url('pDropDownButtonPressedBack.gif') repeat-x;
+}
+
+.dxpLite_PlasticBlue .dxp-num
+{
+	color: #5A83D0;
+	padding: 2px 5px;
+}
+
+.dxpLite_PlasticBlue .dxp-current
+{
+	color: white;
+	background-color: #5066AC;
+	text-decoration: none;
+	padding: 2px 3px;
+}
+
+.dxpLite_PlasticBlue .dxp-summary,
+.dxpLite_PlasticBlue .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 2px 4px;
+}
+
+.dxpLite_PlasticBlue .dxp-sep
+{
+	background-color: #CCCCCC;
+	width: 1px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.dxpLiteDisabled_PlasticBlue,
+.dxpLiteDisabled_PlasticBlue a,
+.dxpLiteDisabled_PlasticBlue .dxp-summary,
+.dxpLiteDisabled_PlasticBlue .dxp-sep,
+.dxpLiteDisabled_PlasticBlue .dxp-button,
+.dxpLiteDisabled_PlasticBlue .dxp-pageSizeItem,
+.dxpLiteDisabled_PlasticBlue .dxp-num,
+.dxpLiteDisabled_PlasticBlue .dxp-current,
+.dxpLiteDisabled_PlasticBlue .dxp-ellip
+{
+	color: #B8B8B8;
+	border-color: #B8B8B8;
+	cursor: default;
+}
+
+.dxpLite_PlasticBlue .dxp-disabledComboBox
+{
+    border-color: #B8B8B8;
+}
+.dxpLite_PlasticBlue .dxp-disabledPageSizeBox input
+{
+    color: #B8B8B8;
+}
+.dxpLite_PlasticBlue .dxp-disabledDropDownButton
+{
+    background: #b7b7b7 url('pDropDownButtonDisabledBack.gif') repeat-x left top;
+	border-color: #ababab;
+	cursor: default;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_PlasticBlue,
+.dxdpLite_PlasticBlue
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #323232;
+}
+.dxdpLite_PlasticBlue {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_PlasticBlue .dxpc-mainDiv,
+.dxpcLite_PlasticBlue.dxpc-mainDiv,
+.dxdpLite_PlasticBlue .dxpc-mainDiv,
+.dxdpLite_PlasticBlue.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	background-color: #EDF3F4;
+}
+
+.dxpcLite_PlasticBlue a.dxpc-link,
+.dxdpLite_PlasticBlue a.dxpc-link
+{
+    color: #1E3695;
+}
+.dxpcLite_PlasticBlue a.dxpc-link *,
+.dxdpLite_PlasticBlue a.dxpc-link *
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dxpcLite_PlasticBlue .dxpc-closeBtn,
+.dxdpLite_PlasticBlue .dxpc-closeBtn,
+.dxpcLite_PlasticBlue .dxpc-pinBtn,
+.dxdpLite_PlasticBlue .dxpc-pinBtn,
+.dxpcLite_PlasticBlue .dxpc-refreshBtn,
+.dxdpLite_PlasticBlue .dxpc-refreshBtn,
+.dxpcLite_PlasticBlue .dxpc-collapseBtn,
+.dxdpLite_PlasticBlue .dxpc-collapseBtn,
+.dxpcLite_PlasticBlue .dxpc-maximizeBtn,
+.dxdpLite_PlasticBlue .dxpc-maximizeBtn
+{
+	padding: 1px 2px 1px 1px;
+	float: right;
+}
+
+.dxpcLite_PlasticBlue.dxRtl  .dxpc-closeBtn,
+.dxdpLite_PlasticBlue.dxRtl  .dxpc-closeBtn,
+.dxpcLite_PlasticBlue.dxRtl  .dxpc-pinBtn,
+.dxdpLite_PlasticBlue.dxRtl  .dxpc-pinBtn,
+.dxpcLite_PlasticBlue.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_PlasticBlue.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_PlasticBlue.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_PlasticBlue.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_PlasticBlue.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_PlasticBlue.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_PlasticBlue .dxpc-closeBtnHover,
+.dxdpLite_PlasticBlue .dxpc-closeBtnHover,
+.dxpcLite_PlasticBlue .dxpc-pinBtnHover,
+.dxdpLite_PlasticBlue .dxpc-pinBtnHover,
+.dxpcLite_PlasticBlue .dxpc-refreshBtnHover,
+.dxdpLite_PlasticBlue .dxpc-refreshBtnHover,
+.dxpcLite_PlasticBlue .dxpc-collapseBtnHover,
+.dxdpLite_PlasticBlue .dxpc-collapseBtnHover,
+.dxpcLite_PlasticBlue .dxpc-maximizeBtnHover,
+.dxdpLite_PlasticBlue .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_PlasticBlue .dxpc-header,
+.dxdpLite_PlasticBlue .dxpc-header  
+{
+	color: #FFFFFF;
+	background: #3D5294 url('pcHeaderBack.gif') repeat-x top;
+	border: 1px solid #2C4182;
+	padding: 4px 4px 4px 10px;
+}
+.dxpcLite_PlasticBlue .dxpc-header a,
+.dxdpLite_PlasticBlue .dxpc-header a 
+{
+    color: White;
+}
+.dxpcLite_PlasticBlue.dxRtl .dxpc-header,
+.dxdpLite_PlasticBlue.dxRtl .dxpc-header  
+{
+	padding-right: 12px;
+	padding-left: 2px;
+}
+
+.dxpcLite_PlasticBlue .dxpc-headerText,
+.dxdpLite_PlasticBlue .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_PlasticBlue .dxpc-headerImg,
+.dxdpLite_PlasticBlue .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_PlasticBlue.dxRtl .dxpc-headerImg,
+.dxdpLite_PlasticBlue.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_PlasticBlue .dxpc-contentWrapper,
+.dxdpLite_PlasticBlue .dxpc-contentWrapper
+{
+	border-top: 1px none #CCCCCC;
+	border-right: 1px Solid #CCCCCC;
+	border-bottom: 1px Solid #CCCCCC;
+	border-left: 1px Solid #CCCCCC;
+}
+
+.dxpcLite_PlasticBlue .dxpc-content,
+.dxdpLite_PlasticBlue .dxpc-content
+{
+	white-space: normal;
+	padding: 7px 10px 36px;
+}
+
+.dxpcLite_PlasticBlue .dxpc-footer,
+.dxdpLite_PlasticBlue .dxpc-footer
+{
+	color: #909090;
+	background: #E9E9E9 url('pcFooterBack.gif') no-repeat;
+	border-top: 1px none #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+
+.dxpcLite_PlasticBlue .dxpc-footerContent,
+.dxdpLite_PlasticBlue .dxpc-footerContent
+{
+	padding: 7px 18px 7px 10px;
+	min-height: 8px;
+}
+
+.dxpcLite_PlasticBlue.dxRtl .dxpc-footerContent,
+.dxdpLite_PlasticBlue.dxRtl .dxpc-footerContent
+{
+	padding: 7px 10px 7px 18px;
+}
+
+.dxpcLite_PlasticBlue .dxpc-footerText,
+.dxdpLite_PlasticBlue .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_PlasticBlue .dxpc-footerImg,
+.dxdpLite_PlasticBlue .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_PlasticBlue.dxRtl .dxpc-footerImg,
+.dxdpLite_PlasticBlue.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_PlasticBlue .dxpc-sizeGrip,
+.dxdpLite_PlasticBlue .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_PlasticBlue.dxRtl .dxpc-sizeGrip,
+.dxdpLite_PlasticBlue.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_PlasticBlue,
+.dxdpModalBackLite_PlasticBlue
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_PlasticBlue,
+.dxdpLiteDisabled_PlasticBlue
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #cccccc;
+}
+.dxpnlControl_PlasticBlue.dxpnl-edge,
+.dxpnlControl_PlasticBlue.dxpnl-edge.dxpnl-bar
+{
+    background-color: #f5f5f5;
+}
+.dxpnlControl_PlasticBlue.dxpnl-edge,
+.dxpnlControl_PlasticBlue.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_PlasticBlue.dxpnl-bar
+{
+    padding: 8px;
+}
+.dxpnlControl_PlasticBlue .dxpnl-btn
+{
+}
+.dxpnlControl_PlasticBlue .dxpnl-btnHover
+{
+    background-color: #DEDEDE;
+}
+.dxpnlControl_PlasticBlue .dxpnl-btnPressed
+{
+    background-color: #6D82C5;
+}
+.dxpnlControl_PlasticBlue .dxpnl-btnSelected
+{
+}
+.dxpnlDisabled_PlasticBlue
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_PlasticBlue,
+.dxrpControlGB_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+}
+.dxrpControl_PlasticBlue .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_PlasticBlue:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_PlasticBlue:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_PlasticBlue:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 4px;
+}
+.dxrpControl_PlasticBlue:not(.dxrp-hasDefaultImages) .dxrpHeader_PlasticBlue
+{
+	border-radius:4px 4px 0px 0px;
+}
+.dxrpControl_PlasticBlue:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 4px 4px;
+}
+.dxrpWithoutHeader_PlasticBlue:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent{
+	border-radius:4px;
+}
+/* - Header - */
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue,
+.dxrpControlGB_PlasticBlue span.dxrpHeader_PlasticBlue
+{
+	color: #404040;
+}
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue > a,
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue > a > span.dxrpHT,
+.dxrpControlGB_PlasticBlue span.dxrpHeader_PlasticBlue a
+{
+    color: #404040;
+    text-decoration: none;
+}
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue,
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+	vertical-align: top;
+}
+/* Header image */
+.dxrpControl_PlasticBlue .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_PlasticBlue .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+/* Background */
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue
+{
+    background-image: none;
+	background-color: #E9E9E9;
+}
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_PlasticBlue span.dxrpHeader_PlasticBlue
+{
+    background-image: none;
+	background-color: WhiteSmoke;
+}
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue,
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+	background-position:0px 0px;
+	background-repeat:repeat-x;
+	background-image:url('rpWhiteHotspot.png');
+}
+/* Borders */
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border:1px solid #CCCCCC;
+}
+.dxrpControl_PlasticBlue > tbody > tr:first-child > .dxrpcontent,
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue 
+{
+	border-top:1px solid #CCCCCC;
+}
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent 
+{
+	border-bottom:1px solid #CCCCCC;
+}
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue 
+{
+	border-bottom:1px solid #CCCCCC;
+}
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue
+{
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_PlasticBlue {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_PlasticBlue.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_PlasticBlue.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_PlasticBlue td.dxrpHeader_PlasticBlue 
+{
+	padding: 5px 7px 5px 9px;
+}
+.dxrpControlGB_PlasticBlue span.dxrpHeader_PlasticBlue 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_PlasticBlue.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW
+{
+	padding: 9px 9px 11px 9px;
+}
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 6px 9px 11px 9px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_PlasticBlue > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -13px;
+	left: -3px;
+	margin-bottom:-7px;
+}
+.dxrpControlGB_PlasticBlue {
+	margin-top: 6px;
+}
+/* Disabled */
+.dxrpDisabled_PlasticBlue,
+.dxrpDisabled_PlasticBlue td.dxrp
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+.dxrpDisabled_PlasticBlue.dxrpCollapsed > tbody > tr > td.dxrpHeader_PlasticBlue
+{
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_PlasticBlue 
+{
+	color: #000000;
+	background-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px Solid #A8A8A8;
+}
+.dxsmControl_PlasticBlue a
+{
+	color: #5A83D0;
+}
+.dxsmControl_PlasticBlue a:hover
+{
+	color: #b5ccf9;
+	text-decoration: none;
+}
+.dxsmControl_PlasticBlue a:visited
+{
+	color: #d6b6cb;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_PlasticBlue,
+.dxsmCategoryLevel_PlasticBlue a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 5px 8px;
+	background: #415799 url('smLevel0Back.gif') repeat-x;
+}
+.dxsmCategoryLevel_PlasticBlue
+{
+	border-bottom-width: 0px;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_PlasticBlue,
+.dxsmLevelCategoryFlow_PlasticBlue a
+{
+	color: #1E3695;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/* - Level 0 - */
+.dxsmLevel0_PlasticBlue,
+.dxsmLevel0_PlasticBlue a, 
+.dxsmLevel0Categorized_PlasticBlue a,
+.dxsmLevel0Categorized_PlasticBlue
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.dxsmLevel0Categorized_PlasticBlue a,
+.dxsmLevel0Categorized_PlasticBlue
+{
+	color: #000000;
+	font-weight: bold;
+}
+.dxsmLevel0_PlasticBlue,
+.dxsmLevel0Categorized_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 5px 8px 2px;
+}
+.dxsmLevel0_PlasticBlue
+{
+	background: #415799 url('smLevel0Back.gif') repeat-x;
+}
+.dxsmLevel0_PlasticBlue
+{
+	border-bottom-width: 0px;
+	padding: 5px 8px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_PlasticBlue,
+.dxsmLevel0Flow_PlasticBlue a,
+.dxsmLevel0CategorizedFlow_PlasticBlue a,
+.dxsmLevel0CategorizedFlow_PlasticBlue
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_PlasticBlue
+{
+	padding: 0px;
+}
+.dxsmLevel0Flow_PlasticBlue
+{
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_PlasticBlue,
+.dxsmLevel1_PlasticBlue a,
+.dxsmLevel1Categorized_PlasticBlue a,
+.dxsmLevel1Categorized_PlasticBlue
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxsmLevel1_PlasticBlue,
+.dxsmLevel1Categorized_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_PlasticBlue,
+.dxsmLevel1Flow_PlasticBlue a,
+.dxsmLevel1CategorizedFlow_PlasticBlue,
+.dxsmLevel1CategorizedFlow_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_PlasticBlue
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_PlasticBlue,
+.dxsmLevel2_PlasticBlue a,
+.dxsmLevel2Categorized_PlasticBlue a,
+.dxsmLevel2Categorized_PlasticBlue
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxsmLevel2_PlasticBlue,
+.dxsmLevel2Categorized_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_PlasticBlue,
+.dxsmLevel2Flow_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_PlasticBlue
+{
+	padding: 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_PlasticBlue,
+.dxsmLevel3_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxsmLevel3_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_PlasticBlue,
+.dxsmLevel3Flow_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_PlasticBlue,
+.dxsmLevel4_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxsmLevel4_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel4Flow_PlasticBlue,
+.dxsmLevel4Flow_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_PlasticBlue
+{
+	padding: 0px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_PlasticBlue,
+.dxsmLevelOther_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxsmLevelOther_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_PlasticBlue,
+.dxsmLevelOtherFlow_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_PlasticBlue
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_PlasticBlue 
+{
+	overflow: hidden;
+	color: black;
+    float: left;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 3px;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-n
+{
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px none #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-n
+{
+	border-top: 1px solid #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom: 1px none #002D96;
+	border-left: 1px solid #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #F5F5F5 url('tcTabBack.gif') no-repeat left top;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #3E5395 url('tcTabABack.gif') repeat-x left top;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-tabHover
+{
+	border: 1px Solid #CCCCCC;
+	background: #E9E9E9 url('tcTabHBack.gif') no-repeat left top;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #002D96;
+	overflow: hidden;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 14px;
+	display: block;
+	height: 100%;
+    color: black;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-rightIndent
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab .dxtc-link 
+{
+	color: White;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_PlasticBlue > .dxtc-content 
+{
+	background: #FFFFFF url('tcContentBack.gif') repeat-x left top;
+	float: left;
+	clear: left;
+	border: 1px solid #CCCCCC!important;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-bottom: 0px none #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_PlasticBlue.dxtc-rtl,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-content,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_PlasticBlue.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px none #CCCCCC;
+}
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid #002D96;
+	border-right: 1px none #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-activeTab.dxtc-n,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab.dxtc-n
+{
+	border-right: 1px solid #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-top > .dxtc-stripContainer .dxtc-tab.dxtc-n,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-noSpacing.dxtc-rtl.dxtc-bottom > .dxtc-stripContainer .dxtc-tab.dxtc-n
+{
+	border-right: 1px solid #CCCCCC;
+}
+/* Scrolling */
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sb          
+{
+	margin: 1px 0 0;
+	border-style: none;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLiteDisabled_PlasticBlue,
+.dxtcLiteDisabled_PlasticBlue > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_PlasticBlue > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_PlasticBlue > .dxtc-content,
+.dxtcLite_PlasticBlue > .dxtc-stripContainer .dxtcLiteDisabled_PlasticBlue .dxtc-link
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 3px;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-strip,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer > .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 0px none #002D96;
+	border-bottom-style: none;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-n
+{
+	border-top: 0px none #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px none #CCCCCC;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-n
+{
+	border-top: 0px none #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom: 1px solid #002D96;
+	border-left: 1px solid #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	background: #F5F5F5 url('tcTabBottomBack.gif') no-repeat right bottom;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #3E5395 url('tcTabBottomABack.gif') repeat-x left bottom;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-content
+{
+	clear: right;
+	background-position: left bottom;
+	border-top: 1px solid #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom-color: #002D96;
+	border-left: 1px solid #002D96;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_PlasticBlue.dxtc-bottom > .dxtc-stripContainer .dxtc-sb          
+{
+	margin: 2px 0 0;
+}
+/* left */
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 3px;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead
+{
+	border: 1px solid #CCCCCC;
+	background: #F5F5F5 url('tcTabLeftBack.gif') no-repeat left bottom;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	background: #3E5395 url('tcTabLeftABack.gif') repeat-y left top;
+	border-top: 1px solid #002D96;
+	border-bottom: 1px solid #002D96;
+	border-left: 1px solid #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	width: auto;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-right: 0px none #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_PlasticBlue.dxtc-left > .dxtc-content
+{
+	background: #FFFFFF url('tcContentBackHor.gif') repeat-y left top;
+	border-top: 1px solid #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom: 1px solid #002D96;
+	border-left-color: #002D96;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 3px;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead
+{
+	border: 1px solid #CCCCCC;
+	background: #F5F5F5 url('tcTabRightBack.gif') no-repeat right top;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	background: #3E5395 url('tcTabRightABack.gif') repeat-y right top;
+	border-top: 1px solid #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom: 1px solid #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_PlasticBlue.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-left: 0px none #002D96;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_PlasticBlue.dxtc-right > .dxtc-content
+{
+	background: #FFFFFF url('tcContentBackHor.gif') repeat-y right top;
+	border-top: 1px solid #002D96;
+	border-right-color: #002D96;
+	border-bottom: 1px solid #002D96;
+	border-left: 1px solid #002D96;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_PlasticBlue.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #CCCCCC!important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_PlasticBlue 
+{
+	color: #1E3695;
+	background-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px Solid #A8A8A8;
+	text-decoration: underline;
+}
+.dxtiControl_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none!important;
+}
+.dxtiItem_PlasticBlue
+{
+	color: #5A83D0;
+	font-weight: normal;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_PlasticBlue,
+.dxtiGroupHeaderCategorized_PlasticBlue
+{
+	font-size: 1.58em;
+	text-decoration: none;
+	font-weight: normal;
+}
+.dxtiGroupHeader_PlasticBlue,
+.dxtiGroupHeaderCategorized_PlasticBlue
+{
+	white-space: nowrap;
+	padding: 0px 0px 0px 8px;
+	border: 1px Solid #CCCCCC;
+	background-image: url('tiGroupHeader.gif');
+}
+.dxtiGroupHeaderCategorized_PlasticBlue
+{
+	border: 1px Solid #CCCCCC;
+	padding-bottom: 0px;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_PlasticBlue,
+.dxtiGroupHeaderTextCategorized_PlasticBlue
+{
+	background-color: transparent;
+	color: #848484;
+}
+.dxtiGroupHeaderText_PlasticBlue
+{
+	padding: 0px 7px;
+}
+.dxtiGroupHeaderTextCategorized_PlasticBlue
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 0px;
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_PlasticBlue
+{
+	font-size: 0.75em;
+	color: #999999;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	text-decoration: none;
+}
+.dxtiFilterBoxEdit_PlasticBlue
+{
+	border: 1px Solid #CCCCCC;
+	text-decoration: none;
+}
+.dxtiFilterBox_PlasticBlue,
+.dxtiFilterBox_PlasticBlue table
+{
+	color: #898989;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxtiFilterBox_PlasticBlue
+{
+	background-color: transparent;
+	padding-right: 0px;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_PlasticBlue
+{
+	background-color: #F5F5F5;
+	border: 1px Solid #CCCCCC;
+	color: #CCCCCC;
+    font-size: 1.33em;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_PlasticBlue,
+.dxtiIndexPanelItem_PlasticBlue a, 
+.dxtiCurrentIndexPanelItem_PlasticBlue,
+.dxtiCurrentIndexPanelItem_PlasticBlue a
+{
+	color: #5A83D0;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_PlasticBlue,
+.dxtiCurrentIndexPanelItem_PlasticBlue
+{
+	padding: 2px;
+}
+.dxtiCurrentIndexPanelItem_PlasticBlue
+{
+	color: #5B5B5B;
+	background-color: transparent;
+	text-decoration: none;
+}
+/* - BackToTop - */
+.dxtiBackToTop_PlasticBlue
+{
+	font-size: 0.75em;
+	text-decoration: none;
+	font-weight: normal;
+	color: #5A83D0;
+}
+.dxtiBackToTop_PlasticBlue
+{
+	padding: 3px 0px 0px 17px;
+}
+.dxtiBackToTopRtl_PlasticBlue
+{
+	padding: 3px 17px 0 0;
+}
+/* Disabled */
+.dxtiDisabled_PlasticBlue,
+.dxtiDisabled_PlasticBlue a
+{
+	color: #B8B8B8;
+	cursor: default!important;
+}
+/* -- ASPxUploadControl -- */
+.dxucControl_PlasticBlue,
+.dxucEditArea_PlasticBlue,
+input[type="text"].dxucEditArea_PlasticBlue /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_PlasticBlue,
+input[type="text"].dxucEditArea_PlasticBlue /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_PlasticBlue /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_PlasticBlue .dxucInputs_PlasticBlue
+{
+}
+.dxucTextBox_PlasticBlue
+{
+	background-color: white;
+	border: 1px solid #B8B8B8;
+	padding: 1px 2px;
+}
+.dxucTextBox_PlasticBlue .dxucEditArea_PlasticBlue
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_PlasticBlue .dxucEditArea_PlasticBlue
+{
+    color: #b8b8b8;
+}
+.dxucErrorCell_PlasticBlue
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_PlasticBlue,
+.dxucButton_PlasticBlue a,
+.dxucButton_PlasticBlue a:hover
+{
+	color: #5A83D0;
+	white-space: nowrap;
+}
+.dxucBrowseButton_PlasticBlue,
+.dxucBrowseButton_PlasticBlue a
+{
+	color: Black;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_PlasticBlue .dxucBrowseButton_PlasticBlue a
+{
+	color: Black;
+}
+.dxucControl_PlasticBlue a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_PlasticBlue
+{
+	padding: 4px 11px 3px;
+	border: 1px solid #B8B8B8;
+	background: #E5E5E5 url('ucButtonBack.gif') left top;
+}
+.dxWebKitFamily .dxucBrowseButton_PlasticBlue
+{
+    padding: 3px 11px 4px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_PlasticBlue
+{
+    padding: 3px 11px 4px;
+}
+.dxucBrowseButton_PlasticBlue.dxbf
+{
+    padding: 3px 10px 4px;
+}
+.dxucBrowseButton_PlasticBlue.dxbf a
+{
+    border: 1px dotted black;
+}
+.dxucBrowseButtonHover_PlasticBlue
+{
+	background: #F2F2F2 url('ucButtonHoverBack.gif') left top;
+}
+.dxucBrowseButtonPressed_PlasticBlue
+{
+	background: #CBCBCB none;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_PlasticBlue
+{
+	border: 1px Solid #B8B8B8;
+	background-color: #F5F5F5;
+
+    height: 25px;
+}
+.dxucProgressBar_PlasticBlue .dxPBMainCell
+{
+	padding: 1px;
+}
+.dxucProgressBar_PlasticBlue td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_PlasticBlue,
+.dxucProgressBar_PlasticBlue td.dx
+{
+	color: #000000;
+}
+.dxucProgressBar_PlasticBlue td.dx
+{
+	background: url('../Editors/edtProgressPositionBack.png') no-repeat 50% center;
+}
+.dxucProgressBarIndicator_PlasticBlue
+{
+	background: #3E5496 url('ucProgressIndicatorBack.gif') repeat-x;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_PlasticBlue {
+	font-size: 0.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_PlasticBlue td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_PlasticBlue a {
+	color: #5A83D0;
+}
+/* Disabled */
+.dxucDisabled_PlasticBlue,
+.dxucDisabled_PlasticBlue a
+{
+	color: #B8B8B8;
+	cursor: default;
+}
+.dxucTextBoxDisabled_PlasticBlue,
+.dxucTextBoxDisabled_PlasticBlue .dxucEditArea_PlasticBlue
+{
+	background-color: #FAFAFA;
+}
+.dxucTextBoxDisabled_PlasticBlue
+{
+	border-color: #B8B8B8;
+}
+.dxucButtonDisabled_PlasticBlue a,
+.dxucButtonDisabled_PlasticBlue a:hover
+{
+	color: #B8B8B8;
+	text-decoration: none;
+}
+.dxucControl_PlasticBlue .dxucBrowseButtonDisabled_PlasticBlue a
+{
+    color: #B8B8B8;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_PlasticBlue,
+.dxsplVSeparator_PlasticBlue,
+.dxsplHSeparator_PlasticBlue
+{
+	background-color: White;
+}
+.dxsplVSeparator_PlasticBlue,
+.dxsplHSeparator_PlasticBlue
+{
+	font-size: 0;
+}
+.dxsplControl_PlasticBlue,
+.dxsplVSeparator_PlasticBlue,
+.dxsplHSeparator_PlasticBlue,
+.dxsplPane_PlasticBlue,
+.dxsplPaneCollapsed_PlasticBlue,
+.dxsplVSeparator_PlasticBlue,
+.dxsplHSeparator_PlasticBlue,
+.dxsplVSeparatorCollapsed_PlasticBlue,
+.dxsplHSeparatorCollapsed_PlasticBlue
+{
+	border: 0px solid #CCCCCC;
+}
+.dxsplPane_PlasticBlue,
+.dxsplPaneCollapsed_PlasticBlue
+{
+	border-width: 1px;
+	background-color: #F5F5F5;
+}
+.dxsplPaneCollapsed_PlasticBlue
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparatorHover_PlasticBlue
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_PlasticBlue
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_PlasticBlue
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparatorCollapsed_PlasticBlue
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorHover_PlasticBlue,
+.dxsplVSeparatorButtonHover_PlasticBlue
+{
+	background: url('splVSeparatorBackgroundHover.png') repeat-y top left;
+}
+.dxsplHSeparatorHover_PlasticBlue,
+.dxsplHSeparatorButtonHover_PlasticBlue
+{
+	background: url('splHSeparatorBackgroundHover.png') repeat-x top left;
+}
+.dxsplVSeparatorCollapsed_PlasticBlue,
+.dxsplHSeparatorCollapsed_PlasticBlue
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_PlasticBlue
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_PlasticBlue
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_PlasticBlue .dxsplVSeparatorButton_PlasticBlue,
+.dxsplDisabled_PlasticBlue .dxsplHSeparatorButton_PlasticBlue
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_PlasticBlue,
+.dxsplHSeparatorHover_PlasticBlue,
+.dxsplVSeparatorButtonHover_PlasticBlue,
+.dxsplHSeparatorButtonHover_PlasticBlue
+{
+	background-color: #E9E9E9;
+}
+.dxsplResizingPointer_PlasticBlue
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_PlasticBlue .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_PlasticBlue
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_PlasticBlue li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_PlasticBlue ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_PlasticBlue a {
+	text-decoration: none;
+	color: Black;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_PlasticBlue .dxtv-nd
+{
+	margin-top: 1px;
+	float: left;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_PlasticBlue .dxtv-elbNoLn,
+.dxtvControl_PlasticBlue .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_PlasticBlue .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_PlasticBlue .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_PlasticBlue .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_PlasticBlue .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndChk
+{
+	cursor: default;
+	margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_PlasticBlue .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndSel,
+.dxtvControl_PlasticBlue .dxtv-ndHov 
+{
+	border: 1px solid #CCCCCC;
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndSel
+{
+	background-color: #CCCCCC;
+	cursor: default;
+}
+
+.dxtvControl_PlasticBlue .dxtv-ndHov 
+{
+	background-color: #F5F5F5;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl,
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-nd, 
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-elb,
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-elb,
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-ndImg 
+{
+    margin: 0 2px 0 4px;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_PlasticBlue.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_PlasticBlue,
+.dxtvControl_PlasticBlue .dxtvDisabled_PlasticBlue,
+.dxtvDisabled_PlasticBlue a,
+.dxtvDisabled_PlasticBlue .dxtv-btn,
+.dxtvDisabled_PlasticBlue .dxtv-nd
+{
+	color: #B8B8B8;
+	cursor: default;
+} 
+
+/* ASPxFileManager */
+.dxfmControl_PlasticBlue,
+.dxfmControl_PlasticBlue .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_PlasticBlue
+{
+	color: #ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_PlasticBlue .dxsplControl_PlasticBlue
+{
+	border-width: 1px;
+	border-color: #CCCCCC;
+}
+.dxfmControl_PlasticBlue .dxsplPane_PlasticBlue
+{
+	border-width: 0px;
+	background-color: White;
+}
+.dxfmControl_PlasticBlue .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_PlasticBlue.dxfm-dst .dxsplVSeparator_PlasticBlue
+{
+	width: 3px;
+	background: White url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_PlasticBlue.dxfm-dst.dxfm-rtl .dxsplVSeparator_PlasticBlue
+{
+	background-position-x: left;
+}
+.dxfmControl_PlasticBlue.dxfm-tch .dxsplVSeparator_PlasticBlue
+{
+	border-width: 0 1px;
+	border-color: #CCCCCC;
+}
+.dxfmControl_PlasticBlue .dxsplHSeparator_PlasticBlue
+{
+	border-width: 0px;
+	background: #CCCCCC none;
+}
+.dxfmControl_PlasticBlue .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_PlasticBlue .dxtvControl_PlasticBlue 
+{
+	margin-left: -5px;
+}
+.dxfmControl_PlasticBlue .dxtvControl_PlasticBlue .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_PlasticBlue div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_PlasticBlue.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_PlasticBlue .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_PlasticBlue div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_PlasticBlue div.dxfm-fileSA
+{
+	background-color: #CCCCCC;
+	border: 1px solid #CCCCCC;
+}
+.dxfmControl_PlasticBlue div.dxfm-fileH,
+.dxfmControl_PlasticBlue div.dxfm-fileF
+{
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+.dxfmControl_PlasticBlue td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_PlasticBlue .dxfm-file .dxfm-highlight
+{
+	background-color: #dedede;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_PlasticBlue .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_PlasticBlue .dxgvTable_PlasticBlue  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_PlasticBlue .dxgvControl_PlasticBlue,
+.dxfmControl_PlasticBlue .dxgvTable_PlasticBlue
+{
+    background-color: White; 
+}
+.dxfmControl_PlasticBlue .dxgvTable_PlasticBlue tr.dxfm-fileSA 
+{
+    background-color: #6D82C5;
+    color: White;
+}     
+.dxfmControl_PlasticBlue .dxgvTable_PlasticBlue tr.dxfm-fileSI 
+{
+    background-color: #DCE1F1;
+    color: Black;
+}
+.dxfmControl_PlasticBlue .dxfm-fileF.dxgvFocusedRow_PlasticBlue
+{
+    background-color: #5269B3;
+    color: White;
+}
+.dxfmControl_PlasticBlue .dxgvTable_PlasticBlue tr.dxfm-fileH
+{
+    background-color: #DEDEDE;
+    color: Black;
+}
+.dxfmControl_PlasticBlue tr.dxgvFocusedRow_PlasticBlue
+{
+    background: White;
+    color: Black;
+} 
+.dxgvHeader_PlasticBlue.dxfmGridHeader
+{
+    background: White;
+    border-color: #D9D9D9;
+}
+.dxgvHeader_PlasticBlue.dxfmGridHeader, 
+.dxgvHeader_PlasticBlue.dxfmGridHeader table 
+{
+    color: black;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_PlasticBlue
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_PlasticBlue .dxfm-toolbar
+{
+	background: #3E5496 url('mItemBack.gif') repeat-x left top;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar.dxsplPane_PlasticBlue table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar.dxsplPane_PlasticBlue .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	color: White;
+	white-space: nowrap;
+}
+.dxfmControl_PlasticBlue.dxfm-rtl .dxfm-toolbar.dxsplPane_PlasticBlue .dxfm-filter 
+{
+	text-align: left;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar.dxsplPane_PlasticBlue .dxfm-filter input,
+.dxfmControl_PlasticBlue .dxfm-toolbar.dxsplPane_PlasticBlue .dxfm-path input
+{
+	border: 1px solid #B8B8B8;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_PlasticBlue .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar .dxmLite_PlasticBlue .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar .dxmLite_PlasticBlue .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar .dxmLite_PlasticBlue .dxfm-path 
+{
+	padding-left: 3px;
+	padding-top: 2px;
+}
+.dxfmControl_PlasticBlue .dxfm-toolbar .dxmLite_PlasticBlue .dxm-item .dxm-content 
+{
+	padding-top: 5px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_PlasticBlue .dxfm-breadCrumbs
+{
+	background-color: #E9E9E9;
+}
+.dxfmControl_PlasticBlue .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_PlasticBlue .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+	border-color: #CCC;
+	background-color: #F5F5F5;
+}
+.dxfmControl_PlasticBlue .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #BBBFC4;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_PlasticBlue .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_PlasticBlue
+{
+    background: #9FC8FF;
+}
+.dxfmControl_PlasticBlue .dxfm-upPopup.dxpc-mainDiv .dxeProgressBar_PlasticBlue .dxePBMainCell
+{
+	padding: 0;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_PlasticBlue .dxfm-uploadPanel
+{
+	background: #E9E9E9 url('pcFooterBack.gif') repeat-x left top;
+	text-align: right;
+}
+.dxfmControl_PlasticBlue.dxfm-rtl .dxfm-uploadPanel
+{
+	text-align: left;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable .dxucControl_PlasticBlue 
+{
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.dxfmControl_PlasticBlue.dxfm-rtl .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable .dxucControl_PlasticBlue
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 7px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #5A83D0;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue .dxucTextBox_PlasticBlue 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue .dxucBrowseButton_PlasticBlue 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue .dxucBrowseButton_PlasticBlue.dxbf 
+{
+	padding: 2px 7px 3px;
+}
+.dxfmControl_PlasticBlue .dxfm-uploadPanel.dxsplPane_PlasticBlue .dxucSilverlightPluginLinkPanel_PlasticBlue 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_PlasticBlue .dxfm-cInput,
+.dxfmControl_PlasticBlue .dxfm-rInput
+{
+	border: 1px solid #B8B8B8;
+}
+
+/* FileManager - item mask */
+.dxfmControl_PlasticBlue .dxfm-itemMask
+{
+	background-color: #CCCCCC;
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_PlasticBlue .dxpc-content 
+{
+	padding: 5px 0px 0px;
+	background-color: White;
+}
+.dxfmControl_PlasticBlue .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_PlasticBlue .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	background: #E9E9E9 url('pcFooterBack.gif') repeat-x left top;
+	border-top: 1px solid #CB9FB4;
+	text-align: right;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_PlasticBlue .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_PlasticBlue
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_PlasticBlue .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_PlasticBlue .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_PlasticBlue > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_PlasticBlue .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_PlasticBlue .dxis-slidePanel,
+.dxisControl_PlasticBlue .dxis-nbSlidePanel,
+.dxisControl_PlasticBlue .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_PlasticBlue .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_PlasticBlue .dxis-nbTop,
+.dxisControl_PlasticBlue .dxis-nbBottom,
+.dxisControl_PlasticBlue .dxis-nbLeft,
+.dxisControl_PlasticBlue .dxis-nbRight,
+.dxisControl_PlasticBlue .dxis-nbDotsBottom,
+.dxisControl_PlasticBlue .dxis-nbDotsTop,
+.dxisControl_PlasticBlue .dxis-nbDotsLeft,
+.dxisControl_PlasticBlue .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_PlasticBlue .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_PlasticBlue .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_PlasticBlue .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_PlasticBlue .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_PlasticBlue .dxis-nbDotsBottom,
+.dxisControl_PlasticBlue .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_PlasticBlue .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_PlasticBlue .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_PlasticBlue .dxis-nbLeft,
+.dxisControl_PlasticBlue .dxis-nbRight,
+.dxisControl_PlasticBlue .dxis-nbDotsLeft,
+.dxisControl_PlasticBlue .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_PlasticBlue .dxis-item,
+.dxisControl_PlasticBlue .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_PlasticBlue .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_PlasticBlue .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_PlasticBlue .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_PlasticBlue .dxis-item,
+.dxisControl_PlasticBlue .dxis-nbItem,
+.dxisControl_PlasticBlue .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_PlasticBlue .dxis-nbItem,
+.dxisControl_PlasticBlue .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_PlasticBlue .dxis-nbDotItemSelected,
+.dxisControl_PlasticBlue .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_PlasticBlue .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_PlasticBlue .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_PlasticBlue .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_PlasticBlue .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_PlasticBlue .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_PlasticBlue .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_PlasticBlue > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_PlasticBlue > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_PlasticBlue > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_PlasticBlue > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_PlasticBlue .dxis-prevPageBtnHor,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHor,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_PlasticBlue .dxis-prevPageBtnVert,
+.dxisControl_PlasticBlue .dxis-prevPageBtnVertOutside,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVert,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_PlasticBlue .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_PlasticBlue .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_PlasticBlue .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_PlasticBlue .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_PlasticBlue .dxis-prevBtnVertPressed,
+.dxisControl_PlasticBlue .dxis-nextBtnVertPressed,
+.dxisControl_PlasticBlue .dxis-nextBtnHorPressed,
+.dxisControl_PlasticBlue .dxis-prevBtnHorPressed,
+.dxisControl_PlasticBlue .dxis-prevPageBtnVertPressed,
+.dxisControl_PlasticBlue .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVertPressed,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorPressed,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorPressed,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_PlasticBlue .dxis-prevBtnVertDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnVertDisabled,
+.dxisControl_PlasticBlue .dxis-nextBtnHorDisabled,
+.dxisControl_PlasticBlue .dxis-prevBtnHorDisabled,
+.dxisControl_PlasticBlue .dxis-prevPageBtnVertDisabled,
+.dxisControl_PlasticBlue .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVertDisabled,
+.dxisControl_PlasticBlue .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorDisabled,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorDisabled,
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_PlasticBlue .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_PlasticBlue .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_PlasticBlue .dxis-nextPageBtnHorOutside,
+.dxisControl_PlasticBlue .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: #98a3c4;
+    background-color: transparent;
+}
+.dxigControl_PlasticBlue td.dxigCtrl
+{
+	padding: 3px;
+}
+.dxigContent_PlasticBlue
+{
+}
+.dxigEmptyData_PlasticBlue
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_PlasticBlue
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_PlasticBlue
+{
+    float: left;
+}
+.dxigItem_PlasticBlue
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_PlasticBlue a
+{
+    outline: 0;
+}
+.dxigItem_PlasticBlue a > img
+{
+    display: block;
+}
+.dxigPagerPanel_PlasticBlue
+{
+	padding: 2px 10px;
+	border: 1px Solid #2C4182;
+	background: #3F5496 url('dvPagerBack.gif') repeat-x top;
+}
+.dxigPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-num,
+.dxigPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-summary,
+.dxigPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-pageSizeItem
+{
+	color: white;
+}
+.dxigPagerPanel_PlasticBlue .dxpLite_PlasticBlue .dxp-pageSizeItem 
+{
+    margin: -2px 0 -2px 4px;
+}
+.dxigItem_PlasticBlue .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_PlasticBlue .dxig-thumbnailWrapper,
+.dxigFlowItem_PlasticBlue
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #E9E9E9;
+}
+.dxigControl_PlasticBlue .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_PlasticBlue .dxpcLite_PlasticBlue .dxpc-mainDiv,
+.dxigControl_PlasticBlue .dxpcLite_PlasticBlue .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_PlasticBlue .dxpcLite_PlasticBlue .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_PlasticBlue .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_PlasticBlue.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_PlasticBlue .dxig-imageSliderWrapper .dxisControl_PlasticBlue .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxisControl_PlasticBlue
+{
+    position: relative;
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_PlasticBlue .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_PlasticBlue .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_PlasticBlue .dxig-prevButtonArea,
+.dxigControl_PlasticBlue .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_PlasticBlue .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_PlasticBlue .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_PlasticBlue .dxig-prevButton,
+.dxigControl_PlasticBlue .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_PlasticBlue .dxig-prevButtonDisabled,
+.dxigControl_PlasticBlue .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_PlasticBlue .dxig-closeButtonWrapper,
+.dxigControl_PlasticBlue .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_PlasticBlue .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_PlasticBlue .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_PlasticBlue .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_PlasticBlue .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_PlasticBlue .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_PlasticBlue .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbBottom,
+.dxigControl_PlasticBlue .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbSelectedItem > div,
+.dxigControl_PlasticBlue .dxisControl_PlasticBlue .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigPagerShowMoreItemsContainer_PlasticBlue
+{
+    height: 48px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_PlasticBlue a
+{
+	display: block;
+	padding-top: 15px;
+	color: #5A83D0;
+}
+.dxigPagerShowMoreItemsContainer_PlasticBlue a:hover
+{
+	color: #2443AA;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_PlasticBlue,
+.dxnbGroupHeader_PlasticBlue,
+.dxnbGroupHeaderCollapsed_PlasticBlue,
+.dxnbGroupContent_PlasticBlue > TABLE > TBODY > TR,
+.dxtcTab_PlasticBlue,
+.dxtcActiveTab_PlasticBlue,
+.dxtv-nd_PlasticBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_PlasticBlue {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+	color: #303030;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 3px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_PlasticBlue { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_PlasticBlue {
+     padding-top: 4px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_PlasticBlue {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 2px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 10px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 11px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 3px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 3px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 4px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_PlasticBlue { padding-top: 4px; }
+
+.dxflCLTSys .dxflCaptionCell_PlasticBlue,
+.dxflCLBSys .dxflCaptionCell_PlasticBlue {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_PlasticBlue,
+*[dir="rtl"].dxflFormLayout_PlasticBlue .dxflCLRSys .dxflCaptionCell_PlasticBlue {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_PlasticBlue,
+*[dir="rtl"].dxflFormLayout_PlasticBlue .dxflCLLSys .dxflCaptionCell_PlasticBlue {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_PlasticBlue {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_PlasticBlue {
+    line-height: 16px;
+}
+.dxflCaptionCell_PlasticBlue {
+    width: 1%;
+}
+td.dxflNestedControlCell_PlasticBlue {
+    height: 0;
+}
+.dxflCheckBoxItemSys.dxflItem_PlasticBlue .dxichCellSys.dxeBase_PlasticBlue
+{
+    padding-left: 0px;
+}
+*[dir="rtl"] .dxflCheckBoxItemSys.dxflItem_PlasticBlue .dxichCellSys.dxeBase_PlasticBlue
+{
+    padding-right: 0px;
+}
+
+.dxflEmptyItem_PlasticBlue {
+    height: 21px;
+}
+
+.dxflItem_PlasticBlue { width: 100%; }
+.dxflItem_PlasticBlue,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_PlasticBlue {
+    padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_PlasticBlue {
+    padding-bottom: 5px;
+}
+.dxflItem_PlasticBlue > table.dxflItemTable_PlasticBlue { width: 100%; }
+.dxflGroup_PlasticBlue { padding: 6px 5px; width: 100%;}
+.dxflGroup_PlasticBlue > table.dxflGroupTable_PlasticBlue { width: 100%; }
+.dxflGroupCell_PlasticBlue { padding: 0 8px; }
+
+.dxflGroupBox_PlasticBlue {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #B8B8B8;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_PlasticBlue.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_PlasticBlue.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_PlasticBlue {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_PlasticBlue > .dxtcControl_PlasticBlue { margin: 0px; }
+
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue tr:first-child > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue,
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue > .dxflChildInFirstRowSys > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue tr:first-child > .dxflGroupCell_PlasticBlue > .dxtcControl_PlasticBlue,
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue > .dxflChildInFirstRowSys > .dxflGroupCell_PlasticBlue > .dxtcControl_PlasticBlue {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue tr:last-child > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue,
+.dxflGroupBox_PlasticBlue > .dxflGroup_PlasticBlue > .dxflChildInLastRowSys > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_PlasticBlue tr:first-child > .dxflGroupCell_PlasticBlue > .dxflGroupBox_PlasticBlue,
+.dxflGroup_PlasticBlue > .dxflChildInFirstRowSys > .dxflGroupCell_PlasticBlue > .dxflGroupBox_PlasticBlue {
+    margin-top: 13px;
+}
+
+.dxflGroup_PlasticBlue tr:last-child > .dxflGroupCell_PlasticBlue > .dxflGroupBox_PlasticBlue,
+.dxflGroup_PlasticBlue > .dxflChildInLastRowSys > .dxflGroupCell_PlasticBlue > .dxflGroupBox_PlasticBlue {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_PlasticBlue > div > .dxflGroup_PlasticBlue { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_PlasticBlue > div > .dxflGroup_PlasticBlue tr:first-child > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue,
+.dxtcPageContent_PlasticBlue > div > .dxflGroup_PlasticBlue > .dxflChildInFirstRowSys > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_PlasticBlue > div > .dxflGroup_PlasticBlue tr:last-child > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue,
+.dxtcPageContent_PlasticBlue > div > .dxflGroup_PlasticBlue > .dxflChildInLastRowSys > .dxflGroupCell_PlasticBlue > .dxflItem_PlasticBlue {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_PlasticBlue {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_PlasticBlue .dxflGroupBoxCaption_PlasticBlue {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_PlasticBlue > div.dxflGroup_PlasticBlue:first-child,
+.dxflGroupBox_PlasticBlue > table.dxflGroup_PlasticBlue:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_PlasticBlue {
+    top: -19px;
+}
+
+.dxflGroupCell_PlasticBlue .dxtcPageContentWithoutTabs_PlasticBlue {
+    background-image: none!important;
+    border-width: 0px!important;
+}
+
+.dxflOptional_PlasticBlue {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_PlasticBlue {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_PlasticBlue {
+    width: 100%;
+}
+.dxflHelpText_PlasticBlue {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_PlasticBlue.dxflLHelpTextSys,
+.dxflHelpText_PlasticBlue.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_PlasticBlue.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_PlasticBlue.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_PlasticBlue {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_PlasticBlue .dxr-tabContent {
+    border: 1px solid #cccccc;
+    border-top-width: 0px;
+    height: 101px;
+    background: #FFFFFF;
+}
+.dxrControl_PlasticBlue.dxr-oneLineMode .dxr-tabContent {
+    height: 33px;
+}
+.dxrControl_PlasticBlue.dxr-grLabelsHidden .dxr-tabContent {
+    height: 87px;
+}
+.dxrControl_PlasticBlue.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_PlasticBlue,
+.dxrControl_PlasticBlue a {
+    color: #000000;
+}
+.dxrControl_PlasticBlue .dxr-itemDisabled.dxr-item,
+.dxrControl_PlasticBlue .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_PlasticBlue .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_PlasticBlue .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_PlasticBlue .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_PlasticBlue .dxr-itemDisabled a,
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #b8b8b8;
+}
+
+/* Ribbon Popup */
+.dxrControl_PlasticBlue .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_PlasticBlue .dxr-minPopup.dxpc-mainDiv,
+.dxrControl_PlasticBlue .dxpc-contentWrapper {
+    border: 0;
+}
+.dxrControl_PlasticBlue .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #cccccc;
+}
+
+/* Ribbon Group List */
+.dxrControl_PlasticBlue .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_PlasticBlue .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_PlasticBlue .dxr-groupList .dxr-groupSep b {
+    display: block;
+    width: 1px;
+    margin: 4px 0;
+    height: 93px;
+    background: #cccccc;
+}
+.dxrControl_PlasticBlue.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 25px;
+}
+.dxrControl_PlasticBlue.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 79px;
+}
+
+/* Ribbon Groups */
+.dxrControl_PlasticBlue .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_PlasticBlue .dxr-groupContent {
+    height: 81px;
+}
+.dxrControl_PlasticBlue.dxr-oneLineMode .dxr-groupContent {
+    height: 33px;
+}
+.dxrControl_PlasticBlue .dxr-groupLabel {
+    text-align: center;
+    color: #707070;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_PlasticBlue .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 3px -4px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_PlasticBlue .dxr-grExpBtn,
+.dxrControl_PlasticBlue .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_PlasticBlue .dxr-grExpBtn {
+    height: 93px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_PlasticBlue .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_PlasticBlue .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-itemSep,
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #cccccc;
+    width: 1px;
+}
+
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 21px;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 73px;
+}
+
+/* Ribbon Item */
+.dxrControl_PlasticBlue .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item,
+.dxrControl_PlasticBlue .dxr-blSepItems .dxr-item,
+.dxrControl_PlasticBlue.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 79px;
+}
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item {
+    height: 25px;
+    white-space: nowrap;
+}
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item {
+    margin: 0 3px;
+}
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_PlasticBlue .dxr-grExpBtn .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label,
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #cccccc;
+}
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn .dxr-label {
+    margin: 4px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-grExpBtn .dxr-popOut {
+    margin: -1px 3px 1px;
+}
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+.dxSafari .dxrControl_PlasticBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-popOut
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #cccccc;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_PlasticBlue .dxr-item.dxr-edtItem {
+    border: 0;
+    padding: 1px 0;
+    height: 25px;
+}
+.dxrControl_PlasticBlue .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_PlasticBlue .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_PlasticBlue .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_PlasticBlue .dxr-buttonItem.dxr-itemChecked {
+    background: #DEDEDE
+}
+.dxrControl_PlasticBlue .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #DEDEDE
+}
+.dxrControl_PlasticBlue .dxr-buttonItem.dxr-itemHover,
+.dxrControl_PlasticBlue .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_PlasticBlue .dxr-olmGrExpBtn.dxr-itemHover {
+    background: #e9e9e9;
+}
+.dxrControl_PlasticBlue .dxr-img32,
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_PlasticBlue .dxr-img16,
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+}
+.dxrControl_PlasticBlue .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_PlasticBlue .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 4px;
+    position: relative;
+}
+
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_PlasticBlue .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_PlasticBlue .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_PlasticBlue .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_PlasticBlue .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_PlasticBlue .dxeColorTable_PlasticBlue {
+    border: none;
+}
+
+.dxrControl_PlasticBlue .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_PlasticBlue .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: 1px solid #cccccc;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-spacer,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-rightIndent,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbWrapper,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbIndent,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbSpacer {
+    border-bottom: 1px solid #002D96;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab .dxtc-link {
+    color: #3c3c3c;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #e9e9e9;
+    border: solid 1px #cccccc;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #3e5395 url('rFileTabBack.png') repeat-x;
+    border: 1px solid #2c4182;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #4a62a5 url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #344271 url('rFileTabPressedBack.png') repeat-x;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab.dxr-fileTab .dxtc-link {
+    color: #FFFFFF;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent, 
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-spacer, 
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-rightIndent, 
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbIndent, 
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-sbSpacer
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #cccccc;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-activeTab {
+    background: #ffffff;
+    border-color: #cccccc;
+    border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-activeTab .dxtc-link {
+    color: #000000;
+}
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtcLiteDisabled_PlasticBlue .dxtc-link,
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtcLiteDisabled_PlasticBlue.dxtc-tab .dxtc-link {
+    color: #aaaaaa;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_PlasticBlue .dxtcLite_PlasticBlue.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_PlasticBlue .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+.dxrControl_PlasticBlue .dxr-glrBarContainer
+{
+    margin-right: 14px;
+    height: 77px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_PlasticBlue .dxr-glrItem.dxr-itemHover,
+.dxrControl_PlasticBlue .dxr-glrBtnHover
+{
+    background-color: #E9E9E9;
+    border-right-color: #E9E9E9;
+    border-bottom-color: #E9E9E9;
+}
+
+.dxrControl_PlasticBlue .dxr-glrItem.dxr-itemChecked
+{
+    background-color: #DEDEDE;
+    border-color: #DEDEDE;
+}
+
+.dxrControl_PlasticBlue .dxr-glrItem.dxr-itemPressed,
+.dxrControl_PlasticBlue .dxr-glrBtnPressed
+{
+    background: #DEDEDE
+}
+
+.dxrControl_PlasticBlue .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_PlasticBlue .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_PlasticBlue .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_PlasticBlue .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_PlasticBlue .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_PlasticBlue .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_PlasticBlue .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_PlasticBlue .dxr-glrGroup
+{
+    color: #909090;
+    background: #E9E9E9 url('pcFooterBack.gif') no-repeat;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_PlasticBlue .dxr-glrBarItem .dxr-glrButtons div
+{
+    cursor: pointer;
+    height: 26px;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_PlasticBlue .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_PlasticBlue .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 1px 0;
+    display: block;
+}
+.dxrControl_PlasticBlue .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 0 0 0 0;
+    display: block;
+}
+.dxrControl_PlasticBlue .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_PlasticBlue {
+    display: none;
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_PlasticBlue .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_PlasticBlue .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_PlasticBlue .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_PlasticBlue .dxiz-wrapper > img,
+.dxizControl_PlasticBlue .dxiz-clipPanel > img,
+.dxizControl_PlasticBlue .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_PlasticBlue .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_PlasticBlue .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_PlasticBlue .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_PlasticBlue .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-llp,
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-lrp,
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-ltp,
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-lbp,
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_PlasticBlue .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_PlasticBlue .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_PlasticBlue .dxiz-lens.outside .dxiz-llp,
+.dxizControl_PlasticBlue .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_PlasticBlue .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_PlasticBlue .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_PlasticBlue .dxizLoadingPanel_PlasticBlue {
+    position: absolute;
+}
+
+.dxisControl_PlasticBlue.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_PlasticBlue
+{
+    background-color: #F5F5F5;
+    padding: 2px 2px 4px 2px;
+    border: 1px solid #7F7F7F;
+}
+.dxitcControl_PlasticBlue > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_PlasticBlue .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+.dxitcControl_PlasticBlue .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #A7A7A7;
+}
+.dxitcCaption_PlasticBlue
+{
+    background-color: #EEE;
+    padding: 2px;
+    border: 1px solid #CCC;
+    margin: 2px 2px 0px 2px;
+}

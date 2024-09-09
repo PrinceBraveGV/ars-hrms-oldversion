@@ -1,0 +1,109 @@
+﻿@{
+    Layout = null;
+}
+
+@using System.Web.Optimization
+
+@using AristaHRM.Models
+
+@model FindModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Periksa Persetujuan Cuti</title>
+
+    @{
+        Scripts.Render("~/bundles/jquery");
+        Scripts.Render("~/bundles/jqueryui");
+        Scripts.Render("~/bundles/modernizr");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/addonbase");
+        Scripts.Render("~/bundles/angularbase");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/pdf");
+        Scripts.Render("~/bundles/js");
+        Styles.Render("~/Content/css");
+    }
+
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+
+</head>
+<body>
+    <div>
+        <form id="form1">
+            <div style="text-align:center">
+                @using (Html.BeginForm())
+                {
+                    Html.DevExpress().FormLayout(settings =>
+                    {
+                        settings.Name = "KonfirmasiLayout";
+                        settings.AlignItemCaptionsInAllGroups = true;
+                        settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                        settings.Items.Add(layoutitem =>
+                        {
+                            layoutitem.Caption = "Nama Atasan ";
+                            layoutitem.SetNestedContent(() =>
+                            {
+                                Html.DevExpress().ComboBoxFor(m => m.Nama_Karyawan, combobox =>
+                                {
+                                    combobox.Width = Unit.Pixel(300);
+                                    combobox.Properties.ValidationSettings.Display = Display.None;
+                                    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                    combobox.ShowModelErrors = true;
+                                    combobox.Properties.TextField = "Nama_Karyawan";
+                                    combobox.Properties.ValueField = "Nama_Karyawan";
+                                    combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                }).BindList(Providers.GetAtasan()).GetHtml();
+                            });
+                        });
+                    }).GetHtml(); 
+                    Html.DevExpress().Button(button =>
+                    {
+                        button.Name = "btnSubmit";
+                        button.Text = "Periksa Sekarang";
+                        button.UseSubmitBehavior = true;
+                        button.Theme = AristaHRM.Theme.SelectTheme;
+                    }).GetHtml();
+                    ViewContext.Writer.Write("&nbsp;");
+                }
+            </div>
+            <div style="text-align:center; color:red; font:12px Arial">@ViewData["EditError"]</div>
+            <p style="text-align:center; font:12px Arial; color:green">@ViewData["EditSuccess"]</p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@using AristaHRM.Models
+
+@{
+   GridViewExtension grid = Html.DevExpress().GridView(settings =>
+   {
+       settings.Name = "CMGrid";
+       settings.CallbackRouteValues = new { Controller = "User", Action = "CutiMassalPartial" };
+       settings.Width = Unit.Percentage(100);
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+       settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+
+       settings.SettingsText.GroupPanel = "Letakkan judul kolom di sini untuk melakukan sortir data berdasarkan kolom yang ditentukan.";
+       settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+
+       settings.CommandColumn.Visible = false;
+       settings.SettingsPager.Position = PagerPosition.Bottom;
+       settings.SettingsPager.FirstPageButton.Visible = true;
+       settings.SettingsPager.LastPageButton.Visible = true;
+       settings.SettingsPager.PrevPageButton.Text = "Sebelumnya";
+       settings.SettingsPager.NextPageButton.Text = "Berikutnya";
+       settings.SettingsPager.PageSizeItemSettings.Visible = true;
+       settings.SettingsPager.PageSizeItemSettings.Items = new string[] { "10", "20", "50", "100", "200", "500", "1000" };
+       settings.SettingsPager.PageSizeItemSettings.Caption = "Jumlah data per halaman :";
+       settings.Settings.ShowGroupPanel = true;
+       settings.Settings.ShowFilterRow = true;
+       settings.Settings.ShowFilterRowMenu = true;
+       settings.SettingsText.EmptyDataRow = "Tidak ada data yang ditampilkan.";
+
+       settings.KeyFieldName = "ID_Daftar";
+
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "ID_Daftar";
+           column.Caption = "Kode Cuti";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(100);
+           column.Settings.AllowAutoFilter = DefaultBoolean.False;
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Tgl_Cuti";
+           column.Caption = "Tanggal Cuti";
+           column.ColumnType = MVCxGridViewColumnType.DateEdit;
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.PropertiesEdit.DisplayFormatString = "dd MMMM yyyy";
+           var dateProperties = column.PropertiesEdit as DateEditProperties;
+           dateProperties.EditFormat = EditFormat.Date;
+           dateProperties.EditFormatString = "dd MMMM yyyy";
+           dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.Width = Unit.Pixel(150);
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Keterangan";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(400);
+       });
+   });
+}
+
+@grid.Bind(Model).GetHtml()

@@ -1,0 +1,20 @@
+﻿@using AristaHRM.Models
+
+@model CutiModel
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@{
+    Html.DevExpress().CallbackPanel(panel =>
+    {
+        panel.Name = "UserPanel";
+        panel.CallbackRouteValues = new { Area = "Mobile", Controller = "Admin", Action = "GetKaryawan" };
+        panel.ClientSideEvents.BeginCallback = "getKaryawan";
+        panel.ClientSideEvents.EndCallback = "endKaryawan";
+        panel.EnableClientSideAPI = true;
+        panel.SetContent(() =>
+        {
+            Html.RenderPartial("_MobileUserInfo", Model);
+        });
+    }).GetHtml();
+}

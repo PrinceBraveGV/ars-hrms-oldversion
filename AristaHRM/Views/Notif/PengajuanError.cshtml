@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pengajuan Cuti";
+    Layout = "~/Views/Shared/_redirectLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ 
+    if (Session["ErrorData"] != null)
+    {
+        ViewData["ErrorData"] = Session["ErrorData"].ToString();
+    }
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pemberitahuan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 14px Arial, Tahoma; text-align:center">
+                            Proses pengajuan cuti untuk karyawan ybs telah selesai dengan nomor ID cuti # @ViewData["ID_Cuti"], akan tetapi sistem tidak dapat mengirim pemberitahuan kepada atasan dari karyawan ybs. 
+                            <br />
+                            Pesan kesalahan: @ViewData["ErrorData"]
+                            <br />
+                            Mohon segera menghubungi atasan (manajer/supervisor) dari karyawan ybs untuk melakukan konfirmasi persetujuan cuti.
+                        </p>
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Apabila anda tidak dialihkan otomatis setelah 5 detik, silakan klik tombol di bawah ini untuk kembali ke halaman indeks.</p>
+                        <br />                        
+                        @using (Html.BeginForm("PengajuanError", "Notif", FormMethod.Post))
+                        {
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnRedirect";
+                                button.Text = "Kembali";
+                                button.UseSubmitBehavior = true;
+                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

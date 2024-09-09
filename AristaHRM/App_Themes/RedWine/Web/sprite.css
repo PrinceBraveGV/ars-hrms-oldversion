@@ -1,0 +1,1495 @@
+.dxigControl_RedWine.dxTouchUI .dxWeb_igCloseButton_RedWine,
+.dxigControl_RedWine.dxTouchUI .dxWeb_igPauseButton_RedWine,
+.dxigControl_RedWine.dxTouchUI .dxWeb_igPlayButton_RedWine,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_RedWine,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_RedWine,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_RedWine,
+.dxp-hoverDropDownButton .dxWeb_pPopOut_RedWine,
+.dxpnl-btnPressed .dxWeb_pnlExpand_RedWine,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_RedWine,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_RedWine,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_RedWine,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_RedWine,
+.dxpnl-btnSelected .dxWeb_pnlExpand_RedWine,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_RedWine,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_RedWine,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_RedWine,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_RedWine,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_RedWine,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_RedWine,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_RedWine,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_RedWine,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_RedWine,
+.dxrpCollapsed .dxWeb_rpCollapseButton_RedWine,
+.dxWeb_edtCheckBoxChecked_RedWine,
+.dxWeb_edtCheckBoxCheckedDisabled_RedWine,
+.dxWeb_edtCheckBoxGrayed_RedWine,
+.dxWeb_edtCheckBoxGrayedDisabled_RedWine,
+.dxWeb_edtCheckBoxUnchecked_RedWine,
+.dxWeb_edtCheckBoxUncheckedDisabled_RedWine,
+.dxWeb_fmBreadCrumbsSeparatorArrow_RedWine,
+.dxWeb_fmBreadCrumbsUpButton_RedWine,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_RedWine,
+.dxWeb_fmCopyButton_RedWine,
+.dxWeb_fmCopyButtonDisabled_RedWine,
+.dxWeb_fmCreateButton_RedWine,
+.dxWeb_fmCreateButtonDisabled_RedWine,
+.dxWeb_fmDeleteButton_RedWine,
+.dxWeb_fmDeleteButtonDisabled_RedWine,
+.dxWeb_fmDwnlButton_RedWine,
+.dxWeb_fmDwnlButtonDisabled_RedWine,
+.dxWeb_fmFolder_RedWine,
+.dxWeb_fmFolderLocked_RedWine,
+.dxWeb_fmGvHeaderFilter_RedWine,
+.dxWeb_fmGvHeaderFilterActive_RedWine,
+.dxWeb_fmGvHeaderSortDown_RedWine,
+.dxWeb_fmGvHeaderSortUp_RedWine,
+.dxWeb_fmMoveButton_RedWine,
+.dxWeb_fmMoveButtonDisabled_RedWine,
+.dxWeb_fmRefreshButton_RedWine,
+.dxWeb_fmRefreshButtonDisabled_RedWine,
+.dxWeb_fmRenameButton_RedWine,
+.dxWeb_fmRenameButtonDisabled_RedWine,
+.dxWeb_fmThumbnailCheck_RedWine,
+.dxWeb_fmUplButton_RedWine,
+.dxWeb_fmUplButtonDisabled_RedWine,
+.dxWeb_igCloseButton_RedWine,
+.dxWeb_igNavigationBarMarker_RedWine,
+.dxWeb_igNextButton_RedWine,
+.dxWeb_igNextButtonDisabled_RedWine,
+.dxWeb_igNextButtonHover_RedWine,
+.dxWeb_igNextButtonPressed_RedWine,
+.dxWeb_igPauseButton_RedWine,
+.dxWeb_igPlayButton_RedWine,
+.dxWeb_igPrevButton_RedWine,
+.dxWeb_igPrevButtonDisabled_RedWine,
+.dxWeb_igPrevButtonHover_RedWine,
+.dxWeb_igPrevButtonPressed_RedWine,
+.dxWeb_isDot_RedWine,
+.dxWeb_isDotDisabled_RedWine,
+.dxWeb_isDotPressed_RedWine,
+.dxWeb_isDotSelected_RedWine,
+.dxWeb_isNextBtnHor_RedWine,
+.dxWeb_isNextBtnHorDisabled_RedWine,
+.dxWeb_isNextBtnVert_RedWine,
+.dxWeb_isNextBtnVertDisabled_RedWine,
+.dxWeb_isNextPageBtnHor_RedWine,
+.dxWeb_isNextPageBtnHorDisabled_RedWine,
+.dxWeb_isNextPageBtnHorOutside_RedWine,
+.dxWeb_isNextPageBtnHorOutsideDisabled_RedWine,
+.dxWeb_isNextPageBtnVert_RedWine,
+.dxWeb_isNextPageBtnVertDisabled_RedWine,
+.dxWeb_isNextPageBtnVertOutside_RedWine,
+.dxWeb_isNextPageBtnVertOutsideDisabled_RedWine,
+.dxWeb_isPauseBtn_RedWine,
+.dxWeb_isPlayBtn_RedWine,
+.dxWeb_isPrevBtnHor_RedWine,
+.dxWeb_isPrevBtnHorDisabled_RedWine,
+.dxWeb_isPrevBtnVert_RedWine,
+.dxWeb_isPrevBtnVertDisabled_RedWine,
+.dxWeb_isPrevPageBtnHor_RedWine,
+.dxWeb_isPrevPageBtnHorDisabled_RedWine,
+.dxWeb_isPrevPageBtnHorOutside_RedWine,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_RedWine,
+.dxWeb_isPrevPageBtnVert_RedWine,
+.dxWeb_isPrevPageBtnVertDisabled_RedWine,
+.dxWeb_isPrevPageBtnVertOutside_RedWine,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_RedWine,
+.dxWeb_izEWCloseButton_RedWine,
+.dxWeb_izHint_RedWine,
+.dxWeb_mAdaptiveMenu_RedWine,
+.dxWeb_mHorizontalPopOut_RedWine,
+.dxWeb_mScrollDown_RedWine,
+.dxWeb_mScrollUp_RedWine,
+.dxWeb_mSubMenuItem_RedWine,
+.dxWeb_mSubMenuItemChecked_RedWine,
+.dxWeb_mVerticalPopOut_RedWine,
+.dxWeb_mVerticalPopOutRtl_RedWine,
+.dxWeb_nbCollapse_RedWine,
+.dxWeb_nbExpand_RedWine,
+.dxWeb_pAll_RedWine,
+.dxWeb_pAllDisabled_RedWine,
+.dxWeb_pcCloseButton_RedWine,
+.dxWeb_pcCollapseButton_RedWine,
+.dxWeb_pcMaximizeButton_RedWine,
+.dxWeb_pcPinButton_RedWine,
+.dxWeb_pcRefreshButton_RedWine,
+.dxWeb_pcSizeGrip_RedWine,
+.dxWeb_pcSizeGripRtl_RedWine,
+.dxWeb_pFirst_RedWine,
+.dxWeb_pFirstDisabled_RedWine,
+.dxWeb_pLast_RedWine,
+.dxWeb_pLastDisabled_RedWine,
+.dxWeb_pNext_RedWine,
+.dxWeb_pNextDisabled_RedWine,
+.dxWeb_pnlExpand_RedWine,
+.dxWeb_pnlExpandArrowBottom_RedWine,
+.dxWeb_pnlExpandArrowLeft_RedWine,
+.dxWeb_pnlExpandArrowRight_RedWine,
+.dxWeb_pnlExpandArrowTop_RedWine,
+.dxWeb_pPopOut_RedWine,
+.dxWeb_pPopOutDisabled_RedWine,
+.dxWeb_pPrev_RedWine,
+.dxWeb_pPrevDisabled_RedWine,
+.dxWeb_rDialogBoxLauncher_RedWine,
+.dxWeb_rDialogBoxLauncherDisabled_RedWine,
+.dxWeb_rDialogBoxLauncherHover_RedWine,
+.dxWeb_rDialogBoxLauncherPressed_RedWine,
+.dxWeb_rGlrDown_RedWine,
+.dxWeb_rGlrDownDisabled_RedWine,
+.dxWeb_rGlrPopOut_RedWine,
+.dxWeb_rGlrPopOutDisabled_RedWine,
+.dxWeb_rGlrUp_RedWine,
+.dxWeb_rGlrUpDisabled_RedWine,
+.dxWeb_rMinBtn_RedWine,
+.dxWeb_rMinBtn_RedWine.dxWeb_rMinBtnHover_RedWine,
+.dxWeb_rMinBtn_RedWine.dxWeb_rMinBtnPressed_RedWine,
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtn_RedWine,
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnDisabled_RedWine,
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnHover_RedWine,
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnPressed_RedWine,
+.dxWeb_rMinBtnDisabled_RedWine,
+.dxWeb_rpBottomLeftCorner_RedWine,
+.dxWeb_rpBottomRightCorner_RedWine,
+.dxWeb_rpCollapseButton_RedWine,
+.dxWeb_rpGroupBoxBottomLeftCorner_RedWine,
+.dxWeb_rpGroupBoxBottomRightCorner_RedWine,
+.dxWeb_rpGroupBoxTopLeftCorner_RedWine,
+.dxWeb_rpGroupBoxTopRightCorner_RedWine,
+.dxWeb_rpHeaderBottomLeftCorner_RedWine,
+.dxWeb_rpHeaderBottomRightCorner_RedWine,
+.dxWeb_rpHeaderTopLeftCorner_RedWine,
+.dxWeb_rpHeaderTopRightCorner_RedWine,
+.dxWeb_rPopOut_RedWine,
+.dxWeb_rpTopLeftCorner_RedWine,
+.dxWeb_rpTopRightCorner_RedWine,
+.dxWeb_smBullet_RedWine,
+.dxWeb_splHCollapseBackwardButton_RedWine,
+.dxWeb_splHCollapseBackwardButtonHover_RedWine,
+.dxWeb_splHCollapseForwardButton_RedWine,
+.dxWeb_splHCollapseForwardButtonHover_RedWine,
+.dxWeb_splHSeparator_RedWine,
+.dxWeb_splHSeparatorHover_RedWine,
+.dxWeb_splVCollapseBackwardButton_RedWine,
+.dxWeb_splVCollapseBackwardButtonHover_RedWine,
+.dxWeb_splVCollapseForwardButton_RedWine,
+.dxWeb_splVCollapseForwardButtonHover_RedWine,
+.dxWeb_splVSeparator_RedWine,
+.dxWeb_splVSeparatorHover_RedWine,
+.dxWeb_tcScrollLeft_RedWine,
+.dxWeb_tcScrollLeftDisabled_RedWine,
+.dxWeb_tcScrollLeftHover_RedWine,
+.dxWeb_tcScrollLeftPressed_RedWine,
+.dxWeb_tcScrollRight_RedWine,
+.dxWeb_tcScrollRightDisabled_RedWine,
+.dxWeb_tcScrollRightHover_RedWine,
+.dxWeb_tcScrollRightPressed_RedWine,
+.dxWeb_tiBackToTop_RedWine,
+.dxWeb_tvColBtn_RedWine,
+.dxWeb_tvColBtnRtl_RedWine,
+.dxWeb_tvExpBtn_RedWine,
+.dxWeb_tvExpBtnRtl_RedWine,
+.dxWeb_ucClearButton_RedWine,
+.dxWeb_ucClearButtonDisabled_RedWine
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_RedWine.dxTouchUI .dxWeb_igCloseButton_RedWine
+{
+    background-position: -22px -388px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_RedWine.dxTouchUI .dxWeb_igPauseButton_RedWine
+{
+    background-position: 0px -388px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_RedWine.dxTouchUI .dxWeb_igPlayButton_RedWine
+{
+    background-position: -128px -334px;
+    width: 21px;
+    height: 25px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_RedWine
+{
+    background-position: -80px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_RedWine
+{
+    background-position: -108px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_RedWine
+{
+    background-position: -128px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxp-hoverDropDownButton .dxWeb_pPopOut_RedWine
+{
+    background-position: -140px -456px;
+    width: 7px;
+    height: 5px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpand_RedWine
+{
+    background-position: 0px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_RedWine
+{
+    background-position: -34px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_RedWine
+{
+    background-position: -34px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_RedWine
+{
+    background-position: -68px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_RedWine
+{
+    background-position: -34px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_RedWine
+{
+    background-position: -102px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_RedWine
+{
+    background-position: 0px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_RedWine
+{
+    background-position: 0px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_RedWine
+{
+    background-position: -102px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_RedWine
+{
+    background-position: -92px -132px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_RedWine
+{
+    background-position: -34px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_RedWine
+{
+    background-position: 0px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_RedWine
+{
+    background-position: 0px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_RedWine
+{
+    background-position: -102px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_RedWine
+{
+    background-position: -68px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_RedWine
+{
+    background-position: -18px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_edtCheckBoxChecked_RedWine
+{
+    background-position: 0px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_RedWine
+{
+    background-position: -32px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayed_RedWine
+{
+    background-position: -134px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_RedWine
+{
+    background-position: -118px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUnchecked_RedWine
+{
+    background-position: -16px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_RedWine
+{
+    background-position: -102px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_RedWine
+{
+    background-position: -145px -132px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_RedWine
+{
+    background-position: -34px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_RedWine
+{
+    background-position: -119px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_RedWine
+{
+    background-position: -34px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_RedWine
+{
+    background-position: 0px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_RedWine
+{
+    background-position: -17px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_RedWine
+{
+    background-position: -51px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_RedWine
+{
+    background-position: -102px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_RedWine
+{
+    background-position: -85px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_RedWine
+{
+    background-position: -85px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_RedWine
+{
+    background-position: 0px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_RedWine
+{
+    background-position: -102px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_RedWine
+{
+    background-position: -17px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmGvHeaderFilter_RedWine
+{
+    background-position: -126px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_fmGvHeaderFilterActive_RedWine
+{
+    background-position: 0px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_fmGvHeaderSortDown_RedWine
+{
+    background-position: -138px -29px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmGvHeaderSortUp_RedWine
+{
+    background-position: -138px -95px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmMoveButton_RedWine
+{
+    background-position: -51px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_RedWine
+{
+    background-position: -68px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_RedWine
+{
+    background-position: -68px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_RedWine
+{
+    background-position: -17px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_RedWine
+{
+    background-position: -68px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_RedWine
+{
+    background-position: 0px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_RedWine
+{
+    background-position: -139px -323px;
+    width: 11px;
+    height: 10px;
+}
+.dxWeb_fmUplButton_RedWine
+{
+    background-position: -85px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_RedWine
+{
+    background-position: -51px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_igCloseButton_RedWine
+{
+    background-position: -70px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_RedWine
+{
+    background-position: -124px -514px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_RedWine
+{
+    background-position: 0px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_RedWine
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_RedWine
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_RedWine
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_RedWine
+{
+    background-position: -111px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_RedWine
+{
+    background-position: -85px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_RedWine
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_RedWine
+{
+    background-position: -46px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_RedWine
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_RedWine
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_RedWine
+{
+    background-position: -14px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_RedWine
+{
+    background-position: -28px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_RedWine
+{
+    background-position: -84px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_RedWine
+{
+    background-position: -56px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_RedWine
+{
+    background-position: -94px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_RedWine
+{
+    background-position: -132px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_RedWine
+{
+    background-position: -30px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_RedWine
+{
+    background-position: 0px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_RedWine
+{
+    background-position: -136px -266px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_RedWine
+{
+    background-position: -136px -232px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_RedWine
+{
+    background-position: -138px -66px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_RedWine
+{
+    background-position: -138px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_RedWine
+{
+    background-position: -92px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_RedWine
+{
+    background-position: -48px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_RedWine
+{
+    background-position: -29px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_RedWine
+{
+    background-position: -98px -599px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_RedWine
+{
+    background-position: -72px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_RedWine
+{
+    background-position: -98px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_RedWine
+{
+    background-position: -113px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_RedWine
+{
+    background-position: -126px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_RedWine
+{
+    background-position: -90px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_RedWine
+{
+    background-position: -60px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_RedWine
+{
+    background-position: -136px -300px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_RedWine
+{
+    background-position: -136px -198px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_RedWine
+{
+    background-position: -138px 0px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_RedWine
+{
+    background-position: -138px -37px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_RedWine
+{
+    background-position: -70px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_RedWine
+{
+    background-position: -114px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_RedWine
+{
+    background-position: -58px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_RedWine
+{
+    background-position: 0px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_RedWine
+{
+    background-position: -102px -334px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_RedWine
+{
+    background-position: -72px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_RedWine
+{
+    background-position: -122px -410px;
+    width: 12px;
+    height: 3px;
+}
+.dxWeb_mHorizontalPopOut_RedWine
+{
+    background-position: -139px -254px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_mScrollDown_RedWine
+{
+    background-position: -135px -621px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mScrollUp_RedWine
+{
+    background-position: -143px -621px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mSubMenuItem_RedWine
+{
+    background-position: -136px -549px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_RedWine
+{
+    background-position: -136px -532px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mVerticalPopOut_RedWine
+{
+    background-position: -139px -220px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_mVerticalPopOutRtl_RedWine
+{
+    background-position: -139px -288px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_nbCollapse_RedWine
+{
+    background-position: -36px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_nbExpand_RedWine
+{
+    background-position: -36px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_pAll_RedWine
+{
+    background-position: -120px -368px;
+    width: 24px;
+    height: 19px;
+}
+.dxWeb_pAllDisabled_RedWine
+{
+    background-position: 0px -414px;
+    width: 24px;
+    height: 19px;
+}
+.dxWeb_pcCloseButton_RedWine
+{
+    background-position: 0px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcCollapseButton_RedWine
+{
+    background-position: -40px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcMaximizeButton_RedWine
+{
+    background-position: -20px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcPinButton_RedWine
+{
+    background-position: -60px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcRefreshButton_RedWine
+{
+    background-position: -120px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcSizeGrip_RedWine
+{
+    background-position: 0px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcSizeGripRtl_RedWine
+{
+    background-position: -42px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pFirst_RedWine
+{
+    background-position: -49px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pFirstDisabled_RedWine
+{
+    background-position: -73px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pLast_RedWine
+{
+    background-position: -25px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pLastDisabled_RedWine
+{
+    background-position: -97px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pNext_RedWine
+{
+    background-position: -121px -414px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pNextDisabled_RedWine
+{
+    background-position: 0px -476px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pnlExpand_RedWine
+{
+    background-position: -68px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowBottom_RedWine
+{
+    background-position: -68px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowLeft_RedWine
+{
+    background-position: -68px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowRight_RedWine
+{
+    background-position: -34px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowTop_RedWine
+{
+    background-position: -102px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pPopOut_RedWine
+{
+    background-position: -143px -470px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_pPopOutDisabled_RedWine
+{
+    background-position: -141px -421px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_pPrev_RedWine
+{
+    background-position: -100px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pPrevDisabled_RedWine
+{
+    background-position: -88px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_rDialogBoxLauncher_RedWine
+{
+    background-position: -127px -599px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_RedWine
+{
+    background-position: -87px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherHover_RedWine
+{
+    background-position: -100px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherPressed_RedWine
+{
+    background-position: -113px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rGlrDown_RedWine
+{
+    background-position: -116px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrDownDisabled_RedWine
+{
+    background-position: -98px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrPopOut_RedWine
+{
+    background-position: -145px -526px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOutDisabled_RedWine
+{
+    background-position: -145px -160px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrUp_RedWine
+{
+    background-position: -110px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrUpDisabled_RedWine
+{
+    background-position: -104px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rMinBtn_RedWine
+{
+    background-position: -74px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_RedWine.dxWeb_rMinBtnHover_RedWine
+{
+    background-position: -20px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_RedWine.dxWeb_rMinBtnPressed_RedWine
+{
+    background-position: 0px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtn_RedWine
+{
+    background-position: -54px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnDisabled_RedWine
+{
+    background-position: -92px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnHover_RedWine
+{
+    background-position: -128px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_RedWine.dxWeb_rMinBtnPressed_RedWine
+{
+    background-position: -38px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnDisabled_RedWine
+{
+    background-position: -54px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rpBottomLeftCorner_RedWine
+{
+    background-position: -145px -382px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpBottomRightCorner_RedWine
+{
+    background-position: -145px -148px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpCollapseButton_RedWine
+{
+    background-position: -108px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rpGroupBoxBottomLeftCorner_RedWine
+{
+    background-position: -144px -496px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxBottomRightCorner_RedWine
+{
+    background-position: -145px -154px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxTopLeftCorner_RedWine
+{
+    background-position: -145px -520px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxTopRightCorner_RedWine
+{
+    background-position: -140px -599px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderBottomLeftCorner_RedWine
+{
+    background-position: -145px -508px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderBottomRightCorner_RedWine
+{
+    background-position: -145px -142px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderTopLeftCorner_RedWine
+{
+    background-position: -145px -607px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderTopRightCorner_RedWine
+{
+    background-position: -145px -514px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rPopOut_RedWine
+{
+    background-position: -140px -465px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_rpTopLeftCorner_RedWine
+{
+    background-position: -145px -368px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpTopRightCorner_RedWine
+{
+    background-position: -145px -376px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_smBullet_RedWine
+{
+    background-position: -144px -502px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_RedWine
+{
+    background-position: -135px -407px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_RedWine
+{
+    background-position: -143px -407px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButton_RedWine
+{
+    background-position: -143px -427px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButtonHover_RedWine
+{
+    background-position: -141px -414px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHSeparator_RedWine
+{
+    background-position: -126px -613px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splHSeparatorHover_RedWine
+{
+    background-position: -104px -361px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splVCollapseBackwardButton_RedWine
+{
+    background-position: -123px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_RedWine
+{
+    background-position: -130px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_RedWine
+{
+    background-position: -144px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_RedWine
+{
+    background-position: -137px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_RedWine
+{
+    background-position: -141px -388px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_splVSeparatorHover_RedWine
+{
+    background-position: -134px -388px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_tcScrollLeft_RedWine
+{
+    background-position: -66px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftDisabled_RedWine
+{
+    background-position: -22px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftHover_RedWine
+{
+    background-position: -90px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftPressed_RedWine
+{
+    background-position: -112px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRight_RedWine
+{
+    background-position: -44px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightDisabled_RedWine
+{
+    background-position: 0px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightHover_RedWine
+{
+    background-position: -68px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightPressed_RedWine
+{
+    background-position: -46px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tiBackToTop_RedWine
+{
+    background-position: -136px -583px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_tvColBtn_RedWine
+{
+    background-position: -18px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_RedWine
+{
+    background-position: -90px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtn_RedWine
+{
+    background-position: -110px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_RedWine
+{
+    background-position: -56px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_ucClearButton_RedWine
+{
+    background-position: -34px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_RedWine
+{
+    background-position: -119px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_rpHeaderTopLeftCorner_RedWine,
+.dxWeb_rpHeaderTopRightCorner_RedWine,
+.dxWeb_rpHeaderBottomLeftCorner_RedWine,
+.dxWeb_rpHeaderBottomRightCorner_RedWine,
+.dxWeb_rpBottomLeftCorner_RedWine,
+.dxWeb_rpBottomRightCorner_RedWine,
+.dxWeb_rpTopLeftCorner_RedWine,
+.dxWeb_rpTopRightCorner_RedWine,
+.dxWeb_rpGroupBoxBottomLeftCorner_RedWine,
+.dxWeb_rpGroupBoxBottomRightCorner_RedWine,
+.dxWeb_rpGroupBoxTopLeftCorner_RedWine,
+.dxWeb_rpGroupBoxTopRightCorner_RedWine,
+.dxWeb_mHorizontalPopOut_RedWine,
+.dxWeb_mVerticalPopOut_RedWine,
+.dxWeb_mVerticalPopOutRtl_RedWine,
+.dxWeb_mSubMenuItem_RedWine,
+.dxWeb_mSubMenuItemChecked_RedWine,
+.dxWeb_mScrollUp_RedWine,
+.dxWeb_mScrollDown_RedWine,
+.dxWeb_tcScrollLeft_RedWine,
+.dxWeb_tcScrollRight_RedWine,
+.dxWeb_tcScrollLeftHover_RedWine,
+.dxWeb_tcScrollRightHover_RedWine,
+.dxWeb_tcScrollLeftPressed_RedWine,
+.dxWeb_tcScrollRightPressed_RedWine,
+.dxWeb_tcScrollLeftDisabled_RedWine,
+.dxWeb_tcScrollRightDisabled_RedWine,
+.dxWeb_nbCollapse_RedWine,
+.dxWeb_nbExpand_RedWine,
+.dxWeb_splVSeparator_RedWine,
+.dxWeb_splVSeparatorHover_RedWine,
+.dxWeb_splHSeparator_RedWine,
+.dxWeb_splHSeparatorHover_RedWine,
+.dxWeb_splVCollapseBackwardButton_RedWine,
+.dxWeb_splVCollapseBackwardButtonHover_RedWine,
+.dxWeb_splHCollapseBackwardButton_RedWine,
+.dxWeb_splHCollapseBackwardButtonHover_RedWine,
+.dxWeb_splVCollapseForwardButton_RedWine,
+.dxWeb_splVCollapseForwardButtonHover_RedWine,
+.dxWeb_splHCollapseForwardButton_RedWine,
+.dxWeb_splHCollapseForwardButtonHover_RedWine,
+.dxWeb_pcCloseButton_RedWine,
+.dxWeb_pcPinButton_RedWine,
+.dxWeb_pcRefreshButton_RedWine,
+.dxWeb_pcCollapseButton_RedWine,
+.dxWeb_pcMaximizeButton_RedWine,
+.dxWeb_pcSizeGrip_RedWine,
+.dxWeb_pcSizeGripRtl_RedWine,
+.dxWeb_pPopOut_RedWine,
+.dxWeb_pPopOutDisabled_RedWine,
+.dxWeb_pAll_RedWine,
+.dxWeb_pAllDisabled_RedWine,
+.dxWeb_pPrev_RedWine,
+.dxWeb_pPrevDisabled_RedWine,
+.dxWeb_pNext_RedWine,
+.dxWeb_pNextDisabled_RedWine,
+.dxWeb_pLast_RedWine,
+.dxWeb_pLastDisabled_RedWine,
+.dxWeb_pFirst_RedWine,
+.dxWeb_pFirstDisabled_RedWine,
+.dxWeb_tiBackToTop_RedWine,
+.dxWeb_smBullet_RedWine,
+.dxWeb_tvColBtn_RedWine,
+.dxWeb_tvColBtnRtl_RedWine,
+.dxWeb_tvExpBtn_RedWine,
+.dxWeb_tvExpBtnRtl_RedWine,
+.dxWeb_fmFolder_RedWine,
+.dxWeb_fmFolderLocked_RedWine,
+.dxWeb_fmCreateButton_RedWine,
+.dxWeb_fmMoveButton_RedWine,
+.dxWeb_fmRenameButton_RedWine,
+.dxWeb_fmDeleteButton_RedWine,
+.dxWeb_fmRefreshButton_RedWine,
+.dxWeb_fmDwnlButton_RedWine,
+.dxWeb_fmCreateButtonDisabled_RedWine,
+.dxWeb_fmMoveButtonDisabled_RedWine,
+.dxWeb_fmRenameButtonDisabled_RedWine,
+.dxWeb_fmDeleteButtonDisabled_RedWine,
+.dxWeb_fmRefreshButtonDisabled_RedWine,
+.dxWeb_fmDwnlButtonDisabled_RedWine,
+.dxWeb_ucClearButton_RedWine,
+.dxWeb_ucClearButtonDisabled_RedWine,
+.dxWeb_isPrevBtnHor_RedWine,
+.dxWeb_isNextBtnHor_RedWine,
+.dxWeb_isPrevBtnVert_RedWine,
+.dxWeb_isNextBtnVert_RedWine,
+.dxWeb_isPrevPageBtnHor_RedWine,
+.dxWeb_isPrevPageBtnHorOutside_RedWine,
+.dxWeb_isNextPageBtnHor_RedWine,
+.dxWeb_isNextPageBtnHorOutside_RedWine,
+.dxWeb_isPrevPageBtnVert_RedWine,
+.dxWeb_isPrevPageBtnVertOutside_RedWine,
+.dxWeb_isNextPageBtnVert_RedWine,
+.dxWeb_isNextPageBtnVertOutside_RedWine,
+.dxWeb_isPrevBtnHorDisabled_RedWine,
+.dxWeb_isNextBtnHorDisabled_RedWine,
+.dxWeb_isPrevBtnVertDisabled_RedWine,
+.dxWeb_isNextBtnVertDisabled_RedWine,
+.dxWeb_isPrevPageBtnHorDisabled_RedWine,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_RedWine,
+.dxWeb_isNextPageBtnHorDisabled_RedWine,
+.dxWeb_isNextPageBtnHorOutsideDisabled_RedWine,
+.dxWeb_isPrevPageBtnVertDisabled_RedWine,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_RedWine,
+.dxWeb_isNextPageBtnVertDisabled_RedWine,
+.dxWeb_isNextPageBtnVertOutsideDisabled_RedWine,
+.dxWeb_isDot_RedWine,
+.dxWeb_isDotDisabled_RedWine,
+.dxWeb_isDotSelected_RedWine,
+.dxWeb_fmGvHeaderFilterActive_RedWine,
+.dxWeb_fmGvHeaderFilter_RedWine,
+.dxWeb_fmGvHeaderSortDown_RedWine,
+.dxWeb_fmGvHeaderSortUp_RedWine,
+.dxWeb_fmThumbnailCheck_RedWine,
+.dxWeb_isPlayBtn_RedWine,
+.dxWeb_isPauseBtn_RedWine,
+.dxWeb_igCloseButton_RedWine,
+.dxWeb_igNextButton_RedWine,
+.dxWeb_igPrevButton_RedWine,
+.dxWeb_igPlayButton_RedWine,
+.dxWeb_igPauseButton_RedWine,
+.dxWeb_igNavigationBarMarker_RedWine
+{
+    display:block;
+}
+.dxWeb_mScrollUp_RedWine, .dxWeb_mScrollDown_RedWine
+{
+	margin: auto;
+}
+.dxWeb_smBullet_RedWine,
+.dxWeb_tiBackToTop_RedWine,
+.dxWeb_fmGvHeaderFilter_RedWine,
+.dxWeb_fmGvHeaderFilterActive_RedWine,
+.dxWeb_fmGvHeaderSortDown_RedWine,
+.dxWeb_fmGvHeaderSortUp_RedWine
+{
+	display:inline;
+}
+

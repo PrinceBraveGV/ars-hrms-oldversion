@@ -1,0 +1,490 @@
+.dxcvControl_PlasticBlue,
+.dxcvDisabled_PlasticBlue
+{
+    border-top: 1px none #CCCCCC;
+    border: 1px Solid #CCCCCC;
+    font: 12px Tahoma, Geneva, sans-serif;
+    background-color: #F0F0F0;
+    color: #000000;
+    cursor: default;
+}
+.dxcvDisabled_PlasticBlue
+{
+    color: #9CAFDF!important;
+}
+
+.dxcvControl_PlasticBlue a
+{
+    color: #5A83D0;
+}
+.dxcvControl_PlasticBlue a:hover
+{
+    color: #2443AA;
+}
+.dxcvDisabled_PlasticBlue a
+{
+    color: Gray;
+}
+
+.dxcvLoadingPanel_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #303030;
+    border: 1px solid #CBCBCB;
+    background-color: White;
+}
+.dxcvLoadingPanel_PlasticBlue td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px;
+}
+.dxcvLoadingPanel_PlasticBlue .dxlp-loadingImage,
+.dxcvLoadingPanelStatusBar_PlasticBlue .dxlp-loadingImage 
+{
+    background-image: url('../Web/Loading.gif');
+    height: 20px;
+    width: 19px;
+}
+.dxcvLoadingPanelStatusBar_PlasticBlue
+{
+    background-color: transparent;
+    color: #000000;
+}
+.dxcvLoadingPanelStatusBar_PlasticBlue td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+
+.dxcvFilterPopupWindow_PlasticBlue
+{
+    color: Black;
+    border: 1px solid #cbcbcb;
+}
+.dxcvFilterPopupItemsArea_PlasticBlue
+{
+    color: Black;
+    background-color: White;
+}
+.dxcvFilterPopupButtonPanel_PlasticBlue
+{
+    background-color: #e8e8e8;
+    border: 1px solid #dcdcdc;
+    border-left: 0px solid #dcdcdc;
+    color: Black;
+}
+
+.dxcvFilterPopupItem_PlasticBlue td.dxcv,
+.dxcvFilterPopupActiveItem_PlasticBlue td.dxcv,
+.dxcvFilterPopupSelectedItem_PlasticBlue td.dxcv
+{
+    padding: 2px 2px 3px 4px;
+    border-left: 1px solid White;
+    border-bottom: 1px solid #FAFAFA;
+    border-right: 1px solid White;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_PlasticBlue
+{
+    background: #dedede none;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_PlasticBlue
+{
+    color: White;
+    background: #5066ac none;
+}
+
+.dxcvTable_PlasticBlue
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dxcvHeader_PlasticBlue
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 7px 6px;
+    border-top: 1px none #2c4182;
+    border: 1px solid #2c4182;
+    background: #415698 url('cvHeaderBackground.gif') repeat-x top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+.dxcvHeader_PlasticBlue a,
+.dxcvHeader_PlasticBlue a:hover
+{
+    color: White;
+}
+
+.dxcvHeader_PlasticBlue,
+.dxcvHeader_PlasticBlue table
+{
+    color: White;
+}
+.dxcvHeader_PlasticBlue td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_PlasticBlue a.dxcvCommandItem_PlasticBlue
+{
+    margin: 0px 3px 0px 0px;
+    color: White;
+}
+.dxcvHeader_PlasticBlue a.dxcvCommandItem_PlasticBlue:hover
+{
+    color: White;
+}
+.dxcvCustomization_PlasticBlue
+{
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.dxcvTitlePanel_PlasticBlue,
+.dxcvTable_PlasticBlue caption
+{
+    padding: 3px 3px 5px;
+    font-size: 1.25em;
+    text-align: center;
+    color: #707070;
+}
+.dxcvStatusBar_PlasticBlue
+{
+    border-top: 1px solid #CCCCCC;
+    background-color: #E8E8E8;
+    color: Black;
+}
+.dxcvStatusBar_PlasticBlue tr.dxcv
+{
+    height: 22px;
+}
+.dxcvStatusBar_PlasticBlue tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxbButton_PlasticBlue[class~="dxcvCommandItem_PlasticBlue"]
+{
+    margin: 0px 2px 0px 2px;
+}
+.dxbButton_PlasticBlue[class~="dxcvCommandItem_PlasticBlue"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvPagerTopPanel_PlasticBlue,
+.dxcvPagerBottomPanel_PlasticBlue
+{
+    padding: 6px 0;
+}
+.dxcvPagerTopPanel_PlasticBlue 
+{
+    border-bottom: 1px solid #CCCCCC;
+}
+.dxcvPagerBottomPanel_PlasticBlue
+{
+    border-top: 1px solid #CCCCCC;
+}
+
+.dxcvPagerTopPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table,
+.dxcvPagerBottomPanel_PlasticBlue .dxpPageSizeItem_PlasticBlue > table
+{
+    margin: -2px 0px;
+}
+
+.dxcvPagerTopPanel_PlasticBlue .dxpPSI .dxpPageSizeItem_PlasticBlue > table,
+.dxcvPagerBottomPanel_PlasticBlue .dxpPSI .dxpPageSizeItem_PlasticBlue > table
+{
+    *margin: 0px;
+}
+
+.dxcvFilterBar_PlasticBlue
+{
+    border-top: 1px solid #CCCCCC;
+    background-color: #E8E8E8;
+}
+.dxcvFilterBar_PlasticBlue a
+{
+    color: #5A83D0;
+    text-decoration: underline;
+}
+.dxcvFilterBar_PlasticBlue a:hover
+{
+    color: #2443AA;
+}
+.dxcvFilterBarCheckBoxCell_PlasticBlue
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_PlasticBlue
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_PlasticBlue
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_PlasticBlue
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_PlasticBlue
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_PlasticBlue
+{
+    border-top: 1px solid #e0e0e0;
+    background-color: #E9E9E9;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_PlasticBlue .dxcvHFSAC
+{
+    padding: 8px 0 0 5px;
+}
+.dxcvControl_PlasticBlue .dxcvHFSC
+{
+    padding: 8px 0 6px;
+}
+.dxcvControl_PlasticBlue .dxcvHFSC div
+{
+    height: 1px;
+    background: #CCCCCC;
+}
+.dxcvControl_PlasticBlue .dxcvHFSAC,
+.dxcvControl_PlasticBlue .dxcvHFSC,
+.dxcvControl_PlasticBlue .dxcvHFLC
+{
+    background: #fafafa;
+}
+.dxcvControl_PlasticBlue div[id$='DXEPLPC']
+{
+    height: 45px;
+}
+
+.dxcvControl_PlasticBlue .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_PlasticBlue .dxcvHFDRC
+{
+    margin: 10px;
+}
+.dxcvControl_PlasticBlue .dxcvHFDRP
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_PlasticBlue .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_PlasticBlue .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_PlasticBlue
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_PlasticBlue
+{
+    padding: 10px 4px 10px 8px;
+}
+.dxcvSearchPanel_PlasticBlue > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_PlasticBlue .dxcvSearchPanel_PlasticBlue .dxbButton_PlasticBlue
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_PlasticBlue .dxcvSearchPanel_PlasticBlue .dxbButton_PlasticBlue {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_PlasticBlue .dxcvHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_PlasticBlue .dxcvSearchPanel_PlasticBlue .dxbButton_PlasticBlue
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_PlasticBlue .dxcvSearchPanel_PlasticBlue .dxbButton_PlasticBlue .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.dxcvCard_PlasticBlue,
+.dxcvFlowCard_PlasticBlue,
+.dxcvEmptyCard_PlasticBlue,
+.dxcvEmptyHiddenCard_PlasticBlue
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_PlasticBlue,
+.dxcvFlowCard_PlasticBlue,
+.dxcvEmptyCard_PlasticBlue
+{
+    border: 1px solid #D9D9D9;
+    background-color: #F0F0F0;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_PlasticBlue
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_PlasticBlue
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_PlasticBlue,
+div.dxcvEmptyCard_PlasticBlue
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_PlasticBlue,
+.dxcvFocusedCard_PlasticBlue
+{
+    border-color: #6D82C5;
+    outline: 3px solid #6D82C5;
+}
+.dxcvFocusedCard_PlasticBlue
+{
+    background-color: White;
+}
+.dxcvCardHover_PlasticBlue
+{
+    border-color: #BDBDBD;
+    outline: 3px solid #DEDEDE;
+}
+
+.dxcvCard_PlasticBlue .dxflCaption_PlasticBlue,
+.dxcvFlowCard_PlasticBlue .dxflCaption_PlasticBlue
+{
+    color: #7F7F7F;
+}
+.dxcvCard_PlasticBlue .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_PlasticBlue .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_PlasticBlue
+{
+    background-color: #F0F0F0;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_PlasticBlue
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_PlasticBlue
+{
+    background-color: #6D82C5;
+    color: white;
+    border-top: 1px solid #CCCCCC;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_PlasticBlue
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_PlasticBlue .dxcvSeparator_PlasticBlue,
+.dxcvControl_PlasticBlue .dxcvSeparator_PlasticBlue div
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.dxcvControl_PlasticBlue td.dxcvBatchEditCell_PlasticBlue
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_PlasticBlue .dxcvBatchEditModifiedCell_PlasticBlue
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_PlasticBlue .dxcvErrorCell_PlasticBlue
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_PlasticBlue .dxcvErrorCell_PlasticBlue img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_PlasticBlue .dxbButton_PlasticBlue
+{
+    margin-right: 10px;
+}
+.dxcvControl_PlasticBlue td.dxcvBatchEditCell_PlasticBlue .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_PlasticBlue .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_PlasticBlue
+{
+ 	background-color: #FFC8C8;
+    border-top: 1px solid #D9D9D9;
+	color: #FF0000;
+    padding: 6px 13px;
+}

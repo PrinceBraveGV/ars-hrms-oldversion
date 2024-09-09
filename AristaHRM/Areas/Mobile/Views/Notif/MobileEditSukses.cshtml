@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = " - Konfirmasi Perubahan Data -";
+    Layout = "~/Areas/Mobile/Views/Shared/_redirectMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "Dashboard", "Index", mobilearea, new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">Konfirmasi Perubahan Data</li>
+        <li data-role="fieldcontain" style="text-align:center">
+            <p>Anda telah berhasil melakukan perubahan data. Tap tombol "Kembali" untuk kembali ke menu utama.</p>
+        </li>
+    </ul>
+    
+    <div data-role="footer" style="text-align:center">@Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { hidefocus = "hidefocus" })</div>
+}
+

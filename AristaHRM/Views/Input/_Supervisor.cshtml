@@ -1,0 +1,22 @@
+﻿@using AristaHRM.Models
+
+@model KaryawanModel
+
+@Html.DevExpress().ComboBoxFor(m => m.NIK_Supervisor, combosettings =>
+{
+    combosettings.Name = "NIK_Supervisor";
+    combosettings.CallbackRouteValues = new { Controller = "Input", Action = "SupervisorPartial" };
+    combosettings.Properties.NullText = "-- Pilih --";
+    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combosettings.Properties.TextField = "Nama_Karyawan";
+    combosettings.Properties.ValueField = "NIK";
+    combosettings.Properties.TextFormatString = "{1}";
+    combosettings.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(50));
+    combosettings.Properties.Columns.Add("Nama_Karyawan", "Nama", Unit.Pixel(120));
+    combosettings.Properties.Columns.Add("Perusahaan", "Perusahaan", Unit.Pixel(120));
+    combosettings.Properties.Columns.Add("Jabatan", "Jabatan", Unit.Pixel(120));
+    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    // combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Cabang'] = Cabang.GetValue(); e.customArgs['Departemen'] = Departemen.GetValue(); }";
+    combosettings.Width = Unit.Pixel(300);
+    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+}).BindList(Providers.GetAtasan()).Bind(Model.NIK_Supervisor).GetHtml()

@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web.ASPxSpreadsheet" Assembly="DevExpress.Web.ASPxSpreadsheet.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc5.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxSpreadsheet runat="server">
+    <Images SpriteCssFilePath="~/App_Themes/Youthful/{0}/sprite.css" MenuIconSet="Colored"></Images>
+    <Styles CssFilePath="~/App_Themes/Youthful/{0}/styles.css" CssPostfix="Youthful"></Styles>
+</dxmvc:MVCxSpreadsheet>
+

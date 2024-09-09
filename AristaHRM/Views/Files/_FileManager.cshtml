@@ -1,0 +1,25 @@
+﻿@using AristaHRM.Models
+
+@Html.DevExpress().FileManager(settings =>
+{
+       settings.Name = "fileManager";
+       settings.CallbackRouteValues = new { Controller = "Files", Action = "FileManagerPartial" };
+       settings.DownloadRouteValues = new { Controller = "Files", Action = "DownloadFiles" };
+       settings.Width = Unit.Percentage(100);
+       settings.Height = Unit.Pixel(800);
+       settings.Settings.AllowedFileExtensions = FileManagerHelper.AllowedFileExtensions;
+       settings.Settings.InitialFolder = Url.Content("~/Files");
+       settings.Settings.ThumbnailFolder = Url.Content("~/Files");
+       settings.Settings.EnableMultiSelect = true;
+       settings.Settings.UseAppRelativePath = true;
+       settings.SettingsEditing.AllowDownload = true;
+       settings.SettingsFileList.View = (FileListView)Session["ListViewMode"];
+       settings.SettingsEditing.Assign(FileManagerHelper.FeatureOptions.SettingsEditing);
+       settings.SettingsFolders.Assign(FileManagerHelper.FeatureOptions.SettingsFolders);
+       settings.SettingsToolbar.Assign(FileManagerHelper.FeatureOptions.SettingsToolbar);
+       settings.SettingsUpload.Assign(FileManagerHelper.FeatureOptions.SettingsUpload);
+       settings.SettingsUpload.NullText = "Pilih berkas untuk proses upload";
+       settings.SettingsFolders.HideAspNetFolders = true;
+       settings.Styles.FolderContainer.Width = Unit.Percentage(20);
+       settings.SettingsPermissions.AccessRules.Add(new FileManagerFolderAccessRule { Path = "System", Edit = Rights.Deny });
+}).BindToFolder(Model).GetHtml()

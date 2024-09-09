@@ -1,0 +1,22 @@
+﻿@using AristaHRM.Models
+
+@model MutasiModel
+
+@{
+    Html.DevExpress().ComboBoxFor(m => m.Atasan_Baru, combosettings =>
+    {
+        combosettings.Name = "Atasan_Baru";
+        combosettings.CallbackRouteValues = new { Controller = "Admin", Action = "AtasanBaruPartial" };
+        combosettings.Properties.NullText = "-- Pilih/Ketik Atasan Baru --";
+        combosettings.Properties.HelpText = "Isi dengan atasan utama yang baru pada departemen kerja ybs (bila berubah).";
+        combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+        combosettings.Properties.TextField = "Nama_Atasan";
+        combosettings.Properties.ValueField = "Nama_Atasan";
+        combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+        combosettings.Properties.ValidationSettings.Display = Display.None;
+        combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+        combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Departemen_Baru'] = Departemen_Baru.GetValue(); }";
+        combosettings.Width = Unit.Pixel(300);
+        combosettings.Theme = AristaHRM.Theme.SelectTheme;
+    }).BindList(Providers.GetAtasanByDepartemen(Model.Departemen_Baru)).Bind(Model.Atasan_Baru).GetHtml();
+}

@@ -1,0 +1,187 @@
+.dxssControl_MarineBlue {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aecaf0;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_MarineBlue .dxrControl_MarineBlue .dxr-tabContent {
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_MarineBlue .dxss-gl .dxss-v,
+.dxssControl_MarineBlue .dxss-gl .dxss-h {
+	border-color: #aecaf0;
+}
+.dxssControl_MarineBlue .dxss-rowHeader {	
+	border-right: 1px solid #aecaf0;
+	border-top: 1px solid #aecaf0;
+}
+.dxssControl_MarineBlue .dxss-colHeader {
+	border-left: 1px solid #aecaf0;
+	border-bottom: 1px solid #aecaf0;
+}
+.dxssControl_MarineBlue .dxrControl_MarineBlue .dxtcLite_MarineBlue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_MarineBlue .dxtcLite_MarineBlue.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_MarineBlue .dxtcLite_MarineBlue
+{
+	padding-bottom: 6px;
+}
+.dxssControl_MarineBlue .dxrControl_MarineBlue .dxtcLite_MarineBlue
+{
+	padding-bottom: 0px;
+}
+.dxssControl_MarineBlue .dxtcLite_MarineBlue,
+.dxssControl_MarineBlue .dxrControl_MarineBlue .dxtcLite_MarineBlue
+{
+	background-color: #BEDAFF;
+}
+.dxssControl_MarineBlue .dxrControl_MarineBlue .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxssControl_MarineBlue .dxss-crse {
+	background-color: #FFC849;
+}
+.dxssControl_MarineBlue .dxss-trbe {
+	border-top-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-rrbe {
+	border-right-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-brbe {
+	border-bottom-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-lrbe {
+	border-left-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-smbe
+{
+    border-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-hrg,
+.dxssControl_MarineBlue .dxss-vrg
+{
+	background-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-tse
+{
+	border-color: #FFBD69;
+}
+.dxssControl_MarineBlue .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_MarineBlue .dxss-ddp,
+.dxssControl_MarineBlue .dxss-ddb
+{
+    border: 1px solid #AECAF0;
+}
+.dxssControl_MarineBlue .dxss-ddp tr:hover
+{
+    background-color: #FFE7A2;
+}
+/*Loading Panel*/
+.dxssLoadingDiv_MarineBlue
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #aecaf0;
+}
+.dxssLoadingPanel_MarineBlue  td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxssLoadingPanel_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_MarineBlue .dxssDlgFooter
+{
+	background-color: #DBEBFF;
+	border-top: 1px #C1DBFA solid;
+}
+.dxpcLite_MarineBlue .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_MarineBlue .dxrpControl_MarineBlue .dxrpcontent
+{
+	padding: 11px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_MarineBlue
+{
+	color: #7E3C31;
+	background: #FEDC75 url('../Editors/edtButtonHoverBack.gif') repeat-x top;
+	border: 1px solid #D6A886;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_MarineBlue
+{
+	color: #7E3C31;
+	background: #FFB46D url('../Editors/edtButtonCheckedBack.gif') repeat-x top;
+	border: 1px solid #CB9280;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_MarineBlue
+{
+	color: #7E3C31;
+	background: #FFB46D url('../Editors/edtButtonPressedBack.gif') repeat-x top;
+	border: 1px solid #CB9280;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_MarineBlue .dxss-ctve {
+	border: 2px solid #FFBD69; /*the same -dxss-cfe */
+}
+.dxssControl_MarineBlue .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #AECAF0;
+}
+.dxssControl_MarineBlue .dxmLite_MarineBlue .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_MarineBlue .dxss-fbMenu .dxm-content {
+    padding-top: 1px!important;
+    padding-left: 11px!important;
+    padding-right: 11px!important;
+}
+.dxssControl_MarineBlue .dxss-Hint {
+    border: 1px solid #98B7E5;
+    background-color: #E0EDFF;
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0EDFF', endColorstr='#D1E4FE');
+	background: -webkit-gradient(linear, left top, left bottom, from(#E0EDFF), to(#D1E4FE));
+	background: -moz-linear-gradient(top,  #E0EDFF,  #D1E4FE);
+}
+.dxssControl_MarineBlue .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

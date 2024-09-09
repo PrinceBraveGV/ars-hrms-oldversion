@@ -1,0 +1,496 @@
+.dxcvControl_BlackGlass,
+.dxcvDisabled_BlackGlass
+{
+    border: 1px solid #4E4F51;
+    font: 12px Tahoma, Geneva, sans-serif;
+    background-color: #E8EDF1;
+    color: Black;
+    cursor: default;
+}
+.dxcvDisabled_BlackGlass
+{
+    color: Gray;
+}
+.dxcvControl_BlackGlass a
+{
+    color: #5555FF;
+}
+.dxcvDisabled_BlackGlass a
+{
+    color: Gray;
+}
+/*Loading Panel*/
+
+.dxcvLoadingPanel_BlackGlass
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #303030;
+    border: 1px solid #9F9F9F;
+    background-color: White;
+}
+.dxcvLoadingPanel_BlackGlass td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px;
+}
+.dxcvLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 32px;
+    width: 32px;
+}
+.dxcvLoadingPanelStatusBar_BlackGlass .dxlp-loadingImage 
+{
+    background-image: url('cvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxcvLoadingPanelStatusBar_BlackGlass
+{
+    background-color: transparent;
+}
+.dxcvLoadingPanelStatusBar_BlackGlass td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+
+.dxcvFilterPopupWindow_BlackGlass
+{
+    color: Black;
+    border: 1px solid #9f9f9f;
+}
+.dxcvFilterPopupItemsArea_BlackGlass
+{
+    color: Black;
+    background-color: White;
+}
+.dxcvFilterPopupButtonPanel_BlackGlass
+{
+    background-color: #cad7de;
+    border: 1px solid #dcdcdc;
+    border-left: 0px solid #dcdcdc;
+    color: Black;
+}
+
+.dxcvFilterPopupItem_BlackGlass td.dxcv,
+.dxcvFilterPopupActiveItem_BlackGlass td.dxcv,
+.dxcvFilterPopupSelectedItem_BlackGlass td.dxcv
+{
+    padding: 2px 2px 3px 3px;
+    border: 1px solid White;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_BlackGlass
+{
+    background: #C1CED9 none;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_BlackGlass
+{
+    background: #93A7BA none;
+    color: white;
+}
+
+.dxcvPagerTopPanel_BlackGlass
+{
+    border-bottom: 1px solid #A4BED1;
+}
+.dxcvPagerBottomPanel_BlackGlass
+{
+    border-top: 1px solid #A4BED1;
+}
+
+.dxcvTable_BlackGlass
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+.dxcvTable_BlackGlass .dxcvHeader_BlackGlass
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.dxcvHeader_BlackGlass
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 4px 7px 6px;
+    background: #444444 url('cvHeaderBackground.gif') repeat-x left top;
+    border: 1px solid #4e4f51;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+.dxcvHeader_BlackGlass a,
+.dxcvHeader_BlackGlass a:hover
+{
+    color: White;
+}
+
+.dxcvHeader_BlackGlass,
+.dxcvHeader_BlackGlass table
+{
+    color: White;
+}
+.dxcvHeader_BlackGlass td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_BlackGlass a.dxcvCommandItem_BlackGlass
+{
+    margin: 0px 3px 0px 0px;
+}
+.dxcvHeader_BlackGlass a.dxbButton_BlackGlass[class~="dxcvCommandItem_BlackGlass"]
+{
+    color: white;
+}
+.dxcvHeader_BlackGlass a.dxbButton_BlackGlass[class~="dxcvCommandItem_BlackGlass"]:hover
+{
+    color: #ff9600;
+}
+.dxcvHeader_BlackGlass .dxbButton_BlackGlass[class~="dxcvCommandItem_BlackGlass"]
+{
+    margin: 1px 2px -1px;
+}
+.dxcvCustomization_BlackGlass,
+.dxcvPopupEditForm_BlackGlass
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxcvTitlePanel_BlackGlass,
+.dxcvTable_BlackGlass caption
+{
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    background-color: #c9d7dc;
+    border-bottom: 1px solid black;
+}
+.dxcvLoadingDiv_BlackGlass
+{
+    background-color: Gray;
+    opacity: 0.01;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxcvStatusBar_BlackGlass
+{
+    border-top: 1px solid #a4bed1;
+}
+.dxcvStatusBar_BlackGlass tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_BlackGlass tr.dxcv > td
+{
+    padding: 4px;
+}
+.dxcvCommandItem_BlackGlass
+{
+    padding: 2px;
+}
+.dxcvCommandItem_BlackGlass a
+{
+    margin: 0px 3px 0px 0px;
+    color: #3e6b96;
+}
+.dxcvCommandItem_BlackGlass a:hover
+{
+    color: #ff9600;
+}
+
+.dxbButton_BlackGlass[class~="dxcvCommandItem_BlackGlass"]
+{
+    margin: -1px 2px 0px;
+}
+.dxbButton_BlackGlass[class~="dxcvCommandItem_BlackGlass"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvFilterBar_BlackGlass
+{
+    border-top: 1px solid #a4bed1;
+    background-color: #d3e3ed;
+}
+.dxcvFilterBar_BlackGlass a
+{
+    color: #3e6b96;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_BlackGlass
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_BlackGlass
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_BlackGlass
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_BlackGlass
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_BlackGlass
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_BlackGlass
+{
+    border-top: 1px solid #b2bcc7;
+    background: #C9D6DE none;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_BlackGlass .dxcvHFSAC
+{
+    padding: 9px 0 0 4px;
+}
+.dxcvControl_BlackGlass .dxcvHFSC
+{
+    padding: 9px 0 7px;
+}
+.dxcvControl_BlackGlass .dxcvHFSC div
+{
+    height: 1px;
+    background: #4E4F51;
+}
+.dxcvControl_BlackGlass .dxcvHFSAC,
+.dxcvControl_BlackGlass .dxcvHFSC,
+.dxcvControl_BlackGlass .dxcvHFLC
+{
+    background: White;
+}
+.dxcvControl_BlackGlass div[id$='DXEPLPC']
+{
+    height: 57px;
+}
+
+.dxcvControl_BlackGlass .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_BlackGlass .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_BlackGlass .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_BlackGlass .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_BlackGlass .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_BlackGlass
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_BlackGlass
+{
+    padding: 7px 4px 7px 9px;
+    border-bottom: 1px solid #9F9F9F;
+}
+.dxcvSearchPanel_BlackGlass > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_BlackGlass .dxcvSearchPanel_BlackGlass .dxbButton_BlackGlass
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_BlackGlass .dxcvSearchPanel_BlackGlass .dxbButton_BlackGlass {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_BlackGlass .dxcvHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_BlackGlass .dxcvSearchPanel_BlackGlass .dxbButton_BlackGlass
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_BlackGlass .dxcvSearchPanel_BlackGlass .dxbButton_BlackGlass .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+.dxcvCard_BlackGlass,
+.dxcvFlowCard_BlackGlass,
+.dxcvEmptyCard_BlackGlass,
+.dxcvEmptyHiddenCard_BlackGlass
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_BlackGlass,
+.dxcvFlowCard_BlackGlass,
+.dxcvEmptyCard_BlackGlass
+{
+    border: 1px solid #A4BED1;
+    background-color: #E8EDF1;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_BlackGlass
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_BlackGlass
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_BlackGlass,
+div.dxcvEmptyCard_BlackGlass
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_BlackGlass,
+.dxcvFocusedCard_BlackGlass
+{
+    border-color: #A4BED1;
+    outline: 3px solid #E0EAEC;
+}
+.dxcvFocusedCard_BlackGlass
+{
+    background-color: White;
+}
+.dxcvCardHover_BlackGlass
+{
+    border-color: #A4BED1;
+    outline: 3px solid #CEDAE5;
+}
+
+.dxcvCard_BlackGlass .dxflCaption_BlackGlass,
+.dxcvFlowCard_BlackGlass .dxflCaption_BlackGlass
+{
+    color: #7F7F7F;
+}
+.dxcvCard_BlackGlass .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_BlackGlass .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_BlackGlass
+{
+    border-bottom: 1px solid #A4BED1;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_BlackGlass
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_BlackGlass
+{
+    background: #CCDAE3;
+    border-top: 1px solid #A4BED1;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_BlackGlass
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_BlackGlass .dxcvSeparator_BlackGlass,
+.dxcvControl_BlackGlass .dxcvSeparator_BlackGlass div
+{
+    width: 20px;
+    height: 20px;
+}
+
+.dxcvControl_BlackGlass td.dxcvBatchEditCell_BlackGlass
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_BlackGlass .dxcvBatchEditModifiedCell_BlackGlass
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_BlackGlass .dxcvErrorCell_BlackGlass
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_BlackGlass .dxcvErrorCell_BlackGlass img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_BlackGlass .dxbButton_BlackGlass
+{
+    margin-right: 10px;
+}
+.dxcvControl_BlackGlass td.dxcvBatchEditCell_BlackGlass .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_BlackGlass .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_BlackGlass
+{
+ 	background-color: #FFC8C8;	
+    border-top: 1px solid #A4BED1;
+	color: Red;
+    padding: 6px 13px;
+}

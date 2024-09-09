@@ -1,0 +1,274 @@
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_Mulberry,
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_Mulberry,
+.dxPivotGrid_FLBottomPanelOnly2by2_Mulberry,
+.dxPivotGrid_FLButton_Mulberry,
+.dxPivotGrid_FLColumnAreaHeaders_Mulberry,
+.dxPivotGrid_FLDataAreaHeaders_Mulberry,
+.dxPivotGrid_FLFieldList_Mulberry,
+.dxPivotGrid_FLFilterAreaHeaders_Mulberry,
+.dxPivotGrid_FLRowAreaHeaders_Mulberry,
+.dxPivotGrid_FLStackedDefault_Mulberry,
+.dxPivotGrid_FLStackedSideBySide_Mulberry,
+.dxPivotGrid_FLTopPanelOnly_Mulberry,
+.dxPivotGrid_pgCollapsedButton_Mulberry,
+.dxPivotGrid_pgCustomizationFormCloseButton_Mulberry,
+.dxPivotGrid_pgDataHeaders_Mulberry,
+.dxPivotGrid_pgDragArrowDown_Mulberry,
+.dxPivotGrid_pgDragArrowLeft_Mulberry,
+.dxPivotGrid_pgDragArrowRight_Mulberry,
+.dxPivotGrid_pgDragArrowUp_Mulberry,
+.dxPivotGrid_pgDragHideField_Mulberry,
+.dxPivotGrid_pgExpandedButton_Mulberry,
+.dxPivotGrid_pgFilterButton_Mulberry,
+.dxPivotGrid_pgFilterButtonActive_Mulberry,
+.dxPivotGrid_pgFilterResizer_Mulberry,
+.dxPivotGrid_pgGroupSeparator_Mulberry,
+.dxPivotGrid_pgPrefilterButton_Mulberry,
+.dxPivotGrid_pgSortByColumn_Mulberry,
+.dxPivotGrid_pgSortDownButton_Mulberry,
+.dxPivotGrid_pgSortUpButton_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_Mulberry
+{
+    background-position: -208px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -68px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -102px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -119px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -187px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -153px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -51px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -247px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -34px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_Mulberry
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_Mulberry
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_Mulberry
+{
+    background-position: -204px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_Mulberry
+{
+    background-position: -85px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_Mulberry
+{
+    background-position: -170px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_Mulberry
+{
+    background-position: -17px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_Mulberry
+{
+    background-position: -136px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_Mulberry
+{
+    background-position: 0px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_Mulberry
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_Mulberry
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_Mulberry
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_Mulberry
+{
+    background-position: -247px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Mulberry
+{
+    background-position: -188px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_pgDataHeaders_Mulberry
+{
+    background-position: -215px -20px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgDragArrowDown_Mulberry
+{
+    background-position: -171px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_Mulberry
+{
+    background-position: -205px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_Mulberry
+{
+    background-position: -195px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_Mulberry
+{
+    background-position: -183px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_Mulberry
+{
+    background-position: -165px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxPivotGrid_pgExpandedButton_Mulberry
+{
+    background-position: -263px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButton_Mulberry
+{
+    background-position: -221px -33px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_Mulberry
+{
+    background-position: -228px -19px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterResizer_Mulberry
+{
+    background-position: -228px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgGroupSeparator_Mulberry
+{
+    background-position: -165px -31px;
+    width: 5px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_Mulberry
+{
+    background-position: -264px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortByColumn_Mulberry
+{
+    background-position: -240px -33px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_Mulberry
+{
+    background-position: -256px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortUpButton_Mulberry
+{
+    background-position: -266px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_Mulberry
+{
+	background-color: #BF4E6A;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_Mulberry,
+.dxPivotGrid_FLButton_Mulberry
+{
+	display: block;
+}
+

@@ -1,0 +1,703 @@
+.dxScheduler_Appointment_DayClock_Mulberry,
+.dxScheduler_Appointment_EndArrow_Mulberry,
+.dxScheduler_Appointment_NightClock_Mulberry,
+.dxScheduler_Appointment_NoRecurrence_Mulberry,
+.dxScheduler_Appointment_Recurrence_Mulberry,
+.dxScheduler_Appointment_Reminder_Mulberry,
+.dxScheduler_Appointment_StartArrow_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_00_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_05_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_10_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_15_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_20_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_25_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_30_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_35_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_40_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_45_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_50_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_hour_55_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_00_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_05_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_10_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_15_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_20_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_25_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_30_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_35_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_40_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_45_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_50_Mulberry,
+.dxScheduler_AppointmentClockArrows_day_minute_55_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_00_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_05_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_10_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_15_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_20_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_25_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_30_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_35_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_40_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_45_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_50_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_hour_55_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_00_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_05_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_10_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_15_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_20_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_25_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_30_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_35_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_40_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_45_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_50_Mulberry,
+.dxScheduler_AppointmentClockArrows_night_minute_55_Mulberry,
+.dxScheduler_InplaceEditor_Cancel_Mulberry,
+.dxScheduler_InplaceEditor_EditForm_Mulberry,
+.dxScheduler_InplaceEditor_Save_Mulberry,
+.dxScheduler_Menu_Delete_Mulberry,
+.dxScheduler_Menu_GoToDate_Mulberry,
+.dxScheduler_Menu_NewAppointment_Mulberry,
+.dxScheduler_Menu_RecurringAppointment_Mulberry,
+.dxScheduler_MoreButton_Bottom_Mulberry,
+.dxScheduler_MoreButton_Top_Mulberry,
+.dxScheduler_NavigationButton_Backward_Mulberry,
+.dxScheduler_NavigationButton_BackwardDisabled_Mulberry,
+.dxScheduler_NavigationButton_Forward_Mulberry,
+.dxScheduler_NavigationButton_ForwardDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_Decrease_Mulberry,
+.dxScheduler_ResourceNavigator_DecreaseDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_First_Mulberry,
+.dxScheduler_ResourceNavigator_FirstDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_Increase_Mulberry,
+.dxScheduler_ResourceNavigator_IncreaseDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_Last_Mulberry,
+.dxScheduler_ResourceNavigator_LastDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_Next_Mulberry,
+.dxScheduler_ResourceNavigator_NextDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_NextPage_Mulberry,
+.dxScheduler_ResourceNavigator_NextPageDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_Prev_Mulberry,
+.dxScheduler_ResourceNavigator_PrevDisabled_Mulberry,
+.dxScheduler_ResourceNavigator_PrevPage_Mulberry,
+.dxScheduler_ResourceNavigator_PrevPageDisabled_Mulberry,
+.dxScheduler_SmartTag_Mulberry,
+.dxScheduler_StatusInfo_Error_Mulberry,
+.dxScheduler_StatusInfo_Info_Mulberry,
+.dxScheduler_StatusInfo_Warning_Mulberry,
+.dxScheduler_TimeMarker_Mulberry,
+.dxScheduler_Tooltip_Bottom_Mulberry,
+.dxScheduler_Tooltip_BottomLeft_Mulberry,
+.dxScheduler_Tooltip_BottomRight_Mulberry,
+.dxScheduler_Tooltip_BottomStem_Mulberry,
+.dxScheduler_Tooltip_Empty_Mulberry,
+.dxScheduler_Tooltip_TopLeft_Mulberry,
+.dxScheduler_Tooltip_TopRight_Mulberry,
+.dxScheduler_ViewNavigator_Backward_Mulberry,
+.dxScheduler_ViewNavigator_Down_Mulberry,
+.dxScheduler_ViewNavigator_Forward_Mulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxScheduler_Appointment_DayClock_Mulberry
+{
+    background-position: -160px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_EndArrow_Mulberry
+{
+    background-position: -305px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NightClock_Mulberry
+{
+    background-position: -385px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_NoRecurrence_Mulberry
+{
+    background-position: -80px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Recurrence_Mulberry
+{
+    background-position: -16px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_Reminder_Mulberry
+{
+    background-position: -257px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_Appointment_StartArrow_Mulberry
+{
+    background-position: -320px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_00_Mulberry
+{
+    background-position: -302px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_05_Mulberry
+{
+    background-position: -254px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_10_Mulberry
+{
+    background-position: -288px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_15_Mulberry
+{
+    background-position: -32px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_20_Mulberry
+{
+    background-position: -240px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_25_Mulberry
+{
+    background-position: -286px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_30_Mulberry
+{
+    background-position: -368px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_35_Mulberry
+{
+    background-position: -321px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_40_Mulberry
+{
+    background-position: -350px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_45_Mulberry
+{
+    background-position: -192px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_50_Mulberry
+{
+    background-position: -16px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_hour_55_Mulberry
+{
+    background-position: -318px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_00_Mulberry
+{
+    background-position: -96px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_05_Mulberry
+{
+    background-position: -64px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_10_Mulberry
+{
+    background-position: -208px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_15_Mulberry
+{
+    background-position: -337px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_20_Mulberry
+{
+    background-position: -80px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_25_Mulberry
+{
+    background-position: -64px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_30_Mulberry
+{
+    background-position: -384px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_35_Mulberry
+{
+    background-position: -272px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_40_Mulberry
+{
+    background-position: -32px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_45_Mulberry
+{
+    background-position: -128px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_50_Mulberry
+{
+    background-position: -256px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_day_minute_55_Mulberry
+{
+    background-position: -304px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_00_Mulberry
+{
+    background-position: -366px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_05_Mulberry
+{
+    background-position: -273px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_10_Mulberry
+{
+    background-position: -209px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_15_Mulberry
+{
+    background-position: -270px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_20_Mulberry
+{
+    background-position: -96px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_25_Mulberry
+{
+    background-position: -353px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_30_Mulberry
+{
+    background-position: -225px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_35_Mulberry
+{
+    background-position: -176px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_40_Mulberry
+{
+    background-position: -334px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_45_Mulberry
+{
+    background-position: -112px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_50_Mulberry
+{
+    background-position: -112px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_hour_55_Mulberry
+{
+    background-position: -369px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_00_Mulberry
+{
+    background-position: -241px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_05_Mulberry
+{
+    background-position: -193px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_10_Mulberry
+{
+    background-position: 0px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_15_Mulberry
+{
+    background-position: -289px -38px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_20_Mulberry
+{
+    background-position: -352px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_25_Mulberry
+{
+    background-position: -48px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_30_Mulberry
+{
+    background-position: -48px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_35_Mulberry
+{
+    background-position: 0px -70px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_40_Mulberry
+{
+    background-position: -224px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_45_Mulberry
+{
+    background-position: -382px -22px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_50_Mulberry
+{
+    background-position: -144px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_AppointmentClockArrows_night_minute_55_Mulberry
+{
+    background-position: -336px -54px;
+    width: 15px;
+    height: 15px;
+}
+.dxScheduler_InplaceEditor_Cancel_Mulberry
+{
+    background-position: -274px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_EditForm_Mulberry
+{
+    background-position: -294px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_InplaceEditor_Save_Mulberry
+{
+    background-position: -254px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxScheduler_Menu_Delete_Mulberry
+{
+    background-position: -375px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_GoToDate_Mulberry
+{
+    background-position: -358px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_NewAppointment_Mulberry
+{
+    background-position: -341px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_Menu_RecurringAppointment_Mulberry
+{
+    background-position: -324px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxScheduler_MoreButton_Bottom_Mulberry
+{
+    background-position: -188px -27px;
+    width: 17px;
+    height: 10px;
+}
+.dxScheduler_MoreButton_Top_Mulberry
+{
+    background-position: -206px -27px;
+    width: 17px;
+    height: 10px;
+}
+.dxScheduler_NavigationButton_Backward_Mulberry
+{
+    background-position: -221px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_NavigationButton_BackwardDisabled_Mulberry
+{
+    background-position: -199px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_NavigationButton_Forward_Mulberry
+{
+    background-position: -188px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_NavigationButton_ForwardDisabled_Mulberry
+{
+    background-position: -210px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_ResourceNavigator_Decrease_Mulberry
+{
+    background-position: -224px -27px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_DecreaseDisabled_Mulberry
+{
+    background-position: -138px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_First_Mulberry
+{
+    background-position: -183px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_FirstDisabled_Mulberry
+{
+    background-position: -288px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_Increase_Mulberry
+{
+    background-position: -228px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_IncreaseDisabled_Mulberry
+{
+    background-position: -243px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_Last_Mulberry
+{
+    background-position: -213px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_LastDisabled_Mulberry
+{
+    background-position: -273px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_Next_Mulberry
+{
+    background-position: -258px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_NextDisabled_Mulberry
+{
+    background-position: -168px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_NextPage_Mulberry
+{
+    background-position: -198px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_NextPageDisabled_Mulberry
+{
+    background-position: -239px -27px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_Prev_Mulberry
+{
+    background-position: -303px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_PrevDisabled_Mulberry
+{
+    background-position: -153px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_PrevPage_Mulberry
+{
+    background-position: -333px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_ResourceNavigator_PrevPageDisabled_Mulberry
+{
+    background-position: -318px -70px;
+    width: 14px;
+    height: 10px;
+}
+.dxScheduler_SmartTag_Mulberry
+{
+    background-position: -128px -70px;
+    width: 9px;
+    height: 11px;
+}
+.dxScheduler_StatusInfo_Error_Mulberry
+{
+    background-position: -90px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Info_Mulberry
+{
+    background-position: -139px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_StatusInfo_Warning_Mulberry
+{
+    background-position: -41px 0px;
+    width: 48px;
+    height: 48px;
+}
+.dxScheduler_TimeMarker_Mulberry
+{
+    background-position: -314px 0px;
+    width: 9px;
+    height: 17px;
+}
+.dxScheduler_Tooltip_Bottom_Mulberry
+{
+    background-position: 0px -86px;
+    width: 400px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomLeft_Mulberry
+{
+    background-position: -392px -14px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomRight_Mulberry
+{
+    background-position: -392px 0px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_BottomStem_Mulberry
+{
+    background-position: 0px 0px;
+    width: 40px;
+    height: 53px;
+}
+.dxScheduler_Tooltip_Empty_Mulberry
+{
+    background-position: -191px -52px;
+    width: 1px;
+    height: 1px;
+}
+.dxScheduler_Tooltip_TopLeft_Mulberry
+{
+    background-position: -348px -70px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_Tooltip_TopRight_Mulberry
+{
+    background-position: -356px -70px;
+    width: 7px;
+    height: 7px;
+}
+.dxScheduler_ViewNavigator_Backward_Mulberry
+{
+    background-position: -232px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_ViewNavigator_Down_Mulberry
+{
+    background-position: -364px -70px;
+    width: 9px;
+    height: 5px;
+}
+.dxScheduler_ViewNavigator_Forward_Mulberry
+{
+    background-position: -243px 0px;
+    width: 10px;
+    height: 23px;
+}
+.dxScheduler_TimeMarker_Mulberry
+{
+	background-color: #BF4E6A;
+}
+

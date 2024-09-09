@@ -1,0 +1,178 @@
+﻿@{
+    ViewBag.Title = "HRIS - Mutasi Kepala Cabang";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model MutasiKCBModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    var perusahaan = "";
+
+    function onSelectedIndexChanged(s, e) {
+        perusahaan = Perusahaan.GetValue();
+
+        // lakukan callback ke partial view
+        PanelMutasi.PerformCallback();
+    }
+
+    function getCabang(s, e) {
+        e.customArgs["Perusahaan"] = perusahaan;
+    }
+
+    function onNamaChanged(s, e) {
+        var check = s.GetValue();
+        var prefix = s.name.substr(0, 12);
+        var index = parseInt(s.name.substr(13, 1)) + 1;
+        if (check != null) {
+            console.log(prefix + "[" + index + "].NIK.SetEnabled(false)");
+            // eval(prefix + "[" + index + "].NIK.SetEnabled(false)");
+        }
+    }
+
+    function onCabangChanged(s, e) {
+        var check = s.GetValue();
+        var prefix = s.name.substr(0, 10);
+        var index = parseInt(s.name.substr(11, 1)) + 1;
+        if (check != null) {
+            console.log(prefix + "[" + index + "].Nama_Cabang.SetEnabled(false)");
+            // eval(prefix + "[" + index + "].Nama_Cabang.SetEnabled(false)");
+        }
+    }
+
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Mutasi Kepala Cabang</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label class="labeldesc">
+                            Anda dapat melakukan mutasi kepala cabang (maksimum 5 proses mutasi dalam waktu yang sama) pada form isian berikut ini.
+                        </label>
+                        @using (Html.BeginForm("MutasiKacab", "Admin", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "MutasiLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Width = Unit.Pixel(700);
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = String.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write(@"<p style='text-align:left; font: 14px Arial'>Informasi Perusahaan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Nama Perusahaan ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.Perusahaan, combo =>
+                                        {
+                                            combo.Name = "Perusahaan";
+                                            combo.Width = Unit.Pixel(250);
+                                            combo.Properties.NullText = "-- Pilih --";
+                                            combo.Properties.TextField = "Nama_Perusahaan";
+                                            combo.Properties.ValueField = "Nama_Perusahaan";
+                                            combo.Properties.ValueType = typeof(String);
+                                            combo.Properties.ClientSideEvents.SelectedIndexChanged = "onSelectedIndexChanged";
+                                            combo.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetPerusahaan()).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = String.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write(@"<p style='text-align:left; font: 14px Arial'>Informasi Mutasi</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tgl. Mutasi ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Mutasi, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(200);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal pemberian SK mutasi.";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = String.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.RenderPartial("_PanelKacab", Model);
+                                    });
+                                });
+                            }).GetHtml()
+                            ViewContext.Writer.Write(@"<p class=""formbutton"">");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Proses Mutasi";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            ViewContext.Writer.Write("&nbsp;");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            ViewContext.Writer.Write(@"</p>");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+

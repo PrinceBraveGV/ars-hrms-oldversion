@@ -1,0 +1,380 @@
+@{
+    ViewBag.Title = "HRIS - Human Resources Information System ARISTA Group";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script>
+    $(function () {
+        var departemen = '@ViewBag.Departemen';
+        console.log(departemen);
+        if (departemen.indexOf("HRD") >= 0) {
+            HRPopup.Show();
+        }
+        else {
+            HRPopup.Hide();
+        }
+    })
+</script>
+
+<div>
+    <table style="border:none; width:100%">
+        <tr>
+            <td style="height:80px">
+                @* Perubahan gambar nama sistem sesuai tema tertentu *@
+                @{
+                    <img src="/content/images/NextGen.png" height="80" style="text-align:center; padding-left:50px; padding-right:50px; width:90%; " />
+                }
+                @*<p style="font: 18px Arial; color:white; text-align:center;">====== Human Resources Information System ======</p>*@
+                
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">                
+                <!-- Bagian panel kendali -->
+                @{
+                    if (Request.IsAuthenticated)
+                    {
+                        <div style="text-align:center; margin-left:50px; height:50px; width:90%">
+                        @Html.DevExpress().DockManager(dock =>
+                        {
+                            dock.Name = "RegisteredDock";
+                            dock.Theme = AristaHRM.Theme.SelectTheme;
+                            dock.Width = Unit.Percentage(100);
+                            dock.Height = Unit.Pixel(80);
+                            dock.Style.Add("text-align", "center");
+                        }).GetHtml()
+                    
+                        @Html.DevExpress().DockZone(zone =>
+                        {
+                            zone.Name = "RDashboard";
+                            zone.ZoneUID = "RDashboard";
+                            zone.PanelSpacing = 2;
+                            zone.Orientation = DockZoneOrientation.Fill;
+                            zone.Width = Unit.Percentage(100);
+                            zone.Height = Unit.Pixel(80);
+                            zone.Style.Add("text-align", "center");
+                        }).GetHtml()
+                    
+                        @Html.DevExpress().DockPanel(panel =>
+                        {
+                            panel.Name = "RegPanel";
+                            panel.PanelUID = "RegPanel";
+                            panel.HeaderText = "Dashboard";
+                            panel.Width = Unit.Percentage(100);
+                            panel.Height = Unit.Pixel(80);
+                            panel.OwnerZoneUID = "RDashboard";
+                            panel.VisibleIndex = 0;
+                            panel.ShowOnPageLoad = true;
+                            panel.AllowedDockState = AllowedDockState.DockedOnly;
+                            panel.AllowDragging = false;
+                            panel.AllowResize = false;
+                            panel.ScrollBars = ScrollBars.None;
+                            panel.ShowHeader = false;
+                            panel.ShowCloseButton = false;
+                            panel.Style.Add("text-align", "center");
+                            panel.SetContent(() =>
+                            {
+                                if (ViewBag.Privilege != null)
+                                {
+                                    String priv = ViewBag.Privilege.ToString();
+                                    switch (priv)
+                                    {
+                                        case "Admin":
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnKaryawan";
+                                                button.Text = "Karyawan";
+                                                button.Images.Image.Url = "~/Images/Manager.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Karyawan", "Master") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnUsaha";
+                                                button.Text = "Perusahaan";
+                                                button.Images.Image.Url = "~/Images/Company.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Perusahaan", "Master") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnCabang";
+                                                button.Text = "Cabang";
+                                                button.Images.Image.Url = "~/Images/Branch.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Cabang", "Master") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRiwayat";
+                                                button.Text = "Riwayat";
+                                                button.Images.Image.Url = "~/Images/Riwayat.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Riwayat", "Master") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnMutasi";
+                                                button.Text = "Mutasi";
+                                                button.Images.Image.Url = "~/Images/Staff.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("MutasiStaf", "Admin") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnExport";
+                                                button.Text = "Ekspor";
+                                                button.Images.Image.Url = "~/Images/ExportXLSX.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("EksporData", "Common") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnImpor";
+                                                button.Text = "Impor";
+                                                button.Images.Image.Url = "~/Images/Import.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("ImporData", "Common") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            break;
+                                        case "Manager":
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnKaryawan";
+                                                button.Text = "Karyawan";
+                                                button.Images.Image.Url = "~/Images/Manager.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Karyawan", "Manager") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnUsaha";
+                                                button.Text = "Perusahaan";
+                                                button.Images.Image.Url = "~/Images/Company.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Perusahaan", "Manager") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnCabang";
+                                                button.Text = "Cabang";
+                                                button.Images.Image.Url = "~/Images/Branch.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Cabang", "Manager") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRiwayat";
+                                                button.Text = "Riwayat";
+                                                button.Images.Image.Url = "~/Images/Riwayat.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Riwayat", "Manager") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            break;
+                                        case "Supervisor":
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnKaryawan";
+                                                button.Text = "Karyawan";
+                                                button.Images.Image.Url = "~/Images/Manager.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Karyawan", "Supervisor") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("&nbsp;");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRiwayat";
+                                                button.Text = "Riwayat";
+                                                button.Images.Image.Url = "~/Images/Riwayat.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Riwayat", "Supervisor") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            break;
+                                        default:
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRiwayat";
+                                                button.Text = "Riwayat";
+                                                button.Images.Image.Url = "~/Images/Riwayat.png";
+                                                button.Images.Image.Width = Unit.Pixel(30);
+                                                button.Images.Image.Height = Unit.Pixel(30);
+                                                button.Height = Unit.Pixel(50);
+                                                button.Width = Unit.Pixel(80);
+                                                button.ImagePosition = ImagePosition.Top;
+                                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Riwayat", "User") + "', '_parent'); }";
+                                            }).GetHtml();
+                                            break;
+                                    }
+                                }
+                            });
+                        }).GetHtml()
+                        </div>
+                    }
+                }
+                @if (Request.IsAuthenticated) 
+                {
+                <br /><br /><br />
+                }
+                @* Pengumuman *@
+                @{
+                    if (DateTime.Now.Month == 1 && DateTime.Now.Day == 1)
+                    {
+                        <div style="text-align:center; font:12px Arial; color:red">Selamat Tahun Baru untuk seluruh direksi, atasan dan karyawan staf ARISTA Group. Semoga di tahun ini perusahaan bisa berkembang lebih baik lagi. Terima kasih atas partisipasinya.</div>
+                    }
+                    else
+                    {
+                        <div class="marquee"><span>@ViewData["Announcement"]</span></div>
+                    }
+                }
+                <!-- Akhir bagian panel kendali -->
+                <div>
+                    <p style="font-family: Arial; font-size:14px; padding-left:20px; text-align:left">
+                        Kunjungan terbaru:
+                        <span style="font-family: Arial; color:red">
+                            @Html.DevExpress().Label(settings =>
+                            {
+                                settings.Name = "Tanggal";
+                                settings.Text = (DateTime.Now.ToString("dd MMMM yyyy HH:mm")).ToString().Trim();
+                                settings.Style.Add("font-size", "14px");
+                                settings.Style.Add("font-family", "Arial");
+                            }).GetHtml()
+                        </span>
+                    </p>
+
+                    <p style="font-family: Arial; font-size:14px; padding-left:20px; text-align:left">
+                        Total pengunjung:
+                        <span style="font-family: Arial; font-size:14px; color:red">
+                            @Html.DevExpress().Label(settings =>
+                            {
+                                settings.Name = "TotalUsrCount";
+                                settings.Text = Html.Encode(ViewData["TotalUser"]);
+                                settings.Style.Add("font-family", "Arial");
+                                settings.Style.Add("font-size", "14px");
+                                settings.Style.Add("color", "red");
+                            }).GetHtml()
+                        </span>
+                    </p>
+                    <p style="font-family: Arial; font-size:14px; padding-left:20px; text-align:left">
+                        Kunjungan hari ini:
+                        <span style="font-family: Arial; font-size:14px; color:red">
+                            @Html.DevExpress().Label(settings =>
+                            {
+                                settings.Name = "CurrentUsrCount";
+                                settings.Text = Html.Encode(ViewData["CurrentUser"]);
+                                settings.Style.Add("font-family", "Arial");
+                                settings.Style.Add("font-size", "14px");
+                                settings.Style.Add("color", "red");
+                            }).GetHtml()
+                        </span>
+                    </p>
+                </div>
+                <div class="osbrowser">
+                    <p style="font-family:Arial; font-size:14px; padding-left:20px; color:blue; text-align:left">Sistem operasi yang digunakan: @Html.Encode(ViewData["OSVersion"])</p>
+                    <p style="font-family:Arial; font-size:14px; padding-left:20px; color:blue; text-align:left">Browser yang digunakan: @Request.Browser.Browser ver. @Request.Browser.Version </p>
+                </div>
+                <div>
+                    @{
+                        if (!Request.IsAuthenticated)
+                        {
+                            <p style="font: 14px Arial; text-align:left; padding-left:20px">Anda belum terdaftar pada sistem kami. Silakan <a onclick="PopupLogin.Show();" href="javascript:void(0);">login</a> atau melakukan @Html.ActionLink("registrasi", "Register", "Home") terlebih dahulu.</p>
+                        }
+                        else
+                        {
+                            <p style="font: 14px Arial; text-align:left; padding-left:20px">@Html.Raw(ViewData["Birthinfo"])<br />@Html.Raw(ViewData["Birthdate"])</p>
+                        }
+                    }
+                    <p style="font: 14px Arial; text-align:left; padding-left:20px">Perhatian: Apabila anda mendapatkan masalah sistem (error dll), silakan klik di <a href="@DevExpressHelper.GetUrl(new { Controller = "Help", action="About" })">sini</a> untuk mendapatkan alamat email bantuan teknis.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "HRPopup";
+    settings.CloseAction = CloseAction.CloseButton;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.ScrollBars = ScrollBars.None;
+    settings.EnableHotTrack = true;
+    settings.Height = Unit.Pixel(500);
+    settings.Width = Unit.Pixel(800);
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.HeaderText = "Pemberitahuan";
+    settings.ShowHeader = true;
+    settings.Style.Add("text-align", "center");
+    settings.SetContent(() =>
+    {
+        Html.RenderPartial("_InfoKaryawan");
+    });
+}).GetHtml()

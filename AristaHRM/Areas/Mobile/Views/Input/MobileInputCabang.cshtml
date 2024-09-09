@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = " - Input Cabang 0\0";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model CabangModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("InputData", "InputData", "Input", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > <a href="@Url.Action("InputData", "Input", mobilearea)">Input Data</a> > Input Cabang Baru</li>
+        <li data-role="list-divider">Identitas Cabang</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Perusahaan)
+            @Html.DropDownListFor(m => m.Nama_Perusahaan, AristaHRM.Models.Providers.GetPerusahaan("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Cabang)
+            @Html.TextBoxFor(m => m.Nama_Cabang)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Kode_Singkat)
+            @Html.TextBoxFor(m => m.Kode_Singkat)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Lokasi)
+            @Html.TextBoxFor(m => m.Lokasi)
+        </li>
+
+        <li data-role="fieldcontain">
+            <input id="submit" name="submit" type="submit" value="Register Cabang" />
+            <input id="reset" name="reset" type="reset" value="Reset Formulir" onclick="window.location.reload(true);" />
+        </li>
+    </ul>
+}
+
+

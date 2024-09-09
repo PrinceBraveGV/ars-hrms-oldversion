@@ -1,0 +1,75 @@
+@media all and (max-width: 800px)
+{
+    .Item
+    {
+        /*padding-top: 11px;*/
+    }
+
+    .GroupHeader
+    {
+        padding-top: 20px;
+    }
+
+    .GroupContent
+    {
+        width: 100%;
+    }
+
+    .GroupContent.Adaptivity
+    {
+        width: 100%!important;
+    }
+
+    .LayoutTabContainer:after
+    {
+      display: table;
+      content: "";
+      line-height: 0;
+      clear: both;
+    }
+
+    .LayoutTabContainer > *
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        border-collapse: separate!important;
+    }
+
+        .LayoutTabContainer > *:last-child
+        {
+            padding-bottom: 30px;
+        }
+
+    .LayoutTabContainer .dxgvTable_XafTheme
+    {
+        border: none;
+    }
+
+    .LayoutTabContainer.LayoutTabContainerWithNestedFrame > .Item
+    {
+        padding: 0px;
+    }
+
+    .CardGroupBase
+    {
+        margin-bottom: 20px;
+        border: 1px solid #c6c6c6;
+        border-collapse: separate!important;
+    }
+
+    .Layout .Layout .CardGroupBase
+    {
+        border: none!important;
+    }
+
+        .Layout .Layout .CardGroupBase > tbody > tr > td
+        {
+            padding: 0px;
+        }
+
+    .LayoutTabbedGroupContainer
+    {
+        padding-bottom: 30px;
+    }
+}
+

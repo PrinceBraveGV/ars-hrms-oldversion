@@ -1,0 +1,593 @@
+.dxpgControl_iOS, .dxpgCustForm_iOS
+{
+    color: #303030;
+    font: bold 16px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+    border-collapse: separate !important;
+    border: 1px solid #b3b5b9;
+    border-radius: 5px;
+    background-color: white;
+}
+.dxpgContainerCell_iOS
+{
+    vertical-align: top;
+}
+.dxpgContainerCell_iOS > div:first-child
+{
+    border-radius: 5px;
+}
+.dxpgMainTable_iOS
+{
+    border-width: 0;
+    border-collapse: separate;
+    width: 100%;
+    text-align: left;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+div.dxpgMainTable_iOS
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_iOS caption
+{
+    font-size: 11px;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #f2f3f4 url('TitleBack.png') repeat-x left top;
+    color: #201f35;
+    border-bottom: 1px solid #9da0aa;
+}
+.dxpgHeader_iOS
+{
+    border-width: 0;
+    color: #7c7c7c;
+    background: url('HeaderBack.png') repeat-x left top;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: left;
+}
+.dxpgHeader_iOS .dxpgControl_iOS
+{
+}
+
+.dxpgHeaderTable_iOS
+{
+    border: 1px solid #b3b5b9;
+    width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_iOS,
+.dxpgCustFieldsDiv_iOS .dxpgHeaderTable_iOS
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_iOS
+{
+    padding-left: 8px;
+    vertical-align: middle;
+}
+.dxpgHeaderText_iOS
+{
+    padding: 5px 8px;
+}
+.dxpgHeaderSort_iOS
+{
+    padding: 0 6px;
+    vertical-align: middle;
+}
+.dxpgHeaderFilter_iOS
+{
+    padding: 2px 8px 2px 0;
+    vertical-align: middle;
+}
+.dxpgHeaderHover_iOS
+{
+}
+.dxpgArea_iOS, .dxpgArea_iOS table
+{
+    color: #201f35;
+}
+.dxpgArea_iOS
+{
+    border-width: 1px;
+    border-color: #e0e0e0;
+    border-style: none;
+    background-color: #ffffff;
+}
+.dxpgColumnArea_iOS
+{
+    border-bottom-style: solid;
+}
+.dxpgRowArea_iOS
+{
+}
+.dxpgDataArea_iOS
+{
+}
+.dxpgFilterArea_iOS
+{
+    color: #AAABAE;
+    font-size: 12px;
+    text-shadow: 0 1px #EAECF0;
+}
+.dxpgEmptyArea_iOS
+{
+    cursor: default;
+    padding: 6px;
+}
+.dxpgFilterArea_iOS.dxpgEmptyArea_iOS
+{
+    padding: 15px 6px 14px;
+}
+.dxpgColumnFieldValue_iOS
+{
+    color: #201f35;
+    background: #f0f2f4;
+    border: 1px solid #E0E0E0;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-top-style: none;
+    padding: 12px;
+    text-align: left;
+}
+.dxpgColumnTotalFieldValue_iOS
+{
+    background: #f0f2f4;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_iOS
+{
+    background: #f0f2f4;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-top-style: none;
+}
+.dxpgRowFieldValue_iOS
+{
+    color: #201f35;
+    background: #f0f2f4;
+    border: 1px solid #E0E0E0;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-top-style: solid;
+    padding: 12px;
+    text-align: left;
+}
+.dxpgRowTotalFieldValue_iOS
+{
+    background: #f0f2f4;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_iOS
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_iOS
+{
+    background: #f0f2f4;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-top-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dxpgCollapsedButton_iOS
+{
+    vertical-align: -6px;
+    border: 0;
+    margin-right: 10px;
+}
+.dxpgSortByColumnImage_iOS
+{
+    vertical-align: -1px;
+    border: 0;
+    margin-left: 5px;
+}
+.dxpgCell_iOS
+{
+    color: #385487;
+    text-align: right;
+    background-color: White;
+    border-color: #E0E0E0;
+    border-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: none;
+    border-right-style: none;
+    padding: 12px;
+    white-space: nowrap;
+}
+.dxpgKPICell_iOS
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxpgTotalCell_iOS
+{
+    background-color: #f8f8f8;
+}
+.dxpgGrandTotalCell_iOS
+{
+    background-color: #f8f8f8;
+}
+.dxpgFilterItem_iOS
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_iOS
+{
+    padding: 2px 6px;
+}
+
+.dxpgTopPager_iOS, .dxpgBottomPager_iOS
+{
+    background: #f0f2f4;
+    border-color: #e0e0e0;
+    border-style: solid;
+}
+.dxpgTopPager_iOS
+{
+    border-width: 0 0 1px 0;
+}
+.dxpgBottomPager_iOS
+{
+    border-width: 1px 0 0 0;
+}
+.dxpgTopPager_iOS,
+.dxpgBottomPager_iOS
+{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_iOS
+{
+    color: #201f35;
+}
+.dxpgCustomizationFieldsContent_iOS
+{
+    padding: 0px !important;
+}
+.dxpgMenuItem_iOS
+{
+}
+.dxpgDataHeadersImage_iOS
+{
+    margin-right: 5px;
+    vertical-align: -8px;
+}
+.dxpgPrefilterPanelContainer_iOS
+{
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxpgPrefilterPanel_iOS
+{
+    border: none;
+    background: #f9f9fc;
+}
+.dxpgPrefilterPanelLink_iOS
+{
+    color: #1b3f91;
+    text-decoration: underline;
+}
+.dxpgPrefilterPanelCheckBoxCell_iOS
+{
+    padding: 0 3px;
+    padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_iOS
+{
+    padding: 0 3px;
+    padding-right: 1px;
+    cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_iOS
+{
+    font-size: 11px;
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_iOS
+{
+    font-size: 11px;
+    padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_iOS
+{
+    background: white;
+    padding: 6px 2px;
+}
+.dxpgFilterBuilderButtonArea_iOS
+{
+    background: #ebecef;
+    border-top: 1px solid #abacb9;
+    padding: 6px;
+    white-space: nowrap;
+}
+.dxpgGroupSeparator_iOS
+{
+    vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_iOS, .dxpgCustFieldsRowAreaHeaders_iOS, .dxpgCustFieldsColumnAreaHeaders_iOS, .dxpgCustFieldsDataAreaHeaders_iOS, .BottomPanelOnly1by4 .dxpgFLFRDiv_iOS, .BottomPanelOnly1by4 .dxpgFLCDDiv_iOS
+{
+    width: 100%;
+    height: 50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_iOS
+{
+    height: 33%;
+}
+.StackedDefault .dxpgFLFRDiv_iOS
+{
+    width: 50%;
+    height: 66%;
+    float: left;
+}
+.StackedDefault .dxpgFLCDDiv_iOS
+{
+    width: 50%;
+    height: 66%;
+    float: right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_iOS .dxpgFLTextDiv_iOS, .StackedDefault .dxpgCustFieldsColumnAreaHeaders_iOS .dxpgFLTextDiv_iOS
+{
+    height: 47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_iOS
+{
+    width: 100%;
+    height: 100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_iOS .dxeBase_iOS, .TopPanelOnly .dxpgFLDefereDiv_iOS .dxpgFLDefereDB_iOS, .BottomPanelOnly1by4 .dxpgCustFieldsFieldList_iOS, .TopPanelOnly .dxpgFLFRDiv_iOS, .TopPanelOnly .dxpgFLCDDiv_iOS, .BottomPanelOnly2by2 .dxpgCustFieldsFieldList_iOS, .TopPanelOnly .dxpgFLTextDiv_iOS div
+{
+    display: none;
+}
+.TopPanelOnly .dxpgFLTextDiv_iOS
+{
+    height: 10px;
+}
+.TopPanelOnly .dxpgFLDefereDiv_iOS
+{
+    height: 16px;
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_iOS, .StackedSideBySide .dxpgCustFieldsFieldList_iOS
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_iOS
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.StackedSideBySide .dxpgFLFRDiv_iOS, .StackedSideBySide .dxpgFLCDDiv_iOS
+{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.dxpgCustFields_iOS
+{
+    display: block;
+    position: relative;
+}
+.dxpgFLListDiv_iOS > div
+{
+    border: 1px solid #9da0aa;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 1px;
+    background: White;
+    overflow: hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_iOS > div > div
+{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0px;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.DragOver .dxpgFLListDiv_iOS > div
+{
+    background: #ffd324;
+}
+.DragOver .dxpgFLListDiv_iOS div div
+{
+    background: White;
+}
+.dxpgFLListDiv_iOS
+{
+    padding: 0px 3px;
+}
+.dxpgFLButtonDiv_iOS .dxbButton_iOS div.dxb
+{
+    border: 1px dotted transparent;
+    padding: 1px 7px 0px;
+}
+.dxpgFLButtonDiv_iOS .dxbButton_iOS div.dxbf
+{
+    border: 1px dotted Black;
+}
+.dxpgFLTextDiv_iOS
+{
+    height: 28px;
+}
+.dxpgFLTextDiv_iOS div
+{
+    display: block;
+    float: left;
+    margin: -17px 0px 3px;
+    left: 6px;
+    top: 100%;
+    position: relative;
+}
+.dxpgFLButtonDiv_iOS
+{
+    float: right;
+    height: 28px;
+    position: relative;
+    z-index: 1;
+}
+.dxpgFLDefereDiv_iOS
+{
+    height: 46px;
+}
+.dxpgCustFieldsDiv_iOS
+{
+    clear: both;
+    padding: 0px 9px;
+}
+.dxpgFLButton_iOS
+{
+    margin: 7px 12px 0px 0px;
+    width: 40px;
+    height: 23px;
+}
+.dxpgFLDefereDiv_iOS .dxeBase_iOS
+{
+    float: left;
+    display: block;
+    border-collapse: separate;
+    padding: 13px 0px 0px 0px;
+    margin-left: 8px;
+}
+.dxpgFLDefereDB_iOS
+{
+    float: right;
+    display: block;
+    margin: 12px 12px 0 0;
+}
+.dxpgFLDefereDiv_iOS .dxbButton_iOS div.dxb
+{
+    padding: 1px 13px;
+    border: 1px dotted transparent;
+}
+.dxpgFLDefereDiv_iOS .dxbButton_iOS div.dxbf
+{
+    border: 1px dotted Black;
+}
+.dxpgFLListDiv_iOS table
+{
+    width: 100%;
+    table-layout: fixed;
+    overflow: visible;
+}
+.dxpgFLListDiv_iOS table table td
+{
+    overflow: hidden;
+}
+div.dxpgFLTextImgDiv_iOS
+{
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: -18px 0px 3px 0px;
+    left: 3px;
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_iOS
+{
+	font: bold 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+	color: Black;
+	text-shadow: 0 -1px rgba(255, 255, 255, 0.5);
+	border: 1px solid #A6A6A6;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxpgLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxpgLoadingPanel_iOS td.dx:first-child,
+.dxpgLoadingPanel_iOS[dir="rtl"] td.dx:last-child,
+*[dir="rtl"] .dxpgLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxpgLoadingPanel_iOS td.dx:last-child,
+.dxpgLoadingPanel_iOS[dir="rtl"] td.dx:first-child,
+*[dir="rtl"] .dxpgLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxpgLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxpgLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxpgLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxpgLoadingPanel_iOS .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 24px;
+	width: 24px;
+}
+
+.dxpgVScrollBarAreaCell_iOS {
+    background-color: #f0f2f4;
+    border-left: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.dxpgHScrollBarAreaCell_iOS {
+    background-color: #f0f2f4;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+.dxpgScrollBarEdgeCell_iOS {
+    background-color: #ffffff;
+    border-left: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}

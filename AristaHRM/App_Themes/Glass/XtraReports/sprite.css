@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_Glass,
+.dxXtraReports_BtnFirstPageDisabled_Glass,
+.dxXtraReports_BtnLastPage_Glass,
+.dxXtraReports_BtnLastPageDisabled_Glass,
+.dxXtraReports_BtnNextPage_Glass,
+.dxXtraReports_BtnNextPageDisabled_Glass,
+.dxXtraReports_BtnPrevPage_Glass,
+.dxXtraReports_BtnPrevPageDisabled_Glass,
+.dxXtraReports_BtnPrint_Glass,
+.dxXtraReports_BtnPrintDisabled_Glass,
+.dxXtraReports_BtnPrintPage_Glass,
+.dxXtraReports_BtnPrintPageDisabled_Glass,
+.dxXtraReports_BtnSave_Glass,
+.dxXtraReports_BtnSaveDisabled_Glass,
+.dxXtraReports_BtnSaveWindow_Glass,
+.dxXtraReports_BtnSaveWindowDisabled_Glass,
+.dxXtraReports_BtnSearch_Glass,
+.dxXtraReports_BtnSearchDisabled_Glass,
+.dxXtraReports_PageBorder_blc_Glass,
+.dxXtraReports_PageBorder_brc_Glass,
+.dxXtraReports_PageBorder_tlc_Glass,
+.dxXtraReports_PageBorder_trc_Glass
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_Glass
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_Glass
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_Glass
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_Glass
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_Glass
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_Glass
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_Glass
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_Glass
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_Glass
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_Glass
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_Glass
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_Glass
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_Glass
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_Glass
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_Glass
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_Glass
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_Glass
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_Glass
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_Glass
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_Glass
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_Glass
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_Glass
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_Glass,
+.dxXtraReports_PageBorder_l_Glass,
+.dxXtraReports_PageBorder_r_Glass,
+.dxXtraReports_PageBorder_b_Glass {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_Glass {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_Glass {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_Glass {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_Glass {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

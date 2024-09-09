@@ -1,0 +1,8 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.XtraReports.Web" Assembly="DevExpress.XtraReports.v18.1.Web.WebForms, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxDocumentViewer runat="server" CssFilePath="{0}/styles.css" CssPostfix="MarineBlue" SpriteCssFilePath="{0}/sprite.css">
+    <StylesSplitter ToolbarPaneHeight="28px" InternalRibbonToolbarPaneHeight="95px"/>
+    <SettingsRibbon IconSet="Colored"></SettingsRibbon>
+</dx:ASPxDocumentViewer>
+

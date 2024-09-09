@@ -1,0 +1,431 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Youthful
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_Youthful
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9BC424;
+	background-color: White;
+}
+.dxheLoadingPanel_Youthful td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxheLoadingPanel_Youthful .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 7px;
+	width: 72px;
+}
+
+.dxheControl_Youthful
+{
+	border: Solid 1px white;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_Youthful
+{
+    padding-top: 1px;
+	padding-bottom: 6px;
+    background-color: white;
+}
+.dxheErrorFrame_Youthful
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_Youthful .dxeMemo_Youthful .dxheErrorFrame_Youthful .dxhe,
+.dxheControl_Youthful.dxhe-rtl .dxeMemo_Youthful .dxheErrorFrame_Youthful .dxhe,
+.dxheErrorFrame_Youthful .dxhe {
+    padding: 5px;
+}
+.dxheControl_Youthful .dxeMemo_Youthful .dxheErrorFrame_Youthful .dxhe td,
+.dxheControl_Youthful.dxhe-rtl .dxeMemo_Youthful .dxheErrorFrame_Youthful .dxhe td,
+.dxheErrorFrame_Youthful .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Youthful .dxheErrorFrameCloseButton_Youthful {
+    cursor: pointer;
+}
+.dxheViewArea_Youthful
+{
+    border: Solid 1px #D3E4A6;    
+}
+.dxheContentArea_Youthful td.dxheViewArea_Youthful {
+    line-height: 0;
+}
+.dxheContentArea_Youthful td.dxheViewArea_Youthful.dxheHtmlViewArea_Youthful
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_Youthful,
+.dxhePreviewArea_Youthful
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_Youthful .dxheHtmlViewArea_Youthful,
+.dxheHtmlViewArea_Youthful .CodeMirror,
+body.dxheDesignViewArea_Youthful,
+body.dxhePreviewArea_Youthful 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_Youthful .dxeMemo_Youthful.dxheHtmlViewArea_Youthful .dxeMemoEditArea_Youthful,
+body.dxheDesignViewArea_Youthful,
+body.dxhePreviewArea_Youthful
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_Youthful .dxeMemo_Youthful.dxheHtmlViewArea_Youthful td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_Youthful.dxhe-rtl .dxheContentArea_Youthful .dxeMemo_Youthful.dxheHtmlViewArea_Youthful td
+{
+    padding: 0 0 0 40px;
+}
+.dxheControl_Youthful .dxeMemo_Youthful textarea 
+{
+	resize:none;
+}
+td.dxheDesignViewArea_Youthful .dxmLite_Youthful .dxmtb.dxm-horizontal .dxm-spacing 
+{
+    min-width: 2px;
+    width: 2px;
+}
+.dxheControl_Youthful td.dxheDesignViewArea_Youthful .dxm-main.dxmtb 
+{
+    border: 1px solid #d3e4a6;
+    padding: 1px;
+}
+.dxheControl_Youthful td.dxheDesignViewArea_Youthful
+{
+    position: relative;
+}
+td.dxheDesignViewArea_Youthful .dxmLite_Youthful {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_Youthful .dxmLite_Youthful.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_Youthful .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_Youthful .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_Youthful .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_Youthful .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_Youthful img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_Youthful img.dxheAudio,
+.dxheViewArea_Youthful img.dxheFlash,
+.dxheViewArea_Youthful img.dxheVideo,
+.dxheViewArea_Youthful img.dxheYoutube,
+.dxheViewArea_Youthful img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_Youthful .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_Youthful.dxheDesignViewArea_Youthful .dxheSelected
+{
+    background-color: #F79A29;
+    color: white;
+}
+.dxhe-insertPlaceholder .dxeListBox_Youthful.dxeFocused_Youthful
+{
+    border: 1px solid #7B8F4E;
+}
+.dxpc-contentWrapper .dxflFormLayout_Youthful.dxhe-insertPlaceholder .dxflGroup_Youthful .dxflGroupBox_Youthful
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_Youthful.dxhe-insertPlaceholder .dxflGroup_Youthful .dxflGroupBox_Youthful .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_Youthful .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_Youthful,
+.dxhe-insertPlaceholder .dxeListBox_Youthful .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_Youthful .CodeMirror-activeline-background 
+{
+    background-color: #ffaf4d;
+    opacity: 0.2;
+}
+.dxheHtmlViewArea_Youthful .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_Youthful .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_Youthful .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Youthful table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Youthful table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Youthful table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Youthful table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_Youthful
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_Youthful pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_Youthful 
+{
+}
+.dxheStatusBarTab_Youthful 
+{    
+}
+.dxheStatusBarActiveTab_Youthful 
+{
+}
+.dxHtmlEditor_heSizeGrip_Youthful 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Youthful 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Youthful 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -22px;
+    margin-left: 2px;
+}
+.dxheControl_Youthful.dxhe-rtl .dxheSizeGripContainer_Youthful 
+{
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 2px;
+	float: right;
+}
+
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_Youthful .dxheDlgFooter,
+.dxpcLite_Youthful .dxheCustomDialog_Youthful .dxhecd-Buttons
+{
+	background-color: #9CC525;
+	border-top: solid 1px white;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_Youthful.dxRtl .dxheDlgFooter,
+.dxpcLite_Youthful.dxRtl .dxheCustomDialog_Youthful .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_Youthful .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_Youthful.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_Youthful .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px white;
+}
+.dxpcLite_Youthful .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #AFC185;
+}
+.dxhe-dialog .dxflGroupBoxCaption_Youthful
+{
+	background-color: #E5EECF;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Youthful
+{
+	height: 1px;
+}
+.dxtbControl_Youthful 
+{
+	color: black;
+	background-color: white;
+}
+.dxheControl_Youthful .dxtbControl_Youthful.dxtbr_Youthful,
+.dxtbControl_Youthful td.dxmtb.dxmMenu_Youthful
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_Youthful
+{
+    padding-top: 1px;
+	padding-bottom: 1px;
+}
+.dxheControl_Youthful .dxrControl_Youthful .dxr-minBtn
+{
+    padding: 3px 3px 0 2px;
+}
+.dxheControl_Youthful .dxrControl_Youthful .dxtcLite_Youthful.dxtc-top .dxtc-tab .dxtc-link,
+.dxheControl_Youthful .dxrControl_Youthful .dxtcLite_Youthful.dxtc-top .dxtc-activeTab .dxtc-link
+{
+    padding-top: 6px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Youthful .dxmLite_Youthful .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_Youthful .dxhetipControl_Youthful img
+{
+	vertical-align: top;
+}
+.dxtbControl_Youthful .dxmLite_Youthful .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_Youthful .dxmLite_Youthful .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Youthful { }
+.dxtcbColorDiv_Youthful
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Youthful .dxrpcontent
+{
+    padding: 14px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_Youthful .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_Youthful.dxhe-mediaDialog 
+{
+    width: 720px;
+}
+.dxflFormLayout_Youthful.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_Youthful.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_Youthful.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_Youthful.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Youthful.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_Youthful.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Youthful.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_Youthful .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_Youthful.dxeFocused_Youthful
+{
+    border-color: #AFC185;
+}
+
+div.dxhe-searchQuick div.dxbButton_Youthful,
+div.dxhe-searchQuick div.dxbButton_Youthful .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxhe-quickSearchSysWin.dxpcLite_Youthful div.dxpc-header.dxpc-withBtn 
+{
+    padding: 5px;
+}
+.dxhe-quickSearchSysWin.dxpcLite_Youthful div.dxpc-collapseBtn,
+.dxhe-quickSearchSysWin.dxpcLite_Youthful div.dxpc-closeBtn
+{
+    padding: 1px 7px 0px 4px;
+}

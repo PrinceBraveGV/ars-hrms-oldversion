@@ -1,0 +1,381 @@
+.dxtlControl_Mulberry
+{
+	cursor: default;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	border: 1px none #cbcbcb;
+}
+.dxtlControl_Mulberry caption
+{
+	background: #F7FAFF none;
+	color: #343434;
+	border-bottom: 0;
+	border: 1px solid #cbcbcb;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 5px 6px;
+}
+.dxtlControl_Mulberry .dxtlDataTable
+{
+	border: 1px solid #cbcbcb;
+}
+
+/* Indent cells */
+.dxtlIndent_Mulberry,
+.dxtlIndentWithButton_Mulberry
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_Mulberry
+{
+	padding: 0 11px;
+}
+.dxtlICheckBox_Mulberry
+{
+	margin: auto;
+}
+.dxtlIndentWithButton_Mulberry
+{
+	padding: 7px 4px;
+}
+.dxtlSelectionCell_Mulberry
+{
+	border: 1px solid #cbcbcb;
+	padding: 0 4px;
+}
+.dxtlSelectionCell_Mulberry .dxICheckBox_Mulberry, 
+.dxtlNode_Mulberry .dxICheckBox_Mulberry
+{
+	margin: -4px 0;
+}
+/* Tree-lines cells */
+.dxtlLineRoot_Mulberry
+{
+	background: White  repeat-y center top;
+}
+.dxtlLineFirst_Mulberry
+{
+}
+.dxtlLineMiddle_Mulberry
+{
+}
+.dxtlLineLast_Mulberry
+{
+}
+.dxtlLineFirstRtl_Mulberry
+{
+}
+.dxtlLineMiddleRtl_Mulberry
+{
+}
+.dxtlLineLastRtl_Mulberry
+{
+}
+
+/* Headers */
+.dxtlControl_Mulberry .dxtlHSDC 
+{
+    background: none;
+    border: 1px Solid #cbcbcb;
+}
+.dxtlHeader_Mulberry
+{
+	border: 1px Solid #cbcbcb;
+	color: #d8d8d8;
+	padding: 6px 10px;
+	font-weight: normal;
+}
+.dxtlDataTable .dxtlHeader_Mulberry
+{
+    border-top: 0;
+    border-right: 0;
+}
+.dxtlControl_Mulberry[dir=rtl] .dxtlDataTable .dxtlHeader_Mulberry
+{
+    border-left: 0;
+    border-right: 1px Solid #cbcbcb;
+}
+.dxtlDataTable .dxtlHeader_Mulberry:first-child 
+{
+    border-left-width: 0;
+}
+.dxtlDataTable .dxtlHeader_Mulberry:last-child 
+{
+    border-right-width: 0;
+}
+.dxtlHeader_Mulberry table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_Mulberry td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_Mulberry,
+.dxtlHeader_Mulberry td.dxtl
+{
+    color: #7e7e7e;
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_Mulberry
+{
+	background: white;
+}
+.dxtlAltNode_Mulberry
+{
+	background-color: #eff0f5;
+}
+.dxtlSelectedNode_Mulberry
+{
+	background-color: #efd3da;
+}
+.dxtlFocusedNode_Mulberry
+{
+	background: #BF4E6A;
+	color: white;
+}
+.dxtlInlineEditNode_Mulberry
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_Mulberry
+{
+	background: #ECF4FE none;
+}
+.dxtlNode_Mulberry td.dxtl, 
+.dxtlAltNode_Mulberry  td.dxtl, 
+.dxtlSelectedNode_Mulberry td.dxtl, 
+.dxtlFocusedNode_Mulberry td.dxtl,
+.dxtlEditFormDisplayNode_Mulberry td.dxtl,
+.dxtlCommandCell_Mulberry
+{
+	padding: 5px 10px 6px;
+	border: 1px solid #cbcbcb;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlCommandCell_Mulberry
+{
+	padding: 0 10px;
+}
+.dxtlHeader_Mulberry .dxbButton_Mulberry,
+.dxtlCommandCell_Mulberry .dxbButton_Mulberry
+{
+    margin: 0px 2px;
+}
+.dxtlHeader_Mulberry .dxbButton_Mulberry .dxb,
+.dxtlCommandCell_Mulberry .dxbButton_Mulberry .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxtlInlineEditNode_Mulberry td.dxtl
+{
+	border: 1px solid #cbcbcb;
+	padding: 1px;
+}
+/* Scrolling */
+.dxtlControl_Mulberry .dxtlHSDC,
+.dxtlControl_Mulberry .dxtlCSD,
+.dxtlControl_Mulberry .dxtlFSDC
+{
+    border: 1px solid #cbcbcb;
+}
+.dxtlControl_Mulberry .dxtlHSDC .dxtlCSD,
+.dxtlControl_Mulberry .dxtlFSDC .dxtlCSD,
+.dxtlControl_Mulberry .dxtlHSDC .dxtlDataTable,
+.dxtlControl_Mulberry .dxtlCSD .dxtlDataTable,
+.dxtlControl_Mulberry .dxtlFSDC .dxtlDataTable
+{
+    border: 0;
+}
+.dxtlControl_Mulberry .dxtlCSD .dxtlDataTable .dxtlHSEC
+{
+    border-left: 1px solid #cbcbcb!important;
+}
+.dxtlControl_Mulberry .dxtlHSDC .dxtlHeader_Mulberry 
+{
+    border-bottom: 0;
+}
+.dxtlControl_Mulberry .dxtlFSDC .dxtlFooter_Mulberry td.dxtl,
+.dxtlControl_Mulberry .dxtlFSDC .dxtlFooter_Mulberry .dxtlIndent_Mulberry
+{
+    border-top: 0!important;
+}
+.dxtlControl_Mulberry .dxtlHSDC + .dxtlCSD
+{
+    border-top: 0;
+}
+.dxtlControl_Mulberry .dxtlCSD + .dxtlFSDC
+{
+    border-top: 0;
+}
+
+/* Preview */
+.dxtlPreview_Mulberry
+{
+	background-color: white;
+	color: #8d8d8d;
+
+	padding: 12px 15px 12px 20px;
+	border: 1px solid #cbcbcb;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_Mulberry
+{
+	background-color: white;
+}
+.dxtlFooter_Mulberry td.dxtl,
+.dxtlFooter_Mulberry .dxtlIndent_Mulberry,
+.dxtlControl_Mulberry .dxtlFSDC
+{
+	background-color: #fafafa;
+}
+.dxtlGroupFooter_Mulberry td.dxtl,
+.dxtlFooter_Mulberry td.dxtl
+{
+	white-space: nowrap;
+	border: 1px solid #cbcbcb;
+	overflow: hidden;
+}
+.dxtlFooter_Mulberry td.dxtl,
+.dxtlFooter_Mulberry .dxtlIndent_Mulberry
+{
+    border-top: 1px solid #cbcbcb!important;
+}
+.dxtlFooter_Mulberry td.dxtl
+{
+	padding: 7px 10px 8px;
+}
+.dxtlGroupFooter_Mulberry td.dxtl
+{
+    padding: 4px 10px;
+}
+.dxtlGroupFooter_Mulberry .dx-ar > br,
+.dxtlFooter_Mulberry .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_Mulberry,
+.dxtlPagerBottomPanel_Mulberry
+{
+	padding: 2px 0;
+}
+.dxtlPagerTopPanel_Mulberry
+{
+	border-bottom: 1px none #cbcbcb;
+}
+.dxtlPagerBottomPanel_Mulberry
+{
+    border-top: 1px none #cbcbcb;
+}
+.dxtlControl_Mulberry .dxpLite_Mulberry
+{
+	padding: 6px 0 6px 6px;
+}
+
+/* Editing */
+.dxtlEditForm_Mulberry
+{
+	border: 1px solid #cbcbcb;
+	padding: 10px 15px;
+}
+.dxtlEditFormCaption_Mulberry,
+.dxtlEditFormEditCell_Mulberry
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_Mulberry
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_Mulberry
+{
+	background: #DBEBFF none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #cbcbcb;
+}
+.dxtlPopupEditForm_Mulberry
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_Mulberry a,
+.dxtlCommandCell_Mulberry a
+{
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+.dxtlControl_Mulberry a:hover
+{
+	color: #343434;
+	text-decoration: underline;
+}
+.dxtlFocusedNode_Mulberry a,
+.dxtlFocusedNode_Mulberry .dxtlCommandCell_Mulberry a
+{
+	color: white;
+}
+.dxtlHeader_Mulberry a,
+.dxtlFocusedNode_Mulberry a,
+.dxtlSelectedNode_Mulberry a
+{
+	color: #5e6d9d;
+}
+.dxtlHeader_Mulberry a:hover,
+.dxtlFocusedNode_Mulberry a:hover,
+.dxtlSelectedNode_Mulberry a:hover
+{
+	color: #343434;
+}
+.dxtlCommandCell_Mulberry a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxtlLoadingPanel_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxtlLoadingPanel_Mulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Disabled */
+.dxtlDisabled_Mulberry,
+.dxtlDisabled_Mulberry .dxtl_Mulberry
+{
+	color: #A1A1A1;
+	cursor: default;
+}
+
+
+

@@ -1,0 +1,679 @@
+.dxgvControl_Office2003Silver,
+.dxgvDisabled_Office2003Silver
+{
+	border: 1px solid #9c9ab7;
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: White;
+	color: Black;
+	cursor: default;
+}
+.dxgvDisabled_Office2003Silver
+{
+	color: Gray;
+}
+.dxgvControl_Office2003Silver a
+{
+	color: black;
+}
+.dxgvDisabled_Office2003Silver a
+{
+	color: Gray;
+}
+
+.dxgvEmptyDataRow_Office2003Silver.dxgvBELVR > td.dxgv,
+.dxgvDataRow_Office2003Silver.dxgvBELVR > td.dxgv,
+.dxgvGroupRow_Office2003Silver.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+
+.dxgvRBB .dxgvEmptyDataRow_Office2003Silver.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_Office2003Silver.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_Office2003Silver.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanelStatusBar_Office2003Silver .dxlp-loadingImage 
+{
+	background-image: url('gvLoadingOnStatusBar.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxgvLoadingPanel_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxgvLoadingPanel_Office2003Silver td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxgvLoadingPanel_Office2003Silver .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxgvLoadingPanelStatusBar_Office2003Silver
+{
+	background-color: transparent;
+	color: #7C7C94;
+}
+.dxgvLoadingPanelStatusBar_Office2003Silver td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_Office2003Silver
+{
+	color: Black;
+	border: 1px solid #7b7b93;
+}
+.dxgvFilterPopupItemsArea_Office2003Silver
+{
+	color: Black;
+	background-color: White;
+}
+.dxgvFilterPopupButtonPanel_Office2003Silver
+{
+	background-color: #dfdfdf;
+	border: 1px solid #dcdcdc;
+	border-left: 0px solid #dcdcdc;
+	color: Black;
+}
+
+.dxgvFilterPopupItem_Office2003Silver td.dxgv,
+.dxgvFilterPopupActiveItem_Office2003Silver td.dxgv,
+.dxgvFilterPopupSelectedItem_Office2003Silver td.dxgv
+{
+	padding: 3px 2px 4px 3px;
+	border-left: 1px solid White;
+	border-bottom: 1px solid White;
+	border-right: 1px solid White;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_Office2003Silver
+{
+	background: #dfdfdf none;
+	color: Black;
+}
+.dxgvFilterPopupSelectedItem_Office2003Silver
+{
+	background: #ffc076 none;
+	color: Black;
+}
+
+.dxgvTable_Office2003Silver
+{
+	background-color: White;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+}
+.dxgvTable_Office2003Silver .dxgvHEC
+{
+	background-color: White;
+	border-width: 0;
+	overflow: hidden;
+}
+.dxgvControl_Office2003Silver .dxgvFSDC .dxgvFooter_Office2003Silver td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_Office2003Silver .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_Office2003Silver .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_Office2003Silver .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_Office2003Silver,
+.dxgvDataRow_Office2003Silver
+{
+}
+.dxgvInlineEditRow_Office2003Silver td.dxgv
+{
+	border-bottom: 1px solid #9c9ab7;
+	border-right: 1px solid #9c9ab7;
+	background: #e2e3ed none;
+}
+.dxgvInlineEditRow_Office2003Silver td.dxgvIndentCell
+{
+	background-color: #c8c8d9;
+}
+.dxgvDataRowAlt_Office2003Silver
+{
+	background-color: #f3f3f3;
+}
+.dxgvFilterRow_Office2003Silver
+{
+	background: #c8c8d9 none;
+}
+.dxgvEditForm_Office2003Silver
+{
+	background-color: #e2e3ed;
+}
+.dxgvEditForm_Office2003Silver td.dxgv
+{
+	border-bottom: 1px solid #9c9ab7;
+	padding: 0px 0px 2px;
+}
+.dxgvEditForm_Office2003Silver td.dxgvIndentCell
+{
+	background: #c8c8d9 none;
+	border-right: 1px Solid #9c9ab7;
+	border-left: 1px Solid #9c9ab7;
+	border-top-width: 0px;
+}
+.dxgvSelectedRow_Office2003Silver
+{
+	background: #ffc076 none;
+}
+.dxgvFocusedRow_Office2003Silver
+{
+	background: #fff2c8 url('gvFocusedBack.gif') repeat-x center bottom;
+}
+.dxgvPreviewRow_Office2003Silver
+{
+	background-color: white;
+}
+.dxgvDetailRow_Office2003Silver td.dxgv,
+.dxgvPreviewRow_Office2003Silver td.dxgv,
+.dxgvEmptyDataRow_Office2003Silver td.dxgv
+{
+	padding: 2px 2px 4px 4px;
+	border-bottom: 1px solid #c8c8d9;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvDetailRow_Office2003Silver td.dxgvIndentCell
+{
+	border-bottom: 1px solid #c8c8d9;
+}
+.dxgvDetailRow_Office2003Silver.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 5px 0;
+}
+.dxgvDetailRow_Office2003Silver.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_Office2003Silver.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -4px 0 -3px 0;
+}
+.dxgvDetailRow_Office2003Silver.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvEmptyDataRow_Office2003Silver
+{
+	color: #848484;
+}
+.dxgvEmptyDataRow_Office2003Silver td.dxgv
+{
+	text-align: center;
+}
+
+.dxgvEditFormDisplayRow_Office2003Silver td.dxgv,
+.dxgvDetailCell_Office2003Silver td.dxgv,
+.dxgvDataRow_Office2003Silver td.dxgv,
+.dxgvDetailRow_Office2003Silver.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-bottom: 1px solid #c8c8d9;
+	border-right: 1px solid #c8c8d9;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 2px 6px 5px;
+}
+.dxgvDataRow_Office2003Silver td.dxgvAIC,
+.dxgvInlineEditRow_Office2003Silver td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvDetailRow_Office2003Silver.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_Office2003Silver td.dxgv
+{
+	background: #e2e3ed none;
+}
+.dxgvEditFormDisplayRow_Office2003Silver td.dxgvIndentCell
+{
+	background: #c8c8d9 none;
+	border-right: 1px Solid #9c9ab7;
+	border-left: 1px Solid #9c9ab7;
+	border-top-width: 0px;
+}
+.dxgvSelectedRow_Office2003Silver td.dxgv
+{
+	border-color: #fe9552;
+}
+.dxgvEditingErrorRow_Office2003Silver
+{
+	background-color: #FE9552;
+	color: #FFFFFF;
+}
+.dxgvEditingErrorRow_Office2003Silver td.dxgv
+{
+	white-space: pre-wrap;
+	font-weight: bold;
+	border-bottom: 1px solid #9c9ab7;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 10px;
+}
+
+.dxgvFilterRow_Office2003Silver td.dxgv
+{
+	border-bottom: 1px solid #9c9ab7;
+	border-right: 1px solid #9c9ab7;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 2px;
+	overflow: hidden;
+}
+.dxgvGroupRow_Office2003Silver
+{
+	background-color: #c8c8d9;
+}
+.dxgvFocusedGroupRow_Office2003Silver
+{
+	background: #fff2c8 url('gvFocusedBack.gif') repeat-x center bottom;
+}
+.dxgvGroupRow_Office2003Silver td.dxgv,
+.dxgvFocusedGroupRow_Office2003Silver td.dxgv
+{
+	border: 0 none;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #9c9ab7;
+	padding: 2px 6px 3px;
+    background-color: inherit;
+}
+.dxgvFocusedRow_Office2003Silver td.dxgvIndentCell,
+.dxgvFocusedGroupRow_Office2003Silver td.dxgvIndentCell,
+.dxgvSelectedRow_Office2003Silver td.dxgvIndentCell
+{
+	background: #C8C8D9!important;
+	border-right: 1px solid #9C9AB7;
+	border-left: 1px solid #9C9AB7;
+	border-top-width: 0px;
+}
+.dxgvHeaderPanel_Office2003Silver
+{
+	background: #9c9ab7 url('gvGradient.gif') repeat-x center top;
+	color: Black;
+	padding: 8px 6px;
+	border-bottom: 1px solid #9c9ab7;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_Office2003Silver,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_Office2003Silver
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_Office2003Silver,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_Office2003Silver
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_Office2003Silver
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 4px 6px 5px;
+	border: 1px solid #9c9ab7;
+	background: #9c9ab7 url('gvGradient.gif') repeat-x center top;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+.dxgvHeader_Office2003Silver,
+.dxgvHeader_Office2003Silver table
+{
+	color: Black;
+}
+.dxgvHeader_Office2003Silver td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_Office2003Silver a.dxgvCommandColumnItem_Office2003Silver
+{
+	margin: 0px 3px 0px 0px;
+}
+.dxgvHeader_Office2003Silver .dxbButton_Office2003Silver[class~="dxgvCommandColumnItem_Office2003Silver"]
+{
+    margin: 0px 2px -1px 2px;
+}
+.dxgvCustomization_Office2003Silver,
+.dxgvPopupEditForm_Office2003Silver
+{
+	padding: 0;
+	margin: 0;
+}
+.dxgvGroupPanel_Office2003Silver
+{
+	white-space: nowrap;
+	background: #c8c8d9 none;
+	border-bottom: 1px solid #9c9ab7;
+	padding: 7px 4px 8px 6px;
+}
+.dxgvAdaptiveHeaderPanel_Office2003Silver
+{
+    background: #c8c8d9 none;
+	border-bottom: 1px solid #9c9ab7;
+    padding-top: 10px;
+}
+.dxgvAdaptiveFooterPanel_Office2003Silver
+{
+    background-color: #a4a2bd;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_Office2003Silver,
+.dxgvAdaptiveFooterPanel_Office2003Silver
+{
+    padding-left: 10px;
+}
+.dxgvFooter_Office2003Silver
+{
+	background-color: #a4a2bd;
+	white-space: nowrap;
+}
+.dxgvFooter_Office2003Silver td.dxgv
+{
+	padding: 3px 6px 5px;
+	border-bottom: 1px solid #9c9ab7;
+	border-right: 1px solid #9c9ab7;
+}
+.dxgvGroupFooter_Office2003Silver
+{
+	background-color: #a4a2bd;
+	white-space: nowrap;
+}
+.dxgvGroupFooter_Office2003Silver td.dxgv
+{
+	padding: 4px 6px;
+	border-bottom: 1px solid #c8c8d9;
+	border-right: 1px solid #c8c8d9;
+}
+.dxgvDataRow_Office2003Silver td.dxgvIndentCell,
+.dxgvDetailRow_Office2003Silver td.dxgvIndentCell,
+.dxgvPreviewRow_Office2003Silver td.dxgvIndentCell,
+.dxgvGroupRow_Office2003Silver td.dxgvIndentCell,
+.dxgvGroupFooter_Office2003Silver td.dxgvIndentCell
+{
+	background-color: #c8c8d9;
+	border-right: 1px solid #9C9AB7;
+	border-left: 1px solid #9C9AB7;
+	border-top-width: 0px;
+}
+.dxgvTitlePanel_Office2003Silver,
+.dxgvTable_Office2003Silver caption
+{
+	color: White;
+	font-weight: bold;
+	padding: 3px;
+	text-align: center;
+	border-bottom: 1px solid #9c9ab7;
+	background: #787797 url('gvTitleBack.gif') repeat-x center top;
+}
+.dxgvStatusBar_Office2003Silver
+{
+	border-top: 1px solid #9c9ab7;
+}
+.dxgvStatusBar_Office2003Silver tr.dxgv
+{
+	height: 20px;
+}
+.dxgvStatusBar_Office2003Silver tr.dxgv > td
+{
+	padding: 4px;
+}
+.dxgvCommandColumn_Office2003Silver
+{
+	padding: 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_Office2003Silver a
+{
+	margin: 0px 3px 0px 0px;
+}
+.dxgvCommandColumnItem_Office2003Silver
+{
+}
+.dxbButton_Office2003Silver[class~="dxgvCommandColumnItem_Office2003Silver"]
+{
+	margin: 1px 2px -2px 2px;
+}
+.dxbButton_Office2003Silver[class~="dxgvCommandColumnItem_Office2003Silver"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_Office2003Silver a.dxgvCommandColumnItem_Office2003Silver
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+.dxgvEditFormTable_Office2003Silver
+{
+	padding: 2px 6px 6px 4px;
+	color: Black;
+}
+.dxgvEditFormTable_Office2003Silver div.dxbButton_Office2003Silver
+{
+    margin: 0px 2px;
+}
+.dxgvEditFormCaption_Office2003Silver
+{
+	padding: 5px 4px 4px 10px;
+	white-space: nowrap;
+}
+
+.dxgvInlineEditCell_Office2003Silver
+{
+	padding: 1px;
+}
+
+.dxgvEditFormCell_Office2003Silver
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvFilterBar_Office2003Silver
+{
+	border-top: 1px solid #9c9ab7;
+	background-color: #c8c8d9;
+}
+.dxgvFilterBar_Office2003Silver a
+{
+	color: black;
+	text-decoration: underline;
+}
+.dxgvFilterBarCheckBoxCell_Office2003Silver
+{
+	padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_Office2003Silver
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_Office2003Silver
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_Office2003Silver
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_Office2003Silver
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_Office2003Silver
+{
+	background-color: #D4D4E2;
+	border-top: 1px solid #BBBBD1;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxgvDataRowHover_Office2003Silver
+{
+	background: #dfdfdf none;
+	color: Black;
+}
+.dxgvControl_Office2003Silver .dxgvHFSAC
+{
+    padding: 10px 0 0 4px;
+}
+.dxgvControl_Office2003Silver .dxgvHFC
+{
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.dxgvControl_Office2003Silver .dxgvHFC .dxeCalendar_Office2003Silver
+{
+    margin-left: 23px;
+}
+.dxgvControl_Office2003Silver .dxgvHFSC
+{
+    padding: 10px 0 7px;
+}
+.dxgvControl_Office2003Silver .dxgvHFSC div
+{
+    height: 1px;
+    background: #7C7C94;
+}
+.dxgvControl_Office2003Silver div[id$='DXEPLPC']
+{
+    height: 43px;
+}
+
+.dxgvControl_Office2003Silver .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_Office2003Silver .dxgvHFDRC
+{
+    margin: 15px;
+}
+.dxgvControl_Office2003Silver .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_Office2003Silver .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_Office2003Silver .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_Office2003Silver
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_Office2003Silver td.dxgvBatchEditCell_Office2003Silver
+{
+    padding: 0;
+}
+.dxgvControl_Office2003Silver td.dxgvBatchEditModifiedCell_Office2003Silver
+{
+    background: #d7f9c7;
+}
+.dxgvControl_Office2003Silver .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_Office2003Silver .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_Office2003Silver .dxgvCommandColumn_Office2003Silver a
+{
+    margin-right: 10px;
+}
+.dxgvControl_Office2003Silver td.dxgvBatchEditCell_Office2003Silver .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvSearchPanel_Office2003Silver
+{
+    background: #c8c8d9;
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #9c9ab7;
+}
+.dxgvSearchPanel_Office2003Silver > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_Office2003Silver .dxgvSearchPanel_Office2003Silver .dxbButton_Office2003Silver
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_Office2003Silver .dxgvSearchPanel_Office2003Silver .dxbButton_Office2003Silver {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_Office2003Silver .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_Office2003Silver .dxgvSearchPanel_Office2003Silver .dxbButton_Office2003Silver
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_Office2003Silver .dxgvSearchPanel_Office2003Silver .dxbButton_Office2003Silver .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvEditForm_Office2003Silver .dxflGroupBoxCaption_Office2003Silver {
+    background-color: #e2e3ed;
+}

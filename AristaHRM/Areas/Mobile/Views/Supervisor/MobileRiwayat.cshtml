@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = " - Riwayat Cuti -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@using (Html.BeginForm())
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("SuperMenu", "Supervisor", mobilearea)">Supervisor Home</a> > <a href="@Url.Action("SuperCuti", "Supervisor", mobilearea)">Supervisi Cuti</a> > Riwayat Cuti</li>
+        <li data-role="list-divider">Riwayat Cuti</li>
+    </ul>
+
+    Html.RenderAction("RiwayatPartial", "Supervisor", mobilearea);
+}
+

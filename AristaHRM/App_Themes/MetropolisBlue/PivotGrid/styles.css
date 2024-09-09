@@ -1,0 +1,537 @@
+.dxpgControl_MetropolisBlue, .dxpgCustForm_MetropolisBlue
+{
+	color: #333333;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	border: solid 1px #c0c0c0;
+	background-color: white;
+}
+.dxpgContainerCell_MetropolisBlue
+{
+	vertical-align: top;
+}
+.dxpgMainTable_MetropolisBlue
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_MetropolisBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_MetropolisBlue caption 
+{
+	background: #ACACAC;
+	color: white;
+	border-bottom: Solid 1px #9F9F9F;
+    font-size: 1.25em;
+	font-weight: normal;
+	padding: 3px 3px 5px;
+	text-align: center;
+}
+.dxpgHeader_MetropolisBlue
+{
+	border-width: 0px;
+	cursor: pointer;
+	white-space: nowrap;
+    	text-align: left;
+}
+.dxpgHeaderTable_MetropolisBlue
+{
+	border: solid 1px #c0c0c0;
+	width: 100%;
+	border-collapse: separate !important;
+}
+.dxpgMSDraggable_MetropolisBlue .dxpgHeaderTable_MetropolisBlue,
+.dxpgCustFieldsDiv_MetropolisBlue .dxpgHeaderTable_MetropolisBlue
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+
+.dxpgHeaderGroupButton_MetropolisBlue
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_MetropolisBlue
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+.dxpgHeaderSort_MetropolisBlue
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_MetropolisBlue
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgArea_MetropolisBlue
+{
+	border: solid 1px #c0c0c0;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+.dxpgColumnArea_MetropolisBlue
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_MetropolisBlue
+{
+}
+.dxpgDataArea_MetropolisBlue
+{
+}
+.dxpgFilterArea_MetropolisBlue
+{
+	border-bottom-style: solid;
+}
+.dxpgEmptyArea_MetropolisBlue
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_MetropolisBlue
+{
+	border: solid 1px #c0c0c0;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+	font-weight: normal;
+	text-align: left;	
+}
+.dxpgColumnTotalFieldValue_MetropolisBlue
+{
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_MetropolisBlue
+{
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_MetropolisBlue
+{
+	border: solid 1px #c0c0c0;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding: 3px 6px 4px 6px;
+	font-weight: normal;
+	text-align: left;
+}
+.dxpgRowTotalFieldValue_MetropolisBlue
+{
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+.dxpgRowTreeFieldValue_MetropolisBlue
+{	
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_MetropolisBlue
+{
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: solid;
+	border-top-style: solid;
+	padding-top: 5px;
+	padding-bottom: 6px;	
+}
+.dxpgCollapsedButton_MetropolisBlue
+{
+	vertical-align: -1px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_MetropolisBlue
+{
+	vertical-align: -1px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_MetropolisBlue
+{
+	text-align: right;
+	background-color: White;	
+	border-color: #cecece;
+	border-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	padding-top:3px;
+	white-space: nowrap;
+}
+.dxpgKPICell_MetropolisBlue
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_MetropolisBlue
+{
+}
+.dxpgGrandTotalCell_MetropolisBlue
+{
+}
+.dxpgFilterItem_MetropolisBlue
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_MetropolisBlue
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_MetropolisBlue
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px #c0c0c0;
+	padding: 4px 0;
+}
+.dxpgBottomPager_MetropolisBlue
+{
+	border-top: solid 1px #c0c0c0;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	padding: 7px 0;
+}
+.dxpgTopPager_MetropolisBlue,
+.dxpgBottomPager_MetropolisBlue
+{
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_MetropolisBlue
+{
+	color: White;
+	font-size: 0.91em;
+	background-image: none!important;
+}
+.dxpgCustomizationFieldsContent_MetropolisBlue
+{
+	padding: 0px !important;
+	min-width: 300px;
+}
+.dxpgMenuItem_MetropolisBlue 
+{
+}
+.dxpgDataHeadersImage_MetropolisBlue
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_MetropolisBlue
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanel_MetropolisBlue
+{
+	border: none;
+}
+.dxpgPrefilterPanelLink_MetropolisBlue
+{
+	color: #0072C6;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanelCheckBoxCell_MetropolisBlue
+{
+	padding: 0 7px;
+}
+.dxpgPrefilterPanelImageCell_MetropolisBlue
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_MetropolisBlue
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_MetropolisBlue
+{
+	padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_MetropolisBlue
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_MetropolisBlue
+{
+	border-top: solid 1px #c0c0c0;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_MetropolisBlue 
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_MetropolisBlue,
+.dxpgCustFieldsRowAreaHeaders_MetropolisBlue,
+.dxpgCustFieldsColumnAreaHeaders_MetropolisBlue,
+.dxpgCustFieldsDataAreaHeaders_MetropolisBlue,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_MetropolisBlue,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_MetropolisBlue
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_MetropolisBlue
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_MetropolisBlue
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_MetropolisBlue
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_MetropolisBlue .dxpgFLTextDiv_MetropolisBlue,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_MetropolisBlue .dxpgFLTextDiv_MetropolisBlue
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_MetropolisBlue
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_MetropolisBlue .dxeBase_MetropolisBlue,
+.TopPanelOnly .dxpgFLDefereDiv_MetropolisBlue .dxpgFLDefereDB_MetropolisBlue,
+.TopPanelOnly .dxpgFLFRDiv_MetropolisBlue,
+.TopPanelOnly .dxpgFLCDDiv_MetropolisBlue,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_MetropolisBlue,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_MetropolisBlue,
+.TopPanelOnly .dxpgFLTextDiv_MetropolisBlue div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_MetropolisBlue
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_MetropolisBlue
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_MetropolisBlue,
+.StackedSideBySide .dxpgCustFieldsFieldList_MetropolisBlue
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_MetropolisBlue
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_MetropolisBlue,
+.StackedSideBySide .dxpgFLCDDiv_MetropolisBlue
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_MetropolisBlue
+{
+    	display:block;
+position:relative;
+}
+.dxpgFLListDiv_MetropolisBlue > div
+{
+    border:1px solid #c0c0c0;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_MetropolisBlue > div > div
+{
+    position:relative;
+    display:block;
+    background:#FFFFFF;
+    height:100%;
+    padding:0px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_MetropolisBlue > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_MetropolisBlue 
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_MetropolisBlue .dxbButton_MetropolisBlue div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_MetropolisBlue .dxbButton_MetropolisBlue div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_MetropolisBlue
+{
+ height:28px;
+}
+.dxpgFLTextDiv_MetropolisBlue div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_MetropolisBlue
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_MetropolisBlue
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_MetropolisBlue
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_MetropolisBlue
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_MetropolisBlue 
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_MetropolisBlue .dxeBase_MetropolisBlue
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:17px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgFLDefereDB_MetropolisBlue
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_MetropolisBlue .dxbButton_MetropolisBlue div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_MetropolisBlue .dxbButton_MetropolisBlue div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_MetropolisBlue table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_MetropolisBlue table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_MetropolisBlue
+{
+	border: 1px solid #C3C3C3;
+	background-color: white;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #333333;
+}
+.dxpgLoadingPanel_MetropolisBlue td.dx
+{
+	font-size: 1.17em;
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 14px;
+}
+.dxpgLoadingPanel_MetropolisBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+
+.dxpgVScrollBarAreaCell_MetropolisBlue {
+     border-left: 1px solid #c0c0c0;
+     border-bottom: 1px solid #c0c0c0;
+ }
+.dxpgHScrollBarAreaCell_MetropolisBlue {
+    border-top: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+}
+.dxpgScrollBarEdgeCell_MetropolisBlue {
+    border-left: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+}

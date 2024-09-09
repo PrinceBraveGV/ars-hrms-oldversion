@@ -1,0 +1,11 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dx:ASPxCallbackPanel runat="server" LoadingPanelImagePosition="Top" LoadingPanelText="Memuat&amp;hellip;" EnableClientSideAPI="True" SpriteCssFilePath="{0}/sprite.css" CssFilePath="{0}/styles.css" CssPostfix="MarineBlue">
+<SettingsLoadingPanel Text="Memuat&amp;hellip;" ImagePosition="Top"></SettingsLoadingPanel>
+
+<Images SpriteCssFilePath="{0}/sprite.css"></Images>
+
+<Styles CssPostfix="MarineBlue" CssFilePath="{0}/styles.css"></Styles>
+
+</dx:ASPxCallbackPanel>

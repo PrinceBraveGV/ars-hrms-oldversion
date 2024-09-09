@@ -1,0 +1,36 @@
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane {
+    color: #4a4a4a;
+    padding: 0px;
+}
+
+.dxsplControl_XafTheme .dxSplReportToolbarHSep {
+    display: none;
+}
+
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxmtb.dxm-horizontal .dxm-separator {
+    margin: 1px 0 2px;
+}
+
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxmtb.dxm-horizontal .dxm-item {
+    margin: 1px 0 0;
+}
+
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxmtb.dxm-horizontal .dxtb-comboBoxMenuItem,
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxmtb.dxm-horizontal .dxtb-labelMenuItem {
+    margin: 0;
+}
+
+.dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem {
+    padding: 0 4px 0 2px!important;
+}
+
+.dxIE.dxBrowserVersion-8 .dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-labelMenuItem {
+    padding: 7px 4px 0!important;
+    padding: 6px 4px 0!important;
+}
+
+.dxFirefox .dxsplControl_XafTheme .dxmLiteReportToolbarPane .dxmLite_XafTheme .dxm-horizontal.dxmtb .dxtb-labelMenuItem {
+    padding: 6px 4px 0!important;
+}
+
+

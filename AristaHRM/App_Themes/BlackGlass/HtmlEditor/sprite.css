@@ -1,0 +1,232 @@
+.dxHtmlEditor_heConstrainProportionsBottom_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsTop_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsTopRtl_BlackGlass,
+.dxHtmlEditor_heEnumIcon_BlackGlass,
+.dxHtmlEditor_heErrorFrameCloseButton_BlackGlass,
+.dxHtmlEditor_heEventIcon_BlackGlass,
+.dxHtmlEditor_heFieldIcon_BlackGlass,
+.dxHtmlEditor_heReset_BlackGlass,
+.dxHtmlEditor_heSizeGrip_BlackGlass,
+.dxHtmlEditor_heSizeGripRtl_BlackGlass,
+.dxHtmlEditor_heTagInspectorChangeButton_BlackGlass,
+.dxHtmlEditor_heTagInspectorRemoveButton_BlackGlass,
+.dxHtmlEditor_heTagInspectorSeparator_BlackGlass,
+.dxHtmlEditor_heToolbarPopOut_BlackGlass,
+.dxHtmlEditor_heXmlItemIcon_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BlackGlass
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_BlackGlass
+{
+    background-position: -74px -57px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BlackGlass
+{
+    background-position: -43px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BlackGlass
+{
+    background-position: -73px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BlackGlass
+{
+    background-position: -12px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BlackGlass
+{
+    background-position: -61px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BlackGlass
+{
+    background-position: 0px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_BlackGlass
+{
+    background-position: -62px -51px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_BlackGlass
+{
+    background-position: -74px -51px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_BlackGlass
+{
+    background-position: -41px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_BlackGlass
+{
+    background-position: -43px -40px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_BlackGlass
+{
+    background-position: -24px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_BlackGlass
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_BlackGlass
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_BlackGlass
+{
+    background-position: -30px -40px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heSizeGripRtl_BlackGlass
+{
+    background-position: -17px -40px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_BlackGlass
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_BlackGlass
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_BlackGlass
+{
+    background-position: -79px -40px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_BlackGlass
+{
+    background-position: -66px -57px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heXmlItemIcon_BlackGlass
+{
+    background-position: -58px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BlackGlass
+{
+    background-position: -44px -57px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BlackGlass
+{
+    background-position: 0px -57px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BlackGlass
+{
+    background-position: -33px -57px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BlackGlass
+{
+    background-position: -22px -57px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BlackGlass
+{
+    background-position: -11px -57px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BlackGlass
+{
+    background-position: -57px -40px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BlackGlass
+{
+    background-position: -55px -57px;
+    width: 10px;
+    height: 7px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BlackGlass
+{
+    background-position: -75px -32px;
+    width: 10px;
+    height: 7px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BlackGlass
+{
+    background-position: -75px -21px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BlackGlass
+{
+    background-position: -68px -40px;
+    width: 10px;
+    height: 10px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsBottom_BlackGlass,
+.dxHtmlEditor_heConstrainProportionsTop_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BlackGlass,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BlackGlass
+{
+	display:block;
+}

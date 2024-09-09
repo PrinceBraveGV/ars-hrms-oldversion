@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="biov6" Class="AbsensiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=172.16.110.73;Initial Catalog=biov6;Persist Security Info=True;User ID=sa1;MultipleActiveResultSets=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AbsenConnection" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ABSENSI" Member="ABSENSIs">
+    <Type Name="ABSENSI">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jadwalmasuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jadwalpulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="masuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IstirahatIn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IstirahatOut" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="lembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="TotalLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="jamefektif" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Terlambat" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="PulangAwal" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="durasiBreak" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Masuk3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Pulang3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Masuk2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Pulang2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isManual" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="idShift" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="keterangan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isLibur" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="isSabtu" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isMulai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isLembur" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isHadir" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="isTelat" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="isKalkulasi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="noSPL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Alasan" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="kodearea" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="LemburMasuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LemburPulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isedit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="lastedit" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="tunjangan" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="LemburMasuk2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LemburPulang2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="KODE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="isPulangAwal" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Shift" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="TShift" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Makan" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Transport" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Holiday" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur1" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur2" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="isEditLembur" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KetLembur" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isImport" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BreakLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="PotongCuti" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JamNormal" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_150" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_200" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_300" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_400" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="kdhari" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Cuti" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="AutoLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_ABSENSI" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VALIDASI" Member="VALIDASIs">
+    <Type Name="VALIDASI">
+      <Column Name="T1AWAL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T1AKHIR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T1DURASI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T1T2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T2AWAL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T2AKHIR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="T2DURASI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VEFEKTIF" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VTELAT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VPLGCEPAT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VLEMBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ISHLIBUR" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISHBESAR" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HLIBUR" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="HBESAR" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="POTONGLEMBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JAMLEMBUR" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ISSEMUA" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CUTOFF" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AUTO1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AUTO2" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PERIODE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LASTMOVE" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="DEFMANGKIR" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEFHADIR" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DEFLK" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DEFLM" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="BatasLembur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MENITCUTI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="POTONGCUTI" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="FORMULACUTI" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="BULATLEMBUR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LASTPROSES" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="KDMANGKIR" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="tltLembur" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PTGLBRLIBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LBHLBRLIBUR" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="PTGLBRLIBUR2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LBHLBRLIBUR2" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Alasan" Member="Alasans">
+    <Type Name="Alasan">
+      <Column Name="kdAlasan" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Keterangan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kolom" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="PotCuti" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AUTOLEMBUR" Member="AUTOLEMBURs">
+    <Type Name="AUTOLEMBUR">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TglAwal" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TglAkhir" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur1" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur2" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="LastUpdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="NOSPL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="uraian" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="KARYAWAN_AUTOLEMBUR" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CABANG" Member="CABANGs">
+    <Type Name="CABANG">
+      <Column Name="KDCABANG" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ALAMAT" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="CABANG_KARYAWAN" Member="KARYAWANs" ThisKey="KDCABANG" OtherKey="KDCABANG" Type="KARYAWAN" />
+      <Association Name="CABANG_userlogin" Member="userlogins" ThisKey="KDCABANG" OtherKey="kdcabang" Type="userlogin" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Company" Member="Companies">
+    <Type Name="Company">
+      <Column Name="Perusahaan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kodearea" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Alamat" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Telpon" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faksimili" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="web" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ftp" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUTI" Member="CUTIs">
+    <Type Name="CUTI">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TANGGAL" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KETERANGAN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DAFTARHADIR" Member="DAFTARHADIRs">
+    <Type Name="DAFTARHADIR">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="IN1" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN2" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN3" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN4" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN5" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN6" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN7" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN8" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN9" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN10" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN11" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN12" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN13" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN14" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN15" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN16" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN17" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN18" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN19" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN20" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN21" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN22" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN23" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN24" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN25" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN26" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN27" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN28" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN29" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN30" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="IN31" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT1" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT2" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT3" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT4" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT5" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT6" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT7" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT8" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT9" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT10" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT11" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT12" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT13" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT14" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT15" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT16" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT17" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT18" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT19" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT20" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT21" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT22" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT23" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT24" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT25" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT26" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT27" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT28" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT29" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT30" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OUT31" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="alasan1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan3" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan4" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan5" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan6" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan7" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="alasan8" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Hadir" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_DAFTARHADIR" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEPARTEMEN" Member="DEPARTEMENs">
+    <Type Name="DEPARTEMEN">
+      <Column Name="NamaDept" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="kdDept" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="DEPARTEMEN_KARYAWAN" Member="KARYAWANs" ThisKey="NamaDept" OtherKey="DEPARTEMEN" Type="KARYAWAN" />
+      <Association Name="DEPARTEMEN_SUB" Member="SUBs" ThisKey="NamaDept" OtherKey="NAMADEPT" Type="SUB" />
+      <Association Name="DEPARTEMEN_userlogin" Member="userlogins" ThisKey="NamaDept" OtherKey="namadept" Type="userlogin" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETAILJOB" Member="DETAILJOBs">
+    <Type Name="DETAILJOB">
+      <Column Name="Pin" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Kdjob" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Mulai" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Selesai" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Waktu" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Keterangan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="KARYAWAN_DETAILJOB" Member="KARYAWAN" ThisKey="Pin" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="MASTERJOB_DETAILJOB" Member="MASTERJOB" ThisKey="Kdjob" OtherKey="KdJob" Type="MASTERJOB" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ENROLLMENT" Member="ENROLLMENTs">
+    <Type Name="ENROLLMENT">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="dataenroll" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="dataEnroll2" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Jari" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="KARYAWAN_ENROLLMENT" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FTDATA" Member="FTDATAs">
+    <Type Name="FTDATA">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="NAMA" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="TEMPLATE" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="JARI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRIVILEGE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PASS" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="KARTU" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="KARYAWAN_FTDATA" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GRUPSHIFT" Member="GRUPSHIFTs">
+    <Type Name="GRUPSHIFT">
+      <Column Name="NAMAGRUP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KODESHIFT" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ISTETAP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISJUMAT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISSABTU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISMINGGU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISLIBUR" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HARIKERJA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HARILIBUR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ISJADWAL" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISNONSHIFT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DURASIKERJA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BREAKLEMBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ISMULTI" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BULATLEMBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FLEKSIBEL" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KdGrup" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="LK" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="LM" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="LL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="GRUPSHIFT_KARYAWAN" Member="KARYAWANs" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="KARYAWAN" />
+      <Association Name="GRUPSHIFT_SHIFTTDKTETAP" Member="SHIFTTDKTETAPs" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="SHIFTTDKTETAP" />
+      <Association Name="GRUPSHIFT_SHIFTTETAP" Member="SHIFTTETAPs" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="SHIFTTETAP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HABSENSI" Member="HABSENSIs">
+    <Type Name="HABSENSI">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jadwalmasuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jadwalpulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="masuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IstirahatIn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IstirahatOut" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="lembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TotalLembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="jamefektif" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Terlambat" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="PulangAwal" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="durasiBreak" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Masuk3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Pulang3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Masuk2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Pulang2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isManual" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="idShift" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="keterangan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isLibur" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="isSabtu" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isMulai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isLembur" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isHadir" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="isTelat" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="isKalkulasi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="noSPL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Alasan" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="kodearea" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="LemburMasuk" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LemburPulang" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isedit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="lastedit" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="tunjangan" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="LemburMasuk2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LemburPulang2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="KODE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="isPulangAwal" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Shift" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="TShift" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Makan" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Transport" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Holiday" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur1" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Lembur2" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="isEditLembur" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KetLembur" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="isImport" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BreakLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="PotongCuti" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JamNormal" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_150" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_200" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_300" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_400" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="kdhari" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="AutoLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Cuti" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_HABSENSI" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HAlokasi" Member="HAlokasis">
+    <Type Name="HAlokasi">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="awal" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="akhir" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="indek" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="namagrup" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="KARYAWAN_HAlokasi" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hardware" Member="Hardwares">
+    <Type Name="Hardware">
+      <Column Name="Nomor" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IsNetwork" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IpAddress" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PortNo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="CommPort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeviceNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Baudrate" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Serial" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Aktivasi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Lokasi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cdkey" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fungsi" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HARILIBUR" Member="HARILIBURs">
+    <Type Name="HARILIBUR">
+      <Column Name="TGLLIBUR" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KETERANGAN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="KDLEMBUR" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="MULTIPLIKASI_HARILIBUR" Member="MULTIPLIKASI" ThisKey="KDLEMBUR" OtherKey="KDLEMBUR" Type="MULTIPLIKASI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hlogdata" Member="Hlogdatas">
+    <Type Name="Hlogdata">
+      <Column Name="pin" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="flag" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="islog" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="serial" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lokasi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="KARYAWAN_Hlogdata" Member="KARYAWAN" ThisKey="pin" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HRINGKAS" Member="HRINGKAs">
+    <Type Name="HRINGKA">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BULAN" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="awal" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="akhir" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="HariKerja" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="masuk" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tidakmasuk" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JamEfektif" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="HariTelat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JamTelat" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Lembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TotalLembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="isKalkulasi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TotalTunjangan" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="jampulangawal" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="haripulangawal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HadirLibur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_150" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_200" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_300" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_400" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan01" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan02" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan03" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan04" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan05" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan06" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan07" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan08" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan09" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan10" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan11" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan12" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan13" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan14" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan15" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan16" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_HRINGKA" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Interface" Member="Interfaces">
+    <Type Name="Interface">
+      <Column Name="LastUpdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="dbsource" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usr" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="pwd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Tabel" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pin" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="flag" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="masuk1" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="pulang1" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="masuk2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="pulang2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="accept" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="nilai" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JABATAN" Member="JABATANs">
+    <Type Name="JABATAN">
+      <Column Name="Jabatan" Member="Jabatan1" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="JABATAN_KARYAWAN" Member="KARYAWANs" ThisKey="Jabatan1" OtherKey="Jabatan" Type="KARYAWAN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KARYAWAN" Member="KARYAWANs">
+    <Type Name="KARYAWAN">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NIK" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NAMA" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DEPARTEMEN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SUB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Jabatan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NAMAGRUP" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kodelembur" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="HariKerja" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HariLibur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="alokasiawal" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="alokasiakhir" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="indexakhir" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isSPL" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isPassword" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="tunjangan" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="ISAKTIF" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CaraBayar" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="tolTerlambat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="potongan" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="PotongRupiah" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="TGLMASUK" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="SISACUTI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LASTCUTI" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="TolTerlambat2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Potongan2" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="KDCABANG" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Lokasi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BreakLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="isProses" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Panggilan" Type="System.String" DbType="VarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="TipeGaji" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_ABSENSI" Member="ABSENSIs" ThisKey="PIN" OtherKey="PIN" Type="ABSENSI" />
+      <Association Name="KARYAWAN_AUTOLEMBUR" Member="AUTOLEMBURs" ThisKey="PIN" OtherKey="PIN" Type="AUTOLEMBUR" />
+      <Association Name="KARYAWAN_DAFTARHADIR" Member="DAFTARHADIRs" ThisKey="PIN" OtherKey="PIN" Type="DAFTARHADIR" />
+      <Association Name="KARYAWAN_DETAILJOB" Member="DETAILJOBs" ThisKey="PIN" OtherKey="Pin" Type="DETAILJOB" />
+      <Association Name="KARYAWAN_ENROLLMENT" Member="ENROLLMENTs" ThisKey="PIN" OtherKey="PIN" Type="ENROLLMENT" />
+      <Association Name="KARYAWAN_FTDATA" Member="FTDATAs" ThisKey="PIN" OtherKey="PIN" Type="FTDATA" />
+      <Association Name="KARYAWAN_HABSENSI" Member="HABSENSIs" ThisKey="PIN" OtherKey="PIN" Type="HABSENSI" />
+      <Association Name="KARYAWAN_HAlokasi" Member="HAlokasis" ThisKey="PIN" OtherKey="PIN" Type="HAlokasi" />
+      <Association Name="KARYAWAN_Hlogdata" Member="Hlogdatas" ThisKey="PIN" OtherKey="pin" Type="Hlogdata" />
+      <Association Name="KARYAWAN_HRINGKA" Member="HRINGKAs" ThisKey="PIN" OtherKey="PIN" Type="HRINGKA" />
+      <Association Name="KARYAWAN_logdata" Member="logdatas" ThisKey="PIN" OtherKey="pin" Type="logdata" />
+      <Association Name="KARYAWAN_LOGTRANSAKSI" Member="LOGTRANSAKSIs" ThisKey="PIN" OtherKey="PIN" Type="LOGTRANSAKSI" />
+      <Association Name="KARYAWAN_PAYSLIP" Member="PAYSLIPs" ThisKey="PIN" OtherKey="PIN" Type="PAYSLIP" />
+      <Association Name="KARYAWAN_REQCUTI" Member="REQCUTIs" ThisKey="PIN" OtherKey="PIN" Type="REQCUTI" />
+      <Association Name="KARYAWAN_RINGKA" Member="RINGKAs" ThisKey="PIN" OtherKey="PIN" Type="RINGKA" />
+      <Association Name="KARYAWAN_RPT_TIDAKHADIR" Member="RPT_TIDAKHADIRs" ThisKey="PIN" OtherKey="PIN" Type="RPT_TIDAKHADIR" />
+      <Association Name="CABANG_KARYAWAN" Member="CABANG" ThisKey="KDCABANG" OtherKey="KDCABANG" Type="CABANG" IsForeignKey="true" />
+      <Association Name="DEPARTEMEN_KARYAWAN" Member="DEPARTEMEN1" ThisKey="DEPARTEMEN" OtherKey="NamaDept" Type="DEPARTEMEN" IsForeignKey="true" />
+      <Association Name="GRUPSHIFT_KARYAWAN" Member="GRUPSHIFT" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="GRUPSHIFT" IsForeignKey="true" />
+      <Association Name="JABATAN_KARYAWAN" Member="JABATAN1" ThisKey="Jabatan" OtherKey="Jabatan1" Type="JABATAN" IsForeignKey="true" />
+      <Association Name="SUB_KARYAWAN" Member="SUB1" ThisKey="SUB" OtherKey="NAMASUB" Type="SUB" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LEMBUR" Member="LEMBURs">
+    <Type Name="LEMBUR">
+      <Column Name="IDLembur" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="timebegin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeend" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="polalembur" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.logdata" Member="logdatas">
+    <Type Name="logdata">
+      <Column Name="pin" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="flag" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="islog" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="serial" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lokasi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="KARYAWAN_logdata" Member="KARYAWAN" ThisKey="pin" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOGTRANSAKSI" Member="LOGTRANSAKSIs">
+    <Type Name="LOGTRANSAKSI">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TANGGAL" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FLAG" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="LOKASI" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="KARYAWAN_LOGTRANSAKSI" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MASTERJOB" Member="MASTERJOBs">
+    <Type Name="MASTERJOB">
+      <Column Name="KdJob" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Keterangan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Estimasi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Awal" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Akhir" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isSelesai" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="NamaDept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NamaSub" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="MASTERJOB_DETAILJOB" Member="DETAILJOBs" ThisKey="KdJob" OtherKey="Kdjob" Type="DETAILJOB" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Monitor" Member="Monitors">
+    <Type Name="Monitor">
+      <Column Name="Pin" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Tanggal" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Transaksi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Flag" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Keterangan" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MULTIPLIKASI" Member="MULTIPLIKASIs">
+    <Type Name="MULTIPLIKASI">
+      <Column Name="KDLEMBUR" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAMALEMBUR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="JAM1" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM2" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM3" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM4" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM5" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM6" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM7" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM8" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM9" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM10" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM11" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM12" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM13" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM14" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM15" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="JAM16" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Association Name="MULTIPLIKASI_HARILIBUR" Member="HARILIBURs" ThisKey="KDLEMBUR" OtherKey="KDLEMBUR" Type="HARILIBUR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PAYSLIP" Member="PAYSLIPs">
+    <Type Name="PAYSLIP">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TANGGAL" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GAJIPOKOK" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TLEMBUR" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="THADIR" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TMAKAN" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TTRANSPORT" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TLAIN" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="PKASBON" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="PLAIN" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="PTERLAMBAT" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="PENDAPATAN" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="POTONGAN" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="GAJIBERSIH" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_PAYSLIP" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.REQCUTI" Member="REQCUTIs">
+    <Type Name="REQCUTI">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="AWAL" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="AKHIR" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="HARI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JENIS" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="KEPERLUAN" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_REQCUTI" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RINGKAS" Member="RINGKAs">
+    <Type Name="RINGKA">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="awal" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="akhir" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="HariKerja" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="masuk" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tidakmasuk" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JamEfektif" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="HariTelat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JamTelat" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Lembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="TotalLembur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="isKalkulasi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TotalTunjangan" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="jampulangawal" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="haripulangawal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HadirLibur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_150" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_200" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_300" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="lmb_400" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan01" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan02" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan03" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan04" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan05" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan06" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan07" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan08" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan09" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan10" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan11" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan12" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan13" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan14" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan15" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Alasan16" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_RINGKA" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RPT_TIDAKHADIR" Member="RPT_TIDAKHADIRs">
+    <Type Name="RPT_TIDAKHADIR">
+      <Column Name="PIN" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="H1" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H2" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H3" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H4" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H5" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H6" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H7" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H8" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H9" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H10" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H11" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H12" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H13" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H14" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H15" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H16" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H17" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H18" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H19" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H20" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H21" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H22" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H23" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H24" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H25" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H26" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H27" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H28" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H29" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H30" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="H31" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="JUMLAH" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KARYAWAN_RPT_TIDAKHADIR" Member="KARYAWAN" ThisKey="PIN" OtherKey="PIN" Type="KARYAWAN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SHIFT" Member="SHIFTs">
+    <Type Name="SHIFT">
+      <Column Name="IDShift" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NamaShift" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Awal" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Akhir" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Awal2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Akhir2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isTshift" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Istirahat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BreakLembur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BatasBreak" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BreakOut" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BreakIn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SHIFT" Member="SHIFT1" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="AutoLembur" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Association Name="SHIFT_SHIFTTDKTETAP" Member="SHIFTTDKTETAPs" ThisKey="IDShift" OtherKey="IDSHIFT" Type="SHIFTTDKTETAP" />
+      <Association Name="SHIFT_SHIFTTETAP" Member="SHIFTTETAPs" ThisKey="IDShift" OtherKey="KODESHIFT" Type="SHIFTTETAP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ShiftKhusus" Member="ShiftKhusus">
+    <Type Name="ShiftKhusus">
+      <Column Name="Shift" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="awal" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="akhir" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="namaShift" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SHIFTTDKTETAP" Member="SHIFTTDKTETAPs">
+    <Type Name="SHIFTTDKTETAP">
+      <Column Name="IDSHIFT" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAMAGRUP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BREAKLEMBUR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="GRUPSHIFT_SHIFTTDKTETAP" Member="GRUPSHIFT" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="GRUPSHIFT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SHIFT_SHIFTTDKTETAP" Member="SHIFT" ThisKey="IDSHIFT" OtherKey="IDShift" Type="SHIFT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SHIFTTETAP" Member="SHIFTTETAPs">
+    <Type Name="SHIFTTETAP">
+      <Column Name="NAMAGRUP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NOMOR" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KODESHIFT" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="HARI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BATASAWAL" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BATASAKHIR" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TOLAWAL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TOLAKHIR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="GRUPSHIFT_SHIFTTETAP" Member="GRUPSHIFT" ThisKey="NAMAGRUP" OtherKey="NAMAGRUP" Type="GRUPSHIFT" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SHIFT_SHIFTTETAP" Member="SHIFT" ThisKey="KODESHIFT" OtherKey="IDShift" Type="SHIFT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUB" Member="SUBs">
+    <Type Name="SUB">
+      <Column Name="NAMASUB" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAMADEPT" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SUB_KARYAWAN" Member="KARYAWANs" ThisKey="NAMASUB" OtherKey="SUB" Type="KARYAWAN" />
+      <Association Name="DEPARTEMEN_SUB" Member="DEPARTEMEN" ThisKey="NAMADEPT" OtherKey="NamaDept" Type="DEPARTEMEN" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sysproduct" Member="sysproducts">
+    <Type Name="sysproduct">
+      <Column Name="prod" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="exp" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="serial" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cdkey" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="aktivasi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBLJADWAL" Member="TBLJADWALs">
+    <Type Name="TBLJADWAL">
+      <Column Name="nomor" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jadwal" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.userlogin" Member="userlogins">
+    <Type Name="userlogin">
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="datereg" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Hakakses" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="phoneno" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="namadept" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kdcabang" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CABANG_userlogin" Member="CABANG" ThisKey="kdcabang" OtherKey="KDCABANG" Type="CABANG" IsForeignKey="true" />
+      <Association Name="DEPARTEMEN_userlogin" Member="DEPARTEMEN" ThisKey="namadept" OtherKey="NamaDept" Type="DEPARTEMEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="userID" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

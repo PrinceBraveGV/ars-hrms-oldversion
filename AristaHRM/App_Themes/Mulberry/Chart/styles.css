@@ -1,0 +1,167 @@
+/* -- WebChartControl -- */
+.dxchartsuiLoadingDiv_Mulberry
+{
+	background-color:Gray;	
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxchartsuiLoadingPanel_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxchartsuiLoadingPanel_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+
+/* -- Crosshair -- */
+.dxchartsuiCrosshairHLine_Mulberry,
+.dxchartsuiCrosshairVLine_Mulberry
+{
+    background-color: transparent;
+    border-color: #de39cd;
+}
+
+.dxchartsuiCrosshairLabel_Mulberry,
+.dxchartsuiCrosshairHLine_Mulberry,
+.dxchartsuiCrosshairVLine_Mulberry
+{
+    position: absolute;
+    z-index: 41998;
+}
+
+.dxchartsuiCrosshairLabel_Mulberry
+{
+    background-color: #de39cd;
+    color: White;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	padding: 1px 4px 1px 4px;
+    white-space: nowrap;    
+}
+
+.dxchartsuiCrosshairHLine_Mulberry
+{
+    height: 0px;
+}
+
+.dxchartsuiCrosshairVLine_Mulberry
+{
+    width: 0px;
+}
+
+/* -- Tooltip -- */
+.dxchartsuiTooltip_Mulberry,
+.dxchartsuiTooltip_TopLeft_Mulberry,
+.dxchartsuiTooltip_TopRight_Mulberry,
+.dxchartsuiTooltip_BottomLeft_Mulberry,
+.dxchartsuiTooltip_BottomRight_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #201f35;
+	color: #000000\9;
+	
+    background-color: #ECF4FE;
+	border: 1px Solid rgb(139, 182, 239);
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	padding: 6px 10px 6px 10px;
+    position: absolute;
+    cursor: default;
+    white-space: nowrap;
+    -moz-box-shadow:    0px 2px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 2px 10px rgba(0, 0, 0, 0.35);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: 41999;
+}
+.dxchartsuiTooltip_TopLeft_Mulberry:before,
+.dxchartsuiTooltip_TopRight_Mulberry:before,
+.dxchartsuiTooltip_BottomLeft_Mulberry:before,
+.dxchartsuiTooltip_BottomRight_Mulberry:before,
+.dxchartsuiTooltip_TopLeft_Mulberry:after,
+.dxchartsuiTooltip_TopRight_Mulberry:after,
+.dxchartsuiTooltip_BottomLeft_Mulberry:after,
+.dxchartsuiTooltip_BottomRight_Mulberry:after
+{
+    border-style: solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+}
+.dxchartsuiTooltip_TopLeft_Mulberry:before,
+.dxchartsuiTooltip_TopRight_Mulberry:before,
+.dxchartsuiTooltip_BottomLeft_Mulberry:before,
+.dxchartsuiTooltip_BottomRight_Mulberry:before
+{
+    border-width: 10px 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dxchartsuiTooltip_TopLeft_Mulberry:after,
+.dxchartsuiTooltip_TopRight_Mulberry:after,
+.dxchartsuiTooltip_BottomLeft_Mulberry:after,
+.dxchartsuiTooltip_BottomRight_Mulberry:after
+{
+    border-width: 8px 4px;
+}
+.dxchartsuiTooltip_TopLeft_Mulberry:before
+{
+    border-color: transparent transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35);
+    top: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_TopLeft_Mulberry:after
+{
+    border-color: transparent transparent White White;
+    top: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopRight_Mulberry:before
+{
+    border-color: transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent;
+    top: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_TopRight_Mulberry:after
+{
+    border-color: transparent White White transparent;
+    top: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomRight_Mulberry:before
+{
+    border-color: rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent transparent;
+    bottom: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomRight_Mulberry:after
+{
+    border-color: White White transparent transparent;
+    bottom: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomLeft_Mulberry:before
+{
+    border-color: rgba(139, 139, 139, 0.35) transparent transparent rgba(139, 139, 139, 0.35);
+    bottom: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_BottomLeft_Mulberry:after
+{
+    border-color: White transparent transparent White;
+    bottom: -16px;
+    left: 11px;
+}
+
+

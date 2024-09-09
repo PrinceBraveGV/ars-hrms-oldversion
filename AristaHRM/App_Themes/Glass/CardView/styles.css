@@ -1,0 +1,467 @@
+.dxcvControl_Glass,
+.dxcvDisabled_Glass
+{
+    border: 1px solid #7EACB1;
+    font: 12px Tahoma, Geneva, sans-serif;
+    background-color: #f4fafb;
+    color: Black;
+    cursor: default;
+}
+.dxcvDisabled_Glass
+{
+    color: Gray;
+}
+.dxcvControl_Glass a
+{
+    color: #5555FF;
+}
+.dxcvDisabled_Glass a
+{
+    color: Gray;
+}
+
+.dxcvLoadingPanelStatusBar_Glass .dxlp-loadingImage 
+{
+    background-image: url('cvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+
+.dxcvLoadingPanel_Glass
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #303030;
+    border: 1px solid #7EACB1;
+    background-color: White;
+}
+.dxcvLoadingPanel_Glass td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px;
+}
+.dxcvLoadingPanel_Glass .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 27px;
+    width: 27px;
+}
+.dxcvLoadingPanelStatusBar_Glass
+{
+    background-color: transparent;
+    font-size: 0.91em;
+}
+.dxcvLoadingPanelStatusBar_Glass td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+.dxcvFilterPopupWindow_Glass
+{
+    color: Black;
+    border-left: 1px solid #DCDCDC;
+}
+.dxcvFilterPopupItemsArea_Glass
+{
+    color: Black;
+    background-color: White;
+}
+.dxcvFilterPopupButtonPanel_Glass
+{
+    background-color: #d4e8f3;
+    border: 1px solid #dcdcdc;
+    color: Black;
+}
+
+.dxcvFilterPopupItem_Glass td.dxcv,
+.dxcvFilterPopupActiveItem_Glass td.dxcv,
+.dxcvFilterPopupSelectedItem_Glass td.dxcv
+{
+    padding: 2px 2px 2px 3px;
+    border: 1px solid White;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_Glass
+{
+    background: #d9eced none;
+}
+.dxcvFilterPopupSelectedItem_Glass
+{
+    background: #9eced6 none;
+}
+.dxcvTable_Glass
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+.dxcvHeader_Glass
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 4px 6px 5px;
+    border: 1px solid #7EACB1;
+    background: #b7d8dc url('cvHeaderBackground.gif') repeat-x top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+
+.dxcvHeader_Glass a,
+.dxcvHeader_Glass a:hover
+{
+    color: #2a769d;
+}
+
+.dxcvHeader_Glass,
+.dxcvHeader_Glass table
+{
+    color: Black;
+}
+.dxcvHeader_Glass td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_Glass a.dxcvCommandItem_Glass
+{
+    margin: 0px 3px 0px 0px;
+    color: #2a769d;
+}
+.dxcvCustomization_Glass,
+.dxcvPopupEditForm_Glass
+{
+    padding: 0;
+    margin: 0;
+}
+.dxcvTitlePanel_Glass,
+.dxcvTable_Glass caption
+{
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    border-bottom: 1px solid #7EACB1;
+    background-color: White;
+}
+.dxcvStatusBar_Glass
+{
+    border-top: 1px solid #7EACB1;
+}
+.dxcvStatusBar_Glass tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_Glass tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxcvCommandItem_Glass a
+{
+    color: #2a769d;
+    margin: 0px 3px 0px 0px;
+}
+.dxcvCommandColumn_Glass a:hover
+{
+    color: #f15e34;
+}
+
+.dxbButton_Glass[class~="dxcvCommandItem_Glass"]
+{
+    margin: 0px 2px;
+}
+.dxbButton_Glass[class~="dxcvCommandItem_Glass"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvPagerTopPanel_Glass,
+.dxcvPagerBottomPanel_Glass
+{
+    padding: 3px 0;
+}
+.dxcvPagerTopPanel_Glass
+{
+    border-bottom: 1px solid #BCCBD1;
+}
+.dxcvPagerBottomPanel_Glass
+{
+    border-top: 1px solid #BCCBD1;
+}
+
+.dxcvFilterBar_Glass
+{
+    border-top: 1px solid #bccbd1;
+    background: #d8e4e8 none;
+}
+.dxcvFilterBar_Glass a
+{
+    color: #2a769d;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_Glass
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_Glass
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_Glass
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_Glass
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_Glass
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_Glass
+{
+    border-top: 1px solid #c4d3de;
+    background: #D3E6F3 none;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_Glass .dxcvHFSAC
+{
+    padding: 7px 0 0 4px;
+}
+.dxcvControl_Glass .dxcvHFSC
+{
+    padding: 8px 0 6px;
+}
+.dxcvControl_Glass .dxcvHFSC div
+{
+    height: 1px;
+    background: #7EACB1;
+}
+.dxcvControl_Glass .dxcvHFSAC,
+.dxcvControl_Glass .dxcvHFSC,
+.dxcvControl_Glass .dxcvHFLC
+{
+    background: White;
+}
+
+.dxcvControl_Glass div[id$='DXEPLPC']
+{
+    height: 52px;
+}
+
+.dxcvControl_Glass .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_Glass .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_Glass .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_Glass .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_Glass .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_Glass
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_Glass
+{
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #9F9F9F;
+}
+.dxcvSearchPanel_Glass > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_Glass .dxcvSearchPanel_Glass .dxbButton_Glass
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_Glass .dxcvSearchPanel_Glass .dxbButton_Glass {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_Glass .dxcvHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_Glass .dxcvSearchPanel_Glass .dxbButton_Glass
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_Glass .dxcvSearchPanel_Glass .dxbButton_Glass .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.dxcvCard_Glass,
+.dxcvFlowCard_Glass,
+.dxcvEmptyCard_Glass,
+.dxcvEmptyHiddenCard_Glass
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_Glass,
+.dxcvFlowCard_Glass,
+.dxcvEmptyCard_Glass
+{
+    border: 1px solid #C2D4DA;
+    background-color: #F4FAFB;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_Glass
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_Glass
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_Glass,
+div.dxcvEmptyCard_Glass
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_Glass,
+.dxcvFocusedCard_Glass
+{
+    border-color: #C2D4DA;
+    outline: 3px solid #E9F6F8;
+}
+.dxcvFocusedCard_Glass
+{
+    background-color: White;
+}
+.dxcvCardHover_Glass
+{
+    border-color: #C2D4DA;
+    outline: 3px solid #D9ECED;
+}
+
+.dxcvCard_Glass .dxflCaption_Glass,
+.dxcvFlowCard_Glass .dxflCaption_Glass
+{
+    color: #7F7F7F;
+}
+.dxcvCard_Glass .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_Glass .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_Glass
+{
+    border-bottom: 1px solid #9F9F9F;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_Glass
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_Glass
+{
+    background: #e9f8fa;
+    border-top: 1px solid #BCCBD1;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_Glass
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_Glass .dxcvSeparator_Glass,
+.dxcvControl_Glass .dxcvSeparator_Glass div
+{
+    width: 20px;
+    height: 20px;
+}
+
+.dxcvControl_Glass td.dxcvBatchEditCell_Glass
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_Glass .dxcvBatchEditModifiedCell_Glass
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_Glass .dxcvErrorCell_Glass
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_Glass .dxcvErrorCell_Glass img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_Glass .dxbButton_Glass
+{
+    margin-right: 10px;
+}
+.dxcvControl_Glass td.dxcvBatchEditCell_Glass .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_Glass .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_Glass
+{
+ 	background-color: #FFC8C8;	
+    border-top: 1px solid #C2D4DA;
+	color: #FF0000;
+    padding: 6px 13px;
+}

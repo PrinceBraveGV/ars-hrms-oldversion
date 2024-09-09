@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "HRIS - Konfirmasi Reset Password";
+    Layout = "~/Views/Shared/_redirectLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pemberitahuan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Proses permintaan reset password telah selesai.</p>
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Mohon segera mengecek email anda untuk melakukan prosedur reset password bagi akun anda.</p>
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Apabila tidak diarahkan otomatis setelah 5 detik, silakan klik tombol "Kembali" di bawah ini untuk kembali ke halaman utama.</p>
+                        <p style="font: 14px Arial, Tahoma; text-align:center">Catatan: Apabila terjadi masalah dalam proses reset password ini, segera hubungi pihak admin/support.</p>
+                        <br />
+                        @using (Html.BeginForm("ResetSukses", "Home", FormMethod.Post))
+                        {
+                            Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnRedirect";
+                                button.Text = "Kembali";
+                                button.UseSubmitBehavior = true;
+                                button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

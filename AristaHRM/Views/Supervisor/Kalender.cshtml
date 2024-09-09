@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "HRIS - Kalender Pengajuan Cuti";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // <![CDATA[
+    // fungsi ribbon control
+    function onCommandExecuted(s, e) {
+        var button = e.item.name;
+        var refreshData = "@DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Kalender" })";
+        var pcuti = "@DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "Pengajuan" })";
+        var appspecial = "@DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "ApprovalKhusus" })";
+        var appyear = "@DevExpressHelper.GetUrl(new { Controller = "Supervisor", Action = "ApprovalTahunan" })";
+        if (button == "Refresh") {
+            window.location.href = refreshData;
+        }
+        else if (button == "PCuti") {
+            window.location.href = pcuti;
+        }
+        else if (button == "AppCT") {
+            window.location.href = appyear;
+        }
+        else if (button == "AppCK") {
+            window.location.href = appspecial;
+        }
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Kalender Pengajuan Cuti</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font:12px Arial; text-align:left">
+                            Berikut ini adalah informasi cuti karyawan, cuti massal dan hari libur dalam deret waktu berjalan. <br />
+                            Apabila anda mendapati kekeliruan pada daftar ini, harap melakukan edit pada data yang bermasalah.
+                        </label>
+                        <br /><br />
+                        @using (Html.BeginForm("Kalender", "Supervisor", FormMethod.Post))
+                        {
+                            @Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "RibbonKalender";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.ClientSideEvents.CommandExecuted = "function (s, e) { onCommandExecuted(s, e); }";
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+
+                                var ManageTab = settings.Tabs.Add("Kalender");
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Setting";
+                                    group.Text = string.Empty;
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("Refresh", "Refresh Data", RibbonItemSize.Large, "~/Images/Refresh.png"));
+                                });
+                                ManageTab.Groups.Add(group =>
+                                {
+                                    group.Name = "Shortcut";
+                                    group.Text = "Akses Cepat";
+                                    group.Items.Add(RibbonHelper.CreateButtonItem<RibbonButtonItem>("PCuti", "Pengajuan Cuti", RibbonItemSize.Large, "~/Images/Submit.png"));
+                                    var ApprovalBtn = RibbonHelper.CreateButtonItem<RibbonDropDownButtonItem>("PApproval", "Persetujuan Cuti", RibbonItemSize.Large, "~/Images/Approval.png");
+                                    ApprovalBtn.Items.Add(RibbonHelper.CreateSmallButtonItem<RibbonDropDownButtonItem>("AppCT", "Cuti Tahunan", null));
+                                    ApprovalBtn.Items.Add(RibbonHelper.CreateSmallButtonItem<RibbonDropDownButtonItem>("AppCK", "Cuti Khusus", null));
+                                    group.Items.Add(ApprovalBtn);
+                                });
+                            }).GetHtml();
+
+                            Html.RenderAction("KalenderPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+

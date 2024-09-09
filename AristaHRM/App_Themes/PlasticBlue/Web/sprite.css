@@ -1,0 +1,1429 @@
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igCloseButton_PlasticBlue,
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igPauseButton_PlasticBlue,
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igPlayButton_PlasticBlue,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_PlasticBlue,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_PlasticBlue,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_PlasticBlue,
+.dxpnl-btnPressed .dxWeb_pnlExpand_PlasticBlue,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_PlasticBlue,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_PlasticBlue,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_PlasticBlue,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_PlasticBlue,
+.dxpnl-btnSelected .dxWeb_pnlExpand_PlasticBlue,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_PlasticBlue,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_PlasticBlue,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_PlasticBlue,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_PlasticBlue,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_PlasticBlue,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_PlasticBlue,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_PlasticBlue,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_PlasticBlue,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_PlasticBlue,
+.dxrpCollapsed .dxWeb_rpCollapseButton_PlasticBlue,
+.dxWeb_edtCheckBoxChecked_PlasticBlue,
+.dxWeb_edtCheckBoxCheckedDisabled_PlasticBlue,
+.dxWeb_edtCheckBoxGrayed_PlasticBlue,
+.dxWeb_edtCheckBoxGrayedDisabled_PlasticBlue,
+.dxWeb_edtCheckBoxUnchecked_PlasticBlue,
+.dxWeb_edtCheckBoxUncheckedDisabled_PlasticBlue,
+.dxWeb_fmBreadCrumbsSeparatorArrow_PlasticBlue,
+.dxWeb_fmBreadCrumbsUpButton_PlasticBlue,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_PlasticBlue,
+.dxWeb_fmCopyButton_PlasticBlue,
+.dxWeb_fmCopyButtonDisabled_PlasticBlue,
+.dxWeb_fmCreateButton_PlasticBlue,
+.dxWeb_fmCreateButtonDisabled_PlasticBlue,
+.dxWeb_fmDeleteButton_PlasticBlue,
+.dxWeb_fmDeleteButtonDisabled_PlasticBlue,
+.dxWeb_fmDwnlButton_PlasticBlue,
+.dxWeb_fmDwnlButtonDisabled_PlasticBlue,
+.dxWeb_fmFolder_PlasticBlue,
+.dxWeb_fmFolderLocked_PlasticBlue,
+.dxWeb_fmGvHeaderFilter_PlasticBlue,
+.dxWeb_fmGvHeaderFilterActive_PlasticBlue,
+.dxWeb_fmGvHeaderSortDown_PlasticBlue,
+.dxWeb_fmGvHeaderSortUp_PlasticBlue,
+.dxWeb_fmMoveButton_PlasticBlue,
+.dxWeb_fmMoveButtonDisabled_PlasticBlue,
+.dxWeb_fmRefreshButton_PlasticBlue,
+.dxWeb_fmRefreshButtonDisabled_PlasticBlue,
+.dxWeb_fmRenameButton_PlasticBlue,
+.dxWeb_fmRenameButtonDisabled_PlasticBlue,
+.dxWeb_fmThumbnailCheck_PlasticBlue,
+.dxWeb_fmUplButton_PlasticBlue,
+.dxWeb_fmUplButtonDisabled_PlasticBlue,
+.dxWeb_igCloseButton_PlasticBlue,
+.dxWeb_igNavigationBarMarker_PlasticBlue,
+.dxWeb_igNextButton_PlasticBlue,
+.dxWeb_igNextButtonDisabled_PlasticBlue,
+.dxWeb_igNextButtonHover_PlasticBlue,
+.dxWeb_igNextButtonPressed_PlasticBlue,
+.dxWeb_igPauseButton_PlasticBlue,
+.dxWeb_igPlayButton_PlasticBlue,
+.dxWeb_igPrevButton_PlasticBlue,
+.dxWeb_igPrevButtonDisabled_PlasticBlue,
+.dxWeb_igPrevButtonHover_PlasticBlue,
+.dxWeb_igPrevButtonPressed_PlasticBlue,
+.dxWeb_isDot_PlasticBlue,
+.dxWeb_isDotDisabled_PlasticBlue,
+.dxWeb_isDotPressed_PlasticBlue,
+.dxWeb_isDotSelected_PlasticBlue,
+.dxWeb_isNextBtnHor_PlasticBlue,
+.dxWeb_isNextBtnHorDisabled_PlasticBlue,
+.dxWeb_isNextBtnVert_PlasticBlue,
+.dxWeb_isNextBtnVertDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnHor_PlasticBlue,
+.dxWeb_isNextPageBtnHorDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnHorOutside_PlasticBlue,
+.dxWeb_isNextPageBtnHorOutsideDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnVert_PlasticBlue,
+.dxWeb_isNextPageBtnVertDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnVertOutside_PlasticBlue,
+.dxWeb_isNextPageBtnVertOutsideDisabled_PlasticBlue,
+.dxWeb_isPauseBtn_PlasticBlue,
+.dxWeb_isPlayBtn_PlasticBlue,
+.dxWeb_isPrevBtnHor_PlasticBlue,
+.dxWeb_isPrevBtnHorDisabled_PlasticBlue,
+.dxWeb_isPrevBtnVert_PlasticBlue,
+.dxWeb_isPrevBtnVertDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnHor_PlasticBlue,
+.dxWeb_isPrevPageBtnHorDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnHorOutside_PlasticBlue,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnVert_PlasticBlue,
+.dxWeb_isPrevPageBtnVertDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnVertOutside_PlasticBlue,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_PlasticBlue,
+.dxWeb_izEWCloseButton_PlasticBlue,
+.dxWeb_izHint_PlasticBlue,
+.dxWeb_mAdaptiveMenu_PlasticBlue,
+.dxWeb_mHorizontalPopOut_PlasticBlue,
+.dxWeb_mScrollDown_PlasticBlue,
+.dxWeb_mScrollUp_PlasticBlue,
+.dxWeb_mSubMenuItem_PlasticBlue,
+.dxWeb_mSubMenuItemChecked_PlasticBlue,
+.dxWeb_mVerticalPopOut_PlasticBlue,
+.dxWeb_mVerticalPopOutRtl_PlasticBlue,
+.dxWeb_nbCollapse_PlasticBlue,
+.dxWeb_nbExpand_PlasticBlue,
+.dxWeb_nbItemBullet_PlasticBlue,
+.dxWeb_pAll_PlasticBlue,
+.dxWeb_pAllDisabled_PlasticBlue,
+.dxWeb_pcCloseButton_PlasticBlue,
+.dxWeb_pcCollapseButton_PlasticBlue,
+.dxWeb_pcMaximizeButton_PlasticBlue,
+.dxWeb_pcPinButton_PlasticBlue,
+.dxWeb_pcRefreshButton_PlasticBlue,
+.dxWeb_pcSizeGrip_PlasticBlue,
+.dxWeb_pcSizeGripRtl_PlasticBlue,
+.dxWeb_pFirst_PlasticBlue,
+.dxWeb_pFirstDisabled_PlasticBlue,
+.dxWeb_pLast_PlasticBlue,
+.dxWeb_pLastDisabled_PlasticBlue,
+.dxWeb_pNext_PlasticBlue,
+.dxWeb_pNextDisabled_PlasticBlue,
+.dxWeb_pnlExpand_PlasticBlue,
+.dxWeb_pnlExpandArrowBottom_PlasticBlue,
+.dxWeb_pnlExpandArrowLeft_PlasticBlue,
+.dxWeb_pnlExpandArrowRight_PlasticBlue,
+.dxWeb_pnlExpandArrowTop_PlasticBlue,
+.dxWeb_pPopOut_PlasticBlue,
+.dxWeb_pPopOutDisabled_PlasticBlue,
+.dxWeb_pPrev_PlasticBlue,
+.dxWeb_pPrevDisabled_PlasticBlue,
+.dxWeb_rDialogBoxLauncher_PlasticBlue,
+.dxWeb_rDialogBoxLauncherDisabled_PlasticBlue,
+.dxWeb_rDialogBoxLauncherHover_PlasticBlue,
+.dxWeb_rDialogBoxLauncherPressed_PlasticBlue,
+.dxWeb_rGlrDown_PlasticBlue,
+.dxWeb_rGlrDownDisabled_PlasticBlue,
+.dxWeb_rGlrPopOut_PlasticBlue,
+.dxWeb_rGlrPopOutDisabled_PlasticBlue,
+.dxWeb_rGlrUp_PlasticBlue,
+.dxWeb_rGlrUpDisabled_PlasticBlue,
+.dxWeb_rMinBtn_PlasticBlue,
+.dxWeb_rMinBtn_PlasticBlue.dxWeb_rMinBtnHover_PlasticBlue,
+.dxWeb_rMinBtn_PlasticBlue.dxWeb_rMinBtnPressed_PlasticBlue,
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtn_PlasticBlue,
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnDisabled_PlasticBlue,
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnHover_PlasticBlue,
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnPressed_PlasticBlue,
+.dxWeb_rMinBtnDisabled_PlasticBlue,
+.dxWeb_rpCollapseButton_PlasticBlue,
+.dxWeb_rPopOut_PlasticBlue,
+.dxWeb_smSecondLevelBullet_PlasticBlue,
+.dxWeb_smThirdLevelBullet_PlasticBlue,
+.dxWeb_splHCollapseBackwardButton_PlasticBlue,
+.dxWeb_splHCollapseBackwardButtonHover_PlasticBlue,
+.dxWeb_splHCollapseForwardButton_PlasticBlue,
+.dxWeb_splHCollapseForwardButtonHover_PlasticBlue,
+.dxWeb_splHSeparator_PlasticBlue,
+.dxWeb_splHSeparatorHover_PlasticBlue,
+.dxWeb_splVCollapseBackwardButton_PlasticBlue,
+.dxWeb_splVCollapseBackwardButtonHover_PlasticBlue,
+.dxWeb_splVCollapseForwardButton_PlasticBlue,
+.dxWeb_splVCollapseForwardButtonHover_PlasticBlue,
+.dxWeb_splVSeparator_PlasticBlue,
+.dxWeb_splVSeparatorHover_PlasticBlue,
+.dxWeb_tcScrollLeft_PlasticBlue,
+.dxWeb_tcScrollLeftDisabled_PlasticBlue,
+.dxWeb_tcScrollLeftHover_PlasticBlue,
+.dxWeb_tcScrollLeftPressed_PlasticBlue,
+.dxWeb_tcScrollRight_PlasticBlue,
+.dxWeb_tcScrollRightDisabled_PlasticBlue,
+.dxWeb_tcScrollRightHover_PlasticBlue,
+.dxWeb_tcScrollRightPressed_PlasticBlue,
+.dxWeb_tiBackToTop_PlasticBlue,
+.dxWeb_tvColBtn_PlasticBlue,
+.dxWeb_tvColBtnRtl_PlasticBlue,
+.dxWeb_tvExpBtn_PlasticBlue,
+.dxWeb_tvExpBtnRtl_PlasticBlue,
+.dxWeb_ucClearButton_PlasticBlue,
+.dxWeb_ucClearButtonDisabled_PlasticBlue,
+.menuButtons_PlasticBlue .dxWeb_mHorizontalPopOut_PlasticBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igCloseButton_PlasticBlue
+{
+    background-position: -24px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igPauseButton_PlasticBlue
+{
+    background-position: -22px -198px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_PlasticBlue.dxTouchUI .dxWeb_igPlayButton_PlasticBlue
+{
+    background-position: 0px -198px;
+    width: 21px;
+    height: 25px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_PlasticBlue
+{
+    background-position: -37px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_PlasticBlue
+{
+    background-position: -22px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_PlasticBlue
+{
+    background-position: -82px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpand_PlasticBlue
+{
+    background-position: -72px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_PlasticBlue
+{
+    background-position: -48px -292px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_PlasticBlue
+{
+    background-position: -92px -198px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_PlasticBlue
+{
+    background-position: 0px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_PlasticBlue
+{
+    background-position: 0px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_PlasticBlue
+{
+    background-position: 0px -292px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_PlasticBlue
+{
+    background-position: -48px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_PlasticBlue
+{
+    background-position: -68px -198px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_PlasticBlue
+{
+    background-position: -24px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_PlasticBlue
+{
+    background-position: -48px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_PlasticBlue
+{
+    background-position: -72px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_PlasticBlue
+{
+    background-position: -96px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_PlasticBlue
+{
+    background-position: -24px -292px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_PlasticBlue
+{
+    background-position: -116px -198px;
+    width: 23px;
+    height: 23px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_PlasticBlue
+{
+    background-position: -44px -198px;
+    width: 23px;
+    height: 23px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_PlasticBlue
+{
+    background-position: -96px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxChecked_PlasticBlue
+{
+    background-position: -130px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_PlasticBlue
+{
+    background-position: -64px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayed_PlasticBlue
+{
+    background-position: -32px -461px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_PlasticBlue
+{
+    background-position: -82px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUnchecked_PlasticBlue
+{
+    background-position: -114px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_PlasticBlue
+{
+    background-position: -50px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_PlasticBlue
+{
+    background-position: -146px -29px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_PlasticBlue
+{
+    background-position: -85px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_PlasticBlue
+{
+    background-position: 0px -428px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_PlasticBlue
+{
+    background-position: -51px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_PlasticBlue
+{
+    background-position: 0px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_PlasticBlue
+{
+    background-position: -17px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_PlasticBlue
+{
+    background-position: -34px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_PlasticBlue
+{
+    background-position: -119px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_PlasticBlue
+{
+    background-position: -68px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_PlasticBlue
+{
+    background-position: -102px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_PlasticBlue
+{
+    background-position: -119px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_PlasticBlue
+{
+    background-position: -102px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_PlasticBlue
+{
+    background-position: -119px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmGvHeaderFilter_PlasticBlue
+{
+    background-position: 0px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmGvHeaderFilterActive_PlasticBlue
+{
+    background-position: -48px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmGvHeaderSortDown_PlasticBlue
+{
+    background-position: -124px -505px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_fmGvHeaderSortUp_PlasticBlue
+{
+    background-position: -140px -505px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_fmMoveButton_PlasticBlue
+{
+    background-position: -85px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_PlasticBlue
+{
+    background-position: -51px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_PlasticBlue
+{
+    background-position: -85px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_PlasticBlue
+{
+    background-position: -68px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_PlasticBlue
+{
+    background-position: -51px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_PlasticBlue
+{
+    background-position: 0px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_PlasticBlue
+{
+    background-position: -96px -505px;
+    width: 11px;
+    height: 9px;
+}
+.dxWeb_fmUplButton_PlasticBlue
+{
+    background-position: -34px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_PlasticBlue
+{
+    background-position: -17px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_igCloseButton_PlasticBlue
+{
+    background-position: -56px -505px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_PlasticBlue
+{
+    background-position: -13px -376px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_PlasticBlue
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_PlasticBlue
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_PlasticBlue
+{
+    background-position: -46px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_PlasticBlue
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_PlasticBlue
+{
+    background-position: -121px -358px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_PlasticBlue
+{
+    background-position: -134px -358px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_PlasticBlue
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_PlasticBlue
+{
+    background-position: 0px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_PlasticBlue
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_PlasticBlue
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_PlasticBlue
+{
+    background-position: 0px -505px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_PlasticBlue
+{
+    background-position: -14px -505px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_PlasticBlue
+{
+    background-position: -28px -505px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_PlasticBlue
+{
+    background-position: -42px -505px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_PlasticBlue
+{
+    background-position: -132px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_PlasticBlue
+{
+    background-position: -130px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_PlasticBlue
+{
+    background-position: -60px -224px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_PlasticBlue
+{
+    background-position: -90px -224px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_PlasticBlue
+{
+    background-position: -15px -316px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_PlasticBlue
+{
+    background-position: 0px -316px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_PlasticBlue
+{
+    background-position: -138px -37px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_PlasticBlue
+{
+    background-position: -138px 0px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_PlasticBlue
+{
+    background-position: 0px -477px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_PlasticBlue
+{
+    background-position: -108px -461px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_PlasticBlue
+{
+    background-position: 0px -492px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_PlasticBlue
+{
+    background-position: -87px -492px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_PlasticBlue
+{
+    background-position: 0px -376px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_PlasticBlue
+{
+    background-position: -108px -358px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_PlasticBlue
+{
+    background-position: -92px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_PlasticBlue
+{
+    background-position: -111px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_PlasticBlue
+{
+    background-position: -30px -224px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_PlasticBlue
+{
+    background-position: 0px -224px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_PlasticBlue
+{
+    background-position: -120px -292px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_PlasticBlue
+{
+    background-position: -135px -292px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_PlasticBlue
+{
+    background-position: -138px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_PlasticBlue
+{
+    background-position: -138px -66px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_PlasticBlue
+{
+    background-position: -64px -461px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_PlasticBlue
+{
+    background-position: -86px -461px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_PlasticBlue
+{
+    background-position: -29px -492px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_PlasticBlue
+{
+    background-position: -58px -492px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_PlasticBlue
+{
+    background-position: -106px -172px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_PlasticBlue
+{
+    background-position: -72px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_PlasticBlue
+{
+    background-position: -140px -239px;
+    width: 10px;
+    height: 4px;
+}
+.dxWeb_mHorizontalPopOut_PlasticBlue
+{
+    background-position: -140px -477px;
+    width: 10px;
+    height: 9px;
+}
+.dxWeb_mScrollDown_PlasticBlue
+{
+    background-position: -132px -505px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_mScrollUp_PlasticBlue
+{
+    background-position: -143px -513px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_mSubMenuItem_PlasticBlue
+{
+    background-position: -136px -376px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_PlasticBlue
+{
+    background-position: -136px -411px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mVerticalPopOut_PlasticBlue
+{
+    background-position: -144px -276px;
+    width: 5px;
+    height: 7px;
+}
+.dxWeb_mVerticalPopOutRtl_PlasticBlue
+{
+    background-position: -145px -95px;
+    width: 5px;
+    height: 7px;
+}
+.dxWeb_nbCollapse_PlasticBlue
+{
+    background-position: -112px -477px;
+    width: 13px;
+    height: 14px;
+}
+.dxWeb_nbExpand_PlasticBlue
+{
+    background-position: -126px -477px;
+    width: 13px;
+    height: 14px;
+}
+.dxWeb_nbItemBullet_PlasticBlue
+{
+    background-position: -144px -244px;
+    width: 5px;
+    height: 14px;
+}
+.dxWeb_pAll_PlasticBlue
+{
+    background-position: -112px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pAllDisabled_PlasticBlue
+{
+    background-position: -48px -461px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pcCloseButton_PlasticBlue
+{
+    background-position: -97px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_pcCollapseButton_PlasticBlue
+{
+    background-position: -52px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_pcMaximizeButton_PlasticBlue
+{
+    background-position: -130px -461px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_pcPinButton_PlasticBlue
+{
+    background-position: -136px -394px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_pcRefreshButton_PlasticBlue
+{
+    background-position: -67px -477px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_pcSizeGrip_PlasticBlue
+{
+    background-position: -68px -411px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_pcSizeGripRtl_PlasticBlue
+{
+    background-position: -34px -376px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_pFirst_PlasticBlue
+{
+    background-position: -128px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pFirstDisabled_PlasticBlue
+{
+    background-position: 0px -461px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pLast_PlasticBlue
+{
+    background-position: -98px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pLastDisabled_PlasticBlue
+{
+    background-position: -80px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pNext_PlasticBlue
+{
+    background-position: -34px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pNextDisabled_PlasticBlue
+{
+    background-position: -32px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pnlExpand_PlasticBlue
+{
+    background-position: -96px -292px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pnlExpandArrowBottom_PlasticBlue
+{
+    background-position: -72px -292px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pnlExpandArrowLeft_PlasticBlue
+{
+    background-position: -120px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pnlExpandArrowRight_PlasticBlue
+{
+    background-position: -96px -244px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pnlExpandArrowTop_PlasticBlue
+{
+    background-position: -120px -268px;
+    width: 23px;
+    height: 23px;
+}
+.dxWeb_pPopOut_PlasticBlue
+{
+    background-position: -140px -224px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_pPopOutDisabled_PlasticBlue
+{
+    background-position: -140px -198px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_pPrev_PlasticBlue
+{
+    background-position: -16px -461px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_pPrevDisabled_PlasticBlue
+{
+    background-position: -16px -445px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_rDialogBoxLauncher_PlasticBlue
+{
+    background-position: -129px -492px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_PlasticBlue
+{
+    background-position: -70px -505px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherHover_PlasticBlue
+{
+    background-position: -116px -492px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherPressed_PlasticBlue
+{
+    background-position: -83px -505px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rGlrDown_PlasticBlue
+{
+    background-position: -145px -488px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrDownDisabled_PlasticBlue
+{
+    background-position: -144px -451px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrPopOut_PlasticBlue
+{
+    background-position: -145px -455px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOutDisabled_PlasticBlue
+{
+    background-position: -144px -445px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrUp_PlasticBlue
+{
+    background-position: -145px -469px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrUpDisabled_PlasticBlue
+{
+    background-position: -145px -473px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rMinBtn_PlasticBlue
+{
+    background-position: -38px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_PlasticBlue.dxWeb_rMinBtnHover_PlasticBlue
+{
+    background-position: -110px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_PlasticBlue.dxWeb_rMinBtnPressed_PlasticBlue
+{
+    background-position: -92px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtn_PlasticBlue
+{
+    background-position: -36px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnDisabled_PlasticBlue
+{
+    background-position: -54px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnHover_PlasticBlue
+{
+    background-position: -128px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_PlasticBlue.dxWeb_rMinBtnPressed_PlasticBlue
+{
+    background-position: -20px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnDisabled_PlasticBlue
+{
+    background-position: -90px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rpCollapseButton_PlasticBlue
+{
+    background-position: -66px -428px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_rPopOut_PlasticBlue
+{
+    background-position: -143px -499px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_smSecondLevelBullet_PlasticBlue
+{
+    background-position: -100px -173px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_smThirdLevelBullet_PlasticBlue
+{
+    background-position: -145px -461px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_PlasticBlue
+{
+    background-position: -92px -172px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_PlasticBlue
+{
+    background-position: -116px -505px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButton_PlasticBlue
+{
+    background-position: -108px -505px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButtonHover_PlasticBlue
+{
+    background-position: -142px -492px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHSeparator_PlasticBlue
+{
+    background-position: -92px -165px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splHSeparatorHover_PlasticBlue
+{
+    background-position: -111px -165px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splVCollapseBackwardButton_PlasticBlue
+{
+    background-position: -138px -95px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_PlasticBlue
+{
+    background-position: -144px -284px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_PlasticBlue
+{
+    background-position: -144px -260px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_PlasticBlue
+{
+    background-position: -144px -268px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_PlasticBlue
+{
+    background-position: -92px -179px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_splVSeparatorHover_PlasticBlue
+{
+    background-position: -99px -179px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_tcScrollLeft_PlasticBlue
+{
+    background-position: -90px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollLeftDisabled_PlasticBlue
+{
+    background-position: -30px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollLeftHover_PlasticBlue
+{
+    background-position: -70px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollLeftPressed_PlasticBlue
+{
+    background-position: -120px -224px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollRight_PlasticBlue
+{
+    background-position: -130px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollRightDisabled_PlasticBlue
+{
+    background-position: -50px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollRightHover_PlasticBlue
+{
+    background-position: 0px -338px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tcScrollRightPressed_PlasticBlue
+{
+    background-position: -110px -316px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_tiBackToTop_PlasticBlue
+{
+    background-position: -138px -29px;
+    width: 7px;
+    height: 7px;
+}
+.dxWeb_tvColBtn_PlasticBlue
+{
+    background-position: -56px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_PlasticBlue
+{
+    background-position: -18px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtn_PlasticBlue
+{
+    background-position: -74px -338px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_PlasticBlue
+{
+    background-position: 0px -358px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_ucClearButton_PlasticBlue
+{
+    background-position: -102px -394px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_PlasticBlue
+{
+    background-position: -17px -428px;
+    width: 16px;
+    height: 16px;
+}
+.menuButtons_PlasticBlue .dxWeb_mHorizontalPopOut_PlasticBlue
+{
+    background-position: -140px -214px;
+    width: 10px;
+    height: 9px;
+}
+.dxWeb_rpHeaderTopLeftCorner_PlasticBlue,
+.dxWeb_rpHeaderTopRightCorner_PlasticBlue,
+.dxWeb_rpHeaderBottomLeftCorner_PlasticBlue,
+.dxWeb_rpHeaderBottomRightCorner_PlasticBlue,
+.dxWeb_rpBottomLeftCorner_PlasticBlue,
+.dxWeb_rpBottomRightCorner_PlasticBlue,
+.dxWeb_rpTopLeftCorner_PlasticBlue,
+.dxWeb_rpTopRightCorner_PlasticBlue,
+.dxWeb_rpGroupBoxBottomLeftCorner_PlasticBlue,
+.dxWeb_rpGroupBoxBottomRightCorner_PlasticBlue,
+.dxWeb_rpGroupBoxTopLeftCorner_PlasticBlue,
+.dxWeb_rpGroupBoxTopRightCorner_PlasticBlue,
+.dxWeb_mHorizontalPopOut_PlasticBlue,
+.dxWeb_mVerticalPopOut_PlasticBlue,
+.dxWeb_mVerticalPopOutRtl_PlasticBlue,
+.dxWeb_mSubMenuItem_PlasticBlue,
+.dxWeb_mSubMenuItemChecked_PlasticBlue,
+.dxWeb_mScrollUp_PlasticBlue,
+.dxWeb_mScrollDown_PlasticBlue,
+.dxWeb_tcScrollLeft_PlasticBlue,
+.dxWeb_tcScrollRight_PlasticBlue,
+.dxWeb_tcScrollLeftHover_PlasticBlue,
+.dxWeb_tcScrollRightHover_PlasticBlue,
+.dxWeb_tcScrollLeftPressed_PlasticBlue,
+.dxWeb_tcScrollRightPressed_PlasticBlue,
+.dxWeb_tcScrollLeftDisabled_PlasticBlue,
+.dxWeb_tcScrollRightDisabled_PlasticBlue,
+.dxWeb_nbCollapse_PlasticBlue,
+.dxWeb_nbExpand_PlasticBlue,
+.dxWeb_nbItemBullet_PlasticBlue,
+.dxWeb_splVSeparator_PlasticBlue,
+.dxWeb_splVSeparatorHover_PlasticBlue,
+.dxWeb_splHSeparator_PlasticBlue,
+.dxWeb_splHSeparatorHover_PlasticBlue,
+.dxWeb_splVCollapseBackwardButton_PlasticBlue,
+.dxWeb_splVCollapseBackwardButtonHover_PlasticBlue,
+.dxWeb_splHCollapseBackwardButton_PlasticBlue,
+.dxWeb_splHCollapseBackwardButtonHover_PlasticBlue,
+.dxWeb_splVCollapseForwardButton_PlasticBlue,
+.dxWeb_splVCollapseForwardButtonHover_PlasticBlue,
+.dxWeb_splHCollapseForwardButton_PlasticBlue,
+.dxWeb_splHCollapseForwardButtonHover_PlasticBlue,
+.dxWeb_pcCloseButton_PlasticBlue,
+.dxWeb_pcPinButton_PlasticBlue,
+.dxWeb_pcRefreshButton_PlasticBlue,
+.dxWeb_pcCollapseButton_PlasticBlue,
+.dxWeb_pcMaximizeButton_PlasticBlue,
+.dxWeb_pcSizeGrip_PlasticBlue,
+.dxWeb_pcSizeGripRtl_PlasticBlue,
+.dxWeb_pPopOut_PlasticBlue,
+.dxWeb_pPopOutDisabled_PlasticBlue,
+.dxWeb_pAll_PlasticBlue,
+.dxWeb_pAllDisabled_PlasticBlue,
+.dxWeb_pPrev_PlasticBlue,
+.dxWeb_pPrevDisabled_PlasticBlue,
+.dxWeb_pNext_PlasticBlue,
+.dxWeb_pNextDisabled_PlasticBlue,
+.dxWeb_pLast_PlasticBlue,
+.dxWeb_pLastDisabled_PlasticBlue,
+.dxWeb_pFirst_PlasticBlue,
+.dxWeb_pFirstDisabled_PlasticBlue,
+.dxWeb_tiBackToTop_PlasticBlue,
+.dxWeb_smSecondLevelBullet_PlasticBlue,
+.dxWeb_smThirdLevelBullet_PlasticBlue,
+.dxWeb_tvColBtn_PlasticBlue,
+.dxWeb_tvColBtnRtl_PlasticBlue,
+.dxWeb_tvExpBtn_PlasticBlue,
+.dxWeb_tvExpBtnRtl_PlasticBlue,
+.dxWeb_fmFolder_PlasticBlue,
+.dxWeb_fmFolderLocked_PlasticBlue,
+.dxWeb_fmCreateButton_PlasticBlue,
+.dxWeb_fmMoveButton_PlasticBlue,
+.dxWeb_fmRenameButton_PlasticBlue,
+.dxWeb_fmDeleteButton_PlasticBlue,
+.dxWeb_fmRefreshButton_PlasticBlue,
+.dxWeb_fmDwnlButton_PlasticBlue,
+.dxWeb_fmCreateButtonDisabled_PlasticBlue,
+.dxWeb_fmMoveButtonDisabled_PlasticBlue,
+.dxWeb_fmRenameButtonDisabled_PlasticBlue,
+.dxWeb_fmDeleteButtonDisabled_PlasticBlue,
+.dxWeb_fmRefreshButtonDisabled_PlasticBlue,
+.dxWeb_fmDwnlButtonDisabled_PlasticBlue,
+.dxWeb_ucClearButton_PlasticBlue,
+.dxWeb_ucClearButtonDisabled_PlasticBlue,
+.dxWeb_isPrevBtnHor_PlasticBlue,
+.dxWeb_isNextBtnHor_PlasticBlue,
+.dxWeb_isPrevBtnVert_PlasticBlue,
+.dxWeb_isNextBtnVert_PlasticBlue,
+.dxWeb_isPrevPageBtnHor_PlasticBlue,
+.dxWeb_isPrevPageBtnHorOutside_PlasticBlue,
+.dxWeb_isNextPageBtnHor_PlasticBlue,
+.dxWeb_isNextPageBtnHorOutside_PlasticBlue,
+.dxWeb_isPrevPageBtnVert_PlasticBlue,
+.dxWeb_isPrevPageBtnVertOutside_PlasticBlue,
+.dxWeb_isNextPageBtnVert_PlasticBlue,
+.dxWeb_isNextPageBtnVertOutside_PlasticBlue,
+.dxWeb_isPrevBtnHorDisabled_PlasticBlue,
+.dxWeb_isNextBtnHorDisabled_PlasticBlue,
+.dxWeb_isPrevBtnVertDisabled_PlasticBlue,
+.dxWeb_isNextBtnVertDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnHorDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnHorDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnHorOutsideDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnVertDisabled_PlasticBlue,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnVertDisabled_PlasticBlue,
+.dxWeb_isNextPageBtnVertOutsideDisabled_PlasticBlue,
+.dxWeb_isDot_PlasticBlue,
+.dxWeb_isDotDisabled_PlasticBlue,
+.dxWeb_isDotSelected_PlasticBlue,
+.dxWeb_fmGvHeaderFilterActive_PlasticBlue,
+.dxWeb_fmGvHeaderFilter_PlasticBlue,
+.dxWeb_fmGvHeaderSortDown_PlasticBlue,
+.dxWeb_fmGvHeaderSortUp_PlasticBlue,
+.dxWeb_fmThumbnailCheck_PlasticBlue,
+.dxWeb_isPlayBtn_PlasticBlue,
+.dxWeb_isPauseBtn_PlasticBlue,
+.dxWeb_igCloseButton_PlasticBlue,
+.dxWeb_igNextButton_PlasticBlue,
+.dxWeb_igPrevButton_PlasticBlue,
+.dxWeb_igPlayButton_PlasticBlue,
+.dxWeb_igPauseButton_PlasticBlue,
+.dxWeb_igNavigationBarMarker_PlasticBlue
+{
+    display:block;
+}
+.dxWeb_mScrollUp_PlasticBlue, .dxWeb_mScrollDown_PlasticBlue
+{
+	margin: auto;
+}
+.dxWeb_smBullet_PlasticBlue,
+.dxWeb_smSecondLevelBullet_PlasticBlue,
+.dxWeb_smThirdLevelBullet_PlasticBlue,
+.dxWeb_tiBackToTop_PlasticBlue,
+.dxWeb_fmGvHeaderFilter_PlasticBlue,
+.dxWeb_fmGvHeaderFilterActive_PlasticBlue,
+.dxWeb_fmGvHeaderSortDown_PlasticBlue,
+.dxWeb_fmGvHeaderSortUp_PlasticBlue
+{
+	display:inline;
+}
+

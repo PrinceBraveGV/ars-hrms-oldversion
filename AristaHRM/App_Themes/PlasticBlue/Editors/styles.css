@@ -1,0 +1,2026 @@
+/* -- ValidationSummary -- */
+.dxvsValidationSummary_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Red;
+}
+.dxvsValidationSummary_PlasticBlue td.dxvsRC_PlasticBlue
+{
+	vertical-align: top;
+	padding: 2px 5px 4px 6px;
+}
+.dxvsValidationSummary_PlasticBlue .dxvsE_PlasticBlue
+{
+}
+.dxvsValidationSummary_PlasticBlue table.dxvsHT_PlasticBlue
+{
+	width: 100%;
+}
+.dxvsValidationSummary_PlasticBlue td.dxvsH_PlasticBlue
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_PlasticBlue a.dxvsHL_PlasticBlue,
+.dxvsValidationSummary_PlasticBlue a.dxvsHL_PlasticBlue:visited
+{
+	color: red;
+}
+.dxvsValidationSummary_PlasticBlue a.dxvsHL_PlasticBlue
+{
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+.dxvsValidationSummary_PlasticBlue a.dxvsHL_PlasticBlue:hover
+{
+	color: #f70;
+}
+.dxvsValidationSummary_PlasticBlue table.dxvsT_PlasticBlue
+{
+}
+.dxvsValidationSummary_PlasticBlue tr.dxvsE_PlasticBlue
+{
+}
+.dxvsValidationSummary_PlasticBlue td.dxvsETC_PlasticBlue
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_PlasticBlue ul.dxvsL_PlasticBlue
+{
+}
+.dxvsValidationSummary_PlasticBlue ol.dxvsL_PlasticBlue
+{
+}
+.dxvsValidationSummary_PlasticBlue li.dxvsE_PlasticBlue
+{
+	padding: 2px 0;
+}
+
+/* TrackBar */
+.dxeTrackBar_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	visibility:hidden;
+}
+
+.dxeDisabled_PlasticBlue .dxeTBHSys a,
+.dxeDisabled_PlasticBlue .dxeTBVSys a
+{
+    cursor: default;
+}
+
+.dxeTBBarHighlight_PlasticBlue
+{
+	font-size: 0;
+}
+
+.dxeTBScale_PlasticBlue,
+.dxeTBTrack_PlasticBlue,
+.dxeTBBarHighlight_PlasticBlue
+{
+	cursor: pointer;
+}
+
+.dxeTBScale_PlasticBlue
+{
+    font-size: 0.91em;
+	z-index: 1;
+}
+.dxeTBSecondaryDH_PlasticBlue,
+.dxeTBMainDH_PlasticBlue
+{
+	z-index: 4;
+}
+
+.dxeTrackBar_PlasticBlue.dxeTBHSys
+{
+	width: 170px;
+	height: 41px;
+}
+.dxeTrackBar_PlasticBlue.dxeTBVSys
+{
+	height: 170px;
+	width: 41px;
+}
+.dxeTrackBar_PlasticBlue.dxeTBBScaleSys.dxeTBVSys
+{
+	width: 62px;
+}
+.dxeTrackBar_PlasticBlue.dxeTBBScaleSys.dxeTBHSys
+{	
+	height: 62px;
+}
+
+.dxeTBTrack_PlasticBlue
+{
+	z-index: 2;
+	position: absolute;
+}
+
+.dxeTBHSys .dxeTBTrack_PlasticBlue
+{
+	background-image:  url('edtTrackBarTrackH.gif');
+}
+.dxeTBVSys .dxeTBTrack_PlasticBlue
+{
+	background-image:  url('edtTrackBarTrackV.gif');
+}
+
+.dxeTBHSys .dxeTBTrack_PlasticBlue, 
+.dxeTBHSys .dxeTBBarHighlight_PlasticBlue
+{
+	height: 9px;
+}
+.dxeTBVSys .dxeTBTrack_PlasticBlue, 
+.dxeTBVSys .dxeTBBarHighlight_PlasticBlue
+{
+	width: 9px;
+}
+
+.dxeTBHSys .dxeTBMainDH_PlasticBlue,
+.dxeTBHSys .dxeTBSecondaryDH_PlasticBlue
+{	
+	top: -7px;
+	width: 13px;
+	height: 23px;
+}
+.dxeTBVSys .dxeTBMainDH_PlasticBlue,
+.dxeTBVSys .dxeTBSecondaryDH_PlasticBlue
+{
+	left: -7px;
+	width: 23px;
+	height: 13px;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBTrack_PlasticBlue,
+.dxeTBVSys .dxeTBTrack_PlasticBlue
+{
+	left: 7px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBTrack_PlasticBlue
+{
+	right: 7px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBTrack_PlasticBlue
+{
+	bottom: 7px;
+	top: auto;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBTrack_PlasticBlue,
+.dxeTBHSys .dxeTBTrack_PlasticBlue
+{
+	top: 7px;
+}
+
+.dxeTBBarHighlight_PlasticBlue
+{
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	z-index: 3;
+}
+
+.dxeTBHSys .dxeTBBarHighlight_PlasticBlue
+{
+	background-image:  url('edtTrackBarBarHighlightH.gif');
+}
+.dxeTBVSys .dxeTBBarHighlight_PlasticBlue
+{
+	background-image:  url('edtTrackBarBarHighlightV.gif');
+}
+
+.dxeTBRBLabel_PlasticBlue,
+.dxeTBLTLabel_PlasticBlue
+{
+	text-align: center;
+	cursor: default;
+}
+.dxeTBSmallTickSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBSmallTickSys .dxeTBLTLabel_PlasticBlue,
+.dxeTBLargeTickSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBLargeTickSys .dxeTBLTLabel_PlasticBlue
+{	
+	position: absolute;
+}
+
+.dxeTBHSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBHSys .dxeTBLTLabel_PlasticBlue
+{
+	width: 100%;
+}
+
+.dxeTBIncBtn_PlasticBlue,
+.dxeTBDecBtn_PlasticBlue
+{
+}
+
+.dxeTBVSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBVSys .dxeTBLTLabel_PlasticBlue
+{
+	padding-top: 2px;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_PlasticBlue
+{
+	margin-left: -4px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLTLabel_PlasticBlue
+{
+	right: 0px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBLTLabel_PlasticBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBRBLabel_PlasticBlue
+{
+	left: 0px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBRBLabel_PlasticBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLTLabel_PlasticBlue
+{
+	bottom: 0px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBLTLabel_PlasticBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_PlasticBlue
+{
+	top: 0px;
+}
+
+.dxeTBHSys .dxeTBItem_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeTBHSys .dxeTBItem_PlasticBlue .dxeTBLTLabel_PlasticBlue
+{
+	display: inline-block;
+	margin-left: 0px!important;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBItem_PlasticBlue .dxeTBRBLabel_PlasticBlue
+{
+	padding-top: 12px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBItem_PlasticBlue .dxeTBLTLabel_PlasticBlue
+{
+	margin-top: 8px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_PlasticBlue .dxeTBRBLabel_PlasticBlue 
+{
+	margin-left: 5px;
+}
+
+.dxeTBSelectedItem_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeTBSelectedItem_PlasticBlue .dxeTBLTLabel_PlasticBlue,
+.dxeTBSelectedTick_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeTBSelectedTick_PlasticBlue .dxeTBLTLabel_PlasticBlue
+{
+	color: #6680C1;
+}
+
+.dxeDisabled_PlasticBlue .dxeTBSelectedItem_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeTBSelectedItem_PlasticBlue .dxeTBLTLabel_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeTBSelectedTick_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeTBSelectedTick_PlasticBlue .dxeTBLTLabel_PlasticBlue
+{
+	color: #D8DFEF;
+}
+
+.dxeTBRBLabel_PlasticBlue,
+.dxeTBLTLabel_PlasticBlue,
+.dxeTBItem_PlasticBlue
+{
+	color: #B2BFE0;
+}
+
+.dxeDisabled_PlasticBlue .dxeTBRBLabel_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeTBLTLabel_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeTBItem_PlasticBlue
+{
+	color: #D8DFEF;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBItem_PlasticBlue
+{
+	text-align: left;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_PlasticBlue
+{
+	text-align: right;
+}
+
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_PlasticBlue
+{
+	text-align: center;
+}
+
+.dxeTBHSys .dxeTBItem_PlasticBlue
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBItem_PlasticBlue
+{
+	background-image:  url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBItem_PlasticBlue 
+{
+	background-image:  url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_PlasticBlue
+{
+	background-image:  url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBHSys .dxeTBLargeTick_PlasticBlue
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBLargeTick_PlasticBlue
+{
+	background-image: url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBSmallTick_PlasticBlue
+{
+	background-image: url('edtTrackBarSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBSmallTick_PlasticBlue
+{
+	background-image: url('edtTrackBarSmallTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLargeTick_PlasticBlue
+{
+	background-image: url('edtTrackBarDoubleLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLargeTick_PlasticBlue
+{
+	background-image: url('edtTrackBarDoubleLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBSmallTick_PlasticBlue
+{
+	background-image: url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBSmallTick_PlasticBlue
+{
+	background-image: url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBVSys .dxeTBIncBtn_PlasticBlue,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBDecBtn_PlasticBlue
+{
+	bottom: 0px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBIncBtn_PlasticBlue
+{
+	top: 0px;
+	bottom: auto;
+}
+.dxeTBHSys .dxeTBDecBtn_PlasticBlue, 
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBIncBtn_PlasticBlue
+{
+	left: 0px;
+	right: auto;
+}
+.dxeTBHSys .dxeTBIncBtn_PlasticBlue,
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBDecBtn_PlasticBlue
+{
+	right: 0px;
+	left: auto;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBIncBtn_PlasticBlue
+{
+	margin-left: -10px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBIncBtn_PlasticBlue
+{
+	margin-top: -10px;
+	top: 50%;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBTrack_PlasticBlue
+{ 
+	margin-left: -4px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBTrack_PlasticBlue
+{ 
+	margin-top: -4px;
+	top: 50%;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBIncBtn_PlasticBlue
+{
+	right: 1px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBIncBtn_PlasticBlue
+{
+	bottom: 1px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBIncBtn_PlasticBlue,
+.dxeTBVSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBVSys .dxeTBIncBtn_PlasticBlue
+{
+	left: 1px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBIncBtn_PlasticBlue,
+.dxeTBHSys .dxeTBDecBtn_PlasticBlue,
+.dxeTBHSys .dxeTBIncBtn_PlasticBlue
+{
+	top: 1px;
+}
+
+.dxeHelpText_PlasticBlue,
+.dxeTBValueToolTip_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+div.dxeHelpText_PlasticBlue,
+.dxeTBValueToolTip_PlasticBlue
+{
+	padding: 3px 8px 4px 8px;
+    display: inline;
+    z-index: 41998;
+    position:absolute;
+    border: 1px Solid #2C4182;
+    color: White;
+    background: #495D9F;
+}
+td.dxeHelpText_PlasticBlue {
+    visibility: visible;
+    color: #9F9F9F;
+}
+td.dxeHelpText_PlasticBlue label {
+    font-size: 0.91em;
+}
+td.dxeHelpText_PlasticBlue.dxeHHelpTextSys {
+    padding: 0 6px;
+}
+td.dxeHelpText_PlasticBlue.dxeVHelpTextSys {
+    padding: 2px 0;
+}
+
+/* InternalCheckBox */
+.dxeIRBFocused_PlasticBlue
+{
+    outline: 1px dotted #8497d2;
+}
+.dxeIRadioButton_PlasticBlue
+{
+}
+.dxeBase_PlasticBlue .dxichCellSys,
+.dxeBase_PlasticBlue.dxichCellSys
+{
+    padding: 4px 3px 2px;
+}
+.dxeBase_PlasticBlue .dxichTextCellSys
+{
+    padding: 3px 0 1px;
+}
+
+.dxlpLoadingPanel_PlasticBlue,
+.dxlpLoadingPanelWithContent_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #CBCBCB;
+	background-color: White;
+}
+.dxlpLoadingPanel_PlasticBlue td.dx,
+.dxlpLoadingPanelWithContent_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxcaLoadingPanel_PlasticBlue .dxlp-loadingImage,
+.dxlpLoadingPanel_PlasticBlue .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_PlasticBlue .dxlp-loadingImage,
+.dxeImage_PlasticBlue.dxe-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 20px;
+	width: 19px;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingDiv_PlasticBlue
+{
+	opacity: 1!important;
+	filter: alpha(opacity=100)!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_PlasticBlue
+{
+    background-color: transparent!important;
+    font-size: 0!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_PlasticBlue td.dx
+{
+	padding: 0px!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_PlasticBlue td.dx > span
+{
+	display: none;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_PlasticBlue td.dx > img
+{
+	height: 15px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.dxeBase_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+/* -- ErrorFrame -- */
+.dxeErrorCell_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: red;
+    border-color: black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.dxeErrorFrame_PlasticBlue
+{
+}
+.dxeErrorFrameWithoutError_PlasticBlue
+{
+	border: 1px solid Red;
+}
+.dxeErrorFrameWithoutError_PlasticBlue .dxeControlsCell_PlasticBlue,
+.dxeErrorFrameWithoutError_PlasticBlue.dxeControlsCell_PlasticBlue
+{
+	padding: 2px;
+}
+.dxeEditArea_PlasticBlue
+{
+	border: 1px solid #A0A0A0;
+}
+body input.dxeEditArea_PlasticBlue /*Bootstrap correction*/
+{
+    color: black;
+}
+input[type="text"].dxeEditArea_PlasticBlue, /*Bootstrap correction*/
+input[type="password"].dxeEditArea_PlasticBlue /*Bootstrap correction*/
+{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.dxFirefox input[type="text"].dxeEditArea_PlasticBlue,
+.dxFirefox input[type="password"].dxeEditArea_PlasticBlue
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* -- Binary Image -- */
+.dxeBinaryImageButtonPanel_PlasticBlue
+{
+    height: 36px;
+}
+.dxeBinaryImageButton_PlasticBlue
+{
+    margin: 0 6px;
+}
+
+/* -- Buttons -- */
+.dxeButtonEditButton_PlasticBlue,
+.dxeCalendarButton_PlasticBlue,
+.dxeSpinIncButton_PlasticBlue,
+.dxeSpinDecButton_PlasticBlue,
+.dxeSpinLargeIncButton_PlasticBlue,
+.dxeSpinLargeDecButton_PlasticBlue,
+.dxeColorEditButton_PlasticBlue
+{
+	vertical-align: middle;
+	color: White;
+	border: 1px Solid #CCCCCC;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxeColorEditButton_PlasticBlue
+{
+	color: black;
+}
+.dxeButtonEditButton_PlasticBlue
+{
+	padding: 0 2px;
+	background: #3F5396 url('edtButtonEditButtonBack.gif') repeat-x top;
+	border: 1px Solid #2c4182;
+}
+.dxeSpinIncButton_PlasticBlue,
+.dxeSpinDecButton_PlasticBlue
+{
+	padding: 1px 3px;
+}
+.dxeSpinLargeIncButton_PlasticBlue
+{
+	padding: 0px 3px 0px 4px;
+}
+.dxeSpinLargeDecButton_PlasticBlue
+{
+	padding: 0px 4px 0px 3px;
+}
+.dxeSpinIncButton_PlasticBlue
+{
+	background: #566bad url('edtSpinIncBtnBack.gif') repeat-x top;
+	margin-bottom: 1px;
+}
+.dxeSpinDecButton_PlasticBlue
+{
+	background: #4a5ea0 url('edtSpinDecBtnBack.gif') repeat-x top;
+}
+.dxeSpinLargeIncButton_PlasticBlue,
+.dxeSpinLargeDecButton_PlasticBlue
+{
+	background: #3F5396 url('edtSpinLargeIncBtnBack.gif') repeat-x top;
+}
+.dxeCalendarButton_PlasticBlue,
+.dxeColorEditButton_PlasticBlue
+{
+	background: #e5e5e5 url('edtCalendarButtonBack.gif') left, top;
+	color: Black;
+	padding: 2px 13px 4px;
+	min-width: 37px;
+}
+
+
+.dxeButtonEditButton_PlasticBlue.dxeButtonEditClearButton_PlasticBlue,
+.dxeButtonEditButton_PlasticBlue.dxeButtonEditClearButton_PlasticBlue:hover
+{
+    background: none;
+    border-width: 0;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.dxeButtonEditClearButton_PlasticBlue img
+{
+    vertical-align: baseline;
+}
+
+/* -- Pressed -- */
+.dxeCalendarButtonPressed_PlasticBlue,
+.dxeColorEditButton_PlasticBlue:active
+{
+	background: #dcdcdc none;
+}
+.dxeButtonEditButtonPressed_PlasticBlue
+{
+	background: #2d4894 url('edtDropDownButtonPressedBack.gif') repeat-x top;
+}
+.dxeSpinIncButtonPressed_PlasticBlue
+{
+	background: #2d4894 url('edtSpinIncBtnPBack.gif') repeat-x top;
+}
+.dxeSpinDecButtonPressed_PlasticBlue
+{
+	background: #2d4894 url('edtSpinDecBtnPBack.gif') repeat-x top;
+}
+.dxeSpinLargeIncButtonPressed_PlasticBlue,
+.dxeSpinLargeDecButtonPressed_PlasticBlue
+{
+	background: #2d4894 url('edtSpinLargeIncBtnPBack.gif') repeat-x top;
+}
+
+/* -- Hover -- */
+.dxeCalendarButtonHover_PlasticBlue,
+.dxeColorEditButton_PlasticBlue:hover
+{
+	background: #F2F2F2 url('edtCalendarButtonHBack.gif') repeat-x top;
+}
+.dxeButtonEditButtonHover_PlasticBlue
+{
+	background: #5f7abd url('edtDropDownButtonHoverBack.gif') repeat-x top;
+}
+.dxeSpinLargeIncButtonHover_PlasticBlue,
+.dxeSpinLargeDecButtonHover_PlasticBlue
+{
+	background: #5f7abd url('edtSpinLargeIncBtnHBack.gif') repeat-x top;
+}
+.dxeSpinIncButtonHover_PlasticBlue
+{
+	background: #7D94CE url('edtSpinIncBtnHBack.gif') repeat-x top;
+}
+.dxeSpinDecButtonHover_PlasticBlue
+{
+	background: #7D94CE url('edtSpinDecBtnHBack.gif') repeat-x top;
+}
+
+.dxeButtonEdit_PlasticBlue
+{
+	border: 1px Solid #b8b8b8;
+	background-color: White;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+ .dxeButtonEdit_PlasticBlue .dxeEditArea_PlasticBlue
+{
+	background-color: White;
+}
+.dxeButtonEdit_PlasticBlue .dxeIIC img
+{
+	padding-left: 3px;
+}
+.dxeTextBox_PlasticBlue
+{
+	background-color: White;
+	border: 1px solid #B8B8B8;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeTextBox_PlasticBlue .dxeEditArea_PlasticBlue
+{
+	background-color: White;
+}
+.dxeRadioButtonList_PlasticBlue,
+.dxeCheckBoxList_PlasticBlue
+{
+	border: 1px Solid #B8B8B8;
+}
+
+.dxeCheckBoxList_PlasticBlue .dxe > table,
+.dxeRadioButtonList_PlasticBlue .dxe > table 
+{
+    width: 100%;
+}
+
+.dxeRadioButtonList_PlasticBlue,
+.dxeCheckBoxList_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeRadioButtonList_PlasticBlue td.dxe,
+.dxeCheckBoxList_PlasticBlue td.dxe
+{
+	padding: 7px 0 5px 6px;
+}
+.dxeRadioButtonList_PlasticBlue[dir='rtl'] td.dxe,
+.dxeCheckBoxList_PlasticBlue[dir='rtl'] td.dxe
+{
+	padding: 7px 6px 5px 0;
+}
+
+/* -- Memo -- */
+.dxeMemo_PlasticBlue
+{
+	background-color: White;
+	border: 1px solid #B8B8B8;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeMemoEditArea_PlasticBlue
+{
+	background-color: White;
+	outline: none;
+}
+
+/* -- Hyperlink -- */
+.dxeHyperlink_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #5A83D0;
+}
+a:hover.dxeHyperlink_PlasticBlue
+{
+	color: #2443AA;
+}
+a:visited.dxeHyperlink_PlasticBlue
+{
+	color: #996085;
+}
+
+/* -- ListBox -- */
+.dxeListBox_PlasticBlue
+{
+	background-color: #fafafa;
+	border: 1px solid #B8B8B8;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	height: 103px;
+	width: 70px;
+}
+.dxeListBox_PlasticBlue div.dxlbd
+{
+	padding-top: 1px;
+	height: 102px;
+}
+.dxeListBoxItemRow_PlasticBlue
+{
+	cursor: default;
+}
+.dxeListBoxItem_PlasticBlue
+{
+	border-bottom: 1px solid #fafafa;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 2px 2px 3px 4px;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxeListBoxItem_PlasticBlue em
+{
+	background: #dedede none repeat 0 0;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+.dxeListBoxItemSelected_PlasticBlue     
+{
+	color: White;
+	background-color: #6d82c5;
+}
+.dxeListBoxItemHover_PlasticBlue        
+{
+	background-color: #dedede;
+	color: Black;
+}
+.dxeListBoxItemHover_PlasticBlue em,
+.dxeListBoxItemSelected_PlasticBlue em
+{
+	background-image: none;
+}
+
+.dxeListBox_PlasticBlue td.dxeI,
+.dxeListBox_PlasticBlue td.dxeIM,
+.dxeListBox_PlasticBlue .dxeHIC,
+.dxeListBox_PlasticBlue td.dxeFTM,
+.dxeListBox_PlasticBlue td.dxeTM,
+.dxeListBox_PlasticBlue td.dxeC,
+.dxeListBox_PlasticBlue td.dxeCM,
+.dxeListBox_PlasticBlue td.dxeHCC,
+.dxeListBox_PlasticBlue td.dxeMI,
+.dxeListBox_PlasticBlue td.dxeMIM
+{
+	padding-right: 0!important;
+	border-right-width: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeIR,
+.dxeListBox_PlasticBlue td.dxeIMR,
+.dxeListBox_PlasticBlue .dxeHICR,
+.dxeListBox_PlasticBlue td.dxeFTMR,
+.dxeListBox_PlasticBlue td.dxeTMR,
+.dxeListBox_PlasticBlue td.dxeCR,
+.dxeListBox_PlasticBlue td.dxeCMR,
+.dxeListBox_PlasticBlue td.dxeHCCR,
+.dxeListBox_PlasticBlue td.dxeMIR,
+.dxeListBox_PlasticBlue td.dxeMIMR
+{
+	padding-left: 0!important;
+	border-left-width: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeCM,
+.dxeListBox_PlasticBlue td.dxeHCC,
+.dxeListBox_PlasticBlue td.dxeCMR,
+.dxeListBox_PlasticBlue td.dxeHCCR
+{
+	width: 31px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.dxeListBox_PlasticBlue td.dxeIM,
+.dxeListBox_PlasticBlue td.dxeIMR
+{
+	width: 0;
+}
+.dxeListBox_PlasticBlue td.dxeC
+{
+	padding-right: 3px!important;
+}
+.dxeListBox_PlasticBlue td.dxeCR
+{
+	padding-left: 3px!important;
+}
+.dxeListBox_PlasticBlue td.dxeC > span,
+.dxeListBox_PlasticBlue td.dxeCM > span
+{
+    margin: 2px 2px 2px 3px;
+}
+.dxeListBox_PlasticBlue td.dxeCR > span,
+.dxeListBox_PlasticBlue td.dxeCMR > span
+{
+    margin: 2px 3px 2px 2px;
+}
+.dxeListBox_PlasticBlue td.dxeT
+{
+	width: 100%;
+	padding-left: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeTR
+{
+	width: 100%;
+	padding-right: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeT,
+.dxeListBox_PlasticBlue td.dxeMI
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeTR,
+.dxeListBox_PlasticBlue td.dxeMIR
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_PlasticBlue td.dxeFTM,
+.dxeListBox_PlasticBlue td.dxeTM,
+.dxeListBox_PlasticBlue td.dxeLTM,
+.dxeListBox_PlasticBlue .dxeHFC,
+.dxeListBox_PlasticBlue .dxeHC,
+.dxeListBox_PlasticBlue .dxeHLC,
+.dxeListBox_PlasticBlue td.dxeFTMR,
+.dxeListBox_PlasticBlue td.dxeTMR,
+.dxeListBox_PlasticBlue td.dxeLTMR,
+.dxeListBox_PlasticBlue .dxeHFCR,
+.dxeListBox_PlasticBlue .dxeHCR,
+.dxeListBox_PlasticBlue .dxeHLCR
+{
+	overflow: hidden;
+}
+.dxeListBox_PlasticBlue td.dxeFTM,
+.dxeListBox_PlasticBlue td.dxeTM, 
+.dxeListBox_PlasticBlue .dxeHFC,
+.dxeListBox_PlasticBlue .dxeHC
+{
+	padding-right: 6px!important;
+}
+.dxeListBox_PlasticBlue td.dxeFTMR,
+.dxeListBox_PlasticBlue td.dxeTMR, 
+.dxeListBox_PlasticBlue .dxeHFCR,
+.dxeListBox_PlasticBlue .dxeHCR
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_PlasticBlue td.dxeLTM,
+.dxeListBox_PlasticBlue td.dxeTM, 
+.dxeListBox_PlasticBlue .dxeHC,
+.dxeListBox_PlasticBlue .dxeHLC
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_PlasticBlue td.dxeLTMR,
+.dxeListBox_PlasticBlue td.dxeTMR, 
+.dxeListBox_PlasticBlue .dxeHCR,
+.dxeListBox_PlasticBlue .dxeHLCR
+{
+	padding-right: 6px!important;
+}
+/*Grid lines*/
+.dxeListBox_PlasticBlue td.dxeLTM,
+.dxeListBox_PlasticBlue td.dxeTM,
+.dxeListBox_PlasticBlue td.dxeMIM
+{
+	border-left: 1px solid #D9D9D9!important;
+}
+.dxeListBox_PlasticBlue td.dxeLTMR,
+.dxeListBox_PlasticBlue td.dxeTMR,
+.dxeListBox_PlasticBlue td.dxeMIMR
+{
+	border-right: 1px solid #D9D9D9!important;
+}
+.dxeListBox_PlasticBlue td.dxeIM,
+.dxeListBox_PlasticBlue td.dxeFTM,
+.dxeListBox_PlasticBlue td.dxeTM,
+.dxeListBox_PlasticBlue td.dxeLTM,
+.dxeListBox_PlasticBlue td.dxeCM,
+.dxeListBox_PlasticBlue td.dxeMIM,
+.dxeListBox_PlasticBlue td.dxeIMR,
+.dxeListBox_PlasticBlue td.dxeFTMR,
+.dxeListBox_PlasticBlue td.dxeTMR,
+.dxeListBox_PlasticBlue td.dxeLTMR,
+.dxeListBox_PlasticBlue td.dxeCMR,
+.dxeListBox_PlasticBlue td.dxeMIMR
+{
+	border-bottom: 1px solid #D9D9D9;
+}
+/*Header*/
+.dxeListBox_PlasticBlue .dxeHD
+{
+	background: #415698 url('lbHeaderBackground.gif') repeat-x top center;
+	border-bottom: 1px solid #2C4182;
+}
+.dxeListBox_PlasticBlue .dxeHFC,
+.dxeListBox_PlasticBlue .dxeHIC,
+.dxeListBox_PlasticBlue .dxeHC,
+.dxeListBox_PlasticBlue .dxeHLC,
+.dxeListBox_PlasticBlue td.dxeHCC,
+.dxeListBox_PlasticBlue td.dxeHMIC,
+.dxeListBox_PlasticBlue .dxeHFCR,
+.dxeListBox_PlasticBlue .dxeHICR,
+.dxeListBox_PlasticBlue .dxeHCR,
+.dxeListBox_PlasticBlue .dxeHLCR,
+.dxeListBox_PlasticBlue td.dxeHCCR,
+.dxeListBox_PlasticBlue td.dxeHMICR
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: White;
+	border-bottom-width: 0;
+}
+.dxeListBox_PlasticBlue .dxeHC,
+.dxeListBox_PlasticBlue .dxeHLC,
+.dxeListBox_PlasticBlue td.dxeHMIC
+{
+	border-left: 1px solid #2C4182;
+}
+.dxeListBox_PlasticBlue .dxeHCR,
+.dxeListBox_PlasticBlue .dxeHLCR,
+.dxeListBox_PlasticBlue td.dxeHMICR
+{
+	border-right: 1px solid #2C4182;
+	text-align: right;
+}
+.dxeListBox_PlasticBlue .dxeHIC,
+.dxeListBox_PlasticBlue .dxeHFC,
+.dxeListBox_PlasticBlue .dxeHCC
+{
+	border-left: 1px solid #415698;
+}
+.dxeListBox_PlasticBlue .dxeHICR,
+.dxeListBox_PlasticBlue .dxeHFCR,
+.dxeListBox_PlasticBlue .dxeHCCR
+{
+	border-right: 1px solid #415698;
+	text-align: right;
+}
+.dxeListBox_PlasticBlue .dxeHFC,
+.dxeListBox_PlasticBlue .dxeHC,
+.dxeListBox_PlasticBlue .dxeHMIC
+{
+	border-right-width: 0;
+}
+.dxeListBox_PlasticBlue .dxeHFCR,
+.dxeListBox_PlasticBlue .dxeHCR,
+.dxeListBox_PlasticBlue .dxeHMICR
+{
+	border-left-width: 0;
+	text-align: right;
+}
+.dxeListBox_PlasticBlue .dxeHLC
+{
+	border-right: 1px solid #2C4182;
+}
+.dxeListBox_PlasticBlue .dxeHLCR
+{
+	border-left: 1px solid #2C4182;
+	text-align: right;
+}
+
+/* -- Calendar -- */
+.dxeCalendar_PlasticBlue
+{
+	color: black;
+    font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px solid #CCCCCC;
+	background-color: #FAFAFA;
+	font-weight: normal;
+}
+.dxeCalendar_PlasticBlue td.dxMonthGrid,
+.dxeCalendar_PlasticBlue td.dxMonthGridWithWeekNumbers
+{
+	padding: 2px 22px 5px 10px;
+	cursor: default;
+}
+.dxeCalendar_PlasticBlue td.dxMonthGrid
+{
+	padding-left: 22px;
+}
+.dxeCalendar_PlasticBlue td.dxMonthGridWithWeekNumbersRtl
+{
+	padding: 2px 10px 5px 22px;
+	cursor: default;
+}
+
+.dxeCalendarDayHeader_PlasticBlue
+{
+	color: Black;
+	padding: 4px 4px 6px;
+	background-color: transparent;
+	border-bottom: 1px solid #E8E8E8;
+}
+.dxeCalendarWeekNumber_PlasticBlue
+{
+	font-size: 0.83em;
+	text-align: right;
+	padding: 4px 6px;
+	color: #9CAEE3;
+}
+.dxeCalendarDay_PlasticBlue
+{
+	padding: 4px 6px;
+	text-align: center;
+}
+.dxeCalendarWeekend_PlasticBlue        
+{
+	color: #c00000;
+}
+.dxeCalendarOtherMonth_PlasticBlue     
+{
+	color: #888;
+}
+.dxeCalendarOutOfRange_PlasticBlue      
+{
+	color: #d0d0d0;
+}
+.dxeCalendarDayDisabled_PlasticBlue {
+	background-color: #f6f7fa;
+	color: #e6e7ea!important;
+}
+.dxeCalendarToday_PlasticBlue      
+{
+	padding: 3px;
+	border: 1px solid #5066AC;
+}
+.dxeCalendarSelected_PlasticBlue       
+{
+	color: White;
+	background-color: #5066AC;
+}
+.dxeDayInRange.dxeCalendarSelected_PlasticBlue
+{
+    background-color: #c1c6e6;
+}
+.dxeCalendarHeader_PlasticBlue
+{
+	background: #3F5495 url('edtCalendarHeaderBack.gif') repeat-x top;
+	border-bottom: 1px solid #2C4182;
+	padding: 4px 12px 3px;
+}
+.dxeCalendarHeader_PlasticBlue td.dxe
+{
+	color: White;
+	text-align: center;
+	cursor: pointer;
+}
+.dxeCalendarHeader_PlasticBlue .dxeCHS
+{
+    min-width: 11px;
+}
+.dxeCalendarFooter_PlasticBlue,
+.dxeCalendarFastNavFooter_PlasticBlue
+{
+	background: #E9E9E9 url('edtCalendarFooterBack.gif') no-repeat left top;
+	padding: 10px 0px;
+	border-top: 1px solid #CCCCCC;
+}
+.dxeCalendarFooter_PlasticBlue .dxeCFS
+{
+    min-width: 4px;
+}
+.dxeCalendarFastNavFooter_PlasticBlue .dxeCFNFS
+{
+    min-width: 4px;
+}
+.dxeCalendarFastNav_PlasticBlue
+{
+	background: white none;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 0px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	padding: 12px 8px;
+}
+.dxeCalendarFastNavYearArea_PlasticBlue
+{
+    padding-top: 12px;
+}
+.dxeCalendarFastNavFooter_PlasticBlue
+{
+	color: black;
+	border: 1px solid #cccccc;
+}
+.dxeCalendarFastNavMonth_PlasticBlue,
+.dxeCalendarFastNavYear_PlasticBlue
+{
+	color: Black;
+	padding: 5px 4px;
+	text-align: center;
+	cursor: pointer;
+}
+.dxeCalendarFastNavMonth_PlasticBlue
+{
+	padding: 4px 20px;
+}
+.dxeCalendarFastNavMonthHover_PlasticBlue,
+.dxeCalendarFastNavYearHover_PlasticBlue
+{
+	color: black;
+	background: #e9e9e9 none;
+}
+.dxeCalendarFastNavMonthSelected_PlasticBlue,
+.dxeCalendarFastNavYearSelected_PlasticBlue
+{
+	color: white;
+	background: #5066ac none;
+}
+.dxeDateEditTimeEditCell_PlasticBlue
+{
+    padding: 3px 23px 12px;
+    width: 100px;
+}
+.dxeDateEditClockCell_PlasticBlue
+{
+    padding: 7px 11px 0;
+}
+.dxeCalendarFooter_PlasticBlue.dxeDETSF
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Disabled */
+.dxeDisabled_PlasticBlue,
+.dxeDisabled_PlasticBlue td.dxe,
+.dxeDisabled_PlasticBlue .dxeEditArea_PlasticBlue,
+.dxeDisabled_PlasticBlue .dxeMemoEditArea_PlasticBlue
+{
+	color: #b8b8b8;
+	cursor: default;
+}
+a.dxeDisabled_PlasticBlue, a.dxeDisabled_PlasticBlue:hover
+{
+	color: #b8b8b8;
+}
+.dxeButtonDisabled_PlasticBlue
+{
+	color: White;
+	background: #b7b7b7 url('edtButtonEditButtonBackDis.gif') repeat-x left top;
+	border-color: #ababab;
+	cursor: default;
+}
+/* -- Button -- */
+.dxbButton_PlasticBlue
+{
+	color: #000000;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px solid #B8B8B8;
+	background: #e5e5e5 url('edtButtonBack.gif') left top;
+	padding: 1px;
+}
+.dxbButtonHover_PlasticBlue
+{
+	color: #000000;
+	background: #F2F2F2 url('edtButtonBackHover.gif') left top;
+}
+.dxbButtonChecked_PlasticBlue
+{
+	color: #000000;
+	background: #DEDEDE none;
+}
+.dxbButtonPressed_PlasticBlue
+{
+	color: #000000;
+	background: #cbcbcb none;
+}
+.dxbButton_PlasticBlue  div.dxb
+{
+	padding: 1px 9px 2px;
+	border: 1px Dotted transparent;
+}
+.dxbButton_PlasticBlue  div.dxbf
+{
+	border: 1px Dotted #000000;
+}
+/* Button Link */
+a.dxbButton_PlasticBlue
+{
+    color: #5A83D0;
+    text-decoration: underline;
+}
+a.dxbButton_PlasticBlue:hover
+{
+	color: #2443AA;
+}
+a.dxbButton_PlasticBlue:visited
+{
+	color: #996085;
+}
+/* Disabled */
+.dxbDisabled_PlasticBlue,
+a.dxbButton_PlasticBlue.dxbDisabled_PlasticBlue
+{
+	color: #b8b8b8;
+	cursor: default;
+    text-decoration: none;
+}
+
+/* -- FilterControl -- */
+.dxfcControl_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Black;
+	padding: 0 1em;
+}
+.dxfcTable_PlasticBlue
+{
+	border-collapse: separate!important;
+}
+.dxfcTable_PlasticBlue td.dxfc
+{
+    line-height: 23px;
+	padding: 0px 0px 0px 3px;
+}
+a.dxfcPropertyName_PlasticBlue
+{
+	white-space: nowrap!important;
+	color: Blue!important;
+}
+a.dxfcGroupType_PlasticBlue
+{
+	white-space: nowrap!important;
+	padding: 0px 3px!important;
+	color: Red!important;
+}
+a.dxfcOperation_PlasticBlue
+{
+	white-space: nowrap!important;
+	color: Green!important;
+}
+a.dxfcValue_PlasticBlue
+{
+	white-space: nowrap!important;
+	color: Gray!important;
+}
+.dxfcImageButton_PlasticBlue
+{
+	cursor: pointer;
+}
+
+.dxeMaskHint_PlasticBlue
+{
+	background: #ffffe1 none;
+	border: 1px solid black;
+	padding: 2px 5px 3px;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxfcControl_PlasticBlue ul.dxfc-tree,
+.dxfcControl_PlasticBlue .dxfc-tree ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.dxfcControl_PlasticBlue .dxfc-tree
+{
+    width: 100%;
+}
+
+.dxfcControl_PlasticBlue .dxfc-subnd
+{
+    margin-left: 22px;
+}
+
+.dxfcControl_PlasticBlue .dxfc > li > table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dxfcControl_PlasticBlue .dxfc-elb
+{
+    background: url('fcElbow.gif') no-repeat;
+    float: left;
+    height: 21px;
+    vertical-align: top;
+    width: 26px;
+    margin-right: 0.3em;
+}
+
+.dxfcControl_PlasticBlue .dxfc-clr
+{
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.dxfcControl_PlasticBlue .dxfc-nd
+{
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    outline: 0 none;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > span,
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > img,
+.dxfcControl_PlasticBlue .dxfc-editor
+{
+    vertical-align: middle;
+}
+
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > td,
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > span
+{
+    padding: 0 0.1ex;
+}
+
+.dxfcControl_PlasticBlue .dxfc-nd > tbody > tr > td > a
+{
+    line-height: 24px;
+}
+
+.dxfcControl_PlasticBlue .dxfc-ln
+{
+    background: url('fcLine.gif') repeat-y;
+    vertical-align: top;
+}
+
+.dxfcControl_PlasticBlue .dxfc-memo textarea 
+{
+	height: 80px;
+	overflow: auto;
+}
+
+.dxfcControl_PlasticBlue .dxfc-validationSummary
+{
+	padding: 2px 5px 4px 6px !important;
+	list-style-type: none;
+	margin: 0;
+}
+
+.dxfcControl_PlasticBlue .dxfc-validationSummary li
+{
+	padding: 2px 0;
+}
+
+.dxfcControl_PlasticBlue .dxfc-validationSummary li a
+{
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+
+.dxfcControl_PlasticBlue .dxfc-validationSummary li a:hover
+{
+	color: #f70;
+}
+/* -- ProgressBar -- */
+.dxeProgressBar_PlasticBlue
+{
+	border: 1px Solid #B8B8B8;
+	background-color: #F5F5F5;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+    height: 25px;
+}
+.dxeProgressBar_PlasticBlue .dxePBMainCell
+{
+	padding: 1px;
+}
+.dxeProgressBar_PlasticBlue td.dxe
+{
+	padding: 0;
+}
+.dxeProgressBar_PlasticBlue td
+{
+	background: url('edtProgressPositionBack.png') no-repeat 50% center;
+}
+.dxeProgressBarIndicator_PlasticBlue
+{
+	background: #3E5496 url('edtProgressIndicatorBack.gif') repeat-x;
+}
+
+/* -- DropDownWindow -- */
+.dxpcDropDown_PlasticBlue,
+.dxeDropDownWindow_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeDropDownWindow_PlasticBlue
+{
+	border: 1px Solid #b8b8b8;
+	background-color: #FAFAFA;
+}
+
+/*----------------- ColorTable -----------------*/
+.dxeColorIndicator_PlasticBlue
+{
+	border: 1px solid #b8b8b8;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dxeItemPicker_PlasticBlue
+{
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+.dxeColorTable_PlasticBlue td.dx,
+.dxeItemPicker_PlasticBlue td.dx
+{
+	padding: 4px;
+}
+.dxeColorTableCell_PlasticBlue,
+.dxeItemPickerCell_PlasticBlue,
+.dxeACICell_PlasticBlue
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.dxeColorTableCellDiv_PlasticBlue,
+.dxeACICellDiv_PlasticBlue
+{
+	border: 1px solid #808080;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+}
+.dxeColorTableCellSelected_PlasticBlue,
+.dxeItemPickerCellSelected_PlasticBlue,
+.dxeACICellSelected_PlasticBlue
+{
+	padding: 2px!important;
+}
+.dxeColorTableCellSelected_PlasticBlue,
+.dxeACICellSelected_PlasticBlue
+{
+	background-color: #CBCBCB;
+	border: 1px solid #888888;
+}
+.dxeColorTableCellHover_PlasticBlue,
+.dxeItemPickerCellHover_PlasticBlue,
+.dxeAutomaticColorItemCellHover_PlasticBlue,
+.dxeAutomaticColorItem_PlasticBlue:hover > div
+{
+	padding: 2px!important;
+}
+.dxeColorTableCellHover_PlasticBlue,
+.dxeAutomaticColorItemCellHover_PlasticBlue,
+.dxeAutomaticColorItem_PlasticBlue:hover > div
+{
+	background-color: #F2F2F2;
+	border: 1px solid #888888;
+}
+.dxeItemPickerCellHover_PlasticBlue
+{
+	background-color: #e9e9e9;
+	border: 1px Solid #CCCCCC;
+}
+
+/* -- Invalid Style -- */
+.dxeInvalid_PlasticBlue
+{
+}
+.dxeInvalid_PlasticBlue .dxeEditArea_PlasticBlue,
+.dxeInvalid_PlasticBlue .dxeMemoEditArea_PlasticBlue
+{
+}
+
+/* -- Focused Style -- */
+.dxeFocused_PlasticBlue
+{
+	border: 1px solid #909090;
+}
+.dxeFocused_PlasticBlue .dxeEditArea_PlasticBlue,
+.dxeFocused_PlasticBlue .dxeMemoEditArea_PlasticBlue
+{
+	background-color: White;
+}
+.dxeFocused_PlasticBlue .dxeListBoxItem_PlasticBlue
+{
+	border-bottom-color: White;
+}
+
+.dxeFocused_PlasticBlue.dxeTrackBar_PlasticBlue
+{	
+	border: 0px;
+}
+
+/* -- Null Text Style -- */
+.dxeNullText_PlasticBlue .dxeEditArea_PlasticBlue,
+.dxeNullText_PlasticBlue .dxeMemoEditArea_PlasticBlue
+{
+	color: #b8b8b8;
+}
+
+/* -- Captcha -- */
+.dxcaControl_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxcaRefreshButton_PlasticBlue
+{
+	text-decoration: none;
+	color: #5a83d0;
+}
+
+.dxcaDisabledRefreshButton_PlasticBlue
+{
+	color: #b8b8b8;
+}
+
+.dxcaRefreshButtonCell_PlasticBlue
+{
+}
+
+.dxcaRefreshButtonText_PlasticBlue
+{
+}
+
+.dxcaDisabledRefreshButtonText_PlasticBlue
+{
+}
+
+.dxcaTextBoxCell_PlasticBlue,
+.dxcaTextBoxCellNoIndent_PlasticBlue
+{
+}
+
+.dxcaTextBoxCellNoIndent_PlasticBlue .dxeErrorCell_PlasticBlue
+{
+	padding-left: 0px;
+	padding-top: 4px;
+	color: #a91123;
+}
+
+.dxcaTextBoxLabel_PlasticBlue
+{
+	padding-bottom: 4px;
+	display: block;
+}
+.dxcaLoadingPanel_PlasticBlue .dxlp-loadingImage
+{
+	margin: 0px;
+}
+.dxcaLoadingPanel_PlasticBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+}
+
+.dxcaLoadingPanel_PlasticBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+
+.dxpcLite_PlasticBlue .dxHFBPS
+{
+    width: 6px;
+}
+
+.dxeTextBox_PlasticBlue,
+.dxeButtonEdit_PlasticBlue,
+.dxeIRadioButton_PlasticBlue,
+.dxeRadioButtonList_PlasticBlue,
+.dxeCheckBoxList_PlasticBlue
+{
+    cursor: default;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxeTrackBar_PlasticBlue, 
+.dxeIRadioButton_PlasticBlue, 
+.dxeButtonEdit_PlasticBlue, 
+.dxeTextBox_PlasticBlue, 
+.dxeRadioButtonList_PlasticBlue, 
+.dxeCheckBoxList_PlasticBlue, 
+.dxeMemo_PlasticBlue, 
+.dxeListBox_PlasticBlue, 
+.dxeCalendar_PlasticBlue, 
+.dxeColorTable_PlasticBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* ASPxCololrEdit */
+.dxcpParametersCellSys .dxcpWebColorInput_PlasticBlue
+{
+	float: right;
+	margin-top: 40px;
+	*margin-top: 35px;
+}
+.dxcpColorParameterMainDiv_PlasticBlue
+{
+	padding: 0px 0 4px 9px;
+	width: 90px;
+	text-align: right;
+}
+.dxeCustomColorButton_PlasticBlue
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+	margin: 3px 7px;
+	cursor: pointer;
+}
+.dxeAutomaticColorItem_PlasticBlue
+{
+	padding: 4px 4px 0px 4px;
+}
+.dxeAutomaticColorItem_PlasticBlue > span
+{
+    margin: 0px 5px;
+    line-height: 20px;
+}
+.dxcpCurrentColor_PlasticBlue, 
+.dxcpSavedColor_PlasticBlue
+{
+	height: 35px;
+}
+.dxcpCurrentAndSaved_PlasticBlue
+{
+	width: 65px;
+	margin: 34px 0px 0px auto;
+	cursor: pointer;
+}
+.dxeColorTablesMainDiv_PlasticBlue,
+.dxeColorSelectorMainDiv_PlasticBlue
+{
+	background-color: #FAFAFA
+}
+.dxeColorSelectorMainDiv_PlasticBlue
+{
+	padding: 7px;
+}
+.dxcpColorArea_PlasticBlue,
+.dxcpHueAreaImage_PlasticBlue,
+.dxcpCurrentAndSaved_PlasticBlue,
+.dxeColorTablesMainDiv_PlasticBlue,
+.dxeColorSelectorMainDiv_PlasticBlue,
+.dxcpParametersCell_PlasticBlue input
+{
+	border: 1px solid #a0a0a0;
+}
+.dxeButtonsPanelDiv_PlasticBlue
+{
+	margin-top: 15px;
+	text-align: right;
+}
+.dxeButtonsPanelDiv_PlasticBlue input
+{
+	min-width: 60px;
+	margin-left: 10px;
+}
+
+/* -- ASPxTokenBox -- */
+input.dxeTokenBoxInput_PlasticBlue[type="text"] {
+	display: inline-block;
+	float: left;
+	width: 30px;
+	outline: none;
+	margin: 1px;
+	padding: 2px 1px 2px 1px;
+}
+.dxeToken_PlasticBlue {
+    border: 1px solid #b8b8b8;
+    display: inline-block;
+	float: left;
+	min-width: 30px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+.dxeTokenText_PlasticBlue, .dxeTokenRemoveButton_PlasticBlue {
+	display: block;
+	float: left;
+}
+.dxeTokenText_PlasticBlue {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 4px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+}
+.dxeTokenRemoveButton_PlasticBlue {
+	cursor: pointer;
+	margin-top: 1px;
+}
+.dxeToken_PlasticBlue {
+	background: #e5e5e5 url('edtTokenBoxTokenBackground.png') repeat-x top;
+}
+.dxFirefox input.dxeTokenBoxInput_PlasticBlue[type="text"] {
+	padding: 1px;
+	margin: 1px;
+}
+.dxFirefox .dxeTokenText_PlasticBlue {
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+/* ASPxPictureEdit */
+.dxpePreviewContainer_PlasticBlue
+{
+    position: relative;
+}
+.dxpeCommandPanel_PlasticBlue
+{
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    height: 32px;
+    position: absolute;
+}
+.dxpeBottomCommandPanel_PlasticBlue
+{
+    width: 100%;
+    bottom: 0;
+}
+
+.dxpeTopCommandPanel_PlasticBlue
+{
+    width: 100%;      
+    top: 0;    
+}
+.dxpeCommandPanelDeleteButton_PlasticBlue, 
+.dxpeCommandPanelOpenDialogButton_PlasticBlue
+{    
+    cursor: pointer;
+    display: inline-block;
+}
+.dxpeCommandPanelButtonsWrapper_PlasticBlue
+{
+    position: absolute;
+}
+.dxpeCommandPanelButtonsWrapperLeft_PlasticBlue
+{
+    left: 0;
+}
+.dxpeCommandPanelButtonsWrapperCenter_PlasticBlue
+{
+    left: 50%;
+    margin-left: -32px;
+}
+.dxpeCommandPanelButtonsWrapperRight_PlasticBlue
+{
+    right: 0;
+}
+.dxpeCommandPanelDeleteButtonHover_PlasticBlue,
+.dxpeCommandPanelDeleteButtonPressed_PlasticBlue,
+.dxpeCommandPanelOpenDialogButtonHover_PlasticBlue,
+.dxpeCommandPanelOpenDialogButtonPressed_PlasticBlue
+{
+}
+.dxpeCommandPanelDeleteButtonDisabled_PlasticBlue,
+.dxpeCommandPanelOpenDialogButtonDisabled_PlasticBlue
+{
+}
+.dxpeDropZone_PlasticBlue
+{
+    background-color: gray;
+}
+.dxpePlaceHolder_PlasticBlue
+{
+    background-color: lightgray;
+    z-index: -1;
+}
+.dxpeTextPanelContainer_PlasticBlue
+{
+    height: 100%;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}
+.dxpeTextPanel_PlasticBlue
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Editor caption */
+.dxeCaptionCell_PlasticBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+.dxeRoot_PlasticBlue
+{
+}
+.dxeCaption_PlasticBlue
+{
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeTextEditCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 5px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeCheckBoxListCTypeSys
+{
+    padding-top: 12px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeRadioButtonListCTypeSys
+{
+    padding-top: 12px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeTrackBarCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeMemoCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeCustomCTypeSys
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 4px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 5px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 5px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 6px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeCheckBoxListCTypeSys
+{
+    padding-top: 13px;
+}
+.dxFirefox .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeRadioButtonListCTypeSys
+{
+    padding-top: 13px;
+}
+.dxWebKitFamily .dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 4px;
+}
+
+/* Safari */
+.dxeCaptionCellSafariSys.dxeCaptionCell_PlasticBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 3px;
+}
+
+.dxeRequiredMark_PlasticBlue {
+    color: green;
+    font-style: normal;
+}
+
+.dxeOptionalMark_PlasticBlue {
+    color: gray;
+    font-style: normal;
+}
+
+/* Out of range warning*/
+.dxeOutOfRWarn_PlasticBlue {
+    font: 12px Tahoma, Geneva, sans-serif;
+    padding: 3px 8px 4px 8px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #A8A8A8;
+}
+.dxeOutOfRWarnRight_PlasticBlue {
+    margin-left: 10px;
+}
+.dxeOutOfRWarnBottom_PlasticBlue {
+    margin-top: 10px;
+}

@@ -1,0 +1,445 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_BlackGlass
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9F9F9F;
+	background-color: White;
+}
+.dxheLoadingPanel_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxheLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+
+.dxheControl_BlackGlass
+{
+    border: Solid 1px black;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_BlackGlass
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #8A8B8B;
+}
+.dxheErrorFrame_BlackGlass
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass .dxheErrorFrame_BlackGlass .dxhe,
+.dxheControl_BlackGlass.dxhe-rtl .dxeMemo_BlackGlass .dxheErrorFrame_BlackGlass .dxhe,
+.dxheErrorFrame_BlackGlass .dxhe {
+    padding: 5px;
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass .dxheErrorFrame_BlackGlass .dxhe td,
+.dxheControl_BlackGlass.dxhe-rtl .dxeMemo_BlackGlass .dxheErrorFrame_BlackGlass .dxhe td,
+.dxheErrorFrame_BlackGlass .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_BlackGlass .dxheErrorFrameCloseButton_BlackGlass {
+   cursor: pointer;
+}
+.dxheViewArea_BlackGlass
+{
+    border: Solid 1px #4E4F51;    
+}
+.dxheContentArea_BlackGlass td.dxheViewArea_BlackGlass {
+    line-height: 0;
+}
+.dxheContentArea_BlackGlass td.dxheViewArea_BlackGlass.dxheHtmlViewArea_BlackGlass
+{
+    line-height: inherit;
+}
+
+.dxheDesignViewArea_BlackGlass,
+.dxhePreviewArea_BlackGlass 
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_BlackGlass .dxheHtmlViewArea_BlackGlass,
+.dxheHtmlViewArea_BlackGlass .CodeMirror,
+body.dxheDesignViewArea_BlackGlass,
+body.dxhePreviewArea_BlackGlass 
+{
+    margin: 0px;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass.dxheHtmlViewArea_BlackGlass .dxeMemoEditArea_BlackGlass,
+body.dxheDesignViewArea_BlackGlass,
+body.dxhePreviewArea_BlackGlass 
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass.dxheHtmlViewArea_BlackGlass td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_BlackGlass.dxhe-rtl .dxheContentArea_BlackGlass .dxeMemo_BlackGlass.dxheHtmlViewArea_BlackGlass td
+{
+    padding: 0 0 0 40px;
+}
+.dxheControl_BlackGlass td.dxheDesignViewArea_BlackGlass .dxm-main.dxmtb 
+{
+    border: 1px solid black;
+}
+.dxheControl_BlackGlass td.dxheDesignViewArea_BlackGlass
+{
+    position: relative;
+}
+td.dxheDesignViewArea_BlackGlass .dxmLite_BlackGlass {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_BlackGlass .dxmLite_BlackGlass.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_BlackGlass img.dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_BlackGlass img.dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_BlackGlass img.dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_BlackGlass img.dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_BlackGlass img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_BlackGlass img.dxheAudio,
+.dxheViewArea_BlackGlass img.dxheFlash,
+.dxheViewArea_BlackGlass img.dxheVideo,
+.dxheViewArea_BlackGlass img.dxheYoutube,
+.dxheViewArea_BlackGlass img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_BlackGlass .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_BlackGlass.dxheDesignViewArea_BlackGlass .dxheSelected
+{
+    background-color: #C0D7DC;
+}
+.dxhe-insertPlaceholder .dxeListBox_BlackGlass.dxeFocused_BlackGlass
+{
+    border: 1px solid #A9A9A9;
+}
+.dxpc-contentWrapper .dxflFormLayout_BlackGlass.dxhe-insertPlaceholder .dxflGroup_BlackGlass .dxflGroupBox_BlackGlass
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_BlackGlass.dxhe-insertPlaceholder .dxflGroup_BlackGlass .dxflGroupBox_BlackGlass .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_BlackGlass .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_BlackGlass,
+.dxhe-insertPlaceholder .dxeListBox_BlackGlass .dxlbd
+{
+    width: 220px;
+    height: 215px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_BlackGlass .CodeMirror-activeline-background 
+{
+    background: #E0EAEC;
+}
+.dxheHtmlViewArea_BlackGlass .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_BlackGlass .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_BlackGlass .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable,
+body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass textarea 
+{
+	resize:none;
+}
+body.dxheDesignViewArea_BlackGlass
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_BlackGlass pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_BlackGlass 
+{
+}
+.dxheControl_BlackGlass .dxheStatusBar_BlackGlass .dxheStatusBarTab_BlackGlass .dxtc-link
+{
+    padding: 4px 13px 5px;
+}
+.dxheStatusBar_BlackGlass .dxheStatusBarActiveTab_BlackGlass 
+{
+    background-color: White;
+}
+.dxHtmlEditor_heSizeGrip_BlackGlass 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_BlackGlass 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_BlackGlass 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -12px;
+}
+.dxheControl_BlackGlass.dxhe-rtl .dxheSizeGripContainer_BlackGlass 
+{
+    text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_BlackGlass .dxheDlgFooter,
+.dxpcLite_BlackGlass .dxheCustomDialog_BlackGlass .dxhecd-Buttons
+{
+	background-color: #C9D6DE;
+	border-top-style: none;
+	
+	background-image: url('dfFooterBack.gif');
+    background-repeat:repeat-x;
+    background-position:top;	
+
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_BlackGlass.dxRtl .dxheDlgFooter,
+.dxpcLite_BlackGlass.dxRtl .dxheCustomDialog_BlackGlass .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_BlackGlass .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_BlackGlass.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_BlackGlass .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px white;
+}
+.dxpcLite_BlackGlass .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #9F9F9F;
+}
+.dxhe-dialog .dxflGroupBoxCaption_BlackGlass
+{
+	background-color: #E8EDF1;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_BlackGlass
+{
+	height: 1px;
+}
+.dxtbControl_BlackGlass 
+{
+	color: black;
+	background-color: black;
+    border-bottom: Solid 1px black;
+}
+.dxtbControl_BlackGlass td.dxmtb.dxmMenu_BlackGlass
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_BlackGlass
+{
+    padding: 3px 4px 3px 4px;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass
+{
+    background-color: #8A8B8B;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-leftIndent
+{
+    width: 3px;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxr-minBtn
+{
+    padding-right: 8px;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link
+{
+    color: #000000;
+}
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab .dxtc-link
+{
+    color: #FFFFFF;
+}
+.dxheControl_BlackGlass .dxtbControl_BlackGlass.dxtbr_BlackGlass,
+.dxheControl_BlackGlass .dxrControl_BlackGlass .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_BlackGlass .dxhetipControl_BlackGlass img
+{
+	vertical-align: top;
+}
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_BlackGlass { }
+.dxtcbColorDiv_BlackGlass
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_BlackGlass .dxrpcontent
+{
+    padding: 16px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_BlackGlass .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_BlackGlass.dxhe-mediaDialog 
+{
+    width: 720px;
+}
+.dxflFormLayout_BlackGlass.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_BlackGlass.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_BlackGlass.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_BlackGlass.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BlackGlass.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_BlackGlass.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BlackGlass.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_BlackGlass .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_BlackGlass.dxeFocused_BlackGlass
+{
+    border-color: #A0A0A0;
+}
+
+div.dxhe-searchQuick div.dxbButton_BlackGlass,
+div.dxhe-searchQuick div.dxbButton_BlackGlass .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+.dxpcLite_BlackGlass.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_BlackGlass .dxb
+{
+    padding: 1px 8px 2px;
+}

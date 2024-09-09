@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = " - Persetujuan Cuti Tahunan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "ManageCuti", "Manager", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("ManagerMenu", "Manager", mobilearea)">Manager Home</a> > <a href="@Url.Action("ManageCuti", "Manager", mobilearea)">Manajemen Cuti</a> > Persetujuan Cuti Tahunan</li>
+        <li data-role="list-divider">Persetujuan Cuti Tahunan</li>
+        <li data-role="footer">@Html.ActionLink("Persetujuan Cuti Khusus", "ApprovalKhusus", "Manager", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+
+    Html.RenderAction("ApprovalTahunanPartial", "Manager", mobilearea);
+}

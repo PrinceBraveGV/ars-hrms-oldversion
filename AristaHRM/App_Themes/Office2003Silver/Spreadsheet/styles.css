@@ -1,0 +1,185 @@
+.dxssControl_Office2003Silver 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7C7C94;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_Office2003Silver .dxrControl_Office2003Silver .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_Office2003Silver .dxss-gl .dxss-v,
+.dxssControl_Office2003Silver .dxss-gl .dxss-h 
+{
+	border-color: #c8c8d9;
+}
+.dxssControl_Office2003Silver .dxss-rowHeader 
+{	
+	border-right: 1px solid #c8c8d9;
+	border-top: 1px solid #c8c8d9;
+}
+.dxssControl_Office2003Silver .dxss-colHeader 
+{
+	border-bottom: 1px solid #c8c8d9;
+	border-left: 1px solid #c8c8d9;
+}
+ .dxssControl_Office2003Silver .dxss-crse 
+ {
+	background-color: #fe9552; 
+}
+ .dxssControl_Office2003Silver .dxss-trbe 
+ {
+	border-top-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxss-rrbe 
+{
+	border-right-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxss-brbe 
+{
+	border-bottom-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxss-lrbe 
+{
+	border-left-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxss-smbe
+{
+    border-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxrControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_Office2003Silver .dxtcLite_Office2003Silver
+{
+	padding-bottom: 6px;
+}
+.dxssControl_Office2003Silver .dxrControl_Office2003Silver .dxtcLite_Office2003Silver
+{
+	padding-bottom: 0px;
+}
+.dxssControl_Office2003Silver .dxtcLite_Office2003Silver,
+.dxssControl_Office2003Silver .dxrControl_Office2003Silver .dxtcLite_Office2003Silver
+{
+	background-color: #E3E3EC;
+}
+.dxssControl_Office2003Silver .dxss-hrg,
+.dxssControl_Office2003Silver .dxss-vrg 
+{
+	background-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxtcLite_Office2003Silver.dxtc-bottom .dxtc-strip .dxtc-activeTab 
+{
+	background-color: White;
+}
+.dxssControl_Office2003Silver .dxrControl_Office2003Silver .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_Office2003Silver .dxss-tse
+{
+	border-color: #fe9552;
+}
+.dxssControl_Office2003Silver .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_Office2003Silver .dxss-ddp,
+.dxssControl_Office2003Silver .dxss-ddb
+{
+    border: 1px solid #7c7c94;
+}
+.dxssControl_Office2003Silver .dxss-ddp tr:hover
+{
+    background-color: #dfdfdf;
+}
+/* Loading panel */
+.dxssLoadingDiv_Office2003Silver
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_Office2003Silver
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #7C7C94;
+	border: 1px solid #9C9AB7;
+	background-color: White;
+}
+.dxssLoadingPanel_Office2003Silver td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxssLoadingPanel_Office2003Silver .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_Office2003Silver .dxssDlgFooter
+{
+	background-color: #D4D4E2;
+	border-top: 1px #BBBBD1 solid;
+}
+.dxpcLite_Office2003Silver .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_Office2003Silver .dxrpControl_Office2003Silver .dxrpcontent
+{
+	padding: 16px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_Office2003Silver
+{
+	border: 1px solid #000080;
+	background: #fff2c8 url('../Editors/edtButtonBackHover.gif') repeat-x center bottom;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_Office2003Silver
+{
+	border: 1px solid #000080;
+	background: #ffcf8b url('../Editors/edtButtonBackPressed.gif') repeat-x center top;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_Office2003Silver
+{
+	border: 1px solid #000080;
+	background: #ffcf8b url('../Editors/edtButtonBackPressed.gif') repeat-x center top;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_Office2003Silver .dxss-ctve {
+	border: 2px solid #fe9552; /*the same -dxss-cfe */
+}
+.dxssControl_Office2003Silver .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #7c7c94;
+}
+.dxssControl_Office2003Silver .dxmLite_Office2003Silver .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_Office2003Silver .dxss-fbMenu .dxm-content {
+    padding-top: 1px!important;
+}
+.dxssControl_Office2003Silver .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border: 1px solid #7C7C94;
+    background-color: #E6E6F0;
+}
+.dxssControl_Office2003Silver .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

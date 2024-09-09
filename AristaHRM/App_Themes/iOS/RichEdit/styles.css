@@ -1,0 +1,314 @@
+.dxreControl_iOS
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999FA5;
+    border-radius: 4px;
+	font: 18px 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+}
+.dxreControl_iOS .dxre-rulerWrapper {
+	padding-top: 2px;
+    background-color: #FFFFFF;
+}
+.dxreControl_iOS .dxre-ruler .dxre-columnHandleLeftPart,
+.dxreControl_iOS .dxre-ruler .dxre-columnHandleRightPart {
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions div,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_iOS .dxre-ruler .dxre-columnHandle,
+.dxreControl_iOS .dxre-ruler .dxre-columnHandle > div {
+	height: 12px;
+}
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_iOS .dxre-rulerWrapper .dxre-rulertabAlignBox > div {
+    background-color: #fff;
+}
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_iOS .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_iOS .dxre-ruler .dxre-columnHandle,
+.dxreControl_iOS .dxre-rulerWrapper .dxre-rulertabAlignBox {
+    background-color: #d3d3d3;
+}
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions .dxre-rulerMajorDivision {
+	border-left: 1px solid #a3a3a3;
+}
+.dxreControl_iOS .dxre-ruler .dxre-rulerDivisions .dxre-rulerNumberDivision {
+	color: #4e4e4e;
+}
+.dxreControl_iOS .dxre-rulerLine {
+	border-left: 1px dashed #717171;
+}
+.dxreControl_iOS .dxre-leftIdentDragHandleBody {
+    background-color: white;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_iOS .dxrControl_iOS .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxreControl_iOS .dxrControl_iOS .dxtcLite_iOS
+{
+	background-color: #FFF;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.dxreControl_iOS .dxrControl_iOS .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxreControl_iOS .dxrControl_iOS .dxtcLite_iOS.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxreControl_iOS .dxre-page 
+{
+    border: 1px solid #808080;
+}
+.dxreControl_iOS .dxre-view 
+{
+	background: #FFFFFF;
+}
+.dxreControl_iOS .dxre-bar 
+{
+	background-color: #E2E5EA;
+	border-top: 1px solid #999FA5;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 35px;
+}
+.dxreControl_iOS .dxre-bar .dxre-loadingPanel {
+    float: right;
+    color: #7c7c7c;
+    margin: 6px 6px 0 0;
+}
+.dxreControl_iOS .dxre-bar .dxre-loadingPanel .dx {
+    line-height: 0;
+}
+.dxreControl_iOS .dxre-bar .dxre-loadingPanel .dxlp-loadingImage {
+    width: 24px;
+    height: 24px;
+    background: url('../Web/Loading.gif');
+}
+
+/*Dialogs Style*/
+.dxreControl_iOS .dxreDlgParagraphForm .dxtc-content {
+    width: 600px;
+    height: 490px;
+}
+.dxreControl_iOS .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    text-align: left;
+}
+.dxreControl_iOS .dxreDlgPageSetupForm .dxtc-content {
+    width: 500px;
+    height: 350px;
+}
+.dxreControl_iOS .dxreDlgTablePropertiesForm .dxtc-content {
+    width: 620px;
+    height: 690px;
+}
+.dxreControl_iOS .dxreDlgTablePropertiesForm .dxre-dialogCellBlock {
+    width: 130px;
+    height: 30px;
+    background-color: #E0E0E0;
+    border: dashed 1px #818181;
+}
+.dxreControl_iOS .dxreDlgTablePropertiesForm .dxre-dialogCellMargins td.dxre-dialogLGC {
+    padding-left: 10px;
+}
+.dxreControl_iOS .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation {
+    width: auto;
+}
+.dxreControl_iOS .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation td.dxre-dialogLGC {
+    padding: 0px;
+}
+.dxreControl_iOS .dxreTableBorderPreview {
+    position: absolute;
+    width: 130px;
+    left: 450px;
+    top: 85px;
+}
+.dxreControl_iOS .dxreDlgBorderShadingForm .dxtc-content {
+    width: 620px;
+    height: 290px;
+}
+.dxreControl_iOS .dxreDlgBorderShadingForm .dxtc-content .dxflGroup_iOS {
+    width: auto;
+}
+.dxreControl_iOS .dxreBorderButton {
+    visibility: hidden;
+}
+.dxreControl_iOS .dxreBorderButton div.dxb {
+    padding: 0px !important;
+}
+.dxreControl_iOS .dxreDlgColumnsForm {
+    width: 500px;
+}
+.dxreControl_iOS .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td {
+    padding: 2px 4px;
+}
+.dxreControl_iOS .dxreDlgColumnsForm .dxreDlgColumnsEditor {
+    height: 160px;
+}
+.dxreControl_iOS .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox {
+    width: 40px;
+}
+.dxreControl_iOS .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit {
+    width: 150px;
+}
+.dxreControl_iOS .dxreDlgErrorForm {
+    width: 400px;
+}
+.dxreControl_iOS .dxreDlgSaveFileForm {
+    width: 500px;
+}
+.dxreControl_iOS .dxreDlgInsertMergeFieldForm {
+    width: 400px;
+}
+.dxreControl_iOS .dxreDlgInsertMergeFieldForm .dxeListBox_iOS {
+    height: 250px;
+}
+.dxreControl_iOS .dxreDlgBookmarksForm {
+    width: 400px;
+}
+.dxreControl_iOS .dxreDlgOpenFileForm {
+    width: 800px;
+    height: 500px;
+}
+.dxreControl_iOS .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_iOS .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_iOS {
+    padding: 0px !important;
+}
+.dxreControl_iOS .dxre-dialogShortEditor {
+    width: 130px;
+}
+.dxreControl_iOS .dxre-dialogEditor {
+    width: 150px;
+}
+.dxreControl_iOS .dxre-dialogLongEditor {
+    width: 170px;
+}
+.dxreControl_iOS .dxre-EmptyLine {
+    height: 10px;
+}
+.dxreControl_iOS .dxre-Separator {
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_iOS .dxreDlgFooterBtn {
+    width: 80px;
+    margin-left: 8px;
+}
+.dxreControl_iOS table.dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup {
+    padding: 11px;
+}
+.dxreControl_iOS .dxre-dialogFooter {
+    width: auto;
+	padding: 16px;
+    background-color: #E2E5EA;
+    border-top: Solid 1px #999FA5;
+}
+.dxreControl_iOS .dxreDlgInsertImageForm .dxreDlgImagePreview {
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #878787;
+    border: dashed 1px #cac8c8;
+    text-align:center;
+}
+.dxreControl_iOS .dxreDlgInsertImageForm .dxreDlgInsertImagePanel {
+    width: 350px;
+}
+.dxreControl_iOS .dxreDlgNumberingListForm .dxreDlgMainContainer {
+    width: 520px;
+    height: 220px;
+}
+.dxreControl_iOS .dxreDlgHyperlinkForm {
+    width: 420px;
+}
+.dxreControl_iOS .dxreDlgTabsForm {
+    width: 380px;
+}
+.dxreControl_iOS .dxreDlgTabsForm .dxreDlgTabsList {
+    height: 100px;
+}
+.dxreControl_iOS .dxre-dialog .dxrpControl_iOS.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent {
+    padding: 20px;
+}
+.dxreControl_iOS .dxre-dialog .dxrpControlGB_iOS > tbody > tr.dxrpCR > .dxrpcontent {
+    padding: 10px 10px 10px 10px;
+}
+.dxreControl_iOS .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_iOS .dxreMultiLevelNumberingListBoxLayout .dxlbd {
+    width: 50px;
+    height: 100% !important;
+}
+.dxreControl_iOS .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup td.dxre-dialogLGC:first-child {
+    padding-left: 8px;
+}
+.dxreControl_iOS .dxreDlgMultiLevelNumberingListForm .dxflFullHeightItemCellSys {
+    padding-left: 0px !important;
+}
+.dxreControl_iOS .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn {
+    width: 45px;
+    margin: 8px 0px 12px 5px;
+}
+.dxreControl_iOS .dxreDlgNumberingListForm .dxreDlgNumberingListPreview {
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_iOS .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_iOS {
+    padding: 0px 0px 0px 30px;
+}
+.dxreControl_iOS .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_iOS {
+    padding: 0px;
+}
+.dxreControl_iOS .dxreDlgListBox {
+    padding: 1px;
+}
+.dxreControl_iOS .dxreDlgSymbolsForm .dxreDlgSymbolsList {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #AFB1B6;
+}
+.dxreControl_iOS .dxreDlgListBox > div {
+    border: 1px solid #AFB1B6;
+    margin: 2px;
+}
+.dxreControl_iOS .dxreDlgSymbolsForm .dxreDlgListBox > div {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: large;
+}
+.dxreControl_iOS .dxreDlgNumberingListForm .dxreDlgListBox > div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_iOS .dxreDlgListBox .dxreDlgListHover {
+    background-color: #E2E5EA;
+}
+.dxreControl_iOS .dxreDlgListBox .dxreDlgListSelected {
+    background-color: #015EE6;
+    color: #FFF;
+}
+.dxreControl_iOS .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflItemSys {
+    padding-left: 5px;
+}
+.dxreControl_iOS .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflTextItemSys {
+    padding-left: 0px;
+}

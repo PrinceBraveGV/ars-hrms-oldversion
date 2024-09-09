@@ -1,0 +1,64 @@
+.dxwscCheckedTextContainer_Youthful
+{
+	background-color: white;
+	border: solid 1px #afc185;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;
+	height: 110px;
+	padding: 5px;
+
+}
+.dxwscErrorWord_Youthful
+{
+	color: #ce0808;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_Youthful
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9BC424;
+	background-color: White;
+}
+.dxwscLoadingPanel_Youthful td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxwscLoadingPanel_Youthful .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 7px;
+	width: 72px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_Youthful .dxwscDlgFooter
+{
+	background-color: #9CC525;
+	border-top: solid 1px white;
+
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Youthful .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_Youthful .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Youthful .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_Youthful .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+

@@ -1,0 +1,207 @@
+.dxssControl_Office2010Blue 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #859ebf;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxssControl_Office2010Blue .dxrControl_Office2010Blue .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_Office2010Blue .dxss-gl .dxss-v,
+.dxssControl_Office2010Blue .dxss-gl .dxss-h 
+{
+	border-color: #cfddee;
+}
+.dxssControl_Office2010Blue .dxss-rowHeader 
+{	
+	border-right: 1px solid #cfddee;
+	border-top: 1px solid #cfddee;
+}
+.dxssControl_Office2010Blue .dxss-colHeader 
+{
+	border-bottom: 1px solid #cfddee;
+	border-left: 1px solid #cfddee;
+}
+.dxssControl_Office2010Blue .dxss-crse 
+{
+	background-color: #FCCD41; 
+}
+ .dxssControl_Office2010Blue .dxss-trbe 
+ {
+	border-top-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxss-rrbe 
+{
+	border-right-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxss-brbe 
+{
+	border-bottom-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxss-lrbe 
+{
+	border-left-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxss-smbe
+{
+    border-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxrControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue,
+.dxssControl_Office2010Blue .dxrControl_Office2010Blue .dxtcLite_Office2010Blue
+{
+	background-color: #cfddee;
+}
+.dxssControl_Office2010Blue .dxss-hrg,
+.dxssControl_Office2010Blue .dxss-vrg 
+{
+	background-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-bottom .dxtc-stripContainer
+{
+	padding: 0! important;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue .dxtc-stripContainer .dxtc-leftIndent
+{
+	width: 0;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-bottom .dxtc-stripContainer .dxtc-tab,
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-bottom .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom-width: 0 !important;
+    border-left-width: 0 !important;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-bottom .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 35px 5px 34px;
+}
+.dxssControl_Office2010Blue .dxtcLite_Office2010Blue.dxtc-bottom .dxtc-stripContainer .dxtc-spacer 
+{
+	width: 0px;
+}
+.dxssControl_Office2010Blue .dxrControl_Office2010Blue .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_Office2010Blue .dxss-tse
+{
+	border-color: #c27f31;
+}
+.dxssControl_Office2010Blue .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_Office2010Blue .dxss-ddp,
+.dxssControl_Office2010Blue .dxss-ddb
+{
+    border: 1px solid #8ba0bc;
+}
+.dxssControl_Office2010Blue .dxss-ddp tr:hover
+{
+    background-color: #d5e8ff;
+}
+/* Loading panel */
+.dxssLoadingDiv_Office2010Blue
+{
+    background: White;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_Office2010Blue
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #1e395b;
+	background: White none;
+	border: 1px solid #859ebf;
+}
+.dxssLoadingPanel_Office2010Blue td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxssLoadingPanel_Office2010Blue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 16px;
+	width: 16px;
+}
+/* --------------Dialogs----------------- */
+
+.dxpcLite_Office2010Blue .dxssDlgFooter
+{
+	background-color: #cfddee;
+	border-top: 1px #aec0d5 solid;
+}
+
+.dxpcLite_Office2010Blue .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_Office2010Blue .dxrpControl_Office2010Blue .dxrpcontent
+{
+	padding: 9px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_Office2010Blue
+{
+	color: #1e395b;
+	background: #fcf8e5 url('../Editors/edtBtnHBack.png') repeat-x left top;
+	border: 1px solid #eecc53;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_Office2010Blue
+{
+	color: #1e395b;
+	background: #fee287 url('../Editors/edtBtnPBack.png') repeat-x left top;
+	border: 1px solid #c2762b;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_Office2010Blue
+{
+	color: #1e395b;
+	background: #fee287 url('../Editors/edtBtnPBack.png') repeat-x left top;
+	border: 1px solid #c2762b;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_Office2010Blue .dxss-ctve {
+	border: 2px solid #c27f31; /*the same -dxss-cfe */
+}
+.dxssControl_Office2010Blue .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #859ebf;
+}
+.dxssControl_Office2010Blue .dxmLite_Office2010Blue .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_Office2010Blue .dxss-fbMenu .dxm-content {
+    padding-top: 2px!important;
+}
+.dxssControl_Office2010Blue .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #8BA0BC;
+    background-color: #E1EDFA;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E1EDFA', endColorstr='#D1E0EE');
+	background: -webkit-gradient(linear, left top, left bottom, from(#E1EDFA), to(#D1E0EE));
+	background: -moz-linear-gradient(top,  #E1EDFA,  #D1E0EE);
+}
+.dxssControl_Office2010Blue .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,232 @@
+.dxHtmlEditor_heConstrainProportionsBottom_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsTop_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsTopRtl_Office2003Blue,
+.dxHtmlEditor_heEnumIcon_Office2003Blue,
+.dxHtmlEditor_heErrorFrameCloseButton_Office2003Blue,
+.dxHtmlEditor_heEventIcon_Office2003Blue,
+.dxHtmlEditor_heFieldIcon_Office2003Blue,
+.dxHtmlEditor_heReset_Office2003Blue,
+.dxHtmlEditor_heSizeGrip_Office2003Blue,
+.dxHtmlEditor_heSizeGripRtl_Office2003Blue,
+.dxHtmlEditor_heTagInspectorChangeButton_Office2003Blue,
+.dxHtmlEditor_heTagInspectorRemoveButton_Office2003Blue,
+.dxHtmlEditor_heTagInspectorSeparator_Office2003Blue,
+.dxHtmlEditor_heToolbarPopOut_Office2003Blue,
+.dxHtmlEditor_heXmlItemIcon_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_Office2003Blue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_Office2003Blue
+{
+    background-position: -109px -31px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_Office2003Blue
+{
+    background-position: -80px -38px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office2003Blue
+{
+    background-position: -61px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_Office2003Blue
+{
+    background-position: -85px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office2003Blue
+{
+    background-position: -73px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_Office2003Blue
+{
+    background-position: -97px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_Office2003Blue
+{
+    background-position: -92px -38px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_Office2003Blue
+{
+    background-position: -104px -38px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_Office2003Blue
+{
+    background-position: -85px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_Office2003Blue
+{
+    background-position: -102px -21px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_Office2003Blue
+{
+    background-position: -68px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_Office2003Blue
+{
+    background-position: -51px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_Office2003Blue
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_Office2003Blue
+{
+    background-position: -34px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heSizeGripRtl_Office2003Blue
+{
+    background-position: -17px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_Office2003Blue
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_Office2003Blue
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_Office2003Blue
+{
+    background-position: -116px -21px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_Office2003Blue
+{
+    background-position: -103px -34px;
+    width: 5px;
+    height: 3px;
+}
+.dxHtmlEditor_heXmlItemIcon_Office2003Blue
+{
+    background-position: 0px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_Office2003Blue
+{
+    background-position: -20px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_Office2003Blue
+{
+    background-position: 0px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_Office2003Blue
+{
+    background-position: -60px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_Office2003Blue
+{
+    background-position: -50px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_Office2003Blue
+{
+    background-position: -111px -11px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_Office2003Blue
+{
+    background-position: -109px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_Office2003Blue
+{
+    background-position: -70px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_Office2003Blue
+{
+    background-position: -10px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_Office2003Blue
+{
+    background-position: -40px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_Office2003Blue
+{
+    background-position: -30px -38px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsBottom_Office2003Blue,
+.dxHtmlEditor_heConstrainProportionsTop_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_Office2003Blue,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_Office2003Blue
+{
+	display:block;
+}

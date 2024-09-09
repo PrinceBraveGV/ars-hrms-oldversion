@@ -1,0 +1,2035 @@
+/* -- ValidationSummary -- */
+.dxvsValidationSummary_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Red;
+}
+.dxvsValidationSummary_RedWine td.dxvsRC_RedWine
+{
+	vertical-align: top;
+	padding: 2px 5px 4px 6px;
+}
+.dxvsValidationSummary_RedWine .dxvsE_RedWine
+{
+}
+.dxvsValidationSummary_RedWine table.dxvsHT_RedWine
+{
+	width: 100%;
+}
+.dxvsValidationSummary_RedWine td.dxvsH_RedWine
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_RedWine a.dxvsHL_RedWine,
+.dxvsValidationSummary_RedWine a.dxvsHL_RedWine:visited
+{
+	color: red;
+}
+.dxvsValidationSummary_RedWine a.dxvsHL_RedWine
+{
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+.dxvsValidationSummary_RedWine a.dxvsHL_RedWine:hover
+{
+	color: #f70;
+}
+.dxvsValidationSummary_RedWine table.dxvsT_RedWine
+{
+}
+.dxvsValidationSummary_RedWine tr.dxvsE_RedWine
+{
+}
+.dxvsValidationSummary_RedWine td.dxvsETC_RedWine
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_RedWine ul.dxvsL_RedWine
+{
+}
+.dxvsValidationSummary_RedWine ol.dxvsL_RedWine
+{
+}
+.dxvsValidationSummary_RedWine li.dxvsE_RedWine
+{
+	padding: 2px 0;
+}
+
+/* TrackBar */
+.dxeTrackBar_RedWine
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	visibility:hidden;
+}
+
+.dxeDisabled_RedWine .dxeTBHSys a,
+.dxeDisabled_RedWine .dxeTBVSys a
+{
+    cursor: default;
+}
+
+.dxeTBBarHighlight_RedWine
+{
+	font-size: 0;
+}
+
+.dxeTBScale_RedWine,
+.dxeTBTrack_RedWine,
+.dxeTBBarHighlight_RedWine
+{
+	cursor: pointer;
+}
+
+.dxeTBScale_RedWine
+{
+    font-size: 0.91em;
+	z-index: 1;
+}
+.dxeTBSecondaryDH_RedWine,
+.dxeTBMainDH_RedWine
+{
+	z-index: 4;
+}
+
+.dxeTrackBar_RedWine.dxeTBHSys
+{
+	width: 170px;
+	height: 45px;
+}
+.dxeTrackBar_RedWine.dxeTBVSys
+{
+	height: 170px;
+	width: 45px;
+}
+.dxeTrackBar_RedWine.dxeTBBScaleSys.dxeTBVSys
+{
+	width: 66px;
+}
+.dxeTrackBar_RedWine.dxeTBBScaleSys.dxeTBHSys
+{	
+	height: 66px;
+}
+
+.dxeTBTrack_RedWine
+{
+	z-index: 2;
+	position: absolute;
+}
+
+.dxeTBTrack_RedWine, .dxeTBBarHighlight_RedWine
+{
+	border-style: solid;
+	border-color: #8A0A37;
+}
+.dxeTBHSys .dxeTBTrack_RedWine, .dxeTBHSys .dxeTBBarHighlight_RedWine 
+{
+	border-width: 0px 1px 0px 1px;
+}
+.dxeTBVSys .dxeTBTrack_RedWine, .dxeTBVSys .dxeTBBarHighlight_RedWine
+{
+	border-width: 1px 0px 1px 0px;
+}
+
+.dxeTBHSys .dxeTBTrack_RedWine, .dxeTBHSys .dxeTBBarHighlight_RedWine 
+{
+	border-width: 0px 1px 0px 1px;
+}
+.dxeTBVSys .dxeTBTrack_RedWine, .dxeTBVSys .dxeTBBarHighlight_RedWine 
+{
+	border-width: 1px 0px 1px 0px;
+}
+
+.dxeTBHSys .dxeTBTrack_RedWine
+{
+	background-image:  url('edtTrackBarTrackH.gif');
+}
+.dxeTBVSys .dxeTBTrack_RedWine
+{
+	background-image:  url('edtTrackBarTrackV.gif');
+}
+
+.dxeTBHSys .dxeTBTrack_RedWine, 
+.dxeTBHSys .dxeTBBarHighlight_RedWine
+{
+	height: 5px;
+}
+.dxeTBVSys .dxeTBTrack_RedWine, 
+.dxeTBVSys .dxeTBBarHighlight_RedWine
+{
+	width: 5px;
+}
+
+.dxeTBHSys .dxeTBMainDH_RedWine,
+.dxeTBHSys .dxeTBSecondaryDH_RedWine
+{	
+	top: -10px;
+	width: 13px;
+	height: 25px;
+}
+.dxeTBVSys .dxeTBMainDH_RedWine,
+.dxeTBVSys .dxeTBSecondaryDH_RedWine
+{
+	left: -10px;
+	width: 25px;
+	height: 13px;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBTrack_RedWine,
+.dxeTBVSys .dxeTBTrack_RedWine
+{
+	left: 11px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBTrack_RedWine
+{
+	right: 11px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBTrack_RedWine
+{
+	bottom: 11px;
+	top: auto;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBTrack_RedWine,
+.dxeTBHSys .dxeTBTrack_RedWine
+{
+	top: 11px;
+}
+
+.dxeTBBarHighlight_RedWine
+{
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	z-index: 3;
+}
+
+.dxeTBHSys .dxeTBBarHighlight_RedWine
+{
+	background-image:  url('edtTrackBarBarHighlightH.gif');
+}
+.dxeTBVSys .dxeTBBarHighlight_RedWine
+{
+	background-image:  url('edtTrackBarBarHighlightV.gif');
+}
+
+.dxeTBRBLabel_RedWine,
+.dxeTBLTLabel_RedWine
+{
+	text-align: center;
+	cursor: default;
+}
+.dxeTBSmallTickSys .dxeTBRBLabel_RedWine,
+.dxeTBSmallTickSys .dxeTBLTLabel_RedWine,
+.dxeTBLargeTickSys .dxeTBRBLabel_RedWine,
+.dxeTBLargeTickSys .dxeTBLTLabel_RedWine
+{	
+	position: absolute;
+}
+
+.dxeTBHSys .dxeTBRBLabel_RedWine,
+.dxeTBHSys .dxeTBLTLabel_RedWine
+{
+	width: 100%;
+}
+
+.dxeTBIncBtn_RedWine,
+.dxeTBDecBtn_RedWine
+{
+}
+
+.dxeTBVSys .dxeTBRBLabel_RedWine,
+.dxeTBVSys .dxeTBLTLabel_RedWine
+{
+	padding-top: 2px;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_RedWine
+{
+	margin-left: -4px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBRBLabel_RedWine,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLTLabel_RedWine
+{
+	right: 0px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBLTLabel_RedWine,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBRBLabel_RedWine
+{
+	left: 0px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBRBLabel_RedWine,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLTLabel_RedWine
+{
+	bottom: 0px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBLTLabel_RedWine,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_RedWine
+{
+	top: 0px;
+}
+
+.dxeTBHSys .dxeTBItem_RedWine .dxeTBRBLabel_RedWine,
+.dxeTBHSys .dxeTBItem_RedWine .dxeTBLTLabel_RedWine
+{
+	display: inline-block;
+	margin-left: 0px!important;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBItem_RedWine .dxeTBRBLabel_RedWine
+{
+	padding-top: 12px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBItem_RedWine .dxeTBLTLabel_RedWine
+{
+	margin-top: 8px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_RedWine .dxeTBRBLabel_RedWine 
+{
+	margin-left: 5px;
+}
+
+.dxeTBSelectedItem_RedWine .dxeTBRBLabel_RedWine,
+.dxeTBSelectedItem_RedWine .dxeTBLTLabel_RedWine,
+.dxeTBSelectedTick_RedWine .dxeTBRBLabel_RedWine,
+.dxeTBSelectedTick_RedWine .dxeTBLTLabel_RedWine
+{
+	color: #9E4994;
+}
+.dxeDisabled_RedWine .dxeTBSelectedItem_RedWine .dxeTBRBLabel_RedWine,
+.dxeDisabled_RedWine .dxeTBSelectedItem_RedWine .dxeTBLTLabel_RedWine,
+.dxeDisabled_RedWine .dxeTBSelectedTick_RedWine .dxeTBRBLabel_RedWine,
+.dxeDisabled_RedWine .dxeTBSelectedTick_RedWine .dxeTBLTLabel_RedWine 
+{
+	color: #DCD7D9;
+}
+
+.dxeTBRBLabel_RedWine,
+.dxeTBLTLabel_RedWine,
+.dxeTBItem_RedWine
+{
+	color: #D7B4D3;
+}
+
+.dxeDisabled_RedWine .dxeTBRBLabel_RedWine,
+.dxeDisabled_RedWine .dxeTBLTLabel_RedWine,
+.dxeDisabled_RedWine .dxeTBItem_RedWine
+{
+	color: #DCD7D9;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBItem_RedWine
+{
+	text-align: left;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_RedWine
+{
+	text-align: right;
+}
+
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_RedWine
+{
+	text-align: center;
+}
+
+.dxeTBHSys .dxeTBItem_RedWine
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBItem_RedWine
+{
+	background-image:  url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBItem_RedWine 
+{
+	background-image:  url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_RedWine
+{
+	background-image:  url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBHSys .dxeTBLargeTick_RedWine
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBLargeTick_RedWine
+{
+	background-image: url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBSmallTick_RedWine
+{
+	background-image: url('edtTrackBarSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBSmallTick_RedWine
+{
+	background-image: url('edtTrackBarSmallTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLargeTick_RedWine
+{
+	background-image: url('edtTrackBarDoubleLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLargeTick_RedWine
+{
+	background-image: url('edtTrackBarDoubleLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBSmallTick_RedWine
+{
+	background-image: url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBSmallTick_RedWine
+{
+	background-image: url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBVSys .dxeTBIncBtn_RedWine,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBDecBtn_RedWine
+{
+	bottom: 0px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBDecBtn_RedWine,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBIncBtn_RedWine
+{
+	top: 0px;
+	bottom: auto;
+}
+.dxeTBHSys .dxeTBDecBtn_RedWine, 
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBIncBtn_RedWine
+{
+	left: 0px;
+	right: auto;
+}
+.dxeTBHSys .dxeTBIncBtn_RedWine,
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBDecBtn_RedWine
+{
+	right: 0px;
+	left: auto;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBIncBtn_RedWine
+{
+	margin-left: -10px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBIncBtn_RedWine
+{
+	margin-top: -10px;
+	top: 50%;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBTrack_RedWine
+{ 
+	margin-left: -2px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBTrack_RedWine
+{ 
+	margin-top: -2px;
+	top: 50%;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBIncBtn_RedWine
+{
+	right: 3px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBIncBtn_RedWine
+{
+	bottom: 3px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBIncBtn_RedWine,
+.dxeTBVSys .dxeTBDecBtn_RedWine,
+.dxeTBVSys .dxeTBIncBtn_RedWine
+{
+	left: 3px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBDecBtn_RedWine,
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBIncBtn_RedWine,
+.dxeTBHSys .dxeTBDecBtn_RedWine,
+.dxeTBHSys .dxeTBIncBtn_RedWine
+{
+	top: 3px;
+}
+
+.dxeHelpText_RedWine,
+.dxeTBValueToolTip_RedWine
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+div.dxeHelpText_RedWine,
+.dxeTBValueToolTip_RedWine
+{
+	padding: 3px 8px 4px 8px;
+    display: inline;
+    position:absolute;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #6A0623;
+    color: White;
+    background: #BD3464;
+}
+td.dxeHelpText_RedWine {
+    visibility: visible;
+    color: #9F9F9F;
+}
+td.dxeHelpText_RedWine label {
+    font-size: 0.91em;
+}
+td.dxeHelpText_RedWine.dxeHHelpTextSys {
+    padding: 0 6px;
+}
+td.dxeHelpText_RedWine.dxeVHelpTextSys {
+    padding: 2px 0;
+}
+
+/* InternalCheckBox */
+.dxeIRBFocused_RedWine
+{
+    outline: 1px dotted #d86f96;
+}
+.dxeIRadioButton_RedWine
+{
+}
+.dxlpLoadingPanel_RedWine,
+.dxlpLoadingPanelWithContent_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxlpLoadingPanel_RedWine td.dx,
+.dxlpLoadingPanelWithContent_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxcaLoadingPanel_RedWine .dxlp-loadingImage,
+.dxlpLoadingPanel_RedWine .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_RedWine .dxlp-loadingImage,
+.dxeImage_RedWine.dxe-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingDiv_RedWine
+{
+	opacity: 1!important;
+	filter: alpha(opacity=100)!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_RedWine
+{
+    background-color: transparent!important;
+    font-size: 0!important;
+    border: none!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_RedWine td.dx
+{
+	padding: 0px!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_RedWine td.dx > span
+{
+	display: none;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_RedWine td.dx > img
+{
+	height: 15px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0px!important;
+}
+
+.dxeBase_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+/* -- ErrorFrame -- */
+.dxeErrorCell_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Red;
+    border-color: black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.dxeErrorFrame_RedWine
+{
+}
+.dxeErrorFrameWithoutError_RedWine
+{
+	border: 1px solid Red;
+}
+.dxeErrorFrameWithoutError_RedWine .dxeControlsCell_RedWine,
+.dxeErrorFrameWithoutError_RedWine.dxeControlsCell_RedWine
+{
+	padding: 2px;
+}
+.dxeEditArea_RedWine
+{
+	border: 1px solid #A0A0A0;
+}
+body input.dxeEditArea_RedWine /*Bootstrap correction*/
+{
+    color: black;
+}
+
+/* -- Binary Image -- */
+.dxeBinaryImageButtonPanel_RedWine
+{
+    height: 36px;
+}
+.dxeBinaryImageButton_RedWine
+{
+    margin: 0 6px;
+}
+
+/* -- Buttons -- */
+.dxeButtonEditButton_RedWine,
+.dxeCalendarButton_RedWine,
+.dxeSpinIncButton_RedWine,
+.dxeSpinDecButton_RedWine,
+.dxeSpinLargeIncButton_RedWine,
+.dxeSpinLargeDecButton_RedWine,
+.dxeColorEditButton_RedWine
+{
+	vertical-align: Middle;
+	color: White;
+	border: 1px Solid #8A0A37;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+} 
+.dxeButtonEditButton_RedWine,
+.dxeSpinIncButton_RedWine,
+.dxeSpinDecButton_RedWine,
+.dxeSpinLargeIncButton_RedWine,
+.dxeSpinLargeDecButton_RedWine
+{
+	padding: 0px 2px;
+	background: #E85E8E url('edtDropDownBack.gif') repeat-x top;
+}
+.dxeSpinIncButton_RedWine,
+.dxeSpinDecButton_RedWine
+{
+	padding: 0px 4px;
+}
+.dxeSpinLargeIncButton_RedWine,
+.dxeSpinLargeDecButton_RedWine
+{
+	padding: 0px 3px;
+}
+.dxeSpinIncButton_RedWine
+{
+	background: #BD3464 url('edtSpinIncBtnBack.gif') repeat-x top;
+	border-bottom: 0;
+}
+.dxeSpinDecButton_RedWine
+{
+	background: #E85E8E url('edtSpinDecBtnBack.gif') repeat-x top;
+}
+.dxeCalendarButton_RedWine,
+.dxeColorEditButton_RedWine
+{
+	color: #FFFFFF;
+	cursor: default;
+	vertical-align: middle;
+	border: 1px solid #8A0A37;
+	background: #F0749F url('edtButtonBack.gif') repeat-x top;
+	padding: 3px 11px 4px;
+	min-width: 37px;
+}
+
+.dxeButtonEditButton_RedWine.dxeButtonEditClearButton_RedWine,
+.dxeButtonEditButton_RedWine.dxeButtonEditClearButton_RedWine:hover
+{
+    background: none;
+    border-width: 0;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.dxeButtonEditClearButton_RedWine img
+{
+    vertical-align: baseline;
+}
+
+/* -- Pressed -- */
+.dxeCalendarButtonPressed_RedWine,
+.dxeColorEditButton_RedWine:active
+{
+	background: #BD71B9 url('edtButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+.dxeButtonEditButtonPressed_RedWine,
+.dxeSpinIncButtonPressed_RedWine,
+.dxeSpinDecButtonPressed_RedWine,
+.dxeSpinLargeIncButtonPressed_RedWine, 
+.dxeSpinLargeDecButtonPressed_RedWine
+{
+	background: #BD71B9 url('edtDropDownButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+.dxeSpinIncButtonPressed_RedWine
+{
+	background: #82407D url('edtSpinIncButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+	border-bottom: 0;
+}
+.dxeSpinDecButtonPressed_RedWine
+{
+	background: #AF60AB url('edtSpinDecButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+/* -- Hover -- */
+.dxeButtonEditButtonHover_RedWine,
+.dxeSpinIncButtonHover_RedWine,
+.dxeSpinDecButtonHover_RedWine,
+.dxeSpinLargeIncButtonHover_RedWine,
+.dxeSpinLargeDecButtonHover_RedWine
+{
+	background: #CD8AC9 url('edtDropDownButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+.dxeSpinIncButtonHover_RedWine
+{
+	background: #AA63A6 url('edtSpinIncButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+	border-bottom: 0;
+}
+.dxeSpinDecButtonHover_RedWine
+{
+	background: #CD8AC9 url('edtSpinDecButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+.dxeCalendarButtonHover_RedWine,
+.dxeColorEditButton_RedWine:hover
+{
+	background: #D69BD3 url('edtButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+
+.dxeButtonEdit_RedWine
+{
+	background-color: White;
+	border: 1px Solid #BC758E;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeButtonEdit_RedWine .dxeEditArea_RedWine
+{
+	background-color: White;
+}
+.dxeButtonEdit_RedWine .dxeIIC img
+{
+	padding-left: 3px;
+}
+.dxeTextBox_RedWine
+{
+	background-color: White;
+	border: 1px Solid #BC758E;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeTextBox_RedWine .dxeEditArea_RedWine
+{
+	background-color: White;
+}
+.dxeRadioButtonList_RedWine,
+.dxeCheckBoxList_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxeCheckBoxList_RedWine .dxe > table,
+.dxeRadioButtonList_RedWine .dxe > table 
+{
+    width: 100%;
+}
+
+.dxeRadioButtonList_RedWine,
+.dxeCheckBoxList_RedWine
+{
+	border: 1px Solid #BC758E;
+}
+.dxeRadioButtonList_RedWine td.dxe,
+.dxeCheckBoxList_RedWine td.dxe
+{
+	padding: 7px 5px 6px 11px;
+}
+.dxeRadioButtonList_RedWine[dir='rtl'] td.dxe,
+.dxeCheckBoxList_RedWine[dir='rtl'] td.dxe
+{
+	padding: 7px 11px 6px 5px;
+}
+
+/* -- Memo -- */
+.dxeMemo_RedWine
+{
+	background-color: White;
+	border: 1px Solid #BC758E;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeMemoEditArea_RedWine
+{
+	background-color: White;
+	outline: none;
+}
+
+/* -- Hyperlink -- */
+.dxeHyperlink_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #8A0A37;
+}
+a:hover.dxeHyperlink_RedWine
+{
+	color: #BE458B;
+}
+a:visited.dxeHyperlink_RedWine
+{
+	color: #928489;
+}
+/* -- ListBox -- */
+.dxeListBox_RedWine
+{
+	color: Black;
+	background-color: White;
+	border: 1px Solid #8A0A37;
+	font: 12px Tahoma, Geneva, sans-serif;
+	height: 113px;
+	width: 70px;
+	color: Black;
+}
+.dxeListBox_RedWine div.dxlbd
+{
+	padding-top: 1px;
+	height: 112px;
+}
+.dxeListBoxItemRow_RedWine
+{
+	cursor: default;
+}
+.dxeListBoxItem_RedWine
+{
+	border-bottom: 1px Solid #FFFFFF;
+	border-left: 1px Solid #FFFFFF;
+	border-right: 1px Solid #FFFFFF;
+	padding: 3px 2px 4px 4px;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxeListBoxItem_RedWine em
+{
+	background: #DBBBDA none repeat 0 0;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+.dxeListBox_RedWine td.dxeI,
+.dxeListBox_RedWine td.dxeIM,
+.dxeListBox_RedWine .dxeHIC,
+.dxeListBox_RedWine td.dxeFTM,
+.dxeListBox_RedWine td.dxeTM,
+.dxeListBox_RedWine td.dxeC,
+.dxeListBox_RedWine td.dxeCM,
+.dxeListBox_RedWine td.dxeHCC,
+.dxeListBox_RedWine td.dxeMI,
+.dxeListBox_RedWine td.dxeMIM
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_RedWine td.dxeIR,
+.dxeListBox_RedWine td.dxeIMR,
+.dxeListBox_RedWine .dxeHICR,
+.dxeListBox_RedWine td.dxeFTMR,
+.dxeListBox_RedWine td.dxeTMR,
+.dxeListBox_RedWine td.dxeCR,
+.dxeListBox_RedWine td.dxeCMR,
+.dxeListBox_RedWine td.dxeHCCR,
+.dxeListBox_RedWine td.dxeMIR,
+.dxeListBox_RedWine td.dxeMIMR
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_RedWine td.dxeCM,
+.dxeListBox_RedWine td.dxeHCC,
+.dxeListBox_RedWine td.dxeCMR,
+.dxeListBox_RedWine td.dxeHCCR
+{
+	width: 31px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.dxeListBox_RedWine td.dxeIM,
+.dxeListBox_RedWine td.dxeIMR
+{
+	width: 0;
+}
+.dxeListBox_RedWine td.dxeC
+{
+	padding-right: 3px!important;
+}
+.dxeListBox_RedWine td.dxeCR
+{
+	padding-left: 3px!important;
+}
+.dxeListBox_RedWine td.dxeC > span,
+.dxeListBox_RedWine td.dxeCM > span
+{
+    margin: 2px 2px 2px 3px;
+}
+.dxeListBox_RedWine td.dxeCR > span,
+.dxeListBox_RedWine td.dxeCMR > span
+{
+    margin: 2px 3px 2px 2px;
+}
+.dxeListBox_RedWine td.dxeT
+{
+	width: 100%;
+	padding-left: 0!important;
+}
+.dxeListBox_RedWine td.dxeTR
+{
+	width: 100%;
+	padding-right: 0!important;
+}
+.dxeListBox_RedWine td.dxeT,
+.dxeListBox_RedWine td.dxeMI
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_RedWine td.dxeTR,
+.dxeListBox_RedWine td.dxeMIR
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_RedWine td.dxeFTM,
+.dxeListBox_RedWine td.dxeTM,
+.dxeListBox_RedWine td.dxeLTM,
+.dxeListBox_RedWine .dxeHFC,
+.dxeListBox_RedWine .dxeHC,
+.dxeListBox_RedWine .dxeHLC,
+.dxeListBox_RedWine td.dxeFTMR,
+.dxeListBox_RedWine td.dxeTMR,
+.dxeListBox_RedWine td.dxeLTMR,
+.dxeListBox_RedWine .dxeHFCR,
+.dxeListBox_RedWine .dxeHCR,
+.dxeListBox_RedWine .dxeHLCR
+{
+	overflow: hidden;
+}
+.dxeListBox_RedWine td.dxeFTM,
+.dxeListBox_RedWine td.dxeTM, 
+.dxeListBox_RedWine .dxeHFC,
+.dxeListBox_RedWine .dxeHC
+{
+	padding-right: 6px!important;
+}
+.dxeListBox_RedWine td.dxeFTMR,
+.dxeListBox_RedWine td.dxeTMR, 
+.dxeListBox_RedWine .dxeHFCR,
+.dxeListBox_RedWine .dxeHCR
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_RedWine td.dxeLTM,
+.dxeListBox_RedWine td.dxeTM, 
+.dxeListBox_RedWine .dxeHC,
+.dxeListBox_RedWine .dxeHLC
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_RedWine td.dxeLTMR,
+.dxeListBox_RedWine td.dxeTMR, 
+.dxeListBox_RedWine .dxeHCR,
+.dxeListBox_RedWine .dxeHLCR
+{
+	padding-right: 6px!important;
+}
+/*Grid lines*/
+.dxeListBox_RedWine td.dxeLTM,
+.dxeListBox_RedWine td.dxeTM,
+.dxeListBox_RedWine td.dxeMIM
+{
+	border-left: 1px solid #D5D5D5!important;
+}
+.dxeListBox_RedWine td.dxeLTMR,
+.dxeListBox_RedWine td.dxeTMR,
+.dxeListBox_RedWine td.dxeMIMR
+{
+	border-right: 1px solid #D5D5D5!important;
+}
+.dxeListBox_RedWine td.dxeIM,
+.dxeListBox_RedWine td.dxeFTM,
+.dxeListBox_RedWine td.dxeTM,
+.dxeListBox_RedWine td.dxeLTM,
+.dxeListBox_RedWine td.dxeCM,
+.dxeListBox_RedWine td.dxeMIM,
+.dxeListBox_RedWine td.dxeIMR,
+.dxeListBox_RedWine td.dxeFTMR,
+.dxeListBox_RedWine td.dxeTMR,
+.dxeListBox_RedWine td.dxeLTMR,
+.dxeListBox_RedWine td.dxeCMR,
+.dxeListBox_RedWine td.dxeMIMR
+{
+	border-bottom: 1px solid #D5D5D5;
+}
+.dxeListBoxItemSelected_RedWine     
+{
+	color: White;
+	background-color: #AD275C;
+}
+.dxeListBoxItemHover_RedWine        
+{
+	background-color: #DBBBDA;
+	color: Black;
+}
+.dxeListBoxItemHover_RedWine em,
+.dxeListBoxItemSelected_RedWine em
+{
+	background-image: none;
+}
+/*Header*/
+.dxeListBox_RedWine .dxeHD
+{
+	background: #F27AA4 url('lbHeaderBackground.gif') repeat-x top center;
+	border-bottom: 1px solid #8A0A37;
+}
+.dxeListBox_RedWine .dxeHFC,
+.dxeListBox_RedWine .dxeHIC,
+.dxeListBox_RedWine .dxeHC,
+.dxeListBox_RedWine .dxeHLC,
+.dxeListBox_RedWine td.dxeHCC,
+.dxeListBox_RedWine td.dxeHMIC,
+.dxeListBox_RedWine .dxeHFCR,
+.dxeListBox_RedWine .dxeHICR,
+.dxeListBox_RedWine .dxeHCR,
+.dxeListBox_RedWine .dxeHLCR,
+.dxeListBox_RedWine td.dxeHCCR,
+.dxeListBox_RedWine td.dxeHMICR
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: White;
+	border-bottom-width: 0;
+}
+.dxeListBox_RedWine .dxeHC,
+.dxeListBox_RedWine .dxeHLC,
+.dxeListBox_RedWine td.dxeHMIC
+{
+	border-left: 1px solid #8A0A37;
+}
+.dxeListBox_RedWine .dxeHCR,
+.dxeListBox_RedWine .dxeHLCR,
+.dxeListBox_RedWine td.dxeHMICR
+{
+	border-right: 1px solid #8A0A37;
+	text-align: right;
+}
+.dxeListBox_RedWine .dxeHIC,
+.dxeListBox_RedWine .dxeHFC,
+.dxeListBox_RedWine .dxeHCC
+{
+	border-left: 1px solid #F27AA4;
+}
+.dxeListBox_RedWine .dxeHICR,
+.dxeListBox_RedWine .dxeHFCR,
+.dxeListBox_RedWine .dxeHCCR
+{
+	border-right: 1px solid #F27AA4;
+	text-align: right;
+}
+.dxeListBox_RedWine .dxeHFC,
+.dxeListBox_RedWine .dxeHC,
+.dxeListBox_RedWine .dxeHMIC
+{
+	border-right-width: 0;
+}
+.dxeListBox_RedWine .dxeHFCR,
+.dxeListBox_RedWine .dxeHCR,
+.dxeListBox_RedWine .dxeHMICR
+{
+	border-left-width: 0;
+	text-align: right;
+}
+.dxeListBox_RedWine .dxeHLC
+{
+	border-right: 1px solid #8A0A37;
+}
+.dxeListBox_RedWine .dxeHLCR
+{
+	border-left: 1px solid #8A0A37;
+	text-align: right;
+}
+
+/* -- Calendar -- */
+.dxeCalendar_RedWine
+{
+	border: 1px solid #8a0a37;
+	background-color: #ffffff;
+    font: 12px Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+}
+.dxeCalendar_RedWine td.dxMonthGrid
+{
+	padding: 3px 22px 6px 21px;
+	cursor: default;
+}
+.dxeCalendar_RedWine td.dxMonthGridWithWeekNumbers
+{
+	padding: 3px 19px 6px 7px;
+	cursor: default;
+}
+.dxeCalendar_RedWine td.dxMonthGridWithWeekNumbersRtl
+{
+	padding: 3px 7px 6px 19px;
+	cursor: default;
+}
+.dxeCalendarDayHeader_RedWine
+{
+	padding: 3px 5px 6px 6px;
+	border-bottom: 1px solid #cfcfcf;
+}
+.dxeCalendarWeekNumber_RedWine
+{
+	font-size: 0.75em;
+	text-align: right;
+	color: #bfbfbf;
+	padding: 3px 3px 2px 4px;
+}
+.dxeCalendarDay_RedWine
+{
+	color: #000000;
+	text-align: center;
+	padding: 3px 7px 4px;
+}
+.dxeCalendarWeekend_RedWine        
+{
+	color: #c00000;
+}
+.dxeCalendarOtherMonth_RedWine     
+{
+	color: #888;
+}
+.dxeCalendarOutOfRange_RedWine     
+{
+	color: #d0d0d0;
+}
+.dxeCalendarDayDisabled_RedWine {
+	background-color: #fdfbfc;
+	color: #edebec!important;
+}
+.dxeCalendarToday_RedWine         
+{
+	border: 1px solid #8a0a37;
+    padding: 2px 6px 3px;
+}
+.dxeCalendarSelected_RedWine       
+{
+	color: #ffffff;
+	background-color: #BD71B9;
+}
+.dxeDayInRange.dxeCalendarSelected_RedWine
+{
+    background-color: #ebc8ea;
+}
+.dxeCalendarHeader_RedWine
+{
+	color: #ffffff;
+	background: #f27ba6 url('edtCalendarHeaderBack.gif') repeat-x top;
+	border-bottom: 1px solid #bd5077;
+	padding: 3px;
+}
+.dxeCalendarHeader_RedWine td.dxe
+{
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+.dxeCalendarHeader_RedWine .dxeCHS
+{
+    min-width: 1px;
+}
+.dxeCalendarFooter_RedWine
+{
+	background-color: #eed8e3;
+	padding: 10px 0px;
+	border-top: 1px solid #cb9fb4;
+}
+.dxeCalendarFooter_RedWine .dxeCFS
+{
+    min-width: 17px;
+}
+.dxeCalendarFastNav_RedWine
+{
+	color: #000000;
+	background: #FFFFFF none;
+	border-top: 1px Solid #8A0A37;
+	border-right: 1px Solid #8A0A37;
+	border-bottom: 0px Solid #8A0A37;
+	border-left: 1px Solid #8A0A37;
+	padding: 12px 8px;
+}
+.dxeCalendarFastNavMonthArea_RedWine
+{
+	padding: 0px 9px;
+}
+.dxeCalendarFastNavYearArea_RedWine
+{
+    padding-top: 8px;
+}
+.dxeCalendarFastNavFooter_RedWine
+{
+	color: #000000;
+	background-color: #EED8E3;
+	padding: 8px 0px;
+	border-right: 1px Solid #8A0A37;
+	border-bottom: 1px Solid #8A0A37;
+	border-left: 1px Solid #8A0A37;
+	border-top: 1px Solid #CB9FB4;
+}
+.dxeCalendarFastNavFooter_RedWine .dxeCFNFS
+{
+    min-width: 17px;
+}
+.dxeCalendarFastNavMonth_RedWine,
+.dxeCalendarFastNavYear_RedWine
+{
+	color: #000000;
+	padding: 3px 4px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px Solid White;
+}
+.dxeCalendarFastNavMonth_RedWine
+{
+	padding: 5px;
+}
+.dxeCalendarFastNavMonthSelected_RedWine,
+.dxeCalendarFastNavYearSelected_RedWine
+{
+	color: #FFFFFF;
+	background-color: #8A0A37;
+	border: 1px Solid White;
+}
+
+.dxeCalendarFastNavMonthHover_RedWine,
+.dxeCalendarFastNavYearHover_RedWine
+{
+	color: #FFFFFF;
+	background: #D69BD3 none;
+	padding: 2px 4px;
+	border: 1px Solid White;
+}
+.dxeCalendarFastNavMonthHover_RedWine
+{
+	padding: 5px;
+}
+
+.dxeDateEditTimeEditCell_RedWine
+{
+    padding: 4px 22px 9px;
+    width: 100px;
+}
+.dxeDateEditClockCell_RedWine
+{
+    padding: 5px 8px 0;
+}
+.dxeCalendarFooter_RedWine.dxeDETSF
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Disabled */
+.dxeDisabled_RedWine,
+.dxeDisabled_RedWine td.dxe
+{
+	color: #bcaab0;
+	cursor: default;
+}
+.dxeEditArea_RedWine.dxeDisabled_RedWine /*Bootstrap correction*/
+{
+    color: #bcaab0;
+}
+a.dxeDisabled_RedWine, a.dxeDisabled_RedWine:hover
+{
+	color: #bcaab0;
+}
+.dxeButtonDisabled_RedWine
+{
+	background: #ccbac0 url('edtDropDownBackDis.gif') repeat-x center top;
+	color: #dad1d4;
+	border-color: #928187;
+	cursor: default;
+}
+/* -- Button -- */
+.dxbButton_RedWine
+{
+	color: #FFFFFF;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px solid #8A0A37;
+	background: #F0749F url('edtButtonBack.gif') repeat-x top;
+	padding: 1px;
+}
+.dxbButtonHover_RedWine
+{
+	color: #FFFFFF;
+	background: #D69BD3 url('edtButtonHoverBack.gif') repeat-x top;
+	border: 1px solid #6C2668;
+}
+.dxbButtonChecked_RedWine
+{
+	color: #FFFFFF;
+	background: #E0496C url('edtButtonCheckedBack.gif') repeat-x top;
+	border: 1px solid #8A0A37;
+}
+.dxbButtonPressed_RedWine
+{
+	color: #FFFFFF;
+	background: #BD71B9 url('edtButtonPressedBack.gif') repeat-x top;
+	border: 1px solid #6C2668;
+}
+.dxbButton_RedWine div.dxb
+{
+	padding: 2px 10px 3px;
+	border-width: 0px;
+}
+.dxbButton_RedWine div.dxbf
+{
+	padding: 1px 9px 2px;
+	border: 1px dotted #FFFFFF;
+}
+/* Button Link */
+a.dxbButton_RedWine
+{
+    color: #8A0A37;
+    text-decoration: underline;
+}
+a.dxbButton_RedWine:hover
+{
+	color: #BE458B;
+}
+a.dxbButton_RedWine:visited
+{
+	color: #928489;
+}
+/* Disabled */
+.dxbDisabled_RedWine
+{
+	background: #d5c5cb url('edtButtonBackDis.gif') repeat-x top;
+	border-color: #928187;
+	color: White;
+}
+.dxbDisabled_RedWine,
+a.dxbButton_RedWine.dxbDisabled_RedWine
+{
+    color: #bcaab0;
+	cursor: default;
+    text-decoration: none;
+}
+
+/* -- FilterControl -- */
+.dxfcControl_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Black;
+	padding: 0 1em;
+}
+.dxfcTable_RedWine
+{
+	border-collapse: separate!important;
+}
+.dxfcTable_RedWine td.dxfc
+{
+	padding: 0px 0px 0px 3px;
+}
+a.dxfcPropertyName_RedWine
+{
+	white-space: nowrap!important;
+	color: Blue!important;
+}
+a.dxfcGroupType_RedWine
+{
+	white-space: nowrap!important;
+	padding: 0px 3px!important;
+	color: Red!important;
+}
+a.dxfcOperation_RedWine
+{
+	white-space: nowrap!important;
+	color: Green!important;
+}
+a.dxfcValue_RedWine
+{
+	white-space: nowrap!important;
+	color: Gray!important;
+}
+.dxfcImageButton_RedWine
+{
+	cursor: pointer;
+}
+
+.dxeMaskHint_RedWine
+{
+	background: #ffffe1 none;
+	border: 1px solid black;
+	padding: 2px 5px 3px;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxfcControl_RedWine ul.dxfc-tree,
+.dxfcControl_RedWine .dxfc-tree ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.dxfcControl_RedWine .dxfc-tree
+{
+    width: 100%;
+}
+
+.dxfcControl_RedWine .dxfc-subnd
+{
+    margin-left: 22px;
+}
+
+.dxfcControl_RedWine .dxfc > li > table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dxfcControl_RedWine .dxfc-elb
+{
+    background: url('fcElbow.gif') no-repeat;
+    float: left;
+    height: 21px;
+    vertical-align: top;
+    width: 26px;
+    margin-right: 0.3em;
+}
+
+.dxfcControl_RedWine .dxfc-clr
+{
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.dxfcControl_RedWine .dxfc-nd
+{
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    outline: 0 none;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > span,
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > img,
+.dxfcControl_RedWine .dxfc-editor
+{
+    vertical-align: middle;
+}
+
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > td,
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > span
+{
+    padding: 0 0.1ex;
+}
+
+.dxfcControl_RedWine .dxfc-nd > tbody > tr > td > a
+{
+    line-height: 24px;
+}
+
+.dxfcControl_RedWine .dxfc-ln
+{
+    background: url('fcLine.gif') repeat-y;
+    vertical-align: top;
+}
+
+.dxfcControl_RedWine .dxfc-memo textarea 
+{
+	height: 80px;
+	overflow: auto;
+}
+
+.dxfcControl_RedWine .dxfc-validationSummary
+{
+	padding: 2px 5px 4px 6px !important;
+	list-style-type: none;
+	margin: 0;
+}
+
+.dxfcControl_RedWine .dxfc-validationSummary li
+{
+	padding: 2px 0;
+}
+
+.dxfcControl_RedWine .dxfc-validationSummary li a
+{
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+
+.dxfcControl_RedWine .dxfc-validationSummary li a:hover
+{
+	color: #f70;
+}
+/* -- ProgressBar -- */
+.dxeProgressBar_RedWine
+{
+	border: 1px Solid #8A0A37;
+	background: #f7edf1 url('edtProgressBack.gif') repeat-x;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #8a0a37;
+    height: 25px;
+}
+.dxeProgressBar_RedWine .dxePBMainCell,
+.dxeProgressBar_RedWine td.dxe
+{
+	padding: 0;
+}
+.dxeProgressBar_RedWine td.dxe
+{
+	background: url('edtProgressPositionBack.png') no-repeat 50% center;
+}
+.dxeProgressBarIndicator_RedWine
+{
+	background: #f275a1 url('edtProgressIndicatorBack.gif') repeat-x;
+}
+
+/* -- DropDownWindow -- */
+.dxpcDropDown_RedWine,
+.dxeDropDownWindow_RedWine
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeDropDownWindow_RedWine
+{
+	background-color: White;
+	border: 1px Solid #BC758E;
+}
+
+/*----------------- ColorTable -----------------*/
+.dxeColorIndicator_RedWine
+{
+	border: 1px solid #BC758E;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dxeItemPicker_RedWine
+{
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px Solid #8A0A37;
+}
+.dxeColorTable_RedWine td.dx,
+.dxeItemPicker_RedWine td.dx
+{
+	padding: 4px;
+}
+.dxeColorTableCell_RedWine,
+.dxeItemPickerCell_RedWine,
+.dxeACICell_RedWine
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.dxeColorTableCellDiv_RedWine,
+.dxeACICellDiv_RedWine
+{
+	border: 1px solid #808080;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+}
+.dxeColorTableCellSelected_RedWine,
+.dxeACICellSelected_RedWine
+{
+	padding: 2px!important;
+	background-color: #CBCBCB;
+	border: 1px solid #888888;
+}
+.dxeColorTableCellHover_RedWine,
+.dxeItemPickerCellHover_RedWine,
+.dxeAutomaticColorItemCellHover_RedWine,
+.dxeAutomaticColorItem_RedWine:hover > div
+{
+	padding: 2px!important;
+}
+.dxeColorTableCellHover_RedWine,
+.dxeAutomaticColorItemCellHover_RedWine,
+.dxeAutomaticColorItem_RedWine:hover > div
+{
+	background-color: #F2F2F2;
+	border: 1px solid #888888;
+}
+.dxeItemPickerCellHover_RedWine
+{
+	background: #DBBBDA none;
+	border: 1px Solid #DBBBDA;
+	color: #000000;
+}
+
+/* -- Invalid Style -- */
+.dxeInvalid_RedWine
+{
+}
+.dxeInvalid_RedWine .dxeEditArea_RedWine,
+.dxeInvalid_RedWine .dxeMemoEditArea_RedWine
+{
+}
+
+/* -- Focused Style -- */
+.dxeFocused_RedWine
+{
+	border: 1px solid #813f56;
+}
+
+.dxeFocused_RedWine.dxeTrackBar_RedWine
+{	
+	border: 0px;
+}
+
+/* -- Null Text Style -- */
+.dxeNullText_RedWine .dxeEditArea_RedWine,
+.dxeNullText_RedWine .dxeMemoEditArea_RedWine
+{
+	color: #bcaab0;
+}
+
+/* -- Captcha -- */
+.dxcaControl_RedWine
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxcaRefreshButton_RedWine
+{
+	text-decoration: none;
+	color: #8a0a37;
+}
+
+.dxcaDisabledRefreshButton_RedWine
+{
+	color: #bcaab0;
+}
+
+.dxcaRefreshButtonCell_RedWine
+{
+}
+
+.dxcaRefreshButtonText_RedWine
+{
+	text-decoration: underline;
+}
+
+.dxcaDisabledRefreshButtonText_RedWine
+{
+	text-decoration: none;
+}
+
+.dxcaTextBoxCell_RedWine,
+.dxcaTextBoxCellNoIndent_RedWine
+{
+}
+
+.dxcaTextBoxCellNoIndent_RedWine .dxeErrorCell_RedWine
+{
+	padding-left: 0px;
+	padding-top: 4px;
+	color: Red;
+}
+
+.dxcaTextBoxLabel_RedWine
+{
+	padding-bottom: 4px;
+	display: block;
+}
+
+.dxcaLoadingPanel_RedWine .dxlp-loadingImage
+{
+	margin: 0px;
+}
+.dxcaLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+}
+
+.dxcaLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+
+.dxpcLite_RedWine .dxHFBPS
+{
+    width: 10px;
+}
+
+.dxeTextBox_RedWine,
+.dxeButtonEdit_RedWine,
+.dxeIRadioButton_RedWine,
+.dxeRadioButtonList_RedWine,
+.dxeCheckBoxList_RedWine
+{
+    cursor: default;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxeTrackBar_RedWine, 
+.dxeIRadioButton_RedWine, 
+.dxeButtonEdit_RedWine, 
+.dxeTextBox_RedWine, 
+.dxeRadioButtonList_RedWine, 
+.dxeCheckBoxList_RedWine, 
+.dxeMemo_RedWine, 
+.dxeListBox_RedWine, 
+.dxeCalendar_RedWine, 
+.dxeColorTable_RedWine
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* ASPxCololrEdit */
+.dxcpParametersCellSys .dxcpWebColorInput_RedWine
+{
+	float: right;
+	margin-top: 40px;
+}
+.dxcpColorParameterMainDiv_RedWine
+{
+	padding: 0px 0 4px 9px;
+	width: 90px;
+	text-align: right;
+}
+.dxeCustomColorButton_RedWine
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+	margin: 3px 7px;
+	cursor: pointer;
+}
+.dxeAutomaticColorItem_RedWine
+{
+    padding: 4px 4px 0px 4px;
+}
+.dxeAutomaticColorItem_RedWine > span
+{
+    margin: 0px 5px;
+    line-height: 20px;
+}
+.dxcpCurrentColor_RedWine,
+.dxcpSavedColor_RedWine
+{
+	height: 35px;
+}
+.dxcpCurrentAndSaved_RedWine
+{
+	width: 65px;
+	margin: 34px 0px 0px auto;
+	cursor: pointer;
+}
+.dxeColorTablesMainDiv_RedWine,
+.dxeColorSelectorMainDiv_RedWine
+{
+	background-color: #FFFFFF;
+}
+.dxeColorSelectorMainDiv_RedWine
+{
+	padding: 7px;
+}
+.dxcpColorArea_RedWine,
+.dxcpHueAreaImage_RedWine,
+.dxcpCurrentAndSaved_RedWine,
+.dxeColorTablesMainDiv_RedWine,
+.dxeColorSelectorMainDiv_RedWine,
+.dxcpParametersCell_RedWine input 
+{
+	border: 1px solid #BC758E;
+}
+.dxeButtonsPanelDiv_RedWine
+{
+	margin-top: 15px;
+	text-align: right;
+}
+.dxeButtonsPanelDiv_RedWine input
+{
+	min-width: 60px;
+	margin-left: 10px;
+}
+
+/* -- ASPxTokenBox -- */
+input.dxeTokenBoxInput_RedWine[type="text"] {
+	display: inline-block;
+	float: left;
+	width: 30px;
+	outline: none;
+	margin: 1px;
+	padding: 1px;
+}
+.dxeToken_RedWine {
+    border: 1px solid #8a0a37;
+	border-radius: 2px;
+    display: inline-block;
+    color: #ffffff;
+	float: left;
+	min-width: 30px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+.dxeTokenText_RedWine, .dxeTokenRemoveButton_RedWine {
+	display: block;
+	float: left;
+}
+.dxeTokenText_RedWine {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 4px;
+}
+.dxeTokenRemoveButton_RedWine {
+	cursor: pointer;
+}
+.dxeToken_RedWine {
+	background: #e683a6 url('edtTokenBoxTokenBackground.png') repeat-x top;
+}
+.dxeButtonEdit_RedWine td.dxictb {
+    padding-left: 0px;
+}
+.dxFirefox input.dxeTokenBoxInput_RedWine[type="text"] {
+	padding: 0;
+	margin: 1px;
+}
+.dxFirefox .dxeTokenText_RedWine {
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+/* ASPxPictureEdit */
+.dxpePreviewContainer_RedWine
+{
+    position: relative;
+}
+.dxpeCommandPanel_RedWine
+{
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    height: 32px;
+    position: absolute;
+}
+.dxpeBottomCommandPanel_RedWine
+{
+    width: 100%;
+    bottom: 0;
+}
+
+.dxpeTopCommandPanel_RedWine
+{
+    width: 100%;      
+    top: 0;    
+}
+.dxpeCommandPanelDeleteButton_RedWine, 
+.dxpeCommandPanelOpenDialogButton_RedWine
+{    
+    cursor: pointer;
+    display: inline-block;
+}
+.dxpeCommandPanelButtonsWrapper_RedWine
+{
+    position: absolute;
+}
+.dxpeCommandPanelButtonsWrapperLeft_RedWine
+{
+    left: 0;
+}
+.dxpeCommandPanelButtonsWrapperCenter_RedWine
+{
+    left: 50%;
+    margin-left: -32px;
+}
+.dxpeCommandPanelButtonsWrapperRight_RedWine
+{
+    right: 0;
+}
+.dxpeCommandPanelDeleteButtonHover_RedWine,
+.dxpeCommandPanelDeleteButtonPressed_RedWine,
+.dxpeCommandPanelOpenDialogButtonHover_RedWine,
+.dxpeCommandPanelOpenDialogButtonPressed_RedWine
+{
+}
+.dxpeCommandPanelDeleteButtonDisabled_RedWine,
+.dxpeCommandPanelOpenDialogButtonDisabled_RedWine
+{
+}
+.dxpeDropZone_RedWine
+{
+    background-color: gray;
+}
+.dxpePlaceHolder_RedWine
+{
+    background-color: lightgray;
+    z-index: -1;
+}
+.dxpeTextPanelContainer_RedWine
+{
+    height: 100%;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}
+.dxpeTextPanel_RedWine
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Editor caption */
+.dxeCaptionCell_RedWine
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+.dxeRoot_RedWine
+{
+}
+.dxeCaption_RedWine
+{
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeTextEditCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeCheckBoxListCTypeSys
+{
+    padding-top: 11px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeRadioButtonListCTypeSys
+{
+    padding-top: 11px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeTrackBarCTypeSys
+{
+    padding-top: 5px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeMemoCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeCustomCTypeSys
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dxFirefox .dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 5px;
+}
+.dxFirefox .dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 5px;
+}
+.dxWebKitFamily .dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 5px;
+}
+/* Safari */
+.dxeCaptionCellSafariSys.dxeCaptionCell_RedWine.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 4px;
+}
+
+.dxeRequiredMark_RedWine {
+    color: green;
+    font-style: normal;
+}
+
+.dxeOptionalMark_RedWine {
+    color: gray;
+    font-style: normal;
+}
+
+/* Out of range warning*/
+.dxeOutOfRWarn_RedWine {
+    font: 12px Tahoma, Geneva, sans-serif;
+    padding: 3px 8px 4px 8px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #A8A8A8;
+}
+.dxeOutOfRWarnRight_RedWine {
+    margin-left: 10px;
+}
+.dxeOutOfRWarnBottom_RedWine {
+    margin-top: 10px;
+}

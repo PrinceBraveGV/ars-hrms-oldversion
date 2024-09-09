@@ -1,0 +1,197 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 12px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+    background-color: #8AA150;
+}
+a {
+    color: #7A9F0E;
+    text-decoration: underline;   
+}
+a:hover {
+    color: #F4921B;
+}
+a:visited {
+    color: #9AA481;
+    text-decoration: underline;   
+}
+div.PageContent {
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background-color: #9BB45D;
+    border-collapse: separate;
+    padding: 2px 20px 1px 5px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	color: #CAD4B1;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+.PopupWindow .dxpc-footer {
+    background: #E5EECF;
+    border-top: none;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+
+/* Controls customization */
+.dxgvControl_Youthful {
+	width: 100%;
+}
+.dxtcControl_Youthful,
+.dxtcLite_Youthful {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_Youthful,
+.NavigationTabsActionContainer .dxtcLite_Youthful {
+background-color: #9BB45D;
+}
+.NavigationTabsActionContainer .dxtcPageContent_Youthful,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-content {
+    padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_Youthful div,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-leftIndent {
+	width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-activeTab,
+.NavigationTabsActionContainer .dxtc-rightIndent .dxmLite_Youthful
+{
+    margin-top: 3px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-leftIndent,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-spacer,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-rightIndent,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-sbWrapper,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-sbIndent,
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-sbSpacer
+{
+	height: 33px;
+}
+.NavigationTabsActionContainer .dxtc-content .dxmLite_Youthful .menuLinks_Youthful
+{
+    padding-left: 16px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_Youthful .dxtc-strip
+{
+    padding-top: 0px !important;
+} 
+.ACV .dxmVerticalMenuItemWithImage_Youthful
+{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.ACV .dxmLite_Youthful .dxm-main .TemplatedItem
+{
+    padding-left: 33px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #F4921B;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #7A9F0E;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_Youthful,
+.Security .dxmLite_Youthful .dxm-separator {
+	padding: 0px 11px 0px 11px;
+}
+.TabsContainer .dxmMenuSeparator_Youthful,
+.TabsContainer .dxmLite_Youthful .dxm-separator {
+	padding: 0px 10px 0px 16px;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Youthful,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Youthful .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_Youthful,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_Youthful .dxm-main
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header {
+	background-color: #8AA150;
+}
+.RecordsNavigationContainer .menuLinks_Youthful {
+	padding-left: 8px;
+}
+.RecordsNavigationContainer .menuLinks_Youthful .dxmMenuItemWithImage_Youthful {
+	padding-left: 3px;
+}
+.RecordsNavigationContainer .dxmLite_Youthful .dxm-content,
+.RecordsNavigationContainer .dxmLite_Youthful .dxm-disabled.dxm-content
+{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+.EditModeActions .dxmLite_Youthful
+{
+	margin-right: 6px !important;
+}
+.Content .EditModeActions .dxmLite_Youthful
+{
+    margin-right: 5px !important;
+}
+.RecordsNavigationContainer .dxmLite_Youthful
+{
+    margin-right: 10px !important;
+}
+.ACH.MainToolbar .dxmLite_Youthful .dxm-main
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

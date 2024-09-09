@@ -1,0 +1,638 @@
+.dxDateEditSys .dxEditors_edtDropDown_SpecialTheme,
+.dxDateEditSys .dxEditors_edtDropDownDisabled_SpecialTheme,
+.dxeButtonEditButtonHover_SpecialTheme .dxEditors_edtClear_SpecialTheme,
+.dxEditors_caRefresh_SpecialTheme,
+.dxEditors_edtBinaryImageDelete_SpecialTheme,
+.dxEditors_edtBinaryImageOpenDialog_SpecialTheme,
+.dxEditors_edtCalendarFNNextYear_SpecialTheme,
+.dxEditors_edtCalendarFNPrevYear_SpecialTheme,
+.dxEditors_edtCalendarNextMonth_SpecialTheme,
+.dxEditors_edtCalendarNextMonthDisabled_SpecialTheme,
+.dxEditors_edtCalendarNextYear_SpecialTheme,
+.dxEditors_edtCalendarNextYearDisabled_SpecialTheme,
+.dxEditors_edtCalendarPrevMonth_SpecialTheme,
+.dxEditors_edtCalendarPrevMonthDisabled_SpecialTheme,
+.dxEditors_edtCalendarPrevYear_SpecialTheme,
+.dxEditors_edtCalendarPrevYearDisabled_SpecialTheme,
+.dxEditors_edtClear_SpecialTheme,
+.dxEditors_edtDETSClockFace_SpecialTheme,
+.dxEditors_edtDETSHourHand_SpecialTheme,
+.dxEditors_edtDETSMinuteHand_SpecialTheme,
+.dxEditors_edtDETSSecondHand_SpecialTheme,
+.dxEditors_edtDropDown_SpecialTheme,
+.dxEditors_edtDropDownDisabled_SpecialTheme,
+.dxEditors_edtEllipsis_SpecialTheme,
+.dxEditors_edtEllipsisDisabled_SpecialTheme,
+.dxEditors_edtError_SpecialTheme,
+.dxEditors_edtRadioButtonChecked_SpecialTheme,
+.dxEditors_edtRadioButtonCheckedDisabled_SpecialTheme,
+.dxEditors_edtRadioButtonUnchecked_SpecialTheme,
+.dxEditors_edtRadioButtonUncheckedDisabled_SpecialTheme,
+.dxEditors_edtSpinEditDecrementImage_SpecialTheme,
+.dxEditors_edtSpinEditDecrementImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditIncrementImage_SpecialTheme,
+.dxEditors_edtSpinEditIncrementImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditLargeDecImage_SpecialTheme,
+.dxEditors_edtSpinEditLargeDecImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditLargeIncImage_SpecialTheme,
+.dxEditors_edtSpinEditLargeIncImageDisabled_SpecialTheme,
+.dxEditors_edtTokenBoxTokenRemoveButton_SpecialTheme,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_SpecialTheme,
+.dxEditors_fcadd_SpecialTheme,
+.dxEditors_fcaddhot_SpecialTheme,
+.dxEditors_fcgroupaddcondition_SpecialTheme,
+.dxEditors_fcgroupaddgroup_SpecialTheme,
+.dxEditors_fcgroupand_SpecialTheme,
+.dxEditors_fcgroupnotand_SpecialTheme,
+.dxEditors_fcgroupnotor_SpecialTheme,
+.dxEditors_fcgroupor_SpecialTheme,
+.dxEditors_fcgroupremove_SpecialTheme,
+.dxEditors_fcopany_SpecialTheme,
+.dxEditors_fcopavg_SpecialTheme,
+.dxEditors_fcopbegin_SpecialTheme,
+.dxEditors_fcopbetween_SpecialTheme,
+.dxEditors_fcopblank_SpecialTheme,
+.dxEditors_fcopcontain_SpecialTheme,
+.dxEditors_fcopcount_SpecialTheme,
+.dxEditors_fcopend_SpecialTheme,
+.dxEditors_fcopequal_SpecialTheme,
+.dxEditors_fcopexists_SpecialTheme,
+.dxEditors_fcopgreater_SpecialTheme,
+.dxEditors_fcopgreaterorequal_SpecialTheme,
+.dxEditors_fcopless_SpecialTheme,
+.dxEditors_fcoplessorequal_SpecialTheme,
+.dxEditors_fcoplike_SpecialTheme,
+.dxEditors_fcopmax_SpecialTheme,
+.dxEditors_fcopmin_SpecialTheme,
+.dxEditors_fcopnotany_SpecialTheme,
+.dxEditors_fcopnotbetween_SpecialTheme,
+.dxEditors_fcopnotblank_SpecialTheme,
+.dxEditors_fcopnotcontain_SpecialTheme,
+.dxEditors_fcopnotequal_SpecialTheme,
+.dxEditors_fcopnotlike_SpecialTheme,
+.dxEditors_fcopsingle_SpecialTheme,
+.dxEditors_fcopsum_SpecialTheme,
+.dxEditors_fcoptypefield_SpecialTheme,
+.dxEditors_fcoptypefieldhot_SpecialTheme,
+.dxEditors_fcoptypevalue_SpecialTheme,
+.dxEditors_fcoptypevaluehot_SpecialTheme,
+.dxEditors_fcremove_SpecialTheme,
+.dxEditors_fcremovehot_SpecialTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxDateEditSys .dxEditors_edtDropDown_SpecialTheme
+{
+    background-position: -60px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxDateEditSys .dxEditors_edtDropDownDisabled_SpecialTheme
+{
+    background-position: -48px -217px;
+    width: 21px;
+    height: 22px;
+}
+.dxeButtonEditButtonHover_SpecialTheme .dxEditors_edtClear_SpecialTheme
+{
+    background-position: -119px -263px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_caRefresh_SpecialTheme
+{
+    background-position: -104px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageDelete_SpecialTheme
+{
+    background-position: -38px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_SpecialTheme
+{
+    background-position: -71px -136px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_SpecialTheme
+{
+    background-position: -80px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarFNPrevYear_SpecialTheme
+{
+    background-position: -116px -241px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonth_SpecialTheme
+{
+    background-position: -20px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_SpecialTheme
+{
+    background-position: -40px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYear_SpecialTheme
+{
+    background-position: -68px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarNextYearDisabled_SpecialTheme
+{
+    background-position: -44px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonth_SpecialTheme
+{
+    background-position: -60px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_SpecialTheme
+{
+    background-position: 0px -263px;
+    width: 19px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYear_SpecialTheme
+{
+    background-position: -18px -197px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_SpecialTheme
+{
+    background-position: -92px -241px;
+    width: 23px;
+    height: 19px;
+}
+.dxEditors_edtClear_SpecialTheme
+{
+    background-position: -100px -263px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtDETSClockFace_SpecialTheme
+{
+    background-position: 0px 0px;
+    width: 135px;
+    height: 135px;
+}
+.dxEditors_edtDETSHourHand_SpecialTheme
+{
+    background-position: -30px -136px;
+    width: 7px;
+    height: 60px;
+}
+.dxEditors_edtDETSHourHand_SpecialTheme
+{
+    background-position: -22px -136px \9;
+    width: 7px \9;
+    height: 60px \9;
+}
+.dxEditors_edtDETSMinuteHand_SpecialTheme
+{
+    background-position: -14px -136px;
+    width: 7px;
+    height: 60px;
+}
+.dxEditors_edtDETSMinuteHand_SpecialTheme
+{
+    background-position: -6px -136px \9;
+    width: 7px \9;
+    height: 60px \9;
+}
+.dxEditors_edtDETSSecondHand_SpecialTheme
+{
+    background-position: 0px -136px;
+    width: 5px;
+    height: 80px;
+}
+.dxEditors_edtDETSSecondHand_SpecialTheme
+{
+    background-position: -136px 0px \9;
+    width: 5px \9;
+    height: 80px \9;
+}
+.dxEditors_edtDropDown_SpecialTheme
+{
+    background-position: -104px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtDropDownDisabled_SpecialTheme
+{
+    background-position: -38px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtEllipsis_SpecialTheme
+{
+    background-position: -70px -217px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtEllipsisDisabled_SpecialTheme
+{
+    background-position: -82px -169px;
+    width: 21px;
+    height: 22px;
+}
+.dxEditors_edtError_SpecialTheme
+{
+    background-position: -126px -177px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_SpecialTheme
+{
+    background-position: -67px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_SpecialTheme
+{
+    background-position: -42px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonUnchecked_SpecialTheme
+{
+    background-position: -92px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_SpecialTheme
+{
+    background-position: -117px -192px;
+    width: 24px;
+    height: 24px;
+}
+.dxEditors_edtSpinEditDecrementImage_SpecialTheme
+{
+    background-position: -72px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_SpecialTheme
+{
+    background-position: -94px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditIncrementImage_SpecialTheme
+{
+    background-position: -28px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_SpecialTheme
+{
+    background-position: -50px -342px;
+    width: 21px;
+    height: 10px;
+}
+.dxEditors_edtSpinEditLargeDecImage_SpecialTheme
+{
+    background-position: -22px -241px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_SpecialTheme
+{
+    background-position: -114px -217px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeIncImage_SpecialTheme
+{
+    background-position: 0px -241px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_SpecialTheme
+{
+    background-position: -92px -217px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_SpecialTheme
+{
+    background-position: 0px -217px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_SpecialTheme
+{
+    background-position: -24px -217px;
+    width: 23px;
+    height: 23px;
+}
+.dxEditors_fcadd_SpecialTheme
+{
+    background-position: -70px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_SpecialTheme
+{
+    background-position: -14px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_SpecialTheme
+{
+    background-position: -56px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_SpecialTheme
+{
+    background-position: -14px -342px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_SpecialTheme
+{
+    background-position: -119px -283px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_SpecialTheme
+{
+    background-position: 0px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_SpecialTheme
+{
+    background-position: -56px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_SpecialTheme
+{
+    background-position: -112px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_SpecialTheme
+{
+    background-position: -56px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_SpecialTheme
+{
+    background-position: 0px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_SpecialTheme
+{
+    background-position: 0px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_SpecialTheme
+{
+    background-position: -14px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_SpecialTheme
+{
+    background-position: -126px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_SpecialTheme
+{
+    background-position: -84px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_SpecialTheme
+{
+    background-position: -112px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_SpecialTheme
+{
+    background-position: -34px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_SpecialTheme
+{
+    background-position: -28px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_SpecialTheme
+{
+    background-position: -126px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_SpecialTheme
+{
+    background-position: -85px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_SpecialTheme
+{
+    background-position: -112px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_SpecialTheme
+{
+    background-position: -98px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_SpecialTheme
+{
+    background-position: -42px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_SpecialTheme
+{
+    background-position: -70px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_SpecialTheme
+{
+    background-position: -84px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_SpecialTheme
+{
+    background-position: -68px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_SpecialTheme
+{
+    background-position: -17px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_SpecialTheme
+{
+    background-position: -98px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_SpecialTheme
+{
+    background-position: 0px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_SpecialTheme
+{
+    background-position: -28px -300px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_SpecialTheme
+{
+    background-position: -126px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_SpecialTheme
+{
+    background-position: 0px -342px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_SpecialTheme
+{
+    background-position: -98px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_SpecialTheme
+{
+    background-position: -51px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_SpecialTheme
+{
+    background-position: -102px -283px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_SpecialTheme
+{
+    background-position: -84px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_SpecialTheme
+{
+    background-position: -28px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_SpecialTheme
+{
+    background-position: -14px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_SpecialTheme
+{
+    background-position: -42px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_SpecialTheme
+{
+    background-position: -42px -328px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_SpecialTheme
+{
+    background-position: -70px -314px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtRadioButtonChecked_SpecialTheme,
+.dxEditors_edtRadioButtonCheckedDisabled_SpecialTheme,
+.dxEditors_edtRadioButtonUnchecked_SpecialTheme,
+.dxEditors_edtRadioButtonUncheckedDisabled_SpecialTheme
+{
+    background-color: #C00000;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_SpecialTheme,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_SpecialTheme
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_SpecialTheme,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_SpecialTheme
+{
+	z-index: 7;
+}
+.dxEditors_edtError_SpecialTheme,
+.dxEditors_edtCalendarPrevYear_SpecialTheme,
+.dxEditors_edtCalendarPrevYearDisabled_SpecialTheme,
+.dxEditors_edtCalendarPrevMonth_SpecialTheme,
+.dxEditors_edtCalendarPrevMonthDisabled_SpecialTheme,
+.dxEditors_edtCalendarNextMonth_SpecialTheme,
+.dxEditors_edtCalendarNextMonthDisabled_SpecialTheme,
+.dxEditors_edtCalendarNextYear_SpecialTheme,
+.dxEditors_edtCalendarNextYearDisabled_SpecialTheme,
+.dxEditors_edtCalendarFNPrevYear_SpecialTheme,
+.dxEditors_edtCalendarFNNextYear_SpecialTheme,
+.dxEditors_edtEllipsis_SpecialTheme,
+.dxEditors_edtEllipsisDisabled_SpecialTheme,
+.dxEditors_edtEllipsisHover_SpecialTheme,
+.dxEditors_edtEllipsisPressed_SpecialTheme,
+.dxEditors_edtDropDown_SpecialTheme,
+.dxEditors_edtDropDownDisabled_SpecialTheme,
+.dxEditors_edtSpinEditIncrementImage_SpecialTheme,
+.dxEditors_edtSpinEditIncrementImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditDecrementImage_SpecialTheme,
+.dxEditors_edtSpinEditDecrementImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditLargeIncImage_SpecialTheme,
+.dxEditors_edtSpinEditLargeIncImageDisabled_SpecialTheme,
+.dxEditors_edtSpinEditLargeDecImage_SpecialTheme,
+.dxEditors_edtSpinEditLargeDecImageDisabled_SpecialTheme
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_SpecialTheme
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_SpecialTheme
+{
+    margin-left: 8px;
+}
+

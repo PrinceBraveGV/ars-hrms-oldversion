@@ -1,0 +1,500 @@
+﻿@{
+    ViewBag.Title = "HRIS - Registrasi Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model KaryawanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    // <![CDATA[
+    function selectedIndexChanged() {
+        $(document).ready(function () {
+            var FirstComboBox = document.getElementById("Perusahaan");
+            var NextComboBox = document.getElementById("Cabang");
+            var FirstComboName = "Perusahaan";
+            var ActionUrl = '@Url.Action("GetCabang")';
+            $(FirstComboBox).cascade(NextComboBox, ActionUrl, FirstComboName);
+        });
+    }
+    // ]]>
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Registrasi Karyawan Baru</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <br />
+                        <label style="font: 12px Arial">
+                            Mohon mengisi data identitas diri anda dengan lengkap dan benar, terutama alamat email untuk konfirmasi akun anda pada isian berikut ini. <br />Isian bertanda (*) adalah isian yang wajib diisi oleh karyawan yang mendaftarkan diri.
+                        </label>
+                                @* Begin form *@
+                                @using (Html.BeginForm("Register", "Home", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <div style="margin-left:55px">
+                                    @Html.DevExpress().FormLayout(settings =>
+                                    {
+                                        settings.Name = "RegisterForm";
+                                        settings.AlignItemCaptionsInAllGroups = true;
+                                        settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                        settings.Theme = AristaHRM.Theme.SelectTheme;
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = string.Empty;
+                                            layoutitem.ShowCaption = DefaultBoolean.False;
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Pribadi</p><hr />");
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Nama Karyawan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().TextBoxFor(m => m.Nama_Karyawan, textbox =>
+                                                {
+                                                    textbox.Name = "Nama_Karyawan";
+                                                    textbox.Width = Unit.Pixel(400);
+                                                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                    textbox.Properties.HelpText = "(*) Isi dengan nama lengkap anda sesuai identitas yang berlaku (KTP/SIM/d.l.l).";
+                                                    textbox.Properties.ValidationSettings.Display = Display.Static;
+                                                    textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    textbox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                                    textbox.ShowModelErrors = true;
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Jenis Kelamin ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Jenis_Kelamin, combosettings =>
+                                                {
+                                                    combosettings.Properties.NullText = "-- Pilih --";
+                                                    combosettings.Properties.HelpText = "(*) Pilih jenis kelamin anda.";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                                    combosettings.Properties.TextField = "Jenis_Isi";
+                                                    combosettings.Properties.ValueField = "Jenis_Isi";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetJenisKelamin()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Tempat Lahir ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Tempat_Lahir, combosettings =>
+                                                {
+                                                    combosettings.Name = "Tempat_Lahir";
+                                                    combosettings.Properties.HelpText = "(*) Isi sesuai dengan kota kelahiran anda. Contoh: Jakarta";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Nama_Wilayah";
+                                                    combosettings.Properties.ValueField = "Nama_Wilayah";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetKota()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Tanggal Lahir ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().DateEditFor(m => m.Tgl_Lahir, dateedit =>
+                                                {
+                                                    dateedit.Name = "Tgl_Lahir";
+                                                    dateedit.Width = Unit.Pixel(300);
+                                                    dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                                    dateedit.Properties.HelpText = "(*) Isi sesuai dengan tanggal lahir anda (tanggal, bulan, tahun).";
+                                                    dateedit.Properties.DisplayFormatString = "D";
+                                                    dateedit.Properties.NullText = "-- Pilih Tanggal --";
+                                                    dateedit.Properties.EditFormat = EditFormat.Custom;
+                                                    dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                                    dateedit.Properties.MinDate = DateTime.Now.AddYears(-50);
+                                                    dateedit.Properties.MaxDate = DateTime.Now.AddYears(-18);
+                                                    dateedit.Properties.ValidationSettings.Display = Display.None;
+                                                    dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    dateedit.ShowModelErrors = true;
+                                                    dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = string.Empty;
+                                            layoutitem.ShowCaption = DefaultBoolean.False;
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Alamat Tempat Tinggal</p><hr />");
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Provinsi ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Provinsi, combosettings =>
+                                                {
+                                                    combosettings.Properties.NullText = "-- Pilih --";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Nama_Wilayah";
+                                                    combosettings.Properties.ValueField = "Nama_Wilayah";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetProvinsi()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Kota ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Kota, combosettings =>
+                                                {
+                                                    combosettings.Properties.NullText = "-- Pilih --";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Nama_Wilayah";
+                                                    combosettings.Properties.ValueField = "Nama_Wilayah";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetKota()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Alamat ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().TextBoxFor(m => m.Alamat, textbox =>
+                                                {
+                                                    textbox.Width = Unit.Pixel(400);
+                                                    textbox.Properties.HelpText = "(*) Isi dengan alamat tempat tinggal anda saat ini (provinsi - kota - alamat lengkap).";
+                                                    textbox.Properties.ValidationSettings.Display = Display.None;
+                                                    textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    textbox.ShowModelErrors = true;
+                                                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = string.Empty;
+                                            layoutitem.ShowCaption = DefaultBoolean.False;
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Tambahan</p><hr />");
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Agama ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Agama, combobox =>
+                                                {
+                                                    combobox.Properties.NullText = "-- Pilih --";
+                                                    combobox.Properties.HelpText = "(*) Pilih sesuai dengan agama yang dianut.";
+                                                    combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combobox.Properties.TextField = "Jenis_Isi";
+                                                    combobox.Properties.ValueField = "Jenis_Isi";
+                                                    combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combobox.Properties.ValidationSettings.Display = Display.None;
+                                                    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combobox.Width = Unit.Pixel(300);
+                                                    combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetAgama()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Status Pernikahan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Status_Nikah, combobox =>
+                                                {
+                                                    combobox.Properties.NullText = "-- Pilih --";
+                                                    combobox.Properties.HelpText = "(*) Pilih status pernikahan anda saat ini.";
+                                                    combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combobox.Properties.TextField = "Jenis_Isi";
+                                                    combobox.Properties.ValueField = "Jenis_Isi";
+                                                    combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combobox.Properties.ValidationSettings.Display = Display.None;
+                                                    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combobox.Width = Unit.Pixel(300);
+                                                    combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetStatus()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Email Pribadi ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().TextBoxFor(m => m.Email, textbox =>
+                                                {
+                                                    textbox.Name = "Email";
+                                                    textbox.Width = Unit.Pixel(400);
+                                                    textbox.Properties.HelpText = "(*) Isi dengan alamat email pribadi anda untuk mempermudah kontak dengan pihak perusahaan.";
+                                                    textbox.Properties.ValidationSettings.Display = Display.None;
+                                                    textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    textbox.ShowModelErrors = true;
+                                                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).GetHtml();
+                                            });
+                                        });
+
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Email Perusahaan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().TextBoxFor(m => m.Email_Perusahaan, textbox =>
+                                                {
+                                                    textbox.Name = "Email_Perusahaan";
+                                                    textbox.Width = Unit.Pixel(400);
+                                                    textbox.Properties.HelpText = "Isi dengan alamat email perusahaan yang valid (bila ada).";
+                                                    textbox.Properties.ValidationSettings.Display = Display.None;
+                                                    textbox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    textbox.ShowModelErrors = true;
+                                                    textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = string.Empty;
+                                            layoutitem.ShowCaption = DefaultBoolean.False;
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Perusahaan</p><hr />");
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Perusahaan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Perusahaan, combosettings =>
+                                                {
+                                                    combosettings.Name = "Perusahaan";
+                                                    combosettings.Properties.NullText = "-- Pilih Perusahaan Anda --";
+                                                    combosettings.Properties.HelpText = "(*) Pilih nama perusahaan tempat anda bekerja.";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Nama_Perusahaan";
+                                                    combosettings.Properties.ValueField = "Nama_Perusahaan";
+                                                    combosettings.Properties.EnableClientSideAPI = true;
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                    combosettings.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { Cabang.PerformCallback(); }";
+                                                }).BindList(Providers.GetPerusahaan()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Cabang ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.RenderPartial("_Cabang", Model);
+                                                // }).BindList(SQLRegister5).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Jabatan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Jabatan, combosettings =>
+                                                {
+                                                    combosettings.Name = "Jabatan";
+                                                    combosettings.Properties.NullText = "-- Pilih Jabatan Anda --";
+                                                    combosettings.Properties.HelpText = "(*) Pilih sesuai dengan jabatan anda saat ini.";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Jenis_Isi";
+                                                    combosettings.Properties.ValueField = "Jenis_Isi";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetJabatan()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Departemen ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Departemen, combosettings =>
+                                                {
+                                                    combosettings.Name = "Departemen";
+                                                    combosettings.Properties.NullText = "-- Pilih Departemen Anda --";
+                                                    combosettings.Properties.HelpText = "(*) Pilih departemen kerja anda saat ini.";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Jenis_Isi";
+                                                    combosettings.Properties.ValueField = "Jenis_Isi";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                    combosettings.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { Nama_Atasan.PerformCallback(); Nama_Supervisor.PerformCallback(); }";
+                                                }).BindList(Providers.GetDepartemen()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Atasan Utama ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.RenderPartial("_Atasan", Model);
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Atasan Kedua ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.RenderPartial("_Supervisor", Model);
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Tanggal Masuk ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().DateEditFor(m => m.Tgl_Masuk, dateedit =>
+                                                {
+                                                    dateedit.Name = "Tgl_Masuk";
+                                                    dateedit.Width = Unit.Pixel(300);
+                                                    dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                                    dateedit.Properties.HelpText = "(*) Isi dengan tanggal pertama kali anda bekerja di ARISTA Group.";
+                                                    dateedit.Properties.DisplayFormatString = "D";
+                                                    dateedit.Properties.NullText = "-- Pilih Tanggal --";
+                                                    dateedit.Properties.EditFormat = EditFormat.Custom;
+                                                    dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                                    dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                                    dateedit.Properties.ValidationSettings.Display = Display.None;
+                                                    dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    dateedit.ShowModelErrors = true;
+                                                    dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Status Karyawan ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Status_Karyawan, combosettings =>
+                                                {
+                                                    combosettings.Name = "Status_Karyawan";
+                                                    combosettings.Properties.NullText = "-- Pilih --";
+                                                    combosettings.Properties.HelpText = "(*) Isi dengan status pekerjaan anda saat ini. Status karyawan dapat ditanyakan kepada pihak HRD.";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                                    combosettings.Properties.TextField = "Jenis_Isi";
+                                                    combosettings.Properties.ValueField = "Jenis_Isi";
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).BindList(Providers.GetStatusKaryawan()).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = "Area Kerja ";
+                                            layoutitem.SetNestedContent(() =>
+                                            {
+                                                Html.DevExpress().ComboBoxFor(m => m.Area_Kerja, combosettings =>
+                                                {
+                                                    combosettings.Name = "Area_Kerja";
+                                                    combosettings.Properties.NullText = "-- Pilih --";
+                                                    combosettings.Properties.HelpText = "(*) Isi dengan area kerja karyawan ybs (HO/cabang).";
+                                                    combosettings.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                                    combosettings.Properties.Items.Add("Head Office", "Pusat");
+                                                    combosettings.Properties.Items.Add("Cabang", "Cabang");
+                                                    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                                    combosettings.Properties.ValidationSettings.Display = Display.None;
+                                                    combosettings.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combosettings.Width = Unit.Pixel(300);
+                                                    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+                                                }).GetHtml();
+                                            });
+                                        });
+                                        settings.Items.Add(layoutitem =>
+                                        {
+                                            layoutitem.Caption = string.Empty;
+                                            layoutitem.ShowCaption = DefaultBoolean.False;
+                                        });
+                                    }).GetHtml()
+                                    </div>
+                                    <div class="formbutton">
+                                    @Html.DevExpress().Button(button =>
+                                    {
+                                        button.Name = "btnRegister";
+                                        button.Text = "Register Karyawan";
+                                        button.Images.Image.Url = "~/Images/Document.png";
+                                        button.Images.Image.Width = Unit.Pixel(15);
+                                        button.Images.Image.Height = Unit.Pixel(15);
+                                        button.UseSubmitBehavior = true;
+                                        button.Theme = AristaHRM.Theme.SelectTheme;
+                                    }).GetHtml()
+                                    @{ ViewContext.Writer.Write("&nbsp;"); }
+                                    @Html.DevExpress().Button(button =>
+                                    {
+                                        button.Name = "btnReset";
+                                        button.Text = "Reset Formulir";
+                                        button.Images.Image.Url = "~/Images/Refresh.png";
+                                        button.Images.Image.Width = Unit.Pixel(15);
+                                        button.Images.Image.Height = Unit.Pixel(15);
+                                        button.UseSubmitBehavior = false;
+                                        button.Attributes.Add("type", "reset");
+                                        button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                        button.Theme = AristaHRM.Theme.SelectTheme;
+                                    }).GetHtml()
+                                    </div>
+                                }
+                                @* End form *@
+                                @Html.DevExpress().ValidationSummary().GetHtml()
+                                <br />
+                     </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

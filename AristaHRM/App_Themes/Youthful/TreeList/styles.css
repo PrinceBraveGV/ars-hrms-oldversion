@@ -1,0 +1,290 @@
+.dxtlControl_Youthful
+{
+	cursor: default;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	border: 1px none #b8d46d;
+}
+.dxtlControl_Youthful caption
+{
+	background: #AFC185 none;
+	color: white;
+	border-left: 1px solid white;
+	font-size: 1.25em;
+	text-align: center;
+	padding: 3px;
+}
+
+/* Indent cells */
+.dxtlIndent_Youthful,
+.dxtlIndentWithButton_Youthful
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_Youthful
+{
+	padding: 0 11px;
+}
+.dxtlIndentWithButton_Youthful
+{
+	padding: 7px;
+}
+.dxtlSelectionCell_Youthful
+{
+	border: 1px solid #d3e4a6;
+}
+
+/* Tree-lines cells */
+.dxtlLineRoot_Youthful
+{
+	background: White url('CssImages/TreeLineRoot.gif') repeat-y top center;
+}
+.dxtlLineFirst_Youthful
+{
+	background-image: url('CssImages/TreeLineFirst.gif');
+}
+.dxtlLineMiddle_Youthful
+{
+	background-image: url('CssImages/TreeLineMiddle.gif');
+}
+.dxtlLineLast_Youthful
+{
+	background-image: url('CssImages/TreeLineLast.gif');
+}
+
+.dxtlLineFirstRtl_Youthful
+{
+	background-image: url('CssImages/TreeLineFirstRtl.gif');
+}
+.dxtlLineMiddleRtl_Youthful
+{
+	background-image: url('CssImages/TreeLineMiddleRtl.gif');
+}
+.dxtlLineLastRtl_Youthful
+{
+	background-image: url('CssImages/TreeLineLastRtl.gif');
+}
+
+
+/* Headers */
+.dxtlControl_Youthful .dxtlHSDC
+{
+    background: #E5EECF none;
+}
+.dxtlHeader_Youthful
+{
+    background: #9cc525 none;
+	border-right: 1px none white;
+	border: 1px solid white;
+	padding: 4px 4px 5px;
+	font-weight: normal;
+}
+.dxtlHeader_Youthful table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_Youthful td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_Youthful,
+.dxtlHeader_Youthful td.dxtl
+{
+	color: white;
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_Youthful
+{
+	background: white none;
+}
+.dxtlAltNode_Youthful
+{
+	background: #EEF4E0 none;
+}
+.dxtlSelectedNode_Youthful
+{
+	background: #FFAF4D none;
+}
+.dxtlFocusedNode_Youthful
+{
+	background: #F4921B none;
+	color: white;
+}
+.dxtlInlineEditNode_Youthful
+{
+	background: #D3E4A6 none;
+}
+.dxtlEditFormDisplayNode_Youthful
+{
+	background: #E5EECF none;
+}
+.dxtlNode_Youthful td.dxtl, 
+.dxtlAltNode_Youthful  td.dxtl, 
+.dxtlSelectedNode_Youthful td.dxtl, 
+.dxtlFocusedNode_Youthful td.dxtl,
+.dxtlEditFormDisplayNode_Youthful td.dxtl,
+.dxtlCommandCell_Youthful
+{
+	padding: 4px 4px 5px;
+	border: 1px solid #d3e4a6;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlHeader_Youthful .dxbButton_Youthful,
+.dxtlCommandCell_Youthful .dxbButton_Youthful
+{
+    margin: 0 2px;
+}
+.dxtlHeader_Youthful .dxbButton_Youthful .dxb,
+.dxtlCommandCell_Youthful .dxbButton_Youthful .dxb
+{
+    padding-top: 0;
+    padding-bottom: 1px;
+}
+.dxtlInlineEditNode_Youthful td.dxtl
+{
+	border: 1px solid #d3e4a6;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_Youthful
+{
+	background: #E5EECF none;
+	color: #899766;
+	padding: 15px 15px 20px;
+	border: 1px solid #d3e4a6;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_Youthful
+{
+	background-color: #d6e4b1;
+}
+.dxtlFooter_Youthful,
+.dxtlControl_Youthful .dxtlFSDC
+{
+	background-color: #C2D491;
+}
+.dxtlGroupFooter_Youthful td.dxtl,
+.dxtlFooter_Youthful td.dxtl
+{
+	padding: 5px 4px 6px;
+	white-space: nowrap;
+	border-right: 1px solid #d3e4a6;
+	border-left: 1px solid #d3e4a6;
+	border: 1px solid White;
+	overflow: hidden;
+}
+.dxtlGroupFooter_Youthful .dx-ar > br,
+.dxtlFooter_Youthful .dx-ar > br
+{
+    float: none; 
+}
+
+
+/* Pagers */
+.dxtlPagerTopPanel_Youthful
+{
+	border-bottom: 1px none #b8d46d;
+	background: #e5eecf none;
+}
+.dxtlPagerBottomPanel_Youthful
+{
+	border-top: 1px none #b8d46d;
+	background: #e5eecf none;
+}
+
+/* Editing */
+.dxtlEditForm_Youthful
+{
+	background: white none;
+	border: 1px solid #d3e4a6;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_Youthful,
+.dxtlEditFormEditCell_Youthful
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_Youthful
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_Youthful
+{
+	background: #FFC8C8 none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #cfcfcf;
+}
+.dxtlPopupEditForm_Youthful
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_Youthful a,
+.dxtlCommandCell_Youthful a
+{
+	color: #7A9F0E;
+}
+.dxtlControl_Youthful a:hover
+{
+	color: #F4921B;
+}
+.dxtlHeader_Youthful a,
+.dxtlHeader_Youthful a:hover,
+.dxtlFocusedNode_Youthful a,
+.dxtlFocusedNode_Youthful a:hover,
+.dxtlSelectedNode_Youthful a, 
+.dxtlSelectedNode_Youthful a:hover
+{
+	color: White;
+}
+.dxtlCommandCell_Youthful a
+{
+	margin-right: 3px;
+}
+.dxtlPopupEditForm_Youthful .dxtlCommandCell_Youthful a
+{
+	color: #7A9F0E;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_Youthful
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9BC424;
+	background-color: White;
+}
+.dxtlLoadingPanel_Youthful td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxtlLoadingPanel_Youthful .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 7px;
+	width: 72px;
+}
+
+/* Disabled */
+.dxtlDisabled_Youthful,
+.dxtlDisabled_Youthful .dxtl_Youthful
+{
+	color: #808080;
+	cursor: default;
+}
+

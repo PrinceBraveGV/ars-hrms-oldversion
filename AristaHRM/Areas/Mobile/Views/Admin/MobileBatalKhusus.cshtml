@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = " - Pembatalan Cuti Khusus -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "AdminCuti", "Admin", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<script type="text/javascript">
+    function customButtonClick(s, e, url) {
+        // fungsi handler pembatalan dengan tombol khusus
+        var key = s.GetRowKey(e.visibleIndex);
+        var dtstamp = key.substring(0, 8);
+        var order = key.substring(9);
+        var key = dtstamp + order;
+        var DestUrl = null;
+
+        if (e.buttonID === "Batal") {
+            DestUrl = url + "/" + key;
+            var ans = confirm("Yakin akan membatalkan cuti khusus yang dipilih?");
+            if (ans == true) {
+                window.location.href = DestUrl;
+            }
+        }
+    }
+</script>
+
+@using (Html.BeginForm())
+{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Menu</a> > <a href="@Url.Action("AdminCuti", "Admin", mobilearea)">Admin Cuti</a> > Pembatalan Cuti Khusus</li>
+        <li data-role="list-divider">Pembatalan Cuti Khusus</li>
+        <li data-role="footer">@Html.ActionLink("Pembatalan Cuti Tahunan", "BatalTahunan", "Admin", mobilearea, new { @style = "text-align:center" })</li>
+    </ul>
+    
+    Html.RenderAction("BatalKhususPartial", "Admin", mobilearea);
+}
+
+
+
+

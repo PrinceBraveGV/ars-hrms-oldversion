@@ -1,0 +1,28 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "ShiftKhususGrid";
+        settings.CallbackRouteValues = new { Controller = "Absen", Action = "ShiftKhususPartial" };
+        settings.Width = Unit.Percentage(100);
+
+        settings.KeyFieldName = "";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "";
+            column.Caption = "";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "";
+            column.Caption = "";
+        });
+    });
+    
+    
+    
+}
+
+@grid.Bind(Model).GetHtml()

@@ -1,0 +1,55 @@
+.dxRichEdit_CenterTabDragHandle_BlackGlass,
+.dxRichEdit_DecimalTabDragHandle_BlackGlass,
+.dxRichEdit_FirstLineIdentDragHandle_BlackGlass,
+.dxRichEdit_LeftIdentDragHandle_BlackGlass,
+.dxRichEdit_LeftTabDragHandle_BlackGlass,
+.dxRichEdit_RightIdentDragHandle_BlackGlass,
+.dxRichEdit_RightTabDragHandle_BlackGlass
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_BlackGlass
+{
+    background-position: 0px -34px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_DecimalTabDragHandle_BlackGlass
+{
+    background-position: 0px -27px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_BlackGlass
+{
+    background-position: 0px -9px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_BlackGlass
+{
+    background-position: 0px -18px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_BlackGlass
+{
+    background-position: 0px -48px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_RightIdentDragHandle_BlackGlass
+{
+    background-position: 0px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_BlackGlass
+{
+    background-position: 0px -41px;
+    width: 6px;
+    height: 6px;
+}
+

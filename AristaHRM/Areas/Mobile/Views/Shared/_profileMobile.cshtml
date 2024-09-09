@@ -1,0 +1,113 @@
+﻿@using System.Web.Optimization
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <title>- Mobile HRIS -</title>
+
+    @{
+        @Scripts.Render("~/bundles/jquerymobile");
+        @Scripts.Render("~/bundles/modernizr");
+        @Scripts.Render("~/bundles/momentbase");
+        @Scripts.Render("~/bundles/pdf");
+        @Styles.Render("~/Content/Mobile/css");
+        @Styles.Render("~/Content/themes/base/css");
+        @Styles.Render("~/Content/jquerymobile/css");
+    }
+
+    <script type="text/javascript" src="~/Scripts/jquery.ui.datepicker-id.js"></script>
+
+    <script type="text/javascript">
+        function CutiGauge() {
+            // update 160120: menghindari error null (mengingat penunjuk sisa cuti hanya ada di halaman profil saja)
+            var sct = document.getElementById("SisaCuti");
+            var tct = document.getElementById("TotalCuti");
+
+            if (sct !== null && tct !== null) {
+                var SisaCuti = document.getElementById("SisaCuti").value;
+                var TotalCuti = document.getElementById("TotalCuti").value;
+                if (SisaCuti <= 0 && TotalCuti <= 0) {
+                    document.getElementById("TC").innerHTML = TotalCuti;
+                    document.getElementById("gaugebar").style.width = "0%";
+                    document.getElementById("emptybar").style.width = "100%";
+                    document.getElementById("emptybar").style.backgroundColor = "#000000";
+                }
+                else if (SisaCuti <= 0 && TotalCuti > 0) {
+                    document.getElementById("TC").innerHTML = TotalCuti;
+                    document.getElementById("gaugebar").style.width = "0%";
+                    document.getElementById("emptybar").style.width = "100%";
+                    document.getElementById("emptybar").style.backgroundColor = "#000000";
+                }
+                else {
+                    var Persen = (SisaCuti / TotalCuti) * 100;
+                    document.getElementById("gaugebar").style.width = Persen + "%";
+                    document.getElementById("emptybar").style.width = 100 - Persen + "%";
+                    document.getElementById("emptybar").style.backgroundColor = "#000000";
+
+                    if (Persen > 0 && Persen <= 25) {
+                        document.getElementById("gaugebar").style.backgroundColor = "#FF0000";
+                    }
+                    else if (Persen > 25 && Persen <= 50) {
+                        document.getElementById("gaugebar").style.backgroundColor = "#FF6A00";
+                    }
+                    else if (Persen > 50 && Persen <= 75) {
+                        document.getElementById("gaugebar").style.backgroundColor = "#00FF00";
+                    }
+                    else if (Persen > 75 && Persen <= 100) {
+                        document.getElementById("gaugebar").style.backgroundColor = "#009003";
+                    }
+                    else {
+                        document.getElementById("gaugebar").style.backgroundColor = "#009003";
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div data-role="page" data-theme="b" style="overflow:scroll">
+        <div data-role="header">
+            @if (IsSectionDefined("Header"))
+            {
+                <h1>Mobile HRIS</h1>
+                @RenderSection("Header")
+            }
+            else
+            {
+                <h1>Mobile HRIS</h1>
+                @Html.Partial("_LogOnMobileView")
+            }
+        </div>
+        <div data-role="header" style="text-align:center">
+            @if (IsSectionDefined("Title"))
+            {
+                @RenderSection("Title")
+            }
+        </div>
+        <div data-role="content" style="overflow:scroll" ng-app="HRISMobile">
+            @RenderBody()
+        </div>
+        <div data-role="footer" style="text-align:center">
+            @Html.ActionLink("Desktop View", "Index", "Home", new { area = "" }, null)
+            <p style="font-weight:lighter">
+                HRIS Mobile Theme @DateTime.Now.Year
+                <br />Version 0.5.0
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).on('mobileinit', function () {
+            $.mobile.ajaxEnabled = false;
+        });
+
+        $(document).on('pageshow', '[data-role=page]', function () {
+            $(window).resize();
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

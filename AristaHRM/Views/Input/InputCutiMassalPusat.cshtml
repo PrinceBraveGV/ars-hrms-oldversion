@@ -1,0 +1,149 @@
+﻿@{
+    ViewBag.Title = "HRIS - Cuti Massal Kantor Pusat";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model CutiMassalModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function CMPusatGrid_FocusedRowChanged(s, e) {
+        if (s.cpIsEditing) {
+            s.UpdateEdit();
+        }
+    }
+
+    function CMPusatGrid_RowDblClick(s, e) {
+        s.StartEditRow(e.visibleIndex);
+    }
+
+    function editor_KeyDown(s, e) {
+        switch (e.htmlEvent.keyCode) {
+            case 13:
+                CMPusatGrid.UpdateEdit();
+                break;
+            case 27:
+                CMPusatGrid.CancelEdit();
+                break;
+        }
+    }
+
+    function onInit(s, e) {
+        adjustSize();
+    }
+    function onEndCallback(s, e) {
+        if (s.cpMessage) {
+            alert(s.cpMessage);
+            delete s.cpMessage;
+        }
+
+        var edit = s.GetEditor(1);
+        if (edit) {
+            edit.SelectAll();
+            edit.SetFocus();
+        }
+        adjustSize();
+    }
+    function onControlsInitialized(s, e) {
+        ASPxClientUtils.AttachEventToElement(window, "resize", function (evt) {
+            adjustSize();
+        });
+    }
+    function adjustSize() {
+        var height = Math.max(0, document.documentElement.clientHeight);
+        CMPusatGrid.SetHeight(height);
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Cuti Massal Kantor Pusat</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <p style="font: 14px Arial; color:blue; text-align:center;">Input Cuti Massal Baru</p>
+                        @using (Html.BeginForm("InputCutiMassalPusat", "Input", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "CutiMassalPusatLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tanggal Cuti Massal ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Cuti, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(200);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.NullText = "-- Pilih Tanggal --";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                            dateedit.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Keterangan ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().TextBoxFor(m => m.Keterangan, textbox =>
+                                        {
+                                            textbox.Width = Unit.Pixel(400);
+                                            textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml();
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Proses Cuti Massal";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                            ViewContext.Writer.Write("&nbsp;");
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml();
+                            <hr />
+                            <p style="font: 14px Arial; color:blue; text-align:center;">Daftar Cuti Massal Kantor Pusat</p>
+                            Html.RenderAction("CutiMassalPusatPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

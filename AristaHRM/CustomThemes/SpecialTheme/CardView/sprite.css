@@ -1,0 +1,51 @@
+.dxCardView_gvCellError_SpecialTheme,
+.dxCardView_gvFilterRowButton_SpecialTheme,
+.dxCardView_gvHeaderFilter_SpecialTheme,
+.dxCardView_gvHeaderFilterActive_SpecialTheme,
+.dxCardView_gvHeaderSortDown_SpecialTheme,
+.dxCardView_gvHeaderSortUp_SpecialTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_SpecialTheme
+{
+    background-position: 0px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_SpecialTheme
+{
+    background-position: -15px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_SpecialTheme
+{
+    background-position: 0px -29px;
+    width: 18px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilterActive_SpecialTheme
+{
+    background-position: 0px -15px;
+    width: 18px;
+    height: 13px;
+}
+.dxCardView_gvHeaderSortDown_SpecialTheme
+{
+    background-position: -19px -15px;
+    width: 9px;
+    height: 13px;
+}
+.dxCardView_gvHeaderSortUp_SpecialTheme
+{
+    background-position: -19px -29px;
+    width: 9px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilterActive_SpecialTheme
+{
+	background-color: #C00000;
+}

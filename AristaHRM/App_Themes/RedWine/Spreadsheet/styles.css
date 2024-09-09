@@ -1,0 +1,186 @@
+.dxssControl_RedWine 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A74768;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_RedWine .dxrControl_RedWine .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_RedWine .dxss-gl .dxss-v,
+.dxssControl_RedWine .dxss-gl .dxss-h 
+{
+	border-color: #D5D5D5;
+}
+.dxssControl_RedWine .dxss-rowHeader 
+{	
+	border-right: 1px solid #D5D5D5;
+	border-top: 1px solid #D5D5D5;
+}
+.dxssControl_RedWine .dxss-colHeader 
+{
+	border-bottom: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+}
+.dxssControl_RedWine .dxss-crse 
+{
+	background-color: #AD275C; 
+	opacity: .15
+}
+ .dxssControl_RedWine .dxss-trbe 
+ {
+	border-top-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-rrbe 
+{
+	border-right-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-brbe 
+{
+	border-bottom-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-lrbe 
+{
+	border-left-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-smbe
+{
+    border-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-hrg,
+.dxssControl_RedWine .dxss-vrg 
+{
+	background-color: #AD275C;
+}
+.dxssControl_RedWine .dxtcLite_RedWine.dxtc-bottom .dxtc-stripContainer .dxtc-sbSpacer 
+{
+	border-bottom-style: none;
+	border-top: 1px solid #A74768;
+}
+.dxssControl_RedWine .dxrControl_RedWine .dxr-minBtn
+{
+	padding-right: 7px;
+}
+.dxssControl_RedWine .dxss-tse
+{
+	border-color: #AD275C;
+}
+.dxssControl_RedWine .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_RedWine .dxss-ddp,
+.dxssControl_RedWine .dxss-ddb
+{
+    border: 1px solid #8A0A37;
+}
+.dxssControl_RedWine .dxss-ddp tr:hover
+{
+    background-color: #DBBBDA;
+}
+/* Loading panel */
+.dxssLoadingDiv_RedWine
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxssLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxssLoadingPanel_RedWine .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_RedWine .dxssDlgFooter
+{
+	background-color: #EED8E3;
+	border-top: 1px #CB9FB4 solid;
+}
+.dxpcLite_RedWine .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_RedWine .dxrpControl_RedWine .dxrpcontent
+{
+	padding: 11px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_RedWine
+{
+	color: #FFFFFF;
+	background: #D69BD3 url('../Editors/edtButtonHoverBack.gif') repeat-x top;
+	border: 1px solid #6C2668;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_RedWine
+{
+	color: #FFFFFF;
+	background: #E0496C url('../Editors/edtButtonCheckedBack.gif') repeat-x top;
+	border: 1px solid #8A0A37;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_RedWine
+{
+	color: #FFFFFF;
+	background: #BD71B9 url('../Editors/edtButtonPressedBack.gif') repeat-x top;
+	border: 1px solid #6C2668;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButton_RedWine div.dxb
+{
+	border: 1px Dotted transparent;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_RedWine .dxss-ctve {
+	border: 2px solid #AD275C; /*the same -dxss-cfe */
+}
+.dxssControl_RedWine .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.dxssControl_RedWine .dxmLite_RedWine .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_RedWine .dxmLite_RedWine .dxss-fbMenu li {
+    border: 0;
+}
+.dxssControl_RedWine .dxss-fbMenu .dxm-content {
+    padding-top: 1px!important;
+}
+.dxssControl_RedWine .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #6A0623;
+    color: White;
+    background-color: #BD3464;
+}
+.dxssControl_RedWine .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

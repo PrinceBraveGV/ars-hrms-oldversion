@@ -1,0 +1,14 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dx" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc5.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxHtmlEditor runat="server" Width="700px">
+    <Styles CssPostfix="iOS" CssFilePath="~/App_Themes/iOS/{0}/styles.css">
+    </Styles>
+    <Images SpriteCssFilePath="~/App_Themes/iOS/{0}/sprite.css" MenuIconSet="Colored">
+    </Images>
+    <ImagesFileManager>
+        <FolderContainerNodeLoadingPanel Url="~/App_Themes/iOS/Web/tvNodeLoading.gif"></FolderContainerNodeLoadingPanel>
+    </ImagesFileManager>
+</dxmvc:MVCxHtmlEditor>
+

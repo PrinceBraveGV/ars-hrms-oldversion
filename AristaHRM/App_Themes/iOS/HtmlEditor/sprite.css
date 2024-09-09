@@ -1,0 +1,232 @@
+.dxHtmlEditor_heConstrainProportionsBottom_iOS,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsTop_iOS,
+.dxHtmlEditor_heConstrainProportionsTopRtl_iOS,
+.dxHtmlEditor_heEnumIcon_iOS,
+.dxHtmlEditor_heErrorFrameCloseButton_iOS,
+.dxHtmlEditor_heEventIcon_iOS,
+.dxHtmlEditor_heFieldIcon_iOS,
+.dxHtmlEditor_heReset_iOS,
+.dxHtmlEditor_heSizeGrip_iOS,
+.dxHtmlEditor_heSizeGripRtl_iOS,
+.dxHtmlEditor_heTagInspectorChangeButton_iOS,
+.dxHtmlEditor_heTagInspectorRemoveButton_iOS,
+.dxHtmlEditor_heTagInspectorSeparator_iOS,
+.dxHtmlEditor_heToolbarPopOut_iOS,
+.dxHtmlEditor_heXmlItemIcon_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_iOS
+{
+    background-position: -17px -196px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_iOS
+{
+    background-position: -21px -189px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS
+{
+    background-position: -20px -120px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_iOS
+{
+    background-position: -21px -99px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS
+{
+    background-position: 0px -160px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_iOS
+{
+    background-position: -20px -140px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_iOS
+{
+    background-position: -21px -224px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_iOS
+{
+    background-position: -17px -213px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_iOS
+{
+    background-position: 0px -179px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_iOS
+{
+    background-position: -17px -179px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_iOS
+{
+    background-position: 0px -213px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_iOS
+{
+    background-position: -12px -160px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_iOS
+{
+    background-position: 0px -99px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_iOS
+{
+    background-position: 0px -33px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_heSizeGripRtl_iOS
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_iOS
+{
+    background-position: 0px -120px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_iOS
+{
+    background-position: 0px -140px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_iOS
+{
+    background-position: -28px -205px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_iOS
+{
+    background-position: 0px -66px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_heXmlItemIcon_iOS
+{
+    background-position: 0px -196px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS
+{
+    background-position: -22px -207px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS
+{
+    background-position: 0px -230px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS
+{
+    background-position: -6px -230px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS
+{
+    background-position: -12px -230px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS
+{
+    background-position: -12px -236px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS
+{
+    background-position: -18px -230px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS
+{
+    background-position: 0px -236px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS
+{
+    background-position: -18px -236px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS
+{
+    background-position: -24px -230px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS
+{
+    background-position: -6px -236px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS,
+.dxHtmlEditor_heConstrainProportionsBottom_iOS,
+.dxHtmlEditor_heConstrainProportionsTop_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS
+{
+	display:block;
+}

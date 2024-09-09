@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "HRIS - Halaman Testing";
+    Layout = "~/Views/Shared/_lightLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+<script type="text/javascript">
+    function OnButtonClick(s, e, startUrl, progressUrl) {
+        //debugger;
+        StartActionOnServer(startUrl);
+        setInterval(keepalive, 3000); //every 10 minutes. 
+    }
+
+    function StartActionOnServer(startUrl) {
+        positionDate = new Date().toDateString();
+        $.ajax({
+            type: 'POST',
+            url: startUrl,
+            data: JSON.stringify({ positionDate: positionDate }),
+            dataType: "text",
+            contentType: "application/json; charset=utf-8",
+            success: function (msg) {
+                console.log(msg);
+            },
+
+            error: function (xhr) {
+                alert(xhr);
+            }
+        });
+    }
+
+    function keepalive() {
+        console.log("I am alive");
+        $.ajax({
+            type: 'POST',
+            url: '/Settings/alive',
+            dataType: "text",
+            contentType: "application/json; charset=utf-8",
+            success: function (msg) {
+                debugger;
+                console.log("pinging");
+                // console.log(msg);
+            },
+
+            error: function (xhr) {
+                alert(xhr);
+            },
+        });
+    }
+</script>
+
+@Html.DevExpress().Button(settings =>
+{
+    settings.Name = "LoadData";
+    settings.Text = "Load Data";
+    settings.ClientSideEvents.Click = string.Format("function(s, e) {{ OnButtonClick(s, e, '{0}', '{1}'); }}", Url.Action("Start", "Settings", null), Url.Action("alive", "Settings", null));
+    settings.UseSubmitBehavior = false;
+}).GetHtml()

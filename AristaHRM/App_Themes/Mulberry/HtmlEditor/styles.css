@@ -1,0 +1,561 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Mulberry
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxheLoadingPanel_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxheLoadingPanel_Mulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+.dxheControl_Mulberry
+{
+    border: Solid 1px #cbcbcb;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+
+/* Area */
+.dxheContentArea_Mulberry
+{
+    padding: 0;
+}
+.dxheErrorFrame_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_Mulberry .dxeMemo_Mulberry .dxheErrorFrame_Mulberry .dxhe,
+.dxheControl_Mulberry.dxhe-rtl .dxeMemo_Mulberry .dxheErrorFrame_Mulberry .dxhe,
+.dxheErrorFrame_Mulberry .dxhe 
+{
+    padding: 5px;
+}
+.dxheControl_Mulberry .dxeMemo_Mulberry .dxheErrorFrame_Mulberry .dxhe td,
+.dxheControl_Mulberry.dxhe-rtl .dxeMemo_Mulberry .dxheErrorFrame_Mulberry .dxhe td,
+.dxheErrorFrame_Mulberry .dxhe td 
+{
+    padding: 0;
+}
+.dxheErrorFrame_Mulberry .dxheErrorFrameCloseButton_Mulberry 
+{
+    cursor: pointer;
+}
+.dxheViewArea_Mulberry,
+.dxheViewArea_Mulberry.dxeMemo_Mulberry
+{
+    border: 0;
+}
+.dxheContentArea_Mulberry td.dxheViewArea_Mulberry 
+{
+    line-height: 0;
+}
+.dxheContentArea_Mulberry td.dxheViewArea_Mulberry.dxheHtmlViewArea_Mulberry
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_Mulberry,
+.dxhePreviewArea_Mulberry
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_Mulberry .dxheHtmlViewArea_Mulberry,
+.dxheHtmlViewArea_Mulberry .CodeMirror,
+body.dxheDesignViewArea_Mulberry,
+body.dxhePreviewArea_Mulberry 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #343434;
+}
+.dxheContentArea_Mulberry .dxeMemo_Mulberry,
+.dxheContentArea_Mulberry .dxeMemoEditArea_Mulberry
+{
+    background-color: white;
+}
+.dxheControl_Mulberry .dxeMemo_Mulberry.dxheHtmlViewArea_Mulberry .dxeMemoEditArea_Mulberry,
+body.dxheDesignViewArea_Mulberry,
+body.dxhePreviewArea_Mulberry
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_Mulberry .dxeMemo_Mulberry.dxheHtmlViewArea_Mulberry td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_Mulberry.dxhe-rtl .dxheContentArea_Mulberry .dxeMemo_Mulberry.dxheHtmlViewArea_Mulberry td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_Mulberry .dxeMemo_Mulberry textarea 
+{
+	resize:none;
+}
+.dxheControl_Mulberry td.dxheDesignViewArea_Mulberry .dxm-main.dxmtb 
+{
+    border: 1px solid #cfcfcf;
+    padding: 2px 3px;
+    background-color: #fafafa;
+}
+.dxheControl_Mulberry td.dxheDesignViewArea_Mulberry
+{
+    position: relative;
+}
+td.dxheDesignViewArea_Mulberry .dxmLite_Mulberry {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_Mulberry .dxmLite_Mulberry.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_Mulberry .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_Mulberry .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_Mulberry .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_Mulberry .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_Mulberry img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_Mulberry img.dxheAudio,
+.dxheViewArea_Mulberry img.dxheFlash,
+.dxheViewArea_Mulberry img.dxheVideo,
+.dxheViewArea_Mulberry img.dxheYoutube,
+.dxheViewArea_Mulberry img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_Mulberry .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_Mulberry.dxheDesignViewArea_Mulberry .dxheSelected
+{
+    background-color: #C5C5C5;
+}
+.dxhe-insertPlaceholder .dxeListBox_Mulberry.dxeFocused_Mulberry
+{
+    border: 1px solid #CBCBCB;
+}
+div.dxflFormLayout_Mulberry.dxhe-dialog.dxhe-insertPlaceholder > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 20px 40px 30px 40px;
+}
+.dxhe-insertPlaceholder .dxflGroup_Mulberry .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 13px;
+}
+.dxhe-insertPlaceholder .dxeListBox_Mulberry,
+.dxhe-insertPlaceholder .dxeListBox_Mulberry .dxlbd
+{
+    width: 260px;
+    height: 240px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_Mulberry .CodeMirror-activeline-background 
+{
+    background: #efd3da;
+    opacity: 0.4;
+}
+.dxheHtmlViewArea_Mulberry .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_Mulberry .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_Mulberry .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Mulberry table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Mulberry table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Mulberry table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Mulberry table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_Mulberry
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_Mulberry pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_Mulberry 
+{
+    
+}
+.dxheStatusBarTab_Mulberry 
+{    
+}
+.dxHtmlEditor_heSizeGrip_Mulberry
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Mulberry
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Mulberry 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -18px;
+}
+.dxheControl_Mulberry.dxhe-rtl .dxheSizeGripContainer_Mulberry
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_Mulberry .dxheDlgFooter,
+.dxpcLite_Mulberry .dxheCustomDialog_Mulberry .dxhecd-Buttons
+{
+	background-color: #fafafa;
+	border-top: 1px #cbcbcb solid;
+	padding: 16px 11px;
+	text-align: right;
+}
+.dxpcLite_Mulberry.dxRtl .dxheDlgFooter,
+.dxpcLite_Mulberry.dxRtl .dxheCustomDialog_Mulberry .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_Mulberry .dxheDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 6px;
+}
+.dxpcLite_Mulberry.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 6px;
+    margin-left: 0;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_Mulberry .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #cbcbcb;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgRadionButtonTable
+{
+    width: 360px;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgFromTheWeb
+{
+    width: 360px;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgWrapTextCell
+{
+    width: 180px;
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgCaptionCell,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgCaptionCell
+{
+    padding-top: 9px;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeTextBox_Mulberry,
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeButtonEdit_Mulberry  
+{ 
+    width: 200px!important; 
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxrpControl_Mulberry > tbody > tr > td > table,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxrpControl_Mulberry > tbody > tr > td > table
+{
+    width: 480px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgSpinEdit,
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgSpinEdit,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSpinEdit
+{
+    width: 70px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertImageForm .dxheDlgColorEdit,
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgColorEdit,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgColorEdit
+{
+    width: 140px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgSizeComboBox,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSizeComboBox
+{
+    width: 170px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgSizeTypeComboBox,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSizeTypeComboBox
+{
+    width: 60px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgAlignComboBox,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgAlignComboBox
+{
+    width: 100px!important;
+}
+.dxpcLite_Mulberry .dxheDlgInsertTableForm .dxheDlgHeaderComboBox,
+.dxpcLite_Mulberry .dxheDlgTableColumnPropertiesForm .dxheDlgHeaderComboBox
+{
+    width: 120px!important;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Mulberry
+{
+	height: 1px;
+}
+.dxtbControl_Mulberry 
+{
+	color: #343434;
+	background-color: #fafafa;
+    border-bottom: Solid 1px #cbcbcb;
+}
+.dxtbControl_Mulberry > tbody > tr > td
+{
+    padding: 2px 0;
+}
+.dxtbControl_Mulberry td.dxmMenu_Mulberry
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_Mulberry
+{
+    padding: 3px 2px;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry > .dxtc-stripContainer.dxtc-strip
+{
+    padding-top: 4px !important;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-leftIndent
+{
+    width: 4px !important;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    border-bottom: 1px solid #cbcbcb!important;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom: 1px solid transparent!important;
+    border-top: 1px solid #cbcbcb!important;
+}
+.dxheControl_Mulberry.dxhe-rtl .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #cbcbcb !important;
+    border-right: 1px solid transparent!important;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab
+{
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tabHover
+{
+    border-top: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-spacer
+{
+    width: 2px;
+    margin-left: -1px;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top > ul
+{
+    border: 0!important;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxr-minBtn
+{
+    margin: 0 5px 0 0;
+}
+.dxheControl_Mulberry .dxtbControl_Mulberry.dxtbr_Mulberry,
+.dxheControl_Mulberry .dxrControl_Mulberry .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #cbcbcb;
+}
+.dxheControl_Mulberry .dxrControl_Mulberry .dxtcLite_Mulberry.dxtc-top .dxtc-tab
+{
+	background-color: #fafafa;
+}
+
+/* Toolbars Lightweight Mode */
+.dxmLite_Mulberry .dxhetipControl_Mulberry img
+{
+	vertical-align: top;
+	margin-top: 3px;
+}
+.dxtbControl_Mulberry .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbControl_Mulberry > img
+{
+    margin-top: -1px;
+}
+.dxtbControl_Mulberry .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_Mulberry
+{
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+.dxtbControl_Mulberry .dxmLite_Mulberry .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_Mulberry .dxmLite_Mulberry .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Mulberry { }
+.dxtcbColorDiv_Mulberry
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Mulberry .dxrpcontent
+{
+    padding: 9px 10px 10px 10px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_Mulberry .dxhe-dialogSettings 
+{
+    width: 300px;
+    padding-left: 25px;
+}
+.dxflFormLayout_Mulberry.dxhe-mediaDialog 
+{
+    width: 800px;
+}
+.dxflFormLayout_Mulberry.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_Mulberry.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 570px;
+}
+div.dxflFormLayout_Mulberry.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div.dxflFormLayout_Mulberry.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Mulberry.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 25px;
+}
+
+div.dxflFormLayout_Mulberry.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_Mulberry.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 40px;
+}
+/* tag inspector */
+.dxheDesignViewArea_Mulberry .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+.dxheDesignViewArea_Mulberry .dxhe-tiSeparator,
+.dxheDesignViewArea_Mulberry .dxhe-tiTagName 
+{
+    color: #343434;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_Mulberry.dxeFocused_Mulberry
+{
+    border-color: #CBCBCB;
+    outline: inherit;
+}
+
+div.dxhe-searchQuick div.dxbButton_Mulberry .dxb
+{
+    padding: 1px 12px;
+}
+.dxpcLite_Mulberry.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_Mulberry .dxb
+{
+    padding: 2px 10px;
+}
+.dxflFormLayout_Mulberry.dxhe-searchAdvancedButtons .dxhe-searchdialogLG,
+.dxpcLite_Mulberry .dxhe-searchWarning
+{
+    padding: 12px;
+}
+.dxhe-searchAdvanced .dxflGroup_Mulberry.dxhe-searchdialogLG 
+{
+    padding: 20px 32px;
+}
+.dxflFormLayout_Mulberry.dxhe-searchdialog.dxhe-searchQuick
+{
+    padding: 2px;
+}

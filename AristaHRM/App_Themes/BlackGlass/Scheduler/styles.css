@@ -1,0 +1,475 @@
+.dxscControl_BlackGlass
+{    
+    background: black;
+    border: solid 1px black;
+    font: 12px Tahoma, Geneva, sans-serif;		
+}
+/*Loading Panel*/
+.dxscLoadingPanel_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9F9F9F;
+	background-color: White;
+}
+.dxscLoadingPanel_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxscLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+
+/* Headers */
+.dxscDateHeader_BlackGlass, 
+.dxscAlternateDateHeader_BlackGlass,
+.dxscDayHeader_BlackGlass,
+.dxscDateCellHeader_BlackGlass,
+.dxscTodayCellHeader_BlackGlass,
+.dxscTimelineDateHeader_BlackGlass,
+.dxscHorizontalResourceHeader_BlackGlass,
+.dxscVerticalResourceHeader_BlackGlass
+{    
+    color: white;
+    background: url('CssImages/HeaderBack.gif') repeat-x left top #474747;
+    border: solid 1px black;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;	
+}
+
+.dxscAlternateTimelineDateHeader_BlackGlass,
+.dxscAlternateDateHeader_BlackGlass
+{    
+    background: url('CssImages/HeaderAltBack.gif') repeat-x left top #7CABC4;
+    color: #FFFFFF;
+}
+.dxscDayHeader_BlackGlass
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_BlackGlass
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_BlackGlass
+{    
+    border-top-width: 1px;
+    background: url('CssImages/HeaderAltBack.gif') repeat-x left top #7CABC4;
+    color: #FFFFFF;
+}
+.dxscTimelineDateHeader_BlackGlass
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_BlackGlass
+{
+    border-width: 1px 1px 1px 0;
+    background: #868686;    
+}
+.dxscVerticalResourceHeader_BlackGlass
+{
+    border-width: 1px 1px 0 0;
+    border-top-color: #93C3D3;
+    background: #868686;    
+    white-space: normal;
+}
+.dxscSelectionBar_BlackGlass 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_BlackGlass, 
+.dxscRightTopCorner_BlackGlass
+{
+    background: url('CssImages/AdaBack.gif') repeat-x left bottom #E8EDF1;
+    width: 1px;
+    border-style: solid;
+    border-color: #A4BED1 ;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_BlackGlass
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.91em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_BlackGlass 
+{
+    background: #A4BED1;
+    border: solid 1px black;
+}
+.dxscGroupSeparatorHorizontal_BlackGlass
+{
+    background: White;
+    border: solid 1px #A4BED1;
+}
+
+.dxscGroupSeparatorVertical_BlackGlass
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_BlackGlass
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_BlackGlass
+{
+    background: url('CssImages/AdaBack.gif') repeat-x left bottom #E8EDF1;
+    border: solid 1px #A4BED1 ;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_BlackGlass 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_BlackGlass
+{
+    border: solid 1px;
+}
+.dxscTimelineCellBody_BlackGlass
+{
+    height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_BlackGlass
+{
+    color: black;
+    font-size: 0.91em;
+    border: solid 1px #7f9db9;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+}
+.dxscAppointmentInnerBorders_BlackGlass
+{	
+    border: solid 1px #7f9db9;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_BlackGlass
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_BlackGlass
+{
+    font-size: 0.91em;
+    color: black;
+    text-decoration: underline;	
+    padding: 0;	
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_BlackGlass, .dxscTimeRulerMinuteItem_BlackGlass
+{
+    color: #5D5D5D;
+    background: #EBF0F3;
+    border: solid 1px #A4BED1 ;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_BlackGlass
+{
+    border-right-width: 0;
+    border-left-color: black;
+    font-size: 1.42em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_BlackGlass
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.91em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_BlackGlass
+{
+    width: 55px;
+}
+.dxscTimeRulerHeaderMinuteItem_BlackGlass
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_BlackGlass 
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_BlackGlass
+{
+    background: url('CssImages/ToolbarBack.gif') repeat-x #DDECF4;
+}
+.dxscToolbar_BlackGlass 
+{
+    padding: 9px 0 9px 6px;
+}
+.dxscViewSelector_BlackGlass 
+{    
+    background: url('CssImages/ToolbarBack.gif') repeat-x #DDECF4;
+    padding: 9px 6px;   
+}
+.dxscResourceNavigator_BlackGlass 
+{    
+    background: #CADAE6;
+    padding: 7px;
+    border: solid 1px black;
+}
+.dxscViewVisibleInterval_BlackGlass
+{
+    color: black;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_BlackGlass
+{
+    background: #B6D5E3;
+    border: solid 3px black;
+    padding: 0;
+    font-size: 0.91em;
+    color: Black;
+}
+.dxscErrorInfo_BlackGlass
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px Black;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewNavigatorButton_BlackGlass,
+.dxscViewNavigatorGotoDateButton_BlackGlass
+{    
+    background: url('CssImages/ButtonBack.gif') repeat-x #E7EEEE;
+    border: solid 1px #B2BDBF;
+    line-height: 100%;
+    padding: 7px 7px;
+
+    min-height: 1em;
+    display: block!important;
+}
+.dxscViewNavigatorGotoDateButton_BlackGlass
+{
+    padding: 7px 6px;
+}
+.dxscViewNavigatorButton_BlackGlass.dxscViewNavigatorGotoTodayButton
+{    
+    padding: 5px 7px;
+}
+.dxscViewNavigatorButtonHover_BlackGlass,
+.dxscViewNavigatorGotoDateButtonHover_BlackGlass
+{
+    background: url('CssImages/ButtonHoverBack.gif') repeat-x #DDEEF3;
+    border: solid 1px #8DC5D8;
+}
+.dxscViewNavigatorButtonPressed_BlackGlass,
+.dxscViewNavigatorGotoDateButtonPressed_BlackGlass
+{
+    background: url('CssImages/ButtonPressedBack.gif') repeat-x #D0E8EE;
+    border: solid 1px #62AFC9;
+}
+
+.dxscViewSelectorButton_BlackGlass 
+{
+    background: url('CssImages/ButtonBack.gif') repeat-x #E7EEEE;
+    border: solid 1px #B2BDBF;
+    padding: 6px 8px;	
+    margin-right: 3px;
+    color: black;
+}
+.dxscViewSelectorButtonHover_BlackGlass 
+{
+    background: url('CssImages/ButtonHoverBack.gif') repeat-x #DDEEF3;
+    border: solid 1px #8DC5D8;
+}
+.dxscViewSelectorButtonChecked_BlackGlass 
+{
+    background: url('CssImages/ButtonPressedBack.gif') repeat-x #D0E8EE;
+    border: solid 1px #62AFC9;
+}
+.dxscViewSelectorButtonPressed_BlackGlass
+{
+    background: url('CssImages/ButtonPressedBack.gif') repeat-x #D0E8EE;
+    border: solid 1px #62AFC9;
+}
+
+.dxscResourceNavigatorButton_BlackGlass
+{    
+    background: #303030;
+    cursor: pointer;
+}
+.dxscResourceNavigatorButtonHover_BlackGlass
+{
+    background: #759DB3;
+}
+.dxscResourceNavigatorButtonPressed_BlackGlass
+{
+    background: #AEAEAE;
+}
+
+.dxscNavigationButton_BlackGlass
+{
+    background: #303030;
+    cursor: pointer;
+}
+.dxscNavigationButtonHover_BlackGlass
+{
+    background: #759DB3;    
+}
+.dxscNavigationButtonPressed_BlackGlass
+{
+    background: #AEAEAE;    
+}
+
+.dxscSmartTagButton_BlackGlass 
+{
+    background: url('CssImages/ResourceNavigatorButtonBack.gif') repeat-x #303030;
+    border: solid 1px black;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+
+.dxscDVBottomMoreButton_BlackGlass,
+.dxscDVTopMoreButton_BlackGlass
+{
+    cursor: pointer;
+}
+
+.dxscNoBorderButton_BlackGlass
+{
+    cursor: pointer;
+    border: solid 1px #B6D5E3;
+}
+.dxscNoBorderButtonHover_BlackGlass
+{
+    background: #C4DFEE;
+    border-color: #A4BED1;
+}
+.dxscNoBorderButtonPressed_BlackGlass
+{
+    background: #B6D5E3;
+    border-color: #A4BED1;
+}
+.dxscControlAreaForm_BlackGlass
+{
+    font-size: 1.33em;
+    color: black;
+    white-space: normal;
+    padding: 9px 12px 13px 12px;
+    background-color: #E8EDF1;	
+}
+.dxscToolTipRoundedCornersTopBottomRow_BlackGlass
+{
+    font-size: 0;		
+}
+.dxscToolTipRoundedCornersTopSide_BlackGlass
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_BlackGlass
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_BlackGlass
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_BlackGlass
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_BlackGlass
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_BlackGlass
+{
+    background: #f9f9cd;
+    padding: 0;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_BlackGlass 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_BlackGlass 
+{
+    top:-2px;
+    height:3px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_BlackGlass 
+{
+    position:absolute;
+    background-color:black;
+    width:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-top-width:0;
+    border-bottom-width:0;
+}
+.dxscTimeMarkerLineH_BlackGlass
+{
+    position:absolute;
+    top:-2px;
+    background-color:black;
+    height:1px;
+    font-size: 0;
+    border:solid 1px white;
+    border-left-width:0;
+    border-right-width:0;
+}

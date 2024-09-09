@@ -1,0 +1,205 @@
+.dxssControl_BlackGlass 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4e4f51;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_BlackGlass .dxss-gl .dxss-v,
+.dxssControl_BlackGlass .dxss-gl .dxss-h 
+{
+	border-color: #a4bed1;
+}
+.dxssControl_BlackGlass .dxss-rowHeader 
+{	
+	border-right: 1px solid #a4bed1;
+	border-top: 1px solid #a4bed1;
+}
+.dxssControl_BlackGlass .dxss-colHeader 
+{
+	border-bottom: 1px solid #a4bed1;
+	border-left: 1px solid #a4bed1;
+}
+.dxssControl_BlackGlass .dxss-crse 
+{
+	background-color: #849db0; 
+}
+.dxssControl_BlackGlass .dxss-trbe 
+{
+	border-top-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-rrbe 
+{
+	border-right-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-brbe 
+{
+	border-bottom-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-lrbe 
+{
+	border-left-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-smbe
+{
+    border-color: #849db0;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_BlackGlass .dxtcLite_BlackGlass.dxtc-bottom .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_BlackGlass .dxtcLite_BlackGlass
+{
+	padding-bottom: 6px;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass
+{
+	padding-bottom: 0px;
+}
+.dxssControl_BlackGlass .dxtcLite_BlackGlass,
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass
+{
+	background-color: #8A8B8B;
+}
+.dxssControl_BlackGlass .dxss-hrg,
+.dxssControl_BlackGlass .dxss-vrg 
+{
+	background-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-tse 
+{
+	border-color: #849db0;
+}
+.dxssControl_BlackGlass .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_BlackGlass .dxss-ddp,
+.dxssControl_BlackGlass .dxss-ddb
+{
+    border: 1px solid #A0A0A0;
+}
+.dxssControl_BlackGlass .dxss-ddp tr:hover
+{
+    background-color: #CEDAE5;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab .dxtc-link 
+{
+	color: #FFFFFF;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxtcLite_BlackGlass.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link 
+{
+	color: #000000;
+}
+.dxssControl_BlackGlass .dxrControl_BlackGlass .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+/* Loading panel */
+.dxssLoadingDiv_BlackGlass
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_BlackGlass
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #4e4f51;
+	background-color: White;
+}
+.dxssLoadingPanel_BlackGlass td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+.dxssLoadingPanel_BlackGlass .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_BlackGlass .dxssDlgFooter
+{
+	background-color: #C9D6DE;	
+	background-image: url('DlgFooterBack.gif');
+    background-repeat:repeat-x;
+    background-position:top;
+	
+	border-top-style: none;
+}
+.dxpcLite_BlackGlass .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px White
+}
+.dxssControl_BlackGlass .dxrpControl_BlackGlass .dxrpcontent
+{
+	padding: 16px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_BlackGlass
+{
+	color: #FFFFFF;
+	background: #759DB3 url('../Editors/edtButtonHoverBack.gif') repeat-x top;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_BlackGlass
+{
+	color: #FFFFFF;
+	background: #3D677F url('../Editors/edtButtonCheckedBack.gif') repeat-x top;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_BlackGlass
+{
+	color: #FFFFFF;
+	background: #AEAEAE url('../Editors/edtButtonPressedBack.gif') repeat-x top;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_BlackGlass .dxss-ctve {
+	border: 2px solid #849db0; /*the same -dxss-cfe */
+}
+.dxssControl_BlackGlass .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #4e4f51;
+}
+.dxssControl_BlackGlass .dxmLite_BlackGlass .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_BlackGlass .dxss-fbMenu .dxm-content {
+    padding-top: 1px!important;
+}
+.dxssControl_BlackGlass .dxss-Hint {
+    border: 1px solid #B2BDBF;
+    background-color: #FFFFFF;
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EEF0F1');
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEF0F1));
+	background: -moz-linear-gradient(top,  #FFFFFF,  #EEF0F1);
+}
+.dxssControl_BlackGlass .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

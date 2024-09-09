@@ -1,0 +1,288 @@
+﻿<%@ Page Title="Entry Detail" Language="C#" MasterPageFile="~/Areas/SPPD/Master/Left_Site.Master" AutoEventWireup="true" CodeBehind="InputDetail.aspx.cs" Inherits="SPD.Form.InputDetail" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxRoundPanel" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxPanel" TagPrefix="dx" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <dx:ASPxRoundPanel ID="ClientSideGroupBox" runat="server" Width="100%" HeaderText="Input SPD2" HorizontalAlign="Left" Theme="SoftOrange" ShowCollapseButton="True" Font-Bold="True" View="GroupBox">
+        <PanelCollection>
+            <dx:PanelContent>
+                <div>
+                    <table style="padding-left:50px;">
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel14" runat="server" Text="Id" ForeColor="Black" Font-Size="11px" Visible="false"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel15" runat="server" Text=":" ForeColor="Black" Visible="false"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtId" runat="server" Width="190px" readonly="true" Visible="false">
+                                </dx:ASPxTextBox>
+                            </td>
+
+                        </tr>
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="No" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtNo" runat="server" Width="190px" readonly="true">
+                                </dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel5" runat="server" Text="Jenis Biaya" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel6" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxComboBox ID="ASPxComboBox1" runat="server" ValueType="System.String" Width="190px" NullText="--Pilih--">
+                                    
+                                    <Items>
+                                        <dx:ListEditItem Text="Biaya Transport" Value="1" />
+                                        <dx:ListEditItem Text="Biaya Penginapan" Value="2" />
+                                        <dx:ListEditItem Text="Biaya Makan" Value="3" />
+                                        <dx:ListEditItem Text="Biaya Saku" Value="4" />
+                                        <dx:ListEditItem Text="Biaya Lain" Value="5" />
+                                    </Items>
+                                    
+                                </dx:ASPxComboBox>
+                            </td>
+                        </tr>
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel21" runat="server" Text="Tanggal" ForeColor="Black" Font-Size="11px"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel22" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxDateEdit ID="cmbtgl" runat="server" Theme="DevEx" EditFormatString="d MMM yyyy" NullText="--Pilih--" Width="190px">
+                                    <DropDownButton>
+                                        <Image IconID="actions_add_16x16" Url="../Gambar/KalenderDua.png" Height="14px" Width="14px"></Image>
+                                    </DropDownButton>
+                                    <ValidationSettings ErrorDisplayMode="ImageWithTooltip" ValidateOnLeave="true" SetFocusOnError="true">
+                                        <RequiredField IsRequired="true" />
+                                    </ValidationSettings>
+                                    <InvalidStyle BackColor="LightSkyBlue"></InvalidStyle>
+                                </dx:ASPxDateEdit>
+                            </td>
+                        </tr>
+                        <%--<tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel13" runat="server" Text="Biaya Transport"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel16" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txttransport" runat="server" Width="190px"  style="height: 19px" OnTextChanged="txttransport_TextChanged" AutoPostBack="true"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel5" runat="server" Text="Biaya Penginapan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel8" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtinap" runat="server" Width="190px" AutoPostBack="true" OnTextChanged="txtinap_TextChanged"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel9" runat="server" Text="Biaya Makan"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel10" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtmakan" runat="server" Width="190px" AutoPostBack="true" OnTextChanged="txtmakan_TextChanged"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel11" runat="server" Text="Biaya Saku"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel12" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtsaku" runat="server" Width="190px" AutoPostBack="true" OnTextChanged="txtsaku_TextChanged"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel6" runat="server" Text="Biaya Lain-Lain"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel7" runat="server" Text=":"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtlain" runat="server" Width="190px" OnTextChanged="txtlain_TextChanged" AutoPostBack="true" ></dx:ASPxTextBox>
+                            </td>
+                        </tr>--%>
+                         
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel7" runat="server" Text="Biaya" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel8" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtbiaya" runat="server" Width="190px" OnTextChanged="txtbiaya_TextChanged"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel17" runat="server" Text="Jumlah" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel18" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtjumlah" runat="server" Width="190px" Enabled="false" BackColor="#e6e6e6"></dx:ASPxTextBox>
+                            </td>
+                        </tr>
+                        <tr style="padding-bottom:30px;">
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Keterangan" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxLabel ID="ASPxLabel4" runat="server" Text=":" ForeColor="Black"></dx:ASPxLabel>
+                            </td>
+                            <td>
+                                <dx:ASPxTextBox ID="txtketerangan" runat="server" Width="190px"></dx:ASPxTextBox>
+
+                            </td>
+                        </tr>
+                   
+                       <tr style="padding-bottom:30px;">
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxButton ID="btnsimpan" runat="server" Text="SUBMIT" OnClick="btnsimpan_Click" Theme="Office2010Silver" AutoPostBack="false" CausesValidation="true" Font-Size="Small"  Style="height: 20px"></dx:ASPxButton>
+                            &nbsp;
+                                <a href="spd2.aspx" onclick="spd2.aspx; return false;"> SELESAI </a>
+                             
+                            </td>
+                           
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <dx:ASPxLabel ID="lblMode" runat="server" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                            <td></td>
+                            <td>
+                                <dx:ASPxLabel ID="lblError" runat="server" ForeColor="Red" Font-Size="X-Small" Font-Bold="True"></dx:ASPxLabel>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxRoundPanel>
+
+
+    <dx:ASPxRoundPanel ID="ASPxRoundPanel1" runat="server" Width="100%" HeaderText="Input SPD2" HorizontalAlign="Left" Theme="SoftOrange" ShowCollapseButton="True" Font-Bold="True" View="GroupBox">
+        <PanelCollection>
+            <dx:PanelContent>
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                <dx:ASPxGridView ID="datadetail" AutoGenerateColumns="False" KeyFieldName="Id_detail" Theme="Office2010Blue" Font-Size="10px" EnableTheming="True" runat="server">
+                                  
+                                <SettingsBehavior AllowFocusedRow="True" />
+                       
+                        <Columns>
+
+                            <dx:GridViewCommandColumn SelectAllCheckboxMode="Page" ShowSelectCheckbox="True" ShowClearFilterButton="true" VisibleIndex="0" Width="30px">
+                                <CellStyle>
+                                    <Border BorderStyle="None" />
+                                </CellStyle>
+                            </dx:GridViewCommandColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Id_detail" VisibleIndex="1" Visible="False">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="No" VisibleIndex="2" Visible="false">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Keterangan" VisibleIndex="3" >
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Tanggal" VisibleIndex="4">
+
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Biaya_Tranport" VisibleIndex="5"  Caption="Biaya Tranport">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Biaya_Penginapan" VisibleIndex="6" Caption="Biaya Penginapan">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Biaya_Makan" VisibleIndex="7" Caption="Biaya Makan">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Biaya_Saku" VisibleIndex="8" Caption="Biaya Saku">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Biaya_Lain" VisibleIndex="9" Caption="Biaya Lain">
+                            </dx:GridViewDataTextColumn>
+
+                            <dx:GridViewDataTextColumn FieldName="Jumlah" VisibleIndex="10" Caption="Jumlah">
+                            </dx:GridViewDataTextColumn>
+
+                             <dx:GridViewDataTextColumn Caption="Option" Name="Option" VisibleIndex="11" Width="110px">
+                                <DataItemTemplate>
+
+                                  <%-- <asp:LinkButton ID="klikedit" runat="server" OnClick="klikedit">Edit</asp:LinkButton>
+                                    |
+                                    <asp:LinkButton ID="klikhapus" runat="server"  OnClick="klikhapus">Delete</asp:LinkButton>--%>
+                               
+
+                                </DataItemTemplate>
+
+                            </dx:GridViewDataTextColumn>
+
+                        </Columns>
+
+                      <Styles>
+                            <AlternatingRow BackColor="White">
+                            </AlternatingRow>
+                            <FocusedRow BackColor="#e1f0ff" ForeColor="#000000">
+                            </FocusedRow>
+                            <Cell>
+                                <Border BorderStyle="None" />
+                            </Cell>
+                        </Styles>
+                       
+                                </dx:ASPxGridView>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxRoundPanel>
+    </asp:Content>

@@ -1,0 +1,290 @@
+.dxtlControl_RedWine
+{
+	cursor: default;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: black;
+	border: 1px none #8A0A37;
+}
+.dxtlControl_RedWine caption
+{
+	background: #EED8E3 none;
+	color: #8A0A37;
+	border-bottom: 0 solid #8A0A37;
+	border: 1px solid #8A0A37;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 5px 6px;
+}
+
+/* Indent cells */
+.dxtlIndent_RedWine,
+.dxtlIndentWithButton_RedWine
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_RedWine
+{
+	padding: 0 11px;
+}
+.dxtlIndentWithButton_RedWine
+{
+	padding: 4px;
+}
+.dxtlSelectionCell_RedWine
+{
+	border: 1px solid #D5D5D5;
+}
+
+/* Tree-lines cells */
+.dxtlLineRoot_RedWine
+{
+	background: White url('CssImages/TreeLineRoot.gif') repeat-y top center;
+}
+.dxtlLineFirst_RedWine
+{
+	background-image: url('CssImages/TreeLineFirst.gif');
+}
+.dxtlLineMiddle_RedWine
+{
+	background-image: url('CssImages/TreeLineMiddle.gif');
+}
+.dxtlLineLast_RedWine
+{
+	background-image: url('CssImages/TreeLineLast.gif');
+}
+
+.dxtlLineFirstRtl_RedWine
+{
+	background-image: url('CssImages/TreeLineFirstRtl.gif');
+}
+.dxtlLineMiddleRtl_RedWine
+{
+	background-image: url('CssImages/TreeLineMiddleRtl.gif');
+}
+.dxtlLineLastRtl_RedWine
+{
+	background-image: url('CssImages/TreeLineLastRtl.gif');
+}
+
+
+/* Headers */
+.dxtlHeader_RedWine,
+.dxtlControl_RedWine .dxtlHSDC
+{
+    background: #F27AA4 url('CssImages/HeaderBack.gif') repeat-x;
+}
+
+.dxtlHeader_RedWine
+{
+	border: 1px solid #8A0A37;
+	padding: 5px;
+	font-weight: normal;
+}
+.dxtlHeader_RedWine table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_RedWine td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_RedWine,
+.dxtlHeader_RedWine td.dxtl
+{
+	color: white;
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_RedWine
+{
+	background: white none;
+}
+.dxtlAltNode_RedWine
+{
+	background: #F8EDEF none;
+}
+.dxtlSelectedNode_RedWine
+{
+	background: #AD275C none;
+	color: white;
+}
+.dxtlFocusedNode_RedWine
+{
+	background: #8A0A37 none;
+	color: white;
+}
+.dxtlInlineEditNode_RedWine
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_RedWine
+{
+	background: #F1E3F1 none;
+}
+.dxtlNode_RedWine td.dxtl, 
+.dxtlAltNode_RedWine  td.dxtl, 
+.dxtlSelectedNode_RedWine td.dxtl, 
+.dxtlFocusedNode_RedWine td.dxtl,
+.dxtlEditFormDisplayNode_RedWine td.dxtl,
+.dxtlCommandCell_RedWine
+{
+	padding: 4px 5px 5px;
+	border: 1px solid #D5D5D5;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlHeader_RedWine .dxbButton_RedWine,
+.dxtlCommandCell_RedWine .dxbButton_RedWine
+{
+    margin: 0 2px;
+}
+.dxtlHeader_RedWine .dxbButton_RedWine .dxb,
+.dxtlCommandCell_RedWine .dxbButton_RedWine .dxb
+{
+    padding-top: 0;
+}
+.dxtlInlineEditNode_RedWine td.dxtl
+{
+	border: 1px solid #D5D5D5;
+	padding: 1px;
+}
+
+/* Preview */
+.dxtlPreview_RedWine
+{
+	background-color: #F6EBF6;
+	color: #AD82A4;
+	padding: 15px 15px 20px;
+	border: 1px solid #D5D5D5;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_RedWine
+{
+	background-color: #F3E9EF;
+}
+.dxtlFooter_RedWine,
+.dxtlControl_RedWine .dxtlFSDC
+{
+	background-color: #EED8E3;
+}
+.dxtlGroupFooter_RedWine td.dxtl,
+.dxtlFooter_RedWine td.dxtl
+{
+	padding: 5px 6px 7px;
+	white-space: nowrap;
+	border: 1px solid #D5D5D5;
+	overflow: hidden;
+}
+.dxtlGroupFooter_RedWine .dx-ar > br,
+.dxtlFooter_RedWine .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_RedWine
+{
+	border-bottom: 1px none #bc758e;
+}
+.dxtlPagerBottomPanel_RedWine
+{
+	border-top: 1px none #bc758e;
+}
+.dxtlPagerTopPanel_RedWine,
+.dxtlPagerBottomPanel_RedWine
+{
+	padding: 2px 0;
+}
+
+/* Editing */
+.dxtlEditForm_RedWine
+{
+	background: #F6EBF6 none;
+	border: 1px solid #D5D5D5;
+	padding: 8px 10px 10px;
+}
+.dxtlEditFormCaption_RedWine,
+.dxtlEditFormEditCell_RedWine
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_RedWine
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_RedWine
+{
+	background: #FFC8C8 none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #cfcfcf;
+}
+.dxtlPopupEditForm_RedWine
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_RedWine a,
+.dxtlCommandCell_RedWine a
+{
+	color: #8A0A37;
+}
+.dxtlControl_RedWine a:hover
+{
+	color: #BE458B;
+}
+.dxtlHeader_RedWine a,
+.dxtlFocusedNode_RedWine a,
+.dxtlSelectedNode_RedWine a
+{
+	color: White;
+}
+.dxtlHeader_RedWine a:hover,
+.dxtlFocusedNode_RedWine a:hover,
+.dxtlSelectedNode_RedWine a:hover
+{
+	color: #ffa5eb;
+}
+.dxtlCommandCell_RedWine a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_RedWine
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxtlLoadingPanel_RedWine td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxtlLoadingPanel_RedWine .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+/* Disabled */
+.dxtlDisabled_RedWine,
+.dxtlDisabled_RedWine .dxtl_RedWine
+{
+	color: #808080;
+	cursor: default;
+}
+

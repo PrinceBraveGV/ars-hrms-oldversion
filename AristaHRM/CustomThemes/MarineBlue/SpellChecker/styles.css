@@ -1,0 +1,68 @@
+.dxwscCheckedTextContainer_MarineBlue
+{
+	background-color: white;
+	border: solid 1px #AECAF0;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;	
+}
+.dxwscErrorWord_MarineBlue
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_MarineBlue,
+.dxwscLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxwscLoadingPanel_MarineBlue  td.dx,
+.dxwscLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxwscLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxwscLoadingPanelWithContent_MarineBlue .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_MarineBlue .dxwscDlgFooter
+{
+	background-color: #ECF4FE;
+	border-top: 1px #C1DBFA solid;
+	padding: 10px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_MarineBlue .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_MarineBlue .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_MarineBlue .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_MarineBlue .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+
+

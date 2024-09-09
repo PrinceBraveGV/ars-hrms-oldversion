@@ -1,0 +1,42 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "QueryGrid";
+        settings.CallbackRouteValues = new { Controller = "Settings", Action = "QueryViewerPartial" };
+        settings.Width = Unit.Percentage(100);
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollableHeight = 300;
+        settings.Theme = AristaHRM.Theme.SelectTheme;
+
+        settings.SettingsPager.Visible = true;
+        settings.SettingsPager.Position = PagerPosition.Bottom;
+        settings.SettingsPager.PrevPageButton.Text = "Sebelumnya";
+        settings.SettingsPager.NextPageButton.Text = "Berikutnya";
+        settings.SettingsPager.PageSizeItemSettings.Visible = true;
+        settings.SettingsPager.PageSizeItemSettings.Items = new string[] { "10", "20", "50", "100", "200", "500", "1000" };
+        settings.SettingsPager.PageSizeItemSettings.Caption = "Jumlah data per halaman :";
+        settings.SettingsPager.FirstPageButton.Visible = true;
+        settings.SettingsPager.LastPageButton.Visible = true;
+        settings.SettingsPager.PageSize = 100;
+
+        settings.CustomJSProperties = (s, e) =>
+        {
+            MVCxGridView dx = s as MVCxGridView;
+            if (ViewData["ErrorMsg"] != null)
+            {
+                e.Properties["cpMessage"] = ViewData["ErrorMsg"].ToString();
+            }
+        };
+
+        settings.SettingsText.EmptyDataRow = "Tidak ada hasil query yang ditampilkan.";
+        settings.SettingsText.EmptyHeaders = "Masukkan query untuk menampilkan daftar kolom.";
+        settings.ClientSideEvents.Init = "onInit";
+        settings.ClientSideEvents.BeginCallback = "onSubmit";
+        settings.ClientSideEvents.EndCallback = "onEndCallback";
+    });
+}
+
+@grid.Bind(Model).GetHtml()

@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "HRIS - Laporan Sisa Cuti Karyawan";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model KaryawanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">        
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Laporan Sisa Cuti Karyawan</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:center">Pilih nama karyawan dari daftar berikut ini untuk menampilkan laporan.</label><br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            <div style="text-align:center">
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                 settings.Name = "PengajuanForm";
+                                    settings.AlignItemCaptionsInAllGroups = true;
+                                    settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                    settings.Items.Add(layoutitem =>
+                                    {
+                                        layoutitem.Caption = "Nama Karyawan ";
+                                        layoutitem.SetNestedContent(() =>
+                                        {
+                                            Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                                {
+                                                    combobox.Properties.NullText = "-- Pilih Karyawan --";
+                                                    // combobox.Properties.HelpText = "Pilih NIK karyawan dari daftar untuk menampilkan sisa cuti karyawan ybs.";
+                                                    combobox.Properties.DropDownStyle = DropDownStyle.DropDownList;
+                                                    combobox.Properties.TextField = "Nama_Karyawan";
+                                                    combobox.Properties.ValueField = "NIK";
+                                                    combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+                                                    combobox.Properties.ValidationSettings.Display = Display.None;
+                                                    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                                    combobox.Width = Unit.Pixel(350);
+                                                    combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                                    combobox.Properties.EnableClientSideAPI = true;
+                                                    combobox.Properties.ClientSideEvents.SelectedIndexChanged = "function (s, e) { document.forms[0].submit(); }";
+                                                    combobox.Style.Add("text-align", "center");
+                                                }).BindList(Providers.GetNamaKaryawan()).GetHtml();
+                                            ViewContext.Writer.Write("<div style=\"padding-top:3px\">");
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnReset";
+                                                button.Text = "Reset";
+                                                button.UseSubmitBehavior = false;
+                                                button.Attributes.Add("type", "reset");
+                                                button.Style.Add("display", "inline-table");
+                                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                            ViewContext.Writer.Write("</div>");
+                                        });
+                                    });
+                                }).GetHtml()
+                         </div>
+                         <br />
+                         @Html.DevExpress().Ribbon(settings =>
+                         {
+                             settings.Name = "Ribbon";
+                             settings.ShowFileTab = false;
+                             settings.ShowGroupLabels = true;
+                             settings.ShowTabs = true;
+                             settings.Theme = AristaHRM.Theme.SelectTheme;
+                             settings.Tabs.AddRange(DocumentViewerExtension.DefaultRibbonTabs);
+                         }).GetHtml()
+                         Html.RenderAction("ReportSisaTahunanPartial");
+                    }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

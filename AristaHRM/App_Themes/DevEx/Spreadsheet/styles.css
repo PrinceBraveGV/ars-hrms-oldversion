@@ -1,0 +1,209 @@
+.dxssControl_DevEx 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #9da0aa;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxssControl_DevEx .dxrControl_DevEx .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_DevEx .dxss-gl .dxss-v,
+.dxssControl_DevEx .dxss-gl .dxss-h 
+{
+	border-color: #d9dae0;
+}
+.dxssControl_DevEx .dxss-rowHeader 
+{	
+	border-right: 1px solid #d9dae0;
+	border-top: 1px solid #d9dae0;
+}
+.dxssControl_DevEx .dxss-colHeader 
+{
+	border-bottom: 1px solid #d9dae0;
+	border-left: 1px solid #d9dae0;
+}
+.dxssControl_DevEx .dxss-crse 
+{
+	background-color: #A1BCFC; 
+}
+.dxssControl_DevEx .dxss-trbe 
+{
+	border-top-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxss-rrbe 
+{
+	border-right-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxss-brbe 
+{
+	border-bottom-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxss-lrbe 
+{
+	border-left-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxss-smbe
+{
+    border-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxrControl_DevEx .dxtcLite_DevEx.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxssControl_DevEx .dxrControl_DevEx .dxtcLite_DevEx
+{
+	padding-bottom: 0px;
+}
+.dxssControl_DevEx .dxtcLite_DevEx,
+.dxssControl_DevEx .dxrControl_DevEx .dxtcLite_DevEx
+{
+	background: #f1f2f6 url('RibbonBack.png') no-repeat right top;
+}
+.dxssControl_DevEx .dxss-hrg,
+.dxssControl_DevEx .dxss-vrg 
+{
+	background-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxtcLite_DevEx.dxtc-bottom .dxtc-stripContainer
+{
+	padding: 0! important;
+}
+.dxssControl_DevEx .dxtcLite_DevEx .dxtc-stripContainer .dxtc-leftIndent
+{
+	width: 0;
+}
+.dxssControl_DevEx .dxtcLite_DevEx.dxtc-bottom .dxtc-stripContainer .dxtc-tab,
+.dxssControl_DevEx .dxtcLite_DevEx.dxtc-bottom .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom-width: 0 !important;
+    border-left-width: 0 !important;
+}
+.dxssControl_DevEx .dxtcLite_DevEx.dxtc-bottom .dxtc-stripContainer .dxtc-link
+{
+    padding: 4px 35px 5px 34px;
+}
+.dxssControl_DevEx .dxtcLite_DevEx.dxtc-bottom .dxtc-stripContainer .dxtc-spacer 
+{
+	width: 0px;
+}
+.dxssControl_DevEx .dxrControl_DevEx .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxssControl_DevEx .dxss-tse 
+{
+	border-color: #a6a9b2;
+}
+.dxssControl_DevEx .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_DevEx .dxss-ddp,
+.dxssControl_DevEx .dxss-ddb
+{
+    border: 1px solid #c2c4cb;
+}
+.dxssControl_DevEx .dxss-ddp tr:hover
+{
+    background-color: #e2eafd;
+}
+/* Loading panel */
+.dxssLoadingDiv_DevEx
+{
+    background: White;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_DevEx
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxssLoadingPanel_DevEx td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxssLoadingPanel_DevEx .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 32px;
+	width: 32px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_DevEx .dxssDlgFooter
+{
+	background-color: #ebecef;
+	border-top: 1px #a8aab4 solid;
+}
+.dxpcLite_DevEx .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxssControl_DevEx .dxrpControl_DevEx .dxrpcontent
+{
+	padding: 11px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_DevEx
+{
+	color: #201f35;
+	background: #dde6fe url('../Editors/edtBtnHBack.png') repeat-x left top;
+	border: 1px solid #a9acb5;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_DevEx
+{
+	color: #3c3c3c;
+	background: #dbdde2 url('../Editors/edtBtnPBack.png') repeat-x left top;
+	border: 1px solid #9da0aa;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_DevEx
+{
+	color: #3c3c3c;
+	background: #dbdde2 url('../Editors/edtBtnPBack.png') repeat-x left top;
+	border: 1px solid #9da0aa;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_DevEx .dxss-ctve {
+	border: 2px solid #a6a9b2; /*the same -dxss-cfe */
+}
+.dxssControl_DevEx .dxss-fb {
+    padding: 10px;
+    border-bottom: 1px solid #9da0aa;
+}
+.dxssControl_DevEx .dxmLite_DevEx .dxss-fbMenu {
+    height: 21px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_DevEx .dxss-fbMenu .dxm-content {
+    padding-top: 2px!important;
+}
+.dxssControl_DevEx .dxss-Hint {
+    border: 1px solid #A8A8A8;
+    background-color: #FDFEFE;
+    padding: 3px 8px 4px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDFEFE', endColorstr='#EEEFF2');
+	background: -webkit-gradient(linear, left top, left bottom, from(#FDFEFE), to(#EEEFF2));
+	background: -moz-linear-gradient(top,  #FDFEFE,  #EEEFF2);
+}
+.dxssControl_DevEx .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

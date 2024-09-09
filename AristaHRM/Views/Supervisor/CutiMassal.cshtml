@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "HRIS - Cuti Massal";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Daftar Cuti Massal</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font:12px Arial">
+                            Berikut ini adalah daftar cuti massal untuk kantor pusat dan kantor cabang.
+                            <br />Segera laporkan kepada admin/support apabila menemukan kekeliruan dalam daftar.
+                        </label><br /><br />
+
+                        @using (Html.BeginForm("CutiMassal", "Supervisor", FormMethod.Post))
+                        {
+                            Html.RenderAction("CutiMassalPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

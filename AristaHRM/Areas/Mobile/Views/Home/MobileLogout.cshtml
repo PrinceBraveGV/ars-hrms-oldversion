@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = " - Log Out -";
+    Layout = "~/Areas/Mobile/Views/Shared/_redirectMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Login", "Login", "Home", mobilearea, new { data_icon = "gear" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+    <li data-role="list-divider"><a href="@Url.Action("Dashboard", "Home", mobilearea)">Home</a> > Logout</li>
+    <li data-role="list-divider">Log Out</li>
+
+    <li data-role="fieldcontain" style="text-align:center">
+        <h2>Anda sudah log out dari sistem. <br />
+        Tap tombol "Kembali" untuk kembali ke halaman utama.</h2>
+    </li>
+    </ul>
+}
+
+<div data-role="footer" style="text-align:center">@Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { hidefocus = "hidefocus" })</div>

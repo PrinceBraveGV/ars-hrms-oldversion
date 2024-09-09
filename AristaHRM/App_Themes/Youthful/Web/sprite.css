@@ -1,0 +1,1378 @@
+.dxigControl_Youthful.dxTouchUI .dxWeb_igCloseButton_Youthful,
+.dxigControl_Youthful.dxTouchUI .dxWeb_igPauseButton_Youthful,
+.dxigControl_Youthful.dxTouchUI .dxWeb_igPlayButton_Youthful,
+.dxmLite_Youthful .dxm-scrollBtnHovered .dxWeb_mScrollDown_Youthful,
+.dxmLite_Youthful .dxm-scrollBtnHovered .dxWeb_mScrollUp_Youthful,
+.dxmLite_Youthful .dxm-scrollBtnPressed .dxWeb_mScrollDown_Youthful,
+.dxmLite_Youthful .dxm-scrollBtnPressed .dxWeb_mScrollUp_Youthful,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Youthful,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Youthful,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_Youthful,
+.dxpnl-btnSelected .dxWeb_pnlExpand_Youthful,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Youthful,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Youthful,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Youthful,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Youthful,
+.dxrpCollapsed .dxWeb_rpCollapseButton_Youthful,
+.dxWeb_edtCheckBoxChecked_Youthful,
+.dxWeb_edtCheckBoxCheckedDisabled_Youthful,
+.dxWeb_edtCheckBoxGrayed_Youthful,
+.dxWeb_edtCheckBoxGrayedDisabled_Youthful,
+.dxWeb_edtCheckBoxUnchecked_Youthful,
+.dxWeb_edtCheckBoxUncheckedDisabled_Youthful,
+.dxWeb_fmBreadCrumbsSeparatorArrow_Youthful,
+.dxWeb_fmBreadCrumbsUpButton_Youthful,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_Youthful,
+.dxWeb_fmCopyButton_Youthful,
+.dxWeb_fmCopyButtonDisabled_Youthful,
+.dxWeb_fmCreateButton_Youthful,
+.dxWeb_fmCreateButtonDisabled_Youthful,
+.dxWeb_fmDeleteButton_Youthful,
+.dxWeb_fmDeleteButtonDisabled_Youthful,
+.dxWeb_fmDwnlButton_Youthful,
+.dxWeb_fmDwnlButtonDisabled_Youthful,
+.dxWeb_fmFolder_Youthful,
+.dxWeb_fmFolderLocked_Youthful,
+.dxWeb_fmGvHeaderFilter_Youthful,
+.dxWeb_fmGvHeaderFilterActive_Youthful,
+.dxWeb_fmGvHeaderSortDown_Youthful,
+.dxWeb_fmGvHeaderSortUp_Youthful,
+.dxWeb_fmMoveButton_Youthful,
+.dxWeb_fmMoveButtonDisabled_Youthful,
+.dxWeb_fmRefreshButton_Youthful,
+.dxWeb_fmRefreshButtonDisabled_Youthful,
+.dxWeb_fmRenameButton_Youthful,
+.dxWeb_fmRenameButtonDisabled_Youthful,
+.dxWeb_fmThumbnailCheck_Youthful,
+.dxWeb_fmUplButton_Youthful,
+.dxWeb_fmUplButtonDisabled_Youthful,
+.dxWeb_hlTail_Youthful,
+.dxWeb_igCloseButton_Youthful,
+.dxWeb_igNavigationBarMarker_Youthful,
+.dxWeb_igNextButton_Youthful,
+.dxWeb_igNextButtonDisabled_Youthful,
+.dxWeb_igNextButtonHover_Youthful,
+.dxWeb_igNextButtonPressed_Youthful,
+.dxWeb_igPauseButton_Youthful,
+.dxWeb_igPlayButton_Youthful,
+.dxWeb_igPrevButton_Youthful,
+.dxWeb_igPrevButtonDisabled_Youthful,
+.dxWeb_igPrevButtonHover_Youthful,
+.dxWeb_igPrevButtonPressed_Youthful,
+.dxWeb_isDot_Youthful,
+.dxWeb_isDotDisabled_Youthful,
+.dxWeb_isDotPressed_Youthful,
+.dxWeb_isDotSelected_Youthful,
+.dxWeb_isNextBtnHor_Youthful,
+.dxWeb_isNextBtnHorDisabled_Youthful,
+.dxWeb_isNextBtnVert_Youthful,
+.dxWeb_isNextBtnVertDisabled_Youthful,
+.dxWeb_isNextPageBtnHor_Youthful,
+.dxWeb_isNextPageBtnHorDisabled_Youthful,
+.dxWeb_isNextPageBtnHorOutside_Youthful,
+.dxWeb_isNextPageBtnHorOutsideDisabled_Youthful,
+.dxWeb_isNextPageBtnVert_Youthful,
+.dxWeb_isNextPageBtnVertDisabled_Youthful,
+.dxWeb_isNextPageBtnVertOutside_Youthful,
+.dxWeb_isNextPageBtnVertOutsideDisabled_Youthful,
+.dxWeb_isPauseBtn_Youthful,
+.dxWeb_isPlayBtn_Youthful,
+.dxWeb_isPrevBtnHor_Youthful,
+.dxWeb_isPrevBtnHorDisabled_Youthful,
+.dxWeb_isPrevBtnVert_Youthful,
+.dxWeb_isPrevBtnVertDisabled_Youthful,
+.dxWeb_isPrevPageBtnHor_Youthful,
+.dxWeb_isPrevPageBtnHorDisabled_Youthful,
+.dxWeb_isPrevPageBtnHorOutside_Youthful,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Youthful,
+.dxWeb_isPrevPageBtnVert_Youthful,
+.dxWeb_isPrevPageBtnVertDisabled_Youthful,
+.dxWeb_isPrevPageBtnVertOutside_Youthful,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Youthful,
+.dxWeb_izEWCloseButton_Youthful,
+.dxWeb_izHint_Youthful,
+.dxWeb_mAdaptiveMenu_Youthful,
+.dxWeb_mHorizontalPopOut_Youthful,
+.dxWeb_mScrollDown_Youthful,
+.dxWeb_mScrollUp_Youthful,
+.dxWeb_mSubMenuItem_Youthful,
+.dxWeb_mSubMenuItemChecked_Youthful,
+.dxWeb_mVerticalPopOut_Youthful,
+.dxWeb_mVerticalPopOutRtl_Youthful,
+.dxWeb_nbCollapse_Youthful,
+.dxWeb_nbExpand_Youthful,
+.dxWeb_nbItemBullet_Youthful,
+.dxWeb_pAll_Youthful,
+.dxWeb_pAllDisabled_Youthful,
+.dxWeb_pcCloseButton_Youthful,
+.dxWeb_pcCollapseButton_Youthful,
+.dxWeb_pcMaximizeButton_Youthful,
+.dxWeb_pcPinButton_Youthful,
+.dxWeb_pcRefreshButton_Youthful,
+.dxWeb_pcSizeGrip_Youthful,
+.dxWeb_pcSizeGripRtl_Youthful,
+.dxWeb_pFirst_Youthful,
+.dxWeb_pFirstDisabled_Youthful,
+.dxWeb_pLast_Youthful,
+.dxWeb_pLastDisabled_Youthful,
+.dxWeb_pNext_Youthful,
+.dxWeb_pNextDisabled_Youthful,
+.dxWeb_pnlExpand_Youthful,
+.dxWeb_pnlExpandArrowBottom_Youthful,
+.dxWeb_pnlExpandArrowLeft_Youthful,
+.dxWeb_pnlExpandArrowRight_Youthful,
+.dxWeb_pnlExpandArrowTop_Youthful,
+.dxWeb_pPopOut_Youthful,
+.dxWeb_pPopOutDisabled_Youthful,
+.dxWeb_pPrev_Youthful,
+.dxWeb_pPrevDisabled_Youthful,
+.dxWeb_rDialogBoxLauncher_Youthful,
+.dxWeb_rDialogBoxLauncherDisabled_Youthful,
+.dxWeb_rDialogBoxLauncherHover_Youthful,
+.dxWeb_rDialogBoxLauncherPressed_Youthful,
+.dxWeb_rGlrDown_Youthful,
+.dxWeb_rGlrDownDisabled_Youthful,
+.dxWeb_rGlrPopOut_Youthful,
+.dxWeb_rGlrPopOutDisabled_Youthful,
+.dxWeb_rGlrUp_Youthful,
+.dxWeb_rGlrUpDisabled_Youthful,
+.dxWeb_rMinBtn_Youthful,
+.dxWeb_rMinBtn_Youthful.dxWeb_rMinBtnHover_Youthful,
+.dxWeb_rMinBtn_Youthful.dxWeb_rMinBtnPressed_Youthful,
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtn_Youthful,
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnDisabled_Youthful,
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnHover_Youthful,
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnPressed_Youthful,
+.dxWeb_rMinBtnDisabled_Youthful,
+.dxWeb_rpCollapseButton_Youthful,
+.dxWeb_rPopOut_Youthful,
+.dxWeb_smSecondLevelBullet_Youthful,
+.dxWeb_smThirdLevelBullet_Youthful,
+.dxWeb_splHCollapseBackwardButton_Youthful,
+.dxWeb_splHCollapseBackwardButtonHover_Youthful,
+.dxWeb_splHCollapseForwardButton_Youthful,
+.dxWeb_splHCollapseForwardButtonHover_Youthful,
+.dxWeb_splHSeparator_Youthful,
+.dxWeb_splHSeparatorHover_Youthful,
+.dxWeb_splVCollapseBackwardButton_Youthful,
+.dxWeb_splVCollapseBackwardButtonHover_Youthful,
+.dxWeb_splVCollapseForwardButton_Youthful,
+.dxWeb_splVCollapseForwardButtonHover_Youthful,
+.dxWeb_splVSeparator_Youthful,
+.dxWeb_splVSeparatorHover_Youthful,
+.dxWeb_tcScrollLeft_Youthful,
+.dxWeb_tcScrollLeftDisabled_Youthful,
+.dxWeb_tcScrollLeftHover_Youthful,
+.dxWeb_tcScrollLeftPressed_Youthful,
+.dxWeb_tcScrollRight_Youthful,
+.dxWeb_tcScrollRightDisabled_Youthful,
+.dxWeb_tcScrollRightHover_Youthful,
+.dxWeb_tcScrollRightPressed_Youthful,
+.dxWeb_tvColBtn_Youthful,
+.dxWeb_tvColBtnRtl_Youthful,
+.dxWeb_tvExpBtn_Youthful,
+.dxWeb_tvExpBtnRtl_Youthful,
+.dxWeb_ucClearButton_Youthful,
+.dxWeb_ucClearButtonDisabled_Youthful
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_Youthful.dxTouchUI .dxWeb_igCloseButton_Youthful
+{
+    background-position: -135px -168px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_Youthful.dxTouchUI .dxWeb_igPauseButton_Youthful
+{
+    background-position: -113px -168px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_Youthful.dxTouchUI .dxWeb_igPlayButton_Youthful
+{
+    background-position: -91px -168px;
+    width: 21px;
+    height: 25px;
+}
+.dxmLite_Youthful .dxm-scrollBtnHovered .dxWeb_mScrollDown_Youthful
+{
+    background-position: -214px -315px;
+    width: 7px;
+    height: 5px;
+}
+.dxmLite_Youthful .dxm-scrollBtnHovered .dxWeb_mScrollUp_Youthful
+{
+    background-position: -153px -321px;
+    width: 7px;
+    height: 5px;
+}
+.dxmLite_Youthful .dxm-scrollBtnPressed .dxWeb_mScrollDown_Youthful
+{
+    background-position: -145px -321px;
+    width: 7px;
+    height: 5px;
+}
+.dxmLite_Youthful .dxm-scrollBtnPressed .dxWeb_mScrollUp_Youthful
+{
+    background-position: -222px -315px;
+    width: 7px;
+    height: 5px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_Youthful
+{
+    background-position: -164px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_Youthful
+{
+    background-position: -178px -190px;
+    width: 13px;
+    height: 13px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_Youthful
+{
+    background-position: -14px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_Youthful
+{
+    background-position: 0px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_Youthful
+{
+    background-position: -72px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_Youthful
+{
+    background-position: -108px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_Youthful
+{
+    background-position: -138px -66px;
+    width: 35px;
+    height: 35px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_Youthful
+{
+    background-position: -36px -168px;
+    width: 35px;
+    height: 35px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_Youthful
+{
+    background-position: -116px -292px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_edtCheckBoxChecked_Youthful
+{
+    background-position: -149px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_Youthful
+{
+    background-position: -117px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayed_Youthful
+{
+    background-position: -181px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_Youthful
+{
+    background-position: -165px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUnchecked_Youthful
+{
+    background-position: -197px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_Youthful
+{
+    background-position: -133px -276px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_Youthful
+{
+    background-position: -224px -307px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_Youthful
+{
+    background-position: -136px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_Youthful
+{
+    background-position: -17px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_Youthful
+{
+    background-position: -204px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_Youthful
+{
+    background-position: -102px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_Youthful
+{
+    background-position: -219px -224px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_Youthful
+{
+    background-position: -34px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_Youthful
+{
+    background-position: -68px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_Youthful
+{
+    background-position: -85px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_Youthful
+{
+    background-position: -119px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_Youthful
+{
+    background-position: -34px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_Youthful
+{
+    background-position: -221px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_Youthful
+{
+    background-position: -102px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmGvHeaderFilter_Youthful
+{
+    background-position: -120px -204px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_fmGvHeaderFilterActive_Youthful
+{
+    background-position: -140px -204px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_fmGvHeaderSortDown_Youthful
+{
+    background-position: -196px -307px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmGvHeaderSortUp_Youthful
+{
+    background-position: -115px -196px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmMoveButton_Youthful
+{
+    background-position: -85px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_Youthful
+{
+    background-position: 0px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_Youthful
+{
+    background-position: -136px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_Youthful
+{
+    background-position: -153px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_Youthful
+{
+    background-position: -119px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_Youthful
+{
+    background-position: -17px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_Youthful
+{
+    background-position: -136px -192px;
+    width: 10px;
+    height: 11px;
+}
+.dxWeb_fmUplButton_Youthful
+{
+    background-position: -170px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_Youthful
+{
+    background-position: -51px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_hlTail_Youthful
+{
+    background-position: -147px -192px;
+    width: 16px;
+    height: 11px;
+}
+.dxWeb_igCloseButton_Youthful
+{
+    background-position: -192px -190px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_Youthful
+{
+    background-position: -198px -224px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_Youthful
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_Youthful
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_Youthful
+{
+    background-position: -184px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_Youthful
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_Youthful
+{
+    background-position: -223px -204px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_Youthful
+{
+    background-position: -172px -224px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_Youthful
+{
+    background-position: -138px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_Youthful
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_Youthful
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_Youthful
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_Youthful
+{
+    background-position: 0px -307px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_Youthful
+{
+    background-position: -178px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_Youthful
+{
+    background-position: -136px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_Youthful
+{
+    background-position: -206px -190px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_Youthful
+{
+    background-position: -210px -66px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_Youthful
+{
+    background-position: -72px -168px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_Youthful
+{
+    background-position: 0px -204px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_Youthful
+{
+    background-position: -60px -204px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_Youthful
+{
+    background-position: -189px -168px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_Youthful
+{
+    background-position: -174px -168px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_Youthful
+{
+    background-position: -167px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_Youthful
+{
+    background-position: -193px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_Youthful
+{
+    background-position: -22px -292px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_Youthful
+{
+    background-position: 0px -292px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_Youthful
+{
+    background-position: -115px -307px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_Youthful
+{
+    background-position: -28px -307px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_Youthful
+{
+    background-position: -185px -224px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_Youthful
+{
+    background-position: -159px -224px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_Youthful
+{
+    background-position: -219px -100px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_Youthful
+{
+    background-position: -216px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_Youthful
+{
+    background-position: -30px -204px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_Youthful
+{
+    background-position: -90px -204px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_Youthful
+{
+    background-position: -204px -168px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_Youthful
+{
+    background-position: -159px -168px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_Youthful
+{
+    background-position: -206px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Youthful
+{
+    background-position: -180px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_Youthful
+{
+    background-position: -213px -276px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_Youthful
+{
+    background-position: -44px -292px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_Youthful
+{
+    background-position: -86px -307px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Youthful
+{
+    background-position: -57px -307px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_Youthful
+{
+    background-position: -141px -106px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_Youthful
+{
+    background-position: -219px -168px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_Youthful
+{
+    background-position: -134px -321px;
+    width: 10px;
+    height: 4px;
+}
+.dxWeb_mHorizontalPopOut_Youthful
+{
+    background-position: -125px -196px;
+    width: 10px;
+    height: 7px;
+}
+.dxWeb_mScrollDown_Youthful
+{
+    background-position: -198px -315px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_mScrollUp_Youthful
+{
+    background-position: -206px -315px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_mSubMenuItem_Youthful
+{
+    background-position: -66px -292px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_Youthful
+{
+    background-position: -81px -292px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mVerticalPopOut_Youthful
+{
+    background-position: -218px -307px;
+    width: 5px;
+    height: 7px;
+}
+.dxWeb_mVerticalPopOutRtl_Youthful
+{
+    background-position: -212px -307px;
+    width: 5px;
+    height: 7px;
+}
+.dxWeb_nbCollapse_Youthful
+{
+    background-position: -96px -292px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_nbExpand_Youthful
+{
+    background-position: -126px -292px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_nbItemBullet_Youthful
+{
+    background-position: -230px -32px;
+    width: 5px;
+    height: 14px;
+}
+.dxWeb_pAll_Youthful
+{
+    background-position: -44px -276px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pAllDisabled_Youthful
+{
+    background-position: 0px -276px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pcCloseButton_Youthful
+{
+    background-position: -220px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcCollapseButton_Youthful
+{
+    background-position: -150px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcMaximizeButton_Youthful
+{
+    background-position: -192px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcPinButton_Youthful
+{
+    background-position: -164px -190px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcRefreshButton_Youthful
+{
+    background-position: -206px -292px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcSizeGrip_Youthful
+{
+    background-position: -51px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_pcSizeGripRtl_Youthful
+{
+    background-position: 0px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_pFirst_Youthful
+{
+    background-position: -175px -259px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pFirstDisabled_Youthful
+{
+    background-position: -197px -259px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pLast_Youthful
+{
+    background-position: -22px -276px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pLastDisabled_Youthful
+{
+    background-position: -153px -259px;
+    width: 21px;
+    height: 15px;
+}
+.dxWeb_pNext_Youthful
+{
+    background-position: -219px -259px;
+    width: 16px;
+    height: 15px;
+}
+.dxWeb_pNextDisabled_Youthful
+{
+    background-position: -100px -276px;
+    width: 16px;
+    height: 15px;
+}
+.dxWeb_pnlExpand_Youthful
+{
+    background-position: -144px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxWeb_pnlExpandArrowBottom_Youthful
+{
+    background-position: -36px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxWeb_pnlExpandArrowLeft_Youthful
+{
+    background-position: -180px -132px;
+    width: 35px;
+    height: 35px;
+}
+.dxWeb_pnlExpandArrowRight_Youthful
+{
+    background-position: 0px -168px;
+    width: 35px;
+    height: 35px;
+}
+.dxWeb_pnlExpandArrowTop_Youthful
+{
+    background-position: -174px -66px;
+    width: 35px;
+    height: 35px;
+}
+.dxWeb_pPopOut_Youthful
+{
+    background-position: -105px -196px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_pPopOutDisabled_Youthful
+{
+    background-position: -95px -196px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_pPrev_Youthful
+{
+    background-position: -83px -276px;
+    width: 16px;
+    height: 15px;
+}
+.dxWeb_pPrevDisabled_Youthful
+{
+    background-position: -66px -276px;
+    width: 16px;
+    height: 15px;
+}
+.dxWeb_rDialogBoxLauncher_Youthful
+{
+    background-position: -157px -307px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_Youthful
+{
+    background-position: -170px -307px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherHover_Youthful
+{
+    background-position: -183px -307px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherPressed_Youthful
+{
+    background-position: -144px -307px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rGlrDown_Youthful
+{
+    background-position: -144px -102px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrDownDisabled_Youthful
+{
+    background-position: -138px -102px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrPopOut_Youthful
+{
+    background-position: -161px -321px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOutDisabled_Youthful
+{
+    background-position: -167px -321px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrUp_Youthful
+{
+    background-position: -230px -20px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrUpDisabled_Youthful
+{
+    background-position: -150px -102px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rMinBtn_Youthful
+{
+    background-position: -68px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtn_Youthful.dxWeb_rMinBtnHover_Youthful
+{
+    background-position: -48px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtn_Youthful.dxWeb_rMinBtnPressed_Youthful
+{
+    background-position: -108px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtn_Youthful
+{
+    background-position: -78px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnDisabled_Youthful
+{
+    background-position: -98px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnHover_Youthful
+{
+    background-position: -38px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtnChecked_Youthful.dxWeb_rMinBtnPressed_Youthful
+{
+    background-position: -58px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rMinBtnDisabled_Youthful
+{
+    background-position: -88px -321px;
+    width: 9px;
+    height: 6px;
+}
+.dxWeb_rpCollapseButton_Youthful
+{
+    background-position: -106px -292px;
+    width: 9px;
+    height: 14px;
+}
+.dxWeb_rPopOut_Youthful
+{
+    background-position: -230px -24px;
+    width: 7px;
+    height: 7px;
+}
+.dxWeb_smSecondLevelBullet_Youthful
+{
+    background-position: -206px -307px;
+    width: 5px;
+    height: 7px;
+}
+.dxWeb_smThirdLevelBullet_Youthful
+{
+    background-position: -91px -198px;
+    width: 3px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_Youthful
+{
+    background-position: -118px -321px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_Youthful
+{
+    background-position: -230px -314px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButton_Youthful
+{
+    background-position: -229px -307px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButtonHover_Youthful
+{
+    background-position: -126px -321px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHSeparator_Youthful
+{
+    background-position: 0px -321px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splHSeparatorHover_Youthful
+{
+    background-position: -19px -321px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splVCollapseBackwardButton_Youthful
+{
+    background-position: -229px -76px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_Youthful
+{
+    background-position: -229px -84px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_Youthful
+{
+    background-position: -229px -66px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_Youthful
+{
+    background-position: -229px -92px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_Youthful
+{
+    background-position: -231px -47px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_splVSeparatorHover_Youthful
+{
+    background-position: -230px 0px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_tcScrollLeft_Youthful
+{
+    background-position: -84px -224px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollLeftDisabled_Youthful
+{
+    background-position: -160px -204px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollLeftHover_Youthful
+{
+    background-position: -21px -224px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollLeftPressed_Youthful
+{
+    background-position: -42px -224px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollRight_Youthful
+{
+    background-position: -202px -204px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollRightDisabled_Youthful
+{
+    background-position: -181px -204px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollRightHover_Youthful
+{
+    background-position: 0px -224px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tcScrollRightPressed_Youthful
+{
+    background-position: -63px -224px;
+    width: 20px;
+    height: 17px;
+}
+.dxWeb_tvColBtn_Youthful
+{
+    background-position: -123px -224px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_Youthful
+{
+    background-position: -220px -186px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtn_Youthful
+{
+    background-position: -141px -224px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_Youthful
+{
+    background-position: -105px -224px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_ucClearButton_Youthful
+{
+    background-position: -187px -242px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_Youthful
+{
+    background-position: -68px -259px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_rpHeaderTopLeftCorner_Youthful,
+.dxWeb_rpHeaderTopRightCorner_Youthful,
+.dxWeb_rpBottomLeftCorner_Youthful,
+.dxWeb_rpBottomRightCorner_Youthful,
+.dxWeb_rpTopLeftCorner_Youthful,
+.dxWeb_rpTopRightCorner_Youthful,
+.dxWeb_rpGroupBoxBottomLeftCorner_Youthful,
+.dxWeb_rpGroupBoxBottomRightCorner_Youthful,
+.dxWeb_rpGroupBoxTopLeftCorner_Youthful,
+.dxWeb_rpGroupBoxTopRightCorner_Youthful,
+.dxWeb_mHorizontalPopOut_Youthful,
+.dxWeb_mVerticalPopOut_Youthful,
+.dxWeb_mVerticalPopOutRtl_Youthful,
+.dxWeb_mSubMenuItem_Youthful,
+.dxWeb_mSubMenuItemChecked_Youthful,
+.dxWeb_mScrollUp_Youthful,
+.dxWeb_mScrollDown_Youthful,
+.dxWeb_tcScrollLeft_Youthful,
+.dxWeb_tcScrollRight_Youthful,
+.dxWeb_tcScrollLeftHover_Youthful,
+.dxWeb_tcScrollRightHover_Youthful,
+.dxWeb_tcScrollLeftPressed_Youthful,
+.dxWeb_tcScrollRightPressed_Youthful,
+.dxWeb_tcScrollLeftDisabled_Youthful,
+.dxWeb_tcScrollRightDisabled_Youthful,
+.dxWeb_nbCollapse_Youthful,
+.dxWeb_nbExpand_Youthful,
+.dxWeb_nbItemBullet_Youthful,
+.dxWeb_splVSeparator_Youthful,
+.dxWeb_splVSeparatorHover_Youthful,
+.dxWeb_splHSeparator_Youthful,
+.dxWeb_splHSeparatorHover_Youthful,
+.dxWeb_splVCollapseBackwardButton_Youthful,
+.dxWeb_splVCollapseBackwardButtonHover_Youthful,
+.dxWeb_splHCollapseBackwardButton_Youthful,
+.dxWeb_splHCollapseBackwardButtonHover_Youthful,
+.dxWeb_splVCollapseForwardButton_Youthful,
+.dxWeb_splVCollapseForwardButtonHover_Youthful,
+.dxWeb_splHCollapseForwardButton_Youthful,
+.dxWeb_splHCollapseForwardButtonHover_Youthful,
+.dxWeb_pcCloseButton_Youthful,
+.dxWeb_pcPinButton_Youthful,
+.dxWeb_pcRefreshButton_Youthful,
+.dxWeb_pcCollapseButton_Youthful,
+.dxWeb_pcMaximizeButton_Youthful,
+.dxWeb_pcSizeGrip_Youthful,
+.dxWeb_pcSizeGripRtl_Youthful,
+.dxWeb_pPopOut_Youthful,
+.dxWeb_pPopOutDisabled_Youthful,
+.dxWeb_pAll_Youthful,
+.dxWeb_pAllDisabled_Youthful,
+.dxWeb_pPrev_Youthful,
+.dxWeb_pPrevDisabled_Youthful,
+.dxWeb_pNext_Youthful,
+.dxWeb_pNextDisabled_Youthful,
+.dxWeb_pLast_Youthful,
+.dxWeb_pLastDisabled_Youthful,
+.dxWeb_pFirst_Youthful,
+.dxWeb_pFirstDisabled_Youthful,
+.dxWeb_hlTail_Youthful,
+.dxWeb_smSecondLevelBullet_Youthful,
+.dxWeb_smThirdLevelBullet_Youthful,
+.dxWeb_tvColBtn_Youthful,
+.dxWeb_tvColBtnRtl_Youthful,
+.dxWeb_tvExpBtn_Youthful,
+.dxWeb_tvExpBtnRtl_Youthful,
+.dxWeb_fmFolder_Youthful,
+.dxWeb_fmFolderLocked_Youthful,
+.dxWeb_fmCreateButton_Youthful,
+.dxWeb_fmMoveButton_Youthful,
+.dxWeb_fmRenameButton_Youthful,
+.dxWeb_fmDeleteButton_Youthful,
+.dxWeb_fmRefreshButton_Youthful,
+.dxWeb_fmDwnlButton_Youthful,
+.dxWeb_fmCreateButtonDisabled_Youthful,
+.dxWeb_fmMoveButtonDisabled_Youthful,
+.dxWeb_fmRenameButtonDisabled_Youthful,
+.dxWeb_fmDeleteButtonDisabled_Youthful,
+.dxWeb_fmRefreshButtonDisabled_Youthful,
+.dxWeb_fmDwnlButtonDisabled_Youthful,
+.dxWeb_ucClearButton_Youthful,
+.dxWeb_ucClearButtonDisabled_Youthful,
+.dxWeb_isPrevBtnHor_Youthful,
+.dxWeb_isNextBtnHor_Youthful,
+.dxWeb_isPrevBtnVert_Youthful,
+.dxWeb_isNextBtnVert_Youthful,
+.dxWeb_isPrevPageBtnHor_Youthful,
+.dxWeb_isPrevPageBtnHorOutside_Youthful,
+.dxWeb_isNextPageBtnHor_Youthful,
+.dxWeb_isNextPageBtnHorOutside_Youthful,
+.dxWeb_isPrevPageBtnVert_Youthful,
+.dxWeb_isPrevPageBtnVertOutside_Youthful,
+.dxWeb_isNextPageBtnVert_Youthful,
+.dxWeb_isNextPageBtnVertOutside_Youthful,
+.dxWeb_isPrevBtnHorDisabled_Youthful,
+.dxWeb_isNextBtnHorDisabled_Youthful,
+.dxWeb_isPrevBtnVertDisabled_Youthful,
+.dxWeb_isNextBtnVertDisabled_Youthful,
+.dxWeb_isPrevPageBtnHorDisabled_Youthful,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_Youthful,
+.dxWeb_isNextPageBtnHorDisabled_Youthful,
+.dxWeb_isNextPageBtnHorOutsideDisabled_Youthful,
+.dxWeb_isPrevPageBtnVertDisabled_Youthful,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_Youthful,
+.dxWeb_isNextPageBtnVertDisabled_Youthful,
+.dxWeb_isNextPageBtnVertOutsideDisabled_Youthful,
+.dxWeb_isDot_Youthful,
+.dxWeb_isDotDisabled_Youthful,
+.dxWeb_isDotSelected_Youthful,
+.dxWeb_fmGvHeaderFilterActive_Youthful,
+.dxWeb_fmGvHeaderFilter_Youthful,
+.dxWeb_fmGvHeaderSortDown_Youthful,
+.dxWeb_fmGvHeaderSortUp_Youthful,
+.dxWeb_fmThumbnailCheck_Youthful,
+.dxWeb_isPlayBtn_Youthful,
+.dxWeb_isPauseBtn_Youthful,
+.dxWeb_igCloseButton_Youthful,
+.dxWeb_igNextButton_Youthful,
+.dxWeb_igPrevButton_Youthful,
+.dxWeb_igPlayButton_Youthful,
+.dxWeb_igPauseButton_Youthful,
+.dxWeb_igNavigationBarMarker_Youthful
+{
+    display:block;
+}
+.dxWeb_mScrollUp_Youthful, .dxWeb_mScrollDown_Youthful
+{
+	margin: auto;
+}
+.dxWeb_hlTail_Youthful,
+.dxWeb_smBullet_Youthful,
+.dxWeb_smSecondLevelBullet_Youthful,
+.dxWeb_smThirdLevelBullet_Youthful,
+.dxWeb_fmGvHeaderFilter_Youthful,
+.dxWeb_fmGvHeaderFilterActive_Youthful,
+.dxWeb_fmGvHeaderSortDown_Youthful,
+.dxWeb_fmGvHeaderSortUp_Youthful
+{
+	display:inline;
+}
+

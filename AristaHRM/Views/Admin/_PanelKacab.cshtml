@@ -1,0 +1,18 @@
+﻿@using AristaHRM.Models
+
+@model MutasiKCBModel
+
+@{
+    Html.DevExpress().CallbackPanel(panel =>
+    {
+        panel.Name = "PanelMutasi";
+        panel.CallbackRouteValues = new { Controller = "Admin", Action = "GetMutasiCabang" };
+        panel.ClientSideEvents.BeginCallback = "getCabang";
+        panel.EnableClientSideAPI = true;
+        panel.SettingsLoadingPanel.Enabled = false;
+        panel.SetContent(() =>
+        {
+            Html.RenderPartial("_MutasiKacab", Model);
+        });
+    }).GetHtml();
+}

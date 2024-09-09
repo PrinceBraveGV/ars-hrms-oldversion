@@ -1,0 +1,222 @@
+﻿@{
+    ViewBag.Title = " - Registrasi -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model KaryawanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "Dashboard", "Home", mobilearea, new { data_icon = "arrow-l" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".datefield").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true,
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            showAnim: "slide",
+            minDate: "-50Y",
+            maxDate: "-20Y"
+        });
+
+        $(".datefield").datepicker("option", $.datepicker.regional["id"]);
+
+        $(".insertfield").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true,
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            showAnim: "slide",
+            minDate: new Date("2000-01-01")
+        });
+
+        $(".insertfield").datepicker("option", $.datepicker.regional["id"]);
+    });
+</script>
+
+<p>
+    Masukkan identitas karyawan yang akan didaftarkan pada sistem.<br />
+    Apabila akun ybs sudah terdaftar, silakan melakukan @Html.ActionLink("login", "Login", "Home", mobilearea).
+</p>
+
+@using (Html.BeginForm("Register", "Home", mobilearea, FormMethod.Post, new { id = "RegisterForm" }))
+{
+    @Html.AntiForgeryToken()
+    <p style="color:red">
+        @Html.ValidationSummary()<br /><br />
+        @ViewBag.ErrorMsg
+    </p>
+
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider">@Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { hidefocus = "hidefocus" }) > Register</li>
+        <li data-role="list-divider">Identitas Karyawan</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Karyawan)
+            @Html.TextBoxFor(m => m.Nama_Karyawan)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jenis_Kelamin)
+            @Html.DropDownListFor(m => m.Jenis_Kelamin, AristaHRM.Models.Providers.GetJenisKelamin("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tempat_Lahir)
+            @Html.TextBoxFor(m => m.Tempat_Lahir)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Lahir)
+            @Html.TextBoxFor(m => m.Tgl_Lahir, new { @class = "datefield" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Alamat)
+            @Html.TextBoxFor(m => m.Alamat)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Email_Perusahaan)
+            @Html.TextBoxFor(m => m.Email_Perusahaan)
+        </li>
+
+        <li data-role="list-divider">Identitas Perusahaan</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Perusahaan)
+            @Html.DropDownListFor(m => m.Perusahaan, AristaHRM.Models.Providers.GetPerusahaan("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Cabang)
+            @Html.DropDownListFor(m => m.Cabang, new SelectList(string.Empty, "Value", "Text"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Jabatan)
+            @Html.DropDownListFor(m => m.Jabatan, AristaHRM.Models.Providers.GetJabatan("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Departemen)
+            @Html.DropDownListFor(m => m.Departemen, AristaHRM.Models.Providers.GetDepartemen("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Atasan)
+            @Html.DropDownListFor(m => m.Nama_Atasan, Providers.GetSelectListAtasan())
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Supervisor)
+            @Html.DropDownListFor(m => m.Nama_Supervisor, Providers.GetSelectListSupervisor())
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Tgl_Masuk)
+            @Html.TextBoxFor(m => m.Tgl_Masuk, new { @class = "insertfield" })
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Status_Karyawan)
+            @Html.DropDownListFor(m => m.Status_Karyawan, AristaHRM.Models.Providers.GetStatusKaryawan("Mobile"))
+        </li>
+
+        <li data-role="fieldcontain">
+            <input id="register" name="register" type="submit" value="Register Karyawan" />
+            <input id="reset" name="reset" type="reset" value="Reset Formulir" onclick="window.location.reload(true);" />
+        </li>
+    </ul>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Perusahaan").change(function () {
+                $("#Cabang").empty();
+                var SelItem = $(this).val();
+                $.ajax({
+                    cache: false,
+                    type: 'POST',
+                    url: '@Url.Action("GetCabangList", "Home", mobilearea)',
+                    data: { "Nama_Perusahaan": SelItem },
+                    dataType: 'json',
+                    success: function (data) {
+                        $.each(data, function (id, option) {
+                            $("#Cabang").append('<option value="' + option.Value + '">' + option.Text + '</option>');
+                        });
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Terjadi kegagalan dalam memproses data.');
+                    }
+                });
+            });
+
+            $("#Departemen").change(function () {
+                $("#Nama_Atasan").empty();
+                $("#Nama_Supervisor").empty();
+                var SelectItem = $(this).val();
+                $.ajax({
+                    cache: false,
+                    type: 'POST',
+                    url: '@Url.Action("GetAtasanList", "Home", mobilearea)',
+                    data: { "Departemen": SelectItem },
+                    dataType: 'json',
+                    success: function (data) {
+                        $.each(data, function (id, option) {
+                            $("#Nama_Atasan").append('<option value="' + option.Value + '">' + option.Text + '</option>');
+                        });
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Terjadi kesalahan dalam memproses data.');
+                    },
+                    fail: function (jqxhr) {
+                        alert('Terjadi kegagalan dalam memperoleh data.');
+                    }
+                });
+
+                $.ajax({
+                    cache: false,
+                    type: 'POST',
+                    url: '@Url.Action("GetSupervisorList", "Home", mobilearea)',
+                    data: { "Departemen": SelectItem },
+                    dataType: 'json',
+                    success: function (data) {
+                        $.each(data, function (id, option) {
+                            $("#Nama_Supervisor").append('<option value="' + option.Value + '">' + option.Text + '</option>');
+                        });
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Terjadi kesalahan dalam memproses data.');
+                    },
+                    fail: function (jqxhr) {
+                        alert('Terjadi kegagalan dalam memperoleh data.');
+                    }
+                });
+            });
+        });
+    </script>
+}

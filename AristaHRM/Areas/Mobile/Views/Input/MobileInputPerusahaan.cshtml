@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = " - Input Perusahaan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model PerusahaanModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "InputData", "Input", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+<p>
+    Masukkan data perusahaan pada isian berikut dengan benar.
+</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <p style="color:red">
+        @Html.ValidationSummary()<br /><br />
+        @ViewBag.ErrorMsg
+    </p>
+
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("AdminMenu", "Admin", mobilearea)">Admin Home</a> > <a href="@Url.Action("InputData", "Input", mobilearea)">Input Data</a> > Input Perusahaan Baru</li>
+        <li data-role="list-divider">Identitas Perusahaan</li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Kode_Perusahaan)
+            @Html.TextBoxFor(m => m.Kode_Perusahaan)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Nama_Perusahaan)
+            @Html.TextBoxFor(m => m.Nama_Perusahaan)
+        </li>
+
+        <li data-role="fieldcontain">
+            @Html.LabelFor(m => m.Kode_Singkat)
+            @Html.TextBoxFor(m => m.Kode_Singkat)
+        </li>
+
+        <li data-role="fieldcontain">
+            <input id="submit" name="submit" type="submit" value="Register Perusahaan" />
+            <input id="reset" name="reset" type="reset" value="Reset Formulir" onclick="window.location.reload(true);" />
+        </li>
+    </ul>
+}

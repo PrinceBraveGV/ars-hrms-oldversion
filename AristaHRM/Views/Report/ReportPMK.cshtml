@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "HRIS - Laporan PMK";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model SearchModel
+
+<script>
+    $(document).ready(function () {
+
+    });
+
+    function onSearch(s, e) {
+        var tanggal = Tanggal.GetValue();
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Laporan Daftar PMK</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial; text-align:center">Masukkan kriteria pencarian pada isian berikut ini untuk menampilkan laporan.</label><br /><br />
+                        @using (Html.BeginForm())
+                        {
+                            <!-- dropdown  -->
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "SearchLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "No. PMK ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.Kategori, combo =>
+                                        {
+                                            combo.Name = "Kategori";
+                                            combo.Width = Unit.Pixel(300);
+                                            combo.Theme = AristaHRM.Theme.SelectTheme;
+                                            combo.Properties.TextField = "No_PMK";
+                                            combo.Properties.ValueField = "No_PMK";
+                                            combo.Properties.ValueType = typeof(string);
+                                        }).BindList(Providers.GetDaftarPMK()).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(item =>
+                                {
+                                    item.Caption = "Tanggal PMK ";
+                                    item.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tanggal, dateedit =>
+                                        {
+                                            dateedit.Name = "Tanggal";
+                                            dateedit.Width = Unit.Pixel(300);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                        ViewContext.Writer.Write("<div style=\"padding-top:3px\">");
+                                        Html.DevExpress().Button(button =>
+                                        {
+                                            button.Name = "btnCari";
+                                            button.Text = "Cari PMK";
+                                            button.UseSubmitBehavior = false;
+                                            button.Style.Add("display", "inline-table");
+                                            button.ClientSideEvents.Click = "onSearch";
+                                            button.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).GetHtml();
+                                        ViewContext.Writer.Write("</div>");
+                                    });
+                                });
+                            }).GetHtml()
+                            <br /><br />
+                            
+                            <!-- tombol pencarian item PMK -->
+                            
+                            @Html.DevExpress().Ribbon(settings =>
+                            {
+                                settings.Name = "Ribbon";
+                                settings.ShowFileTab = false;
+                                settings.ShowGroupLabels = true;
+                                settings.ShowTabs = true;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Tabs.AddRange(DocumentViewerExtension.DefaultRibbonTabs);
+                            }).GetHtml()
+
+                            Html.RenderAction("ReportPMKPartial");
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

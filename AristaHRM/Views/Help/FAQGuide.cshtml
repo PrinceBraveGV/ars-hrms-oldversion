@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pusat Bantuan Umum";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">FAQ (Pertanyaan yang Sering Diajukan)</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <br /><a id="#top" name="top"></a>
+                        <label style="font: 12px Arial; text-align:left">Berikut ini adalah daftar pertanyaan yang sering diajukan kepada HRD mengenai sistem manajemen karyawan.</label> <br />
+                        <p style="font-family:Arial; font-weight:bold; text-align:left">Tentang Login & Registrasi Karyawan</p>
+                        <ol type="1" style="font: 12px Arial; text-align:left">
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya karyawan baru, bagaimana cara melakukan registrasi?</label></li>
+                            <br />
+                            <label>Registrasi dapat dilakukan melalui menu "Register" dan mengisi formulir yang disediakan dengan lengkap sesuai dengan data yang anda berikan kepada HRD.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya tidak mendapatkan email pemberitahuan setting password, apakah saya bisa login ke sistem?</label></li>
+                            <br />
+                            <label>Bisa. Secara default, sistem menggunakan NIK anda sebagai password default sampai anda memutuskan untuk mengganti password secara mandiri baik melalui email pemberitahuan maupun melalui menu user. Untuk keamanan akun anda, segera lakukan penggantian password melalui menu user setelah anda login dengan melalui menu "User Data" ==> "Ubah Password" dan beritahukan email valid anda kepada tim HRD.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya tidak bisa melakukan registrasi akun karena input nama saya selalu ditolak oleh sistem dengan pesan "nama anda sudah terdaftar". Bagaimana cara mengatasinya?</label></li>
+                            <br />
+                            <label>Ada kemungkinan bahwa nama anda bentrok dengan salah satu nama karyawan yang sudah terdaftar pada database. Mohon hubungi support atau HRD untuk mengatur registrasi bagi nama anda.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya mendapat pesan "akun terproteksi" ketika memasukkan login dan password akun saya. Mohon penjelasannya.</label></li>
+                            <br />
+                            <label>
+                                Pesan "akun terproteksi" menandakan anda telah salah memasukkan password akun anda sebanyak 3 kali berturut-turut. Coba kembali untuk login dengan password yang benar setelah 3 menit.<br />
+                                Jika anda merasa tidak salah memasukkan password saat pesan tersebut muncul, ini menandakan seseorang berusaha mengakses akun anda secara tidak sah dan sistem melindungi akun anda dari penggunaan tidak berhak.
+                            </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya lupa password akun saya dan ingin menggantinya, bagaimanakah caranya?</label></li>
+                            <br />
+                            <label>
+                                Dari halaman utama pilih menu "Bantuan" ==> "Reset Password", kemudian masukkan NIK anda. Setelah menerima email pemberitahuan, bukalah email tersebut dan klik link reset yang disertakan di dalamnya.<br />
+                                Catatan: Pastikan anda memiliki email yang valid untuk melakukan prosedur ini.
+                            </label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Jika saya lupa password akun saya, apakah saya bisa meminta password yang terlupa melalui pihak HRD?</label></li>
+                            <br />
+                            <label>Tidak bisa. Sistem HRIS ini menggunakan teknik enkripsi untuk melindungi password seluruh user yang ada, sehingga admin sekalipun tidak mengetahui password seperti apa yang dimasukkan user. Cara yang disediakan oleh sistem adalah mengatur ulang password anda melalui prosedur reset password, seperti yang tertera pada pertanyaan (5).</label>
+                            <br />
+                            <br />
+                        </ol>
+                        <p style="font-family:Arial; font-weight:bold; text-align:left">Tentang Administrasi Karyawan</p>
+                        <ol type="1" style="font: 12px Arial; text-align:left">
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apa saja pilihan yang tersedia bagi karyawan dengan level staf?</label></li>
+                            <br />
+                            <label>Anda dapat melakukan aktivitas sebagai berikut: 1) melihat profil anda, 2) mengajukan cuti khusus maupun cuti tahunan, 3) melihat status permohonan cuti anda, 4) melihat sisa cuti tahunan anda pada tahun berjalan, 5) mengunduh pemberitahuan atau dokumen yang disediakan, 6) mengajukan proses resign kepada atasan.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Dapatkah saya membuat permintaan reset password sementara saya sedang login dengan fasilitas "ingat saya"?</label></li>
+                            <br />
+                            <label>Bisa. Perubahan password anda akan berlaku efektif mulai login berikutnya setelah proses logout/session timeout yang terbaru.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Saya akan melakukan mutasi, apakah perlu memberitahukan kepada manajer/admin atau cukup mengisi sendiri formulir mutasi?</label></li>
+                            <br />
+                            <label>Jika anda berstatus sebagai manajer pada departemen anda, anda berhak untuk mengisi sendiri formulir mutasi baik untuk diri sendiri maupun bawahan anda. Untuk karyawan staf, harap memberitahukan kepada atasan anda dan pihak HRD untuk melakukan proses mutasi secara online.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Sebagai staf, saya tidak/belum mengajukan mutasi tetapi atasan memerintahkan adanya mutasi atas nama saya, apakah mutasi demikian tetap diperhitungkan?</label></li>
+                            <br />
+                            <label>Mutasi anda tetap diperhitungkan mengingat bahwa atasan anda yang sudah mengajukan permohonan mutasi tersebut. Anda harus menaati ketentuan mutasi yang sudah diperintahkan oleh atasan anda.</label>
+                            <br />
+                            <br />
+                        </ol>
+                        <p style="font-family:Arial; font-weight:bold; text-align:left">Tentang Administrasi Manajer/Supervisor</p>
+                        <ol type="1" style="font: 12px Arial; text-align:left">
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apakah perbedaan fasilitas yang dimiliki karyawan level supervisor dengan karyawan level manajer?</label></li>
+                            <br />
+                            <label>Supervisor dan manajer memiliki persamaan pada perwakilan pengajuan cuti dan dapat memproses persetujuan cuti bagi karyawan level staf. Akan tetapi, manajer dapat melakukan proses pembatalan cuti sampai menyetujui proses resign, di mana beberapa fungsi tersebut tidak dapat dilakukan oleh supervisor.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Dapatkah saya menambahkan cuti massal untuk kantor pusat dan kantor cabang secara bersamaan?</label></li>
+                            <br />
+                            <label>Bisa. Cuti massal kantor pusat secara otomatis akan berlaku juga bagi kantor cabang, kecuali cuti massal yang khusus diterapkan untuk kantor cabang.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Dapatkah saya membatalkan proses mutasi yang tidak sengaja diisi dengan data yang keliru?</label></li>
+                            <br />
+                            <label>Bisa. Pembatalan dilakukan dengan proses edit karyawan untuk selanjutnya dikembalikan dengan data yang digunakan sebelum proses mutasi.</label>
+                            <br />
+                            <br />
+                            <li><label style="font-size: 12px; font-family:Arial; font-style:italic; text-decoration:underline">Apakah saya dapat mengajukan resign pada diri sendiri berikut perubahan bawahan saya?</label></li>
+                            <br />
+                            <label>Anda perlu melakukan proses mutasi karyawan terlebih dahulu melalui proses mutasi manajer/supervisor (khusus bagi manajer, untuk supervisor harus meminta persetujuan atasan terlebih dahulu seperti karyawan level staf) untuk menentukan karyawan pengganti posisi anda, barulah anda dapat mengajukan resign atas nama diri anda.</label>
+                            <br />
+                            <br />
+                        </ol>
+                        <br />
+                        <br />
+                        <p style="text-align:right">
+                            @Html.DevExpress().Button(settings =>
+                            {
+                                settings.Name = "btnNext";
+                                settings.Text = "Berikutnya";
+                                settings.UseSubmitBehavior = false;
+                                settings.RouteValues = new { Controller = "Help", Action = "FAQCuti" };
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

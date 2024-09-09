@@ -1,0 +1,274 @@
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_SpecialTheme,
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_SpecialTheme,
+.dxPivotGrid_FLBottomPanelOnly2by2_SpecialTheme,
+.dxPivotGrid_FLButton_SpecialTheme,
+.dxPivotGrid_FLColumnAreaHeaders_SpecialTheme,
+.dxPivotGrid_FLDataAreaHeaders_SpecialTheme,
+.dxPivotGrid_FLFieldList_SpecialTheme,
+.dxPivotGrid_FLFilterAreaHeaders_SpecialTheme,
+.dxPivotGrid_FLRowAreaHeaders_SpecialTheme,
+.dxPivotGrid_FLStackedDefault_SpecialTheme,
+.dxPivotGrid_FLStackedSideBySide_SpecialTheme,
+.dxPivotGrid_FLTopPanelOnly_SpecialTheme,
+.dxPivotGrid_pgCollapsedButton_SpecialTheme,
+.dxPivotGrid_pgCustomizationFormCloseButton_SpecialTheme,
+.dxPivotGrid_pgDataHeaders_SpecialTheme,
+.dxPivotGrid_pgDragArrowDown_SpecialTheme,
+.dxPivotGrid_pgDragArrowLeft_SpecialTheme,
+.dxPivotGrid_pgDragArrowRight_SpecialTheme,
+.dxPivotGrid_pgDragArrowUp_SpecialTheme,
+.dxPivotGrid_pgDragHideField_SpecialTheme,
+.dxPivotGrid_pgExpandedButton_SpecialTheme,
+.dxPivotGrid_pgFilterButton_SpecialTheme,
+.dxPivotGrid_pgFilterButtonActive_SpecialTheme,
+.dxPivotGrid_pgFilterResizer_SpecialTheme,
+.dxPivotGrid_pgGroupSeparator_SpecialTheme,
+.dxPivotGrid_pgPrefilterButton_SpecialTheme,
+.dxPivotGrid_pgSortByColumn_SpecialTheme,
+.dxPivotGrid_pgSortDownButton_SpecialTheme,
+.dxPivotGrid_pgSortUpButton_SpecialTheme
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_SpecialTheme
+{
+    background-position: -208px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -68px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -102px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -119px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -187px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -153px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -51px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -247px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -34px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_SpecialTheme
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_SpecialTheme
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_SpecialTheme
+{
+    background-position: -204px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_SpecialTheme
+{
+    background-position: -85px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_SpecialTheme
+{
+    background-position: -170px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_SpecialTheme
+{
+    background-position: -17px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_SpecialTheme
+{
+    background-position: -136px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_SpecialTheme
+{
+    background-position: 0px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_SpecialTheme
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_SpecialTheme
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_SpecialTheme
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_SpecialTheme
+{
+    background-position: -247px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_SpecialTheme
+{
+    background-position: -188px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_pgDataHeaders_SpecialTheme
+{
+    background-position: -215px -20px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgDragArrowDown_SpecialTheme
+{
+    background-position: -171px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_SpecialTheme
+{
+    background-position: -205px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_SpecialTheme
+{
+    background-position: -195px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_SpecialTheme
+{
+    background-position: -183px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_SpecialTheme
+{
+    background-position: -165px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxPivotGrid_pgExpandedButton_SpecialTheme
+{
+    background-position: -263px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButton_SpecialTheme
+{
+    background-position: -221px -33px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_SpecialTheme
+{
+    background-position: -228px -19px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterResizer_SpecialTheme
+{
+    background-position: -228px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgGroupSeparator_SpecialTheme
+{
+    background-position: -165px -31px;
+    width: 5px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_SpecialTheme
+{
+    background-position: -264px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortByColumn_SpecialTheme
+{
+    background-position: -240px -33px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_SpecialTheme
+{
+    background-position: -256px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortUpButton_SpecialTheme
+{
+    background-position: -266px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_SpecialTheme
+{
+	background-color: #C00000;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_SpecialTheme,
+.dxPivotGrid_FLButton_SpecialTheme
+{
+	display: block;
+}
+

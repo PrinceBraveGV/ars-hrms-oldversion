@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = " - User Guide -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("Dashboard", "Home", mobilearea)">Home</a> > User Guide</li>
+        <li data-role="list-divider">User Guide</li>
+
+        <li data-role="fieldcontain">
+            Berikut ini adalah panduan penggunaan yang dapat diunduh ke penyimpanan lokal.<br />
+            Isi dari panduan ini dapat berubah sewaktu-waktu.
+        </li>
+
+        <li data-role="fieldcontain">
+
+        </li>
+    </ul>
+}
+
+

@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_MarineBlue,
+.dxTreeList_CollapsedButtonRtl_MarineBlue,
+.dxTreeList_DragAndDropArrowDown_MarineBlue,
+.dxTreeList_DragAndDropArrowUp_MarineBlue,
+.dxTreeList_DragAndDropHide_MarineBlue,
+.dxTreeList_DragAndDropNode_MarineBlue,
+.dxTreeList_ExpandedButton_MarineBlue,
+.dxTreeList_ExpandedButtonRtl_MarineBlue,
+.dxTreeList_SortAsc_MarineBlue,
+.dxTreeList_SortDesc_MarineBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_MarineBlue
+{
+    background-position: -16px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_CollapsedButtonRtl_MarineBlue
+{
+    background-position: 0px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_DragAndDropArrowDown_MarineBlue
+{
+    background-position: 0px -55px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_MarineBlue
+{
+    background-position: -12px -55px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_MarineBlue
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_MarineBlue
+{
+    background-position: -16px -39px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_MarineBlue
+{
+    background-position: 0px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_ExpandedButtonRtl_MarineBlue
+{
+    background-position: -23px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_SortAsc_MarineBlue
+{
+    background-position: -23px -17px;
+    width: 7px;
+    height: 5px;
+}
+.dxTreeList_SortDesc_MarineBlue
+{
+    background-position: -31px -17px;
+    width: 7px;
+    height: 5px;
+}
+

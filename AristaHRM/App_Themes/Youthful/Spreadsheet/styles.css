@@ -1,0 +1,174 @@
+.dxssControl_Youthful 
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxssControl_Youthful .dxrControl_Youthful .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxssControl_Youthful .dxss-gl .dxss-v,
+.dxssControl_Youthful .dxss-gl .dxss-h 
+{
+	border-color: #D3E4A6;
+}
+.dxssControl_Youthful .dxss-rowHeader 
+{	
+	border-right: 1px solid #D3E4A6;
+	border-top: 1px solid #D3E4A6;
+}
+.dxssControl_Youthful .dxss-colHeader 
+{
+	border-bottom: 1px solid #D3E4A6;
+	border-left: 1px solid #D3E4A6;
+}
+.dxssControl_Youthful .dxss-crse 
+{
+	background-color: #ffaf4d;
+	opacity: 0.20;
+}
+.dxssControl_Youthful .dxss-trbe 
+{
+	border-top-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-rrbe 
+{
+	border-right-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-brbe 
+{
+	border-bottom-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-lrbe 
+{
+	border-left-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-smbe
+{
+    border-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxtcLite_Youthful.dxtc-bottom .dxtc-stripContainer .dxtc-leftIndent
+{
+	width: 8px;
+}
+.dxssControl_Youthful .dxss-hrg,
+.dxssControl_Youthful .dxss-vrg 
+{
+	background-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-md {
+	border-left: 1px solid #D3E4A6 !important;
+	border-right: 1px solid #D3E4A6 !important;
+	border-bottom: 1px solid #D3E4A6 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dxssControl_Youthful .dxss-tse
+{
+	border-color: #ffaf4d;
+}
+.dxssControl_Youthful .dxss-tre
+{
+	background: url('TouchResize.png');
+}
+.dxssControl_Youthful .dxss-ddp,
+.dxssControl_Youthful .dxss-ddb
+{
+    border: 1px solid #AFC185;
+}
+.dxssControl_Youthful .dxss-ddp tr:hover
+{
+    background-color: #F4BD17;
+}
+/* Loading panel */
+.dxssLoadingDiv_Youthful
+{
+    background: white;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85);
+}
+.dxssLoadingPanel_Youthful
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #303030;
+	border: 1px solid #9BC424;
+	background-color: White;
+}
+.dxssLoadingPanel_Youthful td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px;
+}
+.dxssLoadingPanel_Youthful .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 7px;
+	width: 72px;
+}
+/* --------------Dialogs----------------- */
+.dxpcLite_Youthful .dxssDlgFooter
+{
+	background-color: #9CC525;
+	border-top: 1px white solid;
+}
+.dxpcLite_Youthful .dxssDlgInsertImageForm .dxssDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px White;
+}
+.dxssControl_Youthful .dxrpControl_Youthful .dxrpcontent
+{
+	padding: 14px !important;
+}
+
+.dxssModifyChartStyleContenPanel .dxbButtonHover_Youthful
+{
+	color: #000000;
+	background-color: #F8FCF1;
+	border: 1px Solid #AFC185;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonChecked_Youthful
+{
+	color: #FFFFFF;
+	background: #F4921B none;
+	border: 1px Solid #F4921B;
+}
+.dxssModifyChartStyleContenPanel .dxbButtonPressed_Youthful
+{
+	color: #000000;
+	background-color: #CCD7B1;
+	border: 1px Solid #AFC185;
+}
+/* DX Spreadsheet Cell Editor Element, Formula Bar, IntelliSense elements */
+.dxssControl_Youthful .dxss-ctve {
+	border: 2px solid #ffaf4d; /*the same -dxss-cfe */
+}
+.dxssControl_Youthful .dxss-fb {
+    padding: 10px;
+    border: 1px solid #afc185;
+    border-top: 0;
+}
+.dxssControl_Youthful .dxmLite_Youthful .dxss-fbMenu {
+    height: 23px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+.dxssControl_Youthful .dxss-fbMenu .dxm-content {
+    padding-top: 2px!important;
+}
+.dxssControl_Youthful .dxss-Hint {
+    padding: 3px 8px 4px 8px;
+    border: 0px;
+    background-color: #9CC525;
+    color: White;
+}
+.dxssControl_Youthful .dxss-Hint.dxss-funcInfo {
+    margin-left: 10px;
+    margin-right: 10px;
+}

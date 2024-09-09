@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pusat Panduan Pengguna";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">User's Guide</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <br />
+                        <label style="font: 12px Arial; text-align:left">
+                            Berikut ini adalah panduan pengguna yang dapat dibaca secara online, diunduh atau dicetak.<br />
+                            Isi dari dokumen panduan ini dapat berubah sewaktu-sewaktu sesuai dengan fasilitas yang tersedia.
+                            <br />
+                        </label>
+                        <div id="pdfcontainer" style="text-align:center">
+                            <object data="@ViewData["path"]#" type="application/pdf" width="640" height="480">
+                                @if (ViewBag.Privilege == "Admin" || ViewBag.Privilege == "Manager")
+                                {
+                                    <p style="text-align:center">Klik di sini untuk menampilkan dokumen: @Html.ActionLink("Tampilkan Admin Guide (PDF)", "AdminGuidePDF", "Help", new { @target = "blank" })</p>
+                                }
+                                else
+                                {
+                                    <p style="text-align:center">Klik di sini untuk menampilkan dokumen: @Html.ActionLink("Tampilkan User Guide (PDF)", "UserGuidePDF", "Help", new { @target = "blank" })</p>
+                                }
+                            </object>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

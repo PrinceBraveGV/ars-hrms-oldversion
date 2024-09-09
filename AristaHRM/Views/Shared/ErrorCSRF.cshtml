@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "HRIS - Masalah Token Keamanan Data";
+    Layout = "~/Views/Shared/_redirectLayout.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<br /><br />
+<hr />
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pemberitahuan Token Keamanan Data</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <label class="labeldesc">
+                        Sistem mendeteksi bahwa anda berusaha melakukan aktivitas pada aplikasi dengan token keamanan data yang sudah kadaluarsa.<br />
+                        Silakan refresh halaman isian input yang sedang dibuka sebelum ditampilkannya pesan ini.<br /><br />
+                        Halaman ini akan dialihkan secara otomatis setelah 5 detik atau setelah anda menekan tombol &quot;Kembali&quot;.
+                    </label>
+                    <br /><br />
+                    @Html.DevExpress().Button(settings =>
+                    {
+                        settings.Name = "Return";
+                        settings.Text = "Kembali";
+                        settings.UseSubmitBehavior = false;
+                        settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                        settings.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                        settings.Theme = AristaHRM.Theme.SelectTheme;
+                    }).GetHtml()
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

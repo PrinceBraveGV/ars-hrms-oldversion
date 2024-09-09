@@ -1,0 +1,376 @@
+﻿@{
+    ViewBag.Title = "HRIS - Pengajuan Cuti";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+@using AristaHRM.Models
+
+@model CutiModel
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+<script type="text/javascript">
+    function selectKaryawan(s, e) {
+        UserPanel.PerformCallback();
+        setTimeout(getJenis(), 2000);
+    }
+
+    function getJenis() {
+        Jenis_Cuti.PerformCallback();
+        Keperluan.PerformCallback();
+    }
+
+    function getKaryawan(s, e) {
+        console.log(Jenis_Cuti.GetValue());
+
+        e.customArgs["NIK"] = NIK.GetValue();
+        e.customArgs["Status_Nikah"] = Status_Nikah.GetValue();
+        e.customArgs["Agama"] = Agama.GetValue();
+        e.customArgs["Jenis_Kelamin"] = Jenis_Kelamin.GetValue();
+        e.customArgs["Jenis_Cuti"] = Jenis_Cuti.GetValue();
+    }
+
+    function endKaryawan(s, e) {
+        Pemberi.SetValue(Nama_Atasan.GetValue());
+        Keperluan.PerformCallback();
+    }
+
+    function onJenisChanged(s, e) {
+        UserPanel.PerformCallback();
+        Keperluan.PerformCallback();
+    }
+</script>
+
+<div class="formbase">
+    <table class="tablebase">
+        <thead>
+            <tr>
+                <td class="tableheader">
+                    <p class="tableheadercontent">Pengajuan Cuti</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tablebody">
+                    <div class="tablebodycontent">
+                        <label style="font: 12px Arial">Catatan: Sebelum mengajukan cuti tahunan maupun advance, mohon periksa sisa cuti tahunan karyawan ybs terlebih dahulu di @Html.ActionLink("sini", "SisaTahunan", "Master").</label><hr />
+                        @using (Html.BeginForm("Pengajuan", "Admin", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+                                    
+                            <div style="margin-left:55px">
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "PengajuanForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Identitas Karyawan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "========= NIK ";
+                                    layoutitem.HorizontalAlign = FormLayoutHorizontalAlign.Center;
+                                    layoutitem.NestedExtensionSettings.Width = Unit.Pixel(200);
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<table><tr><td>");
+                                        Html.DevExpress().ComboBoxFor(m => m.NIK, combobox =>
+                                        {
+                                            combobox.Name = "NIK";
+                                            combobox.Properties.NullText = "-- Pilih NIK --";
+                                            combobox.Properties.HelpText = "(*) Pilih NIK untuk menentukan karyawan dari daftar.";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "Nama Karyawan";
+                                            combobox.Properties.ValueField = "NIK";
+                                            combobox.Properties.ValueType = typeof(String);
+                                            combobox.Properties.TextFormatString = "{0} - {1}";
+                                            combobox.Properties.Columns.Add("NIK", "NIK", Unit.Pixel(70));
+                                            combobox.Properties.Columns.Add("Nama_Karyawan", "Nama Karyawan", Unit.Pixel(300));
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ValidationSettings.Display = Display.None;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                            combobox.Properties.EnableClientSideAPI = true;
+                                            combobox.Properties.ClearButton.DisplayMode = ClearButtonDisplayMode.OnHover;
+                                            combobox.Properties.ClientSideEvents.ValueChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.SelectedIndexChanged = "selectKaryawan";
+                                            combobox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+                                        }).BindList(Providers.GetListKaryawan()).GetHtml();
+                                        ViewContext.Writer.Write("</td><td style=\"text-align: center; padding-left: 5px; padding-bottom: 15px;\">");
+                                        //Html.DevExpress().Button(button =>
+                                        //{
+                                        //    button.Name = "btnRefresh";
+                                        //    button.Text = "Refresh";
+                                        //    button.UseSubmitBehavior = false;
+                                        //    button.Style.Add("display", "inline-table");
+                                        //    button.ClientSideEvents.Click = "function(s, e) { UserPanel.PerformCallback(); }";
+                                        //    button.Theme = AristaHRM.Theme.SelectTheme;
+                                        //}).GetHtml();
+                                        Html.DevExpress().Button(button =>
+                                        {
+                                            button.Name = "btnDisplay";
+                                            button.Text = "Detail";
+                                            button.UseSubmitBehavior = false;
+                                            button.Style.Add("display", "inline-table");
+                                            button.ClientSideEvents.Click = "function(s, e) { PopupDetail.Show(); UserPanel.PerformCallback(); }";
+                                        }).GetHtml();
+                                        ViewContext.Writer.Write("</td></tr></table>");
+                                    });
+                                });
+                            }).GetHtml()
+
+                            <table>
+                                <tr>
+                                    <td>
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "CutiForm";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Informasi Pengajuan Cuti</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Jenis Cuti ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.RenderPartial("_JenisCuti", Model);
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Keperluan Cuti ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.RenderPartial("_Pengajuan", Model);
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tanggal Pengajuan ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Pengajuan, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(300);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal pengajuan cuti yang diinginkan.";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Now.AddDays(-1);
+                                            dateedit.Properties.ValidationSettings.Display = Display.None;
+                                            dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            dateedit.ShowModelErrors = true;
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tanggal Mulai ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Mulai, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(300);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal mulainya cuti yang diinginkan.";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                            dateedit.Properties.ValidationSettings.Display = Display.None;
+                                            dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            dateedit.ShowModelErrors = true;
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Tanggal Selesai ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().DateEditFor(m => m.Tgl_Selesai, dateedit =>
+                                        {
+                                            dateedit.Width = Unit.Pixel(300);
+                                            dateedit.Theme = AristaHRM.Theme.SelectTheme;
+                                            dateedit.Properties.HelpText = "(*) Tentukan tanggal selesainya cuti (tanggal terakhir sebelum masuk kerja kembali).";
+                                            dateedit.Properties.DisplayFormatString = "D";
+                                            dateedit.Properties.EditFormat = EditFormat.Custom;
+                                            dateedit.Properties.EditFormatString = "dd MMMM yyyy";
+                                            dateedit.Properties.MinDate = DateTime.Parse("2000-01-01");
+                                            dateedit.Properties.ValidationSettings.Display = Display.None;
+                                            dateedit.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            dateedit.ShowModelErrors = true;
+                                            dateedit.Properties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Pemberi Cuti ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().ComboBoxFor(m => m.Pemberi, combobox =>
+                                        {
+                                            combobox.Name = "Pemberi";
+                                            combobox.Properties.NullText = "-- Pilih --";
+                                            combobox.Properties.HelpText = "(*) Masukkan atasan yang memberikan cuti (default: manajer pada departemen kerja karyawan bersangkutan).";
+                                            combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+                                            combobox.Properties.TextField = "Nama_Karyawan";
+                                            combobox.Properties.ValueField = "Nama_Karyawan";
+                                            combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+                                            combobox.Properties.ValidationSettings.Display = Display.None;
+                                            combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+                                            combobox.Width = Unit.Pixel(300);
+                                            combobox.Theme = AristaHRM.Theme.SelectTheme;
+                                        }).BindList(Providers.GetListAtasan()).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                            </td>
+                            <td style="vertical-align:top">
+                            @Html.DevExpress().FormLayout(settings =>
+                            {
+                                settings.Name = "AdditionalLayout";
+                                settings.AlignItemCaptionsInAllGroups = true;
+                                settings.SettingsItemCaptions.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+                                settings.Theme = AristaHRM.Theme.SelectTheme;
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = string.Empty;
+                                    layoutitem.ShowCaption = DefaultBoolean.False;
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        ViewContext.Writer.Write("<p style='text-align:left; font: 14px Arial'>Informasi Tambahan</p><hr />");
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                     {
+                                         layoutitem.Caption = "Keterangan ";
+                                         layoutitem.SetNestedContent(() =>
+                                         {
+                                             Html.DevExpress().MemoFor(m => m.Keterangan, textarea =>
+                                             {
+                                                 textarea.Properties.Columns = 80;
+                                                 textarea.Properties.Rows = 6;
+                                                 textarea.Theme = AristaHRM.Theme.SelectTheme;
+                                                 textarea.Properties.HelpText = "Masukkan keterangan mengenai cuti yang diajukan (opsional).";
+                                             }).GetHtml();
+                                         });
+                                     });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Lokasi Cuti ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().TextBoxFor(m => m.Lokasi, textbox =>
+                                        {
+                                            textbox.Width = Unit.Pixel(300);
+                                            textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                            textbox.Properties.HelpText = "Masukkan daerah/kota tujuan cuti (opsional).";
+                                        }).GetHtml();
+                                    });
+                                });
+                                settings.Items.Add(layoutitem =>
+                                {
+                                    layoutitem.Caption = "Nomor Kontak ";
+                                    layoutitem.SetNestedContent(() =>
+                                    {
+                                        Html.DevExpress().TextBoxFor(m => m.Nomor_Kontak, textbox =>
+                                        {
+                                            textbox.Width = Unit.Pixel(300);
+                                            textbox.Theme = AristaHRM.Theme.SelectTheme;
+                                            textbox.Properties.HelpText = "Masukkan nomor kontak yang dapat dihubungi selama masa cuti (opsional).";
+                                        }).GetHtml();
+                                    });
+                                });
+                            }).GetHtml()
+                                        </td>
+                                    </tr>
+                            </table>
+                            </div>
+                            <div class="formbutton">
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnKirim";
+                                button.Text = "Proses Pengajuan";
+                                button.Images.Image.Url = "~/Images/Document.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = true;
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            @{ ViewContext.Writer.Write("&nbsp;"); }
+                            @Html.DevExpress().Button(button =>
+                            {
+                                button.Name = "btnReset";
+                                button.Text = "Reset Formulir";
+                                button.Images.Image.Url = "~/Images/Refresh.png";
+                                button.Images.Image.Width = Unit.Pixel(15);
+                                button.Images.Image.Height = Unit.Pixel(15);
+                                button.UseSubmitBehavior = false;
+                                button.Attributes.Add("type", "reset");
+                                button.ClientSideEvents.Click = "function(s, e) { ASPxClientEdit.ClearEditorsInContainer(null); }";
+                                button.Theme = AristaHRM.Theme.SelectTheme;
+                            }).GetHtml()
+                            </div>
+                        }
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><p style="text-align:left; color:red; font:12px Arial">@ViewData["ErrorMsg"]</p>
+                    <br />
+                    <label style="font: 12px Arial">Untuk melihat pengajuan cuti yang menunggu persetujuan, silakan klik di @Html.ActionLink("sini", "ApprovalKhusus", "Admin") atau di @Html.ActionLink("sini", "ApprovalTahunan", "Admin").</label>
+                    <br /><br />
+                    <label style="font: 12px Arial">Untuk melihat riwayat pengajuan cuti, silakan klik di @Html.ActionLink("sini", "Riwayat", "Master").</label><br /><br />
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+@Html.DevExpress().PopupControl(settings =>
+{
+    settings.Name = "PopupDetail";
+    settings.CloseAction = CloseAction.CloseButton;
+    settings.PopupVerticalAlign = PopupVerticalAlign.WindowCenter;
+    settings.PopupHorizontalAlign = PopupHorizontalAlign.WindowCenter;
+    settings.AllowDragging = true;
+    settings.AllowResize = false;
+    settings.Modal = true;
+    settings.ShowCloseButton = true;
+    settings.ShowHeader = true;
+    settings.HeaderText = "Detail Karyawan";
+    settings.EnableHotTrack = true;
+    settings.Theme = AristaHRM.Theme.SelectTheme;
+    settings.SetContent(() =>
+    {
+        Html.RenderPartial("_PanelUserInfo", Model);
+    });
+}).GetHtml()

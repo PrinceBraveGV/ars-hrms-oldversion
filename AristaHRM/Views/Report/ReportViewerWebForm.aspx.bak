@@ -1,0 +1,63 @@
+﻿<%@ Page Language="C#" AutoEventWireup="True" Inherits="ReportViewerForMvc.ReportViewerWebForm" %>
+
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
+
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body style="margin: 0px; padding: 0px;">
+    <script runat="server">
+        private void Page_Load(Object sender, EventArgs e)
+        {
+            ReportViewer1.ServerReport.ReportPath = "";
+            ReportViewer1.LocalReport.Refresh();
+        }
+    </script>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                <Scripts>
+                    <asp:ScriptReference Assembly="ReportViewerForMvc" Name="ReportViewerForMvc.Scripts.PostMessage.js" />
+                </Scripts>
+            </asp:ScriptManager>
+
+            <dx:ASPxComboBox ID="ComboReport" AutoPostBack="true" DataSourceID="ReportQuery" TextField="" ValueField="" ValueType="Long" 
+            >
+                <Columns>
+                    <dx:ListBoxColumn FieldName="" Caption="" />
+                    <dx:ListBoxColumn FieldName="" Caption="" />
+                </Columns>
+                <ClientSideEvents SelectedIndexChanged="" />
+            </dx:ASPxComboBox>
+
+            <dx:ASPxTreeList ID="Tree1" AutoGenerateColumns="false" DataSourceID="" KeyFieldName="" ></dx:ASPxTreeList>
+
+            <rsweb:ReportViewer ID="ReportViewer1" ProcessingMode="Remote"
+                Font-Names="Verdana" Font-Size="8pt"
+                WaitMessageFont-Names="Verdana" WaitMessageFont-Size="14pt" Width="100%"
+                Height="600px" runat="server">
+                <ServerReport ReportServerUrl="" />
+            </rsweb:ReportViewer>
+
+            <asp:SqlDataSource ID="ReportQuery" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>"
+                SelectCommand="SM_Karyawan" SelectCommandType="StoredProcedure"
+            >
+                <SelectParameters>
+                    <asp:Parameter DbType="String" Direction="Input" Type="String" Name="" />
+                    <asp:Parameter DbType="Double" Direction="Input" Type="Double" Name="" /> 
+                </SelectParameters>
+            </asp:SqlDataSource>
+
+
+        </div>
+    </form>
+</body>
+</html>

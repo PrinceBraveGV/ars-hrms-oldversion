@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = " - Manajemen Karyawan -";
+    Layout = "~/Areas/Mobile/Views/Shared/_rootMobile.cshtml";
+}
+
+@{
+    Html.EnableUnobtrusiveJavaScript();
+}
+
+@{ var mobilearea = new { area = "Mobile" }; }
+
+@section Header {
+    @Html.ActionLink("Kembali", "ManagerMenu", "Manager", mobilearea, new { data_icon = "arrow-l" })
+    @Html.ActionLink("Home", "Dashboard", "Home", mobilearea, new { data_icon = "home" })
+}
+
+@section Title {
+    <h5>@ViewBag.Title</h5>
+}
+
+@{
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider"><a href="@Url.Action("ManagerMenu", "Manager", mobilearea)">Manager Home</a> > Manajemen Karyawan</li>
+        <li data-role="list-divider">Manajemen Karyawan</li>
+        
+        <li>@Html.ActionLink("Profil Karyawan", "Profil", "Manager", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Ubah Password", "UbahPassword", "Manager", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Resign", "Resign", "Manager", mobilearea, new { hidefocus = "hidefocus" })</li>
+        <li>@Html.ActionLink("Bantuan", "MobileGuide", "Help", mobilearea, new { hidefocus = "hidefocus" })</li>
+    </ul>
+    
+    
+}
+

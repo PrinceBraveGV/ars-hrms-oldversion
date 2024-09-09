@@ -1,0 +1,471 @@
+.dxcvControl_Office2010Silver,
+.dxcvDisabled_Office2010Silver
+{
+    border: 1px solid #868b91;
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #e7eaee;
+    color: Black;
+    cursor: default;
+}
+.dxcvDisabled_Office2010Silver
+{
+    color: #989898;
+}
+.dxcvControl_Office2010Silver a
+{
+    color: #5a9ddb;
+    text-decoration: none;
+}
+.dxcvControl_Office2010Silver a:hover
+{
+    text-decoration: underline;
+}
+.dxcvDisabled_Office2010Silver a
+{
+    color: #989898;
+}
+
+.dxcvLoadingPanel_Office2010Silver
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #585e68;
+    background: White none;
+    border: 1px solid #80858d;
+}
+.dxcvLoadingPanel_Office2010Silver td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxcvLoadingPanel_Office2010Silver .dxlp-loadingImage,
+.dxcvLoadingPanelStatusBar_Office2010Silver .dxlp-loadingImage 
+{
+    background-image: url('../Web/Loading.gif');
+    height: 16px;
+    width: 16px;
+}
+.dxcvLoadingPanelStatusBar_Office2010Silver
+{
+    background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_Office2010Silver td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 2px;
+}
+.dxcvFilterPopupWindow_Office2010Silver
+{
+    color: Black;
+    border: 1px solid #a5acb5;
+}
+.dxcvFilterPopupItemsArea_Office2010Silver
+{
+    color: Black;
+    background-color: White;
+    padding-top: 1px;
+}
+.dxcvFilterPopupButtonPanel_Office2010Silver
+{
+    background-color: #e9edf1;
+    border-top: 1px solid #a5acb5;
+    color: Black;
+}
+
+.dxcvFilterPopupItem_Office2010Silver td.dxcv,
+.dxcvFilterPopupActiveItem_Office2010Silver td.dxcv,
+.dxcvFilterPopupSelectedItem_Office2010Silver td.dxcv
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 3px 2px 3px 3px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_Office2010Silver
+{
+    background: #e2ecf7 none;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_Office2010Silver
+{
+    background: #ecedef none;
+    color: Black;
+}
+
+.dxcvTable_Office2010Silver
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dxcvHeader_Office2010Silver
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #a5acb5;
+    background: #e7ebef url('cvHeaderBack.png') repeat-x left top;
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxcvHeader_Office2010Silver,
+.dxcvHeader_Office2010Silver table
+{
+    color: #3c3c3c;
+}
+.dxcvHeader_Office2010Silver td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_Office2010Silver a
+{
+    color: #5a9ddb;
+    text-decoration: underline;
+}
+.dxcvHeader_Office2010Silver a.dxcvCommandItem_Office2010Silver
+{
+    margin: 0 3px 0 0;
+    text-decoration: none;
+}
+.dxcvHeader_Office2010Silver a.dxcvCommandItem_Office2010Silver:hover
+{
+    text-decoration: underline;
+}
+.dxcvCommandItem_Office2010Silver
+{
+    vertical-align: middle;
+}
+.dxcvCustomization_Office2010Silver,
+.dxcvPopupEditForm_Office2010Silver
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxcvTitlePanel_Office2010Silver,
+.dxcvTable_Office2010Silver caption
+{
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #e8ebee url('cvTitleBack.png') repeat-x left top;
+    color: Black;
+    border-bottom: 1px solid #a5acb5;
+}
+.dxcvStatusBar_Office2010Silver
+{
+    background: #e9edf1 none;
+    border-top: 1px solid #a5acb5;
+}
+.dxcvStatusBar_Office2010Silver tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_Office2010Silver tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxbButton_Office2010Silver[class~="dxcvCommandItem_Office2010Silver"]
+{
+    margin: 0px 2px 0px 2px;
+}
+.dxbButton_Office2010Silver[class~="dxcvCommandItem_Office2010Silver"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvPagerTopPanel_Office2010Silver,
+.dxcvPagerBottomPanel_Office2010Silver
+{
+    background: #e7eaee url('cvPagerPanelBack.png') repeat-x left top;
+}
+.dxcvPagerTopPanel_Office2010Silver
+{
+    border-bottom: 1px solid #868B91;
+}
+.dxcvPagerBottomPanel_Office2010Silver
+{
+    border-top: 1px solid #868B91;
+}
+
+.dxcvFilterBar_Office2010Silver
+{
+    border-top: 1px solid #a5acb5;
+    background: #e9edf1 none;
+}
+.dxcvFilterBar_Office2010Silver a
+{
+    color: #5a9ddb;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_Office2010Silver
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_Office2010Silver
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_Office2010Silver
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_Office2010Silver
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_Office2010Silver
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_Office2010Silver
+{
+    background: #e9edf1 none;
+    border-top: 1px solid #c9cdd2;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_Office2010Silver .dxpLite_Office2010Silver,
+.dxcvDisabled_Office2010Silver .dxpLite_Office2010Silver
+{
+    padding-top: 4px;
+}
+
+.dxcvControl_Office2010Silver .dxcvHFSAC
+{
+    padding: 7px 0 0 6px;
+}
+.dxcvControl_Office2010Silver .dxcvHFSC
+{
+    padding: 7px 0 5px;
+}
+.dxcvControl_Office2010Silver .dxcvHFSC div
+{
+    height: 1px;
+    background: #868B91;
+}
+.dxcvControl_Office2010Silver div[id$='DXEPLPC']
+{
+    height: 39px;
+}
+
+.dxcvControl_Office2010Silver .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_Office2010Silver .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_Office2010Silver .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_Office2010Silver .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_Office2010Silver .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_Office2010Silver
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_Office2010Silver
+{
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #a5acb5;
+}
+.dxcvSearchPanel_Office2010Silver > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_Office2010Silver .dxcvSearchPanel_Office2010Silver .dxbButton_Office2010Silver
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_Office2010Silver .dxcvSearchPanel_Office2010Silver .dxbButton_Office2010Silver {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_Office2010Silver .dxcvHL
+{
+    background: #ffd83a;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_Office2010Silver .dxcvSearchPanel_Office2010Silver .dxbButton_Office2010Silver
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_Office2010Silver .dxcvSearchPanel_Office2010Silver .dxbButton_Office2010Silver .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvCard_Office2010Silver,
+.dxcvFlowCard_Office2010Silver,
+.dxcvEmptyCard_Office2010Silver,
+.dxcvEmptyHiddenCard_Office2010Silver
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_Office2010Silver,
+.dxcvFlowCard_Office2010Silver,
+.dxcvEmptyCard_Office2010Silver
+{
+    border: 1px solid #A5ACB5;
+    background-color: #E8EBEE;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_Office2010Silver
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_Office2010Silver
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_Office2010Silver,
+div.dxcvEmptyCard_Office2010Silver
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_Office2010Silver,
+.dxcvFocusedCard_Office2010Silver
+{
+    border-color: #A5ACB5;
+    outline: 3px solid #FEE085;
+}
+.dxcvFocusedCard_Office2010Silver
+{
+    background-color: White;
+}
+.dxcvCardHover_Office2010Silver
+{
+    border-color: #A5ACB5;
+    outline: 3px solid #E2ECF7;
+}
+
+.dxcvCard_Office2010Silver .dxflCaption_Office2010Silver,
+.dxcvFlowCard_Office2010Silver .dxflCaption_Office2010Silver
+{
+    color: #7F7F7F;
+}
+.dxcvCard_Office2010Silver .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_Office2010Silver .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_Office2010Silver
+{
+    background-color: #e9edf1;
+    border-bottom: 1px solid #868B91;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_Office2010Silver
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_Office2010Silver
+{
+    background-color: #f6f7f9;
+    border-top: 1px solid #868B91;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_Office2010Silver
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_Office2010Silver .dxcvSeparator_Office2010Silver,
+.dxcvControl_Office2010Silver .dxcvSeparator_Office2010Silver div
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.dxcvControl_Office2010Silver td.dxcvBatchEditCell_Office2010Silver
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_Office2010Silver .dxcvBatchEditModifiedCell_Office2010Silver
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_Office2010Silver .dxcvErrorCell_Office2010Silver
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_Office2010Silver .dxcvErrorCell_Office2010Silver img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_Office2010Silver .dxbButton_Office2010Silver
+{
+    margin-right: 10px;
+}
+.dxcvControl_Office2010Silver td.dxcvBatchEditCell_Office2010Silver .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_Office2010Silver .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_Office2010Silver
+{
+    background-color: #DBDEE1;
+    border-top: 1px solid #A5ACB5;
+    color: #BA1717;
+    padding: 6px 13px;
+}

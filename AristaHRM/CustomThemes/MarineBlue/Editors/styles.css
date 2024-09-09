@@ -1,0 +1,2030 @@
+/* -- ValidationSummary -- */
+.dxvsValidationSummary_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Red;
+}
+.dxvsValidationSummary_MarineBlue td.dxvsRC_MarineBlue
+{
+	vertical-align: top;
+	padding: 2px 5px 4px 6px;
+}
+.dxvsValidationSummary_MarineBlue .dxvsE_MarineBlue
+{
+}
+.dxvsValidationSummary_MarineBlue table.dxvsHT_MarineBlue
+{
+	width: 100%;
+}
+.dxvsValidationSummary_MarineBlue td.dxvsH_MarineBlue
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_MarineBlue a.dxvsHL_MarineBlue,
+.dxvsValidationSummary_MarineBlue a.dxvsHL_MarineBlue:visited
+{
+	color: red;
+}
+.dxvsValidationSummary_MarineBlue a.dxvsHL_MarineBlue
+{
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+.dxvsValidationSummary_MarineBlue a.dxvsHL_MarineBlue:hover
+{
+	color: #f70;
+}
+.dxvsValidationSummary_MarineBlue table.dxvsT_MarineBlue
+{
+}
+.dxvsValidationSummary_MarineBlue tr.dxvsE_MarineBlue
+{
+}
+.dxvsValidationSummary_MarineBlue td.dxvsETC_MarineBlue
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_MarineBlue ul.dxvsL_MarineBlue
+{
+}
+.dxvsValidationSummary_MarineBlue ol.dxvsL_MarineBlue
+{
+}
+.dxvsValidationSummary_MarineBlue li.dxvsE_MarineBlue
+{
+	padding: 2px 0;
+}
+
+/* TrackBar */
+.dxeTrackBar_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	visibility:hidden;
+}
+
+.dxeDisabled_MarineBlue .dxeTBHSys a,
+.dxeDisabled_MarineBlue .dxeTBVSys a
+{
+    cursor: default;
+}
+
+.dxeTBBarHighlight_MarineBlue
+{
+	font-size: 0;
+}
+
+.dxeTBScale_MarineBlue,
+.dxeTBTrack_MarineBlue,
+.dxeTBBarHighlight_MarineBlue
+{
+	cursor: pointer;
+}
+
+.dxeTBScale_MarineBlue
+{
+	z-index: 1;
+}
+.dxeTBSecondaryDH_MarineBlue,
+.dxeTBMainDH_MarineBlue
+{
+	z-index: 4;
+}
+
+.dxeTrackBar_MarineBlue.dxeTBHSys
+{
+	width: 170px;
+	height: 53px;
+}
+.dxeTrackBar_MarineBlue.dxeTBVSys
+{
+	height: 170px;
+	width: 53px;
+}
+.dxeTrackBar_MarineBlue.dxeTBBScaleSys.dxeTBVSys
+{
+	width: 76px;
+}
+.dxeTrackBar_MarineBlue.dxeTBBScaleSys.dxeTBHSys
+{	
+	height: 76px;
+}
+
+.dxeTBTrack_MarineBlue
+{
+	z-index: 2;
+	position: absolute;
+}
+
+.dxeTBTrack_MarineBlue, .dxeTBBarHighlight_MarineBlue 
+{
+	border-style: solid;
+	border-color: #A3C0E8;
+}
+
+.dxeTBHSys .dxeTBTrack_MarineBlue, .dxeTBHSys .dxeTBBarHighlight_MarineBlue 
+{
+	border-width: 0px 1px 0px 1px;
+}
+.dxeTBVSys .dxeTBTrack_MarineBlue, .dxeTBVSys .dxeTBBarHighlight_MarineBlue 
+{
+	border-width: 1px 0px 1px 0px;
+}
+
+.dxeTBHSys .dxeTBTrack_MarineBlue
+{
+	background-image:  url('edtTrackBarTrackH.gif');
+}
+.dxeTBVSys .dxeTBTrack_MarineBlue
+{
+	background-image:  url('edtTrackBarTrackV.gif');
+}
+
+.dxeTBHSys .dxeTBTrack_MarineBlue, 
+.dxeTBHSys .dxeTBBarHighlight_MarineBlue
+{
+	height: 6px;
+}
+.dxeTBVSys .dxeTBTrack_MarineBlue, 
+.dxeTBVSys .dxeTBBarHighlight_MarineBlue
+{
+	width: 6px;
+}
+
+.dxeTBHSys .dxeTBMainDH_MarineBlue,
+.dxeTBHSys .dxeTBSecondaryDH_MarineBlue
+{	
+	top: -10px;
+	width: 13px;
+	height: 26px;
+}
+.dxeTBVSys .dxeTBMainDH_MarineBlue,
+.dxeTBVSys .dxeTBSecondaryDH_MarineBlue
+{
+	left: -10px;
+	width: 26px;
+	height: 13px;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBTrack_MarineBlue,
+.dxeTBVSys .dxeTBTrack_MarineBlue
+{
+	left: 12px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBTrack_MarineBlue
+{
+	right: 12px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBTrack_MarineBlue
+{
+	bottom: 12px;
+	top: auto;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBTrack_MarineBlue,
+.dxeTBHSys .dxeTBTrack_MarineBlue
+{
+	top: 12px;
+}
+
+.dxeTBBarHighlight_MarineBlue
+{
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	z-index: 3;
+}
+
+.dxeTBHSys .dxeTBBarHighlight_MarineBlue
+{
+	background-image:  url('edtTrackBarBarHighlightH.gif');
+}
+.dxeTBVSys .dxeTBBarHighlight_MarineBlue
+{
+	background-image:  url('edtTrackBarBarHighlightV.gif');
+}
+
+.dxeTBRBLabel_MarineBlue,
+.dxeTBLTLabel_MarineBlue
+{
+	font-size: 0.91em;
+	text-align: center;
+	cursor: default;
+}
+.dxeTBSmallTickSys .dxeTBRBLabel_MarineBlue,
+.dxeTBSmallTickSys .dxeTBLTLabel_MarineBlue,
+.dxeTBLargeTickSys .dxeTBRBLabel_MarineBlue,
+.dxeTBLargeTickSys .dxeTBLTLabel_MarineBlue
+{	
+	position: absolute;
+}
+
+.dxeTBHSys .dxeTBRBLabel_MarineBlue,
+.dxeTBHSys .dxeTBLTLabel_MarineBlue
+{
+	width: 100%;
+}
+
+.dxeTBIncBtn_MarineBlue,
+.dxeTBDecBtn_MarineBlue
+{
+}
+
+.dxeTBVSys .dxeTBRBLabel_MarineBlue,
+.dxeTBVSys .dxeTBLTLabel_MarineBlue
+{
+	padding-top: 2px;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_MarineBlue
+{
+	margin-left: -4px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBRBLabel_MarineBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLTLabel_MarineBlue
+{
+	right: 0px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBLTLabel_MarineBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBRBLabel_MarineBlue
+{
+	left: 0px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBRBLabel_MarineBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLTLabel_MarineBlue
+{
+	bottom: 0px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBLTLabel_MarineBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_MarineBlue
+{
+	top: 0px;
+}
+
+.dxeTBHSys .dxeTBItem_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeTBHSys .dxeTBItem_MarineBlue .dxeTBLTLabel_MarineBlue
+{
+	display: inline-block;
+	margin-left: 0px!important;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBItem_MarineBlue .dxeTBRBLabel_MarineBlue
+{
+	padding-top: 12px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBItem_MarineBlue .dxeTBLTLabel_MarineBlue
+{
+	margin-top: 8px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_MarineBlue .dxeTBRBLabel_MarineBlue 
+{
+	margin-left: 5px;
+}
+
+.dxeTBSelectedItem_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeTBSelectedItem_MarineBlue .dxeTBLTLabel_MarineBlue,
+.dxeTBSelectedTick_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeTBSelectedTick_MarineBlue .dxeTBLTLabel_MarineBlue
+{
+	color: #FFBD69;
+}
+.dxeDisabled_MarineBlue .dxeTBSelectedItem_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeDisabled_MarineBlue .dxeTBSelectedItem_MarineBlue .dxeTBLTLabel_MarineBlue,
+.dxeDisabled_MarineBlue .dxeTBSelectedTick_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeDisabled_MarineBlue .dxeTBSelectedTick_MarineBlue .dxeTBLTLabel_MarineBlue 
+{
+	color: #FFDEB4;
+}
+
+.dxeTBRBLabel_MarineBlue,
+.dxeTBLTLabel_MarineBlue,
+.dxeTBItem_MarineBlue
+{
+	color: #A3C0E8;
+}
+
+.dxeDisabled_MarineBlue .dxeTBRBLabel_MarineBlue,
+.dxeDisabled_MarineBlue .dxeTBLTLabel_MarineBlue,
+.dxeDisabled_MarineBlue .dxeTBItem_MarineBlue
+{
+	color: #D1DFF3;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBItem_MarineBlue
+{
+	text-align: left;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_MarineBlue
+{
+	text-align: right;
+}
+
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_MarineBlue
+{
+	text-align: center;
+}
+
+.dxeTBHSys .dxeTBItem_MarineBlue
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBItem_MarineBlue
+{
+	background-image:  url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBItem_MarineBlue 
+{
+	background-image:  url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_MarineBlue
+{
+	background-image:  url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBHSys .dxeTBLargeTick_MarineBlue
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBLargeTick_MarineBlue
+{
+	background-image: url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBSmallTick_MarineBlue
+{
+	background-image: url('edtTrackBarSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBSmallTick_MarineBlue
+{
+	background-image: url('edtTrackBarSmallTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLargeTick_MarineBlue
+{
+	background-image: url('edtTrackBarDoubleLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLargeTick_MarineBlue
+{
+	background-image: url('edtTrackBarDoubleLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBSmallTick_MarineBlue
+{
+	background-image: url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBSmallTick_MarineBlue
+{
+	background-image: url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBVSys .dxeTBIncBtn_MarineBlue,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBDecBtn_MarineBlue
+{
+	bottom: 0px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBDecBtn_MarineBlue,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBIncBtn_MarineBlue
+{
+	top: 0px;
+	bottom: auto;
+}
+.dxeTBHSys .dxeTBDecBtn_MarineBlue, 
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBIncBtn_MarineBlue
+{
+	left: 0px;
+	right: auto;
+}
+.dxeTBHSys .dxeTBIncBtn_MarineBlue,
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBDecBtn_MarineBlue
+{
+	right: 0px;
+	left: auto;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBIncBtn_MarineBlue
+{
+	margin-left: -10px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBIncBtn_MarineBlue
+{
+	margin-top: -10px;
+	top: 50%;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBTrack_MarineBlue
+{ 
+	margin-left: -3px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBTrack_MarineBlue
+{ 
+	margin-top: -3px;
+	top: 50%;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBIncBtn_MarineBlue
+{
+	right: 5px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBIncBtn_MarineBlue
+{
+	bottom: 5px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBIncBtn_MarineBlue,
+.dxeTBVSys .dxeTBDecBtn_MarineBlue,
+.dxeTBVSys .dxeTBIncBtn_MarineBlue
+{
+	left: 5px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBDecBtn_MarineBlue,
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBIncBtn_MarineBlue,
+.dxeTBHSys .dxeTBDecBtn_MarineBlue,
+.dxeTBHSys .dxeTBIncBtn_MarineBlue
+{
+	top: 5px;
+}
+
+.dxeHelpText_MarineBlue,
+.dxeTBValueToolTip_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+div.dxeHelpText_MarineBlue,
+.dxeTBValueToolTip_MarineBlue
+{
+	padding: 3px 8px 4px 8px;
+    display: inline;
+    position:absolute;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #98B7E5;
+    background: #E0EDFF;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0EDFF', endColorstr='#D1E4FE');
+	background: -webkit-gradient(linear, left top, left bottom, from(#E0EDFF), to(#D1E4FE));
+	background: -moz-linear-gradient(top,  #E0EDFF,  #D1E4FE);
+}
+td.dxeHelpText_MarineBlue {
+    visibility: visible;
+    color: #9F9F9F;
+}
+td.dxeHelpText_MarineBlue label {
+    font-size: 0.91em;
+}
+td.dxeHelpText_MarineBlue.dxeHHelpTextSys {
+    padding: 0 6px;
+}
+td.dxeHelpText_MarineBlue.dxeVHelpTextSys {
+    padding: 2px 0;
+}
+
+/* InternalCheckBox */
+.dxeIRBFocused_MarineBlue
+{
+    outline: 1px dotted #f5b666;
+}
+.dxeIRadioButton_MarineBlue
+{
+}
+.dxlpLoadingPanel_MarineBlue,
+.dxlpLoadingPanelWithContent_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+	background-color: White;
+	border: 1px solid #67A2C6;
+}
+.dxlpLoadingPanel_MarineBlue  td.dx,
+.dxlpLoadingPanelWithContent_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+.dxeButtonEditSys .dxic .dxeLoadingDiv_MarineBlue
+{
+	opacity: 1!important;
+	filter: alpha(opacity=100)!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_MarineBlue
+{
+    background-color: transparent!important;
+	border: none!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+    padding: 0px!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_MarineBlue td.dx > img
+{
+	height: 15px;
+    width: auto;
+    margin-bottom: 0px!important;
+    vertical-align: middle;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_MarineBlue td.dx > span
+{
+	display: none;
+}
+
+.dxeBase_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+/* -- ErrorFrame -- */
+.dxeErrorCell_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Red;
+    border-color: black;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.dxeErrorFrame_MarineBlue
+{
+}
+.dxeErrorFrameWithoutError_MarineBlue
+{
+	border: 1px solid Red;
+}
+.dxeErrorFrameWithoutError_MarineBlue .dxeControlsCell_MarineBlue,
+.dxeErrorFrameWithoutError_MarineBlue.dxeControlsCell_MarineBlue
+{
+	padding: 2px;
+}
+.dxeEditArea_MarineBlue
+{
+	border: 1px solid #A0A0A0;
+}
+body input.dxeEditArea_MarineBlue /*Bootstrap correction*/
+{
+    color: black;
+}
+
+/* -- Binary Image -- */
+.dxeBinaryImageButtonPanel_MarineBlue
+{
+    height: 36px;
+}
+.dxeBinaryImageButton_MarineBlue
+{
+    margin: 0 6px;
+}
+
+/* -- Buttons -- */
+.dxeButtonEditButton_MarineBlue,
+.dxeCalendarButton_MarineBlue,
+.dxeSpinIncButton_MarineBlue,
+.dxeSpinDecButton_MarineBlue,
+.dxeSpinLargeIncButton_MarineBlue,
+.dxeSpinLargeDecButton_MarineBlue,
+.dxeColorEditButton_MarineBlue
+{
+	vertical-align: Middle;
+	border: 1px Solid #A3C0E8;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+} 
+.dxeButtonEditButton_MarineBlue
+{
+	padding: 0px 2px;
+}
+.dxeSpinLargeIncButton_MarineBlue,
+.dxeSpinLargeDecButton_MarineBlue,
+.dxeSpinIncButton_MarineBlue,
+.dxeSpinDecButton_MarineBlue
+{
+	padding: 0px 4px;
+}
+.dxeButtonEditButton_MarineBlue,
+.dxeSpinLargeIncButton_MarineBlue,
+.dxeSpinLargeDecButton_MarineBlue
+{
+	background: #DBEBFF url('edtDropDownBack.gif') repeat-x;
+}
+.dxeSpinIncButton_MarineBlue
+{
+	background: #DBEBFF url('edtSpinIncBtnBack.gif') repeat-x top;
+	border-bottom: 0;
+}
+.dxeSpinDecButton_MarineBlue
+{
+	background: #DBEBFF url('edtSpinDecBtnBack.gif') repeat-x top;
+}
+
+.dxeCalendarButton_MarineBlue,
+.dxeColorEditButton_MarineBlue
+{
+	color: #2C4D79;
+	vertical-align: middle;
+	border: 1px solid #A3C0E8;
+	background: #C8DFFF url('edtButtonBack.gif') repeat-x top;
+	padding: 3px 11px 4px;
+	min-width: 37px;
+}
+
+
+.dxeButtonEditButton_MarineBlue.dxeButtonEditClearButton_MarineBlue,
+.dxeButtonEditButton_MarineBlue.dxeButtonEditClearButton_MarineBlue:hover
+{
+    background: none;
+    border-width: 0;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.dxeButtonEditClearButton_MarineBlue img
+{
+    vertical-align: baseline;
+}
+
+/* -- Pressed -- */
+.dxeCalendarButtonPressed_MarineBlue,
+.dxeColorEditButton_MarineBlue:active
+{
+	background: #FFB46D url('edtCalendarButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #CB9280;
+}
+.dxeButtonEditButtonPressed_MarineBlue,
+.dxeSpinIncButtonPressed_MarineBlue,
+.dxeSpinDecButtonPressed_MarineBlue,
+.dxeSpinLargeIncButtonPressed_MarineBlue, 
+.dxeSpinLargeDecButtonPressed_MarineBlue
+{
+	background: #FFB46D url('edtDropDownButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #CB9280;
+}
+.dxeSpinIncButtonPressed_MarineBlue
+{
+	background: #F8A04D url('edtSpinIncButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #AECAF0;
+	border-bottom: 0;
+}
+.dxeSpinDecButtonPressed_MarineBlue
+{
+	background: #F8A04D url('edtSpinDecButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #AECAF0;
+}
+/* -- Hover -- */
+.dxeButtonEditButtonHover_MarineBlue,
+.dxeSpinIncButtonHover_MarineBlue,
+.dxeSpinDecButtonHover_MarineBlue,
+.dxeSpinLargeIncButtonHover_MarineBlue,
+.dxeSpinLargeDecButtonHover_MarineBlue
+{
+	background: #FEDC75 url('edtDropDownButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #D6A886;
+}
+.dxeSpinIncButtonHover_MarineBlue
+{
+	background: #FFC68C url('edtSpinIncButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #AECAF0;
+	border-bottom: 0;
+}
+.dxeSpinDecButtonHover_MarineBlue
+{
+	background: #FFC68C url('edtSpinDecButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #AECAF0;
+}
+.dxeCalendarButtonHover_MarineBlue,
+.dxeColorEditButton_MarineBlue:hover
+{
+	background: #FEDC75 url('edtCalendarButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #D6A886;
+	color: #7E3C31;
+}
+
+.dxeButtonEdit_MarineBlue
+{
+	background-color: White;
+	border: 1px Solid #AECAF0;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxeButtonEdit_MarineBlue .dxeEditArea_MarineBlue
+{
+	background-color: White;
+}
+.dxeButtonEdit_MarineBlue .dxeIIC img
+{
+	padding-left: 3px;
+}
+.dxeTextBox_MarineBlue
+{
+	background-color: White;
+	border: 1px Solid #AECAF0;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeTextBox_MarineBlue .dxeEditArea_MarineBlue
+{
+	background-color: White;
+}
+.dxeRadioButtonList_MarineBlue,
+.dxeCheckBoxList_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxeCheckBoxList_MarineBlue .dxe > table,
+.dxeRadioButtonList_MarineBlue .dxe > table 
+{
+    width: 100%;
+}
+
+.dxeRadioButtonList_MarineBlue,
+.dxeCheckBoxList_MarineBlue
+{
+	border: 1px Solid #AECAF0;
+}
+.dxeRadioButtonList_MarineBlue td.dxe,
+.dxeCheckBoxList_MarineBlue td.dxe
+{
+	padding: 7px 5px 6px 11px;
+}
+.dxeRadioButtonList_MarineBlue[dir='rtl'] td.dxe,
+.dxeCheckBoxList_MarineBlue[dir='rtl'] td.dxe
+{
+	padding: 7px 11px 6px 5px;
+}
+
+/* -- Memo -- */
+.dxeMemo_MarineBlue
+{
+	background-color: White;
+	border: 1px Solid #AECAF0;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeMemoEditArea_MarineBlue
+{
+	background-color: White;
+	outline: none;
+}
+
+/* -- Hyperlink -- */
+.dxeHyperlink_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #5689C5;
+	text-decoration: underline;
+}
+a:hover.dxeHyperlink_MarineBlue
+{
+	color: #F39128;
+	text-decoration: underline;
+}
+a:visited.dxeHyperlink_MarineBlue
+{
+	color: #A1A1A1;
+	text-decoration: underline;
+}
+/* -- ListBox -- */
+.dxeListBox_MarineBlue
+{
+	background-color: White;
+	border: 1px Solid #AECAF0;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	height: 113px;
+	width: 70px;
+	color: Black;
+}
+.dxeListBox_MarineBlue div.dxlbd
+{
+	padding-top: 1px;
+	height: 112px;
+}
+.dxeListBoxItemRow_MarineBlue
+{
+	cursor: default;
+}
+.dxeListBoxItem_MarineBlue
+{
+	border-left: 1px Solid #FFFFFF;
+	border-right: 1px Solid #FFFFFF;
+	padding: 4px 2px 4px 4px;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxeListBoxItem_MarineBlue em
+{
+	background: #FFE7A2 none repeat 0 0;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+.dxeListBox_MarineBlue td.dxeI,
+.dxeListBox_MarineBlue td.dxeIM,
+.dxeListBox_MarineBlue .dxeHIC,
+.dxeListBox_MarineBlue td.dxeFTM,
+.dxeListBox_MarineBlue td.dxeTM,
+.dxeListBox_MarineBlue td.dxeC,
+.dxeListBox_MarineBlue td.dxeCM,
+.dxeListBox_MarineBlue td.dxeHCC,
+.dxeListBox_MarineBlue td.dxeMI,
+.dxeListBox_MarineBlue td.dxeMIM
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeIR,
+.dxeListBox_MarineBlue td.dxeIMR,
+.dxeListBox_MarineBlue .dxeHICR,
+.dxeListBox_MarineBlue td.dxeFTMR,
+.dxeListBox_MarineBlue td.dxeTMR,
+.dxeListBox_MarineBlue td.dxeCR,
+.dxeListBox_MarineBlue td.dxeCMR,
+.dxeListBox_MarineBlue td.dxeHCCR,
+.dxeListBox_MarineBlue td.dxeMIR,
+.dxeListBox_MarineBlue td.dxeMIMR
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeCM,
+.dxeListBox_MarineBlue td.dxeHCC,
+.dxeListBox_MarineBlue td.dxeCMR,
+.dxeListBox_MarineBlue td.dxeHCCR
+{
+	width: 31px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.dxeListBox_MarineBlue td.dxeIM,
+.dxeListBox_MarineBlue td.dxeIMR
+{
+	width: 0;
+}
+.dxeListBox_MarineBlue td.dxeC
+{
+	padding-right: 3px!important;
+}
+.dxeListBox_MarineBlue td.dxeCR
+{
+	padding-left: 3px!important;
+}
+.dxeListBox_MarineBlue td.dxeC > span,
+.dxeListBox_MarineBlue td.dxeCM > span
+{
+    margin: 2px 2px 2px 3px;
+}
+.dxeListBox_MarineBlue td.dxeCR > span,
+.dxeListBox_MarineBlue td.dxeCMR > span
+{
+    margin: 2px 3px 2px 2px;
+}
+.dxeListBox_MarineBlue td.dxeT
+{
+	width: 100%;
+	padding-left: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeTR
+{
+	width: 100%;
+	padding-right: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeT,
+.dxeListBox_MarineBlue td.dxeMI
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeTR,
+.dxeListBox_MarineBlue td.dxeMIR
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_MarineBlue td.dxeFTM,
+.dxeListBox_MarineBlue td.dxeTM,
+.dxeListBox_MarineBlue td.dxeLTM,
+.dxeListBox_MarineBlue .dxeHFC,
+.dxeListBox_MarineBlue .dxeHC,
+.dxeListBox_MarineBlue .dxeHLC,
+.dxeListBox_MarineBlue td.dxeFTMR,
+.dxeListBox_MarineBlue td.dxeTMR,
+.dxeListBox_MarineBlue td.dxeLTMR,
+.dxeListBox_MarineBlue .dxeHFCR,
+.dxeListBox_MarineBlue .dxeHCR,
+.dxeListBox_MarineBlue .dxeHLCR
+{
+	overflow: hidden;
+}
+.dxeListBox_MarineBlue td.dxeFTM,
+.dxeListBox_MarineBlue td.dxeTM,
+.dxeListBox_MarineBlue .dxeHFC,
+.dxeListBox_MarineBlue .dxeHC
+{
+	padding-right: 6px!important;
+}
+.dxeListBox_MarineBlue td.dxeFTMR,
+.dxeListBox_MarineBlue td.dxeTMR,
+.dxeListBox_MarineBlue .dxeHFCR,
+.dxeListBox_MarineBlue .dxeHCR
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_MarineBlue td.dxeLTM,
+.dxeListBox_MarineBlue td.dxeTM, 
+.dxeListBox_MarineBlue .dxeHC,
+.dxeListBox_MarineBlue .dxeHLC
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_MarineBlue td.dxeLTMR,
+.dxeListBox_MarineBlue td.dxeTMR, 
+.dxeListBox_MarineBlue .dxeHCR,
+.dxeListBox_MarineBlue .dxeHLCR
+{
+	padding-right: 6px!important;
+}
+/*Grid lines*/
+.dxeListBox_MarineBlue td.dxeTM,
+.dxeListBox_MarineBlue td.dxeLTM,
+.dxeListBox_MarineBlue td.dxeMIM
+{
+	border-left: 1px solid #BED6F6!important;
+}
+.dxeListBox_MarineBlue td.dxeTMR,
+.dxeListBox_MarineBlue td.dxeLTMR,
+.dxeListBox_MarineBlue td.dxeMIMR
+{
+	border-right: 1px solid #BED6F6!important;
+}
+.dxeListBox_MarineBlue td.dxeIM,
+.dxeListBox_MarineBlue td.dxeFTM,
+.dxeListBox_MarineBlue td.dxeTM,
+.dxeListBox_MarineBlue td.dxeLTM,
+.dxeListBox_MarineBlue td.dxeCM,
+.dxeListBox_MarineBlue td.dxeMIM,
+.dxeListBox_MarineBlue td.dxeIMR,
+.dxeListBox_MarineBlue td.dxeFTMR,
+.dxeListBox_MarineBlue td.dxeTMR,
+.dxeListBox_MarineBlue td.dxeLTMR,
+.dxeListBox_MarineBlue td.dxeCMR,
+.dxeListBox_MarineBlue td.dxeMIMR
+{
+	border-bottom: 1px solid #BED6F6;
+}
+
+.dxeListBoxItemSelected_MarineBlue     
+{
+	background-color: #FFBD69;
+}
+.dxeListBoxItemHover_MarineBlue        
+{
+	background-color: #FFE7A2;
+}
+.dxeListBoxItemSelected_MarineBlue em,
+.dxeListBoxItemHover_MarineBlue em
+{
+	background-image: none;
+}
+
+/*Header*/
+.dxeListBox_MarineBlue .dxeHD
+{
+	background: #E2F0FF url('lbHeaderBackground.gif') repeat-x top center;
+	border-bottom: 1px solid #AECAF0;
+}
+.dxeListBox_MarineBlue .dxeHFC,
+.dxeListBox_MarineBlue .dxeHIC,
+.dxeListBox_MarineBlue .dxeHC,
+.dxeListBox_MarineBlue .dxeHLC, 
+.dxeListBox_MarineBlue td.dxeHMIC,
+.dxeListBox_MarineBlue .dxeHFCR,
+.dxeListBox_MarineBlue .dxeHICR,
+.dxeListBox_MarineBlue .dxeHCR,
+.dxeListBox_MarineBlue .dxeHLCR, 
+.dxeListBox_MarineBlue td.dxeHMICR
+{
+	color: #283B56;
+	border-bottom-width: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.dxeListBox_MarineBlue .dxeHC,
+.dxeListBox_MarineBlue .dxeHLC,
+.dxeListBox_MarineBlue td.dxeHMIC
+{
+	border-left: 1px solid #AECAF0;
+}
+.dxeListBox_MarineBlue .dxeHCR,
+.dxeListBox_MarineBlue .dxeHLCR,
+.dxeListBox_MarineBlue td.dxeHMICR
+{
+	border-right: 1px solid #AECAF0;
+	text-align: right;
+}
+.dxeListBox_MarineBlue .dxeHIC,
+.dxeListBox_MarineBlue .dxeHFC,
+.dxeListBox_MarineBlue .dxeHCC
+{
+	border-left: 1px solid #E2F0FF;
+}
+.dxeListBox_MarineBlue .dxeHICR,
+.dxeListBox_MarineBlue .dxeHFCR,
+.dxeListBox_MarineBlue .dxeHCCR
+{
+	border-right: 1px solid #E2F0FF;
+	text-align: right;
+}
+.dxeListBox_MarineBlue .dxeHFC,
+.dxeListBox_MarineBlue .dxeHC,
+.dxeListBox_MarineBlue .dxeHMIC
+{
+	border-right-width: 0;
+}
+.dxeListBox_MarineBlue .dxeHFCR,
+.dxeListBox_MarineBlue .dxeHCR,
+.dxeListBox_MarineBlue .dxeHMICR
+{
+	border-left-width: 0;
+	text-align: right;
+}
+.dxeListBox_MarineBlue .dxeHLC
+{
+	border-right: 1px solid #AECAF0;
+}
+.dxeListBox_MarineBlue .dxeHLCR
+{
+	border-left: 1px solid #AECAF0;
+	text-align: right;
+}
+
+/* -- Calendar -- */
+.dxeCalendar_MarineBlue
+{
+	color: #000000;
+    font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px solid #A3C0E8;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+.dxeCalendar_MarineBlue td.dxMonthGrid
+{
+	padding: 3px 22px 6px 21px;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.dxeCalendar_MarineBlue td.dxMonthGridWithWeekNumbers
+{
+	padding: 3px 19px 6px 7px;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.dxeCalendar_MarineBlue td.dxMonthGridWithWeekNumbersRtl
+{
+	padding: 3px 7px 6px 19px;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.dxeCalendarDayHeader_MarineBlue
+{
+	padding: 3px 5px 6px 6px;
+	border-bottom: 1px solid #cfcfcf;
+}
+.dxeCalendarWeekNumber_MarineBlue
+{
+	font-size: 0.75em;
+	text-align: right;
+	color: #8FBBE4;
+	padding: 3px 3px 2px 4px;
+}
+.dxeCalendarDay_MarineBlue
+{
+	text-align: center;
+	padding: 4px 8px 5px;
+}
+.dxeCalendarWeekend_MarineBlue        
+{
+	color: #c00000;
+}
+.dxeCalendarOtherMonth_MarineBlue     
+{
+	color: #888;
+}
+.dxeCalendarOutOfRange_MarineBlue     
+{
+	color: #d0d0d0;
+}
+.dxeCalendarDayDisabled_MarineBlue {
+	color: #eaedef!important;
+	background-color: #fbfeff;
+}
+.dxeCalendarToday_MarineBlue         
+{
+	color: #000000;
+	border: 1px solid #FFAB3F;
+}
+.dxeCalendarSelected_MarineBlue       
+{
+	color: #000000;
+	background-color: #FFE7A2;
+	border: 1px solid #FFBD69;
+}
+.dxeDayInRange.dxeCalendarSelected_MarineBlue
+{
+    border-color: transparent;
+}
+.dxeCalendarSelected_MarineBlue,     
+.dxeCalendarToday_MarineBlue         
+{
+	padding: 3px 7px 4px;
+}
+.dxeCalendarHeader_MarineBlue
+{
+	color: #ffffff;
+	background: #c7dfff url('edtCalendarHeaderBack.gif') repeat-x top;
+	border-bottom: 1px solid #A3C0E8;
+	padding: 3px;
+	margin: 10px;
+	font-weight: bold;
+}
+.dxeCalendarHeader_MarineBlue td.dxe
+{
+	color: #15428B;
+	text-align: center;
+	cursor: pointer;
+}
+.dxeCalendarHeader_MarineBlue .dxeCHS
+{
+    min-width: 1px;
+    *width: 1px;
+}
+.dxeCalendarFooter_MarineBlue
+{
+	background: #C7DFFF url('edtCalendarFooterBack.gif') repeat-x bottom;
+	padding: 11px 0px 8px;
+	border-top: 1px solid #A3C0E8;
+}
+.dxeCalendarFooter_MarineBlue .dxeCFS
+{
+    min-width: 16px;
+    *width: 16px;
+}
+.dxeCalendarFastNav_MarineBlue
+{
+	color: #000000;
+	background: #FFFFFF none;
+	border-top: 1px Solid #A3C0E8;
+	border-right: 1px Solid #A3C0E8;
+	border-bottom: 0px Solid #A3C0E8;
+	border-left: 1px Solid #A3C0E8;
+	padding: 12px 8px;
+}
+.dxeCalendarFastNavMonthArea_MarineBlue
+{
+	padding: 0px 9px;
+}
+.dxeCalendarFastNavYearArea_MarineBlue
+{
+    padding-top: 8px;
+}
+.dxeCalendarFastNavFooter_MarineBlue
+{
+	color: #000000;
+	background: #C7DFFF url('edtCalendarFooterBack.gif') repeat-x bottom center;
+	padding: 8px 0px;
+	border-right: 1px Solid #A3C0E8;
+	border-bottom: 1px Solid #A3C0E8;
+	border-left: 1px Solid #A3C0E8;
+	border-top: 1px Solid #AECAF0;
+}
+.dxeCalendarFastNavFooter_MarineBlue .dxeCFNFS
+{
+    min-width: 11px;
+}
+.dxeCalendarFastNavMonth_MarineBlue,
+.dxeCalendarFastNavYear_MarineBlue
+{
+	color: #000000;
+	padding: 3px 4px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px Solid White;
+}
+.dxeCalendarFastNavMonth_MarineBlue
+{
+	padding: 5px;
+}
+.dxeCalendarFastNavMonthSelected_MarineBlue,
+.dxeCalendarFastNavYearSelected_MarineBlue
+{
+	color: #000000;
+	background-color: #FFBD69;
+	border: 1px Solid #FFAB3F;
+}
+
+.dxeCalendarFastNavMonthHover_MarineBlue,
+.dxeCalendarFastNavYearHover_MarineBlue
+{
+	color: #000000;
+	background: #FFE7A2 none;
+	padding: 2px 4px;
+	border: 1px Solid #FFBD69;
+}
+.dxeCalendarFastNavMonthHover_MarineBlue
+{
+	padding: 5px;
+}
+.dxeDateEditTimeEditCell_MarineBlue
+{
+    background-color: #FFFFFF;
+    padding: 4px 22px 14px;
+    width: 100px;
+}
+.dxeDateEditClockCell_MarineBlue
+{
+    background-color: #FFFFFF;
+    padding: 9px 9px 0;
+}
+.dxeCalendarFooter_MarineBlue.dxeDETSF
+{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+/* Disabled */
+.dxeDisabled_MarineBlue,
+.dxeDisabled_MarineBlue td.dxe
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+.dxeEditArea_MarineBlue.dxeDisabled_MarineBlue /*Bootstrap correction*/
+{
+    color: #A6A6A6;
+}
+a.dxeDisabled_MarineBlue, a.dxeDisabled_MarineBlue:hover
+{
+	color: #A6A6A6;
+}
+.dxeButtonDisabled_MarineBlue
+{
+	background: #F5F5F5 url('edtDropDownBackDis.gif') repeat-x center top;
+	border-color: #CFCFCF;
+	cursor: default;
+}
+/* -- Button -- */
+.dxbButton_MarineBlue
+{
+	color: #2C4D79;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: 1px solid #A3C0E8;
+	background: #E2F0FF url('edtButtonBack.gif') repeat-x top;
+	padding: 1px;
+}
+.dxbButtonHover_MarineBlue
+{
+	color: #7E3C31;
+	background: #FEDC75 url('edtButtonHoverBack.gif') repeat-x top;
+	border: 1px solid #D6A886;
+}
+.dxbButtonChecked_MarineBlue
+{
+	color: #7E3C31;
+	background: #FFB46D url('edtButtonCheckedBack.gif') repeat-x top;
+	border: 1px solid #CB9280;
+}
+.dxbButtonPressed_MarineBlue
+{
+	color: #7E3C31;
+	background: #FFB46D url('edtButtonPressedBack.gif') repeat-x top;
+	border: 1px solid #CB9280;
+}
+.dxbButton_MarineBlue div.dxb
+{
+	padding: 1px 9px 2px;
+	border-width: 0px;
+	border: 1px dotted transparent;
+}
+.dxbButton_MarineBlue div.dxbf
+{
+	border: 1px dotted #2C4D79;
+}
+/* Button Link */
+a.dxbButton_MarineBlue
+{
+    color: #5689C5;
+    text-decoration: underline;
+}
+a.dxbButton_MarineBlue:hover
+{
+	color: #F39128;
+}
+a.dxbButton_MarineBlue:visited
+{
+	color: #A1A1A1;
+}
+/* Disabled */
+.dxbDisabled_MarineBlue
+{
+	background: #F3F3F3 url('edtButtonBackDis.gif') repeat-x top;
+	border-color: #D2D2D2;
+}
+.dxbDisabled_MarineBlue,
+a.dxbButton_MarineBlue.dxbDisabled_MarineBlue
+{
+	color: #C3C3C3;
+	cursor: default;
+    text-decoration: none;
+}
+/* -- FilterControl -- */
+.dxfcControl_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Black;
+	padding: 0 1em;
+}
+.dxfcTable_MarineBlue
+{
+	border-collapse: separate!important;
+}
+.dxfcTable_MarineBlue td.dxfc
+{
+	padding: 0px 0px 0px 3px;
+}
+a.dxfcPropertyName_MarineBlue
+{
+	white-space: nowrap!important;
+	color: Blue!important;
+}
+a.dxfcGroupType_MarineBlue
+{
+	white-space: nowrap!important;
+	padding: 0px 3px!important;
+	color: Red!important;
+}
+a.dxfcOperation_MarineBlue
+{
+	white-space: nowrap!important;
+	color: Green!important;
+}
+a.dxfcValue_MarineBlue
+{
+	white-space: nowrap!important;
+	color: Gray!important;
+}
+.dxfcImageButton_MarineBlue
+{
+	cursor: pointer;
+}
+
+.dxeMaskHint_MarineBlue
+{
+	background: #ffffe1 none;
+	border: 1px solid black;
+	padding: 2px 5px 3px;
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxfcControl_MarineBlue ul.dxfc-tree,
+.dxfcControl_MarineBlue .dxfc-tree ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.dxfcControl_MarineBlue .dxfc-tree
+{
+    width: 100%;
+}
+
+.dxfcControl_MarineBlue .dxfc-subnd
+{
+    margin-left: 22px;
+}
+
+.dxfcControl_MarineBlue .dxfc > li > table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dxfcControl_MarineBlue .dxfc-elb
+{
+    background: url('fcElbow.gif') no-repeat;
+    float: left;
+    height: 21px;
+    vertical-align: top;
+    width: 26px;
+    margin-right: 0.3em;
+}
+
+.dxfcControl_MarineBlue .dxfc-clr
+{
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.dxfcControl_MarineBlue .dxfc-nd
+{
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    outline: 0 none;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > span,
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > img,
+.dxfcControl_MarineBlue .dxfc-editor
+{
+    vertical-align: middle;
+}
+
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > td,
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > span
+{
+    padding: 0 0.1ex;
+}
+
+.dxfcControl_MarineBlue .dxfc-nd > tbody > tr > td > a
+{
+    line-height: 24px;
+}
+
+.dxfcControl_MarineBlue .dxfc-ln
+{
+    background: url('fcLine.gif') repeat-y;
+    vertical-align: top;
+}
+
+.dxfcControl_MarineBlue .dxfc-memo textarea 
+{
+	height: 80px;
+	overflow: auto;
+}
+
+.dxfcControl_MarineBlue .dxfc-validationSummary
+{
+	padding: 2px 5px 4px 6px !important;
+	list-style-type: none;
+	margin: 0;
+}
+
+.dxfcControl_MarineBlue .dxfc-validationSummary li
+{
+	padding: 2px 0;
+}
+
+.dxfcControl_MarineBlue .dxfc-validationSummary li a
+{
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+
+.dxfcControl_MarineBlue .dxfc-validationSummary li a:hover
+{
+	color: #f70;
+}
+/* -- ProgressBar -- */
+.dxeProgressBar_MarineBlue
+{
+	border: 1px Solid #A3C0E8;
+	background: #f0f0f0 url('edtProgressBack.gif') repeat-x;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: Black;
+    height: 25px;
+}
+.dxeProgressBar_MarineBlue .dxePBMainCell,
+.dxeProgressBar_MarineBlue td
+{
+	padding: 0;
+}
+.dxeProgressBarIndicator_MarineBlue
+{
+	background: #deedff url('edtProgressIndicatorBack.gif') repeat-x;
+}
+
+/* -- DropDownWindow -- */
+.dxpcDropDown_MarineBlue,
+.dxeDropDownWindow_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxeDropDownWindow_MarineBlue
+{
+	background-color: White;
+	border: 1px Solid #AECAF0;
+}
+
+/*----------------- ColorTable -----------------*/
+.dxeColorIndicator_MarineBlue
+{
+	border: 1px solid #AECAF0;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.dxeItemPicker_MarineBlue
+{
+	background-color: #F9F9F9;
+	border: 1px solid #A3C0E8;
+}
+.dxeColorTable_MarineBlue td.dx,
+.dxeItemPicker_MarineBlue td.dx
+{
+	padding: 4px;
+}
+.dxeColorTableCell_MarineBlue,
+.dxeItemPickerCell_MarineBlue,
+.dxeACICell_MarineBlue
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.dxeColorTableCellDiv_MarineBlue,
+.dxeACICellDiv_MarineBlue
+{
+	border: 1px solid #808080;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+}
+.dxeColorTableCellSelected_MarineBlue,
+.dxeACICellSelected_MarineBlue
+{
+	padding: 2px!important;
+	background-color: #CBCBCB;
+	border: 1px solid #888888;
+}
+.dxeColorTableCellHover_MarineBlue,
+.dxeItemPickerCellHover_MarineBlue,
+.dxeAutomaticColorItemCellHover_MarineBlue,
+.dxeAutomaticColorItem_MarineBlue:hover > div
+{
+	padding: 2px!important;
+}
+.dxeColorTableCellHover_MarineBlue,
+.dxeAutomaticColorItemCellHover_MarineBlue,
+.dxeAutomaticColorItem_MarineBlue:hover > div
+{
+	background-color: #F2F2F2;
+	border: 1px solid #888888;
+}
+.dxeItemPickerCellHover_MarineBlue
+{
+	background-color: #FFE7A2;
+	border: 1px solid #FFBD69;
+}
+
+/* -- Invalid Style -- */
+.dxeInvalid_MarineBlue
+{
+}
+.dxeInvalid_MarineBlue .dxeEditArea_MarineBlue,
+.dxeInvalid_MarineBlue .dxeMemoEditArea_MarineBlue
+{
+}
+
+/* -- Focused Style -- */
+.dxeFocused_MarineBlue
+{
+	border: 1px solid #6e90be;
+}
+
+.dxeFocused_MarineBlue.dxeTrackBar_MarineBlue
+{	
+	border: 0px;
+}
+
+/* -- Null Text Style -- */
+.dxeNullText_MarineBlue .dxeEditArea_MarineBlue,
+.dxeNullText_MarineBlue .dxeMemoEditArea_MarineBlue
+{
+	color: #a6a6a6;
+}
+
+/* -- Captcha -- */
+.dxcaControl_MarineBlue 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+
+.dxcaRefreshButton_MarineBlue
+{
+	text-decoration: none;
+	color: #5689c5;
+}
+
+.dxcaDisabledRefreshButton_MarineBlue
+{
+	color: #A6A6A6;
+}
+
+.dxcaRefreshButtonCell_MarineBlue
+{
+}
+
+.dxcaRefreshButtonText_MarineBlue
+{
+	text-decoration: underline;
+}
+
+.dxcaDisabledRefreshButtonText_MarineBlue
+{
+	text-decoration: none;
+}
+
+.dxcaTextBoxCell_MarineBlue,
+.dxcaTextBoxCellNoIndent_MarineBlue
+{
+}
+
+.dxcaTextBoxCellNoIndent_MarineBlue .dxeErrorCell_MarineBlue
+{
+	padding-left: 0px;
+	padding-top: 4px;
+	color: Red;
+}
+
+.dxcaTextBoxLabel_MarineBlue
+{
+	padding-bottom: 4px;
+	display: block;
+}
+
+.dxcaLoadingPanel_MarineBlue
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #2C4D79;
+}   
+.dxlpLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_MarineBlue .dxlp-loadingImage,
+.dxcaLoadingPanel_MarineBlue .dxlp-loadingImage,
+.dxeImage_MarineBlue.dxe-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height:18px;
+	width:18px;
+}
+
+.dxcaLoadingPanel_MarineBlue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 8px;
+}
+
+.dxpcLite_MarineBlue .dxHFBPS
+{
+    width: 10px;
+}
+
+.dxeTextBox_MarineBlue,
+.dxeButtonEdit_MarineBlue,
+.dxeIRadioButton_MarineBlue,
+.dxeRadioButtonList_MarineBlue,
+.dxeCheckBoxList_MarineBlue
+{
+    cursor: default;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxeTrackBar_MarineBlue, 
+.dxeIRadioButton_MarineBlue, 
+.dxeButtonEdit_MarineBlue, 
+.dxeTextBox_MarineBlue, 
+.dxeRadioButtonList_MarineBlue, 
+.dxeCheckBoxList_MarineBlue, 
+.dxeMemo_MarineBlue, 
+.dxeListBox_MarineBlue, 
+.dxeCalendar_MarineBlue, 
+.dxeColorTable_MarineBlue
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* ASPxCololrEdit */
+.dxcpParametersCellSys .dxcpWebColorInput_MarineBlue
+{
+	float: right;
+	margin-top: 40px;
+}
+.dxcpColorParameterMainDiv_MarineBlue
+{
+	padding: 0px 0 4px 9px;
+	width: 90px;
+	text-align: right;
+}
+.dxeCustomColorButton_MarineBlue
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+	margin: 3px 7px;
+	cursor: pointer;
+}
+.dxeAutomaticColorItem_MarineBlue
+{
+    padding: 4px 4px 0px 4px;
+}
+.dxeAutomaticColorItem_MarineBlue > span
+{
+    margin: 0px 5px;
+    line-height: 20px;
+}
+.dxcpCurrentColor_MarineBlue, 
+.dxcpSavedColor_MarineBlue
+{
+	height: 35px;
+}
+.dxcpCurrentAndSaved_MarineBlue
+{
+	width: 65px;
+	margin: 34px 0px 0px auto;
+	cursor: pointer;
+}
+.dxeColorTablesMainDiv_MarineBlue,
+.dxeColorSelectorMainDiv_MarineBlue
+{
+	background-color: #FFFFFF;
+}
+.dxeColorSelectorMainDiv_MarineBlue
+{
+	padding: 7px;
+}
+.dxcpColorArea_MarineBlue,
+.dxcpHueAreaImage_MarineBlue,
+.dxcpCurrentAndSaved_MarineBlue,
+.dxeColorTablesMainDiv_MarineBlue,
+.dxeColorSelectorMainDiv_MarineBlue,
+.dxcpParametersCell_MarineBlue input
+{
+	border: 1px Solid #AECAF0;
+}
+.dxeButtonsPanelDiv_MarineBlue
+{
+	margin-top: 15px;
+	text-align: right;
+}
+.dxeButtonsPanelDiv_MarineBlue input
+{
+	min-width: 60px;
+	margin-left: 10px;
+}
+
+/* -- ASPxTokenBox -- */
+input.dxeTokenBoxInput_MarineBlue[type="text"] {
+	display: inline-block;
+	float: left;
+	width: 30px;
+	outline: none;
+	margin: 1px;
+	padding: 1px;
+}
+.dxeToken_MarineBlue {
+    border: 1px solid #a3c0e8;
+	border-radius: 2px;
+    display: inline-block;
+	float: left;
+	min-width: 30px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+.dxeTokenText_MarineBlue, .dxeTokenRemoveButton_MarineBlue {
+	display: block;
+	float: left;
+}
+.dxeTokenText_MarineBlue {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 4px;
+}
+.dxeTokenRemoveButton_MarineBlue {
+	cursor: pointer;
+}
+.dxeToken_MarineBlue {
+	background: #e2f0ff url('edtTokenBoxTokenBackground.png') repeat-x top;
+}
+.dxFirefox input.dxeTokenBoxInput_MarineBlue[type="text"]
+{
+	padding: 0;
+	margin: 1px;
+}
+.dxFirefox .dxeTokenText_MarineBlue
+{
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+/* ASPxPictureEdit */
+.dxpePreviewContainer_MarineBlue
+{
+    position: relative;
+}
+.dxpeCommandPanel_MarineBlue
+{
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    height: 32px;
+    position: absolute;
+}
+.dxpeBottomCommandPanel_MarineBlue
+{
+    width: 100%;
+    bottom: 0;
+}
+
+.dxpeTopCommandPanel_MarineBlue
+{
+    width: 100%;      
+    top: 0;    
+}
+.dxpeCommandPanelDeleteButton_MarineBlue, 
+.dxpeCommandPanelOpenDialogButton_MarineBlue
+{    
+    cursor: pointer;
+    display: inline-block;
+}
+.dxpeCommandPanelButtonsWrapper_MarineBlue
+{
+    position: absolute;
+}
+.dxpeCommandPanelButtonsWrapperLeft_MarineBlue
+{
+    left: 0;
+}
+.dxpeCommandPanelButtonsWrapperCenter_MarineBlue
+{
+    left: 50%;
+    margin-left: -32px;
+}
+.dxpeCommandPanelButtonsWrapperRight_MarineBlue
+{
+    right: 0;
+}
+.dxpeCommandPanelDeleteButtonHover_MarineBlue,
+.dxpeCommandPanelDeleteButtonPressed_MarineBlue,
+.dxpeCommandPanelOpenDialogButtonHover_MarineBlue,
+.dxpeCommandPanelOpenDialogButtonPressed_MarineBlue
+{
+}
+.dxpeCommandPanelDeleteButtonDisabled_MarineBlue,
+.dxpeCommandPanelOpenDialogButtonDisabled_MarineBlue
+{
+}
+.dxpeDropZone_MarineBlue
+{
+    background-color: gray;
+}
+.dxpePlaceHolder_MarineBlue
+{
+    background-color: lightgray;
+    z-index: -1;
+}
+.dxpeTextPanelContainer_MarineBlue
+{
+    height: 100%;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}
+.dxpeTextPanel_MarineBlue
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Editor caption */
+.dxeCaptionCell_MarineBlue
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+.dxeRoot_MarineBlue
+{
+}
+.dxeCaption_MarineBlue
+{
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeTextEditCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeCheckBoxListCTypeSys
+{
+    padding-top: 11px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeRadioButtonListCTypeSys
+{
+    padding-top: 11px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 5px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeTrackBarCTypeSys
+{
+    padding-top: 6px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 4px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeMemoCTypeSys
+{
+    padding-top: 3px;
+}
+.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeCustomCTypeSys
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dxFirefox .dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+	padding-top: 6px;
+}
+.dxFirefox .dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 5px;
+}
+
+.dxWebKitFamily .dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+	padding-top: 6px;
+}
+
+/* Safari */
+.dxeCaptionCellSafariSys.dxeCaptionCell_MarineBlue.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 5px;
+}
+
+.dxeRequiredMark_MarineBlue {
+    color: green;
+    font-style: normal;
+}
+
+.dxeOptionalMark_MarineBlue {
+    color: gray;
+    font-style: normal;
+}
+
+/* Out of range warning*/
+.dxeOutOfRWarn_MarineBlue {
+    font: 12px Tahoma, Geneva, sans-serif;
+    padding: 3px 8px 4px 8px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #A8A8A8;
+}
+.dxeOutOfRWarnRight_MarineBlue {
+    margin-left: 10px;
+}
+.dxeOutOfRWarnBottom_MarineBlue {
+    margin-top: 10px;
+}

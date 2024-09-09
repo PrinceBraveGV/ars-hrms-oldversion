@@ -1,0 +1,23 @@
+﻿@using AristaHRM.Models
+
+@model KaryawanModel
+
+@{
+    Html.DevExpress().ComboBoxFor(m => m.Status_WP, combosettings =>
+    {
+        combosettings.Name = "Status_WP";
+        combosettings.CallbackRouteValues = new { Controller = "Input", Action = "StatusWPPartial" };
+        combosettings.Properties.NullText = "-- Pilih Status --";
+        combosettings.Properties.HelpText = "(*) Pilih status wajib pajak ybs.";
+        combosettings.Properties.DropDownStyle = DropDownStyle.DropDownList;
+        combosettings.Properties.TextField = "StatusWP";
+        combosettings.Properties.ValueField = "KodeStatus";
+        combosettings.Properties.EnableClientSideAPI = true;
+        combosettings.Properties.Columns.Add("KodeStatus", "Kode", Unit.Pixel(70));
+        combosettings.Properties.Columns.Add("StatusWP", "Deskripsi", Unit.Pixel(200));
+        combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.Contains;
+        combosettings.Width = Unit.Pixel(300);
+        combosettings.Theme = AristaHRM.Theme.SelectTheme;
+        combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Status_Nikah'] = Status_Nikah.GetValue(); }";
+    }).BindList(Providers.GetStatusWP(Model.Status_Nikah)).GetHtml();
+}

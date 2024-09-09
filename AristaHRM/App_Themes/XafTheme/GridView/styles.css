@@ -1,0 +1,1191 @@
+.dxgvControl_XafTheme,
+.dxgvDisabled_XafTheme
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #4a4a4a;
+    background-color: #FFFFFF;
+    cursor: default;
+}
+
+.dxgvDisabled_XafTheme
+{
+    color: #A6A6A6;
+}
+
+.dxgvControl_XafTheme a
+{
+    color: #045cad;
+}
+
+    .dxgvControl_XafTheme a:hover
+    {
+        color: #4a4a4a;
+    }
+
+.dxgvDisabled_XafTheme a
+{
+    color: #A6A6A6;
+}
+
+.dxgvDataRow_XafTheme.dxgvBELVR > td.dxgv,
+.dxgvGroupRow_XafTheme.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+.dxgvDataRow_XafTheme td.dxgv 
+{
+	vertical-align:top;
+}
+.dxgvRBB .dxgvDataRow_XafTheme.dxgvBELVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_XafTheme.dxgvBELVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanel_XafTheme
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #4a4a4a;
+    background-color: White;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+
+    .dxgvLoadingPanel_XafTheme td.dx
+    {
+        white-space: nowrap;
+        text-align: center;
+        padding: 15px 34px 15px 20px;
+    }
+
+    .dxgvLoadingPanel_XafTheme .dxlp-loadingImage
+    {
+        background-image: url('../Web/Loading.gif');
+        height: 40px;
+        width: 40px;
+    }
+
+.dxgvLoadingPanelStatusBar_XafTheme .dxlp-loadingImage
+{
+    background-image: url('gvLoadingOnStatusBar.gif');
+    height: 16px;
+    width: 16px;
+}
+
+.dxgvLoadingPanelStatusBar_XafTheme
+{
+    background-color: transparent;
+}
+
+    .dxgvLoadingPanelStatusBar_XafTheme td
+    {
+        white-space: nowrap;
+        text-align: center;
+        padding: 0px 2px;
+    }
+
+.dxgvFilterPopupWindow_XafTheme
+{
+    color: Black;
+    border: 1px solid #A3C0E8;
+}
+
+.dxgvFilterPopupItemsArea_XafTheme
+{
+    color: Black;
+    background-color: #FFFFFF;
+}
+
+.dxgvFilterPopupButtonPanel_XafTheme
+{
+    background-color: #ECF4FE;
+    border: 1px solid #c6c6c6;
+    color: #2C4D79;
+}
+
+.dxgvFilterPopupItem_XafTheme td.dxgv,
+.dxgvFilterPopupActiveItem_XafTheme td.dxgv,
+.dxgvFilterPopupSelectedItem_XafTheme td.dxgv
+{
+    padding: 3px 2px 4px 4px;
+    cursor: default;
+    white-space: nowrap;
+}
+
+.dxgvDetailRow_XafTheme.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 10px 6px 9px 0;
+}
+.dxgvDetailRow_XafTheme.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_XafTheme.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -10px 0 -7px 0;
+}
+
+.dxgvDetailRow_XafTheme.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+
+.dxgvFilterPopupActiveItem_XafTheme
+{
+    background-color: #FFE7A2;
+    color: Black;
+}
+
+.dxgvFilterPopupSelectedItem_XafTheme
+{
+    color: Black;
+    background-color: #FFBD69;
+}
+
+.dxgvControl_XafTheme .dxeListBox_XafTheme
+{
+    background-color: #FFFFFF;
+}
+
+.dxgvTable_XafTheme
+{
+    background-color: #FFFFFF;
+    border: Solid 1px #c6c6c6;
+    border-top: 0;
+    border-bottom: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+}
+
+    .cgc-np .dxgvTable_XafTheme
+    {
+        border-right: 0px;
+        border-left: 0px;
+    }
+    
+    .DashboardView .NestedFrame .dxgvTable_XafTheme{
+        border: 0;
+    }
+
+    .DashboardView .NestedFrame tr[id$="DXHeadersRow0"] > .dxgvHeader_XafTheme {
+        border-top-width: 0px!important;
+    }
+
+    .FindGridView .dxgvTable_XafTheme
+    {
+        border-collapse: collapse !important;
+    }
+
+    .dxgvTable_XafTheme .dxgvHEC
+    {
+        background-color: #FFFFFF;
+        border: 0;
+        overflow: hidden;
+    }
+
+div > .dxgvTable_XafTheme
+{
+    border-right: 0;
+    border-left: 0;
+}
+.dxAC
+{
+    border-right: 1px solid #c6c6c6;
+    border-left: 1px solid  #c6c6c6;
+}
+.dxgvControl_XafTheme .dxgvHSDC
+{
+    border-right: Solid 1px #c6c6c6;
+    border-left: Solid 1px #c6c6c6;    
+    border-top: Solid 1px #c6c6c6;
+}
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvHSDC
+{
+    border-top: Solid 1px #c6c6c6;
+}
+.searchDialogContent .dxgvControl_XafTheme.FindGridView tr[id$="DXHeadersRow0"] > .dxgvHeader_XafTheme {
+    border-top-width: 0px!important;
+}
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvEditFormDisplayRow_XafTheme:last-child td.dxgv,
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvInlineEditRow_XafTheme:last-child td.dxgv,
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvDataRow_XafTheme:last-child td.dxgv,
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvDetailRow_XafTheme:last-child td.dxgv {
+    border-bottom: 0!important;
+}
+.searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvPagerBottomPanel_XafTheme {
+    border-bottom: Solid 1px #c6c6c6;
+}
+.searchDialogContent .dxgvControl_XafTheme.FindGridView tr.dxgvDataRow_XafTheme > td:nth-last-child(2),
+.searchDialogContent .dxgvControl_XafTheme.FindGridView tr[id$="DXHeadersRow0"] > td:nth-last-child(2) {
+    border-right-width: 0px!important;
+}
+
+    .dxgvControl_XafTheme .dxgvHSDC .dxgv
+_XafTheme
+    {
+        border-top: 0!important;
+    }
+
+.dxgvControl_XafTheme .dxgvCSD .dxgvHeader_XafTheme
+{
+    border-top: 0;
+}
+
+.dxgvControl_XafTheme .dxgvFSDC
+{
+    border-right: Solid 1px #c6c6c6;
+    border-left: Solid 1px #c6c6c6;
+    border-bottom: Solid 1px #c6c6c6;
+}
+
+    .dxgvControl_XafTheme .dxgvFSDC .dxgvFooter_XafTheme td.dxgv
+    {
+        border-bottom: 0;
+    }
+
+.dxgvControl_XafTheme .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.dxgvControl_XafTheme .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+
+*[dir="rtl"].dxgvControl_XafTheme .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+
+.dxgvControl_XafTheme .dxgvCSD
+{
+    border: Solid 1px #c6c6c6;
+    box-sizing: content-box;
+}
+
+.dxeDropDownWindow_XafTheme .dxgvControl_XafTheme .dxgvCSD,
+.dxeDropDownWindow_XafTheme .dxgvControl_XafTheme .dxgvHSDC,
+.dxeDropDownWindow_XafTheme .dxgvControl_XafTheme .dxgvFSDC
+{
+    border: 0;
+}
+
+.dxgvControl_XafTheme .dxgvHSDC + .dxgvCSD
+{
+    border-top: 0;
+}
+
+.dxgvControl_XafTheme .dxgvFCSD
+{
+    border-right: Solid 1px #c6c6c6;
+    border-left: Solid 1px #c6c6c6;
+    border-bottom: Solid 1px #c6c6c6;
+}
+
+.dxgvDataRowAlt_XafTheme
+{
+    background-color: #EEF6FB;
+}
+
+.dxgvFilterRow_XafTheme
+{
+}
+
+.dxgvEditForm_XafTheme
+{
+}
+
+    .dxgvEditForm_XafTheme td.dxgv
+    {
+        border-bottom: 1px Solid #c6c6c6;
+        padding: 10px 15px;
+    }
+
+    .dxgvEditForm_XafTheme td.dxgvIndentCell
+    {
+        border-top-width: 0px;
+        border-right: 1px Solid #c6c6c6;
+    }
+
+.dxgvSelectedRow_XafTheme
+{
+    background-color: #e0edf8;
+}
+
+.dxgvFocusedRow_XafTheme
+{
+    background-color: #e5e5e5;
+}
+
+    .dxgvSelectedRow_XafTheme td.dxgvCommandColumn_XafTheme a,
+    .dxgvFocusedRow_XafTheme td.dxgvCommandColumn_XafTheme a
+    {
+        color: #045cad;
+    }
+
+.dxgvPreviewRow_XafTheme
+{
+    background-color: white;
+}
+
+    .dxgvDetailRow_XafTheme td.dxgv,
+    .dxgvPreviewRow_XafTheme td.dxgv,
+    .dxgvEmptyDataRow_XafTheme td.dxgv
+    {
+        padding: 15px 15px 15px 20px;
+        border-bottom: 1px Solid #c6c6c6;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+    }
+
+    .searchDialogContent .dxgvControl_XafTheme.FindGridView .dxgvEmptyDataRow_XafTheme td.dxgv
+    {
+        border-bottom: 0;
+    }
+
+    .dxgvPreviewRow_XafTheme td.dxgvIndentCell,
+    .dxgvDetailRow_XafTheme td.dxgvIndentCell
+    {
+        padding: 8px 10px;
+        border-bottom: 1px Solid #c6c6c6;
+        border-right: 1px Solid #c6c6c6;
+    }
+
+.dxGridView_gvDetailExpandedButton_XafTheme,
+.dxGridView_gvDetailCollapsedButton_XafTheme
+{
+    margin: 2px 0 -2px;
+}
+
+.dxgvEmptyDataRow_XafTheme
+{
+    color: #4F4F4F;
+}
+
+    .dxgvEmptyDataRow_XafTheme td.dxgv
+    {
+        text-align: center;
+    }
+
+.dxgvEditFormDisplayRow_XafTheme td.dxgv,
+.dxgvInlineEditRow_XafTheme td.dxgv,
+.dxgvDataRow_XafTheme td.dxgv
+{
+    overflow: hidden;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom: 1px Solid #c6c6c6;
+    border-right: 1px Solid #c6c6c6;
+    padding: 8px 10px 9px;
+}
+
+.dxgvEditFormDisplayRow_XafTheme:last-child td.dxgv,
+.dxgvInlineEditRow_XafTheme:last-child td.dxgv,
+.dxgvDataRow_XafTheme:last-child td.dxgv,
+.dxgvDetailRow_XafTheme:last-child td.dxgv
+{
+    border-bottom: 1px Solid #c6c6c6!important;
+}
+
+.dxgvEditFormDisplayRow_XafTheme:first-child td.dxgv,
+.dxgvInlineEditRow_XafTheme:first-child td.dxgv,
+.dxgvDataRow_XafTheme:first-child td.dxgv
+{
+    border-top: 1px Solid #c6c6c6!important;
+}
+
+.dxgvEditFormDisplayRow_XafTheme td.dxgv:last-child,
+.dxgvInlineEditRow_XafTheme td.dxgv:last-child,
+.dxgvDataRow_XafTheme td.dxgv:last-child
+{
+    border-right: 0!important;
+}
+
+.dxgvDataRow_XafTheme .dxICheckBox_XafTheme,
+.dxgvInlineEditRow_XafTheme .dxICheckBox_XafTheme,
+.dxgvDataRow_XafTheme .dxeIRadioButton_XafTheme,
+.dxgvInlineEditRow_XafTheme .dxeIRadioButton_XafTheme
+{
+    margin: 4px 1px;
+}
+
+.dxgvCommandColumn_XafTheme .dxICheckBox_XafTheme,
+.dxgvCommandColumn_XafTheme .dxeIRadioButton_XafTheme
+{
+    margin: 0px 1px 0px;
+}
+
+.dxgvCommandColumn_XafTheme,
+.dxgvEditFormDisplayRow_XafTheme td.dxgvCommandColumn_XafTheme,
+.dxgvDataRow_XafTheme td.dxgvCommandColumn_XafTheme
+{
+    padding: 6px 0px 9px;
+    white-space: nowrap;
+}
+
+.dxgvEditFormDisplayRow_XafTheme
+{
+    background-color: #FFFFFF;
+}
+
+    .dxgvEditFormDisplayRow_XafTheme td.dxgv
+    {
+    }
+
+    .dxgvEditFormDisplayRow_XafTheme td.dxgvIndentCell
+    {
+        border-right: 1px Solid #c6c6c6;
+        border-left: 1px Solid #c6c6c6;
+        border-top-width: 0px;
+    }
+
+.dxgvEditingErrorRow_XafTheme
+{
+    background-color: #F3D6D6;
+    color: #BA1717;
+}
+
+    .dxgvEditingErrorRow_XafTheme td.dxgv
+    {
+        white-space: pre-wrap;
+        border-bottom: 1px Solid #A3C0E8;
+        border-right-width: 0;
+        border-top-width: 0;
+        border-left-width: 0;
+        padding: 6px 12px;
+    }
+
+.dxgvInlineEditRow_XafTheme td.dxgv
+{
+    padding: 2px 1px;
+}
+
+.dxgvFilterRow_XafTheme td.dxgv
+{
+    border-bottom: 1px Solid #c6c6c6;
+    border-right-width: 0px;
+    border-top-width: 0;
+    border-left-width: 0;
+    padding: 2px 1px;
+    overflow: hidden;
+}
+
+.dxgvInlineEditRow_XafTheme .dxeTextBox_XafTheme td.dxic,
+.dxgvFilterRow_XafTheme .dxeTextBox_XafTheme td.dxic
+{
+    padding: 4px 2px 4px 7px!important;
+}
+
+.dxgvInlineEditRow_XafTheme .dxeButtonEdit_XafTheme td.dxic,
+.dxgvFilterRow_XafTheme .dxeButtonEdit_XafTheme td.dxic
+{
+    padding: 4px 2px 4px 7px!important;
+}
+
+.dxgvInlineEditRow_XafTheme .dxeButtonEditButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxeButtonEditButton_XafTheme
+{
+    padding: 4px 4px;
+}
+
+    .dxgvInlineEditRow_XafTheme .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+    .dxgvFilterRow_XafTheme .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+    .dxgvInlineEditRow_XafTheme .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover,
+    .dxgvFilterRow_XafTheme .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover
+    {
+        border-width: 0;
+        padding: 4px 3px 3px 3px;
+    }
+
+.dxgvInlineEditRow_XafTheme .dxChrome .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxChrome .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+.dxgvInlineEditRow_XafTheme .dxChrome .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover,
+.dxgvFilterRow_XafTheme .dxChrome .dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover
+{
+    padding-bottom: 0;
+    padding-top: 3px;
+}
+
+.dxgvInlineEditRow_XafTheme td:last-of-type.dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+.dxgvFilterRow_XafTheme td:last-of-type.dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme,
+.dxgvInlineEditRow_XafTheme td:last-of-type.dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover,
+.dxgvFilterRow_XafTheme td:last-of-type.dxeButtonEditButton_XafTheme.dxeButtonEditClearButton_XafTheme:hover
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dxgvInlineEditRow_XafTheme .dxeSpinIncButton_XafTheme,
+.dxgvInlineEditRow_XafTheme .dxeSpinDecButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxeSpinIncButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxeSpinDecButton_XafTheme
+{
+    padding: 4px 10px;
+}
+
+.dxgvInlineEditRow_XafTheme .dxeSpinLargeIncButton_XafTheme,
+.dxgvInlineEditRow_XafTheme .dxeSpinLargeDecButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxeSpinLargeIncButton_XafTheme,
+.dxgvFilterRow_XafTheme .dxeSpinLargeDecButton_XafTheme
+{
+    padding: 9px 10px;
+}
+
+.dxgvGroupRow_XafTheme
+{
+    color: #7e7e7e;
+    background-color: #FFFFFF;
+}
+
+.dxgvFocusedGroupRow_XafTheme
+{
+    background-color: #e5e5e5;
+}
+
+    .dxgvGroupRow_XafTheme td.dxgv,
+    .dxgvFocusedGroupRow_XafTheme td.dxgv
+    {
+        border: 0;
+        border-bottom: 1px Solid #c6c6c6;
+        vertical-align: middle;
+        padding: 8px 10px 9px;
+        background-color: inherit;
+    }
+
+    .dxgvGroupRow_XafTheme:last-child td.dxgv,
+    .dxgvFocusedGroupRow_XafTheme:last-child td.dxgv
+    {
+        border-bottom: 1px Solid #c6c6c6!important;
+    }
+
+.dxGridView_gvExpandedButton_XafTheme,
+.dxGridView_gvCollapsedButton_XafTheme
+{
+    margin: 2px 0 -2px;
+}
+
+.dxgvFocusedGroupRow_XafTheme td.dxgvIndentCell,
+.dxgvFocusedRow_XafTheme td.dxgvIndentCell,
+.dxgvSelectedRow_XafTheme td.dxgvIndentCell
+{
+    border-top-width: 0px;
+    border-right: 1px Solid #c6c6c6;
+}
+
+.dxgvHeaderPanel_XafTheme
+{
+    color: #979797;
+    white-space: nowrap;
+    border-top: 1px Solid #c6c6c6;
+    border-bottom: 1px Solid #c6c6c6;
+    padding: 8px 4px 7px 6px;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_XafTheme,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_XafTheme
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_XafTheme,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_XafTheme
+{
+    touch-action: pinch-zoom;
+}
+
+.dxgvHeader_XafTheme
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 10px 7px;
+    border: 1px Solid #c6c6c6;
+    background: #F7F7F7;
+    overflow: hidden;
+    font-weight: normal;
+	font-size: 12px;
+    text-align: left;
+}
+    .dxgvHeader_XafTheme .dx-wrap
+    {
+        white-space: nowrap!important;
+    }
+
+    .FindGridView .dxgvHeader_XafTheme
+    {
+          border-collapse: collapse !important;
+    }
+
+tr[id$="DXHeadersRow0"] > .dxgvHeader_XafTheme
+{
+    border-top-width: 1px!important;
+    border-bottom-width: 0px;/*form .dxgvHeader_XafTheme*/
+}
+
+.dxgvHeader_XafTheme a,
+.dxgvHeader_XafTheme a:hover
+{
+    color: #1279c0;
+}
+
+.dxgvHeader_XafTheme,
+.dxgvHeader_XafTheme table
+{
+    color: #7e7e7e;
+}
+
+    .dxgvHeader_XafTheme td
+    {
+        white-space: nowrap;
+    }
+
+    .dxgvHeader_XafTheme a.dxgvCommandColumnItem_XafTheme
+    {
+        margin: 0px 5px 0px 0px;
+        vertical-align: middle;
+    }
+
+        .dxgvHeader_XafTheme a.dxgvCommandColumnItem_XafTheme:hover
+        {
+            color: #4a4a4a;
+        }
+
+.dxgvCustomization_XafTheme,
+.dxgvPopupEditForm_XafTheme
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxgvGroupPanel_XafTheme
+{
+    color: #979797;
+    white-space: nowrap;
+    border-top: 1px Solid #c6c6c6;
+    border-left: 1px Solid #c6c6c6;
+    border-right: 1px Solid #c6c6c6;
+    padding: 16px 4px 16px 6px;
+}
+.dxgvAdaptiveHeaderPanel_XafTheme
+{
+    border-top: 1px Solid #c6c6c6;
+    border-left: 1px Solid #c6c6c6;
+    border-right: 1px Solid #c6c6c6;
+    padding-top: 10px;
+}
+.dxgvAdaptiveFooterPanel_XafTheme
+{
+    background-color: white;
+    border: solid 1px #c6c6c6;
+    border-top-width: 0;    
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_XafTheme,
+.dxgvAdaptiveFooterPanel_XafTheme
+{
+    padding-left: 40px;
+}
+.dxgvFooter_XafTheme
+{
+    background-color: white;
+    white-space: nowrap;
+}
+
+    .dxgvFooter_XafTheme td.dxgv
+    {
+        padding: 8px 10px 11px;
+        border-right-width: 0px;
+        border-bottom: none!important;
+    }
+
+.dxgvFSDC .dxgvFooter_XafTheme td.dxgv,
+.dxgvCSD .dxgvFooter_XafTheme td.dxgv
+{
+    border-bottom: 0!important;
+}
+
+.dxgvGroupFooter_XafTheme
+{
+    white-space: nowrap;
+}
+
+    .dxgvGroupFooter_XafTheme td.dxgv
+    {
+        padding: 8px 10px 9px;
+        border-bottom: 1px Solid #c6c6c6;
+        border-right-width: 0px;
+    }
+
+    .dxgvInlineEditRow_XafTheme td.dxgvIndentCell,
+    .dxgvDataRow_XafTheme td.dxgvIndentCell,
+    .dxgvDetailRow_XafTheme td.dxgvIndentCell,
+    .dxgvPreviewRow_XafTheme td.dxgvIndentCell,
+    .dxgvGroupRow_XafTheme td.dxgvIndentCell,
+    .dxgvGroupFooter_XafTheme td.dxgvIndentCell
+    {
+        border-top-width: 0px;
+        border-right: 1px Solid #c6c6c6;
+    }
+
+.dxgvTitlePanel_XafTheme,
+.dxgvTable_XafTheme caption
+{
+    font-weight: normal;
+    padding: 8px 5px 9px;
+    text-align: center;
+}
+
+.dxgvLoadingDiv_XafTheme
+{
+    background-color: Gray;
+    opacity: 0.01;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+
+.dxgvPagerBottomPanel_XafTheme + .dxgvStatusBar_XafTheme
+{
+    border-top: 0px Solid #c6c6c6;
+    border-left: 1px Solid #c6c6c6;
+    border-right: 1px Solid #c6c6c6;
+}
+
+.dxgvStatusBar_XafTheme tr.dxgv
+{
+    height: 20px;
+}
+
+    .dxgvStatusBar_XafTheme tr.dxgv > td
+    {
+        padding: 13px 5px;
+    }
+
+.dxgvCommandColumn_XafTheme a
+{
+    margin: 0px 5px 0px 0px;
+    vertical-align: middle;
+}
+
+.dxgvCommandColumnItem_XafTheme
+{
+}
+
+.dxbButton_XafTheme[class~="dxgvCommandColumnItem_XafTheme"],
+.dxgvEditFormTable_XafTheme div.dxbButton_XafTheme
+{
+    margin: -2px 2px;
+}
+
+    .dxbButton_XafTheme[class~="dxgvCommandColumnItem_XafTheme"] .dxb
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+.dxgvFilterRow_XafTheme a.dxgvCommandColumnItem_XafTheme
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.dxgvEditFormTable_XafTheme
+{
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.dxgvEditFormCaption_XafTheme
+{
+    padding: 5px 4px 4px 8px;
+    white-space: nowrap;
+}
+
+.dxgvInlineEditCell_XafTheme
+{
+    padding: 4px;
+}
+
+.dxgvEditFormCell_XafTheme
+{
+    padding: 4px;
+    border-width: 0;
+}
+
+.dxgvFilterBar_XafTheme
+{
+    border-top: 1px solid #c6c6c6;
+}
+
+    .dxgvFilterBar_XafTheme a
+    {
+        color: #2c86d3;
+        text-decoration: underline;
+        //border-bottom: 1px dashed #2c86d3;
+    }
+        .dxgvFilterBar_XafTheme a:hover
+        {
+            color: #2c86d3;
+            //border-bottom: 1px dashed #2c86d3;
+        }
+
+.dxgvFilterBarClearButtonCell_XafTheme > a,
+.dxgvFilterBarClearButtonCell_XafTheme > a:hover
+{
+    color: #c51c1c;
+    text-decoration: underline;
+    //border-bottom: 1px dashed #c51c1c;
+}
+.dxgvFilterBarCheckBoxCell_XafTheme
+{
+    padding: 0 7px 0 16px;
+}
+
+.dxgvFilterBarImageCell_XafTheme
+{
+    display: none; /*hide filter image in bar*/
+    /*padding: 0 1px 0 3px;
+    cursor: pointer;*/
+}
+
+.dxgvFilterBarExpressionCell_XafTheme
+{
+    padding: 8px 5px 10px 0;
+    white-space: nowrap;
+}
+
+.dxgvFilterBarClearButtonCell_XafTheme
+{
+    padding: 5px 12px 8px;
+}
+
+.dxgvFilterBuilderMainArea_XafTheme
+{
+    background: white none;
+    padding: 6px 2px;
+}
+
+.dxgvFilterBuilderButtonArea_XafTheme
+{
+    background-color: white;
+    border-top: 1px solid #c6c6c6;
+    padding: 12px;
+    white-space: nowrap;
+}
+
+.dxgvPagerBottomPanel_XafTheme,
+.dxgvPagerTopPanel_XafTheme
+{
+    padding: 4px 0;
+    padding-left:7px;
+}
+
+.dxgvDataRowHover_XafTheme
+{
+    background: #1279C0;
+    color: white;
+}
+
+    .dxgvDataRowHover_XafTheme a,
+    .dxgvDataRowHover_XafTheme td.dxgvCommandColumn_XafTheme a
+    {
+        color: white;
+    }
+
+.dxgvControl_XafTheme .dxpLite_XafTheme
+{
+    padding: 6px 11px 6px 13px;
+}
+
+.dxgvControl_XafTheme .dxgvHFSAC
+{
+    padding: 10px 0 0 9px;
+}
+
+.dxgvControl_XafTheme .dxgvHFSC
+{
+    padding: 10px 0 6px;
+}
+
+    .dxgvControl_XafTheme .dxgvHFSC div
+    {
+        height: 1px;
+        background: #ececec;
+    }
+
+.dxgvControl_XafTheme div[id$='DXEPLPC']
+{
+    height: 60px;
+}
+
+.dxgvControl_XafTheme .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_XafTheme .dxgvHFDRC
+{
+    margin: 15px;
+}
+.dxgvControl_XafTheme .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_XafTheme .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_XafTheme .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_XafTheme
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_XafTheme td.dxgvBatchEditCell_XafTheme
+{
+    padding: 0;
+}
+
+.dxgvControl_XafTheme td.dxgvBatchEditModifiedCell_XafTheme
+{
+    background: #d7f9c7;
+}
+
+.dxgvControl_XafTheme .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+
+    .dxgvControl_XafTheme .dxgvErrorCell img
+    {
+        margin: -2px 0;
+    }
+
+.dxgvStatusBar_XafTheme .dxgvCommandColumn_XafTheme a
+{
+    margin-right: 10px;
+}
+
+.dxgvControl_XafTheme td.dxgvBatchEditCell_XafTheme .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvControl_XafTheme td.dxgvBatchEditCell_XafTheme,
+.dxgvControl_XafTheme td.dxgvBatchEditModifiedCell_XafTheme
+{
+    border-bottom-width: 0!important;
+}
+ .dxgvFilterRow_XafTheme .dxgv
+{
+    border-right: 1px solid #c6c6c6 !important;
+}
+
+    .dxgvFilterRow_XafTheme .dxgv:last-child
+    {
+        border-right: 0px !important;
+    }
+
+    .dxgvFilterRow_XafTheme .dxgv:nth-last-child(2)
+    {
+        border-right: 0px !important;
+    }
+
+    .dxgvFilterRow_XafTheme .dxgv > table
+    {
+        border: none !important;
+        background-color: white;
+        box-shadow: none;
+    }
+    .dxgvFilterRow_XafTheme .dxgv .dxeEditAreaSys
+    {
+        background-color: white;
+    }
+
+    .dxgvFilterRow_XafTheme .dxgv .dxeButton.dxeButtonEditButtonHover_XafTheme
+    {
+        background-color: #F0F0F0;
+        background-image: none;
+        border: 1px solid #C6C6C6;
+    }
+.dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-content
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-gutter .dxm-hovered .dxm-content
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-image,
+.dxgvContextMenu_XafTheme.dxm-popup .dxm-image
+{
+    margin-top: -2px;
+    margin-bottom: -3px;
+    margin-left: -1px;
+    border: 1px solid transparent;
+}
+
+    .dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-image.dxgvcm-chk,
+    .dxgvContextMenu_XafTheme.dxm-popup .dxm-image.dxgvcm-chk
+    {
+        background-color: #dcdcdc;
+        border-color: #c2c2c2;
+    }
+
+.dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-image
+{
+    margin-right: 11px;
+}
+
+    .dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-image.dxWeb_mSubMenuItem_XafTheme
+    {
+        margin-left: 1px;
+        margin-right: 13px;
+    }
+
+    .dxmLite_XafTheme.dxm-ltr .dxgvContextMenu_XafTheme.dxm-popup .dxm-image.dxWeb_mSubMenuItemChecked_XafTheme
+    {
+        margin-left: -1px;
+        margin-right: 11px;
+    }
+
+.dxgvSearchPanel_XafTheme
+{
+    padding: 16px 0;
+}
+
+    .dxgvSearchPanel_XafTheme > table
+    {
+        width: 70%;
+        max-width: 650px;
+    }
+
+.dxgvControl_XafTheme .dxgvSearchPanel_XafTheme .dxbButton_XafTheme
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+*[dir="rtl"].dxgvControl_XafTheme .dxgvSearchPanel_XafTheme .dxbButton_XafTheme
+{
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.dxgvControl_XafTheme .dxgvHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_XafTheme .dxgvSearchPanel_XafTheme .dxbButton_XafTheme
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+    .dxgvControl_XafTheme .dxgvSearchPanel_XafTheme .dxbButton_XafTheme .dxb
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* -- xaf --*/
+
+.dxgvPagerBottomPanel_XafTheme
+{
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+}
+
+.NestedFrame .dxgvPagerBottomPanel_XafTheme
+{
+    border-left: 0px solid #c6c6c6;
+    border-right: 0px solid #c6c6c6;
+}
+
+    .dxgvPagerBottomPanel_XafTheme .dxmLite_XafTheme .dxm-item.dxm-selected
+    {
+        background-color: #2c86d3;
+        color: white;
+        border-radius: 2px;
+    }
+
+    .dxgvPagerBottomPanel_XafTheme .dxmLite_XafTheme .dxm-item.dxm-hovered
+    {
+        background-color: #e0edf8;
+        color: #4a4a4a;
+        border-radius: 2px;
+    }
+
+.dxgvControl_XafTheme,
+.dxgvDisabled_XafTheme
+{
+    color: #4A4A4A;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.searchDialogContent .FindGridView
+{
+    border-bottom: 0;
+}
+
+.NestedFrame .dxgvControl_XafTheme,
+.NestedFrame .dxgvDisabled_XafTheme
+{
+    color: #4A4A4A;
+    border-bottom: 0;
+}
+
+.dxgvEditFormDisplayRow_XafTheme td.dxgv,
+.dxgvInlineEditRow_XafTheme td.dxgv,
+.dxgvDataRow_XafTheme td.dxgv
+{
+    border-left-color: #c6c6c6;
+    border-right-color: #c6c6c6;
+}
+
+.dxgvDataRow_XafTheme td.dxgvAIC.dxgv
+{
+    border-bottom-width: 0px;
+}
+
+/* .dxgvInlineEditRow_XafTheme */
+td.dxgvAIC.dxgv
+{
+    text-align: center;
+}
+
+.dxgvFilterBar_XafTheme
+{
+    border-top: none;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+    background-color: #f7f7f7;
+}
+
+.FindGridView
+{
+    width: 100% !important;
+}
+
+td.dxgvDetailButton_XafTheme.dxgv
+{
+    border-right-width: 1px !important;
+}

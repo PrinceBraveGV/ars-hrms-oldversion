@@ -1,0 +1,460 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "DataKaryawanGrid";
+        settings.CallbackRouteValues = new { Area = "Mobile", Controller = "Manager", Action = "KaryawanPartial" };
+        settings.Height = Unit.Percentage(100);
+        settings.Width = Unit.Percentage(50);
+
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+        settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+        settings.Settings.VerticalScrollableHeight = 300;
+
+        settings.SettingsPager.Visible = true;
+        settings.SettingsPager.Position = PagerPosition.Bottom;
+        settings.SettingsPager.PrevPageButton.Text = "Sebelumnya";
+        settings.SettingsPager.NextPageButton.Text = "Berikutnya";
+        settings.SettingsText.EmptyDataRow = "Tidak ada data yang ditampilkan.";
+
+        settings.CommandColumn.Visible = false;
+        settings.CommandColumn.Caption = "Pilihan";
+        settings.CommandColumn.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+        settings.CommandColumn.Width = Unit.Pixel(180);
+        settings.CommandColumn.ShowNewButton = false;
+        settings.CommandColumn.ShowNewButtonInHeader = false;
+        settings.CommandColumn.ShowEditButton = false;
+        settings.CommandColumn.ShowDeleteButton = false;
+        settings.CommandColumn.ShowUpdateButton = false;
+        settings.CommandColumn.ShowCancelButton = false;
+        settings.CommandColumn.ShowClearFilterButton = true;
+        settings.SettingsCommandButton.ClearFilterButton.Text = "Reset Kriteria";
+        settings.CommandColumn.ButtonType = GridCommandButtonRenderMode.Link;
+
+        settings.SettingsContextMenu.Enabled = true;
+        settings.SettingsContextMenu.EnableRowMenu = DefaultBoolean.True;
+        settings.SettingsContextMenu.EnableColumnMenu = DefaultBoolean.True;
+        settings.SettingsContextMenu.EnableFooterMenu = DefaultBoolean.False;
+        settings.SettingsContextMenu.EnableGroupPanelMenu = DefaultBoolean.False;
+
+        // grup menu kolom
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ClearFilter = true;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.GroupByColumn = true;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.SortAscending = true;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.SortDescending = true;
+
+        // grup menu baris
+        settings.SettingsContextMenu.RowMenuItemVisibility.NewRow = false;
+        settings.SettingsContextMenu.RowMenuItemVisibility.EditRow = false;
+        settings.SettingsContextMenu.RowMenuItemVisibility.DeleteRow = false;
+        settings.SettingsContextMenu.RowMenuItemVisibility.Refresh = true;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ClearSorting = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.HideColumn = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowCustomizationWindow = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowFilterRow = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowFilterRowMenu = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowFooter = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowGroupPanel = false;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.ShowSearchPanel = true;
+        settings.SettingsContextMenu.ColumnMenuItemVisibility.UngroupColumn = false;
+
+        settings.SettingsText.ContextMenuRefresh = "Refresh Data";
+        settings.SettingsText.ContextMenuClearFilter = "Reset Kriteria";
+        settings.SettingsText.ContextMenuGroupByColumn = "Urutkan Sesuai Kolom";
+        settings.SettingsText.ContextMenuSortAscending = "Urutan Naik";
+        settings.SettingsText.ContextMenuSortDescending = "Urutan Turun";
+        settings.SettingsText.ContextMenuShowSearchPanel = "Cari Data";
+        settings.SettingsText.ContextMenuShowFilterEditor = "Buat Kriteria...";
+        settings.SettingsText.SearchPanelEditorNullText = "Ketik di sini untuk mencari data...";
+
+        settings.PreRender = (s, e) =>
+        {
+            var grids = s as MVCxGridView;
+            grids.FilterExpression = "Contains([NIK], '" + ViewData["NIK"].ToString() + "') Or Contains([Nama_Atasan], '" + User.Identity.Name + "') Or Contains([Nama_Supervisor], '" + User.Identity.Name + "') Or Contains([Nama_Advisor], '" + User.Identity.Name + "')";
+        };
+
+        settings.Settings.ShowFilterRow = true;
+        settings.Settings.ShowFilterRowMenu = true;
+        settings.Settings.ShowFilterRowMenuLikeItem = true;
+        settings.Settings.ShowGroupPanel = true;
+
+        settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+        settings.SettingsBehavior.AllowFocusedRow = true;
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+        settings.SettingsBehavior.ConfirmDelete = true;
+        settings.SettingsBehavior.EnableCustomizationWindow = true;
+
+        settings.SettingsPager.FirstPageButton.Visible = true;
+        settings.SettingsPager.LastPageButton.Visible = true;
+        settings.SettingsPager.PageSize = 50;
+
+        settings.SettingsText.ConfirmDelete = "Yakin akan menghapus data yang dipilih?";
+        settings.SettingsText.GroupPanel = "Letakkan judul kolom di sini untuk melakukan sortir data berdasarkan kolom yang ditentukan.";
+        settings.SettingsText.PopupEditFormCaption = "Edit Data Karyawan";
+        settings.ClientSideEvents.FocusedRowChanged = "DataKaryawanGrid_FocusedRowChanged";
+        settings.ClientSideEvents.Init = "onInit";
+        settings.ClientSideEvents.EndCallback = "onEndCallback";
+        settings.ClientSideEvents.CustomizationWindowCloseUp = "grid_CustomizationWindowCloseUp";
+
+        settings.CustomJSProperties = (s, e) =>
+        {
+            if (ViewData["EditSuccess"] != null)
+            {
+                e.Properties["cpMessage"] = ViewData["EditSuccess"].ToString().Trim();
+            }
+        };
+
+        // setting warna grid khusus untuk karyawan yang sudah resign
+        settings.HtmlRowCreated = (s, e) =>
+        {
+            if (e.RowType != GridViewRowType.Data) return;
+            MVCxGridView dxwgv = s as MVCxGridView;
+            var value = dxwgv.GetRowValues(e.VisibleIndex, "Tgl_Resign");
+            if (value != null)
+            {
+                e.Row.BackColor = System.Drawing.Color.Red;
+                // jika browser tidak dapat menampilkan warna dari server...
+                e.Row.Style.Add("background-color", "#ff0000");
+                e.Row.ForeColor = System.Drawing.Color.White;
+                e.Row.Style.Add("foreground-color", "#ffffff");
+            }
+            else
+            {
+                e.Row.BackColor = System.Drawing.Color.White;
+                // jika browser tidak dapat menampilkan warna dari server...
+                e.Row.Style.Add("background-color", "#ffffff");
+            }
+        };
+
+        bool first = true;
+        settings.HtmlRowPrepared = (s, e) =>
+        {
+
+            if (e.RowType != GridViewRowType.Data) return;
+            MVCxGridView dxwgv = s as MVCxGridView;
+
+            if (e.VisibleIndex.Equals(dxwgv.FocusedRowIndex) && first)
+            {
+                first = false;
+                return;
+            }
+
+            if (e.VisibleIndex.Equals(dxwgv.FocusedRowIndex) && !first)
+            {
+                first = true;
+                e.Row.BackColor = System.Drawing.Color.Orange;
+                e.Row.Style.Add("background-color", "#ffa500");
+            }
+            else if (!e.VisibleIndex.Equals(dxwgv.FocusedRowIndex))
+            {
+                var value = dxwgv.GetRowValues(e.VisibleIndex, "Tgl_Resign");
+                if (value != null)
+                {
+                    e.Row.BackColor = System.Drawing.Color.Red;
+                    // jika browser tidak dapat menampilkan warna dari server...
+                    e.Row.Style.Add("background-color", "#ff0000");
+                    e.Row.ForeColor = System.Drawing.Color.White;
+                    e.Row.Style.Add("foreground-color", "#ffffff");
+                }
+                else
+                {
+                    e.Row.BackColor = System.Drawing.Color.White;
+                    // jika browser tidak dapat menampilkan warna dari server...
+                    e.Row.Style.Add("background-color", "#ffffff");
+                }
+            }
+        };
+
+        settings.Styles.FocusedRow.BackColor = System.Drawing.ColorTranslator.FromHtml("#BF4E6A");
+
+        settings.KeyFieldName = "NIK";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "NIK";
+            column.Caption = "NIK";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(70);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            column.SetDataItemTemplateContent(content =>
+            {
+                ViewContext.Writer.Write("<a target=\"_blank\" href=\"" + DevExpressHelper.GetUrl(new { Controller = "Manager", Action = "Profil", id = content.Text }) + "\">" + content.Text + "</a>");
+            });
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Karyawan";
+            column.Caption = "Nama Karyawan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(200);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Jenis_Kelamin";
+            column.Caption = "Jenis Kelamin";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Equals;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.Items.Add("Pria", "Pria");
+            comboProperties.Items.Add("Wanita", "Wanita");
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Perusahaan";
+            column.Caption = "Nama Perusahaan";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(200);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetPerusahaan();
+            comboProperties.TextField = "Nama_Perusahaan";
+            comboProperties.ValueField = "Nama_Perusahaan";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Cabang";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetCabang();
+            comboProperties.TextField = "Nama_Cabang";
+            comboProperties.ValueField = "Nama_Cabang";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Jabatan";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(150);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetJabatan();
+            comboProperties.TextField = "Jenis_Isi";
+            comboProperties.ValueField = "Jenis_Isi";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Departemen";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetDepartemen();
+            comboProperties.TextField = "Jenis_Isi";
+            comboProperties.ValueField = "Jenis_Isi";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Atasan";
+            column.Caption = "Atasan Utama";
+            column.Width = Unit.Pixel(200);
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AllowAutoFilter = DefaultBoolean.False;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DropDownStyle = DropDownStyle.DropDown;
+            comboProperties.DataSource = Providers.GetAtasan();
+            comboProperties.TextField = "Nama_Karyawan";
+            comboProperties.ValueField = "Nama_Karyawan";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Supervisor";
+            column.Caption = "Atasan Kedua";
+            column.Width = Unit.Pixel(200);
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DropDownStyle = DropDownStyle.DropDown;
+            comboProperties.DataSource = Providers.GetSupervisor();
+            comboProperties.TextField = "Nama_Karyawan";
+            comboProperties.ValueField = "Nama_Karyawan";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Nama_Advisor";
+            column.Caption = "Atasan Ketiga";
+            column.Width = Unit.Pixel(200);
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+
+            if (ViewData["Departemen"].ToString() == "Accounting")
+            {
+                column.Visible = true;
+            }
+            else
+            {
+                column.Visible = false;
+            }
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Tgl_Masuk";
+            column.Caption = "Tanggal Masuk";
+            column.ColumnType = MVCxGridViewColumnType.DateEdit;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.PropertiesEdit.DisplayFormatString = "dd-MM-yyyy";
+            column.Width = Unit.Pixel(125);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var dateProperties = column.PropertiesEdit as DateEditProperties;
+            dateProperties.EditFormat = EditFormat.Date;
+            dateProperties.EditFormatString = "dd-MM-yyyy";
+            dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Tempat_Lahir";
+            column.Caption = "Tempat Lahir";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Tgl_Lahir";
+            column.Caption = "Tanggal Lahir";
+            column.ColumnType = MVCxGridViewColumnType.DateEdit;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.PropertiesEdit.DisplayFormatString = "dd-MM-yyyy";
+            column.Width = Unit.Pixel(125);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var dateProperties = column.PropertiesEdit as DateEditProperties;
+            dateProperties.EditFormat = EditFormat.Date;
+            dateProperties.EditFormatString = "dd-MM-yyyy";
+            dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Provinsi";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(130);
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DropDownStyle = DropDownStyle.DropDown;
+            comboProperties.DataSource = Providers.GetProvinsi();
+            comboProperties.TextField = "Nama_Wilayah";
+            comboProperties.ValueField = "Nama_Wilayah";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Kota";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(100);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Alamat";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(300);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Agama";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetAgama();
+            comboProperties.TextField = "Jenis_Isi";
+            comboProperties.ValueField = "Jenis_Isi";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Status_Nikah";
+            column.Caption = "Status Pernikahan";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(110);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetStatus();
+            comboProperties.TextField = "Jenis_Isi";
+            comboProperties.ValueField = "Jenis_Isi";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Email";
+            column.Caption = "Email Pribadi";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(180);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Email_Perusahaan";
+            column.Caption = "Email Perusahaan";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(180);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Tgl_Resign";
+            column.Caption = "Tanggal Resign";
+            column.ColumnType = MVCxGridViewColumnType.DateEdit;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.PropertiesEdit.DisplayFormatString = "dd-MM-yyyy";
+            column.Width = Unit.Pixel(125);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var dateProperties = column.PropertiesEdit as DateEditProperties;
+            dateProperties.EditFormat = EditFormat.Date;
+            dateProperties.EditFormatString = "dd-MM-yyyy";
+            dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Status_Kerja";
+            column.Caption = "Status Kerja";
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Status_Karyawan";
+            column.Caption = "Status Karyawan";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.DataSource = Providers.GetStatusKaryawan();
+            comboProperties.TextField = "Jenis_Isi";
+            comboProperties.ValueField = "Jenis_Isi";
+            comboProperties.ValueType = typeof(string);
+        });
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "Area_Kerja";
+            column.Caption = "Area Kerja";
+            column.ColumnType = MVCxGridViewColumnType.ComboBox;
+            column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            column.Width = Unit.Pixel(110);
+            column.Settings.AutoFilterCondition = AutoFilterCondition.Contains;
+            var comboProperties = column.PropertiesEdit as ComboBoxProperties;
+            comboProperties.Items.Add("Pusat", "Pusat");
+            comboProperties.Items.Add("Cabang", "Cabang");
+            comboProperties.ValueType = typeof(string);
+        });
+    });
+}
+
+@grid.Bind(Model).GetHtml()

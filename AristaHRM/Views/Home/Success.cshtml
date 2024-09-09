@@ -1,0 +1,148 @@
+﻿@{
+    Layout = null;
+}
+
+@using System.Web.Optimization
+
+@using AristaHRM.Models
+
+@model LoginModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login Sukses</title>
+
+    @{
+        Scripts.Render("~/bundles/jquery");
+        Scripts.Render("~/bundles/jqueryui");
+        Scripts.Render("~/bundles/modernizr");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/addonbase");
+        Scripts.Render("~/bundles/angularbase");
+        Scripts.Render("~/bundles/momentbase");
+        Scripts.Render("~/bundles/pdf");
+        Scripts.Render("~/bundles/js");
+        Styles.Render("~/Content/css");
+    }
+
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+
+    <script type="text/javascript">
+        function autoRefresh() {
+            // membuka redirect halaman sekaligus menutup window pop-up
+            if (parent.window.opener === null || parent.window.opener.location === null)
+                parent.window.opener = '@Url.Action("Index", "Home")';
+
+            parent.window.opener.location = '@Url.Action("Index", "Home")';
+            window.close();
+        }
+    </script>
+</head>
+<body id="Body" onload="setInterval('autoRefresh()', 5000);">
+    <div>
+        <form id="form1" method="post">
+            <div style="padding-left:10px; padding-right:10px">
+                <br />
+                <table style="text-align:center">
+                    <tr>
+                        <td style="background-image:url('/content/images/AquaHeader.jpg'); border: 20px 20px 20px 20px solid black">
+                            <p class="tableheadercontent">Login Sukses</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: double 1px; width:600px; text-align:center">
+                            <div style="padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; border: 10px 10px 10px 10px solid blue; font: 14px Arial">
+                                <p style="text-align:left; font: 14px Arial">Anda telah berhasil melakukan proses login. </p>
+                                <p style="text-align:left; font: 14px Arial">Apabila anda tidak dialihkan secara otomatis setelah 5 detik, <br />silakan klik tombol di bawah ini untuk masuk ke halaman user.</p>
+                                <p>&nbsp;</p>
+                                <br />
+                                <br />
+                                <p style="text-align:center; margin-left:0px">
+                                    @using (Html.BeginForm("", "", FormMethod.Post))
+                                    {
+                                        if (Convert.ToInt32(Session["Email_Valid"]) == 0)
+                                        {
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRedirect";
+                                                button.Text = "Masuk";
+                                                button.UseSubmitBehavior = true;
+                                                button.ClientSideEvents.Init = "function (s, e) { s.Focus(); }";
+                                                // button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Profil", "Home") + "', '_parent'); }";
+                                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                        }
+                                        else
+                                        {
+                                            Html.DevExpress().Button(button =>
+                                            {
+                                                button.Name = "btnRedirect";
+                                                button.Text = "Masuk";
+                                                button.UseSubmitBehavior = true;
+                                                button.RouteValues = new { Controller = "Home", Action = "Index" };
+
+                                                if (Session["Return"] != null)
+                                                {
+                                                    if (!Session["Return"].Equals(String.Empty))
+                                                    {
+                                                        var url = Session["Return"].ToString().Trim();
+                                                        button.ClientSideEvents.Click = "function (s, e) { window.open('" + url + "', '_parent'); }";
+                                                    }
+                                                    else
+                                                    {
+                                                        button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    button.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                                                }
+
+                                                button.Theme = AristaHRM.Theme.SelectTheme;
+                                            }).GetHtml();
+                                        }
+                                    }   
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

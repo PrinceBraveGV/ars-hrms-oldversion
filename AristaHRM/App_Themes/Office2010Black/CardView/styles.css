@@ -1,0 +1,474 @@
+.dxcvControl_Office2010Black,
+.dxcvDisabled_Office2010Black
+{
+    border: 1px solid #484848;
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #737473;
+    color: Black;
+    cursor: default;
+}
+.dxcvDisabled_Office2010Black
+{
+    color: #c7cacf;
+}
+.dxcvControl_Office2010Black a
+{
+    color: #6289b8;
+    text-decoration: none;
+}
+.dxcvControl_Office2010Black a:hover
+{
+    text-decoration: underline;
+}
+.dxcvDisabled_Office2010Black a
+{
+    color: #c7cacf;
+}
+
+.dxcvLoadingPanelStatusBar_Office2010Black .dxlp-loadingImage,
+.dxcvLoadingPanel_Office2010Black .dxlp-loadingImage
+{
+    background-image: url('../Web/Loading.gif');
+    height: 16px;
+    width: 16px;
+}
+
+.dxcvLoadingPanel_Office2010Black
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #7C7C94;
+    border: 1px solid #9C9AB7;
+    background-color: White;
+}
+.dxcvLoadingPanel_Office2010Black td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+.dxcvLoadingPanelStatusBar_Office2010Black
+{
+    background-color: Transparent;
+}
+.dxcvLoadingPanelStatusBar_Office2010Black td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 2px;
+}
+.dxcvFilterPopupWindow_Office2010Black
+{
+    color: Black;
+    border: 1px solid #484848;
+}
+.dxcvFilterPopupItemsArea_Office2010Black
+{
+    color: Black;
+    background-color: White;
+    padding-top: 1px;
+}
+.dxcvFilterPopupButtonPanel_Office2010Black
+{
+    background-color: #717171;
+    border-top: 1px solid #6a6a6a;
+    color: white;
+}
+
+.dxcvFilterPopupItem_Office2010Black td.dxcv,
+.dxcvFilterPopupActiveItem_Office2010Black td.dxcv,
+.dxcvFilterPopupSelectedItem_Office2010Black td.dxcv
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 3px 2px 3px 3px;
+    cursor: default;
+    white-space: nowrap;
+}
+.dxcvFilterPopupActiveItem_Office2010Black
+{
+    background: #faedb6 none;
+    color: Black;
+}
+.dxcvFilterPopupSelectedItem_Office2010Black
+{
+    background: #808080 none;
+    color: White;
+}
+
+.dxcvTable_Office2010Black
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dxcvHeader_Office2010Black
+{
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 5px 6px;
+    border: 1px solid #484848;
+    background: #6d6c6e url('cvHeaderBack.png') repeat-x left top;    
+    overflow: hidden;
+    font-weight: normal;
+    text-align: left;
+}
+.dxcvHeader_Office2010Black,
+.dxcvHeader_Office2010Black table
+{
+    color: White;
+}
+.dxcvHeader_Office2010Black td
+{
+    white-space: nowrap;
+}
+.dxcvHeader_Office2010Black a
+{
+    color: White;
+    text-decoration: underline;
+}
+.dxcvHeader_Office2010Black a.dxcvCommandItem_Office2010Black
+{
+    margin: 0px 3px 0px 0px;
+    color: white;
+    text-decoration: none;
+}
+.dxcvHeader_Office2010Black a.dxcvCommandItem_Office2010Black:hover
+{
+    text-decoration: underline;
+}
+.dxcvCommandItem_Office2010Black
+{
+    vertical-align: middle;
+}
+.dxcvCustomization_Office2010Black,
+.dxcvPopupEditForm_Office2010Black
+{
+    padding: 0;
+    margin: 0;
+}
+
+.dxcvTitlePanel_Office2010Black,
+.dxcvTable_Office2010Black caption
+{
+    font-weight: normal;
+    padding: 3px 3px 5px;
+    text-align: center;
+    background: #757676 url('cvTitleBack.png') repeat-x left top;
+    color: White;
+    border-bottom: 1px solid #484848;
+}
+.dxcvStatusBar_Office2010Black
+{
+    background: #d7d8d8 none;
+    border-top: 1px solid #484848;
+}
+.dxcvStatusBar_Office2010Black tr.dxcv
+{
+    height: 20px;
+}
+.dxcvStatusBar_Office2010Black tr.dxcv > td
+{
+    padding: 4px;
+}
+
+.dxbButton_Office2010Black[class~="dxcvCommandItem_Office2010Black"],
+.dxcvEditFormTable_Office2010Black div.dxbButton_Office2010Black
+{
+    margin: 0px 2px 0px 2px;
+}
+.dxbButton_Office2010Black[class~="dxcvCommandItem_Office2010Black"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvPagerTopPanel_Office2010Black,
+.dxcvPagerBottomPanel_Office2010Black
+{
+    background: #737473 url('cvPagerPanelBack.png') repeat-x left top;
+}
+.dxcvPagerTopPanel_Office2010Black 
+{
+    border-bottom: 1px solid #484848;
+}
+.dxcvPagerBottomPanel_Office2010Black
+{
+    border-top: 1px solid #484848;
+}
+
+.dxcvFilterBar_Office2010Black
+{
+    border-top: 1px solid #484848;
+    background: #d7d8d8 none;
+}
+.dxcvFilterBar_Office2010Black a
+{
+    color: #6289b8;
+    text-decoration: underline;
+}
+.dxcvFilterBarCheckBoxCell_Office2010Black
+{
+    padding: 0 7px 0 3px;
+}
+.dxcvFilterBarImageCell_Office2010Black
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxcvFilterBarExpressionCell_Office2010Black
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxcvFilterBarClearButtonCell_Office2010Black
+{
+    padding: 5px 6px 8px;
+}
+.dxcvFilterBuilderMainArea_Office2010Black
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxcvFilterBuilderButtonArea_Office2010Black
+{
+    background: #d7d8d8 none;
+    border-top: 1px solid #adadad;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+.dxcvControl_Office2010Black .dxpLite_Office2010Black,
+.dxcvDisabled_Office2010Black .dxpLite_Office2010Black
+{
+    padding-top: 4px;
+}
+
+.dxcvControl_Office2010Black .dxcvHFSAC
+{
+    padding: 7px 0 0 6px;
+}
+.dxcvControl_Office2010Black .dxcvHFSC
+{
+    padding: 7px 0 5px;
+}
+.dxcvControl_Office2010Black .dxcvHFSC div
+{
+    height: 1px;
+    background: #484848;
+}
+.dxcvControl_Office2010Black div[id$='DXEPLPC']
+{
+    height: 39px;
+}
+
+.dxcvControl_Office2010Black .dxcvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxcvControl_Office2010Black .dxcvHFDRC
+{
+    margin: 15px;
+}
+.dxcvControl_Office2010Black .dxcvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxcvControl_Office2010Black .dxcvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxcvControl_Office2010Black .dxcvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 15px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxcvTable_Office2010Black
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxcvSearchPanel_Office2010Black
+{
+    background: #d7d8d8;
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.dxcvSearchPanel_Office2010Black > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxcvControl_Office2010Black .dxcvSearchPanel_Office2010Black .dxbButton_Office2010Black
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxcvControl_Office2010Black .dxcvSearchPanel_Office2010Black .dxbButton_Office2010Black {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxcvControl_Office2010Black .dxcvHL
+{
+    background: #ffd83a;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxcvControl_Office2010Black .dxcvSearchPanel_Office2010Black .dxbButton_Office2010Black
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxcvControl_Office2010Black .dxcvSearchPanel_Office2010Black .dxbButton_Office2010Black .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxcvCard_Office2010Black,
+.dxcvFlowCard_Office2010Black,
+.dxcvEmptyCard_Office2010Black,
+.dxcvEmptyHiddenCard_Office2010Black
+{
+    width: 250px;
+    height: 180px;
+    vertical-align: top;
+}
+.dxcvCard_Office2010Black,
+.dxcvFlowCard_Office2010Black,
+.dxcvEmptyCard_Office2010Black
+{
+    border: 1px solid #A0A0A0;
+    background-color: #E7E7E7;
+    color: #262626;
+    outline: none;
+}
+.dxcvEmptyCard_Office2010Black
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.dxcvEmptyHiddenCard_Office2010Black
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.dxcvFlowCard_Office2010Black,
+div.dxcvEmptyCard_Office2010Black
+{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+}
+.dxcvSelectedCard_Office2010Black,
+.dxcvFocusedCard_Office2010Black
+{
+    border-color: #A0A0A0;
+    outline: 3px solid #FEE085;
+}
+.dxcvFocusedCard_Office2010Black
+{
+    background-color: White;
+}
+.dxcvCardHover_Office2010Black
+{
+    border-color: #A0A0A0;
+    outline: 3px solid #FAEDB6;
+}
+
+.dxcvCard_Office2010Black .dxflCaption_Office2010Black,
+.dxcvFlowCard_Office2010Black .dxflCaption_Office2010Black
+{
+    color: #7F7F7F;
+}
+.dxcvCard_Office2010Black .dxflViewFormLayoutSys .dxflCommandItemSys,
+.dxcvFlowCard_Office2010Black .dxflViewFormLayoutSys .dxflCommandItemSys
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dxcvHeaderPanel_Office2010Black
+{
+    background-color: #d7d8d8;
+    padding: 2px 20px 8px 20px;
+}
+div.dxcvHeader_Office2010Black
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.dxcvSummaryPanel_Office2010Black
+{
+    background-color: #e3e4e4;
+    border-top: 1px solid #9C9AB7;
+    padding: 8px 21px;
+}
+.dxcvSummaryItem_Office2010Black
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+.dxcvControl_Office2010Black .dxcvSeparator_Office2010Black,
+.dxcvControl_Office2010Black .dxcvSeparator_Office2010Black div
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.dxcvControl_Office2010Black td.dxcvBatchEditCell_Office2010Black
+{
+    padding: 0;
+    outline-width: 0!important;
+}
+.dxcvControl_Office2010Black .dxcvBatchEditModifiedCell_Office2010Black
+{
+    background: #d7f9c7;
+    outline-style: solid;
+    outline-color: #d7f9c7;
+    outline-width: 3px 0 2px 0;
+}
+.dxcvControl_Office2010Black .dxcvErrorCell_Office2010Black
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxcvControl_Office2010Black .dxcvErrorCell_Office2010Black img
+{
+    margin: -3px 0;
+}
+.dxcvStatusBar_Office2010Black .dxbButton_Office2010Black
+{
+    margin-right: 10px;
+}
+.dxcvControl_Office2010Black td.dxcvBatchEditCell_Office2010Black .dxichCellSys 
+{
+    padding-left: 0;
+}
+.dxcvControl_Office2010Black .dxcvEMBC 
+{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+}
+.dxcvCardError_Office2010Black
+{
+    background-color: #d7d8d8;	
+    border-top: 1px solid #A0A0A0;
+    color: #BA1717;
+    padding: 6px 13px;
+}

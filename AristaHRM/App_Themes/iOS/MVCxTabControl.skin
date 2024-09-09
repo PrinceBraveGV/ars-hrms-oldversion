@@ -1,0 +1,13 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc5.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxTabControl runat="server" CssFilePath="~/App_Themes/iOS/{0}/styles.css" SpriteCssFilePath="~/App_Themes/iOS/{0}/sprite.css" CssPostfix="iOS">
+</dxmvc:MVCxTabControl>
+
+<dxmvc:MVCxTabControl runat="server"  CssFilePath="~/App_Themes/iOS/{0}/styles.css"
+    SpriteCssFilePath="~/App_Themes/iOS/{0}/sprite.css" CssPostfix="TabBar" SkinID="TabBar"
+    Width="100%" TabAlign="Center" TabPosition="Bottom" >
+    <TabStyle HorizontalAlign="Center">
+    </TabStyle>
+</dxmvc:MVCxTabControl>

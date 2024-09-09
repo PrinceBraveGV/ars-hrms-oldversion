@@ -1,0 +1,18 @@
+﻿@using AristaHRM.Models
+
+@model KaryawanModel
+
+@Html.DevExpress().ComboBoxFor(m => m.Nama_Atasan, combosettings =>
+{
+    combosettings.Name = "Nama_Supervisor";
+    combosettings.CallbackRouteValues = new { Controller = "Home", Action = "SupervisorPartial" };
+    combosettings.Properties.NullText = "-- Pilih Atasan Kedua --";
+    combosettings.Properties.HelpText = "Isi dengan nama atasan kedua saat ini (bila ada).";
+    combosettings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combosettings.Properties.TextField = "Nama_Supervisor";
+    combosettings.Properties.ValueField = "Nama_Supervisor";
+    combosettings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    combosettings.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Cabang'] = Cabang.GetValue(); e.customArgs['Departemen'] = Departemen.GetValue(); }";
+    combosettings.Width = Unit.Pixel(300);
+    combosettings.Theme = AristaHRM.Theme.SelectTheme;
+}).BindList(Providers.GetSupervisorByDepartemen(Model.Departemen)).Bind(Model.Nama_Supervisor).GetHtml()

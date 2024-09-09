@@ -1,0 +1,71 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Testing Converter</title>
+    <link href="@Url.Content("~/Content/jquery-ui.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/jquery.calendars.picker.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-3.1.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.12.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.plus.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.plugin.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.islamic.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.calendars.picker.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".dategregorian").datepicker({
+                dateFormat: 'dd/mm/yy'
+            });
+
+            $("#dateGregorian").change(function (e) {
+                // e.preventDefault();
+                var value = $(this).val();
+                $.ajax({
+                    cache: false,
+                    url: '@Url.Action("ConvertToHijri", "Settings")',
+                    data: { date: value },
+                    success: function (result) {
+                        $("#dateHijri").val(result);
+                    }
+                });
+            })
+
+            $("#dateHijri").calendarsPicker({
+                calendar: $.calendars.instance('Islamic', 'ar'),
+                pickerClass: 'datehijri',
+                dateFormat: 'dd/mm/yyyy'
+            });
+
+            $("#dateHijri").change(function (e) {
+                // e.preventDefault();
+                var value = $(this).val();
+                $.ajax({
+                    cache: false,
+                    url: '@Url.Action("ConvertToGregorian", "Settings")',
+                    data: { date: value },
+                    success: function (result) {
+                        $("#dateGregorian").val(result);
+                    }
+                });
+            })
+        });
+    </script>
+</head>
+<body>
+    <div>
+    <p>Kalender Masehi: </p>
+    <p>@Html.TextBox("dategregorian", "", new { @id = "dateGregorian", @class = "dategregorian" })</p>
+
+    <br />
+    <p>Kalender Hijriah: </p>
+    <p>@Html.TextBox("datehijri", "", new { @id = "dateHijri", @class = "datehijri" })</p>
+
+    </div>
+</body>
+</html>

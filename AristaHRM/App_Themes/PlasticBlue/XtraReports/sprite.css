@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_PlasticBlue,
+.dxXtraReports_BtnFirstPageDisabled_PlasticBlue,
+.dxXtraReports_BtnLastPage_PlasticBlue,
+.dxXtraReports_BtnLastPageDisabled_PlasticBlue,
+.dxXtraReports_BtnNextPage_PlasticBlue,
+.dxXtraReports_BtnNextPageDisabled_PlasticBlue,
+.dxXtraReports_BtnPrevPage_PlasticBlue,
+.dxXtraReports_BtnPrevPageDisabled_PlasticBlue,
+.dxXtraReports_BtnPrint_PlasticBlue,
+.dxXtraReports_BtnPrintDisabled_PlasticBlue,
+.dxXtraReports_BtnPrintPage_PlasticBlue,
+.dxXtraReports_BtnPrintPageDisabled_PlasticBlue,
+.dxXtraReports_BtnSave_PlasticBlue,
+.dxXtraReports_BtnSaveDisabled_PlasticBlue,
+.dxXtraReports_BtnSaveWindow_PlasticBlue,
+.dxXtraReports_BtnSaveWindowDisabled_PlasticBlue,
+.dxXtraReports_BtnSearch_PlasticBlue,
+.dxXtraReports_BtnSearchDisabled_PlasticBlue,
+.dxXtraReports_PageBorder_blc_PlasticBlue,
+.dxXtraReports_PageBorder_brc_PlasticBlue,
+.dxXtraReports_PageBorder_tlc_PlasticBlue,
+.dxXtraReports_PageBorder_trc_PlasticBlue
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_PlasticBlue
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_PlasticBlue
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_PlasticBlue
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_PlasticBlue
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_PlasticBlue
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_PlasticBlue
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_PlasticBlue
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_PlasticBlue
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_PlasticBlue
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_PlasticBlue
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_PlasticBlue
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_PlasticBlue
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_PlasticBlue
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_PlasticBlue
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_PlasticBlue
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_PlasticBlue
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_PlasticBlue
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_PlasticBlue
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_PlasticBlue
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_PlasticBlue
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_PlasticBlue
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_PlasticBlue
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_PlasticBlue,
+.dxXtraReports_PageBorder_l_PlasticBlue,
+.dxXtraReports_PageBorder_r_PlasticBlue,
+.dxXtraReports_PageBorder_b_PlasticBlue {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_PlasticBlue {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_PlasticBlue {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_PlasticBlue {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_PlasticBlue {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

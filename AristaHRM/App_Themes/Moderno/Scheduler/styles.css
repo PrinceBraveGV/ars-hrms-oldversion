@@ -1,0 +1,536 @@
+
+.dxscControl_Moderno
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #2B2B2B;
+
+    background: #d1d1d1;
+    border: solid 1px #d1d1d1;
+}
+.dxscControl_Moderno .dxscAppointmentForm {
+    width: 740px !important;
+}
+.dxscControl_Moderno .dxscRangeControl .dxscRCEndByDateCell {
+    width: 146px;
+}
+.dxscLoadingPanel_Moderno
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #2B2B2B;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscLoadingPanel_Moderno td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 15px 34px 15px 20px;
+}
+.dxscLoadingPanel_Moderno .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Headers */
+.dxscDateHeader_Moderno, 
+.dxscAlternateDateHeader_Moderno,
+.dxscDayHeader_Moderno,
+.dxscDateCellHeader_Moderno,
+.dxscTodayCellHeader_Moderno,
+.dxscTimelineDateHeader_Moderno,
+.dxscHorizontalResourceHeader_Moderno,
+.dxscVerticalResourceHeader_Moderno
+{    
+    color: #7e7e7e;
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_Moderno,
+.dxscAlternateDateHeader_Moderno
+{
+    background: #1279c0;    
+    color: White;
+}
+.dxscDayHeader_Moderno
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_Moderno
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_Moderno
+{    
+    border-top-width: 1px;
+    background: #1279c0;
+    color: White;
+}
+.dxscTimelineDateHeader_Moderno
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_Moderno
+{
+    border-width: 1px 1px 1px 0;
+    background: #fafafa;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_Moderno
+{
+    border-width: 1px 1px 0 0;
+    background: #fafafa;
+    white-space: normal;
+}
+.dxscSelectionBar_Moderno 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_Moderno, 
+.dxscRightTopCorner_Moderno
+{
+    background: #fafafa;
+    width: 1px;
+    border-style: solid;
+    border-color: #d1d1d1;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_Moderno
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.79em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_Moderno, 
+.dxscGroupSeparatorHorizontal_Moderno
+{
+    background: white;
+    border: solid 1px #d1d1d1;
+}
+
+.dxscGroupSeparatorVertical_Moderno
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_Moderno
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_Moderno
+{
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_Moderno 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_Moderno
+{
+    border: solid 1px #d1d1d1;
+}
+.dxscTimelineCellBody_Moderno
+{
+    height: 300px;
+    border-color: #d1d1d1;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_Moderno
+{
+    color: black;
+    font-size: 0.79em;
+    border: solid 1px #d1d1d1;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_Moderno
+{	
+    border: solid 1px #d1d1d1;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_Moderno
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_Moderno
+{
+    font-size: 0.79em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_Moderno, .dxscTimeRulerMinuteItem_Moderno
+{
+    color: #283b56;
+    background: #fafafa;
+    border: solid 1px #d1d1d1;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_Moderno
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.21em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_Moderno
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.79em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_Moderno
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_Moderno
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_Moderno
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_Moderno
+{
+	border-right: 1px solid #d1d1d1;
+}
+.dxscToolbar_Moderno
+{
+    border: none;
+    background: #fafafa;
+    padding: 0px 14px;    
+    height: 42px;
+}
+.dxscViewSelector_Moderno
+{    
+    border: none;
+    padding: 0px 7px;   
+    background: #fafafa;
+    height: 42px;
+}
+.dxscResourceNavigator_Moderno 
+{    
+    background: white;
+    padding: 7px 10px;
+    border: solid 1px #d1d1d1;
+}
+.dxscViewVisibleInterval_Moderno
+{    
+    color: #7e7e7e;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_Moderno
+{
+    background: #fafafa;
+    border: solid 2px black;
+    padding: 0;
+}
+.dxscControlAreaForm_Moderno
+{
+    font-size: 1.14em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxpcLite_Moderno .dxscButtonTable,
+.dxpcLite_Moderno .dxscAppointmentForm
+{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.dxscErrorInfo_Moderno
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewSelectorButton_Moderno
+{
+    padding: 5px 14px 6px;
+}
+.dxscViewSelectorButtonPressed_Moderno
+{
+	background: #dcdcdc;
+	color: #2B2B2B;
+}
+.dxscViewSelectorButtonHover_Moderno
+{
+	background: #1279c0;
+	color: white;
+}
+.dxscViewSelectorButtonChecked_Moderno
+{
+	background: #dcdcdc;
+	color: #2B2B2B;
+}
+.dxscViewNavigatorButton_Moderno
+{    
+    padding: 4px 7px;
+	margin: 0 1px;
+	border: 1px solid transparent;
+}
+
+.dxscViewNavigatorGotoDateButton_Moderno 
+{
+    padding: 10px 7px !important;
+	margin: 0 1px;
+	border: 1px solid transparent!important;
+}
+
+.dxscViewNavigatorButtonHover_Moderno,
+.dxscViewNavigatorGotoDateButtonHover_Moderno
+{
+	border: 1px solid #0a67a8!important;
+	background: #1d85cd;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -moz-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -o-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: linear-gradient(to bottom, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	color: white;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscViewNavigatorButton_Moderno.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonHover_Moderno.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonPressed_Moderno.dxscViewNavigatorGotoTodayButton
+{
+    border: 0!important;
+    background: none;
+    color: #045cad;
+    padding: 3px 7px 5px;
+
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.dxscViewNavigatorButtonHover_Moderno.dxscViewNavigatorGotoTodayButton span
+{
+    text-decoration: underline!important;
+}
+.dxscResourceNavigatorButton_Moderno,
+.dxscDVTopMoreButton_Moderno,
+.dxscDVBottomMoreButton_Moderno,
+.dxscNavigationButton_Moderno
+{
+	border: 1px solid #c3c3c3;
+	border-radius: 4px;
+	padding: 9px 7px;
+	background: #eaeaea;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0VBRUFFQSIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjREZERkRGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(223,223,223,1) 100%);
+	background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(223,223,223,1) 100%);
+	background: -o-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(223,223,223,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(223,223,223,1) 100%);
+	background: linear-gradient(to bottom, rgba(234,234,234,1) 0%, rgba(223,223,223,1) 100%);
+	-webkit-border-radius: 4px;
+
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35), 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscResourceNavigatorButtonHover_Moderno,
+.dxscDVTopMoreButtonHover_Moderno,
+.dxscDVBottomMoreButtonHover_Moderno,
+.dxscNavigationButtonHover_Moderno
+{
+	border: 1px solid #0a67a8;
+	background: #1d85cd;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFEODVDRCIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDg2Q0IzIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -moz-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -o-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	background: linear-gradient(to bottom, rgba(29,133,205,1) 0%, rgba(8,108,179,1) 100%);
+	color: white;
+}
+.dxscResourceNavigatorButtonPressed_Moderno,
+.dxscDVTopMoreButtonPressed_Moderno,
+.dxscDVBottomMoreButtonPressed_Moderno,
+.dxscNavigationButtonPressed_Moderno
+{
+	color: #a7a7a7;
+	background: #dcdcdc;
+	border: 1px solid #cccccc;
+
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.1);
+}
+.dxscResourceNavigatorDisabled_Moderno,
+.dxscNavigationDisabled_Moderno
+{
+	background: #e7e7e7;
+	color: #C3C3C3;
+	border-color: #d3d3d3;
+	cursor: default;
+}
+
+.dxscDVBottomMoreButton_Moderno
+{
+	padding: 7px 7px 6px;
+}
+.dxscDVTopMoreButton_Moderno
+{
+	padding: 6px 7px 7px;
+}
+.dxscNavigationButton_Moderno
+{
+	padding: 7px 6px;
+}
+.dxscSmartTagButton_Moderno 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_Moderno
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_Moderno,
+.dxscNoBorderButtonHover_Moderno
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_Moderno 
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_Moderno
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_Moderno
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_Moderno
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_Moderno
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_Moderno
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_Moderno
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_Moderno 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_Moderno 
+{
+    top:-2px;
+    height:13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_Moderno 
+{
+    position:absolute;
+    width:1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.dxscTimeMarkerLineH_Moderno
+{
+    position:absolute;
+    top:-2px;
+    height:1px;
+    font-size: 0;
+    border: 1px dashed #1279c0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+

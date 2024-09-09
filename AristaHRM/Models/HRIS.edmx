@@ -1,0 +1,2452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="HRISModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TM_Cabang">
+          <Key>
+            <PropertyRef Name="Kode_Cabang" />
+          </Key>
+          <Property Name="Kode_Cabang" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Kode_Singkat" Type="nchar" MaxLength="10" />
+          <Property Name="Nama_Perusahaan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Lokasi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status_Aktif" Type="nchar" MaxLength="10" />
+          <Property Name="Kepala_Cabang" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TM_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Masuk" Type="datetime" />
+          <Property Name="Periode_Awal" Type="datetime" />
+          <Property Name="Periode_Akhir" Type="datetime" />
+          <Property Name="Jatah_Cuti" Type="int" />
+          <Property Name="Total_Cuti" Type="int" />
+          <Property Name="Cuti_Pribadi" Type="int" />
+          <Property Name="Cuti_Khusus" Type="int" />
+          <Property Name="Cuti_Massal" Type="int" />
+          <Property Name="Cuti_Hangus" Type="int" />
+          <Property Name="Tahun_Hangus" Type="int" />
+          <Property Name="Cuti_Sekarang" Type="int" />
+          <Property Name="Sisa_Cuti" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_Cuti_Bawahan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Advisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Masuk" Type="datetime" />
+          <Property Name="Periode_Awal" Type="datetime" />
+          <Property Name="Periode_Akhir" Type="datetime" />
+          <Property Name="Jatah_Cuti" Type="int" />
+          <Property Name="Total_Cuti" Type="int" />
+          <Property Name="Cuti_Pribadi" Type="int" />
+          <Property Name="Cuti_Khusus" Type="int" />
+          <Property Name="Cuti_Massal" Type="int" />
+          <Property Name="Cuti_Hangus" Type="int" />
+          <Property Name="Tahun_Hangus" Type="int" />
+          <Property Name="Cuti_Sekarang" Type="int" />
+          <Property Name="Sisa_Cuti" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_Cuti_Hangus">
+          <Key>
+            <PropertyRef Name="ID_Catat" />
+          </Key>
+          <Property Name="ID_Catat" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jumlah_Hangus" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_Default">
+          <Key>
+            <PropertyRef Name="ID_Jenis" />
+          </Key>
+          <Property Name="ID_Jenis" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Kode_Jenis" Type="nvarchar" MaxLength="50" />
+          <Property Name="ID_Isi" Type="nvarchar" MaxLength="10" />
+          <Property Name="Jenis_Isi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jumlah_Hari" Type="int" />
+          <Property Name="Tambahan" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_Departemen">
+          <Key>
+            <PropertyRef Name="ID_Dept" />
+          </Key>
+          <Property Name="ID_Dept" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nama_Dept" Type="nvarchar(max)" />
+          <Property Name="Singkatan" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TM_File_Manager">
+          <Key>
+            <PropertyRef Name="FileID" />
+          </Key>
+          <Property Name="FileID" Type="int" Nullable="false" />
+          <Property Name="ParentID" Type="int" />
+          <Property Name="NamaFile" Type="nvarchar(max)" />
+          <Property Name="IsFolder" Type="bit" />
+          <Property Name="Data" Type="varbinary(max)" />
+          <Property Name="WriteTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TM_Kalender">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nama_Event" Type="nvarchar(max)" />
+          <Property Name="Jenis_Event" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_Mulai" Type="datetime" />
+          <Property Name="Tgl_Selesai" Type="datetime" />
+          <Property Name="Harian" Type="bit" />
+        </EntityType>
+        <EntityType Name="TM_Karyawan">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK_Temp" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar(max)" />
+          <Property Name="Jenis_Kelamin" Type="nvarchar" MaxLength="10" />
+          <Property Name="Tempat_Lahir" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_Lahir" Type="date" />
+          <Property Name="Provinsi" Type="nvarchar(max)" />
+          <Property Name="Kota" Type="nvarchar" MaxLength="50" />
+          <Property Name="Alamat" Type="nvarchar(max)" />
+          <Property Name="Agama" Type="nvarchar" MaxLength="10" />
+          <Property Name="Status_Nikah" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar(max)" />
+          <Property Name="Email_Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="NIK_Atasan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="NIK_Supervisor" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="NIK_Advisor" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Advisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Masuk" Type="datetime" />
+          <Property Name="Tgl_Resign" Type="datetime" />
+          <Property Name="Status_Karyawan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status_Kerja" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email_Valid" Type="int" />
+          <Property Name="Pembuat" Type="nvarchar(max)" />
+          <Property Name="Privilege" Type="nvarchar" MaxLength="50" />
+          <Property Name="Last_Login" Type="datetime" />
+          <Property Name="Last_Session" Type="datetime" />
+          <Property Name="Aktif_Login" Type="bit" Nullable="false" />
+          <Property Name="Area_Kerja" Type="nvarchar" MaxLength="50" />
+          <Property Name="Notes" Type="nvarchar(max)" />
+          <Property Name="CreatedBy" Type="nvarchar(max)" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar(max)" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="NPWP" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status_WP" Type="nvarchar" MaxLength="10" />
+          <Property Name="NoBPJSTK" Type="nvarchar" MaxLength="50" />
+          <Property Name="NoBPJSKS" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_Karyawan_Resign">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Resign" Type="datetime" />
+          <Property Name="Alasan" Type="nvarchar(max)" />
+          <Property Name="Status_Resign" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_List_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tgl_Cuti" Type="datetime" />
+          <Property Name="Jenis_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cuti_Massal" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_List_Libur">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Tgl_Libur" Type="date" />
+          <Property Name="Keterangan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Libur_Weekend" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_List_PMK">
+          <Key>
+            <PropertyRef Name="ID_PMK" />
+          </Key>
+          <Property Name="ID_PMK" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="No_PMK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_PMK" Type="datetime" />
+          <Property Name="Tgl_Efektif" Type="datetime" />
+          <Property Name="Jenis_PMK" Type="nvarchar(max)" />
+          <Property Name="NIK_Asal" Type="nvarchar" MaxLength="50" />
+          <Property Name="Perusahaan_Asal" Type="nvarchar(max)" />
+          <Property Name="Cabang_Asal" Type="nvarchar(max)" />
+          <Property Name="Jabatan_Asal" Type="nvarchar(max)" />
+          <Property Name="Departemen_Asal" Type="nvarchar(max)" />
+          <Property Name="Status_Asal" Type="nvarchar" MaxLength="50" />
+          <Property Name="NIK_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="Perusahaan_Baru" Type="nvarchar(max)" />
+          <Property Name="Cabang_Baru" Type="nvarchar(max)" />
+          <Property Name="Jabatan_Baru" Type="nvarchar(max)" />
+          <Property Name="Departemen_Baru" Type="nvarchar(max)" />
+          <Property Name="Status_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="Alasan" Type="nvarchar(max)" />
+          <Property Name="Notes" Type="nvarchar(max)" />
+          <Property Name="Created_By" Type="nvarchar(max)" />
+          <Property Name="Created_Date" Type="datetime" />
+          <Property Name="Modified_By" Type="nvarchar(max)" />
+          <Property Name="Modified_Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TM_Mutasi">
+          <Key>
+            <PropertyRef Name="ID_Mutasi" />
+          </Key>
+          <Property Name="ID_Mutasi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Perusahaan_Baru" Type="nvarchar(max)" />
+          <Property Name="Cabang_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="NIK_Atasan_Baru" Type="nvarchar" MaxLength="50" />
+          <Property Name="Atasan_Baru" Type="nvarchar(max)" />
+          <Property Name="Supervisor_Baru" Type="nvarchar(max)" />
+          <Property Name="Atasan_Ganti" Type="nvarchar(max)" />
+          <Property Name="Tgl_Mutasi" Type="datetime" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+          <Property Name="Atasan_Asal" Type="nvarchar(max)" />
+          <Property Name="Staf_Ganti" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TM_Pengumuman">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Jenis_Anno" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_Anno" Type="datetime" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TM_Perusahaan">
+          <Key>
+            <PropertyRef Name="Kode_Perusahaan" />
+          </Key>
+          <Property Name="Kode_Perusahaan" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nama_Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Kode_Singkat" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_Pesan">
+          <Key>
+            <PropertyRef Name="ID_Pesan" />
+          </Key>
+          <Property Name="ID_Pesan" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Subjek" Type="nvarchar" MaxLength="50" />
+          <Property Name="Isi_Pesan" Type="nvarchar(max)" />
+          <Property Name="Tgl_Kirim" Type="datetime" />
+          <Property Name="Tanggapan" Type="nvarchar(max)" />
+          <Property Name="Alasan" Type="nvarchar(max)" />
+          <Property Name="Tgl_Jawab" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Jenis_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_Pengajuan" Type="datetime" />
+          <Property Name="Tgl_Setuju" Type="datetime" />
+          <Property Name="Tgl_Mulai" Type="datetime" />
+          <Property Name="Tgl_Selesai" Type="datetime" />
+          <Property Name="Masa_Cuti" Type="int" />
+          <Property Name="Keperluan" Type="nvarchar(max)" />
+          <Property Name="Pemberi" Type="nvarchar(max)" />
+          <Property Name="Approved_By" Type="nvarchar(max)" />
+          <Property Name="Status_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+          <Property Name="Tahun_Cuti" Type="int" />
+          <Property Name="Alasan" Type="nvarchar(max)" />
+          <Property Name="Batal" Type="int" />
+          <Property Name="Alasan_Batal" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar(max)" />
+          <Property Name="Atasan" Type="nvarchar(max)" />
+          <Property Name="User_Login" Type="nvarchar(max)" />
+          <Property Name="CreatedBy" Type="nvarchar(max)" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar(max)" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat_Pengajuan">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Bulan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jumlah_Cuti" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+          <Property Name="Jenis_Cuti" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat_User">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Bulan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jumlah_Cuti" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+          <Property Name="Jenis_Cuti" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TM_Sisa_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Sisa" />
+          </Key>
+          <Property Name="ID_Sisa" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Sisa_Cuti" Type="int" />
+          <Property Name="Tahun_Cuti" Type="int" />
+        </EntityType>
+        <EntityType Name="TM_StatusWP">
+          <Key>
+            <PropertyRef Name="StatusID" />
+          </Key>
+          <Property Name="StatusID" Type="int" Nullable="false" />
+          <Property Name="KodeStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="StatusWP" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TM_Wilayah">
+          <Key>
+            <PropertyRef Name="ID_Wilayah" />
+          </Key>
+          <Property Name="ID_Wilayah" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Jenis_Wilayah" Type="nvarchar(max)" />
+          <Property Name="Nama_Wilayah" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TT_Approval_Khusus">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Pengajuan" Type="datetime" />
+          <Property Name="Tgl_Setuju" Type="datetime" />
+          <Property Name="Tgl_Mulai" Type="datetime" />
+          <Property Name="Tgl_Selesai" Type="datetime" />
+          <Property Name="Masa_Cuti" Type="int" />
+          <Property Name="Keperluan" Type="nvarchar(max)" />
+          <Property Name="Pemberi" Type="nvarchar(max)" />
+          <Property Name="Status_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+          <Property Name="Alasan" Type="nvarchar" MaxLength="50" />
+          <Property Name="User_Login" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TT_Approval_Tahunan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Tgl_Pengajuan" Type="datetime" />
+          <Property Name="Tgl_Setuju" Type="datetime" />
+          <Property Name="Tgl_Mulai" Type="datetime" />
+          <Property Name="Tgl_Selesai" Type="datetime" />
+          <Property Name="Masa_Cuti" Type="int" />
+          <Property Name="Keperluan" Type="nvarchar(max)" />
+          <Property Name="Pemberi" Type="nvarchar(max)" />
+          <Property Name="Status_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+          <Property Name="Alasan" Type="nvarchar" MaxLength="50" />
+          <Property Name="User_Login" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="TT_Jumlah_Cuti">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Jumlah_Pribadi" Type="int" />
+          <Property Name="Jumlah_Khusus" Type="int" />
+          <Property Name="Jumlah_Massal" Type="int" />
+          <Property Name="Jumlah_Hangus" Type="int" />
+          <Property Name="Tahun_Hangus" Type="int" />
+          <Property Name="Jumlah_Sisa" Type="int" />
+        </EntityType>
+        <EntityType Name="TT_Pengajuan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NIK" Type="nvarchar" MaxLength="50" />
+          <Property Name="Nama_Karyawan" Type="nvarchar(max)" />
+          <Property Name="Jenis_Kelamin" Type="nchar" MaxLength="10" />
+          <Property Name="Agama" Type="nchar" MaxLength="10" />
+          <Property Name="Status_Nikah" Type="nvarchar" MaxLength="50" />
+          <Property Name="Perusahaan" Type="nvarchar(max)" />
+          <Property Name="Cabang" Type="nvarchar" MaxLength="50" />
+          <Property Name="Jabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departemen" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tgl_Masuk" Type="datetime" />
+          <Property Name="Nama_Atasan" Type="nvarchar(max)" />
+          <Property Name="Nama_Supervisor" Type="nvarchar(max)" />
+          <Property Name="Jenis_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keperluan" Type="nvarchar(max)" />
+          <Property Name="Tgl_Pengajuan" Type="datetime" />
+          <Property Name="Tgl_Setuju" Type="datetime" />
+          <Property Name="Tgl_Mulai" Type="datetime" />
+          <Property Name="Tgl_Selesai" Type="datetime" />
+          <Property Name="Masa_Cuti" Type="int" />
+          <Property Name="Pemberi" Type="nvarchar(max)" />
+          <Property Name="Status_Cuti" Type="nvarchar" MaxLength="50" />
+          <Property Name="Keterangan" Type="nvarchar(max)" />
+          <Property Name="Lokasi" Type="nvarchar(max)" />
+          <Property Name="Nomor_Kontak" Type="nvarchar" MaxLength="50" />
+          <Property Name="User_Login" Type="nvarchar(max)" />
+        </EntityType>
+        <Function Name="SM_Cabang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Kode_Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Perusahaan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Kode_Singkat" Type="nchar" Mode="In" />
+          <Parameter Name="Lokasi" Type="nvarchar" Mode="In" />
+          <Parameter Name="Status_Aktif" Type="nchar" Mode="In" />
+          <Parameter Name="Kepala_Cabang" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SM_Karyawan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK_Temp" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jenis_Kelamin" Type="nchar" Mode="In" />
+          <Parameter Name="Tempat_Lahir" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Lahir" Type="date" Mode="In" />
+          <Parameter Name="Provinsi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Kota" Type="nvarchar" Mode="In" />
+          <Parameter Name="Alamat" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Agama" Type="nchar" Mode="In" />
+          <Parameter Name="Status_Nikah" Type="nvarchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Email_Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK_Atasan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="NIK_Supervisor" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Supervisor" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="NIK_Advisor" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Advisor" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Status_Karyawan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Masuk" Type="date" Mode="In" />
+          <Parameter Name="Tgl_Resign" Type="date" Mode="In" />
+          <Parameter Name="Pembuat" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Privilege" Type="nvarchar" Mode="In" />
+          <Parameter Name="Notes" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Area_Kerja" Type="nvarchar" Mode="In" />
+          <Parameter Name="NPWP" Type="nvarchar" Mode="In" />
+          <Parameter Name="Status_WP" Type="nvarchar" Mode="In" />
+          <Parameter Name="NoBPJSKS" Type="nvarchar" Mode="In" />
+          <Parameter Name="NoBPJSTK" Type="nvarchar" Mode="In" />
+          <Parameter Name="CreatedBy" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+          <Parameter Name="ModifiedBy" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="ModifiedDate" Type="datetime" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK_Lama" Type="varchar" Mode="In" />
+          <Parameter Name="Email_Valid" Type="int" Mode="In" />
+          <Parameter Name="Aktif_Login" Type="bit" Mode="In" />
+          <Parameter Name="Last_Login" Type="date" Mode="In" />
+          <Parameter Name="Last_Session" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="SM_List_Cuti" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Daftar" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Cuti" Type="datetime" Mode="In" />
+          <Parameter Name="Jenis_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Cuti_Massal" Type="int" Mode="In" />
+          <Parameter Name="Tgl_CM" Type="datetime" Mode="In" />
+          <Parameter Name="Hari_CM" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SM_List_Libur" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Daftar" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Libur" Type="datetime" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Libur_Weekend" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SM_Perusahaan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Kode_Perusahaan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Kode_Singkat" Type="nvarchar" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SM_Riwayat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Supervisor" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jenis_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Pengajuan" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Keperluan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Pemberi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Status_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tahun_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Batal" Type="int" Mode="In" />
+          <Parameter Name="Alasan_Batal" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_ApproveKhusus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tgl_Pengajuan" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Setuju" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Masa_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Pemberi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Status_Cuti" Type="nchar" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Alasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jenis_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Approved_By" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jumlah_Khusus" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_ApproveTahunan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tgl_Pengajuan" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Setuju" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Masa_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Pemberi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Status_Cuti" Type="nchar" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Alasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jenis_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Approved_By" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jumlah_Tahunan" Type="int" Mode="In" />
+          <Parameter Name="Jumlah_Massal" Type="int" Mode="In" />
+          <Parameter Name="Sisa_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_Hitung_Cuti_Hangus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Supervisor" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tgl_Masuk" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Akhir" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Resign" Type="datetime" Mode="In" />
+          <Parameter Name="Temp1" Type="varchar" Mode="In" />
+          <Parameter Name="Temp2" Type="int" Mode="In" />
+          <Parameter Name="Temp3" Type="int" Mode="In" />
+          <Parameter Name="Temp4" Type="int" Mode="In" />
+          <Parameter Name="Temp5" Type="int" Mode="In" />
+          <Parameter Name="Jatah_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Total_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Periode1" Type="int" Mode="In" />
+          <Parameter Name="Periode2" Type="int" Mode="In" />
+          <Parameter Name="Cuti_Pribadi" Type="int" Mode="In" />
+          <Parameter Name="Cuti_Khusus" Type="int" Mode="In" />
+          <Parameter Name="Cuti_Massal" Type="int" Mode="In" />
+        </Function>
+        <Function Name="SP_Hitung_Cuti_Tahunan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Advisor" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tgl_Masuk" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Akhir" Type="datetime" Mode="In" />
+          <Parameter Name="Temp1" Type="varchar" Mode="In" />
+          <Parameter Name="Temp5" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_Masa_Cuti" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Hari_Per_Pekan" Type="int" Mode="In" />
+          <Parameter Name="Jumlah_Hari" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="SP_Masa_Cuti_Cabang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Hari_Per_Pekan" Type="int" Mode="In" />
+          <Parameter Name="Jumlah_Hari" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="SP_Pengajuan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="NIK" Type="nvarchar" Mode="In" />
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jenis_Kelamin" Type="nchar" Mode="In" />
+          <Parameter Name="Agama" Type="nchar" Mode="In" />
+          <Parameter Name="Status_Nikah" Type="nvarchar" Mode="In" />
+          <Parameter Name="Perusahaan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Cabang" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jabatan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Departemen" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Masuk" Type="date" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Supervisor" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Jenis_Cuti" Type="nvarchar" Mode="In" />
+          <Parameter Name="Keperluan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tgl_Pengajuan" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Setuju" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Mulai" Type="datetime" Mode="In" />
+          <Parameter Name="Tgl_Selesai" Type="datetime" Mode="In" />
+          <Parameter Name="Masa_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Pemberi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Status_Cuti" Type="nchar" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Alasan" Type="nvarchar" Mode="In" />
+          <Parameter Name="Lokasi" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nomor_Kontak" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tahun_Cuti" Type="int" Mode="In" />
+          <Parameter Name="User_Login" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_Pengumuman" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ID_Daftar" Type="nvarchar" Mode="In" />
+          <Parameter Name="Jenis_Anno" Type="nvarchar" Mode="In" />
+          <Parameter Name="Tgl_Anno" Type="datetime" Mode="In" />
+          <Parameter Name="Keterangan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_Riwayat_Pengajuan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Tahun_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Total_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_Riwayat_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Nama_Karyawan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Nama_Atasan" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Tahun_Cuti" Type="int" Mode="In" />
+          <Parameter Name="Selector" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="HRISModelStoreContainer">
+          <EntitySet Name="TM_Cabang" EntityType="Self.TM_Cabang" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Cuti" EntityType="Self.TM_Cuti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Cuti_Bawahan" EntityType="Self.TM_Cuti_Bawahan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Cuti_Hangus" EntityType="Self.TM_Cuti_Hangus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Default" EntityType="Self.TM_Default" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Departemen" EntityType="Self.TM_Departemen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_File_Manager" EntityType="Self.TM_File_Manager" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Kalender" EntityType="Self.TM_Kalender" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Karyawan" EntityType="Self.TM_Karyawan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Karyawan_Resign" EntityType="Self.TM_Karyawan_Resign" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_List_Cuti" EntityType="Self.TM_List_Cuti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_List_Libur" EntityType="Self.TM_List_Libur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_List_PMK" EntityType="Self.TM_List_PMK" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Mutasi" EntityType="Self.TM_Mutasi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Pengumuman" EntityType="Self.TM_Pengumuman" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Perusahaan" EntityType="Self.TM_Perusahaan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Pesan" EntityType="Self.TM_Pesan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Riwayat" EntityType="Self.TM_Riwayat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Riwayat_Pengajuan" EntityType="Self.TM_Riwayat_Pengajuan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Riwayat_User" EntityType="Self.TM_Riwayat_User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Sisa_Cuti" EntityType="Self.TM_Sisa_Cuti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_StatusWP" EntityType="Self.TM_StatusWP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TM_Wilayah" EntityType="Self.TM_Wilayah" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TT_Approval_Khusus" EntityType="Self.TT_Approval_Khusus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TT_Approval_Tahunan" EntityType="Self.TT_Approval_Tahunan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TT_Jumlah_Cuti" EntityType="Self.TT_Jumlah_Cuti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TT_Pengajuan" EntityType="Self.TT_Pengajuan" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HRISModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TM_Cabang">
+          <Key>
+            <PropertyRef Name="Kode_Cabang" />
+          </Key>
+          <Property Name="Kode_Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Kode_Singkat" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Nama_Perusahaan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Lokasi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Aktif" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Kepala_Cabang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Masuk" Type="DateTime" Precision="3" />
+          <Property Name="Periode_Awal" Type="DateTime" Precision="3" />
+          <Property Name="Periode_Akhir" Type="DateTime" Precision="3" />
+          <Property Name="Jatah_Cuti" Type="Int32" />
+          <Property Name="Total_Cuti" Type="Int32" />
+          <Property Name="Cuti_Pribadi" Type="Int32" />
+          <Property Name="Cuti_Khusus" Type="Int32" />
+          <Property Name="Cuti_Massal" Type="Int32" />
+          <Property Name="Cuti_Hangus" Type="Int32" />
+          <Property Name="Tahun_Hangus" Type="Int32" />
+          <Property Name="Cuti_Sekarang" Type="Int32" />
+          <Property Name="Sisa_Cuti" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_Cuti_Bawahan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Advisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Masuk" Type="DateTime" Precision="3" />
+          <Property Name="Periode_Awal" Type="DateTime" Precision="3" />
+          <Property Name="Periode_Akhir" Type="DateTime" Precision="3" />
+          <Property Name="Jatah_Cuti" Type="Int32" />
+          <Property Name="Total_Cuti" Type="Int32" />
+          <Property Name="Cuti_Pribadi" Type="Int32" />
+          <Property Name="Cuti_Khusus" Type="Int32" />
+          <Property Name="Cuti_Massal" Type="Int32" />
+          <Property Name="Cuti_Hangus" Type="Int32" />
+          <Property Name="Tahun_Hangus" Type="Int32" />
+          <Property Name="Cuti_Sekarang" Type="Int32" />
+          <Property Name="Sisa_Cuti" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_Cuti_Hangus">
+          <Key>
+            <PropertyRef Name="ID_Catat" />
+          </Key>
+          <Property Name="ID_Catat" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jumlah_Hangus" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_Default">
+          <Key>
+            <PropertyRef Name="ID_Jenis" />
+          </Key>
+          <Property Name="ID_Jenis" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Kode_Jenis" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ID_Isi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Isi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jumlah_Hari" Type="Int32" />
+          <Property Name="Tambahan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_File_Manager">
+          <Key>
+            <PropertyRef Name="FileID" />
+          </Key>
+          <Property Name="FileID" Type="Int32" Nullable="false" />
+          <Property Name="ParentID" Type="Int32" />
+          <Property Name="NamaFile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IsFolder" Type="Boolean" />
+          <Property Name="Data" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="WriteTime" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TM_Kalender">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nama_Event" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Event" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Mulai" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Selesai" Type="DateTime" Precision="3" />
+          <Property Name="Harian" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="TM_Karyawan">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Kelamin" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Tempat_Lahir" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Lahir" Type="DateTime" Precision="0" />
+          <Property Name="Provinsi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Kota" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Alamat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Agama" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Nikah" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email_Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Advisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Masuk" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Resign" Type="DateTime" Precision="3" />
+          <Property Name="Status_Karyawan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Kerja" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email_Valid" Type="Int32" />
+          <Property Name="Pembuat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Privilege" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Last_Login" Type="DateTime" Precision="3" />
+          <Property Name="Last_Session" Type="DateTime" Precision="3" />
+          <Property Name="Aktif_Login" Type="Boolean" Nullable="false" />
+          <Property Name="Area_Kerja" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="NIK_Atasan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Supervisor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Advisor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NPWP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status_WP" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Temp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NoBPJSTK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NoBPJSKS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_List_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tgl_Cuti" Type="DateTime" Precision="3" />
+          <Property Name="Jenis_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cuti_Massal" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_List_Libur">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tgl_Libur" Type="DateTime" Precision="0" />
+          <Property Name="Keterangan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Libur_Weekend" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_Mutasi">
+          <Key>
+            <PropertyRef Name="ID_Mutasi" />
+          </Key>
+          <Property Name="ID_Mutasi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Atasan_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Supervisor_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Atasan_Ganti" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Mutasi" Type="DateTime" Precision="3" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Atasan_Asal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Staf_Ganti" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Atasan_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Pengumuman">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Jenis_Anno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Anno" Type="DateTime" Precision="3" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Perusahaan">
+          <Key>
+            <PropertyRef Name="Kode_Perusahaan" />
+          </Key>
+          <Property Name="Kode_Perusahaan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nama_Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Kode_Singkat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Pesan">
+          <Key>
+            <PropertyRef Name="ID_Pesan" />
+          </Key>
+          <Property Name="ID_Pesan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Subjek" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Isi_Pesan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Kirim" Type="DateTime" Precision="3" />
+          <Property Name="Tanggapan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Alasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Jawab" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Pengajuan" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Setuju" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Mulai" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Selesai" Type="DateTime" Precision="3" />
+          <Property Name="Masa_Cuti" Type="Int32" />
+          <Property Name="Keperluan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Pemberi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Approved_By" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+          <Property Name="Alasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Batal" Type="Int32" />
+          <Property Name="Alasan_Batal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="User_Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat_Pengajuan">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Bulan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jumlah_Cuti" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+          <Property Name="Jenis_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Riwayat_User">
+          <Key>
+            <PropertyRef Name="ID_Daftar" />
+          </Key>
+          <Property Name="ID_Daftar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Bulan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jumlah_Cuti" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+          <Property Name="Jenis_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_Sisa_Cuti">
+          <Key>
+            <PropertyRef Name="ID_Sisa" />
+          </Key>
+          <Property Name="ID_Sisa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sisa_Cuti" Type="Int32" />
+          <Property Name="Tahun_Cuti" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TM_Wilayah">
+          <Key>
+            <PropertyRef Name="ID_Wilayah" />
+          </Key>
+          <Property Name="ID_Wilayah" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Jenis_Wilayah" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Wilayah" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TT_Approval_Khusus">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Pengajuan" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Setuju" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Mulai" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Selesai" Type="DateTime" Precision="3" />
+          <Property Name="Masa_Cuti" Type="Int32" />
+          <Property Name="Keperluan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Pemberi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Alasan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="User_Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TT_Approval_Tahunan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Pengajuan" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Setuju" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Mulai" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Selesai" Type="DateTime" Precision="3" />
+          <Property Name="Masa_Cuti" Type="Int32" />
+          <Property Name="Keperluan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Pemberi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Alasan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="User_Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TT_Jumlah_Cuti">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jumlah_Pribadi" Type="Int32" />
+          <Property Name="Jumlah_Khusus" Type="Int32" />
+          <Property Name="Jumlah_Massal" Type="Int32" />
+          <Property Name="Jumlah_Hangus" Type="Int32" />
+          <Property Name="Tahun_Hangus" Type="Int32" />
+          <Property Name="Jumlah_Sisa" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TT_Pengajuan">
+          <Key>
+            <PropertyRef Name="ID_Cuti" />
+          </Key>
+          <Property Name="ID_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NIK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Kelamin" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Agama" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Status_Nikah" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Masuk" Type="DateTime" Precision="3" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jenis_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keperluan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Pengajuan" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Setuju" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Mulai" Type="DateTime" Precision="3" />
+          <Property Name="Tgl_Selesai" Type="DateTime" Precision="3" />
+          <Property Name="Masa_Cuti" Type="Int32" />
+          <Property Name="Pemberi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Cuti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Keterangan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Lokasi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nomor_Kontak" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="User_Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="HRISEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TM_Cabang" EntityType="Self.TM_Cabang" />
+          <EntitySet Name="TM_Cuti" EntityType="Self.TM_Cuti" />
+          <EntitySet Name="TM_Cuti_Bawahan" EntityType="Self.TM_Cuti_Bawahan" />
+          <EntitySet Name="TM_Cuti_Hangus" EntityType="Self.TM_Cuti_Hangus" />
+          <EntitySet Name="TM_Default" EntityType="Self.TM_Default" />
+          <EntitySet Name="TM_File_Manager" EntityType="Self.TM_File_Manager" />
+          <EntitySet Name="TM_Kalender" EntityType="Self.TM_Kalender" />
+          <EntitySet Name="TM_Karyawan" EntityType="Self.TM_Karyawan" />
+          <EntitySet Name="TM_List_Cuti" EntityType="Self.TM_List_Cuti" />
+          <EntitySet Name="TM_List_Libur" EntityType="Self.TM_List_Libur" />
+          <EntitySet Name="TM_Mutasi" EntityType="Self.TM_Mutasi" />
+          <EntitySet Name="TM_Pengumuman" EntityType="Self.TM_Pengumuman" />
+          <EntitySet Name="TM_Perusahaan" EntityType="Self.TM_Perusahaan" />
+          <EntitySet Name="TM_Pesan" EntityType="Self.TM_Pesan" />
+          <EntitySet Name="TM_Riwayat" EntityType="Self.TM_Riwayat" />
+          <EntitySet Name="TM_Riwayat_Pengajuan" EntityType="Self.TM_Riwayat_Pengajuan" />
+          <EntitySet Name="TM_Riwayat_User" EntityType="Self.TM_Riwayat_User" />
+          <EntitySet Name="TM_Sisa_Cuti" EntityType="Self.TM_Sisa_Cuti" />
+          <EntitySet Name="TM_Wilayah" EntityType="Self.TM_Wilayah" />
+          <EntitySet Name="TT_Approval_Khusus" EntityType="Self.TT_Approval_Khusus" />
+          <EntitySet Name="TT_Approval_Tahunan" EntityType="Self.TT_Approval_Tahunan" />
+          <EntitySet Name="TT_Jumlah_Cuti" EntityType="Self.TT_Jumlah_Cuti" />
+          <EntitySet Name="TT_Pengajuan" EntityType="Self.TT_Pengajuan" />
+          <EntitySet Name="TM_Karyawan_Resign" EntityType="HRISModel.TM_Karyawan_Resign" />
+          <FunctionImport Name="SM_Cabang" ReturnType="Collection(HRISModel.SM_Cabang_Result1)">
+            <Parameter Name="Kode_Cabang" Mode="In" Type="String" />
+            <Parameter Name="Nama_Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Cabang" Mode="In" Type="String" />
+            <Parameter Name="Kode_Singkat" Mode="In" Type="String" />
+            <Parameter Name="Lokasi" Mode="In" Type="String" />
+            <Parameter Name="Status_Aktif" Mode="In" Type="String" />
+            <Parameter Name="Kepala_Cabang" Mode="In" Type="String" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SM_Karyawan" ReturnType="Collection(HRISModel.SM_Karyawan_Result)">
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="NIK_Temp" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Kelamin" Mode="In" Type="String" />
+            <Parameter Name="Tempat_Lahir" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Lahir" Mode="In" Type="DateTime" />
+            <Parameter Name="Provinsi" Mode="In" Type="String" />
+            <Parameter Name="Kota" Mode="In" Type="String" />
+            <Parameter Name="Alamat" Mode="In" Type="String" />
+            <Parameter Name="Agama" Mode="In" Type="String" />
+            <Parameter Name="Status_Nikah" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="Email_Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="NIK_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="NIK_Supervisor" Mode="In" Type="String" />
+            <Parameter Name="Nama_Supervisor" Mode="In" Type="String" />
+            <Parameter Name="NIK_Advisor" Mode="In" Type="String" />
+            <Parameter Name="Nama_Advisor" Mode="In" Type="String" />
+            <Parameter Name="Status_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Masuk" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Resign" Mode="In" Type="DateTime" />
+            <Parameter Name="Pembuat" Mode="In" Type="String" />
+            <Parameter Name="Privilege" Mode="In" Type="String" />
+            <Parameter Name="Notes" Mode="In" Type="String" />
+            <Parameter Name="Area_Kerja" Mode="In" Type="String" />
+            <Parameter Name="NPWP" Mode="In" Type="String" />
+            <Parameter Name="Status_WP" Mode="In" Type="String" />
+            <Parameter Name="NoBPJSKS" Mode="In" Type="String" />
+            <Parameter Name="NoBPJSTK" Mode="In" Type="String" />
+            <Parameter Name="CreatedBy" Mode="In" Type="String" />
+            <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="ModifiedBy" Mode="In" Type="String" />
+            <Parameter Name="ModifiedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+            <Parameter Name="NIK_Lama" Mode="In" Type="String" />
+            <Parameter Name="Email_Valid" Mode="In" Type="Int32" />
+            <Parameter Name="Aktif_Login" Mode="In" Type="Boolean" />
+            <Parameter Name="Last_Login" Mode="In" Type="DateTime" />
+            <Parameter Name="Last_Session" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="SM_List_Cuti" ReturnType="Collection(HRISModel.SM_List_Cuti_Result)">
+            <Parameter Name="ID_Daftar" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Cuti" Mode="In" Type="DateTime" />
+            <Parameter Name="Jenis_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Cuti_Massal" Mode="In" Type="Int32" />
+            <Parameter Name="Tgl_CM" Mode="In" Type="DateTime" />
+            <Parameter Name="Hari_CM" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SM_List_Libur" ReturnType="Collection(HRISModel.SM_List_Libur_Result)">
+            <Parameter Name="ID_Daftar" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Libur" Mode="In" Type="DateTime" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Libur_Weekend" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SM_Perusahaan" ReturnType="Collection(HRISModel.SM_Perusahaan_Result)">
+            <Parameter Name="Kode_Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Kode_Singkat" Mode="In" Type="String" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SM_Riwayat" ReturnType="Collection(HRISModel.SM_Riwayat_Result)">
+            <Parameter Name="ID_Cuti" Mode="In" Type="String" />
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Supervisor" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Pengajuan" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Keperluan" Mode="In" Type="String" />
+            <Parameter Name="Pemberi" Mode="In" Type="String" />
+            <Parameter Name="Status_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Tahun_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Batal" Mode="In" Type="Int32" />
+            <Parameter Name="Alasan_Batal" Mode="In" Type="String" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_ApproveKhusus" ReturnType="Collection(HRISModel.SP_ApproveKhusus_Result)">
+            <Parameter Name="ID_Cuti" Mode="In" Type="String" />
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Pengajuan" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Setuju" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Masa_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Pemberi" Mode="In" Type="String" />
+            <Parameter Name="Status_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Alasan" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Approved_By" Mode="In" Type="String" />
+            <Parameter Name="Jumlah_Khusus" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_ApproveTahunan" ReturnType="Collection(HRISModel.SP_ApproveTahunan_Result)">
+            <Parameter Name="ID_Cuti" Mode="In" Type="String" />
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Pengajuan" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Setuju" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Masa_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Pemberi" Mode="In" Type="String" />
+            <Parameter Name="Status_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Alasan" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Approved_By" Mode="In" Type="String" />
+            <Parameter Name="Jumlah_Tahunan" Mode="In" Type="Int32" />
+            <Parameter Name="Jumlah_Massal" Mode="In" Type="Int32" />
+            <Parameter Name="Sisa_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Hitung_Cuti_Hangus">
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Supervisor" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Masuk" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Akhir" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Resign" Mode="In" Type="DateTime" />
+            <Parameter Name="Temp1" Mode="In" Type="String" />
+            <Parameter Name="Temp2" Mode="In" Type="Int32" />
+            <Parameter Name="Temp3" Mode="In" Type="Int32" />
+            <Parameter Name="Temp4" Mode="In" Type="Int32" />
+            <Parameter Name="Temp5" Mode="In" Type="Int32" />
+            <Parameter Name="Jatah_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Total_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Periode1" Mode="In" Type="Int32" />
+            <Parameter Name="Periode2" Mode="In" Type="Int32" />
+            <Parameter Name="Cuti_Pribadi" Mode="In" Type="Int32" />
+            <Parameter Name="Cuti_Khusus" Mode="In" Type="Int32" />
+            <Parameter Name="Cuti_Massal" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Hitung_Cuti_Tahunan">
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Advisor" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Masuk" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Akhir" Mode="In" Type="DateTime" />
+            <Parameter Name="Temp1" Mode="In" Type="String" />
+            <Parameter Name="Temp5" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Masa_Cuti" ReturnType="Collection(HRISModel.SP_Masa_Cuti_Result)">
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Hari_Per_Pekan" Mode="In" Type="Int32" />
+            <Parameter Name="Jumlah_Hari" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Masa_Cuti_Cabang">
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Hari_Per_Pekan" Mode="In" Type="Int32" />
+            <Parameter Name="Jumlah_Hari" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Pengajuan" ReturnType="Collection(HRISModel.SP_Pengajuan_Result)">
+            <Parameter Name="ID_Cuti" Mode="In" Type="String" />
+            <Parameter Name="NIK" Mode="In" Type="String" />
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Kelamin" Mode="In" Type="String" />
+            <Parameter Name="Agama" Mode="In" Type="String" />
+            <Parameter Name="Status_Nikah" Mode="In" Type="String" />
+            <Parameter Name="Perusahaan" Mode="In" Type="String" />
+            <Parameter Name="Cabang" Mode="In" Type="String" />
+            <Parameter Name="Jabatan" Mode="In" Type="String" />
+            <Parameter Name="Departemen" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Masuk" Mode="In" Type="DateTime" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Supervisor" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Keperluan" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Pengajuan" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Setuju" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Mulai" Mode="In" Type="DateTime" />
+            <Parameter Name="Tgl_Selesai" Mode="In" Type="DateTime" />
+            <Parameter Name="Masa_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Pemberi" Mode="In" Type="String" />
+            <Parameter Name="Status_Cuti" Mode="In" Type="String" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Alasan" Mode="In" Type="String" />
+            <Parameter Name="Lokasi" Mode="In" Type="String" />
+            <Parameter Name="Nomor_Kontak" Mode="In" Type="String" />
+            <Parameter Name="Tahun_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="User_Login" Mode="In" Type="String" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Pengumuman" ReturnType="Collection(HRISModel.SP_Pengumuman_Result)">
+            <Parameter Name="ID_Daftar" Mode="In" Type="String" />
+            <Parameter Name="Jenis_Anno" Mode="In" Type="String" />
+            <Parameter Name="Tgl_Anno" Mode="In" Type="DateTime" />
+            <Parameter Name="Keterangan" Mode="In" Type="String" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Riwayat_Pengajuan">
+            <Parameter Name="Tahun_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Total_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_Riwayat_User">
+            <Parameter Name="Nama_Karyawan" Mode="In" Type="String" />
+            <Parameter Name="Nama_Atasan" Mode="In" Type="String" />
+            <Parameter Name="Tahun_Cuti" Mode="In" Type="Int32" />
+            <Parameter Name="Selector" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="TM_Departemen" EntityType="HRISModel.TM_Departemen" />
+          <EntitySet Name="TM_List_PMK" EntityType="HRISModel.TM_List_PMK" />
+          <EntitySet Name="TM_StatusWP" EntityType="HRISModel.TM_StatusWP" />
+        </EntityContainer>
+        <EntityType Name="TM_Karyawan_Resign">
+          <Key>
+            <PropertyRef Name="NIK" />
+          </Key>
+          <Property Name="NIK" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Karyawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Atasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Nama_Supervisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Resign" Type="DateTime" Precision="3" />
+          <Property Name="Alasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Resign" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <ComplexType Name="SM_Cabang_Result">
+          <Property Type="String" Name="Kode_Cabang" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Kode_Singkat" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Nama_Perusahaan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Lokasi" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Status_Aktif" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Kepala_Cabang" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SM_Cabang_Result1">
+          <Property Type="String" Name="Kode_Cabang" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Kode_Singkat" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Nama_Perusahaan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Lokasi" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Status_Aktif" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Kepala_Cabang" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SM_Karyawan_Result">
+          <Property Type="String" Name="NIK" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan" Nullable="true" />
+          <Property Type="String" Name="Password" Nullable="true" />
+          <Property Type="String" Name="Jenis_Kelamin" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Tempat_Lahir" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Lahir" Nullable="true" />
+          <Property Type="String" Name="Provinsi" Nullable="true" />
+          <Property Type="String" Name="Kota" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Alamat" Nullable="true" />
+          <Property Type="String" Name="Agama" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Status_Nikah" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Email" Nullable="true" />
+          <Property Type="String" Name="Email_Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Jabatan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Departemen" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Atasan" Nullable="true" />
+          <Property Type="String" Name="Nama_Supervisor" Nullable="true" />
+          <Property Type="String" Name="Nama_Advisor" Nullable="true" />
+          <Property Type="DateTime" Name="Tgl_Masuk" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Resign" Nullable="true" Precision="23" />
+          <Property Type="String" Name="Status_Karyawan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Status_Kerja" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="Email_Valid" Nullable="true" />
+          <Property Type="String" Name="Pembuat" Nullable="true" />
+          <Property Type="String" Name="Privilege" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="Last_Login" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Last_Session" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Aktif_Login" Nullable="true" />
+          <Property Type="String" Name="Area_Kerja" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Notes" Nullable="true" />
+          <Property Type="String" Name="CreatedBy" Nullable="true" />
+          <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="ModifiedBy" Nullable="true" />
+          <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="SM_List_Cuti_Result">
+          <Property Type="String" Name="ID_Daftar" Nullable="false" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Cuti" Nullable="true" Precision="23" />
+          <Property Type="String" Name="Jenis_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="Cuti_Massal" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SM_List_Libur_Result">
+          <Property Type="String" Name="ID_Daftar" Nullable="false" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Libur" Nullable="true" />
+          <Property Type="String" Name="Keterangan" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="Libur_Weekend" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SM_Perusahaan_Result">
+          <Property Type="String" Name="Kode_Perusahaan" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Nama_Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Kode_Singkat" Nullable="true" MaxLength="10" />
+        </ComplexType>
+        <ComplexType Name="SM_Riwayat_Result">
+          <Property Type="String" Name="ID_Cuti" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NIK" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan" Nullable="true" />
+          <Property Type="String" Name="Jenis_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Pengajuan" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Setuju" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Mulai" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Selesai" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Masa_Cuti" Nullable="true" />
+          <Property Type="String" Name="Keperluan" Nullable="true" />
+          <Property Type="String" Name="Pemberi" Nullable="true" />
+          <Property Type="String" Name="Approved_By" Nullable="true" />
+          <Property Type="String" Name="Status_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan" Nullable="true" />
+          <Property Type="Int32" Name="Tahun_Cuti" Nullable="true" />
+          <Property Type="String" Name="Alasan" Nullable="true" />
+          <Property Type="Int32" Name="Batal" Nullable="true" />
+          <Property Type="String" Name="Alasan_Batal" Nullable="true" />
+          <Property Type="String" Name="Cabang" Nullable="true" />
+          <Property Type="String" Name="Atasan" Nullable="true" />
+          <Property Type="String" Name="User_Login" Nullable="true" />
+          <Property Type="String" Name="CreatedBy" Nullable="true" />
+          <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="ModifiedBy" Nullable="true" />
+          <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="SP_ApproveKhusus_Result">
+          <Property Type="String" Name="ID_Cuti" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NIK" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan" Nullable="true" />
+          <Property Type="String" Name="Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Jabatan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Departemen" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Atasan" Nullable="true" />
+          <Property Type="String" Name="Nama_Supervisor" Nullable="true" />
+          <Property Type="DateTime" Name="Tgl_Pengajuan" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Setuju" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Mulai" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Selesai" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Masa_Cuti" Nullable="true" />
+          <Property Type="String" Name="Keperluan" Nullable="true" />
+          <Property Type="String" Name="Pemberi" Nullable="true" />
+          <Property Type="String" Name="Status_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan" Nullable="true" />
+          <Property Type="String" Name="Alasan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="User_Login" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SP_ApproveTahunan_Result">
+          <Property Type="String" Name="ID_Cuti" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NIK" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan" Nullable="true" />
+          <Property Type="String" Name="Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Jabatan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Departemen" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Atasan" Nullable="true" />
+          <Property Type="String" Name="Nama_Supervisor" Nullable="true" />
+          <Property Type="DateTime" Name="Tgl_Pengajuan" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Setuju" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Mulai" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Selesai" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Masa_Cuti" Nullable="true" />
+          <Property Type="String" Name="Keperluan" Nullable="true" />
+          <Property Type="String" Name="Pemberi" Nullable="true" />
+          <Property Type="String" Name="Status_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan" Nullable="true" />
+          <Property Type="String" Name="Alasan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="User_Login" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SP_Masa_Cuti_Result">
+          <Property Type="Int32" Name="Jumlah_Hari" Nullable="true" />
+          <Property Type="Int32" Name="Jumlah_Hari_Awal" Nullable="true" />
+          <Property Type="Int32" Name="Jumlah_Hari_Akhir" Nullable="true" />
+          <Property Type="Int32" Name="Jumlah_Liburan" Nullable="true" />
+          <Property Type="Int32" Name="Cuti_Bersama" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SP_Pengajuan_Result">
+          <Property Type="String" Name="ID_Cuti" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NIK" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan" Nullable="true" />
+          <Property Type="String" Name="Jenis_Kelamin" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Agama" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="Status_Nikah" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Perusahaan" Nullable="true" />
+          <Property Type="String" Name="Cabang" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Jabatan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Departemen" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Masuk" Nullable="true" Precision="23" />
+          <Property Type="String" Name="Nama_Atasan" Nullable="true" />
+          <Property Type="String" Name="Nama_Supervisor" Nullable="true" />
+          <Property Type="String" Name="Jenis_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keperluan" Nullable="true" />
+          <Property Type="DateTime" Name="Tgl_Pengajuan" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Setuju" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Mulai" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Selesai" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Masa_Cuti" Nullable="true" />
+          <Property Type="String" Name="Pemberi" Nullable="true" />
+          <Property Type="String" Name="Status_Cuti" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan" Nullable="true" />
+          <Property Type="String" Name="Lokasi" Nullable="true" />
+          <Property Type="String" Name="Nomor_Kontak" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="User_Login" Nullable="true" />
+          <Property Type="String" Name="ID_Cuti1" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NIK1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Karyawan1" Nullable="true" />
+          <Property Type="String" Name="Perusahaan1" Nullable="true" />
+          <Property Type="String" Name="Cabang1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Jabatan1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Departemen1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Nama_Atasan1" Nullable="true" />
+          <Property Type="String" Name="Nama_Supervisor1" Nullable="true" />
+          <Property Type="DateTime" Name="Tgl_Pengajuan1" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Setuju1" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Mulai1" Nullable="true" Precision="23" />
+          <Property Type="DateTime" Name="Tgl_Selesai1" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="Masa_Cuti1" Nullable="true" />
+          <Property Type="String" Name="Keperluan1" Nullable="true" />
+          <Property Type="String" Name="Pemberi1" Nullable="true" />
+          <Property Type="String" Name="Status_Cuti1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Keterangan1" Nullable="true" />
+          <Property Type="String" Name="Alasan" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="User_Login1" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SP_Pengumuman_Result">
+          <Property Type="String" Name="ID_Daftar" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Jenis_Anno" Nullable="true" MaxLength="50" />
+          <Property Type="DateTime" Name="Tgl_Anno" Nullable="true" Precision="23" />
+          <Property Type="String" Name="Keterangan" Nullable="true" />
+        </ComplexType>
+        <EntityType Name="TM_Departemen">
+          <Key>
+            <PropertyRef Name="ID_Dept" />
+          </Key>
+          <Property Name="ID_Dept" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nama_Dept" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Singkatan" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TM_List_PMK">
+          <Key>
+            <PropertyRef Name="ID_PMK" />
+          </Key>
+          <Property Name="ID_PMK" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="No_PMK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_PMK" Type="DateTime" Precision="3" />
+          <Property Name="Jenis_PMK" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Asal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan_Asal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang_Asal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan_Asal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen_Asal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NIK_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Perusahaan_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cabang_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Jabatan_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Departemen_Baru" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tgl_Efektif" Type="DateTime" Precision="3" />
+          <Property Name="Status_Asal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status_Baru" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Alasan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Created_By" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Created_Date" Type="DateTime" Precision="3" />
+          <Property Name="Modified_By" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Modified_Date" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TM_StatusWP">
+          <Key>
+            <PropertyRef Name="StatusID" />
+          </Key>
+          <Property Name="StatusID" Type="Int32" Nullable="false" />
+          <Property Name="KodeStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StatusWP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HRISModelStoreContainer" CdmEntityContainer="HRISEntities">
+          <EntitySetMapping Name="TM_Cabang">
+            <EntityTypeMapping TypeName="HRISModel.TM_Cabang">
+              <MappingFragment StoreEntitySet="TM_Cabang">
+                <ScalarProperty Name="Kode_Cabang" ColumnName="Kode_Cabang" />
+                <ScalarProperty Name="Kode_Singkat" ColumnName="Kode_Singkat" />
+                <ScalarProperty Name="Nama_Perusahaan" ColumnName="Nama_Perusahaan" />
+                <ScalarProperty Name="Nama_Cabang" ColumnName="Nama_Cabang" />
+                <ScalarProperty Name="Lokasi" ColumnName="Lokasi" />
+                <ScalarProperty Name="Status_Aktif" ColumnName="Status_Aktif" />
+                <ScalarProperty Name="Kepala_Cabang" ColumnName="Kepala_Cabang" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Cuti">
+            <EntityTypeMapping TypeName="HRISModel.TM_Cuti">
+              <MappingFragment StoreEntitySet="TM_Cuti">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Periode_Awal" ColumnName="Periode_Awal" />
+                <ScalarProperty Name="Periode_Akhir" ColumnName="Periode_Akhir" />
+                <ScalarProperty Name="Jatah_Cuti" ColumnName="Jatah_Cuti" />
+                <ScalarProperty Name="Total_Cuti" ColumnName="Total_Cuti" />
+                <ScalarProperty Name="Cuti_Pribadi" ColumnName="Cuti_Pribadi" />
+                <ScalarProperty Name="Cuti_Khusus" ColumnName="Cuti_Khusus" />
+                <ScalarProperty Name="Cuti_Massal" ColumnName="Cuti_Massal" />
+                <ScalarProperty Name="Cuti_Hangus" ColumnName="Cuti_Hangus" />
+                <ScalarProperty Name="Tahun_Hangus" ColumnName="Tahun_Hangus" />
+                <ScalarProperty Name="Cuti_Sekarang" ColumnName="Cuti_Sekarang" />
+                <ScalarProperty Name="Sisa_Cuti" ColumnName="Sisa_Cuti" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Cuti_Bawahan">
+            <EntityTypeMapping TypeName="HRISModel.TM_Cuti_Bawahan">
+              <MappingFragment StoreEntitySet="TM_Cuti_Bawahan">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Advisor" ColumnName="Nama_Advisor" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Periode_Awal" ColumnName="Periode_Awal" />
+                <ScalarProperty Name="Periode_Akhir" ColumnName="Periode_Akhir" />
+                <ScalarProperty Name="Jatah_Cuti" ColumnName="Jatah_Cuti" />
+                <ScalarProperty Name="Total_Cuti" ColumnName="Total_Cuti" />
+                <ScalarProperty Name="Cuti_Pribadi" ColumnName="Cuti_Pribadi" />
+                <ScalarProperty Name="Cuti_Khusus" ColumnName="Cuti_Khusus" />
+                <ScalarProperty Name="Cuti_Massal" ColumnName="Cuti_Massal" />
+                <ScalarProperty Name="Cuti_Hangus" ColumnName="Cuti_Hangus" />
+                <ScalarProperty Name="Tahun_Hangus" ColumnName="Tahun_Hangus" />
+                <ScalarProperty Name="Cuti_Sekarang" ColumnName="Cuti_Sekarang" />
+                <ScalarProperty Name="Sisa_Cuti" ColumnName="Sisa_Cuti" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Cuti_Hangus">
+            <EntityTypeMapping TypeName="HRISModel.TM_Cuti_Hangus">
+              <MappingFragment StoreEntitySet="TM_Cuti_Hangus">
+                <ScalarProperty Name="ID_Catat" ColumnName="ID_Catat" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Jumlah_Hangus" ColumnName="Jumlah_Hangus" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Default">
+            <EntityTypeMapping TypeName="HRISModel.TM_Default">
+              <MappingFragment StoreEntitySet="TM_Default">
+                <ScalarProperty Name="ID_Jenis" ColumnName="ID_Jenis" />
+                <ScalarProperty Name="Kode_Jenis" ColumnName="Kode_Jenis" />
+                <ScalarProperty Name="ID_Isi" ColumnName="ID_Isi" />
+                <ScalarProperty Name="Jenis_Isi" ColumnName="Jenis_Isi" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Jumlah_Hari" ColumnName="Jumlah_Hari" />
+                <ScalarProperty Name="Tambahan" ColumnName="Tambahan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_File_Manager">
+            <EntityTypeMapping TypeName="HRISModel.TM_File_Manager">
+              <MappingFragment StoreEntitySet="TM_File_Manager">
+                <ScalarProperty Name="FileID" ColumnName="FileID" />
+                <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+                <ScalarProperty Name="NamaFile" ColumnName="NamaFile" />
+                <ScalarProperty Name="IsFolder" ColumnName="IsFolder" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="WriteTime" ColumnName="WriteTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Kalender">
+            <EntityTypeMapping TypeName="HRISModel.TM_Kalender">
+              <MappingFragment StoreEntitySet="TM_Kalender">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Nama_Event" ColumnName="Nama_Event" />
+                <ScalarProperty Name="Jenis_Event" ColumnName="Jenis_Event" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Harian" ColumnName="Harian" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Karyawan">
+            <EntityTypeMapping TypeName="HRISModel.TM_Karyawan">
+              <MappingFragment StoreEntitySet="TM_Karyawan">
+                <ScalarProperty Name="NoBPJSKS" ColumnName="NoBPJSKS" />
+                <ScalarProperty Name="NoBPJSTK" ColumnName="NoBPJSTK" />
+                <ScalarProperty Name="NIK_Temp" ColumnName="NIK_Temp" />
+                <ScalarProperty Name="Status_WP" ColumnName="Status_WP" />
+                <ScalarProperty Name="NPWP" ColumnName="NPWP" />
+                <ScalarProperty Name="NIK_Advisor" ColumnName="NIK_Advisor" />
+                <ScalarProperty Name="NIK_Supervisor" ColumnName="NIK_Supervisor" />
+                <ScalarProperty Name="NIK_Atasan" ColumnName="NIK_Atasan" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Jenis_Kelamin" ColumnName="Jenis_Kelamin" />
+                <ScalarProperty Name="Tempat_Lahir" ColumnName="Tempat_Lahir" />
+                <ScalarProperty Name="Tgl_Lahir" ColumnName="Tgl_Lahir" />
+                <ScalarProperty Name="Provinsi" ColumnName="Provinsi" />
+                <ScalarProperty Name="Kota" ColumnName="Kota" />
+                <ScalarProperty Name="Alamat" ColumnName="Alamat" />
+                <ScalarProperty Name="Agama" ColumnName="Agama" />
+                <ScalarProperty Name="Status_Nikah" ColumnName="Status_Nikah" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Email_Perusahaan" ColumnName="Email_Perusahaan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Nama_Advisor" ColumnName="Nama_Advisor" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Tgl_Resign" ColumnName="Tgl_Resign" />
+                <ScalarProperty Name="Status_Karyawan" ColumnName="Status_Karyawan" />
+                <ScalarProperty Name="Status_Kerja" ColumnName="Status_Kerja" />
+                <ScalarProperty Name="Email_Valid" ColumnName="Email_Valid" />
+                <ScalarProperty Name="Pembuat" ColumnName="Pembuat" />
+                <ScalarProperty Name="Privilege" ColumnName="Privilege" />
+                <ScalarProperty Name="Last_Login" ColumnName="Last_Login" />
+                <ScalarProperty Name="Last_Session" ColumnName="Last_Session" />
+                <ScalarProperty Name="Aktif_Login" ColumnName="Aktif_Login" />
+                <ScalarProperty Name="Area_Kerja" ColumnName="Area_Kerja" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_List_Cuti">
+            <EntityTypeMapping TypeName="HRISModel.TM_List_Cuti">
+              <MappingFragment StoreEntitySet="TM_List_Cuti">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Tgl_Cuti" ColumnName="Tgl_Cuti" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Cuti_Massal" ColumnName="Cuti_Massal" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_List_Libur">
+            <EntityTypeMapping TypeName="HRISModel.TM_List_Libur">
+              <MappingFragment StoreEntitySet="TM_List_Libur">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Tgl_Libur" ColumnName="Tgl_Libur" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Libur_Weekend" ColumnName="Libur_Weekend" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Mutasi">
+            <EntityTypeMapping TypeName="HRISModel.TM_Mutasi">
+              <MappingFragment StoreEntitySet="TM_Mutasi">
+                <ScalarProperty Name="NIK_Atasan_Baru" ColumnName="NIK_Atasan_Baru" />
+                <ScalarProperty Name="ID_Mutasi" ColumnName="ID_Mutasi" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Perusahaan_Baru" ColumnName="Perusahaan_Baru" />
+                <ScalarProperty Name="Cabang_Baru" ColumnName="Cabang_Baru" />
+                <ScalarProperty Name="Jabatan_Baru" ColumnName="Jabatan_Baru" />
+                <ScalarProperty Name="Departemen_Baru" ColumnName="Departemen_Baru" />
+                <ScalarProperty Name="Atasan_Baru" ColumnName="Atasan_Baru" />
+                <ScalarProperty Name="Supervisor_Baru" ColumnName="Supervisor_Baru" />
+                <ScalarProperty Name="Atasan_Ganti" ColumnName="Atasan_Ganti" />
+                <ScalarProperty Name="Tgl_Mutasi" ColumnName="Tgl_Mutasi" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Atasan_Asal" ColumnName="Atasan_Asal" />
+                <ScalarProperty Name="Staf_Ganti" ColumnName="Staf_Ganti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Pengumuman">
+            <EntityTypeMapping TypeName="HRISModel.TM_Pengumuman">
+              <MappingFragment StoreEntitySet="TM_Pengumuman">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Jenis_Anno" ColumnName="Jenis_Anno" />
+                <ScalarProperty Name="Tgl_Anno" ColumnName="Tgl_Anno" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Perusahaan">
+            <EntityTypeMapping TypeName="HRISModel.TM_Perusahaan">
+              <MappingFragment StoreEntitySet="TM_Perusahaan">
+                <ScalarProperty Name="Kode_Perusahaan" ColumnName="Kode_Perusahaan" />
+                <ScalarProperty Name="Nama_Perusahaan" ColumnName="Nama_Perusahaan" />
+                <ScalarProperty Name="Kode_Singkat" ColumnName="Kode_Singkat" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Pesan">
+            <EntityTypeMapping TypeName="HRISModel.TM_Pesan">
+              <MappingFragment StoreEntitySet="TM_Pesan">
+                <ScalarProperty Name="ID_Pesan" ColumnName="ID_Pesan" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Subjek" ColumnName="Subjek" />
+                <ScalarProperty Name="Isi_Pesan" ColumnName="Isi_Pesan" />
+                <ScalarProperty Name="Tgl_Kirim" ColumnName="Tgl_Kirim" />
+                <ScalarProperty Name="Tanggapan" ColumnName="Tanggapan" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="Tgl_Jawab" ColumnName="Tgl_Jawab" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Riwayat">
+            <EntityTypeMapping TypeName="HRISModel.TM_Riwayat">
+              <MappingFragment StoreEntitySet="TM_Riwayat">
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Approved_By" ColumnName="Approved_By" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="Batal" ColumnName="Batal" />
+                <ScalarProperty Name="Alasan_Batal" ColumnName="Alasan_Batal" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Atasan" ColumnName="Atasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Riwayat_Pengajuan">
+            <EntityTypeMapping TypeName="HRISModel.TM_Riwayat_Pengajuan">
+              <MappingFragment StoreEntitySet="TM_Riwayat_Pengajuan">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Bulan" ColumnName="Bulan" />
+                <ScalarProperty Name="Jumlah_Cuti" ColumnName="Jumlah_Cuti" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Riwayat_User">
+            <EntityTypeMapping TypeName="HRISModel.TM_Riwayat_User">
+              <MappingFragment StoreEntitySet="TM_Riwayat_User">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Bulan" ColumnName="Bulan" />
+                <ScalarProperty Name="Jumlah_Cuti" ColumnName="Jumlah_Cuti" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Sisa_Cuti">
+            <EntityTypeMapping TypeName="HRISModel.TM_Sisa_Cuti">
+              <MappingFragment StoreEntitySet="TM_Sisa_Cuti">
+                <ScalarProperty Name="ID_Sisa" ColumnName="ID_Sisa" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Sisa_Cuti" ColumnName="Sisa_Cuti" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Wilayah">
+            <EntityTypeMapping TypeName="HRISModel.TM_Wilayah">
+              <MappingFragment StoreEntitySet="TM_Wilayah">
+                <ScalarProperty Name="ID_Wilayah" ColumnName="ID_Wilayah" />
+                <ScalarProperty Name="Jenis_Wilayah" ColumnName="Jenis_Wilayah" />
+                <ScalarProperty Name="Nama_Wilayah" ColumnName="Nama_Wilayah" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TT_Approval_Khusus">
+            <EntityTypeMapping TypeName="HRISModel.TT_Approval_Khusus">
+              <MappingFragment StoreEntitySet="TT_Approval_Khusus">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TT_Approval_Tahunan">
+            <EntityTypeMapping TypeName="HRISModel.TT_Approval_Tahunan">
+              <MappingFragment StoreEntitySet="TT_Approval_Tahunan">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TT_Jumlah_Cuti">
+            <EntityTypeMapping TypeName="HRISModel.TT_Jumlah_Cuti">
+              <MappingFragment StoreEntitySet="TT_Jumlah_Cuti">
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Jumlah_Pribadi" ColumnName="Jumlah_Pribadi" />
+                <ScalarProperty Name="Jumlah_Khusus" ColumnName="Jumlah_Khusus" />
+                <ScalarProperty Name="Jumlah_Massal" ColumnName="Jumlah_Massal" />
+                <ScalarProperty Name="Jumlah_Hangus" ColumnName="Jumlah_Hangus" />
+                <ScalarProperty Name="Tahun_Hangus" ColumnName="Tahun_Hangus" />
+                <ScalarProperty Name="Jumlah_Sisa" ColumnName="Jumlah_Sisa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TT_Pengajuan">
+            <EntityTypeMapping TypeName="HRISModel.TT_Pengajuan">
+              <MappingFragment StoreEntitySet="TT_Pengajuan">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Jenis_Kelamin" ColumnName="Jenis_Kelamin" />
+                <ScalarProperty Name="Agama" ColumnName="Agama" />
+                <ScalarProperty Name="Status_Nikah" ColumnName="Status_Nikah" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Lokasi" ColumnName="Lokasi" />
+                <ScalarProperty Name="Nomor_Kontak" ColumnName="Nomor_Kontak" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_Karyawan_Resign">
+            <EntityTypeMapping TypeName="HRISModel.TM_Karyawan_Resign">
+              <MappingFragment StoreEntitySet="TM_Karyawan_Resign">
+                <ScalarProperty Name="Status_Resign" ColumnName="Status_Resign" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="Tgl_Resign" ColumnName="Tgl_Resign" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SM_Cabang" FunctionName="HRISModel.Store.SM_Cabang">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_Cabang_Result1">
+                <ScalarProperty Name="Kode_Cabang" ColumnName="Kode_Cabang" />
+                <ScalarProperty Name="Kode_Singkat" ColumnName="Kode_Singkat" />
+                <ScalarProperty Name="Nama_Perusahaan" ColumnName="Nama_Perusahaan" />
+                <ScalarProperty Name="Nama_Cabang" ColumnName="Nama_Cabang" />
+                <ScalarProperty Name="Lokasi" ColumnName="Lokasi" />
+                <ScalarProperty Name="Status_Aktif" ColumnName="Status_Aktif" />
+                <ScalarProperty Name="Kepala_Cabang" ColumnName="Kepala_Cabang" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SM_Karyawan" FunctionName="HRISModel.Store.SM_Karyawan">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_Karyawan_Result">
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Jenis_Kelamin" ColumnName="Jenis_Kelamin" />
+                <ScalarProperty Name="Tempat_Lahir" ColumnName="Tempat_Lahir" />
+                <ScalarProperty Name="Tgl_Lahir" ColumnName="Tgl_Lahir" />
+                <ScalarProperty Name="Provinsi" ColumnName="Provinsi" />
+                <ScalarProperty Name="Kota" ColumnName="Kota" />
+                <ScalarProperty Name="Alamat" ColumnName="Alamat" />
+                <ScalarProperty Name="Agama" ColumnName="Agama" />
+                <ScalarProperty Name="Status_Nikah" ColumnName="Status_Nikah" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Email_Perusahaan" ColumnName="Email_Perusahaan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Nama_Advisor" ColumnName="Nama_Advisor" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Tgl_Resign" ColumnName="Tgl_Resign" />
+                <ScalarProperty Name="Status_Karyawan" ColumnName="Status_Karyawan" />
+                <ScalarProperty Name="Status_Kerja" ColumnName="Status_Kerja" />
+                <ScalarProperty Name="Email_Valid" ColumnName="Email_Valid" />
+                <ScalarProperty Name="Pembuat" ColumnName="Pembuat" />
+                <ScalarProperty Name="Privilege" ColumnName="Privilege" />
+                <ScalarProperty Name="Last_Login" ColumnName="Last_Login" />
+                <ScalarProperty Name="Last_Session" ColumnName="Last_Session" />
+                <ScalarProperty Name="Aktif_Login" ColumnName="Aktif_Login" />
+                <ScalarProperty Name="Area_Kerja" ColumnName="Area_Kerja" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SM_List_Cuti" FunctionName="HRISModel.Store.SM_List_Cuti">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_List_Cuti_Result">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Tgl_Cuti" ColumnName="Tgl_Cuti" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Cuti_Massal" ColumnName="Cuti_Massal" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SM_List_Libur" FunctionName="HRISModel.Store.SM_List_Libur">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_List_Libur_Result">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Tgl_Libur" ColumnName="Tgl_Libur" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Libur_Weekend" ColumnName="Libur_Weekend" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SM_Perusahaan" FunctionName="HRISModel.Store.SM_Perusahaan">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_Perusahaan_Result">
+                <ScalarProperty Name="Kode_Perusahaan" ColumnName="Kode_Perusahaan" />
+                <ScalarProperty Name="Nama_Perusahaan" ColumnName="Nama_Perusahaan" />
+                <ScalarProperty Name="Kode_Singkat" ColumnName="Kode_Singkat" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SM_Riwayat" FunctionName="HRISModel.Store.SM_Riwayat">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SM_Riwayat_Result">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Approved_By" ColumnName="Approved_By" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Tahun_Cuti" ColumnName="Tahun_Cuti" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="Batal" ColumnName="Batal" />
+                <ScalarProperty Name="Alasan_Batal" ColumnName="Alasan_Batal" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Atasan" ColumnName="Atasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_ApproveKhusus" FunctionName="HRISModel.Store.SP_ApproveKhusus">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SP_ApproveKhusus_Result">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_ApproveTahunan" FunctionName="HRISModel.Store.SP_ApproveTahunan">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SP_ApproveTahunan_Result">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_Hitung_Cuti_Hangus" FunctionName="HRISModel.Store.SP_Hitung_Cuti_Hangus" />
+          <FunctionImportMapping FunctionImportName="SP_Hitung_Cuti_Tahunan" FunctionName="HRISModel.Store.SP_Hitung_Cuti_Tahunan" />
+          <FunctionImportMapping FunctionImportName="SP_Masa_Cuti" FunctionName="HRISModel.Store.SP_Masa_Cuti">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SP_Masa_Cuti_Result">
+                <ScalarProperty Name="Jumlah_Hari" ColumnName="Jumlah_Hari" />
+                <ScalarProperty Name="Jumlah_Hari_Awal" ColumnName="Jumlah_Hari_Awal" />
+                <ScalarProperty Name="Jumlah_Hari_Akhir" ColumnName="Jumlah_Hari_Akhir" />
+                <ScalarProperty Name="Jumlah_Liburan" ColumnName="Jumlah_Liburan" />
+                <ScalarProperty Name="Cuti_Bersama" ColumnName="Cuti_Bersama" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_Masa_Cuti_Cabang" FunctionName="HRISModel.Store.SP_Masa_Cuti_Cabang" />
+          <FunctionImportMapping FunctionImportName="SP_Pengajuan" FunctionName="HRISModel.Store.SP_Pengajuan">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SP_Pengajuan_Result">
+                <ScalarProperty Name="ID_Cuti" ColumnName="ID_Cuti" />
+                <ScalarProperty Name="NIK" ColumnName="NIK" />
+                <ScalarProperty Name="Nama_Karyawan" ColumnName="Nama_Karyawan" />
+                <ScalarProperty Name="Jenis_Kelamin" ColumnName="Jenis_Kelamin" />
+                <ScalarProperty Name="Agama" ColumnName="Agama" />
+                <ScalarProperty Name="Status_Nikah" ColumnName="Status_Nikah" />
+                <ScalarProperty Name="Perusahaan" ColumnName="Perusahaan" />
+                <ScalarProperty Name="Cabang" ColumnName="Cabang" />
+                <ScalarProperty Name="Jabatan" ColumnName="Jabatan" />
+                <ScalarProperty Name="Departemen" ColumnName="Departemen" />
+                <ScalarProperty Name="Tgl_Masuk" ColumnName="Tgl_Masuk" />
+                <ScalarProperty Name="Nama_Atasan" ColumnName="Nama_Atasan" />
+                <ScalarProperty Name="Nama_Supervisor" ColumnName="Nama_Supervisor" />
+                <ScalarProperty Name="Jenis_Cuti" ColumnName="Jenis_Cuti" />
+                <ScalarProperty Name="Keperluan" ColumnName="Keperluan" />
+                <ScalarProperty Name="Tgl_Pengajuan" ColumnName="Tgl_Pengajuan" />
+                <ScalarProperty Name="Tgl_Setuju" ColumnName="Tgl_Setuju" />
+                <ScalarProperty Name="Tgl_Mulai" ColumnName="Tgl_Mulai" />
+                <ScalarProperty Name="Tgl_Selesai" ColumnName="Tgl_Selesai" />
+                <ScalarProperty Name="Masa_Cuti" ColumnName="Masa_Cuti" />
+                <ScalarProperty Name="Pemberi" ColumnName="Pemberi" />
+                <ScalarProperty Name="Status_Cuti" ColumnName="Status_Cuti" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+                <ScalarProperty Name="Lokasi" ColumnName="Lokasi" />
+                <ScalarProperty Name="Nomor_Kontak" ColumnName="Nomor_Kontak" />
+                <ScalarProperty Name="User_Login" ColumnName="User_Login" />
+                <ScalarProperty Name="ID_Cuti1" ColumnName="ID_Cuti1" />
+                <ScalarProperty Name="NIK1" ColumnName="NIK1" />
+                <ScalarProperty Name="Nama_Karyawan1" ColumnName="Nama_Karyawan1" />
+                <ScalarProperty Name="Perusahaan1" ColumnName="Perusahaan1" />
+                <ScalarProperty Name="Cabang1" ColumnName="Cabang1" />
+                <ScalarProperty Name="Jabatan1" ColumnName="Jabatan1" />
+                <ScalarProperty Name="Departemen1" ColumnName="Departemen1" />
+                <ScalarProperty Name="Nama_Atasan1" ColumnName="Nama_Atasan1" />
+                <ScalarProperty Name="Nama_Supervisor1" ColumnName="Nama_Supervisor1" />
+                <ScalarProperty Name="Tgl_Pengajuan1" ColumnName="Tgl_Pengajuan1" />
+                <ScalarProperty Name="Tgl_Setuju1" ColumnName="Tgl_Setuju1" />
+                <ScalarProperty Name="Tgl_Mulai1" ColumnName="Tgl_Mulai1" />
+                <ScalarProperty Name="Tgl_Selesai1" ColumnName="Tgl_Selesai1" />
+                <ScalarProperty Name="Masa_Cuti1" ColumnName="Masa_Cuti1" />
+                <ScalarProperty Name="Keperluan1" ColumnName="Keperluan1" />
+                <ScalarProperty Name="Pemberi1" ColumnName="Pemberi1" />
+                <ScalarProperty Name="Status_Cuti1" ColumnName="Status_Cuti1" />
+                <ScalarProperty Name="Keterangan1" ColumnName="Keterangan1" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="User_Login1" ColumnName="User_Login1" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_Pengumuman" FunctionName="HRISModel.Store.SP_Pengumuman">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="HRISModel.SP_Pengumuman_Result">
+                <ScalarProperty Name="ID_Daftar" ColumnName="ID_Daftar" />
+                <ScalarProperty Name="Jenis_Anno" ColumnName="Jenis_Anno" />
+                <ScalarProperty Name="Tgl_Anno" ColumnName="Tgl_Anno" />
+                <ScalarProperty Name="Keterangan" ColumnName="Keterangan" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_Riwayat_Pengajuan" FunctionName="HRISModel.Store.SP_Riwayat_Pengajuan" />
+          <FunctionImportMapping FunctionImportName="SP_Riwayat_User" FunctionName="HRISModel.Store.SP_Riwayat_User" />
+          <EntitySetMapping Name="TM_Departemen">
+            <EntityTypeMapping TypeName="HRISModel.TM_Departemen">
+              <MappingFragment StoreEntitySet="TM_Departemen">
+                <ScalarProperty Name="Singkatan" ColumnName="Singkatan" />
+                <ScalarProperty Name="Nama_Dept" ColumnName="Nama_Dept" />
+                <ScalarProperty Name="ID_Dept" ColumnName="ID_Dept" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_List_PMK">
+            <EntityTypeMapping TypeName="HRISModel.TM_List_PMK">
+              <MappingFragment StoreEntitySet="TM_List_PMK">
+                <ScalarProperty Name="Modified_Date" ColumnName="Modified_Date" />
+                <ScalarProperty Name="Modified_By" ColumnName="Modified_By" />
+                <ScalarProperty Name="Created_Date" ColumnName="Created_Date" />
+                <ScalarProperty Name="Created_By" ColumnName="Created_By" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Alasan" ColumnName="Alasan" />
+                <ScalarProperty Name="Status_Baru" ColumnName="Status_Baru" />
+                <ScalarProperty Name="Status_Asal" ColumnName="Status_Asal" />
+                <ScalarProperty Name="Tgl_Efektif" ColumnName="Tgl_Efektif" />
+                <ScalarProperty Name="Departemen_Baru" ColumnName="Departemen_Baru" />
+                <ScalarProperty Name="Jabatan_Baru" ColumnName="Jabatan_Baru" />
+                <ScalarProperty Name="Cabang_Baru" ColumnName="Cabang_Baru" />
+                <ScalarProperty Name="Perusahaan_Baru" ColumnName="Perusahaan_Baru" />
+                <ScalarProperty Name="NIK_Baru" ColumnName="NIK_Baru" />
+                <ScalarProperty Name="Departemen_Asal" ColumnName="Departemen_Asal" />
+                <ScalarProperty Name="Jabatan_Asal" ColumnName="Jabatan_Asal" />
+                <ScalarProperty Name="Cabang_Asal" ColumnName="Cabang_Asal" />
+                <ScalarProperty Name="Perusahaan_Asal" ColumnName="Perusahaan_Asal" />
+                <ScalarProperty Name="NIK_Asal" ColumnName="NIK_Asal" />
+                <ScalarProperty Name="Jenis_PMK" ColumnName="Jenis_PMK" />
+                <ScalarProperty Name="Tgl_PMK" ColumnName="Tgl_PMK" />
+                <ScalarProperty Name="No_PMK" ColumnName="No_PMK" />
+                <ScalarProperty Name="ID_PMK" ColumnName="ID_PMK" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TM_StatusWP">
+            <EntityTypeMapping TypeName="HRISModel.TM_StatusWP">
+              <MappingFragment StoreEntitySet="TM_StatusWP">
+                <ScalarProperty Name="StatusWP" ColumnName="StatusWP" />
+                <ScalarProperty Name="KodeStatus" ColumnName="KodeStatus" />
+                <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

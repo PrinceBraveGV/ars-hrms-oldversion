@@ -1,0 +1,48 @@
+.dxCardView_gvCellError_RedWine,
+.dxCardView_gvFilterRowButton_RedWine,
+.dxCardView_gvHeaderFilter_RedWine,
+.dxCardView_gvHeaderFilterActive_RedWine,
+.dxCardView_gvHeaderSortDown_RedWine,
+.dxCardView_gvHeaderSortUp_RedWine
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_RedWine
+{
+    background-position: 0px -40px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_RedWine
+{
+    background-position: -15px -40px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_RedWine
+{
+    background-position: 0px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxCardView_gvHeaderFilterActive_RedWine
+{
+    background-position: 0px -20px;
+    width: 19px;
+    height: 19px;
+}
+.dxCardView_gvHeaderSortDown_RedWine
+{
+    background-position: -20px -20px;
+    width: 11px;
+    height: 15px;
+}
+.dxCardView_gvHeaderSortUp_RedWine
+{
+    background-position: -20px 0px;
+    width: 11px;
+    height: 15px;
+}
+

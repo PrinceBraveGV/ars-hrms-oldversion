@@ -1,0 +1,232 @@
+.dxHtmlEditor_heConstrainProportionsBottom_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsTop_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsTopRtl_SoftOrange,
+.dxHtmlEditor_heEnumIcon_SoftOrange,
+.dxHtmlEditor_heErrorFrameCloseButton_SoftOrange,
+.dxHtmlEditor_heEventIcon_SoftOrange,
+.dxHtmlEditor_heFieldIcon_SoftOrange,
+.dxHtmlEditor_heReset_SoftOrange,
+.dxHtmlEditor_heSizeGrip_SoftOrange,
+.dxHtmlEditor_heSizeGripRtl_SoftOrange,
+.dxHtmlEditor_heTagInspectorChangeButton_SoftOrange,
+.dxHtmlEditor_heTagInspectorRemoveButton_SoftOrange,
+.dxHtmlEditor_heTagInspectorSeparator_SoftOrange,
+.dxHtmlEditor_heToolbarPopOut_SoftOrange,
+.dxHtmlEditor_heXmlItemIcon_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_SoftOrange
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_SoftOrange
+{
+    background-position: -19px -160px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_SoftOrange
+{
+    background-position: -19px -143px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_SoftOrange
+{
+    background-position: -12px -114px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_SoftOrange
+{
+    background-position: 0px -114px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_SoftOrange
+{
+    background-position: 0px -78px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_SoftOrange
+{
+    background-position: -12px -78px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_SoftOrange
+{
+    background-position: 0px -177px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_SoftOrange
+{
+    background-position: -12px -177px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_SoftOrange
+{
+    background-position: 0px -61px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_SoftOrange
+{
+    background-position: -17px -133px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_SoftOrange
+{
+    background-position: 0px -150px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_SoftOrange
+{
+    background-position: 0px -133px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_SoftOrange
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_SoftOrange
+{
+    background-position: -17px -61px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heSizeGripRtl_SoftOrange
+{
+    background-position: -17px -97px;
+    width: 12px;
+    height: 12px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_SoftOrange
+{
+    background-position: 0px -21px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_SoftOrange
+{
+    background-position: 0px -41px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_SoftOrange
+{
+    background-position: -24px -78px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_SoftOrange
+{
+    background-position: -24px -92px;
+    width: 6px;
+    height: 4px;
+}
+.dxHtmlEditor_heXmlItemIcon_SoftOrange
+{
+    background-position: 0px -97px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_SoftOrange
+{
+    background-position: -20px -41px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_SoftOrange
+{
+    background-position: -17px -150px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_SoftOrange
+{
+    background-position: -20px -21px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_SoftOrange
+{
+    background-position: -10px -167px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_SoftOrange
+{
+    background-position: -21px 0px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_SoftOrange
+{
+    background-position: -21px -31px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_SoftOrange
+{
+    background-position: -20px -167px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_SoftOrange
+{
+    background-position: -21px -11px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_SoftOrange
+{
+    background-position: 0px -167px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_SoftOrange
+{
+    background-position: -21px -51px;
+    width: 9px;
+    height: 9px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsBottom_SoftOrange,
+.dxHtmlEditor_heConstrainProportionsTop_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_SoftOrange,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_SoftOrange
+{
+	display:block;
+}

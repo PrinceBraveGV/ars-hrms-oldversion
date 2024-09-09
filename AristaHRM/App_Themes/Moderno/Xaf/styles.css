@@ -1,0 +1,87 @@
+span, label, a, .GroupHeader, .StaticText, .TextCell, .Layout .Caption { 
+	font-family: 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+/* Layout Group Header */
+.GroupHeader .Label {
+	width: 100%;
+	color: black;
+	font-size: 19px;
+	padding: 0px 5px 0px 5px;
+}
+/* Layout Group Content */
+.Layout .Caption {
+	/* width: 150px; */
+	color: Black;
+	vertical-align: middle;
+	padding: 2px 0px 2px 0px;
+	white-space: nowrap;
+}
+.Layout .StaticText {
+	color: #4f4f4f;
+}
+/* Error info */
+.ErrorMessage {
+	width: 100%;
+	background-color: #FEE2C4;
+	border: solid 1px #E3BFA5;
+	vertical-align: middle;
+}
+.ErrorLabel {
+	text-align: left;
+	color: black;
+}
+/* Progress Control */
+.ProgressHover 
+{
+	background-color: white;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+}
+.Progress 
+{
+	border:none;
+	background-color:transparent;
+	vertical-align:middle;
+	position:absolute;
+}
+.Progress td
+{
+	background-color:transparent;
+}
+
+.ParametrizedActionControl {
+	margin: 3px 1px;
+}
+.dxm-item .ParametrizedActionControl {
+	margin: 0px  5px !important;
+}
+.ACH .dxmtb .dxm-item .TemplatedItem,
+.ToolBar .dxmtb .dxm-item .TemplatedItem 
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.ParametrizedAction .ParametrizedActionControl .Editor .dxbButton_Moderno,
+.ParametrizedActionWithImage .ParametrizedActionControl .Editor .dxbButton_Moderno,
+.xafLookupButton.dxbButton_Moderno
+{
+    border-radius: 0px;
+    border-left: none;
+} 
+.ParametrizedAction .ParametrizedActionControl .Editor .dxbButton_Moderno,
+.ParametrizedActionWithImage .ParametrizedActionControl .Editor .dxbButton_Moderno
+{
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+.xafLookupButton.dxbButton_Moderno 
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+    margin-left: 0px;
+}
+.xafGridPageSizeChooser .dxeButtonEdit_Moderno
+{
+    width: 65px !important;
+}
+

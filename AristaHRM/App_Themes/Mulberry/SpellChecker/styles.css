@@ -1,0 +1,68 @@
+.dxwscCheckedTextContainer_Mulberry
+{
+	background-color: white;
+	border: solid 1px #cbcbcb;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;	
+}
+.dxwscErrorWord_Mulberry
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingPanel_Mulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxwscLoadingPanel_Mulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxwscLoadingPanel_Mulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_Mulberry .dxwscDlgFooter
+{
+	background-color: #fafafa;
+	border-top: 1px solid #cbcbcb;
+
+	padding: 16px 15px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Mulberry .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_Mulberry .dxwscDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 6px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_Mulberry .dxwscDlgFooterBtn
+{
+    margin-right: 6px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_Mulberry .dxwscDlgSpellCheckBtn
+{
+    width: 140px;
+}
+
+

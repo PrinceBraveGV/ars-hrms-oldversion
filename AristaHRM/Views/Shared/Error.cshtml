@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+}
+
+@model HandleErrorInfo
+
+@{
+    Html.EnableUnobtrusiveJavaScript();    
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="refresh" content="30; URL=@Url.Action("Index", "Home")" />
+    <title>HRIS - Pesan Kesalahan</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+    @Html.DevExpress().GetStyleSheets(
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+    @Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker }
+)
+
+</head>
+<body>
+    <div>
+        <form id="form1">
+            <div class="formbase">
+                <table class="tablebase">
+                    <thead>
+                        <tr>
+                            <td class="tableheader">
+                                <p class="tableheadercontent">Pesan Kesalahan</p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tablebody">
+                                <label class="labeldesc">
+                                    Sistem menemukan error atau masalah lainnya yang terjadi selama pengoperasian.<br />
+                                    Silakan hubungi administrator sistem untuk mendapatkan bantuan teknis dan keterangan lebih lanjut.
+                                </label>
+                                <p class="errormsg">Sumber error (<i>exception</i>): @Model.Exception.Message</p>
+                                <p class="errormsg">Kode error (<i>identifier</i>): @Model.Exception.HResult</p>
+                                <p class="errormsg">Pengendali (<i>controller</i>): @Model.ControllerName</p>
+                                <p class="errormsg">Penugasan (<i>action</i>): @Model.ActionName</p>
+                                <p class="errormsg">Hasil analisis (<i>stack trace</i>): </p>
+                                <br />
+                                <code>
+                                    Keterangan masalah: @Model.Exception.Message<br />&nbsp;
+                                    Sumber permasalahan: @Model.Exception.InnerException<br />&nbsp;
+                                    Analisis dari sistem: @Model.Exception.StackTrace
+                                </code>
+                                <br /><br />
+                                @Html.DevExpress().Button(settings =>
+                                {
+                                    settings.Name = "Return";
+                                    settings.Text = "Kembali";
+                                    settings.UseSubmitBehavior = false;
+                                    settings.RouteValues = new { Controller = "Home", Action = "Index" };
+                                    settings.ClientSideEvents.Click = "function (s, e) { window.open('" + Url.Action("Index", "Home") + "', '_parent'); }";
+                                    settings.Theme = AristaHRM.Theme.SelectTheme;
+                                }).GetHtml()
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

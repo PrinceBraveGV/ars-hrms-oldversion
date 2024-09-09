@@ -1,0 +1,22 @@
+﻿<p>Saat ini terdapat @ViewBag.KKWTCount karyawan yang sudah melewati masa satu tahun usia kerja:</p>
+@{
+    Html.RenderAction("GetDetailHR", "Home");
+}
+<br />
+<ul>
+    <li>Password default untuk setiap user adalah NIK masing-masing karyawan dan akan aktif secara otomatis apabila usia kerja melebihi 365 hari.</li>
+    <li>Setiap user yang telah memiliki akses login ke HRIS diwajibkan melakukan pergantian password untuk menghindari hal-hal yang tidak diinginkan.</li>
+    <li>Mohon untuk dapat mengaktifkan status aktivasi karyawan dan menginformasikan kepada mereka supaya berikutnya dapat mengajukan permohonan cuti online.</li>
+    <li>Proses aktivasi status login karyawan yang tercantum pada list di atas dapat dilakukan melalui menu "Daftar Pending Karyawan".</li>
+</ul>
+
+<br />
+
+@Html.DevExpress().Button(settings =>
+{
+    settings.Name = "Close";
+    settings.Text = "Tutup";
+    settings.UseSubmitBehavior = false;
+    settings.ClientSideEvents.Click = "function (s, e) { HRPopup.Hide(); }";
+}).GetHtml()
+<br />

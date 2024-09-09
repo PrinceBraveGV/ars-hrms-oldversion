@@ -1,0 +1,21 @@
+﻿@using AristaHRM.Models
+
+@model CutiModel
+
+@Html.DevExpress().ComboBoxFor(m => m.Keperluan, combobox =>
+{
+    combobox.Name = "Keperluan";
+    combobox.CallbackRouteValues = new { Controller = "User", Action = "PengajuanPartial" };
+    combobox.Properties.NullText = "-- Pilih --";
+    combobox.Properties.HelpText = "(*) Pilih jenis cuti yang diinginkan dari daftar.";
+    combobox.Properties.DropDownStyle = DropDownStyle.DropDown;
+    combobox.Properties.TextField = "Jenis_Cuti";
+    combobox.Properties.ValueField = "Jenis_Cuti";
+    combobox.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    combobox.Properties.ValidationSettings.Display = Display.None;
+    combobox.Properties.ValidationSettings.ErrorDisplayMode = ErrorDisplayMode.ImageWithText;
+    combobox.Width = Unit.Pixel(300);
+    combobox.Theme = AristaHRM.Theme.SelectTheme;
+    combobox.Properties.ClientSideEvents.Init = "function (s, e) { s.Focus(); s.SelectAll(); }";
+    combobox.Properties.ClientSideEvents.BeginCallback = "function (s, e) { e.customArgs['Status_Nikah'] = Status_Nikah.GetValue(); e.customArgs['Agama'] = Agama.GetValue(); e.customArgs['Jenis_Kelamin'] = Jenis_Kelamin.GetValue(); e.customArgs['Jenis_Cuti'] = Jenis_Cuti.GetValue(); }";
+}).BindList(Providers.GetKeperluanByKaryawan(Model.Status_Nikah, Model.Agama, Model.Jenis_Kelamin, Model.NIK, Model.Jenis_Cuti)).Bind(Model.Keperluan).GetHtml()

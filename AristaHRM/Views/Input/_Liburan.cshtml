@@ -1,0 +1,111 @@
+﻿@using AristaHRM.Models
+
+@{
+    GridViewExtension grid = Html.DevExpress().GridView(settings =>
+   {
+       settings.Name = "KalenderGrid";
+       settings.CallbackRouteValues = new { Controller = "Input", Action = "InputLiburPartial" };
+       settings.Width = Unit.Percentage(100);
+       settings.Theme = AristaHRM.Theme.SelectTheme;
+       settings.Settings.VerticalScrollableHeight = 800;
+       settings.SettingsText.GroupPanel = "Letakkan judul kolom di sini untuk melakukan sortir data berdasarkan kolom yang ditentukan.";
+       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Auto;
+       settings.Settings.HorizontalScrollBarMode = ScrollBarMode.Visible;
+       settings.SettingsBehavior.ColumnResizeMode = ColumnResizeMode.Control;
+       settings.SettingsBehavior.ConfirmDelete = true;
+
+       settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Master", Action = "UpdateLibur" };
+       settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Master", Action = "HapusLibur" };
+       settings.SettingsEditing.Mode = GridViewEditingMode.PopupEditForm;
+       settings.SettingsText.ConfirmDelete = "Yakin akan menghapus data yang dipilih?";
+       settings.SettingsText.PopupEditFormCaption = "Edit Kalender Kerja";
+       settings.ClientSideEvents.FocusedRowChanged = "KalenderGrid_FocusedRowChanged";
+       settings.ClientSideEvents.Init = "onInit";
+       settings.ClientSideEvents.EndCallback = "onEndCallback";
+       settings.ClientSideEvents.RowDblClick = "KalenderGrid_RowDblClick";
+
+       settings.SettingsPopup.EditForm.Width = 800;
+       settings.SettingsPopup.EditForm.HorizontalAlign = PopupHorizontalAlign.WindowCenter;
+       settings.SettingsPopup.EditForm.VerticalAlign = PopupVerticalAlign.WindowCenter;
+       settings.SettingsPager.Position = PagerPosition.Bottom;
+       settings.SettingsPager.FirstPageButton.Visible = true;
+       settings.SettingsPager.LastPageButton.Visible = true;
+       settings.CommandColumn.Visible = true;
+       settings.CommandColumn.ShowNewButton = false;
+       settings.CommandColumn.ShowEditButton = true;
+       settings.CommandColumn.ShowDeleteButton = true;
+       settings.CommandColumn.ButtonType = GridCommandButtonRenderMode.Button;
+       settings.CommandColumn.Width = Unit.Pixel(180);
+
+       settings.SettingsCommandButton.EditButton.Text = "Ubah";
+       settings.SettingsCommandButton.EditButton.Image.Url = "~/Images/Edit.png";
+       settings.SettingsCommandButton.EditButton.Image.Width = Unit.Pixel(10);
+       settings.SettingsCommandButton.EditButton.Image.Height = Unit.Pixel(10);
+       settings.SettingsCommandButton.DeleteButton.Text = "Hapus";
+       settings.SettingsCommandButton.DeleteButton.Image.Url = "~/Images/Delete.png";
+       settings.SettingsCommandButton.DeleteButton.Image.Width = Unit.Pixel(10);
+       settings.SettingsCommandButton.DeleteButton.Image.Height = Unit.Pixel(10);
+       settings.SettingsCommandButton.UpdateButton.Text = "Update";
+       settings.SettingsCommandButton.CancelButton.Text = "Batal";
+       settings.SettingsPager.Visible = true;
+       settings.Settings.ShowGroupPanel = true;
+       settings.Settings.ShowFilterRow = true;
+       settings.Settings.ShowFilterRowMenu = true;
+       settings.Settings.ShowFilterRowMenuLikeItem = true;
+       settings.SettingsBehavior.ConfirmDelete = true;
+       settings.SettingsBehavior.AllowSelectByRowClick = true;
+       settings.SettingsPager.PageSize = 20;
+       settings.SettingsPager.PageSizeItemSettings.Visible = true;
+       settings.SettingsPager.PageSizeItemSettings.Items = new string[] { "10", "20", "50", "100", "200", "500", "1000" };
+       settings.SettingsPager.PageSizeItemSettings.Caption = "Jumlah data per halaman :";
+
+       settings.CustomJSProperties = (s, e) =>
+       {
+           if (ViewData["EditSuccess"] != null)
+           {
+               e.Properties["cpMessage"] = ViewData["EditSuccess"].ToString().Trim();
+           }
+       };
+
+       settings.KeyFieldName = "ID_Daftar";
+
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "ID_Daftar";
+           column.Caption = "Kode Libur";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(100);
+           column.Settings.AllowAutoFilter = DefaultBoolean.False;
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Tgl_Libur";
+           column.Caption = "Tanggal Libur";
+           column.ColumnType = MVCxGridViewColumnType.DateEdit;
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.PropertiesEdit.DisplayFormatString = "dd MMMM yyyy";
+           var dateProperties = column.PropertiesEdit as DateEditProperties;
+           dateProperties.EditFormat = EditFormat.Date;
+           dateProperties.EditFormatString = "dd MMMM yyyy";
+           dateProperties.DropDownButton.Image.Url = "~/Images/Kalender.png";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(150);
+       });
+       settings.Columns.Add(column =>
+       {
+           column.FieldName = "Keterangan";
+           column.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+           column.CellStyle.HorizontalAlign = HorizontalAlign.Justify;
+           column.Width = Unit.Pixel(400);
+       });
+   });
+
+    if (ViewData["EditError"] != null)
+    {
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+
+@grid.Bind(Model).GetHtml()
